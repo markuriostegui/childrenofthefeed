@@ -13,7 +13,7 @@ WAKENAI_URL = "https://wakenai.com/"
 WAKENAI_LOGO_FILENAME = "waken-ai-black.webp"
 WAKENAI_LOGO_SOURCE_REL = Path("public") / "assets" / "brand" / WAKENAI_LOGO_FILENAME
 WAKENAI_LOGO_REL = "assets/brand/waken-ai-black.webp"
-AI_EMPIRE_REPO_URL = "https://github.com/hassanvfx/ai-empire"
+AI_EMPIRE_REPO_URL = "https://github.com/markuriostegui/childrenofthefeed"
 VIMEO_HERO_EMBED_URL = "https://player.vimeo.com/video/1218098479?dnt=1"
 
 PATRIMONY_PRINCIPLES = [
