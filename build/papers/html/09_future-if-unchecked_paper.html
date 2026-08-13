@@ -1,0 +1,1819 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc 3.10" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="" />
+  <title>Chapter 09: Future if No Action Is Taken</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="paper_export.css" />
+</head>
+<body>
+  <header class="public-doc-header" aria-label="Document navigation">
+    <div class="public-doc-header-inner">
+      <a class="public-doc-home" href="../../index.html" aria-label="Return to paper index" title="Return to paper index">
+        <svg class="public-doc-home-icon" viewBox="0 0 24 24" role="img" aria-hidden="true">
+          <path d="M3 10.75 12 3l9 7.75v9.25a1 1 0 0 1-1 1h-5.5v-6h-5v6H4a1 1 0 0 1-1-1z"></path>
+        </svg>
+      </a>
+      <a class="public-doc-logo-link" href="https://wakenai.com/" aria-label="WakenAI Labs">
+        <img class="public-doc-logo" src="../assets/brand/waken-ai-black.webp" alt="WakenAI Labs">
+      </a>
+    </div>
+  </header>
+<header id="title-block-header">
+<h1 class="title">Chapter 09: Future if No Action Is Taken</h1>
+<p class="subtitle">From Surveillance Capitalism to AI Imperialism |
+Chapter 09: Future if no action is taken</p>
+<p class="author"></p>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#abstract" id="toc-abstract">Abstract</a></li>
+<li><a href="#keywords" id="toc-keywords">Keywords</a></li>
+<li><a href="#research-question" id="toc-research-question">Research
+Question</a></li>
+<li><a href="#scope-and-framing-note"
+id="toc-scope-and-framing-note">Scope and Framing Note</a></li>
+<li><a href="#central-thesis" id="toc-central-thesis">Central
+Thesis</a></li>
+<li><a href="#evidence-and-method-note"
+id="toc-evidence-and-method-note">Evidence and Method Note</a></li>
+<li><a href="#introduction" id="toc-introduction">Introduction</a></li>
+<li><a href="#historical-or-institutional-context"
+id="toc-historical-or-institutional-context">Historical or Institutional
+Context</a></li>
+<li><a href="#main-analysis" id="toc-main-analysis">Main
+Analysis</a></li>
+<li><a href="#position-within-the-series"
+id="toc-position-within-the-series">Position Within the Series</a></li>
+<li><a href="#counterarguments"
+id="toc-counterarguments">Counterarguments</a></li>
+<li><a href="#limits-of-the-evidence"
+id="toc-limits-of-the-evidence">Limits of the Evidence</a></li>
+<li><a href="#reform-relevance" id="toc-reform-relevance">Reform
+Relevance</a></li>
+<li><a href="#conclusion" id="toc-conclusion">Conclusion</a></li>
+<li><a href="#notes" id="toc-notes">Notes</a></li>
+<li><a href="#references-bibliography"
+id="toc-references-bibliography">References / Bibliography</a></li>
+<li><a href="#appendix-a.-source-register-for-this-paper"
+id="toc-appendix-a.-source-register-for-this-paper">Appendix A. Source
+Register for This Paper</a>
+<ul>
+<li><a
+href="#appendix-a1-artificial-intelligence-and-the-future-of-teaching-and-learning-insights-and-recommendations"
+id="toc-appendix-a1-artificial-intelligence-and-the-future-of-teaching-and-learning-insights-and-recommendations">Appendix
+A1. Artificial Intelligence and the Future of Teaching and Learning:
+Insights and Recommendations</a></li>
+<li><a
+href="#appendix-a2-gpts-are-gpts-an-early-look-at-the-labor-market-impact-potential-of-large-language-models"
+id="toc-appendix-a2-gpts-are-gpts-an-early-look-at-the-labor-market-impact-potential-of-large-language-models">Appendix
+A2. GPTs are GPTs: An Early Look at the Labor Market Impact Potential of
+Large Language Models</a></li>
+<li><a
+href="#appendix-a3-computing-power-and-the-governance-of-artificial-intelligence"
+id="toc-appendix-a3-computing-power-and-the-governance-of-artificial-intelligence">Appendix
+A3. Computing Power and the Governance of Artificial
+Intelligence</a></li>
+<li><a
+href="#appendix-a4-gen-ai-artificial-intelligence-and-the-future-of-work"
+id="toc-appendix-a4-gen-ai-artificial-intelligence-and-the-future-of-work">Appendix
+A4. Gen-AI: Artificial Intelligence and the Future of Work</a></li>
+<li><a href="#appendix-a5-sam-altman-s-manifest-destiny"
+id="toc-appendix-a5-sam-altman-s-manifest-destiny">Appendix A5. Sam
+Altman’s Manifest Destiny</a></li>
+<li><a
+href="#appendix-a6-inside-mark-zuckerbergs-top-secret-hawaii-compound"
+id="toc-appendix-a6-inside-mark-zuckerbergs-top-secret-hawaii-compound">Appendix
+A6. Inside Mark Zuckerberg’s Top-Secret Hawaii Compound</a></li>
+<li><a
+href="#appendix-a7-mark-zuckerberg-downplays-his-5-000-square-foot-underground-bunker-in-hawaii-just-a-little-shelter"
+id="toc-appendix-a7-mark-zuckerberg-downplays-his-5-000-square-foot-underground-bunker-in-hawaii-just-a-little-shelter">Appendix
+A7. Mark Zuckerberg Downplays His 5,000-Square-Foot Underground Bunker
+in Hawaii: ‘Just a Little Shelter’</a></li>
+<li><a
+href="#appendix-a8-why-silicon-valley-billionaires-are-prepping-for-the-apocalypse-in-new-zealand"
+id="toc-appendix-a8-why-silicon-valley-billionaires-are-prepping-for-the-apocalypse-in-new-zealand">Appendix
+A8. Why Silicon Valley billionaires are prepping for the apocalypse in
+New Zealand</a></li>
+<li><a
+href="#appendix-a9-new-zealand-woos-the-wealthy-with-golden-visa-changes"
+id="toc-appendix-a9-new-zealand-woos-the-wealthy-with-golden-visa-changes">Appendix
+A9. New Zealand woos the wealthy with ‘golden visa’ changes</a></li>
+<li><a href="#appendix-a10-annual-economic-report-2026"
+id="toc-appendix-a10-annual-economic-report-2026">Appendix A10. Annual
+Economic Report 2026</a></li>
+<li><a href="#appendix-a11-the-adolescence-of-technology"
+id="toc-appendix-a11-the-adolescence-of-technology">Appendix A11. The
+Adolescence of Technology</a></li>
+<li><a
+href="#appendix-a12-a-look-behind-the-screens-examining-the-data-practices-of-social-media-and-video-streaming-services"
+id="toc-appendix-a12-a-look-behind-the-screens-examining-the-data-practices-of-social-media-and-video-streaming-services">Appendix
+A12. A Look Behind the Screens: Examining the Data Practices of Social
+Media and Video Streaming Services</a></li>
+<li><a href="#appendix-a13-mark-zuckerberg-s-message-to-meta-employees"
+id="toc-appendix-a13-mark-zuckerberg-s-message-to-meta-employees">Appendix
+A13. Mark Zuckerberg’s Message to Meta Employees</a></li>
+<li><a href="#appendix-a14-the-digital-sovereignty-imperative"
+id="toc-appendix-a14-the-digital-sovereignty-imperative">Appendix A14.
+The Digital Sovereignty Imperative</a></li>
+<li><a href="#appendix-a15-openais-proposals-for-the-us-ai-action-plan"
+id="toc-appendix-a15-openais-proposals-for-the-us-ai-action-plan">Appendix
+A15. OpenAI’s proposals for the U.S. AI Action Plan</a></li>
+</ul></li>
+<li><a href="#appendix-b.-claims-used-in-this-paper"
+id="toc-appendix-b.-claims-used-in-this-paper">Appendix B. Claims Used
+in This Paper</a>
+<ul>
+<li><a
+href="#appendix-b1-a-primary-multilateral-financial-institution-explicitly-warned-in-june-2026-that"
+id="toc-appendix-b1-a-primary-multilateral-financial-institution-explicitly-warned-in-june-2026-that">Appendix
+B1. A primary multilateral financial institution explicitly warned in
+June 2026 that…</a></li>
+<li><a
+href="#appendix-b2-debt-issuance-leverage-opaque-financing-structures-and-circular-financing-belo"
+id="toc-appendix-b2-debt-issuance-leverage-opaque-financing-structures-and-circular-financing-belo">Appendix
+B2. Debt issuance, leverage, opaque financing structures, and circular
+financing belo…</a></li>
+<li><a
+href="#appendix-b3-chapter-05-can-support-the-thesis-of-structural-correction-and-financial-overhang"
+id="toc-appendix-b3-chapter-05-can-support-the-thesis-of-structural-correction-and-financial-overhang">Appendix
+B3. Chapter 05 can support the thesis of structural correction and
+financial overhang…</a></li>
+<li><a
+href="#appendix-b4-chapters-06-09-and-10-can-discuss-the-cheap-ai-narrative-against-a-documented"
+id="toc-appendix-b4-chapters-06-09-and-10-can-discuss-the-cheap-ai-narrative-against-a-documented">Appendix
+B4. Chapters 06, 09, and 10 can discuss the “cheap AI” narrative against
+a documented…</a></li>
+<li><a
+href="#appendix-b5-access-hierarchy-in-frontier-ai-is-materially-tied-to-compute-concentration-and-n"
+id="toc-appendix-b5-access-hierarchy-in-frontier-ai-is-materially-tied-to-compute-concentration-and-n">Appendix
+B5. Access hierarchy in frontier AI is materially tied to compute
+concentration and n…</a></li>
+<li><a
+href="#appendix-b6-chapter-09-can-speak-about-unequal-access-to-high-end-intelligence-as-a-documente"
+id="toc-appendix-b6-chapter-09-can-speak-about-unequal-access-to-high-end-intelligence-as-a-documente">Appendix
+B6. Chapter 09 can speak about unequal access to high-end intelligence
+as a documente…</a></li>
+<li><a
+href="#appendix-b7-the-project-s-language-of-chokepoints-and-access-stratification-has-direct-suppor"
+id="toc-appendix-b7-the-project-s-language-of-chokepoints-and-access-stratification-has-direct-suppor">Appendix
+B7. The project’s language of chokepoints and access stratification has
+direct suppor…</a></li>
+<li><a
+href="#appendix-b8-by-january-1-2026-anthropic-s-own-ceo-publicly-described-wealth-concentration"
+id="toc-appendix-b8-by-january-1-2026-anthropic-s-own-ceo-publicly-described-wealth-concentration">Appendix
+B8. By January 1, 2026, Anthropic’s own CEO publicly described wealth
+concentration,…</a></li>
+<li><a
+href="#appendix-b9-the-80-of-wealth-pledge-angle-can-be-grounded-in-a-primary-source-rather-than-on"
+id="toc-appendix-b9-the-80-of-wealth-pledge-angle-can-be-grounded-in-a-primary-source-rather-than-on">Appendix
+B9. The 80%-of-wealth pledge angle can be grounded in a primary source
+rather than on…</a></li>
+<li><a
+href="#appendix-b10-chapter-08-can-document-elite-self-legitimation-through-philanthropy-and-public-m"
+id="toc-appendix-b10-chapter-08-can-document-elite-self-legitimation-through-philanthropy-and-public-m">Appendix
+B10. Chapter 08 can document elite self-legitimation through
+philanthropy and public m…</a></li>
+<li><a
+href="#appendix-b11-chapter-09-can-cite-a-frontier-founder-s-own-warning-that-extreme-wealth-concentr"
+id="toc-appendix-b11-chapter-09-can-cite-a-frontier-founder-s-own-warning-that-extreme-wealth-concentr">Appendix
+B11. Chapter 09 can cite a frontier founder’s own warning that extreme
+wealth concentr…</a></li>
+<li><a
+href="#appendix-b12-chapter-10-can-explicitly-distinguish-between-voluntary-philanthropy-and-the-stro"
+id="toc-appendix-b12-chapter-10-can-explicitly-distinguish-between-voluntary-philanthropy-and-the-stro">Appendix
+B12. Chapter 10 can explicitly distinguish between voluntary
+philanthropy and the stro…</a></li>
+<li><a
+href="#appendix-b13-dion-wiggins-publicly-defines-digital-sovereignty-in-survivability-terms-whether"
+id="toc-appendix-b13-dion-wiggins-publicly-defines-digital-sovereignty-in-survivability-terms-whether">Appendix
+B13. Dion Wiggins publicly defines digital sovereignty in survivability
+terms: whether…</a></li>
+<li><a
+href="#appendix-b14-debate-over-wealthy-foreigners-seeking-new-zealand-bolt-holes-remained-live-in-se"
+id="toc-appendix-b14-debate-over-wealthy-foreigners-seeking-new-zealand-bolt-holes-remained-live-in-se">Appendix
+B14. Debate over wealthy foreigners seeking New Zealand bolt-holes
+remained live in se…</a></li>
+<li><a
+href="#appendix-b15-the-financial-times-reported-on-september-24-2025-that-peter-thiel-s-new-zealand"
+id="toc-appendix-b15-the-financial-times-reported-on-september-24-2025-that-peter-thiel-s-new-zealand">Appendix
+B15. The Financial Times reported on September 24, 2025 that Peter
+Thiel’s New Zealand…</a></li>
+<li><a
+href="#appendix-b16-generative-ai-exposure-reaches-well-beyond-narrow-routine-clerical-work-and-exten"
+id="toc-appendix-b16-generative-ai-exposure-reaches-well-beyond-narrow-routine-clerical-work-and-exten">Appendix
+B16. Generative AI exposure reaches well beyond narrow routine clerical
+work and exten…</a></li>
+<li><a
+href="#appendix-b17-a-future-scenario-of-labor-stratification-can-be-grounded-in-documented-different"
+id="toc-appendix-b17-a-future-scenario-of-labor-stratification-can-be-grounded-in-documented-different">Appendix
+B17. A future scenario of labor stratification can be grounded in
+documented different…</a></li>
+<li><a
+href="#appendix-b18-chapter-09-can-discuss-weakening-bargaining-power-for-parts-of-the-technical-and"
+id="toc-appendix-b18-chapter-09-can-discuss-weakening-bargaining-power-for-parts-of-the-technical-and">Appendix
+B18. Chapter 09 can discuss weakening bargaining power for parts of the
+technical and…</a></li>
+<li><a
+href="#appendix-b19-by-february-15-2018-new-zealand-had-already-become-a-recognizable-elite-safe-hav"
+id="toc-appendix-b19-by-february-15-2018-new-zealand-had-already-become-a-recognizable-elite-safe-hav">Appendix
+B19. By February 15, 2018 New Zealand had already become a recognizable
+elite-safe-hav…</a></li>
+<li><a
+href="#appendix-b20-a-serious-2018-longform-outlet-publicly-connected-peter-thiel-s-new-zealand-citiz"
+id="toc-appendix-b20-a-serious-2018-longform-outlet-publicly-connected-peter-thiel-s-new-zealand-citiz">Appendix
+B20. A serious 2018 longform outlet publicly connected Peter Thiel’s New
+Zealand citiz…</a></li>
+<li><a
+href="#appendix-b21-labor-market-exposure-to-generative-ai-is-systematically-uneven-across-geography"
+id="toc-appendix-b21-labor-market-exposure-to-generative-ai-is-systematically-uneven-across-geography">Appendix
+B21. Labor-market exposure to generative AI is systematically uneven
+across geography,…</a></li>
+<li><a
+href="#appendix-b22-a-future-of-stratified-labor-outcomes-can-be-documented-from-mainstream-instituti"
+id="toc-appendix-b22-a-future-of-stratified-labor-outcomes-can-be-documented-from-mainstream-instituti">Appendix
+B22. A future of stratified labor outcomes can be documented from
+mainstream instituti…</a></li>
+<li><a
+href="#appendix-b23-chapter-09-can-connect-ai-deployment-to-differentiated-middle-class-risk-without"
+id="toc-appendix-b23-chapter-09-can-connect-ai-deployment-to-differentiated-middle-class-risk-without">Appendix
+B23. Chapter 09 can connect AI deployment to differentiated middle-class
+risk without…</a></li>
+<li><a
+href="#appendix-b24-by-october-3-2016-sam-altman-publicly-described-keeping-guns-gold-potassium-io"
+id="toc-appendix-b24-by-october-3-2016-sam-altman-publicly-described-keeping-guns-gold-potassium-io">Appendix
+B24. By October 3, 2016 Sam Altman publicly described keeping guns,
+gold, potassium io…</a></li>
+<li><a
+href="#appendix-b25-the-public-record-already-contained-elite-retreat-and-private-fallback-planning-b"
+id="toc-appendix-b25-the-public-record-already-contained-elite-retreat-and-private-fallback-planning-b">Appendix
+B25. The public record already contained elite retreat and
+private-fallback planning b…</a></li>
+<li><a
+href="#appendix-b26-by-december-20-2024-mark-zuckerberg-publicly-minimized-the-kauai-bunker-as-just"
+id="toc-appendix-b26-by-december-20-2024-mark-zuckerberg-publicly-minimized-the-kauai-bunker-as-just">Appendix
+B26. By December 20, 2024 Mark Zuckerberg publicly minimized the Kauai
+bunker as ’just…</a></li>
+<li><a
+href="#appendix-b27-a-primary-u-s-education-authority-already-treated-ai-mediated-learning-as-a-gove"
+id="toc-appendix-b27-a-primary-u-s-education-authority-already-treated-ai-mediated-learning-as-a-gove">Appendix
+B27. A primary U.S. education authority already treated AI-mediated
+learning as a gove…</a></li>
+<li><a
+href="#appendix-b28-institutional-guidance-had-already-identified-bias-privacy-safety-and-over-del"
+id="toc-appendix-b28-institutional-guidance-had-already-identified-bias-privacy-safety-and-over-del">Appendix
+B28. Institutional guidance had already identified bias, privacy,
+safety, and over-del…</a></li>
+<li><a
+href="#appendix-b29-chapter-09-can-ground-dependency-and-cognitive-mediation-concerns-in-official-edu"
+id="toc-appendix-b29-chapter-09-can-ground-dependency-and-cognitive-mediation-concerns-in-official-edu">Appendix
+B29. Chapter 09 can ground dependency and cognitive-mediation concerns
+in official edu…</a></li>
+<li><a
+href="#appendix-b30-wired-reported-on-december-14-2023-that-mark-zuckerberg-s-kauai-compound-include"
+id="toc-appendix-b30-wired-reported-on-december-14-2023-that-mark-zuckerberg-s-kauai-compound-include">Appendix
+B30. WIRED reported on December 14, 2023 that Mark Zuckerberg’s Kauai
+compound include…</a></li>
+<li><a
+href="#appendix-b31-wired-reported-strict-ndas-crew-separation-self-sufficiency-features-and-secre"
+id="toc-appendix-b31-wired-reported-strict-ndas-crew-separation-self-sufficiency-features-and-secre">Appendix
+B31. WIRED reported strict NDAs, crew separation, self-sufficiency
+features, and secre…</a></li>
+<li><a
+href="#appendix-b32-the-legitimacy-field-around-frontier-ai-is-now-reinforced-not-only-by-boards-pol"
+id="toc-appendix-b32-the-legitimacy-field-around-frontier-ai-is-now-reinforced-not-only-by-boards-pol">Appendix
+B32. The legitimacy field around frontier AI is now reinforced not only
+by boards, pol…</a></li>
+<li><a
+href="#appendix-b33-the-continuity-scenario-includes-asymmetry-of-fallback-and-exit-with-elite-actor"
+id="toc-appendix-b33-the-continuity-scenario-includes-asymmetry-of-fallback-and-exit-with-elite-actor">Appendix
+B33. The continuity scenario includes asymmetry of fallback and exit,
+with elite actor…</a></li>
+<li><a
+href="#appendix-b34-if-current-platform-habits-labor-structures-and-compute-chokepoints-continue-re"
+id="toc-appendix-b34-if-current-platform-habits-labor-structures-and-compute-chokepoints-continue-re">Appendix
+B34. If current platform habits, labor structures, and compute
+chokepoints continue re…</a></li>
+<li><a
+href="#appendix-b35-bunker-ownership-survival-planning-or-retreat-architecture-prove-elite-foreknow"
+id="toc-appendix-b35-bunker-ownership-survival-planning-or-retreat-architecture-prove-elite-foreknow">Appendix
+B35. Bunker ownership, survival planning, or retreat architecture prove
+elite foreknow…</a></li>
+<li><a
+href="#appendix-b36-founder-philanthropy-or-public-warnings-about-concentration-prove-elite-foreknowl"
+id="toc-appendix-b36-founder-philanthropy-or-public-warnings-about-concentration-prove-elite-foreknowl">Appendix
+B36. Founder philanthropy or public warnings about concentration prove
+elite foreknowl…</a></li>
+<li><a
+href="#appendix-b37-the-continuity-scenario-is-a-fixed-prophecy-of-inevitable-collapse-rather-than-a"
+id="toc-appendix-b37-the-continuity-scenario-is-a-fixed-prophecy-of-inevitable-collapse-rather-than-a">Appendix
+B37. The continuity scenario is a fixed prophecy of inevitable collapse
+rather than a…</a></li>
+<li><a
+href="#appendix-b38-peter-thiel-s-new-zealand-retreat-logic-ideological-associations-and-political"
+id="toc-appendix-b38-peter-thiel-s-new-zealand-retreat-logic-ideological-associations-and-political">Appendix
+B38. Peter Thiel’s New Zealand retreat logic, ideological associations,
+and political…</a></li>
+</ul></li>
+<li><a href="#appendix-c.-timeline-slice"
+id="toc-appendix-c.-timeline-slice">Appendix C. Timeline Slice</a>
+<ul>
+<li><a
+href="#appendix-c1-2016-10-03-the-new-yorker-profile-records-sam-altman-s-survival-prep-measures-and-new-zealand-fallback-plan-with-peter-thiel"
+id="toc-appendix-c1-2016-10-03-the-new-yorker-profile-records-sam-altman-s-survival-prep-measures-and-new-zealand-fallback-plan-with-peter-thiel">Appendix
+C1. 2016-10-03: The New Yorker profile records Sam Altman’s
+survival-prep measures and New Zealand fa…</a></li>
+<li><a
+href="#appendix-c2-2023-03-17-openai-and-openresearch-authors-publish-gpts-are-gpts-on-occupational-exposure-to-llms"
+id="toc-appendix-c2-2023-03-17-openai-and-openresearch-authors-publish-gpts-are-gpts-on-occupational-exposure-to-llms">Appendix
+C2. 2023-03-17: OpenAI and OpenResearch authors publish GPTs are GPTs on
+occupational exposure to LLMs</a></li>
+<li><a
+href="#appendix-c3-2023-05-24-the-u-s-department-of-education-releases-its-ai-teaching-and-learning-recommendations"
+id="toc-appendix-c3-2023-05-24-the-u-s-department-of-education-releases-its-ai-teaching-and-learning-recommendations">Appendix
+C3. 2023-05-24: The U.S. Department of Education releases its AI
+teaching-and-learning recommendations</a></li>
+<li><a
+href="#appendix-c4-2023-12-14-wired-documents-bunker-like-features-secrecy-controls-and-self-sufficiency-planning-at-zuckerberg-s-kauai-compound"
+id="toc-appendix-c4-2023-12-14-wired-documents-bunker-like-features-secrecy-controls-and-self-sufficiency-planning-at-zuckerberg-s-kauai-compound">Appendix
+C4. 2023-12-14: WIRED documents bunker-like features, secrecy controls,
+and self-sufficiency planning…</a></li>
+<li><a
+href="#appendix-c5-2024-01-14-the-imf-publishes-gen-ai-artificial-intelligence-and-the-future-of-work"
+id="toc-appendix-c5-2024-01-14-the-imf-publishes-gen-ai-artificial-intelligence-and-the-future-of-work">Appendix
+C5. 2024-01-14: The IMF publishes Gen-AI: Artificial Intelligence and
+the Future of Work</a></li>
+<li><a
+href="#appendix-c6-2024-02-13-researchers-publish-computing-power-and-the-governance-of-artificial-intelligence-on-arxiv"
+id="toc-appendix-c6-2024-02-13-researchers-publish-computing-power-and-the-governance-of-artificial-intelligence-on-arxiv">Appendix
+C6. 2024-02-13: Researchers publish Computing Power and the Governance
+of Artificial Intelligence on…</a></li>
+<li><a
+href="#appendix-c7-2026-01-01-dario-amodei-publicly-warns-of-ai-driven-wealth-concentration-and-describes-anthropic-s-80-wealth-pledge"
+id="toc-appendix-c7-2026-01-01-dario-amodei-publicly-warns-of-ai-driven-wealth-concentration-and-describes-anthropic-s-80-wealth-pledge">Appendix
+C7. 2026-01-01: Dario Amodei publicly warns of AI-driven wealth
+concentration and describes Anthropic…</a></li>
+</ul></li>
+<li><a href="#appendix-d.-relevant-entities"
+id="toc-appendix-d.-relevant-entities">Appendix D. Relevant Entities</a>
+<ul>
+<li><a
+href="#appendix-d1-u-s-department-of-education-office-of-educational-technology"
+id="toc-appendix-d1-u-s-department-of-education-office-of-educational-technology">Appendix
+D1. U.S. Department of Education, Office of Educational
+Technology</a></li>
+<li><a href="#appendix-d2-ai-compute-chokepoints"
+id="toc-appendix-d2-ai-compute-chokepoints">Appendix D2. AI compute
+chokepoints</a></li>
+<li><a href="#appendix-d3-international-monetary-fund"
+id="toc-appendix-d3-international-monetary-fund">Appendix D3.
+International Monetary Fund</a></li>
+<li><a href="#appendix-d4-dario-amodei"
+id="toc-appendix-d4-dario-amodei">Appendix D4. Dario Amodei</a></li>
+<li><a href="#appendix-d5-mark-zuckerberg"
+id="toc-appendix-d5-mark-zuckerberg">Appendix D5. Mark
+Zuckerberg</a></li>
+<li><a href="#appendix-d6-peter-thiel"
+id="toc-appendix-d6-peter-thiel">Appendix D6. Peter Thiel</a></li>
+<li><a href="#appendix-d7-sam-altman"
+id="toc-appendix-d7-sam-altman">Appendix D7. Sam Altman</a></li>
+</ul></li>
+<li><a href="#appendix-e.-evidence-boundaries"
+id="toc-appendix-e.-evidence-boundaries">Appendix E. Evidence
+Boundaries</a>
+<ul>
+<li><a href="#appendix-e1-disputed-matters"
+id="toc-appendix-e1-disputed-matters">Appendix E1. Disputed
+Matters</a></li>
+<li><a href="#appendix-e2-interpretive-boundaries"
+id="toc-appendix-e2-interpretive-boundaries">Appendix E2. Interpretive
+Boundaries</a></li>
+<li><a href="#appendix-e3-speculative-narrative-risks"
+id="toc-appendix-e3-speculative-narrative-risks">Appendix E3.
+Speculative Narrative Risks</a></li>
+<li><a href="#appendix-e4-sensitive-or-review-worthy-note-flags"
+id="toc-appendix-e4-sensitive-or-review-worthy-note-flags">Appendix E4.
+Sensitive or Review-Worthy Note Flags</a></li>
+</ul></li>
+</ul>
+</nav>
+<h2 id="abstract">Abstract</h2>
+<p>The most credible continuity scenario is not science-fiction
+apocalypse. The U.S. If no action is taken, platform immunity, private
+control over weights, and opaque state-company entanglement stop looking
+like separate policy issues and start looking like one reinforced
+system.</p>
+<h2 id="keywords">Keywords</h2>
+<p>Future if no action is taken; surveillance capitalism; AI
+imperialism; evidence-based dossier</p>
+<h2 id="research-question">Research Question</h2>
+<p>How does future if no action is taken function within the dossier’s
+larger argument, and what does the documentary record allow this chapter
+to establish?</p>
+<h2 id="scope-and-framing-note">Scope and Framing Note</h2>
+<p>This paper examines future if no action is taken within the broader
+dossier <em>From Surveillance Capitalism to AI Imperialism</em>. It is
+intentionally written to circulate on its own: necessary context is
+restated, evidence boundaries are made explicit, and cited material is
+reproduced in paper-local form rather than delegated to repo navigation.
+It contributes to the series as a paper that explains why inaction would
+compound dependency, hierarchy, and cognitive enclosure across the whole
+system. Adjacent reinforcement appears in Chapter 05, Chapter 07,
+Chapter 08, Chapter 10, but those cross-references are supportive rather
+than required for basic comprehension.</p>
+<h2 id="central-thesis">Central Thesis</h2>
+<p>The most credible continuity scenario is not science-fiction
+apocalypse. It is a slower regime of deepening dependence, shrinking
+cognitive sovereignty, weakened middle-class bargaining power, and
+increasingly hierarchical access to machine intelligence. <a href="#fn1"
+class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<h2 id="evidence-and-method-note">Evidence and Method Note</h2>
+<p>This paper is derived from the chapter corpus for Chapter 09 and is
+grounded in the project’s structured research OS. It relies on source
+notes, extracted claims, entity profiles, and timeline events already
+normalized under the dossier’s evidence hierarchy. Documented facts are
+asserted directly where the record supports them; disputed matters are
+marked as such; interpretive claims are bounded explicitly; and
+speculative overreach is isolated in the evidence-boundary appendix.</p>
+<h2 id="introduction">Introduction</h2>
+<p>This paper asks: How does future if no action is taken function
+within the dossier’s larger argument, and what does the documentary
+record allow this chapter to establish? Its working answer is clear from
+the start: The most credible continuity scenario is not science-fiction
+apocalypse. It is a slower regime of deepening dependence, shrinking
+cognitive sovereignty, weakened middle-class bargaining power, and
+increasingly hierarchical access to machine intelligence. <a href="#fn2"
+class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> The
+objective is not only to recount developments, but to show why the
+subject of this chapter belongs inside a structural argument about
+extraction, enclosure, legitimacy, and reform.</p>
+<h2 id="historical-or-institutional-context">Historical or Institutional
+Context</h2>
+<p>The U.S. Department of Education has already framed AI in learning
+environments as a governance issue involving automated decisions, bias,
+privacy, and human oversight. Dependency concerns are therefore not
+merely cultural panic. <a href="#fn3" class="footnote-ref" id="fnref3"
+role="doc-noteref"><sup>3</sup></a></p>
+<h2 id="main-analysis">Main Analysis</h2>
+<p>The GPTs paper and the IMF note both support an uneven future in
+which exposure to generative AI is distributed asymmetrically across
+occupations, income positions, and labor systems. The future problem is
+not uniform extinction. It is differential vulnerability. <a href="#fn4"
+class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p>
+<p>Compute-governance research supports the claim that high-end
+capability is likely to remain infrastructure-concentrated unless policy
+changes the terms of access. That means unequal access to machine
+intelligence is already an infrastructure question, not only a talent
+question. <a href="#fn5" class="footnote-ref" id="fnref5"
+role="doc-noteref"><sup>5</sup></a></p>
+<p>The continuity scenario also includes unequal fallback. Some of the
+same actors asking institutions and publics to normalize deeper
+dependence on AI and platform infrastructure have also publicly
+described or been credibly reported as building private redundancy,
+jurisdictional exit, and survivability options: Altman’s 2016 prep
+disclosures and New Zealand fallback, Zuckerberg’s Kauai shelter
+complex, and Thiel’s long association with New Zealand retreat logic and
+elite-exit politics. That does not prove foreknowledge, coordinated
+collapse engineering, or a hidden command chain. It does show how
+continuity can stratify not only access to intelligence, but access to
+backup, redundancy, and escape when shared systems fail or become
+politically untrustworthy. <a href="#fn6" class="footnote-ref"
+id="fnref6" role="doc-noteref"><sup>6</sup></a></p>
+<p>The financial and moral-warning layers also matter. The BIS warned of
+fragile capex dynamics and weak near-term returns in the AI buildout,
+while Dario Amodei publicly warned that AI-era wealth concentration
+could strain democratic society. These are not identical claims, but
+together they strengthen the dossier’s continuity scenario of hierarchy
+rather than broad emancipation. <a href="#fn7" class="footnote-ref"
+id="fnref7" role="doc-noteref"><sup>7</sup></a></p>
+<p>Interpretation: if current platform habits, labor structures, weights
+enclosure, compute chokepoints, and asymmetric fallback systems continue
+reinforcing one another, the likely future is not total machine takeover
+but a regime of dependency, access hierarchy, and weaker cognitive
+sovereignty. A contextual formulation from Dion Wiggins is useful here:
+continuity can disguise dependency when systems still appear to function
+while effective authority migrates elsewhere. That is precisely why the
+dossier’s three reforms belong together rather than as isolated policy
+tweaks. <a href="#fn8" class="footnote-ref" id="fnref8"
+role="doc-noteref"><sup>8</sup></a></p>
+<h2 id="position-within-the-series">Position Within the Series</h2>
+<p>This paper sits inside a coordinated 11-paper architecture. Its
+nearest companions are Chapter 05 (Talent, overhiring, valuation, and
+layoffs), Chapter 07 (Imperial control over access), Chapter 08 (Power
+network, legitimacy, and institutional capture), Chapter 10 (What to
+do). In that series logic, Chapter 09 explains why inaction would
+compound dependency, hierarchy, and cognitive enclosure across the whole
+system.</p>
+<h2 id="counterarguments">Counterarguments</h2>
+<p>This chapter must remain explicit that it is a projection built from
+documented trend lines, not a prophecy. The evidence is stronger on
+labor exposure, governance risk, and access concentration than on
+long-run learning outcomes or a single inevitable end state. <a
+href="#fn9" class="footnote-ref" id="fnref9"
+role="doc-noteref"><sup>9</sup></a></p>
+<h2 id="limits-of-the-evidence">Limits of the Evidence</h2>
+<p>This chapter must remain explicit that it is a projection built from
+documented trend lines, not a prophecy. The evidence is stronger on
+labor exposure, governance risk, and access concentration than on
+long-run learning outcomes or a single inevitable end state. <a
+href="#fn10" class="footnote-ref" id="fnref10"
+role="doc-noteref"><sup>10</sup></a></p>
+<h2 id="reform-relevance">Reform Relevance</h2>
+<p>If no action is taken, platform immunity, private control over
+weights, and opaque state-company entanglement stop looking like
+separate policy issues and start looking like one reinforced system.
+That is why <code>Refactor Section 230</code>,
+<code>AI Weights as Patrimony of Humanity</code>, and
+<code>Limit Government Capture by AI Companies</code> must be read as
+one program of democratic reassertion. <a href="#fn11"
+class="footnote-ref" id="fnref11"
+role="doc-noteref"><sup>11</sup></a></p>
+<h2 id="conclusion">Conclusion</h2>
+<p>If no action is taken, platform immunity, private control over
+weights, and opaque state-company entanglement stop looking like
+separate policy issues and start looking like one reinforced system. The
+final chapter therefore has to answer the question the whole dossier
+implies: what does resistance look like once the solution space is no
+longer open-ended but doctrinally explicit? In the architecture of this
+series, Chapter 09 therefore functions as a self-contained argument
+while also advancing the cumulative path toward the dossier’s three
+reforms.</p>
+<h2 id="notes">Notes</h2>
+<p>This paper is designed to circulate independently. Public notes point
+readers to the real external documents first, then to the paper-local
+appendix entry that explains why each source matters.</p>
+<p>The underlying research OS distinguishes among
+<code>Documented Fact</code>, <code>Disputed Fact</code>,
+<code>Hypothesis / Interpretation</code>, and
+<code>Speculative Narrative Risk</code>. In Chapter 09, those boundaries
+remain visible in the prose, in the bibliography, and in the appendix
+sections that summarize claims and caution points.</p>
+<h2 id="references-bibliography">References / Bibliography</h2>
+<ol type="1">
+<li>U.S. Department of Education / ERIC. <a
+href="https://eric.ed.gov/?id=ED631097">Artificial Intelligence and the
+Future of Teaching and Learning: Insights and Recommendations</a>.
+2023-05-24. T1 report. Paper appendix: <a
+href="#appendix-a1-artificial-intelligence-and-the-future-of-teaching-and-learning-insights-and-recommendations">Appendix
+A1</a>. Corpus companion entry: Source S-124. Audit ID:
+<code>us-ed-ai-future-teaching-learning-2023</code>. Relevance: That a
+primary U.S. education authority already treated AI-mediated learning as
+a governance question rather than as a neutral productivity
+upgrade.</li>
+<li>arXiv. <a href="https://arxiv.org/abs/2303.10130">GPTs are GPTs: An
+Early Look at the Labor Market Impact Potential of Large Language
+Models</a>. 2023-03-17. T1 paper. Paper appendix: <a
+href="#appendix-a2-gpts-are-gpts-an-early-look-at-the-labor-market-impact-potential-of-large-language-models">Appendix
+A2</a>. Corpus companion entry: Source S-065. Audit ID:
+<code>gpts-are-gpts-labor-impact-2023</code>. Relevance: That generative
+AI exposure reaches well beyond narrow routine clerical work and extends
+into professional and white-collar task bundles.</li>
+<li>arXiv. <a href="https://arxiv.org/abs/2402.08797">Computing Power
+and the Governance of Artificial Intelligence</a>. 2024-02-13. T1 paper.
+Paper appendix: <a
+href="#appendix-a3-computing-power-and-the-governance-of-artificial-intelligence">Appendix
+A3</a>. Corpus companion entry: Source S-040. Audit ID:
+<code>compute-governance-ai-2024</code>. Relevance: That access
+hierarchy in frontier AI is materially tied to compute concentration and
+not only to abstract innovation differences.</li>
+<li>IMF. <a
+href="https://www.imf.org/en/publications/staff-discussion-notes/issues/2024/01/14/gen-ai-artificial-intelligence-and-the-future-of-work-542379">Gen-AI:
+Artificial Intelligence and the Future of Work</a>. 2024-01-14. T1
+report. Paper appendix: <a
+href="#appendix-a4-gen-ai-artificial-intelligence-and-the-future-of-work">Appendix
+A4</a>. Corpus companion entry: Source S-071. Audit ID:
+<code>imf-gen-ai-future-of-work-2024</code>. Relevance: That
+labor-market exposure to generative AI is systematically uneven across
+geography, occupation, and class position.</li>
+<li>Tad Friend. <a
+href="https://www.newyorker.com/magazine/2016/10/10/sam-altmans-manifest-destiny">Sam
+Altman’s Manifest Destiny</a>. 2016-10-03. T2 profile. Paper appendix:
+<a href="#appendix-a5-sam-altman-s-manifest-destiny">Appendix A5</a>.
+Corpus companion entry: Source S-083. Audit ID:
+<code>newyorker-sam-altman-manifest-destiny-2016</code>. Relevance: That
+by October 3, 2016 Sam Altman publicly described keeping guns, gold,
+potassium iodide, antibiotics, batteries, water, gas masks, and land in
+Big Sur as part of survival pla…</li>
+<li>Makena Kelly. <a
+href="https://www.wired.com/story/mark-zuckerberg-inside-hawaii-compound">Inside
+Mark Zuckerberg’s Top-Secret Hawaii Compound</a>. 2023-12-14. T2
+investigation. Paper appendix: <a
+href="#appendix-a6-inside-mark-zuckerbergs-top-secret-hawaii-compound">Appendix
+A6</a>. Corpus companion entry: Source S-133. Audit ID:
+<code>wired-zuckerberg-hawaii-compound-2023</code>. Relevance: That
+WIRED reported on December 14, 2023 that Mark Zuckerberg’s Kauai
+compound included a 5,000-square-foot underground shelter connected by
+tunnel, with living space, a mechani…</li>
+<li>Charlotte Phillipp. <a
+href="https://people.com/mark-zuckerberg-hawaii-bunker-5000-square-feet-8765376">Mark
+Zuckerberg Downplays His 5,000-Square-Foot Underground Bunker in Hawaii:
+‘Just a Little Shelter’</a>. 2024-12-20. T3 news_article. Paper
+appendix: <a
+href="#appendix-a7-mark-zuckerberg-downplays-his-5-000-square-foot-underground-bunker-in-hawaii-just-a-little-shelter">Appendix
+A7</a>. Corpus companion entry: Source S-106. Audit ID:
+<code>people-zuckerberg-little-shelter-2024</code>. Relevance: That by
+December 20, 2024 Mark Zuckerberg publicly minimized the Kauai bunker as
+‘just a little shelter,’ creating a documented contrast between the
+estate’s described features…</li>
+<li>Mark O’Connell. <a
+href="https://www.theguardian.com/news/2018/feb/15/why-silicon-valley-billionaires-are-prepping-for-the-apocalypse-in-new-zealand">Why
+Silicon Valley billionaires are prepping for the apocalypse in New
+Zealand</a>. 2018-02-15. T3 longform_feature. Paper appendix: <a
+href="#appendix-a8-why-silicon-valley-billionaires-are-prepping-for-the-apocalypse-in-new-zealand">Appendix
+A8</a>. Corpus companion entry: Source S-066. Audit ID:
+<code>guardian-billionaires-new-zealand-2018</code>. Relevance: That by
+February 15, 2018 New Zealand had already become a recognizable
+elite-safe-haven trope in public collapse-prep discourse around Silicon
+Valley.</li>
+<li>Rebecca Rose. <a
+href="https://www.ft.com/content/76ca455c-3b16-4413-8738-3f17431d125b">New
+Zealand woos the wealthy with ‘golden visa’ changes</a>. 2025-09-24. T2
+news_article. Paper appendix: <a
+href="#appendix-a9-new-zealand-woos-the-wealthy-with-golden-visa-changes">Appendix
+A9</a>. Corpus companion entry: Source S-058. Audit ID:
+<code>ft-new-zealand-golden-visa-2025</code>. Relevance: That debate
+over wealthy foreigners seeking New Zealand bolt-holes remained live in
+serious financial press by 2025.</li>
+<li>Bank for International Settlements. <a
+href="https://www.bis.org/publ/arpdf/ar2026e.pdf">Annual Economic Report
+2026</a>. 2026-06-28. T1 report. Paper appendix: <a
+href="#appendix-a10-annual-economic-report-2026">Appendix A10</a>.
+Corpus companion entry: Source S-036. Audit ID:
+<code>bis-annual-economic-report-2026</code>. Relevance: That a primary
+multilateral financial institution explicitly warned in June 2026 that
+the AI capex race was outrunning earnings and free cash flow.</li>
+<li>Dario Amodei. <a
+href="https://darioamodei.com/essay/the-adolescence-of-technology">The
+Adolescence of Technology</a>. 2026-01-01. T3 essay. Paper appendix: <a
+href="#appendix-a11-the-adolescence-of-technology">Appendix A11</a>.
+Corpus companion entry: Source S-047. Audit ID:
+<code>dario-amodei-adolescence-of-technology-2026</code>. Relevance:
+That by January 1, 2026, Anthropic’s own CEO publicly described wealth
+concentration, backlash, and democratic erosion as serious AI-adjacent
+risks.</li>
+<li>FTC. <a
+href="https://www.ftc.gov/reports/look-behind-screens-examining-data-practices-social-media-video-streaming-services">A
+Look Behind the Screens: Examining the Data Practices of Social Media
+and Video Streaming Services</a>. n.d.. T1 report. Paper appendix: <a
+href="#appendix-a12-a-look-behind-the-screens-examining-the-data-practices-of-social-media-and-video-streaming-services">Appendix
+A12</a>. Corpus companion entry: Source S-063. Audit ID:
+<code>ftc-2024-look-behind-screens</code>. Relevance: Supports a key
+factual or interpretive move inside this paper.</li>
+<li>Meta. <a
+href="https://about.fb.com/news/2023/03/mark-zuckerberg-meta-year-of-efficiency/">Mark
+Zuckerberg’s Message to Meta Employees</a>. 2023-03-14. T1
+company_statement. Paper appendix: <a
+href="#appendix-a13-mark-zuckerberg-s-message-to-meta-employees">Appendix
+A13</a>. Corpus companion entry: Source S-082. Audit ID:
+<code>meta-year-of-efficiency-2023</code>. Relevance: Supports a key
+factual or interpretive move inside this paper.</li>
+<li>Dion Wiggins. <a
+href="https://digitalsovereigntyimperative.com/">The Digital Sovereignty
+Imperative</a>. n.d.. T3 website_homepage. Paper appendix: <a
+href="#appendix-a14-the-digital-sovereignty-imperative">Appendix
+A14</a>. Corpus companion entry: Source S-050. Audit ID:
+<code>digital-sovereignty-imperative-homepage-2026</code>. Relevance:
+That Dion Wiggins publicly defines digital sovereignty in survivability
+terms: whether systems still run under your authority when cooperation
+is withdrawn.</li>
+<li>OpenAI. <a
+href="https://openai.com/global-affairs/openai-proposals-for-the-us-ai-action-plan/">OpenAI’s
+proposals for the U.S. AI Action Plan</a>. 2025-03-13. T1
+policy_submission. Paper appendix: <a
+href="#appendix-a15-openais-proposals-for-the-us-ai-action-plan">Appendix
+A15</a>. Corpus companion entry: Source S-096. Audit ID:
+<code>openai-us-ai-action-plan-2025</code>. Relevance: That the
+legitimacy field around frontier AI is now reinforced not only by
+boards, policy essays, and lobbying, but by operational state interfaces
+that normalize privileged acc…</li>
+</ol>
+<h2 id="appendix-a.-source-register-for-this-paper">Appendix A. Source
+Register for This Paper</h2>
+<h3
+id="appendix-a1-artificial-intelligence-and-the-future-of-teaching-and-learning-insights-and-recommendations">Appendix
+A1. Artificial Intelligence and the Future of Teaching and Learning:
+Insights and Recommendations</h3>
+<p><strong>Source citation:</strong> <a
+href="https://eric.ed.gov/?id=ED631097">Artificial Intelligence and the
+Future of Teaching and Learning: Insights and Recommendations</a>
+<strong>Institution / author:</strong> U.S. Department of Education /
+ERIC <strong>Date:</strong> 2023-05-24 <strong>Tier / type:</strong> T1
+/ report <strong>Why it matters in this paper:</strong> That a primary
+U.S. education authority already treated AI-mediated learning as a
+governance question rather than as a neutral productivity upgrade.
+<strong>Corpus companion entry:</strong> Source S-124 <strong>Audit
+ID:</strong> <code>us-ed-ai-future-teaching-learning-2023</code></p>
+<h3
+id="appendix-a2-gpts-are-gpts-an-early-look-at-the-labor-market-impact-potential-of-large-language-models">Appendix
+A2. GPTs are GPTs: An Early Look at the Labor Market Impact Potential of
+Large Language Models</h3>
+<p><strong>Source citation:</strong> <a
+href="https://arxiv.org/abs/2303.10130">GPTs are GPTs: An Early Look at
+the Labor Market Impact Potential of Large Language Models</a>
+<strong>Institution / author:</strong> arXiv <strong>Date:</strong>
+2023-03-17 <strong>Tier / type:</strong> T1 / paper <strong>Why it
+matters in this paper:</strong> That generative AI exposure reaches well
+beyond narrow routine clerical work and extends into professional and
+white-collar task bundles. <strong>Corpus companion entry:</strong>
+Source S-065 <strong>Audit ID:</strong>
+<code>gpts-are-gpts-labor-impact-2023</code></p>
+<h3
+id="appendix-a3-computing-power-and-the-governance-of-artificial-intelligence">Appendix
+A3. Computing Power and the Governance of Artificial Intelligence</h3>
+<p><strong>Source citation:</strong> <a
+href="https://arxiv.org/abs/2402.08797">Computing Power and the
+Governance of Artificial Intelligence</a> <strong>Institution /
+author:</strong> arXiv <strong>Date:</strong> 2024-02-13 <strong>Tier /
+type:</strong> T1 / paper <strong>Why it matters in this paper:</strong>
+That access hierarchy in frontier AI is materially tied to compute
+concentration and not only to abstract innovation differences.
+<strong>Corpus companion entry:</strong> Source S-040 <strong>Audit
+ID:</strong> <code>compute-governance-ai-2024</code></p>
+<h3
+id="appendix-a4-gen-ai-artificial-intelligence-and-the-future-of-work">Appendix
+A4. Gen-AI: Artificial Intelligence and the Future of Work</h3>
+<p><strong>Source citation:</strong> <a
+href="https://www.imf.org/en/publications/staff-discussion-notes/issues/2024/01/14/gen-ai-artificial-intelligence-and-the-future-of-work-542379">Gen-AI:
+Artificial Intelligence and the Future of Work</a> <strong>Institution /
+author:</strong> IMF <strong>Date:</strong> 2024-01-14 <strong>Tier /
+type:</strong> T1 / report <strong>Why it matters in this
+paper:</strong> That labor-market exposure to generative AI is
+systematically uneven across geography, occupation, and class position.
+<strong>Corpus companion entry:</strong> Source S-071 <strong>Audit
+ID:</strong> <code>imf-gen-ai-future-of-work-2024</code></p>
+<h3 id="appendix-a5-sam-altman-s-manifest-destiny">Appendix A5. Sam
+Altman’s Manifest Destiny</h3>
+<p><strong>Source citation:</strong> <a
+href="https://www.newyorker.com/magazine/2016/10/10/sam-altmans-manifest-destiny">Sam
+Altman’s Manifest Destiny</a> <strong>Institution / author:</strong> Tad
+Friend <strong>Date:</strong> 2016-10-03 <strong>Tier / type:</strong>
+T2 / profile <strong>Why it matters in this paper:</strong> That by
+October 3, 2016 Sam Altman publicly described keeping guns, gold,
+potassium iodide, antibiotics, batteries, water, gas masks, and land in
+Big Sur as part of survival pla… <strong>Corpus companion
+entry:</strong> Source S-083 <strong>Audit ID:</strong>
+<code>newyorker-sam-altman-manifest-destiny-2016</code></p>
+<h3
+id="appendix-a6-inside-mark-zuckerbergs-top-secret-hawaii-compound">Appendix
+A6. Inside Mark Zuckerberg’s Top-Secret Hawaii Compound</h3>
+<p><strong>Source citation:</strong> <a
+href="https://www.wired.com/story/mark-zuckerberg-inside-hawaii-compound">Inside
+Mark Zuckerberg’s Top-Secret Hawaii Compound</a> <strong>Institution /
+author:</strong> Makena Kelly <strong>Date:</strong> 2023-12-14
+<strong>Tier / type:</strong> T2 / investigation <strong>Why it matters
+in this paper:</strong> That WIRED reported on December 14, 2023 that
+Mark Zuckerberg’s Kauai compound included a 5,000-square-foot
+underground shelter connected by tunnel, with living space, a mechani…
+<strong>Corpus companion entry:</strong> Source S-133 <strong>Audit
+ID:</strong> <code>wired-zuckerberg-hawaii-compound-2023</code></p>
+<h3
+id="appendix-a7-mark-zuckerberg-downplays-his-5-000-square-foot-underground-bunker-in-hawaii-just-a-little-shelter">Appendix
+A7. Mark Zuckerberg Downplays His 5,000-Square-Foot Underground Bunker
+in Hawaii: ‘Just a Little Shelter’</h3>
+<p><strong>Source citation:</strong> <a
+href="https://people.com/mark-zuckerberg-hawaii-bunker-5000-square-feet-8765376">Mark
+Zuckerberg Downplays His 5,000-Square-Foot Underground Bunker in Hawaii:
+‘Just a Little Shelter’</a> <strong>Institution / author:</strong>
+Charlotte Phillipp <strong>Date:</strong> 2024-12-20 <strong>Tier /
+type:</strong> T3 / news_article <strong>Why it matters in this
+paper:</strong> That by December 20, 2024 Mark Zuckerberg publicly
+minimized the Kauai bunker as ‘just a little shelter,’ creating a
+documented contrast between the estate’s described features…
+<strong>Corpus companion entry:</strong> Source S-106 <strong>Audit
+ID:</strong> <code>people-zuckerberg-little-shelter-2024</code></p>
+<h3
+id="appendix-a8-why-silicon-valley-billionaires-are-prepping-for-the-apocalypse-in-new-zealand">Appendix
+A8. Why Silicon Valley billionaires are prepping for the apocalypse in
+New Zealand</h3>
+<p><strong>Source citation:</strong> <a
+href="https://www.theguardian.com/news/2018/feb/15/why-silicon-valley-billionaires-are-prepping-for-the-apocalypse-in-new-zealand">Why
+Silicon Valley billionaires are prepping for the apocalypse in New
+Zealand</a> <strong>Institution / author:</strong> Mark O’Connell
+<strong>Date:</strong> 2018-02-15 <strong>Tier / type:</strong> T3 /
+longform_feature <strong>Why it matters in this paper:</strong> That by
+February 15, 2018 New Zealand had already become a recognizable
+elite-safe-haven trope in public collapse-prep discourse around Silicon
+Valley. <strong>Corpus companion entry:</strong> Source S-066
+<strong>Audit ID:</strong>
+<code>guardian-billionaires-new-zealand-2018</code></p>
+<h3
+id="appendix-a9-new-zealand-woos-the-wealthy-with-golden-visa-changes">Appendix
+A9. New Zealand woos the wealthy with ‘golden visa’ changes</h3>
+<p><strong>Source citation:</strong> <a
+href="https://www.ft.com/content/76ca455c-3b16-4413-8738-3f17431d125b">New
+Zealand woos the wealthy with ‘golden visa’ changes</a>
+<strong>Institution / author:</strong> Rebecca Rose
+<strong>Date:</strong> 2025-09-24 <strong>Tier / type:</strong> T2 /
+news_article <strong>Why it matters in this paper:</strong> That debate
+over wealthy foreigners seeking New Zealand bolt-holes remained live in
+serious financial press by 2025. <strong>Corpus companion
+entry:</strong> Source S-058 <strong>Audit ID:</strong>
+<code>ft-new-zealand-golden-visa-2025</code></p>
+<h3 id="appendix-a10-annual-economic-report-2026">Appendix A10. Annual
+Economic Report 2026</h3>
+<p><strong>Source citation:</strong> <a
+href="https://www.bis.org/publ/arpdf/ar2026e.pdf">Annual Economic Report
+2026</a> <strong>Institution / author:</strong> Bank for International
+Settlements <strong>Date:</strong> 2026-06-28 <strong>Tier /
+type:</strong> T1 / report <strong>Why it matters in this
+paper:</strong> That a primary multilateral financial institution
+explicitly warned in June 2026 that the AI capex race was outrunning
+earnings and free cash flow. <strong>Corpus companion entry:</strong>
+Source S-036 <strong>Audit ID:</strong>
+<code>bis-annual-economic-report-2026</code></p>
+<h3 id="appendix-a11-the-adolescence-of-technology">Appendix A11. The
+Adolescence of Technology</h3>
+<p><strong>Source citation:</strong> <a
+href="https://darioamodei.com/essay/the-adolescence-of-technology">The
+Adolescence of Technology</a> <strong>Institution / author:</strong>
+Dario Amodei <strong>Date:</strong> 2026-01-01 <strong>Tier /
+type:</strong> T3 / essay <strong>Why it matters in this paper:</strong>
+That by January 1, 2026, Anthropic’s own CEO publicly described wealth
+concentration, backlash, and democratic erosion as serious AI-adjacent
+risks. <strong>Corpus companion entry:</strong> Source S-047
+<strong>Audit ID:</strong>
+<code>dario-amodei-adolescence-of-technology-2026</code></p>
+<h3
+id="appendix-a12-a-look-behind-the-screens-examining-the-data-practices-of-social-media-and-video-streaming-services">Appendix
+A12. A Look Behind the Screens: Examining the Data Practices of Social
+Media and Video Streaming Services</h3>
+<p><strong>Source citation:</strong> <a
+href="https://www.ftc.gov/reports/look-behind-screens-examining-data-practices-social-media-video-streaming-services">A
+Look Behind the Screens: Examining the Data Practices of Social Media
+and Video Streaming Services</a> <strong>Institution / author:</strong>
+FTC <strong>Date:</strong> n.d. <strong>Tier / type:</strong> T1 /
+report <strong>Why it matters in this paper:</strong> Supports a key
+factual or interpretive move inside this paper. <strong>Corpus companion
+entry:</strong> Source S-063 <strong>Audit ID:</strong>
+<code>ftc-2024-look-behind-screens</code></p>
+<h3
+id="appendix-a13-mark-zuckerberg-s-message-to-meta-employees">Appendix
+A13. Mark Zuckerberg’s Message to Meta Employees</h3>
+<p><strong>Source citation:</strong> <a
+href="https://about.fb.com/news/2023/03/mark-zuckerberg-meta-year-of-efficiency/">Mark
+Zuckerberg’s Message to Meta Employees</a> <strong>Institution /
+author:</strong> Meta <strong>Date:</strong> 2023-03-14 <strong>Tier /
+type:</strong> T1 / company_statement <strong>Why it matters in this
+paper:</strong> Supports a key factual or interpretive move inside this
+paper. <strong>Corpus companion entry:</strong> Source S-082
+<strong>Audit ID:</strong> <code>meta-year-of-efficiency-2023</code></p>
+<h3 id="appendix-a14-the-digital-sovereignty-imperative">Appendix A14.
+The Digital Sovereignty Imperative</h3>
+<p><strong>Source citation:</strong> <a
+href="https://digitalsovereigntyimperative.com/">The Digital Sovereignty
+Imperative</a> <strong>Institution / author:</strong> Dion Wiggins
+<strong>Date:</strong> n.d. <strong>Tier / type:</strong> T3 /
+website_homepage <strong>Why it matters in this paper:</strong> That
+Dion Wiggins publicly defines digital sovereignty in survivability
+terms: whether systems still run under your authority when cooperation
+is withdrawn. <strong>Corpus companion entry:</strong> Source S-050
+<strong>Audit ID:</strong>
+<code>digital-sovereignty-imperative-homepage-2026</code></p>
+<h3
+id="appendix-a15-openais-proposals-for-the-us-ai-action-plan">Appendix
+A15. OpenAI’s proposals for the U.S. AI Action Plan</h3>
+<p><strong>Source citation:</strong> <a
+href="https://openai.com/global-affairs/openai-proposals-for-the-us-ai-action-plan/">OpenAI’s
+proposals for the U.S. AI Action Plan</a> <strong>Institution /
+author:</strong> OpenAI <strong>Date:</strong> 2025-03-13 <strong>Tier /
+type:</strong> T1 / policy_submission <strong>Why it matters in this
+paper:</strong> That the legitimacy field around frontier AI is now
+reinforced not only by boards, policy essays, and lobbying, but by
+operational state interfaces that normalize privileged acc…
+<strong>Corpus companion entry:</strong> Source S-096 <strong>Audit
+ID:</strong> <code>openai-us-ai-action-plan-2025</code></p>
+<h2 id="appendix-b.-claims-used-in-this-paper">Appendix B. Claims Used
+in This Paper</h2>
+<h3
+id="appendix-b1-a-primary-multilateral-financial-institution-explicitly-warned-in-june-2026-that">Appendix
+B1. A primary multilateral financial institution explicitly warned in
+June 2026 that…</h3>
+<p><strong>Claim statement:</strong> That a primary multilateral
+financial institution explicitly warned in June 2026 that the AI capex
+race was outrunning earnings and free cash flow. <strong>Evidence
+status:</strong> Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a10-annual-economic-report-2026">Appendix A10</a>
+<strong>Corpus companion entry:</strong> Claim C-107 <strong>Audit Claim
+ID:</strong>
+<code>bis-annual-economic-report-2026-05-talent-hoarding-section174-layoffs-claim-01</code></p>
+<h3
+id="appendix-b2-debt-issuance-leverage-opaque-financing-structures-and-circular-financing-belo">Appendix
+B2. Debt issuance, leverage, opaque financing structures, and circular
+financing belo…</h3>
+<p><strong>Claim statement:</strong> That debt issuance, leverage,
+opaque financing structures, and circular financing belong to the
+documented risk structure of the AI buildout. <strong>Evidence
+status:</strong> Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a10-annual-economic-report-2026">Appendix A10</a>
+<strong>Corpus companion entry:</strong> Claim C-108 <strong>Audit Claim
+ID:</strong>
+<code>bis-annual-economic-report-2026-05-talent-hoarding-section174-layoffs-claim-02</code></p>
+<h3
+id="appendix-b3-chapter-05-can-support-the-thesis-of-structural-correction-and-financial-overhang">Appendix
+B3. Chapter 05 can support the thesis of structural correction and
+financial overhang…</h3>
+<p><strong>Claim statement:</strong> That Chapter <code>05</code> can
+support the thesis of structural correction and financial overhang
+without relying only on opinion pieces or market chatter.
+<strong>Evidence status:</strong> Documented Fact <strong>Source
+support:</strong> <a
+href="#appendix-a10-annual-economic-report-2026">Appendix A10</a>
+<strong>Corpus companion entry:</strong> Claim C-109 <strong>Audit Claim
+ID:</strong>
+<code>bis-annual-economic-report-2026-05-talent-hoarding-section174-layoffs-claim-03</code></p>
+<h3
+id="appendix-b4-chapters-06-09-and-10-can-discuss-the-cheap-ai-narrative-against-a-documented">Appendix
+B4. Chapters 06, 09, and 10 can discuss the “cheap AI” narrative against
+a documented…</h3>
+<p><strong>Claim statement:</strong> That Chapters <code>06</code>,
+<code>09</code>, and <code>10</code> can discuss the “cheap AI”
+narrative against a documented backdrop of subsidy-like financing
+pressure and fragile commercial returns. <strong>Evidence
+status:</strong> Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a10-annual-economic-report-2026">Appendix A10</a>
+<strong>Corpus companion entry:</strong> Claim C-110 <strong>Audit Claim
+ID:</strong>
+<code>bis-annual-economic-report-2026-05-talent-hoarding-section174-layoffs-claim-04</code></p>
+<h3
+id="appendix-b5-access-hierarchy-in-frontier-ai-is-materially-tied-to-compute-concentration-and-n">Appendix
+B5. Access hierarchy in frontier AI is materially tied to compute
+concentration and n…</h3>
+<p><strong>Claim statement:</strong> That access hierarchy in frontier
+AI is materially tied to compute concentration and not only to abstract
+innovation differences. <strong>Evidence status:</strong> Documented
+Fact <strong>Source support:</strong> <a
+href="#appendix-a3-computing-power-and-the-governance-of-artificial-intelligence">Appendix
+A3</a> <strong>Corpus companion entry:</strong> Claim C-120
+<strong>Audit Claim ID:</strong>
+<code>compute-governance-ai-2024-09-future-if-unchecked-claim-01</code></p>
+<h3
+id="appendix-b6-chapter-09-can-speak-about-unequal-access-to-high-end-intelligence-as-a-documente">Appendix
+B6. Chapter 09 can speak about unequal access to high-end intelligence
+as a documente…</h3>
+<p><strong>Claim statement:</strong> That Chapter 09 can speak about
+unequal access to high-end intelligence as a documented infrastructure
+problem. <strong>Evidence status:</strong> Documented Fact
+<strong>Source support:</strong> <a
+href="#appendix-a3-computing-power-and-the-governance-of-artificial-intelligence">Appendix
+A3</a> <strong>Corpus companion entry:</strong> Claim C-121
+<strong>Audit Claim ID:</strong>
+<code>compute-governance-ai-2024-09-future-if-unchecked-claim-02</code></p>
+<h3
+id="appendix-b7-the-project-s-language-of-chokepoints-and-access-stratification-has-direct-suppor">Appendix
+B7. The project’s language of chokepoints and access stratification has
+direct suppor…</h3>
+<p><strong>Claim statement:</strong> That the project’s language of
+chokepoints and access stratification has direct support in primary
+research on compute governance. <strong>Evidence status:</strong>
+Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a3-computing-power-and-the-governance-of-artificial-intelligence">Appendix
+A3</a> <strong>Corpus companion entry:</strong> Claim C-122
+<strong>Audit Claim ID:</strong>
+<code>compute-governance-ai-2024-09-future-if-unchecked-claim-03</code></p>
+<h3
+id="appendix-b8-by-january-1-2026-anthropic-s-own-ceo-publicly-described-wealth-concentration">Appendix
+B8. By January 1, 2026, Anthropic’s own CEO publicly described wealth
+concentration,…</h3>
+<p><strong>Claim statement:</strong> That by January 1, 2026,
+Anthropic’s own CEO publicly described wealth concentration, backlash,
+and democratic erosion as serious AI-adjacent risks. <strong>Evidence
+status:</strong> Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a11-the-adolescence-of-technology">Appendix A11</a>
+<strong>Corpus companion entry:</strong> Claim C-141 <strong>Audit Claim
+ID:</strong>
+<code>dario-amodei-adolescence-of-technology-2026-08-power-networks-legitimacy-capture-claim-01</code></p>
+<h3
+id="appendix-b9-the-80-of-wealth-pledge-angle-can-be-grounded-in-a-primary-source-rather-than-on">Appendix
+B9. The 80%-of-wealth pledge angle can be grounded in a primary source
+rather than on…</h3>
+<p><strong>Claim statement:</strong> That the 80%-of-wealth pledge angle
+can be grounded in a primary source rather than only in a secondary or
+tertiary retelling. <strong>Evidence status:</strong> Documented Fact
+<strong>Source support:</strong> <a
+href="#appendix-a11-the-adolescence-of-technology">Appendix A11</a>
+<strong>Corpus companion entry:</strong> Claim C-142 <strong>Audit Claim
+ID:</strong>
+<code>dario-amodei-adolescence-of-technology-2026-08-power-networks-legitimacy-capture-claim-02</code></p>
+<h3
+id="appendix-b10-chapter-08-can-document-elite-self-legitimation-through-philanthropy-and-public-m">Appendix
+B10. Chapter 08 can document elite self-legitimation through
+philanthropy and public m…</h3>
+<p><strong>Claim statement:</strong> That Chapter <code>08</code> can
+document elite self-legitimation through philanthropy and public moral
+positioning without pretending philanthropy resolves the structural
+problem. <strong>Evidence status:</strong> Documented Fact
+<strong>Source support:</strong> <a
+href="#appendix-a11-the-adolescence-of-technology">Appendix A11</a>
+<strong>Corpus companion entry:</strong> Claim C-143 <strong>Audit Claim
+ID:</strong>
+<code>dario-amodei-adolescence-of-technology-2026-08-power-networks-legitimacy-capture-claim-03</code></p>
+<h3
+id="appendix-b11-chapter-09-can-cite-a-frontier-founder-s-own-warning-that-extreme-wealth-concentr">Appendix
+B11. Chapter 09 can cite a frontier founder’s own warning that extreme
+wealth concentr…</h3>
+<p><strong>Claim statement:</strong> That Chapter <code>09</code> can
+cite a frontier founder’s own warning that extreme wealth concentration
+under AI could destabilize democratic society. <strong>Evidence
+status:</strong> Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a11-the-adolescence-of-technology">Appendix A11</a>
+<strong>Corpus companion entry:</strong> Claim C-144 <strong>Audit Claim
+ID:</strong>
+<code>dario-amodei-adolescence-of-technology-2026-08-power-networks-legitimacy-capture-claim-04</code></p>
+<h3
+id="appendix-b12-chapter-10-can-explicitly-distinguish-between-voluntary-philanthropy-and-the-stro">Appendix
+B12. Chapter 10 can explicitly distinguish between voluntary
+philanthropy and the stro…</h3>
+<p><strong>Claim statement:</strong> That Chapter <code>10</code> can
+explicitly distinguish between voluntary philanthropy and the stronger
+structural responses the dossier argues are necessary. <strong>Evidence
+status:</strong> Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a11-the-adolescence-of-technology">Appendix A11</a>
+<strong>Corpus companion entry:</strong> Claim C-145 <strong>Audit Claim
+ID:</strong>
+<code>dario-amodei-adolescence-of-technology-2026-08-power-networks-legitimacy-capture-claim-05</code></p>
+<h3
+id="appendix-b13-dion-wiggins-publicly-defines-digital-sovereignty-in-survivability-terms-whether">Appendix
+B13. Dion Wiggins publicly defines digital sovereignty in survivability
+terms: whether…</h3>
+<p><strong>Claim statement:</strong> That Dion Wiggins publicly defines
+digital sovereignty in survivability terms: whether systems still run
+under your authority when cooperation is withdrawn. <strong>Evidence
+status:</strong> Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a14-the-digital-sovereignty-imperative">Appendix A14</a>
+<strong>Corpus companion entry:</strong> Claim C-152 <strong>Audit Claim
+ID:</strong>
+<code>digital-sovereignty-imperative-homepage-2026-09-future-if-unchecked-claim-01</code></p>
+<h3
+id="appendix-b14-debate-over-wealthy-foreigners-seeking-new-zealand-bolt-holes-remained-live-in-se">Appendix
+B14. Debate over wealthy foreigners seeking New Zealand bolt-holes
+remained live in se…</h3>
+<p><strong>Claim statement:</strong> That debate over wealthy foreigners
+seeking New Zealand bolt-holes remained live in serious financial press
+by 2025. <strong>Evidence status:</strong> Documented Fact
+<strong>Source support:</strong> <a
+href="#appendix-a9-new-zealand-woos-the-wealthy-with-golden-visa-changes">Appendix
+A9</a> <strong>Corpus companion entry:</strong> Claim C-182
+<strong>Audit Claim ID:</strong>
+<code>ft-new-zealand-golden-visa-2025-09-future-if-unchecked-claim-01</code></p>
+<h3
+id="appendix-b15-the-financial-times-reported-on-september-24-2025-that-peter-thiel-s-new-zealand">Appendix
+B15. The Financial Times reported on September 24, 2025 that Peter
+Thiel’s New Zealand…</h3>
+<p><strong>Claim statement:</strong> That the Financial Times reported
+on September 24, 2025 that Peter Thiel’s New Zealand citizenship had
+been granted under ‘exceptional circumstances’ despite reportedly
+spending 12 days in the country, and that his Lake Wānaka lodge plans
+were later rejected in 2022. <strong>Evidence status:</strong>
+Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a9-new-zealand-woos-the-wealthy-with-golden-visa-changes">Appendix
+A9</a> <strong>Corpus companion entry:</strong> Claim C-183
+<strong>Audit Claim ID:</strong>
+<code>ft-new-zealand-golden-visa-2025-11-facebook-thiel-intelligence-adjacency-claim-01</code></p>
+<h3
+id="appendix-b16-generative-ai-exposure-reaches-well-beyond-narrow-routine-clerical-work-and-exten">Appendix
+B16. Generative AI exposure reaches well beyond narrow routine clerical
+work and exten…</h3>
+<p><strong>Claim statement:</strong> That generative AI exposure reaches
+well beyond narrow routine clerical work and extends into professional
+and white-collar task bundles. <strong>Evidence status:</strong>
+Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a2-gpts-are-gpts-an-early-look-at-the-labor-market-impact-potential-of-large-language-models">Appendix
+A2</a> <strong>Corpus companion entry:</strong> Claim C-205
+<strong>Audit Claim ID:</strong>
+<code>gpts-are-gpts-labor-impact-2023-09-future-if-unchecked-claim-01</code></p>
+<h3
+id="appendix-b17-a-future-scenario-of-labor-stratification-can-be-grounded-in-documented-different">Appendix
+B17. A future scenario of labor stratification can be grounded in
+documented different…</h3>
+<p><strong>Claim statement:</strong> That a future scenario of labor
+stratification can be grounded in documented differential exposure
+rather than in pure speculation. <strong>Evidence status:</strong>
+Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a2-gpts-are-gpts-an-early-look-at-the-labor-market-impact-potential-of-large-language-models">Appendix
+A2</a> <strong>Corpus companion entry:</strong> Claim C-206
+<strong>Audit Claim ID:</strong>
+<code>gpts-are-gpts-labor-impact-2023-09-future-if-unchecked-claim-02</code></p>
+<h3
+id="appendix-b18-chapter-09-can-discuss-weakening-bargaining-power-for-parts-of-the-technical-and">Appendix
+B18. Chapter 09 can discuss weakening bargaining power for parts of the
+technical and…</h3>
+<p><strong>Claim statement:</strong> That Chapter 09 can discuss
+weakening bargaining power for parts of the technical and professional
+middle class without claiming universal job extinction. <strong>Evidence
+status:</strong> Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a2-gpts-are-gpts-an-early-look-at-the-labor-market-impact-potential-of-large-language-models">Appendix
+A2</a> <strong>Corpus companion entry:</strong> Claim C-207
+<strong>Audit Claim ID:</strong>
+<code>gpts-are-gpts-labor-impact-2023-09-future-if-unchecked-claim-03</code></p>
+<h3
+id="appendix-b19-by-february-15-2018-new-zealand-had-already-become-a-recognizable-elite-safe-hav">Appendix
+B19. By February 15, 2018 New Zealand had already become a recognizable
+elite-safe-hav…</h3>
+<p><strong>Claim statement:</strong> That by February 15, 2018 New
+Zealand had already become a recognizable elite-safe-haven trope in
+public collapse-prep discourse around Silicon Valley. <strong>Evidence
+status:</strong> Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a8-why-silicon-valley-billionaires-are-prepping-for-the-apocalypse-in-new-zealand">Appendix
+A8</a> <strong>Corpus companion entry:</strong> Claim C-208
+<strong>Audit Claim ID:</strong>
+<code>guardian-billionaires-new-zealand-2018-09-future-if-unchecked-claim-01</code></p>
+<h3
+id="appendix-b20-a-serious-2018-longform-outlet-publicly-connected-peter-thiel-s-new-zealand-citiz">Appendix
+B20. A serious 2018 longform outlet publicly connected Peter Thiel’s New
+Zealand citiz…</h3>
+<p><strong>Claim statement:</strong> That a serious 2018 longform outlet
+publicly connected Peter Thiel’s New Zealand citizenship controversy,
+Sam Altman’s retreat plan, and The Sovereign Individual within a single
+elite-safe-haven narrative. <strong>Evidence status:</strong> Documented
+Fact <strong>Source support:</strong> <a
+href="#appendix-a8-why-silicon-valley-billionaires-are-prepping-for-the-apocalypse-in-new-zealand">Appendix
+A8</a> <strong>Corpus companion entry:</strong> Claim C-209
+<strong>Audit Claim ID:</strong>
+<code>guardian-billionaires-new-zealand-2018-11-facebook-thiel-intelligence-adjacency-claim-01</code></p>
+<h3
+id="appendix-b21-labor-market-exposure-to-generative-ai-is-systematically-uneven-across-geography">Appendix
+B21. Labor-market exposure to generative AI is systematically uneven
+across geography,…</h3>
+<p><strong>Claim statement:</strong> That labor-market exposure to
+generative AI is systematically uneven across geography, occupation, and
+class position. <strong>Evidence status:</strong> Documented Fact
+<strong>Source support:</strong> <a
+href="#appendix-a4-gen-ai-artificial-intelligence-and-the-future-of-work">Appendix
+A4</a> <strong>Corpus companion entry:</strong> Claim C-222
+<strong>Audit Claim ID:</strong>
+<code>imf-gen-ai-future-of-work-2024-09-future-if-unchecked-claim-01</code></p>
+<h3
+id="appendix-b22-a-future-of-stratified-labor-outcomes-can-be-documented-from-mainstream-instituti">Appendix
+B22. A future of stratified labor outcomes can be documented from
+mainstream instituti…</h3>
+<p><strong>Claim statement:</strong> That a future of stratified labor
+outcomes can be documented from mainstream institutional analysis rather
+than inferred only from anecdote. <strong>Evidence status:</strong>
+Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a4-gen-ai-artificial-intelligence-and-the-future-of-work">Appendix
+A4</a> <strong>Corpus companion entry:</strong> Claim C-223
+<strong>Audit Claim ID:</strong>
+<code>imf-gen-ai-future-of-work-2024-09-future-if-unchecked-claim-02</code></p>
+<h3
+id="appendix-b23-chapter-09-can-connect-ai-deployment-to-differentiated-middle-class-risk-without">Appendix
+B23. Chapter 09 can connect AI deployment to differentiated middle-class
+risk without…</h3>
+<p><strong>Claim statement:</strong> That Chapter 09 can connect AI
+deployment to differentiated middle-class risk without reducing the
+issue to a single universal displacement story. <strong>Evidence
+status:</strong> Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a4-gen-ai-artificial-intelligence-and-the-future-of-work">Appendix
+A4</a> <strong>Corpus companion entry:</strong> Claim C-224
+<strong>Audit Claim ID:</strong>
+<code>imf-gen-ai-future-of-work-2024-09-future-if-unchecked-claim-03</code></p>
+<h3
+id="appendix-b24-by-october-3-2016-sam-altman-publicly-described-keeping-guns-gold-potassium-io">Appendix
+B24. By October 3, 2016 Sam Altman publicly described keeping guns,
+gold, potassium io…</h3>
+<p><strong>Claim statement:</strong> That by October 3, 2016 Sam Altman
+publicly described keeping guns, gold, potassium iodide, antibiotics,
+batteries, water, gas masks, and land in Big Sur as part of survival
+planning, and named Peter Thiel’s house in New Zealand as a backup plan.
+<strong>Evidence status:</strong> Documented Fact <strong>Source
+support:</strong> <a
+href="#appendix-a5-sam-altman-s-manifest-destiny">Appendix A5</a>
+<strong>Corpus companion entry:</strong> Claim C-275 <strong>Audit Claim
+ID:</strong>
+<code>newyorker-sam-altman-manifest-destiny-2016-08-power-networks-legitimacy-capture-claim-01</code></p>
+<h3
+id="appendix-b25-the-public-record-already-contained-elite-retreat-and-private-fallback-planning-b">Appendix
+B25. The public record already contained elite retreat and
+private-fallback planning b…</h3>
+<p><strong>Claim statement:</strong> That the public record already
+contained elite retreat and private-fallback planning by a future
+central AI executive years before the current frontier-AI dependency
+regime matured. <strong>Evidence status:</strong> Documented Fact
+<strong>Source support:</strong> <a
+href="#appendix-a5-sam-altman-s-manifest-destiny">Appendix A5</a>
+<strong>Corpus companion entry:</strong> Claim C-276 <strong>Audit Claim
+ID:</strong>
+<code>newyorker-sam-altman-manifest-destiny-2016-09-future-if-unchecked-claim-01</code></p>
+<h3
+id="appendix-b26-by-december-20-2024-mark-zuckerberg-publicly-minimized-the-kauai-bunker-as-just">Appendix
+B26. By December 20, 2024 Mark Zuckerberg publicly minimized the Kauai
+bunker as ’just…</h3>
+<p><strong>Claim statement:</strong> That by December 20, 2024 Mark
+Zuckerberg publicly minimized the Kauai bunker as ‘just a little
+shelter,’ creating a documented contrast between the estate’s described
+features and his own framing of them. <strong>Evidence status:</strong>
+Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a7-mark-zuckerberg-downplays-his-5-000-square-foot-underground-bunker-in-hawaii-just-a-little-shelter">Appendix
+A7</a> <strong>Corpus companion entry:</strong> Claim C-352
+<strong>Audit Claim ID:</strong>
+<code>people-zuckerberg-little-shelter-2024-08-power-networks-legitimacy-capture-claim-01</code></p>
+<h3
+id="appendix-b27-a-primary-u-s-education-authority-already-treated-ai-mediated-learning-as-a-gove">Appendix
+B27. A primary U.S. education authority already treated AI-mediated
+learning as a gove…</h3>
+<p><strong>Claim statement:</strong> That a primary U.S. education
+authority already treated AI-mediated learning as a governance question
+rather than as a neutral productivity upgrade. <strong>Evidence
+status:</strong> Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a1-artificial-intelligence-and-the-future-of-teaching-and-learning-insights-and-recommendations">Appendix
+A1</a> <strong>Corpus companion entry:</strong> Claim C-401
+<strong>Audit Claim ID:</strong>
+<code>us-ed-ai-future-teaching-learning-2023-09-future-if-unchecked-claim-01</code></p>
+<h3
+id="appendix-b28-institutional-guidance-had-already-identified-bias-privacy-safety-and-over-del">Appendix
+B28. Institutional guidance had already identified bias, privacy,
+safety, and over-del…</h3>
+<p><strong>Claim statement:</strong> That institutional guidance had
+already identified bias, privacy, safety, and over-delegation as central
+risks in educational AI adoption. <strong>Evidence status:</strong>
+Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a1-artificial-intelligence-and-the-future-of-teaching-and-learning-insights-and-recommendations">Appendix
+A1</a> <strong>Corpus companion entry:</strong> Claim C-402
+<strong>Audit Claim ID:</strong>
+<code>us-ed-ai-future-teaching-learning-2023-09-future-if-unchecked-claim-02</code></p>
+<h3
+id="appendix-b29-chapter-09-can-ground-dependency-and-cognitive-mediation-concerns-in-official-edu">Appendix
+B29. Chapter 09 can ground dependency and cognitive-mediation concerns
+in official edu…</h3>
+<p><strong>Claim statement:</strong> That Chapter 09 can ground
+dependency and cognitive-mediation concerns in official educational
+governance language. <strong>Evidence status:</strong> Documented Fact
+<strong>Source support:</strong> <a
+href="#appendix-a1-artificial-intelligence-and-the-future-of-teaching-and-learning-insights-and-recommendations">Appendix
+A1</a> <strong>Corpus companion entry:</strong> Claim C-403
+<strong>Audit Claim ID:</strong>
+<code>us-ed-ai-future-teaching-learning-2023-09-future-if-unchecked-claim-03</code></p>
+<h3
+id="appendix-b30-wired-reported-on-december-14-2023-that-mark-zuckerberg-s-kauai-compound-include">Appendix
+B30. WIRED reported on December 14, 2023 that Mark Zuckerberg’s Kauai
+compound include…</h3>
+<p><strong>Claim statement:</strong> That WIRED reported on December 14,
+2023 that Mark Zuckerberg’s Kauai compound included a 5,000-square-foot
+underground shelter connected by tunnel, with living space, a mechanical
+room, and an escape hatch. <strong>Evidence status:</strong> Documented
+Fact <strong>Source support:</strong> <a
+href="#appendix-a6-inside-mark-zuckerbergs-top-secret-hawaii-compound">Appendix
+A6</a> <strong>Corpus companion entry:</strong> Claim C-489
+<strong>Audit Claim ID:</strong>
+<code>wired-zuckerberg-hawaii-compound-2023-08-power-networks-legitimacy-capture-claim-01</code></p>
+<h3
+id="appendix-b31-wired-reported-strict-ndas-crew-separation-self-sufficiency-features-and-secre">Appendix
+B31. WIRED reported strict NDAs, crew separation, self-sufficiency
+features, and secre…</h3>
+<p><strong>Claim statement:</strong> That WIRED reported strict NDAs,
+crew separation, self-sufficiency features, and secrecy controls around
+the Kauai project that resembled secure-installation practices more than
+ordinary private construction. <strong>Evidence status:</strong>
+Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a6-inside-mark-zuckerbergs-top-secret-hawaii-compound">Appendix
+A6</a> <strong>Corpus companion entry:</strong> Claim C-490
+<strong>Audit Claim ID:</strong>
+<code>wired-zuckerberg-hawaii-compound-2023-08-power-networks-legitimacy-capture-claim-02</code></p>
+<h3
+id="appendix-b32-the-legitimacy-field-around-frontier-ai-is-now-reinforced-not-only-by-boards-pol">Appendix
+B32. The legitimacy field around frontier AI is now reinforced not only
+by boards, pol…</h3>
+<p><strong>Claim statement:</strong> That the legitimacy field around
+frontier AI is now reinforced not only by boards, policy essays, and
+lobbying, but by operational state interfaces that normalize privileged
+access and public-private dependence. <strong>Evidence status:</strong>
+Hypothesis / Interpretation <strong>Source support:</strong> <a
+href="#appendix-a15-openais-proposals-for-the-us-ai-action-plan">Appendix
+A15</a> <strong>Corpus companion entry:</strong> Claim C-445
+<strong>Audit Claim ID:</strong>
+<code>vector08-legitimacy-through-operational-state-interfaces-claim-01</code></p>
+<h3
+id="appendix-b33-the-continuity-scenario-includes-asymmetry-of-fallback-and-exit-with-elite-actor">Appendix
+B33. The continuity scenario includes asymmetry of fallback and exit,
+with elite actor…</h3>
+<p><strong>Claim statement:</strong> That the continuity scenario
+includes asymmetry of fallback and exit, with elite actors purchasing
+redundancy while ordinary users are asked to normalize dependence.
+<strong>Evidence status:</strong> Hypothesis / Interpretation
+<strong>Source support:</strong> <a
+href="#appendix-a5-sam-altman-s-manifest-destiny">Appendix A5</a>, <a
+href="#appendix-a6-inside-mark-zuckerbergs-top-secret-hawaii-compound">Appendix
+A6</a>, <a
+href="#appendix-a7-mark-zuckerberg-downplays-his-5-000-square-foot-underground-bunker-in-hawaii-just-a-little-shelter">Appendix
+A7</a>, <a
+href="#appendix-a8-why-silicon-valley-billionaires-are-prepping-for-the-apocalypse-in-new-zealand">Appendix
+A8</a>, <a
+href="#appendix-a9-new-zealand-woos-the-wealthy-with-golden-visa-changes">Appendix
+A9</a>, <a
+href="#appendix-a14-the-digital-sovereignty-imperative">Appendix A14</a>
+<strong>Corpus companion entry:</strong> Claim C-449 <strong>Audit Claim
+ID:</strong>
+<code>vector09-asymmetric-fallback-continuity-claim-01</code></p>
+<h3
+id="appendix-b34-if-current-platform-habits-labor-structures-and-compute-chokepoints-continue-re">Appendix
+B34. If current platform habits, labor structures, and compute
+chokepoints continue re…</h3>
+<p><strong>Claim statement:</strong> That if current platform habits,
+labor structures, and compute chokepoints continue reinforcing one
+another, the most credible continuity scenario is dependency, access
+hierarchy, and weaker cognitive sovereignty. <strong>Evidence
+status:</strong> Hypothesis / Interpretation <strong>Source
+support:</strong> <a
+href="#appendix-a2-gpts-are-gpts-an-early-look-at-the-labor-market-impact-potential-of-large-language-models">Appendix
+A2</a>, <a
+href="#appendix-a4-gen-ai-artificial-intelligence-and-the-future-of-work">Appendix
+A4</a>, <a
+href="#appendix-a3-computing-power-and-the-governance-of-artificial-intelligence">Appendix
+A3</a>, <a href="#appendix-a11-the-adolescence-of-technology">Appendix
+A11</a> <strong>Corpus companion entry:</strong> Claim C-450
+<strong>Audit Claim ID:</strong>
+<code>vector09-continuity-scenario-dependency-hierarchy-claim-01</code></p>
+<h3
+id="appendix-b35-bunker-ownership-survival-planning-or-retreat-architecture-prove-elite-foreknow">Appendix
+B35. Bunker ownership, survival planning, or retreat architecture prove
+elite foreknow…</h3>
+<p><strong>Claim statement:</strong> That bunker ownership, survival
+planning, or retreat architecture prove elite foreknowledge of imminent
+collapse or that frontier firms are knowingly engineering it.
+<strong>Evidence status:</strong> Speculative Narrative Risk
+<strong>Source support:</strong> <a
+href="#appendix-a5-sam-altman-s-manifest-destiny">Appendix A5</a>, <a
+href="#appendix-a6-inside-mark-zuckerbergs-top-secret-hawaii-compound">Appendix
+A6</a>, <a
+href="#appendix-a7-mark-zuckerberg-downplays-his-5-000-square-foot-underground-bunker-in-hawaii-just-a-little-shelter">Appendix
+A7</a>, <a
+href="#appendix-a8-why-silicon-valley-billionaires-are-prepping-for-the-apocalypse-in-new-zealand">Appendix
+A8</a>, <a
+href="#appendix-a9-new-zealand-woos-the-wealthy-with-golden-visa-changes">Appendix
+A9</a> <strong>Corpus companion entry:</strong> Claim C-440
+<strong>Audit Claim ID:</strong>
+<code>vector08-bunker-foreknowledge-overclaim-claim-01</code></p>
+<h3
+id="appendix-b36-founder-philanthropy-or-public-warnings-about-concentration-prove-elite-foreknowl">Appendix
+B36. Founder philanthropy or public warnings about concentration prove
+elite foreknowl…</h3>
+<p><strong>Claim statement:</strong> That founder philanthropy or public
+warnings about concentration prove elite foreknowledge of imminent
+collapse or absolve frontier firms of responsibility. <strong>Evidence
+status:</strong> Speculative Narrative Risk <strong>Source
+support:</strong> <a
+href="#appendix-a11-the-adolescence-of-technology">Appendix A11</a>
+<strong>Corpus companion entry:</strong> Claim C-446 <strong>Audit Claim
+ID:</strong>
+<code>vector08-philanthropy-foreknowledge-overclaim-claim-01</code></p>
+<h3
+id="appendix-b37-the-continuity-scenario-is-a-fixed-prophecy-of-inevitable-collapse-rather-than-a">Appendix
+B37. The continuity scenario is a fixed prophecy of inevitable collapse
+rather than a…</h3>
+<p><strong>Claim statement:</strong> That the continuity scenario is a
+fixed prophecy of inevitable collapse rather than a political trajectory
+that could still be altered by institutional reform. <strong>Evidence
+status:</strong> Speculative Narrative Risk <strong>Source
+support:</strong> <a
+href="#appendix-a10-annual-economic-report-2026">Appendix A10</a>
+<strong>Corpus companion entry:</strong> Claim C-451 <strong>Audit Claim
+ID:</strong>
+<code>vector09-inevitable-collapse-overclaim-claim-01</code></p>
+<h3
+id="appendix-b38-peter-thiel-s-new-zealand-retreat-logic-ideological-associations-and-political">Appendix
+B38. Peter Thiel’s New Zealand retreat logic, ideological associations,
+and political…</h3>
+<p><strong>Claim statement:</strong> That Peter Thiel’s New Zealand
+retreat logic, ideological associations, and political ties prove a
+unified hidden command chain linking platform governance, Palantir, and
+civilizational collapse planning. <strong>Evidence status:</strong>
+Speculative Narrative Risk <strong>Source support:</strong> <a
+href="#appendix-a8-why-silicon-valley-billionaires-are-prepping-for-the-apocalypse-in-new-zealand">Appendix
+A8</a>, <a
+href="#appendix-a9-new-zealand-woos-the-wealthy-with-golden-visa-changes">Appendix
+A9</a> <strong>Corpus companion entry:</strong> Claim C-460
+<strong>Audit Claim ID:</strong>
+<code>vector11-prepper-command-overclaim-claim-01</code></p>
+<h2 id="appendix-c.-timeline-slice">Appendix C. Timeline Slice</h2>
+<h3
+id="appendix-c1-2016-10-03-the-new-yorker-profile-records-sam-altman-s-survival-prep-measures-and-new-zealand-fallback-plan-with-peter-thiel">Appendix
+C1. 2016-10-03: The New Yorker profile records Sam Altman’s
+survival-prep measures and New Zealand fa…</h3>
+<p><strong>Event summary:</strong> The New Yorker profile records Sam
+Altman’s survival-prep measures and New Zealand fallback plan with Peter
+Thiel <strong>Event date:</strong> 2016-10-03 <strong>Source
+support:</strong> <a
+href="#appendix-a5-sam-altman-s-manifest-destiny">Appendix A5</a>
+<strong>Corpus companion entry:</strong> Event T-004 <strong>Audit Event
+ID:</strong> <code>event-altman-prep-new-zealand-2016-10-03</code></p>
+<h3
+id="appendix-c2-2023-03-17-openai-and-openresearch-authors-publish-gpts-are-gpts-on-occupational-exposure-to-llms">Appendix
+C2. 2023-03-17: OpenAI and OpenResearch authors publish GPTs are GPTs on
+occupational exposure to LLMs</h3>
+<p><strong>Event summary:</strong> OpenAI and OpenResearch authors
+publish GPTs are GPTs on occupational exposure to LLMs <strong>Event
+date:</strong> 2023-03-17 <strong>Source support:</strong> <a
+href="#appendix-a2-gpts-are-gpts-an-early-look-at-the-labor-market-impact-potential-of-large-language-models">Appendix
+A2</a> <strong>Corpus companion entry:</strong> Event T-023
+<strong>Audit Event ID:</strong>
+<code>event-gpts-are-gpts-2023-03-17</code></p>
+<h3
+id="appendix-c3-2023-05-24-the-u-s-department-of-education-releases-its-ai-teaching-and-learning-recommendations">Appendix
+C3. 2023-05-24: The U.S. Department of Education releases its AI
+teaching-and-learning recommendations</h3>
+<p><strong>Event summary:</strong> The U.S. Department of Education
+releases its AI teaching-and-learning recommendations <strong>Event
+date:</strong> 2023-05-24 <strong>Source support:</strong> <a
+href="#appendix-a1-artificial-intelligence-and-the-future-of-teaching-and-learning-insights-and-recommendations">Appendix
+A1</a> <strong>Corpus companion entry:</strong> Event T-024
+<strong>Audit Event ID:</strong>
+<code>event-us-ed-ai-report-2023-05-24</code></p>
+<h3
+id="appendix-c4-2023-12-14-wired-documents-bunker-like-features-secrecy-controls-and-self-sufficiency-planning-at-zuckerberg-s-kauai-compound">Appendix
+C4. 2023-12-14: WIRED documents bunker-like features, secrecy controls,
+and self-sufficiency planning…</h3>
+<p><strong>Event summary:</strong> WIRED documents bunker-like features,
+secrecy controls, and self-sufficiency planning at Zuckerberg’s Kauai
+compound <strong>Event date:</strong> 2023-12-14 <strong>Source
+support:</strong> <a
+href="#appendix-a6-inside-mark-zuckerbergs-top-secret-hawaii-compound">Appendix
+A6</a> <strong>Corpus companion entry:</strong> Event T-035
+<strong>Audit Event ID:</strong>
+<code>event-wired-zuckerberg-kauai-compound-2023-12-14</code></p>
+<h3
+id="appendix-c5-2024-01-14-the-imf-publishes-gen-ai-artificial-intelligence-and-the-future-of-work">Appendix
+C5. 2024-01-14: The IMF publishes Gen-AI: Artificial Intelligence and
+the Future of Work</h3>
+<p><strong>Event summary:</strong> The IMF publishes Gen-AI: Artificial
+Intelligence and the Future of Work <strong>Event date:</strong>
+2024-01-14 <strong>Source support:</strong> <a
+href="#appendix-a4-gen-ai-artificial-intelligence-and-the-future-of-work">Appendix
+A4</a> <strong>Corpus companion entry:</strong> Event T-036
+<strong>Audit Event ID:</strong>
+<code>event-imf-gen-ai-work-2024-01-14</code></p>
+<h3
+id="appendix-c6-2024-02-13-researchers-publish-computing-power-and-the-governance-of-artificial-intelligence-on-arxiv">Appendix
+C6. 2024-02-13: Researchers publish Computing Power and the Governance
+of Artificial Intelligence on…</h3>
+<p><strong>Event summary:</strong> Researchers publish Computing Power
+and the Governance of Artificial Intelligence on arXiv <strong>Event
+date:</strong> 2024-02-13 <strong>Source support:</strong> <a
+href="#appendix-a3-computing-power-and-the-governance-of-artificial-intelligence">Appendix
+A3</a> <strong>Corpus companion entry:</strong> Event T-042
+<strong>Audit Event ID:</strong>
+<code>event-compute-governance-paper-2024-02-13</code></p>
+<h3
+id="appendix-c7-2026-01-01-dario-amodei-publicly-warns-of-ai-driven-wealth-concentration-and-describes-anthropic-s-80-wealth-pledge">Appendix
+C7. 2026-01-01: Dario Amodei publicly warns of AI-driven wealth
+concentration and describes Anthropic…</h3>
+<p><strong>Event summary:</strong> Dario Amodei publicly warns of
+AI-driven wealth concentration and describes Anthropic’s 80% wealth
+pledge <strong>Event date:</strong> 2026-01-01 <strong>Source
+support:</strong> <a
+href="#appendix-a11-the-adolescence-of-technology">Appendix A11</a>
+<strong>Corpus companion entry:</strong> Event T-086 <strong>Audit Event
+ID:</strong>
+<code>event-dario-adolescence-technology-2026-01-01</code></p>
+<h2 id="appendix-d.-relevant-entities">Appendix D. Relevant
+Entities</h2>
+<h3
+id="appendix-d1-u-s-department-of-education-office-of-educational-technology">Appendix
+D1. U.S. Department of Education, Office of Educational Technology</h3>
+<p><strong>Entity type:</strong> government <strong>Role in this
+paper:</strong> Actor relevant to 09_future_if_unchecked,
+10_counterstrategy_response_agenda. <strong>Relevant sources in this
+paper:</strong> <a
+href="#appendix-a1-artificial-intelligence-and-the-future-of-teaching-and-learning-insights-and-recommendations">Appendix
+A1</a> <strong>Corpus companion entry:</strong> Entity E-038
+<strong>Audit Entity ID:</strong> <code>org-us-ed-oet</code></p>
+<h3 id="appendix-d2-ai-compute-chokepoints">Appendix D2. AI compute
+chokepoints</h3>
+<p><strong>Entity type:</strong> infrastructure <strong>Role in this
+paper:</strong> Actor relevant to 09_future_if_unchecked,
+10_counterstrategy_response_agenda. <strong>Relevant sources in this
+paper:</strong> <a
+href="#appendix-a3-computing-power-and-the-governance-of-artificial-intelligence">Appendix
+A3</a> <strong>Corpus companion entry:</strong> Entity E-002
+<strong>Audit Entity ID:</strong>
+<code>concept-ai-compute-chokepoint</code></p>
+<h3 id="appendix-d3-international-monetary-fund">Appendix D3.
+International Monetary Fund</h3>
+<p><strong>Entity type:</strong> multilateral <strong>Role in this
+paper:</strong> Actor relevant to 09_future_if_unchecked.
+<strong>Relevant sources in this paper:</strong> <a
+href="#appendix-a4-gen-ai-artificial-intelligence-and-the-future-of-work">Appendix
+A4</a> <strong>Corpus companion entry:</strong> Entity E-020
+<strong>Audit Entity ID:</strong> <code>org-imf</code></p>
+<h3 id="appendix-d4-dario-amodei">Appendix D4. Dario Amodei</h3>
+<p><strong>Entity type:</strong> person <strong>Role in this
+paper:</strong> Actor relevant to 08_power_networks_legitimacy_capture,
+09_future_if_unchecked, 10_counterstrategy_response_agenda.
+<strong>Relevant sources in this paper:</strong> <a
+href="#appendix-a11-the-adolescence-of-technology">Appendix A11</a>
+<strong>Corpus companion entry:</strong> Entity E-044 <strong>Audit
+Entity ID:</strong> <code>person-dario-amodei</code></p>
+<h3 id="appendix-d5-mark-zuckerberg">Appendix D5. Mark Zuckerberg</h3>
+<p><strong>Entity type:</strong> person <strong>Role in this
+paper:</strong> Actor relevant to 05_talent_hoarding_section174_layoffs,
+08_power_networks_legitimacy_capture, 09_future_if_unchecked,
+12_cambridge_analytica_meta_metaverse_rebrand. <strong>Relevant sources
+in this paper:</strong> <a
+href="#appendix-a13-mark-zuckerberg-s-message-to-meta-employees">Appendix
+A13</a>, <a
+href="#appendix-a6-inside-mark-zuckerbergs-top-secret-hawaii-compound">Appendix
+A6</a>, <a
+href="#appendix-a7-mark-zuckerberg-downplays-his-5-000-square-foot-underground-bunker-in-hawaii-just-a-little-shelter">Appendix
+A7</a> <strong>Corpus companion entry:</strong> Entity E-054
+<strong>Audit Entity ID:</strong>
+<code>person-mark-zuckerberg</code></p>
+<h3 id="appendix-d6-peter-thiel">Appendix D6. Peter Thiel</h3>
+<p><strong>Entity type:</strong> person <strong>Role in this
+paper:</strong> Actor relevant to 01_surveillance_capitalism,
+08_power_networks_legitimacy_capture, 09_future_if_unchecked,
+11_facebook_thiel_intelligence_adjacency. <strong>Relevant sources in
+this paper:</strong> <a
+href="#appendix-a8-why-silicon-valley-billionaires-are-prepping-for-the-apocalypse-in-new-zealand">Appendix
+A8</a>, <a
+href="#appendix-a9-new-zealand-woos-the-wealthy-with-golden-visa-changes">Appendix
+A9</a> <strong>Corpus companion entry:</strong> Entity E-058
+<strong>Audit Entity ID:</strong> <code>person-peter-thiel</code></p>
+<h3 id="appendix-d7-sam-altman">Appendix D7. Sam Altman</h3>
+<p><strong>Entity type:</strong> person <strong>Role in this
+paper:</strong> Actor relevant to
+07_export_controls_compute_defense_access,
+08_power_networks_legitimacy_capture, 09_future_if_unchecked,
+10_counterstrategy_response_agenda and others. <strong>Relevant sources
+in this paper:</strong> <a
+href="#appendix-a15-openais-proposals-for-the-us-ai-action-plan">Appendix
+A15</a>, <a href="#appendix-a5-sam-altman-s-manifest-destiny">Appendix
+A5</a> <strong>Corpus companion entry:</strong> Entity E-059
+<strong>Audit Entity ID:</strong> <code>person-sam-altman</code></p>
+<h2 id="appendix-e.-evidence-boundaries">Appendix E. Evidence
+Boundaries</h2>
+<h3 id="appendix-e1-disputed-matters">Appendix E1. Disputed Matters</h3>
+<ul>
+<li>None registered for this paper.</li>
+</ul>
+<h3 id="appendix-e2-interpretive-boundaries">Appendix E2. Interpretive
+Boundaries</h3>
+<ul>
+<li><a
+href="#appendix-b32-the-legitimacy-field-around-frontier-ai-is-now-reinforced-not-only-by-boards-pol">Appendix
+B32</a>: That the legitimacy field around frontier AI is now reinforced
+not only by boards, policy essays, and lobbying, but by operational
+state interfaces that normalize privileged access and public-private
+dependence.</li>
+<li><a
+href="#appendix-b33-the-continuity-scenario-includes-asymmetry-of-fallback-and-exit-with-elite-actor">Appendix
+B33</a>: That the continuity scenario includes asymmetry of fallback and
+exit, with elite actors purchasing redundancy while ordinary users are
+asked to normalize dependence.</li>
+<li><a
+href="#appendix-b34-if-current-platform-habits-labor-structures-and-compute-chokepoints-continue-re">Appendix
+B34</a>: That if current platform habits, labor structures, and compute
+chokepoints continue reinforcing one another, the most credible
+continuity scenario is dependency, access hierarchy, and weaker
+cognitive sovereignty.</li>
+</ul>
+<h3 id="appendix-e3-speculative-narrative-risks">Appendix E3.
+Speculative Narrative Risks</h3>
+<ul>
+<li><a
+href="#appendix-b35-bunker-ownership-survival-planning-or-retreat-architecture-prove-elite-foreknow">Appendix
+B35</a>: That bunker ownership, survival planning, or retreat
+architecture prove elite foreknowledge of imminent collapse or that
+frontier firms are knowingly engineering it.</li>
+<li><a
+href="#appendix-b36-founder-philanthropy-or-public-warnings-about-concentration-prove-elite-foreknowl">Appendix
+B36</a>: That founder philanthropy or public warnings about
+concentration prove elite foreknowledge of imminent collapse or absolve
+frontier firms of responsibility.</li>
+<li><a
+href="#appendix-b37-the-continuity-scenario-is-a-fixed-prophecy-of-inevitable-collapse-rather-than-a">Appendix
+B37</a>: That the continuity scenario is a fixed prophecy of inevitable
+collapse rather than a political trajectory that could still be altered
+by institutional reform.</li>
+<li><a
+href="#appendix-b38-peter-thiel-s-new-zealand-retreat-logic-ideological-associations-and-political">Appendix
+B38</a>: That Peter Thiel’s New Zealand retreat logic, ideological
+associations, and political ties prove a unified hidden command chain
+linking platform governance, Palantir, and civilizational collapse
+planning.</li>
+</ul>
+<h3 id="appendix-e4-sensitive-or-review-worthy-note-flags">Appendix E4.
+Sensitive or Review-Worthy Note Flags</h3>
+<ul>
+<li><a href="#appendix-a10-annual-economic-report-2026">Appendix
+A10</a>. Companion note: Note N-043. Risk flag: review. Note focus: That
+a primary multilateral financial institution explicitly warned in June
+2026 that the AI capex race was outrunning earnings and free cash
+flow.</li>
+<li><a href="#appendix-a11-the-adolescence-of-technology">Appendix
+A11</a>. Companion note: Note N-084. Risk flag: review. Note focus: That
+by January 1, 2026, Anthropic’s own CEO publicly described wealth
+concentration, backlash, and democratic erosion as serious AI-adjacent
+risks.</li>
+<li><a href="#appendix-a5-sam-altman-s-manifest-destiny">Appendix
+A5</a>. Companion note: Note N-089. Risk flag: review. Note focus: That
+by October 3, 2016 Sam Altman publicly described maintaining a
+survival-prep cache and a New Zealand fallback with Peter Thiel.</li>
+<li><a
+href="#appendix-a7-mark-zuckerberg-downplays-his-5-000-square-foot-underground-bunker-in-hawaii-just-a-little-shelter">Appendix
+A7</a>. Companion note: Note N-094. Risk flag: review. Note focus: That
+Zuckerberg publicly minimized the compound’s bunker framing after the
+earlier investigation.</li>
+<li><a
+href="#appendix-a6-inside-mark-zuckerbergs-top-secret-hawaii-compound">Appendix
+A6</a>. Companion note: Note N-097. Risk flag: review. Note focus: That
+a serious <code>T2</code> investigation documented bunker-like features,
+strong secrecy controls, and private redundancy architecture at
+Zuckerberg’s Kauai compound by December 2023.</li>
+<li><a
+href="#appendix-a3-computing-power-and-the-governance-of-artificial-intelligence">Appendix
+A3</a>. Companion note: Note N-098. Risk flag: review. Note focus: That
+access hierarchy in frontier AI is materially tied to compute
+concentration and not only to abstract innovation differences.</li>
+<li><a href="#appendix-a14-the-digital-sovereignty-imperative">Appendix
+A14</a>. Companion note: Note N-099. Risk flag: review. Note focus: That
+Dion Wiggins publicly frames sovereignty in survivability terms and
+links continuity to disguised dependency.</li>
+<li><a
+href="#appendix-a2-gpts-are-gpts-an-early-look-at-the-labor-market-impact-potential-of-large-language-models">Appendix
+A2</a>. Companion note: Note N-100. Risk flag: review. Note focus: That
+generative AI exposure reaches well beyond narrow routine clerical work
+and extends into professional and white-collar task bundles.</li>
+<li><a
+href="#appendix-a4-gen-ai-artificial-intelligence-and-the-future-of-work">Appendix
+A4</a>. Companion note: Note N-101. Risk flag: review. Note focus: That
+labor-market exposure to generative AI is systematically uneven across
+geography, occupation, and class position.</li>
+<li><a
+href="#appendix-a1-artificial-intelligence-and-the-future-of-teaching-and-learning-insights-and-recommendations">Appendix
+A1</a>. Companion note: Note N-102. Risk flag: review. Note focus: That
+a primary U.S. education authority already treated AI-mediated learning
+as a governance question rather than as a neutral productivity
+upgrade.</li>
+<li><a
+href="#appendix-a9-new-zealand-woos-the-wealthy-with-golden-visa-changes">Appendix
+A9</a>. Companion note: Note N-111. Risk flag: review. Note focus: That
+the Thiel/New Zealand strand can be grounded in a serious
+<code>T2</code> business-paper source, not only in contextual
+essays.</li>
+<li><a
+href="#appendix-a8-why-silicon-valley-billionaires-are-prepping-for-the-apocalypse-in-new-zealand">Appendix
+A8</a>. Companion note: Note N-112. Risk flag: review. Note focus: That
+by early 2018 New Zealand was already a publicly legible
+elite-safe-haven trope in Silicon Valley collapse-prep discourse.</li>
+</ul>
+<section id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Sources: U.S. Department of Education / ERIC, <a
+href="https://eric.ed.gov/?id=ED631097">Artificial Intelligence and the
+Futur…</a> (2023-05-24; see <a
+href="#appendix-a1-artificial-intelligence-and-the-future-of-teaching-and-learning-insights-and-recommendations">Appendix
+A1</a>); arXiv, <a href="https://arxiv.org/abs/2303.10130">GPTs are
+GPTs: An Early Look at the L…</a> (2023-03-17; see <a
+href="#appendix-a2-gpts-are-gpts-an-early-look-at-the-labor-market-impact-potential-of-large-language-models">Appendix
+A2</a>); arXiv, <a href="https://arxiv.org/abs/2402.08797">Computing
+Power and the Governance of…</a> (2024-02-13; see <a
+href="#appendix-a3-computing-power-and-the-governance-of-artificial-intelligence">Appendix
+A3</a>)<a href="#fnref1" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Sources: U.S. Department of Education / ERIC, <a
+href="https://eric.ed.gov/?id=ED631097">Artificial Intelligence and the
+Futur…</a> (2023-05-24; see <a
+href="#appendix-a1-artificial-intelligence-and-the-future-of-teaching-and-learning-insights-and-recommendations">Appendix
+A1</a>); arXiv, <a href="https://arxiv.org/abs/2303.10130">GPTs are
+GPTs: An Early Look at the L…</a> (2023-03-17; see <a
+href="#appendix-a2-gpts-are-gpts-an-early-look-at-the-labor-market-impact-potential-of-large-language-models">Appendix
+A2</a>); arXiv, <a href="https://arxiv.org/abs/2402.08797">Computing
+Power and the Governance of…</a> (2024-02-13; see <a
+href="#appendix-a3-computing-power-and-the-governance-of-artificial-intelligence">Appendix
+A3</a>)<a href="#fnref2" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Sources: U.S. Department of Education / ERIC, <a
+href="https://eric.ed.gov/?id=ED631097">Artificial Intelligence and the
+Futur…</a> (2023-05-24; see <a
+href="#appendix-a1-artificial-intelligence-and-the-future-of-teaching-and-learning-insights-and-recommendations">Appendix
+A1</a>)<a href="#fnref3" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Sources: arXiv, <a
+href="https://arxiv.org/abs/2303.10130">GPTs are GPTs: An Early Look at
+the L…</a> (2023-03-17; see <a
+href="#appendix-a2-gpts-are-gpts-an-early-look-at-the-labor-market-impact-potential-of-large-language-models">Appendix
+A2</a>); IMF, <a
+href="https://www.imf.org/en/publications/staff-discussion-notes/issues/2024/01/14/gen-ai-artificial-intelligence-and-the-future-of-work-542379">Gen-AI:
+Artificial Intelligence and t…</a> (2024-01-14; see <a
+href="#appendix-a4-gen-ai-artificial-intelligence-and-the-future-of-work">Appendix
+A4</a>)<a href="#fnref4" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Sources: arXiv, <a
+href="https://arxiv.org/abs/2402.08797">Computing Power and the
+Governance of…</a> (2024-02-13; see <a
+href="#appendix-a3-computing-power-and-the-governance-of-artificial-intelligence">Appendix
+A3</a>)<a href="#fnref5" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>Sources: Tad Friend, <a
+href="https://www.newyorker.com/magazine/2016/10/10/sam-altmans-manifest-destiny">Sam
+Altman’s Manifest Destiny</a> (2016-10-03; see <a
+href="#appendix-a5-sam-altman-s-manifest-destiny">Appendix A5</a>);
+Makena Kelly, <a
+href="https://www.wired.com/story/mark-zuckerberg-inside-hawaii-compound">Inside
+Mark Zuckerberg’s Top-Secret H…</a> (2023-12-14; see <a
+href="#appendix-a6-inside-mark-zuckerbergs-top-secret-hawaii-compound">Appendix
+A6</a>); Charlotte Phillipp, <a
+href="https://people.com/mark-zuckerberg-hawaii-bunker-5000-square-feet-8765376">Mark
+Zuckerberg Downplays His 5,000-S…</a> (2024-12-20; see <a
+href="#appendix-a7-mark-zuckerberg-downplays-his-5-000-square-foot-underground-bunker-in-hawaii-just-a-little-shelter">Appendix
+A7</a>); Mark O’Connell, <a
+href="https://www.theguardian.com/news/2018/feb/15/why-silicon-valley-billionaires-are-prepping-for-the-apocalypse-in-new-zealand">Why
+Silicon Valley billionaires are p…</a> (2018-02-15; see <a
+href="#appendix-a8-why-silicon-valley-billionaires-are-prepping-for-the-apocalypse-in-new-zealand">Appendix
+A8</a>); Rebecca Rose, <a
+href="https://www.ft.com/content/76ca455c-3b16-4413-8738-3f17431d125b">New
+Zealand woos the wealthy with ‘go…</a> (2025-09-24; see <a
+href="#appendix-a9-new-zealand-woos-the-wealthy-with-golden-visa-changes">Appendix
+A9</a>)<a href="#fnref6" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>Sources: Bank for International Settlements, <a
+href="https://www.bis.org/publ/arpdf/ar2026e.pdf">Annual Economic Report
+2026</a> (2026-06-28; see <a
+href="#appendix-a10-annual-economic-report-2026">Appendix A10</a>);
+Dario Amodei, <a
+href="https://darioamodei.com/essay/the-adolescence-of-technology">The
+Adolescence of Technology</a> (2026-01-01; see <a
+href="#appendix-a11-the-adolescence-of-technology">Appendix A11</a>)<a
+href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>Sources: FTC, <a
+href="https://www.ftc.gov/reports/look-behind-screens-examining-data-practices-social-media-video-streaming-services">A
+Look Behind the Screens: Examining…</a> (n.d.; see <a
+href="#appendix-a12-a-look-behind-the-screens-examining-the-data-practices-of-social-media-and-video-streaming-services">Appendix
+A12</a>); Meta, <a
+href="https://about.fb.com/news/2023/03/mark-zuckerberg-meta-year-of-efficiency/">Mark
+Zuckerberg’s Message to Meta Emp…</a> (2023-03-14; see <a
+href="#appendix-a13-mark-zuckerberg-s-message-to-meta-employees">Appendix
+A13</a>); arXiv, <a href="https://arxiv.org/abs/2402.08797">Computing
+Power and the Governance of…</a> (2024-02-13; see <a
+href="#appendix-a3-computing-power-and-the-governance-of-artificial-intelligence">Appendix
+A3</a>); Dario Amodei, <a
+href="https://darioamodei.com/essay/the-adolescence-of-technology">The
+Adolescence of Technology</a> (2026-01-01; see <a
+href="#appendix-a11-the-adolescence-of-technology">Appendix A11</a>);
+Dion Wiggins, <a href="https://digitalsovereigntyimperative.com/">The
+Digital Sovereignty Imperative</a> (n.d.; see <a
+href="#appendix-a14-the-digital-sovereignty-imperative">Appendix
+A14</a>)<a href="#fnref8" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>Sources: U.S. Department of Education / ERIC, <a
+href="https://eric.ed.gov/?id=ED631097">Artificial Intelligence and the
+Futur…</a> (2023-05-24; see <a
+href="#appendix-a1-artificial-intelligence-and-the-future-of-teaching-and-learning-insights-and-recommendations">Appendix
+A1</a>); IMF, <a
+href="https://www.imf.org/en/publications/staff-discussion-notes/issues/2024/01/14/gen-ai-artificial-intelligence-and-the-future-of-work-542379">Gen-AI:
+Artificial Intelligence and t…</a> (2024-01-14; see <a
+href="#appendix-a4-gen-ai-artificial-intelligence-and-the-future-of-work">Appendix
+A4</a>)<a href="#fnref9" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p>Sources: U.S. Department of Education / ERIC, <a
+href="https://eric.ed.gov/?id=ED631097">Artificial Intelligence and the
+Futur…</a> (2023-05-24; see <a
+href="#appendix-a1-artificial-intelligence-and-the-future-of-teaching-and-learning-insights-and-recommendations">Appendix
+A1</a>); IMF, <a
+href="https://www.imf.org/en/publications/staff-discussion-notes/issues/2024/01/14/gen-ai-artificial-intelligence-and-the-future-of-work-542379">Gen-AI:
+Artificial Intelligence and t…</a> (2024-01-14; see <a
+href="#appendix-a4-gen-ai-artificial-intelligence-and-the-future-of-work">Appendix
+A4</a>)<a href="#fnref10" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p>Sources: FTC, <a
+href="https://www.ftc.gov/reports/look-behind-screens-examining-data-practices-social-media-video-streaming-services">A
+Look Behind the Screens: Examining…</a> (n.d.; see <a
+href="#appendix-a12-a-look-behind-the-screens-examining-the-data-practices-of-social-media-and-video-streaming-services">Appendix
+A12</a>); OpenAI, <a
+href="https://openai.com/global-affairs/openai-proposals-for-the-us-ai-action-plan/">OpenAI’s
+proposals for the U.S. AI Ac…</a> (2025-03-13; see <a
+href="#appendix-a15-openais-proposals-for-the-us-ai-action-plan">Appendix
+A15</a>); arXiv, <a href="https://arxiv.org/abs/2402.08797">Computing
+Power and the Governance of…</a> (2024-02-13; see <a
+href="#appendix-a3-computing-power-and-the-governance-of-artificial-intelligence">Appendix
+A3</a>)<a href="#fnref11" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+</body>
+</html>

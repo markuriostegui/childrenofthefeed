@@ -1,0 +1,1387 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\documentclass[
+  american,
+  11pt,
+  letterpaper,
+]{article}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{5}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\ifLuaTeX
+\usepackage[bidi=basic,shorthands=off]{babel}
+\else
+\usepackage[bidi=default,shorthands=off]{babel}
+\fi
+\ifLuaTeX
+  \usepackage{selnolig} % disable illegal ligatures
+\fi
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage[hang,flushmargin,bottom]{footmisc}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{caption}
+
+\setstretch{1.08}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.7em}
+\setlength{\footnotesep}{0.7em}
+\interfootnotelinepenalty=10000
+\emergencystretch=2em
+\raggedbottom
+
+\setlist[itemize]{leftmargin=1.5em, itemsep=0.45em, topsep=0.45em}
+\setlist[enumerate]{leftmargin=1.8em, itemsep=0.45em, topsep=0.45em}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\nouppercase{\leftmark}}
+\fancyhead[R]{AI Empire Research Papers}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{2}
+\renewcommand{\contentsname}{Paper Roadmap}
+
+\titleformat{\section}{\Large\bfseries}{\thesection.}{0.65em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection.}{0.6em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries}{\thesubsubsection.}{0.55em}{}
+
+\captionsetup{font=small, labelfont=bf}
+\AtBeginEnvironment{longtable}{\small}
+
+\AtBeginDocument{
+  \hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=black,
+    urlcolor=blue
+  }
+}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+% fallback for those not using the hyperref driver hyperxmp:
+\makeatletter
+\@ifundefined{xmpquote}{\newcommand{\xmpquote}[1]{#1}}{}
+\makeatother
+\hypersetup{
+  pdftitle={Chapter 05: Talent{,} Overhiring{,} Valuation{,} and Layoffs},
+  pdflang={en-US},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Chapter 05: Talent, Overhiring, Valuation, and Layoffs}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{From Surveillance Capitalism to AI Imperialism \textbar{}
+Chapter 05: Talent, overhiring, valuation, and layoffs}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\subsection{Abstract}\label{abstract}
+
+The cleanest version of the layoffs story is not that AI suddenly made
+technical labor obsolete. Section 174 is a real structural factor. If
+this reading holds, then the AI boom is also a class story.
+
+\subsection{Keywords}\label{keywords}
+
+Talent, overhiring, valuation, and layoffs; surveillance capitalism; AI
+imperialism; evidence-based dossier
+
+\subsection{Research Question}\label{research-question}
+
+How does talent, overhiring, valuation, and layoffs function within the
+dossier's larger argument, and what does the documentary record allow
+this chapter to establish?
+
+\subsection{Scope and Framing Note}\label{scope-and-framing-note}
+
+This paper examines talent, overhiring, valuation, and layoffs within
+the broader dossier \emph{From Surveillance Capitalism to AI
+Imperialism}. It is intentionally written to circulate on its own:
+necessary context is restated, evidence boundaries are made explicit,
+and cited material is reproduced in paper-local form rather than
+delegated to repo navigation. It contributes to the series as a paper
+that connects the enclosure story to labor correction, balance-sheet
+pressure, and the financial narratives that stabilized layoffs. Adjacent
+reinforcement appears in Chapter 04, Chapter 06, Chapter 09, but those
+cross-references are supportive rather than required for basic
+comprehension.
+
+\subsection{Central Thesis}\label{central-thesis}
+
+The cleanest version of the layoffs story is not that AI suddenly made
+technical labor obsolete. It is that AI arrived as the legitimizing
+language for a correction that already had deeper causes: pandemic-era
+overhiring, higher rates, margin pressure, weaker demand, and the tax
+treatment of research and software spending. The cuts were not born from
+one machine. They were narrated through one. \footnote{Sources: Internal
+  Revenue Service,
+  \href{https://www.irs.gov/pub/irs-drop/n-23-63.pdf}{Notice 2023-63:
+  Guidance on Section 1\ldots{}} (2023-09-08; see
+  \hyperref[appendix-a1-notice-2023-63-guidance-on-section-174-and-specified-research-or-experimental-expenditures]{Appendix
+  A1}); Associated Press,
+  \href{https://apnews.com/article/bbb2f3a09eafdfc7cda54a3b87e538ad}{Amazon,
+  Salesforce jettison jobs in l\ldots{}} (2023-01-04; see
+  \hyperref[appendix-a2-amazon-salesforce-jettison-jobs-in-latest-tech-worker-purge]{Appendix
+  A2}); Meta,
+  \href{https://about.fb.com/news/2023/03/mark-zuckerberg-meta-year-of-efficiency/}{Mark
+  Zuckerberg's Message to Meta Emp\ldots{}} (2023-03-14; see
+  \hyperref[appendix-a3-mark-zuckerberg-s-message-to-meta-employees]{Appendix
+  A3}); Financial Times,
+  \href{https://www.ft.com/content/0b14d871-2d19-46f1-9660-5466301e8066}{AI
+  exuberance masks broad weakness in\ldots{}} (2024-09-09; see
+  \hyperref[appendix-a4-ai-exuberance-masks-broad-weakness-in-tech-sector-say-investors]{Appendix
+  A4})}
+
+\subsection{Evidence and Method Note}\label{evidence-and-method-note}
+
+This paper is derived from the chapter corpus for Chapter 05 and is
+grounded in the project's structured research OS. It relies on source
+notes, extracted claims, entity profiles, and timeline events already
+normalized under the dossier's evidence hierarchy. Documented facts are
+asserted directly where the record supports them; disputed matters are
+marked as such; interpretive claims are bounded explicitly; and
+speculative overreach is isolated in the evidence-boundary appendix.
+
+\subsection{Introduction}\label{introduction}
+
+This paper asks: How does talent, overhiring, valuation, and layoffs
+function within the dossier's larger argument, and what does the
+documentary record allow this chapter to establish? Its working answer
+is clear from the start: The cleanest version of the layoffs story is
+not that AI suddenly made technical labor obsolete. It is that AI
+arrived as the legitimizing language for a correction that already had
+deeper causes: pandemic-era overhiring, higher rates, margin pressure,
+weaker demand, and the tax treatment of research and software spending.
+The cuts were not born from one machine. They were narrated through one.
+\footnote{Sources: Internal Revenue Service,
+  \href{https://www.irs.gov/pub/irs-drop/n-23-63.pdf}{Notice 2023-63:
+  Guidance on Section 1\ldots{}} (2023-09-08; see
+  \hyperref[appendix-a1-notice-2023-63-guidance-on-section-174-and-specified-research-or-experimental-expenditures]{Appendix
+  A1}); Associated Press,
+  \href{https://apnews.com/article/bbb2f3a09eafdfc7cda54a3b87e538ad}{Amazon,
+  Salesforce jettison jobs in l\ldots{}} (2023-01-04; see
+  \hyperref[appendix-a2-amazon-salesforce-jettison-jobs-in-latest-tech-worker-purge]{Appendix
+  A2}); Meta,
+  \href{https://about.fb.com/news/2023/03/mark-zuckerberg-meta-year-of-efficiency/}{Mark
+  Zuckerberg's Message to Meta Emp\ldots{}} (2023-03-14; see
+  \hyperref[appendix-a3-mark-zuckerberg-s-message-to-meta-employees]{Appendix
+  A3}); Financial Times,
+  \href{https://www.ft.com/content/0b14d871-2d19-46f1-9660-5466301e8066}{AI
+  exuberance masks broad weakness in\ldots{}} (2024-09-09; see
+  \hyperref[appendix-a4-ai-exuberance-masks-broad-weakness-in-tech-sector-say-investors]{Appendix
+  A4})} The objective is not only to recount developments, but to show
+why the subject of this chapter belongs inside a structural argument
+about extraction, enclosure, legitimacy, and reform.
+
+\subsection{Historical or Institutional
+Context}\label{historical-or-institutional-context}
+
+Section \texttt{174} is a real structural factor. IRS guidance and
+congressional repair efforts show that domestic research and software
+expenses were caught in a more punitive amortization regime after 2021,
+and Congress itself treated the burden as significant enough to attempt
+reversal. This is not the whole story, but it is not rhetorical
+decoration either. \footnote{Sources: Internal Revenue Service,
+  \href{https://www.irs.gov/pub/irs-drop/n-23-63.pdf}{Notice 2023-63:
+  Guidance on Section 1\ldots{}} (2023-09-08; see
+  \hyperref[appendix-a1-notice-2023-63-guidance-on-section-174-and-specified-research-or-experimental-expenditures]{Appendix
+  A1}); Congress.gov,
+  \href{https://www.congress.gov/bill/118th-congress/house-bill/7024}{H.R.
+  7024: Tax Relief for American Fa\ldots{}} (2024-01-16; see
+  \hyperref[appendix-a5-h-r-7024-tax-relief-for-american-families-and-workers-act-of-2024]{Appendix
+  A5}); Congress.gov / CRS,
+  \href{https://www.congress.gov/bill/118th-congress/house-bill/7024}{H.R.
+  7024: Tax Relief for American Fa\ldots{}} (2024-01-31; see
+  \hyperref[appendix-a6-h-r-7024-tax-relief-for-american-families-and-workers-act-of-2024-crs-summary]{Appendix
+  A6}); Congress.gov / Library of Congress,
+  \href{https://www.congress.gov/bill/118th-congress/house-bill/7024/text}{H.R.
+  7024 text: Deduction for domesti\ldots{}} (2024-03-21; see
+  \hyperref[appendix-a7-h-r-7024-text-deduction-for-domestic-research-and-experimental-expenditures]{Appendix
+  A7})}
+
+\subsection{Main Analysis}\label{main-analysis}
+
+The post-pandemic overhiring record is also strong. Executive statements
+and major reporting across Meta, Amazon, and Salesforce show a later
+turn toward efficiency, focus, and cost discipline after an earlier
+period of aggressive expansion. \footnote{Sources: Meta,
+  \href{https://about.fb.com/news/2023/03/mark-zuckerberg-meta-year-of-efficiency/}{Mark
+  Zuckerberg's Message to Meta Emp\ldots{}} (2023-03-14; see
+  \hyperref[appendix-a3-mark-zuckerberg-s-message-to-meta-employees]{Appendix
+  A3}); Associated Press,
+  \href{https://apnews.com/article/b884c9ac96be1c22f81d7243176a321d}{Meta
+  posts lower Q4 profit, announces\ldots{}} (2023-02-01; see
+  \hyperref[appendix-a8-meta-posts-lower-q4-profit-announces-huge-stock-buyback]{Appendix
+  A8}); Associated Press,
+  \href{https://apnews.com/article/abc3e389d97fb97c661ccb6acfcf65c7}{Meta
+  posts sharp profit, revenue incr\ldots{}} (2024-02-01; see
+  \hyperref[appendix-a9-meta-posts-sharp-profit-revenue-increase-in-q4-thanks-to-cost-cuts-and-advertising-rebound]{Appendix
+  A9}); Associated Press,
+  \href{https://apnews.com/article/bbb2f3a09eafdfc7cda54a3b87e538ad}{Amazon,
+  Salesforce jettison jobs in l\ldots{}} (2023-01-04; see
+  \hyperref[appendix-a2-amazon-salesforce-jettison-jobs-in-latest-tech-worker-purge]{Appendix
+  A2})}
+
+Top-tier reporting ties the broader correction to weaker demand, margin
+pressure, and investor impatience, not only to AI. That matters because
+it prevents a monocausal story. The financial correction was already
+underway before AI became the universal explanation for it. \footnote{Sources:
+  Financial Times,
+  \href{https://www.ft.com/content/0b14d871-2d19-46f1-9660-5466301e8066}{AI
+  exuberance masks broad weakness in\ldots{}} (2024-09-09; see
+  \hyperref[appendix-a4-ai-exuberance-masks-broad-weakness-in-tech-sector-say-investors]{Appendix
+  A4}); Axios,
+  \href{https://www.axios.com/2024/01/03/tech-layoffs-google-microsoft-employees-impact-anxiety}{Big
+  Tech layoffs shattered industry,\ldots{}} (2024-01-03; see
+  \hyperref[appendix-a10-big-tech-layoffs-shattered-industry-worker-confidence]{Appendix
+  A10})}
+
+The BIS annual report adds the macro-financial layer. By June 2026, a
+major multilateral institution was openly warning that the AI capex race
+was outrunning earnings and free cash flow, with leverage and financing
+structures becoming part of the risk profile. The system was promising
+abundance while leaning on increasingly fragile financial scaffolding.
+\footnote{Sources: Bank for International Settlements,
+  \href{https://www.bis.org/publ/arpdf/ar2026e.pdf}{Annual Economic
+  Report 2026} (2026-06-28; see
+  \hyperref[appendix-a11-annual-economic-report-2026]{Appendix A11})}
+
+Interpretation: this is where the dossier's economic thesis sharpens. AI
+did not invent the correction, but it became the language through which
+it was justified. The same story that encloses captured human production
+also helps reclassify labor cuts as technological destiny instead of the
+outcome of financial structure, policy, and managerial excess. That
+interpretation supports Chapter \texttt{04} by showing how enclosure and
+labor subordination move together. \footnote{Sources: Meta,
+  \href{https://about.fb.com/news/2023/03/mark-zuckerberg-meta-year-of-efficiency/}{Mark
+  Zuckerberg's Message to Meta Emp\ldots{}} (2023-03-14; see
+  \hyperref[appendix-a3-mark-zuckerberg-s-message-to-meta-employees]{Appendix
+  A3}); Financial Times,
+  \href{https://www.ft.com/content/0b14d871-2d19-46f1-9660-5466301e8066}{AI
+  exuberance masks broad weakness in\ldots{}} (2024-09-09; see
+  \hyperref[appendix-a4-ai-exuberance-masks-broad-weakness-in-tech-sector-say-investors]{Appendix
+  A4}); Bank for International Settlements,
+  \href{https://www.bis.org/publ/arpdf/ar2026e.pdf}{Annual Economic
+  Report 2026} (2026-06-28; see
+  \hyperref[appendix-a11-annual-economic-report-2026]{Appendix A11})}
+
+\subsection{Position Within the
+Series}\label{position-within-the-series}
+
+This paper sits inside a coordinated 11-paper architecture. Its nearest
+companions are Chapter 04 (AI arrives when the human raw material
+already exists), Chapter 06 (AI as a dual-use rhetorical weapon),
+Chapter 09 (Future if no action is taken). In that series logic, Chapter
+05 connects the enclosure story to labor correction, balance-sheet
+pressure, and the financial narratives that stabilized layoffs.
+
+\subsection{Counterarguments}\label{counterarguments}
+
+This chapter should not imply that executives always lied when they
+invoked AI. Some reallocation toward AI was clearly real. The stronger,
+more defensible claim is narrower: AI provided a legitimizing narrative
+layered on top of a structural correction with multiple preexisting
+causes. \footnote{Sources: Meta,
+  \href{https://about.fb.com/news/2023/03/mark-zuckerberg-meta-year-of-efficiency/}{Mark
+  Zuckerberg's Message to Meta Emp\ldots{}} (2023-03-14; see
+  \hyperref[appendix-a3-mark-zuckerberg-s-message-to-meta-employees]{Appendix
+  A3}); Associated Press,
+  \href{https://apnews.com/article/bbb2f3a09eafdfc7cda54a3b87e538ad}{Amazon,
+  Salesforce jettison jobs in l\ldots{}} (2023-01-04; see
+  \hyperref[appendix-a2-amazon-salesforce-jettison-jobs-in-latest-tech-worker-purge]{Appendix
+  A2})}
+
+\subsection{Limits of the Evidence}\label{limits-of-the-evidence}
+
+This chapter should not imply that executives always lied when they
+invoked AI. Some reallocation toward AI was clearly real. The stronger,
+more defensible claim is narrower: AI provided a legitimizing narrative
+layered on top of a structural correction with multiple preexisting
+causes. \footnote{Sources: Meta,
+  \href{https://about.fb.com/news/2023/03/mark-zuckerberg-meta-year-of-efficiency/}{Mark
+  Zuckerberg's Message to Meta Emp\ldots{}} (2023-03-14; see
+  \hyperref[appendix-a3-mark-zuckerberg-s-message-to-meta-employees]{Appendix
+  A3}); Associated Press,
+  \href{https://apnews.com/article/bbb2f3a09eafdfc7cda54a3b87e538ad}{Amazon,
+  Salesforce jettison jobs in l\ldots{}} (2023-01-04; see
+  \hyperref[appendix-a2-amazon-salesforce-jettison-jobs-in-latest-tech-worker-purge]{Appendix
+  A2})}
+
+\subsection{Reform Relevance}\label{reform-relevance}
+
+If this reading holds, then the AI boom is also a class story. It
+narrows the protected tier, weakens the technical middle class, and
+presents downward pressure on labor as the rational price of the future.
+That strengthens the patrimony argument: a system built from collective
+human production is being enclosed while many of the humans who made it
+possible are told the future no longer needs them on equal terms.
+\footnote{Sources: Internal Revenue Service,
+  \href{https://www.irs.gov/pub/irs-drop/n-23-63.pdf}{Notice 2023-63:
+  Guidance on Section 1\ldots{}} (2023-09-08; see
+  \hyperref[appendix-a1-notice-2023-63-guidance-on-section-174-and-specified-research-or-experimental-expenditures]{Appendix
+  A1}); Bank for International Settlements,
+  \href{https://www.bis.org/publ/arpdf/ar2026e.pdf}{Annual Economic
+  Report 2026} (2026-06-28; see
+  \hyperref[appendix-a11-annual-economic-report-2026]{Appendix A11});
+  TwinChat,
+  \href{https://medium.com/twinchat/ai-copyright-weights-a-new-frontier-in-intellectual-property-law-d8ee1b6c55ee}{AI
+  Copyright Weights: A New Frontier\ldots{}} (n.d.; see
+  \hyperref[appendix-a12-ai-copyright-weights-a-new-frontier-in-intellectual-property-law]{Appendix
+  A12})}
+
+\subsection{Conclusion}\label{conclusion}
+
+If this reading holds, then the AI boom is also a class story. That
+contradiction sharpens in the next chapter. In the architecture of this
+series, Chapter 05 therefore functions as a self-contained argument
+while also advancing the cumulative path toward the dossier's three
+reforms.
+
+\subsection{Notes}\label{notes}
+
+This paper is designed to circulate independently. Public notes point
+readers to the real external documents first, then to the paper-local
+appendix entry that explains why each source matters.
+
+The underlying research OS distinguishes among
+\texttt{Documented\ Fact}, \texttt{Disputed\ Fact},
+\texttt{Hypothesis\ /\ Interpretation}, and
+\texttt{Speculative\ Narrative\ Risk}. In Chapter 05, those boundaries
+remain visible in the prose, in the bibliography, and in the appendix
+sections that summarize claims and caution points.
+
+\subsection{References / Bibliography}\label{references-bibliography}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Internal Revenue Service.
+  \href{https://www.irs.gov/pub/irs-drop/n-23-63.pdf}{Notice 2023-63:
+  Guidance on Section 174 and specified research or experimental
+  expenditures}. 2023-09-08. T1 official\_notice. Paper appendix:
+  \hyperref[appendix-a1-notice-2023-63-guidance-on-section-174-and-specified-research-or-experimental-expenditures]{Appendix
+  A1}. Corpus companion entry: Source S-075. Audit ID:
+  \texttt{irs-notice-2023-63}. Relevance: That Section 174 amortization
+  was not a rumor or niche accounting theory; it was the subject of
+  active IRS guidance.
+\item
+  Associated Press.
+  \href{https://apnews.com/article/bbb2f3a09eafdfc7cda54a3b87e538ad}{Amazon,
+  Salesforce jettison jobs in latest tech worker purge}. 2023-01-04. T2
+  news\_article. Paper appendix:
+  \hyperref[appendix-a2-amazon-salesforce-jettison-jobs-in-latest-tech-worker-purge]{Appendix
+  A2}. Corpus companion entry: Source S-008. Audit ID:
+  \texttt{ap-amazon-salesforce-tech-purge-2023}. Relevance: That major
+  tech layoffs were publicly tied to pandemic overexpansion and
+  deteriorating macro conditions.
+\item
+  Meta.
+  \href{https://about.fb.com/news/2023/03/mark-zuckerberg-meta-year-of-efficiency/}{Mark
+  Zuckerberg's Message to Meta Employees}. 2023-03-14. T1
+  company\_statement. Paper appendix:
+  \hyperref[appendix-a3-mark-zuckerberg-s-message-to-meta-employees]{Appendix
+  A3}. Corpus companion entry: Source S-082. Audit ID:
+  \texttt{meta-year-of-efficiency-2023}. Relevance: That Meta itself
+  framed layoffs as part of a structural response to financial
+  conditions and organizational inefficiency.
+\item
+  Financial Times.
+  \href{https://www.ft.com/content/0b14d871-2d19-46f1-9660-5466301e8066}{AI
+  exuberance masks broad weakness in tech sector, say investors}.
+  2024-09-09. T2 news\_analysis. Paper appendix:
+  \hyperref[appendix-a4-ai-exuberance-masks-broad-weakness-in-tech-sector-say-investors]{Appendix
+  A4}. Corpus companion entry: Source S-055. Audit ID:
+  \texttt{ft-ai-exuberance-tech-weakness-2024}. Relevance: That AI
+  enthusiasm did not eliminate the broader structural weakness of the
+  sector.
+\item
+  Congress.gov.
+  \href{https://www.congress.gov/bill/118th-congress/house-bill/7024}{H.R.
+  7024: Tax Relief for American Families and Workers Act of 2024}.
+  2024-01-16. T1 legislation. Paper appendix:
+  \hyperref[appendix-a5-h-r-7024-tax-relief-for-american-families-and-workers-act-of-2024]{Appendix
+  A5}. Corpus companion entry: Source S-042. Audit ID:
+  \texttt{congress-hr7024-tax-relief-2024}. Relevance: That Congress
+  formally moved to soften or reverse the immediate impact of Section
+  174 on domestic research expensing.
+\item
+  Congress.gov / CRS.
+  \href{https://www.congress.gov/bill/118th-congress/house-bill/7024}{H.R.
+  7024: Tax Relief for American Families and Workers Act of 2024 (CRS
+  summary)}. 2024-01-31. T1 legislative\_summary. Paper appendix:
+  \hyperref[appendix-a6-h-r-7024-tax-relief-for-american-families-and-workers-act-of-2024-crs-summary]{Appendix
+  A6}. Corpus companion entry: Source S-041. Audit ID:
+  \texttt{congress-hr7024-summary-2024}. Relevance: That Congress
+  formally treated the post-2021 Section 174 regime as burdensome enough
+  to warrant legislative reversal or postponement.
+\item
+  Congress.gov / Library of Congress.
+  \href{https://www.congress.gov/bill/118th-congress/house-bill/7024/text}{H.R.
+  7024 text: Deduction for domestic research and experimental
+  expenditures}. 2024-03-21. T1 bill\_text. Paper appendix:
+  \hyperref[appendix-a7-h-r-7024-text-deduction-for-domestic-research-and-experimental-expenditures]{Appendix
+  A7}. Corpus companion entry: Source S-043. Audit ID:
+  \texttt{congress-hr7024-text-2024}. Relevance: That the practical
+  Section 174 fight directly implicated software development, not only
+  laboratory research.
+\item
+  Associated Press.
+  \href{https://apnews.com/article/b884c9ac96be1c22f81d7243176a321d}{Meta
+  posts lower Q4 profit, announces huge stock buyback}. 2023-02-01. T2
+  news\_article. Paper appendix:
+  \hyperref[appendix-a8-meta-posts-lower-q4-profit-announces-huge-stock-buyback]{Appendix
+  A8}. Corpus companion entry: Source S-013. Audit ID:
+  \texttt{ap-meta-q4-2022-overhiring}. Relevance: That a major tech
+  company publicly linked layoffs to pandemic overhiring and slowing
+  post-lockdown growth.
+\item
+  Associated Press.
+  \href{https://apnews.com/article/abc3e389d97fb97c661ccb6acfcf65c7}{Meta
+  posts sharp profit, revenue increase in Q4 thanks to cost cuts and
+  advertising rebound}. 2024-02-01. T2 news\_article. Paper appendix:
+  \hyperref[appendix-a9-meta-posts-sharp-profit-revenue-increase-in-q4-thanks-to-cost-cuts-and-advertising-rebound]{Appendix
+  A9}. Corpus companion entry: Source S-014. Audit ID:
+  \texttt{ap-meta-q4-2023-year-of-efficiency}. Relevance: That Meta's
+  improved financial results were publicly tied to both cost cutting and
+  layoffs, not just to a magical AI turnaround.
+\item
+  Axios.
+  \href{https://www.axios.com/2024/01/03/tech-layoffs-google-microsoft-employees-impact-anxiety}{Big
+  Tech layoffs shattered industry, worker confidence}. 2024-01-03. T3
+  news\_analysis. Paper appendix:
+  \hyperref[appendix-a10-big-tech-layoffs-shattered-industry-worker-confidence]{Appendix
+  A10}. Corpus companion entry: Source S-034. Audit ID:
+  \texttt{axios-tech-layoffs-worker-confidence-2024}. Relevance: That
+  the layoff cycle was large enough to materially change worker
+  expectations across the sector.
+\item
+  Bank for International Settlements.
+  \href{https://www.bis.org/publ/arpdf/ar2026e.pdf}{Annual Economic
+  Report 2026}. 2026-06-28. T1 report. Paper appendix:
+  \hyperref[appendix-a11-annual-economic-report-2026]{Appendix A11}.
+  Corpus companion entry: Source S-036. Audit ID:
+  \texttt{bis-annual-economic-report-2026}. Relevance: That a primary
+  multilateral financial institution explicitly warned in June 2026 that
+  the AI capex race was outrunning earnings and free cash flow.
+\item
+  TwinChat.
+  \href{https://medium.com/twinchat/ai-copyright-weights-a-new-frontier-in-intellectual-property-law-d8ee1b6c55ee}{AI
+  Copyright Weights: A New Frontier in Intellectual Property Law}. n.d..
+  T3 essay. Paper appendix:
+  \hyperref[appendix-a12-ai-copyright-weights-a-new-frontier-in-intellectual-property-law]{Appendix
+  A12}. Corpus companion entry: Source S-122. Audit ID:
+  \texttt{twinchat-ai-copyright-weights}. Relevance: Supports a key
+  factual or interpretive move inside this paper.
+\end{enumerate}
+
+\subsection{Appendix A. Source Register for This
+Paper}\label{appendix-a.-source-register-for-this-paper}
+
+\subsubsection{Appendix A1. Notice 2023-63: Guidance on Section 174 and
+specified research or experimental
+expenditures}\label{appendix-a1-notice-2023-63-guidance-on-section-174-and-specified-research-or-experimental-expenditures}
+
+\textbf{Source citation:}
+\href{https://www.irs.gov/pub/irs-drop/n-23-63.pdf}{Notice 2023-63:
+Guidance on Section 174 and specified research or experimental
+expenditures} \textbf{Institution / author:} Internal Revenue Service
+\textbf{Date:} 2023-09-08 \textbf{Tier / type:} T1 / official\_notice
+\textbf{Why it matters in this paper:} That Section 174 amortization was
+not a rumor or niche accounting theory; it was the subject of active IRS
+guidance. \textbf{Corpus companion entry:} Source S-075 \textbf{Audit
+ID:} \texttt{irs-notice-2023-63}
+
+\subsubsection{Appendix A2. Amazon, Salesforce jettison jobs in latest
+tech worker
+purge}\label{appendix-a2-amazon-salesforce-jettison-jobs-in-latest-tech-worker-purge}
+
+\textbf{Source citation:}
+\href{https://apnews.com/article/bbb2f3a09eafdfc7cda54a3b87e538ad}{Amazon,
+Salesforce jettison jobs in latest tech worker purge}
+\textbf{Institution / author:} Associated Press \textbf{Date:}
+2023-01-04 \textbf{Tier / type:} T2 / news\_article \textbf{Why it
+matters in this paper:} That major tech layoffs were publicly tied to
+pandemic overexpansion and deteriorating macro conditions.
+\textbf{Corpus companion entry:} Source S-008 \textbf{Audit ID:}
+\texttt{ap-amazon-salesforce-tech-purge-2023}
+
+\subsubsection{Appendix A3. Mark Zuckerberg's Message to Meta
+Employees}\label{appendix-a3-mark-zuckerberg-s-message-to-meta-employees}
+
+\textbf{Source citation:}
+\href{https://about.fb.com/news/2023/03/mark-zuckerberg-meta-year-of-efficiency/}{Mark
+Zuckerberg's Message to Meta Employees} \textbf{Institution / author:}
+Meta \textbf{Date:} 2023-03-14 \textbf{Tier / type:} T1 /
+company\_statement \textbf{Why it matters in this paper:} That Meta
+itself framed layoffs as part of a structural response to financial
+conditions and organizational inefficiency. \textbf{Corpus companion
+entry:} Source S-082 \textbf{Audit ID:}
+\texttt{meta-year-of-efficiency-2023}
+
+\subsubsection{Appendix A4. AI exuberance masks broad weakness in tech
+sector, say
+investors}\label{appendix-a4-ai-exuberance-masks-broad-weakness-in-tech-sector-say-investors}
+
+\textbf{Source citation:}
+\href{https://www.ft.com/content/0b14d871-2d19-46f1-9660-5466301e8066}{AI
+exuberance masks broad weakness in tech sector, say investors}
+\textbf{Institution / author:} Financial Times \textbf{Date:} 2024-09-09
+\textbf{Tier / type:} T2 / news\_analysis \textbf{Why it matters in this
+paper:} That AI enthusiasm did not eliminate the broader structural
+weakness of the sector. \textbf{Corpus companion entry:} Source S-055
+\textbf{Audit ID:} \texttt{ft-ai-exuberance-tech-weakness-2024}
+
+\subsubsection{Appendix A5. H.R. 7024: Tax Relief for American Families
+and Workers Act of
+2024}\label{appendix-a5-h-r-7024-tax-relief-for-american-families-and-workers-act-of-2024}
+
+\textbf{Source citation:}
+\href{https://www.congress.gov/bill/118th-congress/house-bill/7024}{H.R.
+7024: Tax Relief for American Families and Workers Act of 2024}
+\textbf{Institution / author:} Congress.gov \textbf{Date:} 2024-01-16
+\textbf{Tier / type:} T1 / legislation \textbf{Why it matters in this
+paper:} That Congress formally moved to soften or reverse the immediate
+impact of Section 174 on domestic research expensing. \textbf{Corpus
+companion entry:} Source S-042 \textbf{Audit ID:}
+\texttt{congress-hr7024-tax-relief-2024}
+
+\subsubsection{Appendix A6. H.R. 7024: Tax Relief for American Families
+and Workers Act of 2024 (CRS
+summary)}\label{appendix-a6-h-r-7024-tax-relief-for-american-families-and-workers-act-of-2024-crs-summary}
+
+\textbf{Source citation:}
+\href{https://www.congress.gov/bill/118th-congress/house-bill/7024}{H.R.
+7024: Tax Relief for American Families and Workers Act of 2024 (CRS
+summary)} \textbf{Institution / author:} Congress.gov / CRS
+\textbf{Date:} 2024-01-31 \textbf{Tier / type:} T1 /
+legislative\_summary \textbf{Why it matters in this paper:} That
+Congress formally treated the post-2021 Section 174 regime as burdensome
+enough to warrant legislative reversal or postponement. \textbf{Corpus
+companion entry:} Source S-041 \textbf{Audit ID:}
+\texttt{congress-hr7024-summary-2024}
+
+\subsubsection{Appendix A7. H.R. 7024 text: Deduction for domestic
+research and experimental
+expenditures}\label{appendix-a7-h-r-7024-text-deduction-for-domestic-research-and-experimental-expenditures}
+
+\textbf{Source citation:}
+\href{https://www.congress.gov/bill/118th-congress/house-bill/7024/text}{H.R.
+7024 text: Deduction for domestic research and experimental
+expenditures} \textbf{Institution / author:} Congress.gov / Library of
+Congress \textbf{Date:} 2024-03-21 \textbf{Tier / type:} T1 / bill\_text
+\textbf{Why it matters in this paper:} That the practical Section 174
+fight directly implicated software development, not only laboratory
+research. \textbf{Corpus companion entry:} Source S-043 \textbf{Audit
+ID:} \texttt{congress-hr7024-text-2024}
+
+\subsubsection{Appendix A8. Meta posts lower Q4 profit, announces huge
+stock
+buyback}\label{appendix-a8-meta-posts-lower-q4-profit-announces-huge-stock-buyback}
+
+\textbf{Source citation:}
+\href{https://apnews.com/article/b884c9ac96be1c22f81d7243176a321d}{Meta
+posts lower Q4 profit, announces huge stock buyback} \textbf{Institution
+/ author:} Associated Press \textbf{Date:} 2023-02-01 \textbf{Tier /
+type:} T2 / news\_article \textbf{Why it matters in this paper:} That a
+major tech company publicly linked layoffs to pandemic overhiring and
+slowing post-lockdown growth. \textbf{Corpus companion entry:} Source
+S-013 \textbf{Audit ID:} \texttt{ap-meta-q4-2022-overhiring}
+
+\subsubsection{Appendix A9. Meta posts sharp profit, revenue increase in
+Q4 thanks to cost cuts and advertising
+rebound}\label{appendix-a9-meta-posts-sharp-profit-revenue-increase-in-q4-thanks-to-cost-cuts-and-advertising-rebound}
+
+\textbf{Source citation:}
+\href{https://apnews.com/article/abc3e389d97fb97c661ccb6acfcf65c7}{Meta
+posts sharp profit, revenue increase in Q4 thanks to cost cuts and
+advertising rebound} \textbf{Institution / author:} Associated Press
+\textbf{Date:} 2024-02-01 \textbf{Tier / type:} T2 / news\_article
+\textbf{Why it matters in this paper:} That Meta's improved financial
+results were publicly tied to both cost cutting and layoffs, not just to
+a magical AI turnaround. \textbf{Corpus companion entry:} Source S-014
+\textbf{Audit ID:} \texttt{ap-meta-q4-2023-year-of-efficiency}
+
+\subsubsection{Appendix A10. Big Tech layoffs shattered industry, worker
+confidence}\label{appendix-a10-big-tech-layoffs-shattered-industry-worker-confidence}
+
+\textbf{Source citation:}
+\href{https://www.axios.com/2024/01/03/tech-layoffs-google-microsoft-employees-impact-anxiety}{Big
+Tech layoffs shattered industry, worker confidence} \textbf{Institution
+/ author:} Axios \textbf{Date:} 2024-01-03 \textbf{Tier / type:} T3 /
+news\_analysis \textbf{Why it matters in this paper:} That the layoff
+cycle was large enough to materially change worker expectations across
+the sector. \textbf{Corpus companion entry:} Source S-034 \textbf{Audit
+ID:} \texttt{axios-tech-layoffs-worker-confidence-2024}
+
+\subsubsection{Appendix A11. Annual Economic Report
+2026}\label{appendix-a11-annual-economic-report-2026}
+
+\textbf{Source citation:}
+\href{https://www.bis.org/publ/arpdf/ar2026e.pdf}{Annual Economic Report
+2026} \textbf{Institution / author:} Bank for International Settlements
+\textbf{Date:} 2026-06-28 \textbf{Tier / type:} T1 / report \textbf{Why
+it matters in this paper:} That a primary multilateral financial
+institution explicitly warned in June 2026 that the AI capex race was
+outrunning earnings and free cash flow. \textbf{Corpus companion entry:}
+Source S-036 \textbf{Audit ID:} \texttt{bis-annual-economic-report-2026}
+
+\subsubsection{Appendix A12. AI Copyright Weights: A New Frontier in
+Intellectual Property
+Law}\label{appendix-a12-ai-copyright-weights-a-new-frontier-in-intellectual-property-law}
+
+\textbf{Source citation:}
+\href{https://medium.com/twinchat/ai-copyright-weights-a-new-frontier-in-intellectual-property-law-d8ee1b6c55ee}{AI
+Copyright Weights: A New Frontier in Intellectual Property Law}
+\textbf{Institution / author:} TwinChat \textbf{Date:} n.d. \textbf{Tier
+/ type:} T3 / essay \textbf{Why it matters in this paper:} Supports a
+key factual or interpretive move inside this paper. \textbf{Corpus
+companion entry:} Source S-122 \textbf{Audit ID:}
+\texttt{twinchat-ai-copyright-weights}
+
+\subsection{Appendix B. Claims Used in This
+Paper}\label{appendix-b.-claims-used-in-this-paper}
+
+\subsubsection{Appendix B1. Major tech layoffs were publicly tied to
+pandemic overexpansion and
+deteriorating\ldots{}}\label{appendix-b1-major-tech-layoffs-were-publicly-tied-to-pandemic-overexpansion-and-deteriorating}
+
+\textbf{Claim statement:} That major tech layoffs were publicly tied to
+pandemic overexpansion and deteriorating macro conditions.
+\textbf{Evidence status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a2-amazon-salesforce-jettison-jobs-in-latest-tech-worker-purge]{Appendix
+A2} \textbf{Corpus companion entry:} Claim C-022 \textbf{Audit Claim
+ID:}
+\texttt{ap-amazon-salesforce-tech-purge-2023-05-talent-hoarding-section174-layoffs-claim-01}
+
+\subsubsection{Appendix B2. Efficiency language was already being used
+by top executives in early 2023,
+befor\ldots{}}\label{appendix-b2-efficiency-language-was-already-being-used-by-top-executives-in-early-2023-befor}
+
+\textbf{Claim statement:} That efficiency language was already being
+used by top executives in early 2023, before later AI-centered
+narratives became even more prominent. \textbf{Evidence status:}
+Documented Fact \textbf{Source support:}
+\hyperref[appendix-a2-amazon-salesforce-jettison-jobs-in-latest-tech-worker-purge]{Appendix
+A2} \textbf{Corpus companion entry:} Claim C-023 \textbf{Audit Claim
+ID:}
+\texttt{ap-amazon-salesforce-tech-purge-2023-05-talent-hoarding-section174-layoffs-claim-02}
+
+\subsubsection{Appendix B3. Chapter 5 can frame layoffs as part of a
+structural correction involving cost
+dis\ldots{}}\label{appendix-b3-chapter-5-can-frame-layoffs-as-part-of-a-structural-correction-involving-cost-dis}
+
+\textbf{Claim statement:} That Chapter 5 can frame layoffs as part of a
+structural correction involving cost discipline and margin protection,
+not only as a pure automation story. \textbf{Evidence status:}
+Documented Fact \textbf{Source support:}
+\hyperref[appendix-a2-amazon-salesforce-jettison-jobs-in-latest-tech-worker-purge]{Appendix
+A2} \textbf{Corpus companion entry:} Claim C-024 \textbf{Audit Claim
+ID:}
+\texttt{ap-amazon-salesforce-tech-purge-2023-05-talent-hoarding-section174-layoffs-claim-03}
+
+\subsubsection{Appendix B4. A major tech company publicly linked layoffs
+to pandemic overhiring and slowing
+p\ldots{}}\label{appendix-b4-a-major-tech-company-publicly-linked-layoffs-to-pandemic-overhiring-and-slowing-p}
+
+\textbf{Claim statement:} That a major tech company publicly linked
+layoffs to pandemic overhiring and slowing post-lockdown growth.
+\textbf{Evidence status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a8-meta-posts-lower-q4-profit-announces-huge-stock-buyback]{Appendix
+A8} \textbf{Corpus companion entry:} Claim C-037 \textbf{Audit Claim
+ID:} \texttt{ap-meta-q4-2022-overhiring-claim-01}
+
+\subsubsection{Appendix B5. Efficiency rhetoric was already being
+layered onto a revenue slowdown and
+investo\ldots{}}\label{appendix-b5-efficiency-rhetoric-was-already-being-layered-onto-a-revenue-slowdown-and-investo}
+
+\textbf{Claim statement:} That efficiency rhetoric was already being
+layered onto a revenue slowdown and investor pressure over unprofitable
+strategic bets. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a8-meta-posts-lower-q4-profit-announces-huge-stock-buyback]{Appendix
+A8} \textbf{Corpus companion entry:} Claim C-038 \textbf{Audit Claim
+ID:} \texttt{ap-meta-q4-2022-overhiring-claim-02}
+
+\subsubsection{Appendix B6. Metaverse losses were part of the financial
+backdrop to Meta's workforce
+correction}\label{appendix-b6-metaverse-losses-were-part-of-the-financial-backdrop-to-meta-s-workforce-correction}
+
+\textbf{Claim statement:} That metaverse losses were part of the
+financial backdrop to Meta's workforce correction. \textbf{Evidence
+status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a8-meta-posts-lower-q4-profit-announces-huge-stock-buyback]{Appendix
+A8} \textbf{Corpus companion entry:} Claim C-039 \textbf{Audit Claim
+ID:} \texttt{ap-meta-q4-2022-overhiring-claim-03}
+
+\subsubsection{Appendix B7. Meta's improved financial results were
+publicly tied to both cost cutting and
+lay\ldots{}}\label{appendix-b7-meta-s-improved-financial-results-were-publicly-tied-to-both-cost-cutting-and-lay}
+
+\textbf{Claim statement:} That Meta's improved financial results were
+publicly tied to both cost cutting and layoffs, not just to a magical AI
+turnaround. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a9-meta-posts-sharp-profit-revenue-increase-in-q4-thanks-to-cost-cuts-and-advertising-rebound]{Appendix
+A9} \textbf{Corpus companion entry:} Claim C-040 \textbf{Audit Claim
+ID:} \texttt{ap-meta-q4-2023-year-of-efficiency-claim-01}
+
+\subsubsection{Appendix B8. AI hiring resumed selectively even after a
+broad labor correction, reinforcing
+th\ldots{}}\label{appendix-b8-ai-hiring-resumed-selectively-even-after-a-broad-labor-correction-reinforcing-th}
+
+\textbf{Claim statement:} That AI hiring resumed selectively even after
+a broad labor correction, reinforcing the idea of reallocation rather
+than simple technological replacement. \textbf{Evidence status:}
+Documented Fact \textbf{Source support:}
+\hyperref[appendix-a9-meta-posts-sharp-profit-revenue-increase-in-q4-thanks-to-cost-cuts-and-advertising-rebound]{Appendix
+A9} \textbf{Corpus companion entry:} Claim C-041 \textbf{Audit Claim
+ID:} \texttt{ap-meta-q4-2023-year-of-efficiency-claim-02}
+
+\subsubsection{Appendix B9. Metaverse-related losses remained large even
+as the company regained investor
+con\ldots{}}\label{appendix-b9-metaverse-related-losses-remained-large-even-as-the-company-regained-investor-con}
+
+\textbf{Claim statement:} That metaverse-related losses remained large
+even as the company regained investor confidence. \textbf{Evidence
+status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a9-meta-posts-sharp-profit-revenue-increase-in-q4-thanks-to-cost-cuts-and-advertising-rebound]{Appendix
+A9} \textbf{Corpus companion entry:} Claim C-042 \textbf{Audit Claim
+ID:} \texttt{ap-meta-q4-2023-year-of-efficiency-claim-03}
+
+\subsubsection{Appendix B10. The layoff cycle was large enough to
+materially change worker expectations
+across\ldots{}}\label{appendix-b10-the-layoff-cycle-was-large-enough-to-materially-change-worker-expectations-across}
+
+\textbf{Claim statement:} That the layoff cycle was large enough to
+materially change worker expectations across the sector.
+\textbf{Evidence status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a10-big-tech-layoffs-shattered-industry-worker-confidence]{Appendix
+A10} \textbf{Corpus companion entry:} Claim C-102 \textbf{Audit Claim
+ID:}
+\texttt{axios-tech-layoffs-worker-confidence-2024-05-talent-hoarding-section174-layoffs-claim-01}
+
+\subsubsection{Appendix B11. Chapter 5 can discuss the correction as a
+broad labor-market event rather than
+a\ldots{}}\label{appendix-b11-chapter-5-can-discuss-the-correction-as-a-broad-labor-market-event-rather-than-a}
+
+\textbf{Claim statement:} That Chapter 5 can discuss the correction as a
+broad labor-market event rather than a collection of isolated firm
+stories. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a10-big-tech-layoffs-shattered-industry-worker-confidence]{Appendix
+A10} \textbf{Corpus companion entry:} Claim C-103 \textbf{Audit Claim
+ID:}
+\texttt{axios-tech-layoffs-worker-confidence-2024-05-talent-hoarding-section174-layoffs-claim-02}
+
+\subsubsection{Appendix B12. A primary multilateral financial
+institution explicitly warned in June 2026
+that\ldots{}}\label{appendix-b12-a-primary-multilateral-financial-institution-explicitly-warned-in-june-2026-that}
+
+\textbf{Claim statement:} That a primary multilateral financial
+institution explicitly warned in June 2026 that the AI capex race was
+outrunning earnings and free cash flow. \textbf{Evidence status:}
+Documented Fact \textbf{Source support:}
+\hyperref[appendix-a11-annual-economic-report-2026]{Appendix A11}
+\textbf{Corpus companion entry:} Claim C-107 \textbf{Audit Claim ID:}
+\texttt{bis-annual-economic-report-2026-05-talent-hoarding-section174-layoffs-claim-01}
+
+\subsubsection{Appendix B13. Debt issuance, leverage, opaque financing
+structures, and circular financing
+belo\ldots{}}\label{appendix-b13-debt-issuance-leverage-opaque-financing-structures-and-circular-financing-belo}
+
+\textbf{Claim statement:} That debt issuance, leverage, opaque financing
+structures, and circular financing belong to the documented risk
+structure of the AI buildout. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a11-annual-economic-report-2026]{Appendix A11}
+\textbf{Corpus companion entry:} Claim C-108 \textbf{Audit Claim ID:}
+\texttt{bis-annual-economic-report-2026-05-talent-hoarding-section174-layoffs-claim-02}
+
+\subsubsection{Appendix B14. Chapter 05 can support the thesis of
+structural correction and financial
+overhang\ldots{}}\label{appendix-b14-chapter-05-can-support-the-thesis-of-structural-correction-and-financial-overhang}
+
+\textbf{Claim statement:} That Chapter \texttt{05} can support the
+thesis of structural correction and financial overhang without relying
+only on opinion pieces or market chatter. \textbf{Evidence status:}
+Documented Fact \textbf{Source support:}
+\hyperref[appendix-a11-annual-economic-report-2026]{Appendix A11}
+\textbf{Corpus companion entry:} Claim C-109 \textbf{Audit Claim ID:}
+\texttt{bis-annual-economic-report-2026-05-talent-hoarding-section174-layoffs-claim-03}
+
+\subsubsection{Appendix B15. Chapters 06, 09, and 10 can discuss the
+``cheap AI'' narrative against a
+documented\ldots{}}\label{appendix-b15-chapters-06-09-and-10-can-discuss-the-cheap-ai-narrative-against-a-documented}
+
+\textbf{Claim statement:} That Chapters \texttt{06}, \texttt{09}, and
+\texttt{10} can discuss the ``cheap AI'' narrative against a documented
+backdrop of subsidy-like financing pressure and fragile commercial
+returns. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:} \hyperref[appendix-a11-annual-economic-report-2026]{Appendix
+A11} \textbf{Corpus companion entry:} Claim C-110 \textbf{Audit Claim
+ID:}
+\texttt{bis-annual-economic-report-2026-05-talent-hoarding-section174-layoffs-claim-04}
+
+\subsubsection{Appendix B16. Congress formally treated the post-2021
+Section 174 regime as burdensome enough
+t\ldots{}}\label{appendix-b16-congress-formally-treated-the-post-2021-section-174-regime-as-burdensome-enough-t}
+
+\textbf{Claim statement:} That Congress formally treated the post-2021
+Section 174 regime as burdensome enough to warrant legislative reversal
+or postponement. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a6-h-r-7024-tax-relief-for-american-families-and-workers-act-of-2024-crs-summary]{Appendix
+A6} \textbf{Corpus companion entry:} Claim C-123 \textbf{Audit Claim
+ID:}
+\texttt{congress-hr7024-summary-2024-05-talent-hoarding-section174-layoffs-claim-01}
+
+\subsubsection{Appendix B17. The practical effect of the existing rule
+can be described in plain English:
+firm\ldots{}}\label{appendix-b17-the-practical-effect-of-the-existing-rule-can-be-described-in-plain-english-firm}
+
+\textbf{Claim statement:} That the practical effect of the existing rule
+can be described in plain English: firms were being pushed into
+five-year deduction treatment for domestic research costs until the
+proposed relief would restore expensing through 2025. \textbf{Evidence
+status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a6-h-r-7024-tax-relief-for-american-families-and-workers-act-of-2024-crs-summary]{Appendix
+A6} \textbf{Corpus companion entry:} Claim C-124 \textbf{Audit Claim
+ID:}
+\texttt{congress-hr7024-summary-2024-05-talent-hoarding-section174-layoffs-claim-02}
+
+\subsubsection{Appendix B18. Chapter 5 can treat Section 174 as a
+material structural factor in the
+post-pande\ldots{}}\label{appendix-b18-chapter-5-can-treat-section-174-as-a-material-structural-factor-in-the-post-pande}
+
+\textbf{Claim statement:} That Chapter 5 can treat Section 174 as a
+material structural factor in the post-pandemic correction without
+pretending it was the only cause of layoffs. \textbf{Evidence status:}
+Documented Fact \textbf{Source support:}
+\hyperref[appendix-a6-h-r-7024-tax-relief-for-american-families-and-workers-act-of-2024-crs-summary]{Appendix
+A6} \textbf{Corpus companion entry:} Claim C-125 \textbf{Audit Claim
+ID:}
+\texttt{congress-hr7024-summary-2024-05-talent-hoarding-section174-layoffs-claim-03}
+
+\subsubsection{Appendix B19. Congress formally moved to soften or
+reverse the immediate impact of Section
+174\ldots{}}\label{appendix-b19-congress-formally-moved-to-soften-or-reverse-the-immediate-impact-of-section-174}
+
+\textbf{Claim statement:} That Congress formally moved to soften or
+reverse the immediate impact of Section 174 on domestic research
+expensing. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a5-h-r-7024-tax-relief-for-american-families-and-workers-act-of-2024]{Appendix
+A5} \textbf{Corpus companion entry:} Claim C-126 \textbf{Audit Claim
+ID:} \texttt{congress-hr7024-tax-relief-2024-claim-01}
+
+\subsubsection{Appendix B20. The practical consequences of Section 174
+were concrete enough to generate a
+seri\ldots{}}\label{appendix-b20-the-practical-consequences-of-section-174-were-concrete-enough-to-generate-a-seri}
+
+\textbf{Claim statement:} That the practical consequences of Section 174
+were concrete enough to generate a serious legislative response.
+\textbf{Evidence status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a5-h-r-7024-tax-relief-for-american-families-and-workers-act-of-2024]{Appendix
+A5} \textbf{Corpus companion entry:} Claim C-127 \textbf{Audit Claim
+ID:} \texttt{congress-hr7024-tax-relief-2024-claim-02}
+
+\subsubsection{Appendix B21. Chapter 5 can frame Section 174 as a live
+business issue rather than an
+after-the\ldots{}}\label{appendix-b21-chapter-5-can-frame-section-174-as-a-live-business-issue-rather-than-an-after-the}
+
+\textbf{Claim statement:} That Chapter 5 can frame Section 174 as a live
+business issue rather than an after-the-fact excuse invented by
+commentators. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a5-h-r-7024-tax-relief-for-american-families-and-workers-act-of-2024]{Appendix
+A5} \textbf{Corpus companion entry:} Claim C-128 \textbf{Audit Claim
+ID:} \texttt{congress-hr7024-tax-relief-2024-claim-03}
+
+\subsubsection{Appendix B22. The practical Section 174 fight directly
+implicated software development, not
+onl\ldots{}}\label{appendix-b22-the-practical-section-174-fight-directly-implicated-software-development-not-onl}
+
+\textbf{Claim statement:} That the practical Section 174 fight directly
+implicated software development, not only laboratory research.
+\textbf{Evidence status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a7-h-r-7024-text-deduction-for-domestic-research-and-experimental-expenditures]{Appendix
+A7} \textbf{Corpus companion entry:} Claim C-129 \textbf{Audit Claim
+ID:}
+\texttt{congress-hr7024-text-2024-05-talent-hoarding-section174-layoffs-claim-01}
+
+\subsubsection{Appendix B23. The legislative response was not vague
+rhetoric; it proposed specific statutory
+l\ldots{}}\label{appendix-b23-the-legislative-response-was-not-vague-rhetoric-it-proposed-specific-statutory-l}
+
+\textbf{Claim statement:} That the legislative response was not vague
+rhetoric; it proposed specific statutory language restoring domestic
+deductions and naming software explicitly. \textbf{Evidence status:}
+Documented Fact \textbf{Source support:}
+\hyperref[appendix-a7-h-r-7024-text-deduction-for-domestic-research-and-experimental-expenditures]{Appendix
+A7} \textbf{Corpus companion entry:} Claim C-130 \textbf{Audit Claim
+ID:}
+\texttt{congress-hr7024-text-2024-05-talent-hoarding-section174-layoffs-claim-02}
+
+\subsubsection{Appendix B24. Chapter 5 can connect the accounting
+treatment of software and R\&D spending to
+th\ldots{}}\label{appendix-b24-chapter-5-can-connect-the-accounting-treatment-of-software-and-r-d-spending-to-th}
+
+\textbf{Claim statement:} That Chapter 5 can connect the accounting
+treatment of software and R\&D spending to the financial environment of
+large tech employers. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a7-h-r-7024-text-deduction-for-domestic-research-and-experimental-expenditures]{Appendix
+A7} \textbf{Corpus companion entry:} Claim C-131 \textbf{Audit Claim
+ID:}
+\texttt{congress-hr7024-text-2024-05-talent-hoarding-section174-layoffs-claim-03}
+
+\subsubsection{Appendix B25. AI enthusiasm did not eliminate the broader
+structural weakness of the
+sector}\label{appendix-b25-ai-enthusiasm-did-not-eliminate-the-broader-structural-weakness-of-the-sector}
+
+\textbf{Claim statement:} That AI enthusiasm did not eliminate the
+broader structural weakness of the sector. \textbf{Evidence status:}
+Documented Fact \textbf{Source support:}
+\hyperref[appendix-a4-ai-exuberance-masks-broad-weakness-in-tech-sector-say-investors]{Appendix
+A4} \textbf{Corpus companion entry:} Claim C-173 \textbf{Audit Claim
+ID:}
+\texttt{ft-ai-exuberance-tech-weakness-2024-05-talent-hoarding-section174-layoffs-claim-01}
+
+\subsubsection{Appendix B26. A serious T2 source explicitly connects
+post-pandemic overhiring, weak demand,
+an\ldots{}}\label{appendix-b26-a-serious-t2-source-explicitly-connects-post-pandemic-overhiring-weak-demand-an}
+
+\textbf{Claim statement:} That a serious \texttt{T2} source explicitly
+connects post-pandemic overhiring, weak demand, and investment
+reallocation to the industry's ongoing malaise. \textbf{Evidence
+status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a4-ai-exuberance-masks-broad-weakness-in-tech-sector-say-investors]{Appendix
+A4} \textbf{Corpus companion entry:} Claim C-174 \textbf{Audit Claim
+ID:}
+\texttt{ft-ai-exuberance-tech-weakness-2024-05-talent-hoarding-section174-layoffs-claim-02}
+
+\subsubsection{Appendix B27. Chapter 5 can argue AI was layered onto an
+existing correction rather than
+causin\ldots{}}\label{appendix-b27-chapter-5-can-argue-ai-was-layered-onto-an-existing-correction-rather-than-causin}
+
+\textbf{Claim statement:} That Chapter 5 can argue AI was layered onto
+an existing correction rather than causing it from scratch.
+\textbf{Evidence status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a4-ai-exuberance-masks-broad-weakness-in-tech-sector-say-investors]{Appendix
+A4} \textbf{Corpus companion entry:} Claim C-175 \textbf{Audit Claim
+ID:}
+\texttt{ft-ai-exuberance-tech-weakness-2024-05-talent-hoarding-section174-layoffs-claim-03}
+
+\subsubsection{Appendix B28. Section 174 amortization was not a rumor or
+niche accounting theory; it was the
+s\ldots{}}\label{appendix-b28-section-174-amortization-was-not-a-rumor-or-niche-accounting-theory-it-was-the-s}
+
+\textbf{Claim statement:} That Section 174 amortization was not a rumor
+or niche accounting theory; it was the subject of active IRS guidance.
+\textbf{Evidence status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a1-notice-2023-63-guidance-on-section-174-and-specified-research-or-experimental-expenditures]{Appendix
+A1} \textbf{Corpus companion entry:} Claim C-240 \textbf{Audit Claim
+ID:} \texttt{irs-notice-2023-63-claim-01}
+
+\subsubsection{Appendix B29. U.S. firms with research-heavy cost
+structures had to account for a changed tax
+t\ldots{}}\label{appendix-b29-u-s-firms-with-research-heavy-cost-structures-had-to-account-for-a-changed-tax-t}
+
+\textbf{Claim statement:} That U.S. firms with research-heavy cost
+structures had to account for a changed tax treatment of those
+expenditures. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a1-notice-2023-63-guidance-on-section-174-and-specified-research-or-experimental-expenditures]{Appendix
+A1} \textbf{Corpus companion entry:} Claim C-241 \textbf{Audit Claim
+ID:} \texttt{irs-notice-2023-63-claim-02}
+
+\subsubsection{Appendix B30. Chapter 5 can legitimately treat Section
+174 as one documented structural
+factor\ldots{}}\label{appendix-b30-chapter-5-can-legitimately-treat-section-174-as-one-documented-structural-factor}
+
+\textbf{Claim statement:} That Chapter 5 can legitimately treat Section
+174 as one documented structural factor in the financial environment
+facing software and R\&D-heavy companies. \textbf{Evidence status:}
+Documented Fact \textbf{Source support:}
+\hyperref[appendix-a1-notice-2023-63-guidance-on-section-174-and-specified-research-or-experimental-expenditures]{Appendix
+A1} \textbf{Corpus companion entry:} Claim C-242 \textbf{Audit Claim
+ID:} \texttt{irs-notice-2023-63-claim-03}
+
+\subsubsection{Appendix B31. Meta itself framed layoffs as part of a
+structural response to financial
+conditio\ldots{}}\label{appendix-b31-meta-itself-framed-layoffs-as-part-of-a-structural-response-to-financial-conditio}
+
+\textbf{Claim statement:} That Meta itself framed layoffs as part of a
+structural response to financial conditions and organizational
+inefficiency. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a3-mark-zuckerberg-s-message-to-meta-employees]{Appendix
+A3} \textbf{Corpus companion entry:} Claim C-272 \textbf{Audit Claim
+ID:} \texttt{meta-year-of-efficiency-2023-claim-01}
+
+\subsubsection{Appendix B32. AI investment was presented alongside
+workforce reduction, not as a later
+justifi\ldots{}}\label{appendix-b32-ai-investment-was-presented-alongside-workforce-reduction-not-as-a-later-justifi}
+
+\textbf{Claim statement:} That AI investment was presented alongside
+workforce reduction, not as a later justification invented by outsiders.
+\textbf{Evidence status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a3-mark-zuckerberg-s-message-to-meta-employees]{Appendix
+A3} \textbf{Corpus companion entry:} Claim C-273 \textbf{Audit Claim
+ID:} \texttt{meta-year-of-efficiency-2023-claim-02}
+
+\subsubsection{Appendix B33. Interest rates, regulation, and margin
+discipline were explicit parts of the
+comp\ldots{}}\label{appendix-b33-interest-rates-regulation-and-margin-discipline-were-explicit-parts-of-the-comp}
+
+\textbf{Claim statement:} That interest rates, regulation, and margin
+discipline were explicit parts of the company's own explanation.
+\textbf{Evidence status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a3-mark-zuckerberg-s-message-to-meta-employees]{Appendix
+A3} \textbf{Corpus companion entry:} Claim C-274 \textbf{Audit Claim
+ID:} \texttt{meta-year-of-efficiency-2023-claim-03}
+
+\subsubsection{Appendix B34. AI was often used as a legitimizing
+narrative layered on top of an existing
+struc\ldots{}}\label{appendix-b34-ai-was-often-used-as-a-legitimizing-narrative-layered-on-top-of-an-existing-struc}
+
+\textbf{Claim statement:} That AI was often used as a legitimizing
+narrative layered on top of an existing structural correction driven by
+overhiring, rates, margin pressure, and tax-treatment shifts rather than
+as the sole cause of the cuts. \textbf{Evidence status:} Hypothesis /
+Interpretation \textbf{Source support:}
+\hyperref[appendix-a1-notice-2023-63-guidance-on-section-174-and-specified-research-or-experimental-expenditures]{Appendix
+A1},
+\hyperref[appendix-a3-mark-zuckerberg-s-message-to-meta-employees]{Appendix
+A3},
+\hyperref[appendix-a4-ai-exuberance-masks-broad-weakness-in-tech-sector-say-investors]{Appendix
+A4}, \hyperref[appendix-a11-annual-economic-report-2026]{Appendix A11}
+\textbf{Corpus companion entry:} Claim C-431 \textbf{Audit Claim ID:}
+\texttt{vector05-legitimizing-narrative-synthesis-claim-01}
+
+\subsubsection{Appendix B35. AI alone caused the post-pandemic tech
+layoff cycle or fully explains wage
+compre\ldots{}}\label{appendix-b35-ai-alone-caused-the-post-pandemic-tech-layoff-cycle-or-fully-explains-wage-compre}
+
+\textbf{Claim statement:} That AI alone caused the post-pandemic tech
+layoff cycle or fully explains wage compression and labor insecurity
+across the sector. \textbf{Evidence status:} Speculative Narrative Risk
+\textbf{Source support:}
+\hyperref[appendix-a1-notice-2023-63-guidance-on-section-174-and-specified-research-or-experimental-expenditures]{Appendix
+A1},
+\hyperref[appendix-a8-meta-posts-lower-q4-profit-announces-huge-stock-buyback]{Appendix
+A8}, \hyperref[appendix-a11-annual-economic-report-2026]{Appendix A11}
+\textbf{Corpus companion entry:} Claim C-430 \textbf{Audit Claim ID:}
+\texttt{vector05-ai-alone-caused-layoffs-overclaim-claim-01}
+
+\subsection{Appendix C. Timeline
+Slice}\label{appendix-c.-timeline-slice}
+
+\subsubsection{Appendix C1. 2023-01-04: Amazon and Salesforce tie
+layoffs to overhiring and cost
+structure}\label{appendix-c1-2023-01-04-amazon-and-salesforce-tie-layoffs-to-overhiring-and-cost-structure}
+
+\textbf{Event summary:} Amazon and Salesforce tie layoffs to overhiring
+and cost structure \textbf{Event date:} 2023-01-04 \textbf{Source
+support:}
+\hyperref[appendix-a2-amazon-salesforce-jettison-jobs-in-latest-tech-worker-purge]{Appendix
+A2} \textbf{Corpus companion entry:} Event T-020 \textbf{Audit Event
+ID:} \texttt{event-amazon-salesforce-purge-2023-01-04}
+
+\subsubsection{Appendix C2. 2023-03-14: Meta announces deeper cuts in
+its Year of
+Efficiency}\label{appendix-c2-2023-03-14-meta-announces-deeper-cuts-in-its-year-of-efficiency}
+
+\textbf{Event summary:} Meta announces deeper cuts in its Year of
+Efficiency \textbf{Event date:} 2023-03-14 \textbf{Source support:}
+\hyperref[appendix-a3-mark-zuckerberg-s-message-to-meta-employees]{Appendix
+A3} \textbf{Corpus companion entry:} Event T-022 \textbf{Audit Event
+ID:} \texttt{event-meta-efficiency-2023-03-14}
+
+\subsubsection{Appendix C3. 2023-09-08: The IRS issues Notice 2023-63 on
+Section 174
+expenditures}\label{appendix-c3-2023-09-08-the-irs-issues-notice-2023-63-on-section-174-expenditures}
+
+\textbf{Event summary:} The IRS issues Notice 2023-63 on Section 174
+expenditures \textbf{Event date:} 2023-09-08 \textbf{Source support:}
+\hyperref[appendix-a1-notice-2023-63-guidance-on-section-174-and-specified-research-or-experimental-expenditures]{Appendix
+A1} \textbf{Corpus companion entry:} Event T-029 \textbf{Audit Event
+ID:} \texttt{event-irs-section174-2023-09-08}
+
+\subsubsection{Appendix C4. 2024-01-31: The House passes H.R. 7024 with
+Section 174 relief
+language}\label{appendix-c4-2024-01-31-the-house-passes-h-r-7024-with-section-174-relief-language}
+
+\textbf{Event summary:} The House passes H.R. 7024 with Section 174
+relief language \textbf{Event date:} 2024-01-31 \textbf{Source support:}
+\hyperref[appendix-a5-h-r-7024-tax-relief-for-american-families-and-workers-act-of-2024]{Appendix
+A5} \textbf{Corpus companion entry:} Event T-038 \textbf{Audit Event
+ID:} \texttt{event-hr7024-passed-house-2024-01-31}
+
+\subsubsection{Appendix C5. 2024-01-31: Congressional summary explains
+temporary domestic R\&D expensing
+relief}\label{appendix-c5-2024-01-31-congressional-summary-explains-temporary-domestic-r-d-expensing-relief}
+
+\textbf{Event summary:} Congressional summary explains temporary
+domestic R\&D expensing relief \textbf{Event date:} 2024-01-31
+\textbf{Source support:}
+\hyperref[appendix-a6-h-r-7024-tax-relief-for-american-families-and-workers-act-of-2024-crs-summary]{Appendix
+A6} \textbf{Corpus companion entry:} Event T-039 \textbf{Audit Event
+ID:} \texttt{event-hr7024-summary-2024-01-31}
+
+\subsubsection{Appendix C6. 2024-03-21: H.R. 7024 text explicitly covers
+domestic R\&D deductions and
+software}\label{appendix-c6-2024-03-21-h-r-7024-text-explicitly-covers-domestic-r-d-deductions-and-software}
+
+\textbf{Event summary:} H.R. 7024 text explicitly covers domestic R\&D
+deductions and software \textbf{Event date:} 2024-03-21 \textbf{Source
+support:}
+\hyperref[appendix-a7-h-r-7024-text-deduction-for-domestic-research-and-experimental-expenditures]{Appendix
+A7} \textbf{Corpus companion entry:} Event T-046 \textbf{Audit Event
+ID:} \texttt{event-hr7024-text-2024-03-21}
+
+\subsubsection{Appendix C7. 2024-09-09: Financial Times says AI
+exuberance masks broader tech
+weakness}\label{appendix-c7-2024-09-09-financial-times-says-ai-exuberance-masks-broader-tech-weakness}
+
+\textbf{Event summary:} Financial Times says AI exuberance masks broader
+tech weakness \textbf{Event date:} 2024-09-09 \textbf{Source support:}
+\hyperref[appendix-a4-ai-exuberance-masks-broad-weakness-in-tech-sector-say-investors]{Appendix
+A4} \textbf{Corpus companion entry:} Event T-054 \textbf{Audit Event
+ID:} \texttt{event-ft-tech-weakness-ai-2024-09-09}
+
+\subsection{Appendix D. Relevant
+Entities}\label{appendix-d.-relevant-entities}
+
+\subsubsection{Appendix D1. Reality
+Labs}\label{appendix-d1-reality-labs}
+
+\textbf{Entity type:} business\_unit \textbf{Role in this paper:} Actor
+relevant to 12\_cambridge\_analytica\_meta\_metaverse\_rebrand,
+05\_talent\_hoarding\_section174\_layoffs. \textbf{Relevant sources in
+this paper:}
+\hyperref[appendix-a8-meta-posts-lower-q4-profit-announces-huge-stock-buyback]{Appendix
+A8},
+\hyperref[appendix-a9-meta-posts-sharp-profit-revenue-increase-in-q4-thanks-to-cost-cuts-and-advertising-rebound]{Appendix
+A9} \textbf{Corpus companion entry:} Entity E-031 \textbf{Audit Entity
+ID:} \texttt{org-reality-labs}
+
+\subsubsection{Appendix D2. Salesforce}\label{appendix-d2-salesforce}
+
+\textbf{Entity type:} company \textbf{Role in this paper:} Actor
+relevant to 05\_talent\_hoarding\_section174\_layoffs. \textbf{Relevant
+sources in this paper:}
+\hyperref[appendix-a2-amazon-salesforce-jettison-jobs-in-latest-tech-worker-purge]{Appendix
+A2},
+\hyperref[appendix-a10-big-tech-layoffs-shattered-industry-worker-confidence]{Appendix
+A10} \textbf{Corpus companion entry:} Entity E-033 \textbf{Audit Entity
+ID:} \texttt{org-salesforce}
+
+\subsubsection{Appendix D3. Internal Revenue
+Service}\label{appendix-d3-internal-revenue-service}
+
+\textbf{Entity type:} government \textbf{Role in this paper:} Actor
+relevant to 05\_talent\_hoarding\_section174\_layoffs. \textbf{Relevant
+sources in this paper:}
+\hyperref[appendix-a1-notice-2023-63-guidance-on-section-174-and-specified-research-or-experimental-expenditures]{Appendix
+A1} \textbf{Corpus companion entry:} Entity E-023 \textbf{Audit Entity
+ID:} \texttt{org-irs}
+
+\subsubsection{Appendix D4. U.S. Congress / Congress.gov /
+CRS}\label{appendix-d4-u-s-congress-congress-gov-crs}
+
+\textbf{Entity type:} government \textbf{Role in this paper:} Actor
+relevant to 05\_talent\_hoarding\_section174\_layoffs. \textbf{Relevant
+sources in this paper:}
+\hyperref[appendix-a5-h-r-7024-tax-relief-for-american-families-and-workers-act-of-2024]{Appendix
+A5},
+\hyperref[appendix-a6-h-r-7024-tax-relief-for-american-families-and-workers-act-of-2024-crs-summary]{Appendix
+A6},
+\hyperref[appendix-a7-h-r-7024-text-deduction-for-domestic-research-and-experimental-expenditures]{Appendix
+A7} \textbf{Corpus companion entry:} Entity E-036 \textbf{Audit Entity
+ID:} \texttt{org-us-congress}
+
+\subsubsection{Appendix D5. Andy Jassy}\label{appendix-d5-andy-jassy}
+
+\textbf{Entity type:} person \textbf{Role in this paper:} Actor relevant
+to 05\_talent\_hoarding\_section174\_layoffs. \textbf{Relevant sources
+in this paper:}
+\hyperref[appendix-a2-amazon-salesforce-jettison-jobs-in-latest-tech-worker-purge]{Appendix
+A2} \textbf{Corpus companion entry:} Entity E-042 \textbf{Audit Entity
+ID:} \texttt{person-andy-jassy}
+
+\subsubsection{Appendix D6. Marc
+Benioff}\label{appendix-d6-marc-benioff}
+
+\textbf{Entity type:} person \textbf{Role in this paper:} Actor relevant
+to 05\_talent\_hoarding\_section174\_layoffs. \textbf{Relevant sources
+in this paper:}
+\hyperref[appendix-a2-amazon-salesforce-jettison-jobs-in-latest-tech-worker-purge]{Appendix
+A2} \textbf{Corpus companion entry:} Entity E-052 \textbf{Audit Entity
+ID:} \texttt{person-marc-benioff}
+
+\subsubsection{Appendix D7. Mark
+Zuckerberg}\label{appendix-d7-mark-zuckerberg}
+
+\textbf{Entity type:} person \textbf{Role in this paper:} Actor relevant
+to 05\_talent\_hoarding\_section174\_layoffs,
+08\_power\_networks\_legitimacy\_capture, 09\_future\_if\_unchecked,
+12\_cambridge\_analytica\_meta\_metaverse\_rebrand. \textbf{Relevant
+sources in this paper:}
+\hyperref[appendix-a3-mark-zuckerberg-s-message-to-meta-employees]{Appendix
+A3} \textbf{Corpus companion entry:} Entity E-054 \textbf{Audit Entity
+ID:} \texttt{person-mark-zuckerberg}
+
+\subsection{Appendix E. Evidence
+Boundaries}\label{appendix-e.-evidence-boundaries}
+
+\subsubsection{Appendix E1. Disputed
+Matters}\label{appendix-e1-disputed-matters}
+
+\begin{itemize}
+\tightlist
+\item
+  None registered for this paper.
+\end{itemize}
+
+\subsubsection{Appendix E2. Interpretive
+Boundaries}\label{appendix-e2-interpretive-boundaries}
+
+\begin{itemize}
+\tightlist
+\item
+  \hyperref[appendix-b34-ai-was-often-used-as-a-legitimizing-narrative-layered-on-top-of-an-existing-struc]{Appendix
+  B34}: That AI was often used as a legitimizing narrative layered on
+  top of an existing structural correction driven by overhiring, rates,
+  margin pressure, and tax-treatment shifts rather than as the sole
+  cause of the cuts.
+\end{itemize}
+
+\subsubsection{Appendix E3. Speculative Narrative
+Risks}\label{appendix-e3-speculative-narrative-risks}
+
+\begin{itemize}
+\tightlist
+\item
+  \hyperref[appendix-b35-ai-alone-caused-the-post-pandemic-tech-layoff-cycle-or-fully-explains-wage-compre]{Appendix
+  B35}: That AI alone caused the post-pandemic tech layoff cycle or
+  fully explains wage compression and labor insecurity across the
+  sector.
+\end{itemize}
+
+\subsubsection{Appendix E4. Sensitive or Review-Worthy Note
+Flags}\label{appendix-e4-sensitive-or-review-worthy-note-flags}
+
+\begin{itemize}
+\tightlist
+\item
+  \hyperref[appendix-a2-amazon-salesforce-jettison-jobs-in-latest-tech-worker-purge]{Appendix
+  A2}. Companion note: Note N-039. Risk flag: low. Note focus: That
+  major tech layoffs were publicly tied to pandemic overexpansion and
+  deteriorating macro conditions.
+\item
+  \hyperref[appendix-a8-meta-posts-lower-q4-profit-announces-huge-stock-buyback]{Appendix
+  A8}. Companion note: Note N-040. Risk flag: low. Note focus: That a
+  major tech company publicly linked layoffs to pandemic overhiring and
+  slowing post-lockdown growth.
+\item
+  \hyperref[appendix-a9-meta-posts-sharp-profit-revenue-increase-in-q4-thanks-to-cost-cuts-and-advertising-rebound]{Appendix
+  A9}. Companion note: Note N-041. Risk flag: low. Note focus: That
+  Meta's improved financial results were publicly tied to both cost
+  cutting and layoffs, not just to a magical AI turnaround.
+\item
+  \hyperref[appendix-a10-big-tech-layoffs-shattered-industry-worker-confidence]{Appendix
+  A10}. Companion note: Note N-042. Risk flag: medium. Note focus: That
+  the layoff cycle was large enough to materially change worker
+  expectations across the sector.
+\item
+  \hyperref[appendix-a11-annual-economic-report-2026]{Appendix A11}.
+  Companion note: Note N-043. Risk flag: review. Note focus: That a
+  primary multilateral financial institution explicitly warned in June
+  2026 that the AI capex race was outrunning earnings and free cash
+  flow.
+\item
+  \hyperref[appendix-a6-h-r-7024-tax-relief-for-american-families-and-workers-act-of-2024-crs-summary]{Appendix
+  A6}. Companion note: Note N-044. Risk flag: low. Note focus: That
+  Congress formally treated the post-2021 Section 174 regime as
+  burdensome enough to warrant legislative reversal or postponement.
+\item
+  \hyperref[appendix-a5-h-r-7024-tax-relief-for-american-families-and-workers-act-of-2024]{Appendix
+  A5}. Companion note: Note N-045. Risk flag: low. Note focus: That
+  Congress formally moved to soften or reverse the immediate impact of
+  Section 174 on domestic research expensing.
+\item
+  \hyperref[appendix-a7-h-r-7024-text-deduction-for-domestic-research-and-experimental-expenditures]{Appendix
+  A7}. Companion note: Note N-046. Risk flag: low. Note focus: That the
+  practical Section 174 fight directly implicated software development,
+  not only laboratory research.
+\item
+  \hyperref[appendix-a4-ai-exuberance-masks-broad-weakness-in-tech-sector-say-investors]{Appendix
+  A4}. Companion note: Note N-047. Risk flag: low. Note focus: That AI
+  enthusiasm did not eliminate the broader structural weakness of the
+  sector.
+\item
+  \hyperref[appendix-a1-notice-2023-63-guidance-on-section-174-and-specified-research-or-experimental-expenditures]{Appendix
+  A1}. Companion note: Note N-048. Risk flag: medium. Note focus: That
+  Section 174 amortization was not a rumor or niche accounting theory;
+  it was the subject of active IRS guidance.
+\item
+  \hyperref[appendix-a3-mark-zuckerberg-s-message-to-meta-employees]{Appendix
+  A3}. Companion note: Note N-049. Risk flag: medium. Note focus: That
+  Meta itself framed layoffs as part of a structural response to
+  financial conditions and organizational inefficiency.
+\end{itemize}
+
+\end{document}

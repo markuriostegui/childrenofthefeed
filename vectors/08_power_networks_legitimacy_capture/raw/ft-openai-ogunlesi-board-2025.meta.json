@@ -1,0 +1,11 @@
+{
+  "source_id": "ft-openai-ogunlesi-board-2025",
+  "vector_id": "08_power_networks_legitimacy_capture",
+  "url": "https://www.ft.com/content/63b08a9d-e537-4d60-9904-c59958a16982",
+  "captured_at": "2026-07-03T00:10:00Z",
+  "mode": "manual-web-excerpt",
+  "paths": [
+    "/Users/hassan/repos/AI-Empire/vectors/08_power_networks_legitimacy_capture/raw/ft-openai-ogunlesi-board-2025.txt"
+  ],
+  "notes": "Built from verified Financial Times search excerpts captured inside Codex."
+}

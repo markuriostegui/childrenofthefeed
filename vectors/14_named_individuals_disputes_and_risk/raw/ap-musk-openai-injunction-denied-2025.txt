@@ -1,0 +1,17 @@
+Judge denies Elon Musk's request to block OpenAI for-profit conversion but welcomes trial
+
+Canonical URL: https://apnews.com/article/elon-musk-openai-lawsuit-f5724e7ab07b5bed8292a1e8aa2ef695
+Publisher: AP News
+Published at: 2025-03-05T04:46:52Z
+Captured at: 2026-07-03T00:00:00Z
+
+Bounded extraction:
+
+- AP reports that U.S. District Judge Yvonne Gonzalez Rogers denied Elon Musk's request for a court order blocking OpenAI from converting itself to a for-profit company.
+- AP reports that the judge ruled late Tuesday that "Musk has not demonstrated likelihood of success on the merits" for a preliminary injunction.
+- AP reports that the judge offered to hold a trial as soon as fall 2025 "given the public interest at stake and potential for harm if a conversion contrary to law occurred."
+- AP reports that OpenAI welcomed the ruling while Musk's attorney said he was pleased that the court offered an expedited trial on the core claims.
+
+Use constraint:
+
+This artifact is for procedural posture, exact date, and bounded judicial language only. It does not substitute for the underlying court order and should not be stretched into a merits finding on every allegation in the case.

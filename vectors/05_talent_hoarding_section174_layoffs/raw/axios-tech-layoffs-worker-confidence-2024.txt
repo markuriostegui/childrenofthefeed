@@ -1,0 +1,12 @@
+Source: Axios
+URL: https://www.axios.com/2024/01/03/tech-layoffs-google-microsoft-employees-impact-anxiety
+Published: 2024-01-03
+
+Relevant extracted text:
+- Nearly half a million job cuts were announced in 2022 and 2023, according to Layoffs.fyi.
+- Sweeping layoffs across Big Tech over the previous two years left a permanent impression on leaders and workers.
+- The cycle reset expectations for workers who had not previously experienced a tech down cycle.
+- The piece links the shift to broad layoffs at Google, Amazon, Microsoft, and Salesforce.
+
+Normalization note:
+This source is contextual rather than backbone evidence. It is retained to document labor-market scale and changed worker expectations.

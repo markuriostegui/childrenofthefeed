@@ -1,0 +1,137 @@
+# Internal Source Index
+
+- `ftc-2024-look-behind-screens`. *A Look Behind the Screens: Examining the Data Practices of Social Media and Video Streaming Services*. Tier: T1. Chapters: 01. Vectors: 01_surveillance_capitalism.
+- `twinchat-ai-copyright-weights`. *AI Copyright Weights: A New Frontier in Intellectual Property Law*. Tier: T3. Chapters: 00, 04. Vectors: 04_data_to_models_copyright_weights.
+- `twinchat-ai-ruining-your-life`. *How AI Is Ruining Your Life to Build an Empire*. Tier: T3. Chapters: 00, 01, 08. Vectors: 04_data_to_models_copyright_weights, 01_surveillance_capitalism, 08_power_networks_legitimacy_capture.
+- `hhs-social-media-youth-advisory-2023`. *Social Media and Youth Mental Health: The U.S. Surgeon General's Advisory*. Tier: T1. Chapters: 02. Vectors: 02_social_decay_youth_harm_hypersexualization.
+- `odni-covid-origin-report-2023`. *Report on Potential Links Between the Wuhan Institute of Virology and the Origins of COVID-19*. Tier: T1. Chapters: 03. Vectors: 03_covid_acceleration_and_geopolitics.
+- `openai-leadership-transition-2023`. *OpenAI announces leadership transition*. Tier: T1. Chapters: 06, 07, 08. Vectors: 13_openai_governance_qstar_talent_exodus, 08_power_networks_legitimacy_capture.
+- `openai-us-ai-action-plan-2025`. *OpenAI’s proposals for the U.S. AI Action Plan*. Tier: T1. Chapters: 04, 07, 08. Vectors: 07_export_controls_compute_defense_access, 08_power_networks_legitimacy_capture, 04_data_to_models_copyright_weights.
+- `ftc-facebook-privacy-2019`. *FTC Imposes $5 Billion Penalty and Sweeping New Privacy Restrictions on Facebook*. Tier: T1. Chapters: 01, 02, 03. Vectors: 12_cambridge_analytica_meta_metaverse_rebrand, 01_surveillance_capitalism.
+- `deepseek-v3-technical-report-2024`. *DeepSeek-V3 Technical Report*. Tier: T1. Chapters: 06, 07. Vectors: 06_ai_double_use_reasoning_deepseek, 07_export_controls_compute_defense_access.
+- `iqt-homepage-2026`. *In-Q-Tel*. Tier: T1. Chapters: 01, 07, 08. Vectors: 01_surveillance_capitalism, 11_facebook_thiel_intelligence_adjacency, 08_power_networks_legitimacy_capture.
+- `whitehouse-eo-14179-2025`. *Removing Barriers to American Leadership in Artificial Intelligence*. Tier: T1. Chapters: 07, 08. Vectors: 07_export_controls_compute_defense_access, 08_power_networks_legitimacy_capture.
+- `fr-ai-action-plan-rfi-2025`. *Request for Information on the Development of an Artificial Intelligence (AI) Action Plan*. Tier: T1. Chapters: 07, 08. Vectors: 07_export_controls_compute_defense_access, 08_power_networks_legitimacy_capture.
+- `irs-notice-2023-63`. *Notice 2023-63: Guidance on Section 174 and specified research or experimental expenditures*. Tier: T1. Chapters: 05. Vectors: 05_talent_hoarding_section174_layoffs.
+- `congress-hr7024-tax-relief-2024`. *H.R. 7024: Tax Relief for American Families and Workers Act of 2024*. Tier: T1. Chapters: 05. Vectors: 05_talent_hoarding_section174_layoffs.
+- `ap-meta-q4-2022-overhiring`. *Meta posts lower Q4 profit, announces huge stock buyback*. Tier: T2. Chapters: 05, 01, 02, 03. Vectors: 05_talent_hoarding_section174_layoffs, 12_cambridge_analytica_meta_metaverse_rebrand.
+- `ap-meta-q4-2023-year-of-efficiency`. *Meta posts sharp profit, revenue increase in Q4 thanks to cost cuts and advertising rebound*. Tier: T2. Chapters: 05, 01, 02, 03. Vectors: 05_talent_hoarding_section174_layoffs, 12_cambridge_analytica_meta_metaverse_rebrand.
+- `meta-year-of-efficiency-2023`. *Mark Zuckerberg's Message to Meta Employees*. Tier: T1. Chapters: 05, 01, 02, 03. Vectors: 05_talent_hoarding_section174_layoffs, 12_cambridge_analytica_meta_metaverse_rebrand.
+- `meta-rebrand-2021`. *The Facebook Company Is Now Meta*. Tier: T1. Chapters: 01, 02, 03. Vectors: 01_surveillance_capitalism, 12_cambridge_analytica_meta_metaverse_rebrand.
+- `meta-2023-10k`. *Meta Platforms, Inc. 2023 Annual Report (Form 10-K)*. Tier: T1. Chapters: 01, 02, 03. Vectors: 01_surveillance_capitalism, 12_cambridge_analytica_meta_metaverse_rebrand.
+- `axios-openai-profitability-crisis-2023`. *How tensions over profitability at OpenAI turned into a full-blown crisis*. Tier: T3. Chapters: 06, 07, 08. Vectors: 13_openai_governance_qstar_talent_exodus.
+- `axios-openai-board-timeline-2023`. *How Sam Altman's ouster went down, according to OpenAI's ex-president*. Tier: T3. Chapters: 06, 07, 08. Vectors: 13_openai_governance_qstar_talent_exodus.
+- `axios-sutskever-exit-2024`. *OpenAI co-founder Ilya Sutskever to exit firm*. Tier: T3. Chapters: 06, 07, 08. Vectors: 13_openai_governance_qstar_talent_exodus.
+- `wired-openai-talent-exodus-2024`. *The OpenAI Talent Exodus Gives Rivals an Opening*. Tier: T3. Chapters: 06, 07, 08. Vectors: 13_openai_governance_qstar_talent_exodus.
+- `openai-altman-returns-board-2023`. *Sam Altman returns as CEO, OpenAI has a new initial board*. Tier: T1. Chapters: 06, 07, 08. Vectors: 13_openai_governance_qstar_talent_exodus, 08_power_networks_legitimacy_capture.
+- `openai-new-board-members-2024`. *OpenAI announces new members to board of directors*. Tier: T1. Chapters: 08, 06, 07. Vectors: 08_power_networks_legitimacy_capture, 13_openai_governance_qstar_talent_exodus, 07_export_controls_compute_defense_access.
+- `ap-openai-board-rejects-musk-bid-2025`. *OpenAI board unanimously rejects Elon Musk's $97.4 billion proposal*. Tier: T2. Chapters: 08. Vectors: 14_named_individuals_disputes_and_risk, 08_power_networks_legitimacy_capture.
+- `meta-proxy-2022-thiel-retirement`. *Meta Platforms, Inc. 2022 Definitive Proxy Statement*. Tier: T1. Chapters: 01, 07, 08. Vectors: 01_surveillance_capitalism, 11_facebook_thiel_intelligence_adjacency.
+- `facebook-s1-2012`. *Facebook, Inc. Registration Statement on Form S-1*. Tier: T1. Chapters: 01, 07, 08. Vectors: 01_surveillance_capitalism, 11_facebook_thiel_intelligence_adjacency.
+- `palantir-about-2026`. *About Palantir*. Tier: T1. Chapters: 07, 08. Vectors: 11_facebook_thiel_intelligence_adjacency.
+- `palantir-gotham-2026`. *Gotham*. Tier: T1. Chapters: 07, 08. Vectors: 11_facebook_thiel_intelligence_adjacency.
+- `trust-social-media-systematic-review-2023`. *What Do We Mean When We Talk about Trust in Social Media? A Systematic Review*. Tier: T1. Chapters: 02. Vectors: 02_social_decay_youth_harm_hypersexualization.
+- `instagram-body-image-dms-2025`. *Unfiltered: How Teens Engage in Body Image and Shaming Discussions via Instagram Direct Messages (DMs)*. Tier: T1. Chapters: 02. Vectors: 02_social_decay_youth_harm_hypersexualization.
+- `tiktok-kids-mode-2025`. *When Kids Mode Isn't For Kids: Investigating TikTok's Under 13 Experience*. Tier: T1. Chapters: 02. Vectors: 02_social_decay_youth_harm_hypersexualization.
+- `ft-openai-schulman-anthropic-2024`. *OpenAI co-founder departs for rival Anthropic*. Tier: T2. Chapters: 06, 07, 08. Vectors: 13_openai_governance_qstar_talent_exodus.
+- `ft-meta-ai-spending-reality-labs-2024`. *Meta sees AI spending accelerating as earnings top forecasts*. Tier: T2. Chapters: 01, 02, 03. Vectors: 12_cambridge_analytica_meta_metaverse_rebrand.
+- `ap-meta-connect-2023`. *Meta CEO Mark Zuckerberg kicks off developer conference with focus on AI, virtual reality*. Tier: T2. Chapters: 01, 02, 03. Vectors: 12_cambridge_analytica_meta_metaverse_rebrand.
+- `ap-openai-sutskever-departure-2024`. *OpenAI co-founder Ilya Sutskever announces departure from ChatGPT maker*. Tier: T2. Chapters: 06, 07, 08. Vectors: 13_openai_governance_qstar_talent_exodus.
+- `ap-openai-board-investigation-2024`. *OpenAI has 'full confidence' in CEO Sam Altman after investigation, reinstates him to board*. Tier: T2. Chapters: 06, 07, 08. Vectors: 13_openai_governance_qstar_talent_exodus.
+- `ft-openai-consolidates-power-2024`. *Who's left at OpenAI? Sam Altman consolidates power after failed coup*. Tier: T2. Chapters: 06, 07, 08. Vectors: 13_openai_governance_qstar_talent_exodus.
+- `ap-openai-musk-bid-complicates-2025`. *How Elon Musk $97.4 billion bid complicates matters for OpenAI*. Tier: T2. Chapters: 08. Vectors: 14_named_individuals_disputes_and_risk, 08_power_networks_legitimacy_capture.
+- `ap-openai-nakasone-board-2024`. *OpenAI appoints former top US cyberwarrior Paul Nakasone to its board of directors*. Tier: T2. Chapters: 07, 08, 06. Vectors: 08_power_networks_legitimacy_capture, 07_export_controls_compute_defense_access, 13_openai_governance_qstar_talent_exodus.
+- `ap-openai-public-benefit-restructure-2025`. *OpenAI may move forward with new business structure, partnership with Microsoft, regulators say*. Tier: T2. Chapters: 08, 07. Vectors: 08_power_networks_legitimacy_capture.
+- `openai-board-forms-safety-security-committee-2024`. *OpenAI board forms safety and security committee*. Tier: T1. Chapters: 06, 07, 08. Vectors: 13_openai_governance_qstar_talent_exodus, 08_power_networks_legitimacy_capture, 07_export_controls_compute_defense_access.
+- `nurse-remote-working-security-privacy-2021`. *Remote Working Pre- and Post-COVID-19: An Analysis of New Threats and Risks to Security and Privacy*. Tier: T1. Chapters: 03. Vectors: 03_covid_acceleration_and_geopolitics.
+- `yang-wfh-collaboration-2020`. *How Work From Home Affects Collaboration: A Large-Scale Study of Information Workers in a Natural Experiment During COVID-19*. Tier: T1. Chapters: 03. Vectors: 03_covid_acceleration_and_geopolitics.
+- `smite-wfh-here-to-stay-2022`. *Work-From-Home is Here to Stay: Call for Flexibility in Post-Pandemic Work Policies*. Tier: T1. Chapters: 03. Vectors: 03_covid_acceleration_and_geopolitics.
+- `carlini-extracting-training-data-2020`. *Extracting Training Data from Large Language Models*. Tier: T1. Chapters: 04. Vectors: 04_data_to_models_copyright_weights.
+- `usco-ai-training-report-2025`. *Copyright and Artificial Intelligence, Part 3: Generative AI Training (Pre-publication Version)*. Tier: T1. Chapters: 04. Vectors: 04_data_to_models_copyright_weights.
+- `usco-ai-noi-2023`. *Copyright and Artificial Intelligence; Notice of Inquiry*. Tier: T1. Chapters: 04. Vectors: 04_data_to_models_copyright_weights.
+- `dornis-generative-ai-training-copyright-2025`. *Generative AI Training and Copyright Law*. Tier: T1. Chapters: 04. Vectors: 04_data_to_models_copyright_weights.
+- `ap-anthropic-fair-use-ruling-2025`. *Anthropic wins ruling on AI training in copyright lawsuit but must face trial on pirated books*. Tier: T2. Chapters: 04. Vectors: 04_data_to_models_copyright_weights.
+- `tsao-social-media-covid-scoping-review-2021`. *What social media told about us in the time of COVID-19: a scoping review*. Tier: T1. Chapters: 03. Vectors: 03_covid_acceleration_and_geopolitics.
+- `ap-meta-publishers-lawsuit-2026`. *Mark Zuckerberg 'personally authorized' Meta's copyright infringement, publishers allege*. Tier: T2. Chapters: 04. Vectors: 04_data_to_models_copyright_weights.
+- `dai-pandemic-screen-time-mental-health-2025`. *Excessive Screen Time is Associated with Mental Health Problems and ADHD in US Children and Adolescents: Physical Activity and Sleep as Parallel Mediators*. Tier: T1. Chapters: 03. Vectors: 03_covid_acceleration_and_geopolitics.
+- `bartz-anthropic-fair-use-order-2025`. *Bartz et al. v. Anthropic PBC, Order on Fair Use*. Tier: T1. Chapters: 04. Vectors: 04_data_to_models_copyright_weights.
+- `le-ludec-cornet-casilli-annotation-madagascar-2023`. *The problem with annotation. Human labour and outsourcing between France and Madagascar*. Tier: T1. Chapters: 04. Vectors: 04_data_to_models_copyright_weights.
+- `axios-kids-screen-time-pandemic-2021`. *Kids' screen time up 50% during pandemic*. Tier: T2. Chapters: 03. Vectors: 03_covid_acceleration_and_geopolitics.
+- `guardian-tiktok-misogyny-amplification-2024`. *Social media algorithms 'amplifying misogynistic content'*. Tier: T2. Chapters: 02. Vectors: 02_social_decay_youth_harm_hypersexualization.
+- `nyt-openai-motion-dismiss-order-2025`. *The New York Times Company v. Microsoft Corporation et al, Opinion on Motions to Dismiss*. Tier: T1. Chapters: 04. Vectors: 04_data_to_models_copyright_weights.
+- `hamilton-onlyfans-new-creators-2022`. *Nudes? Shouldn't I charge for these?: Motivations of New Sexual Content Creators on OnlyFans*. Tier: T1. Chapters: 02. Vectors: 02_social_decay_youth_harm_hypersexualization.
+- `congress-hr7024-summary-2024`. *H.R. 7024: Tax Relief for American Families and Workers Act of 2024 (CRS summary)*. Tier: T1. Chapters: 05. Vectors: 05_talent_hoarding_section174_layoffs.
+- `ft-ai-exuberance-tech-weakness-2024`. *AI exuberance masks broad weakness in tech sector, say investors*. Tier: T2. Chapters: 05, 06. Vectors: 05_talent_hoarding_section174_layoffs.
+- `congress-hr7024-text-2024`. *H.R. 7024 text: Deduction for domestic research and experimental expenditures*. Tier: T1. Chapters: 05. Vectors: 05_talent_hoarding_section174_layoffs.
+- `axios-tech-layoffs-worker-confidence-2024`. *Big Tech layoffs shattered industry, worker confidence*. Tier: T3. Chapters: 05. Vectors: 05_talent_hoarding_section174_layoffs.
+- `ap-amazon-salesforce-tech-purge-2023`. *Amazon, Salesforce jettison jobs in latest tech worker purge*. Tier: T2. Chapters: 05. Vectors: 05_talent_hoarding_section174_layoffs.
+- `anthropic-rsp-v3-2026`. *Anthropic’s Responsible Scaling Policy (version 3.0)*. Tier: T1. Chapters: 06, 08. Vectors: 13_openai_governance_qstar_talent_exodus, 08_power_networks_legitimacy_capture.
+- `anthropic-rsp-v3-announcement-2026`. *Responsible Scaling Policy Version 3.0*. Tier: T1. Chapters: 06, 08. Vectors: 08_power_networks_legitimacy_capture, 13_openai_governance_qstar_talent_exodus.
+- `ap-openai-murati-execs-depart-2024`. *OpenAI Chief Technology Officer Mira Murati and 2 other execs are leaving the ChatGPT maker*. Tier: T2. Chapters: 06, 07, 08. Vectors: 13_openai_governance_qstar_talent_exodus.
+- `courtlistener-musk-v-altman-docket-2024`. *Musk v. Altman, 4:24-cv-04722*. Tier: T1. Chapters: 08. Vectors: 14_named_individuals_disputes_and_risk, 08_power_networks_legitimacy_capture.
+- `ap-openai-musk-for-profit-2024`. *OpenAI says Musk agreed the ChatGPT maker should become a for-profit company*. Tier: T2. Chapters: 08. Vectors: 14_named_individuals_disputes_and_risk, 08_power_networks_legitimacy_capture.
+- `openai-introducing-superalignment-2023`. *Introducing Superalignment*. Tier: T1. Chapters: 06, 07, 08. Vectors: 13_openai_governance_qstar_talent_exodus.
+- `investopedia-meta-vr-price-cuts-2023`. *Meta Slashes Prices for VR Headsets*. Tier: T3. Chapters: 01, 02, 03. Vectors: 12_cambridge_analytica_meta_metaverse_rebrand.
+- `marketwatch-reality-labs-overspending-2024`. *With Reality Labs, Meta risks heading down slippery slope of overspending again*. Tier: T3. Chapters: 01, 02, 03. Vectors: 12_cambridge_analytica_meta_metaverse_rebrand.
+- `time-big-tech-pandemic-gains-2021`. *Big Tech Announces Striking Pandemic Gains as Small Businesses Strain to Find Their Footing*. Tier: T3. Chapters: 03. Vectors: 03_covid_acceleration_and_geopolitics.
+- `radford-gpt2-webtext-2019`. *Language Models are Unsupervised Multitask Learners*. Tier: T1. Chapters: 04. Vectors: 04_data_to_models_copyright_weights.
+- `waller-anderson-online-polarization-2020`. *Quantifying social organization and political polarization in online platforms*. Tier: T1. Chapters: 02. Vectors: 02_social_decay_youth_harm_hypersexualization.
+- `openai-learning-to-reason-with-llms-2024`. *Learning to reason with LLMs*. Tier: T1. Chapters: 06. Vectors: 06_ai_double_use_reasoning_deepseek.
+- `openai-o1-system-card-2024`. *OpenAI o1 System Card*. Tier: T1. Chapters: 06. Vectors: 06_ai_double_use_reasoning_deepseek.
+- `deepseek-r1-reinforcement-learning-2025`. *DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning*. Tier: T1. Chapters: 06, 07. Vectors: 06_ai_double_use_reasoning_deepseek, 07_export_controls_compute_defense_access.
+- `ft-openai-o1-bioweapon-risk-2024`. *OpenAI acknowledges new models increase risk of misuse to create bioweapons*. Tier: T2. Chapters: 06. Vectors: 06_ai_double_use_reasoning_deepseek.
+- `ft-openai-ogunlesi-board-2025`. *OpenAI appoints one of Wall Street's most powerful dealmakers to its board*. Tier: T2. Chapters: 08. Vectors: 08_power_networks_legitimacy_capture.
+- `bis-guidance-advanced-computing-d5-macau-2026`. *Guidance Regarding Enforcement of License Requirements for Advanced Computing Items for Entities Headquartered in Country Group D:5 and Macau*. Tier: T1. Chapters: 07. Vectors: 07_export_controls_compute_defense_access.
+- `axios-anthropic-openai-lobbying-quarter-2026`. *Anthropic outspends OpenAI in biggest-ever lobbying quarter*. Tier: T3. Chapters: 08. Vectors: 08_power_networks_legitimacy_capture.
+- `axios-openai-linked-pac-kentucky-2026`. *OpenAI-linked PAC doubles down in Kentucky*. Tier: T3. Chapters: 08. Vectors: 08_power_networks_legitimacy_capture.
+- `reuters-qstar-board-warning-2023`. *OpenAI researchers warned board of AI breakthrough ahead of CEO ouster, sources say*. Tier: T2. Chapters: 06, 07, 08. Vectors: 13_openai_governance_qstar_talent_exodus.
+- `reuters-strawberry-reasoning-2024`. *Exclusive: OpenAI working on new reasoning technology under code name 'Strawberry'*. Tier: T2. Chapters: 06, 07, 08. Vectors: 13_openai_governance_qstar_talent_exodus.
+- `fec-leading-the-future-committee-overview-2026`. *LEADING THE FUTURE - committee overview*. Tier: T1. Chapters: 08. Vectors: 08_power_networks_legitimacy_capture.
+- `amazon-anthropic-strategic-collaboration-2023`. *Amazon and Anthropic Announce Strategic Collaboration to Advance Generative AI*. Tier: T1. Chapters: 07. Vectors: 07_export_controls_compute_defense_access.
+- `gpts-are-gpts-labor-impact-2023`. *GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models*. Tier: T1. Chapters: 09, 10. Vectors: 09_future_if_unchecked, 10_counterstrategy_response_agenda.
+- `workers-role-ai-ethics-governance-2021`. *In Oxford Handbook on AI Governance: The Role of Workers in AI Ethics and Governance*. Tier: T1. Chapters: 10. Vectors: 10_counterstrategy_response_agenda.
+- `ai-digital-public-infrastructure-2024`. *Interactions Between Artificial Intelligence and Digital Public Infrastructure: Concepts, Benefits, and Challenges*. Tier: T1. Chapters: 10. Vectors: 10_counterstrategy_response_agenda.
+- `us-ed-ai-future-teaching-learning-2023`. *Artificial Intelligence and the Future of Teaching and Learning: Insights and Recommendations*. Tier: T1. Chapters: 09, 10. Vectors: 09_future_if_unchecked, 10_counterstrategy_response_agenda.
+- `ap-ftc-ai-partnerships-inquiry-2024`. *FTC opens inquiry into Big Tech's partnerships with leading AI startups*. Tier: T2. Chapters: 10. Vectors: 10_counterstrategy_response_agenda.
+- `compute-governance-ai-2024`. *Computing Power and the Governance of Artificial Intelligence*. Tier: T1. Chapters: 09. Vectors: 09_future_if_unchecked.
+- `imf-gen-ai-future-of-work-2024`. *Gen-AI: Artificial Intelligence and the Future of Work*. Tier: T1. Chapters: 09. Vectors: 09_future_if_unchecked.
+- `pew-social-media-democracy-outlier-2022`. *Social Media Seen as Mostly Good for Democracy Across Many Nations, But U.S. is a Major Outlier*. Tier: T2. Chapters: 02. Vectors: 02_social_decay_youth_harm_hypersexualization.
+- `axios-pandemic-techlash-reprieve-2021`. *Pandemic provides a techlash reprieve*. Tier: T3. Chapters: 03. Vectors: 03_covid_acceleration_and_geopolitics.
+- `ap-reddit-google-ai-training-deal-2024`. *Reddit strikes $60M deal allowing Google to train AI models on its posts, unveils IPO plans*. Tier: T2. Chapters: 04. Vectors: 04_data_to_models_copyright_weights.
+- `house-ai-task-force-report-2024`. *Bipartisan House Task Force Report on Artificial Intelligence*. Tier: T1. Chapters: 00, 04, 08. Vectors: 04_data_to_models_copyright_weights, 08_power_networks_legitimacy_capture.
+- `bis-annual-economic-report-2026`. *Annual Economic Report 2026*. Tier: T1. Chapters: 05, 06, 09, 10. Vectors: 05_talent_hoarding_section174_layoffs, 09_future_if_unchecked, 10_counterstrategy_response_agenda.
+- `thereg-ai-bubble-bis-2026`. *How the AI bubble could pop and take down the global economy, according to the BIS*. Tier: T3. Chapters: 05, 06, 09, 10. Vectors: 05_talent_hoarding_section174_layoffs, 09_future_if_unchecked, 10_counterstrategy_response_agenda.
+- `vatican-magnifica-humanitas-2026`. *Encyclical Letter of His Holiness Leo XIV Magnifica Humanitas*. Tier: T1. Chapters: 08, 09, 10. Vectors: 08_power_networks_legitimacy_capture, 09_future_if_unchecked, 10_counterstrategy_response_agenda.
+- `conversation-magnifica-humanitas-olah-anthropic-2026`. *‘Magnifica Humanitas’: el papel de Christopher Olah y Anthropic en la encíclica sobre la IA del papa León XIV*. Tier: T3. Chapters: 08. Vectors: 08_power_networks_legitimacy_capture.
+- `paul-lara-tecnofeudalismo-2026`. *¿Cómo hackear al tecnofeudalismo?*. Tier: T3. Chapters: 00, 09, 10. Vectors: 10_counterstrategy_response_agenda, 09_future_if_unchecked.
+- `paul-lara-great-ai-debt-2026`. *La gran deuda por la IA*. Tier: T3. Chapters: 05, 09. Vectors: 05_talent_hoarding_section174_layoffs, 09_future_if_unchecked.
+- `paul-lara-paper-trillionaire-2026`. *El trillonario de papel*. Tier: T3. Chapters: 05, 09. Vectors: 05_talent_hoarding_section174_layoffs, 09_future_if_unchecked.
+- `paul-lara-digital-smoke-economy-2026`. *La economía del humo digital*. Tier: T3. Chapters: 05, 09. Vectors: 05_talent_hoarding_section174_layoffs, 09_future_if_unchecked.
+- `paul-lara-anti-technological-extremism-2026`. *Extremismo antitecnológico*. Tier: T3. Chapters: 09, 10. Vectors: 10_counterstrategy_response_agenda, 09_future_if_unchecked.
+- `paul-lara-war-and-ai-iran-2026`. *Guerra e IA, ¿por qué le urge a EU terminar con Irán?*. Tier: T3. Chapters: 07, 09. Vectors: 07_export_controls_compute_defense_access, 09_future_if_unchecked.
+- `dario-amodei-adolescence-of-technology-2026`. *The Adolescence of Technology*. Tier: T3. Chapters: 08, 09, 10. Vectors: 08_power_networks_legitimacy_capture, 09_future_if_unchecked, 10_counterstrategy_response_agenda.
+- `chatgpt-pricing-2026`. *ChatGPT Plans | Free, Go, Plus, Pro, Business, and Enterprise*. Tier: T1. Chapters: 06, 09, 10. Vectors: 06_ai_double_use_reasoning_deepseek.
+- `anthropic-claude-4-release-2025`. *Introducing Claude 4*. Tier: T1. Chapters: 06, 09, 10. Vectors: 06_ai_double_use_reasoning_deepseek.
+- `openai-api-pricing-2026`. *Pricing | OpenAI API*. Tier: T1. Chapters: 06, 09, 10. Vectors: 06_ai_double_use_reasoning_deepseek.
+- `anthropic-claude-pricing-2026`. *Plans & Pricing | Claude by Anthropic*. Tier: T1. Chapters: 06, 09, 10. Vectors: 06_ai_double_use_reasoning_deepseek.
+- `openai-for-government-2025`. *Introducing OpenAI for Government*. Tier: T1. Chapters: 07, 08, 10. Vectors: 07_export_controls_compute_defense_access, 08_power_networks_legitimacy_capture.
+- `anthropic-claude-gov-2025`. *Claude Gov models for U.S. national security customers*. Tier: T1. Chapters: 07, 08, 10. Vectors: 07_export_controls_compute_defense_access, 08_power_networks_legitimacy_capture.
+- `palantir-anthropic-aws-gov-partnership-2024`. *Anthropic and Palantir Partner to Bring Claude AI Models to AWS for U.S. Government Intelligence and Defense Operations*. Tier: T1. Chapters: 07, 08, 10. Vectors: 07_export_controls_compute_defense_access, 08_power_networks_legitimacy_capture.
+- `army-detachment-201-2025`. *Army Launches Detachment 201: Executive Innovation Corps to Drive Tech Transformation*. Tier: T1. Chapters: 07, 08, 10. Vectors: 07_export_controls_compute_defense_access, 08_power_networks_legitimacy_capture.
+- `reinert-iqt-venture-capitalist-2013`. *In-Q-Tel: The Central Intelligence Agency as Venture Capitalist*. Tier: T1. Chapters: 01, 07, 08. Vectors: 11_facebook_thiel_intelligence_adjacency.
+- `wapo-palantir-explainer-2025`. *What to know about Palantir, the tech company playing a key role for ICE*. Tier: T2. Chapters: 01, 07, 08. Vectors: 11_facebook_thiel_intelligence_adjacency.
+- `wired-in-q-tel-cia-2002`. *It Pays to Play With the CIA*. Tier: T3. Chapters: 01, 07, 08. Vectors: 11_facebook_thiel_intelligence_adjacency.
+- `ft-musk-openai-injunction-denied-2025`. *Judge denies Elon Musk’s attempt to immediately block OpenAI’s conversion to for-profit entity*. Tier: T2. Chapters: 08. Vectors: 14_named_individuals_disputes_and_risk.
+- `ap-musk-openai-injunction-denied-2025`. *Judge denies Elon Musk's request to block OpenAI for-profit conversion but welcomes trial*. Tier: T2. Chapters: 08. Vectors: 14_named_individuals_disputes_and_risk.
+- `snell-test-time-compute-2024`. *Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters*. Tier: T1. Chapters: 06. Vectors: 06_ai_double_use_reasoning_deepseek.
+- `s1-simple-test-time-scaling-2025`. *s1: Simple test-time scaling*. Tier: T1. Chapters: 06. Vectors: 06_ai_double_use_reasoning_deepseek.
+- `its-not-that-simple-test-time-scaling-2025`. *It's Not That Simple. An Analysis of Simple Test-Time Scaling*. Tier: T1. Chapters: 06. Vectors: 06_ai_double_use_reasoning_deepseek.
+- `specreason-2025`. *SpecReason: Fast and Accurate Inference-Time Compute via Speculative Reasoning*. Tier: T1. Chapters: 06. Vectors: 06_ai_double_use_reasoning_deepseek.
+- `newyorker-sam-altman-manifest-destiny-2016`. *Sam Altman's Manifest Destiny*. Tier: T2. Chapters: 08, 09, 10. Vectors: 08_power_networks_legitimacy_capture, 09_future_if_unchecked, 10_counterstrategy_response_agenda.
+- `wired-zuckerberg-hawaii-compound-2023`. *Inside Mark Zuckerberg’s Top-Secret Hawaii Compound*. Tier: T2. Chapters: 08, 09, 10. Vectors: 08_power_networks_legitimacy_capture, 09_future_if_unchecked, 10_counterstrategy_response_agenda.
+- `people-zuckerberg-little-shelter-2024`. *Mark Zuckerberg Downplays His 5,000-Square-Foot Underground Bunker in Hawaii: 'Just a Little Shelter'*. Tier: T3. Chapters: 08, 09, 10. Vectors: 08_power_networks_legitimacy_capture, 09_future_if_unchecked, 10_counterstrategy_response_agenda.
+- `guardian-billionaires-new-zealand-2018`. *Why Silicon Valley billionaires are prepping for the apocalypse in New Zealand*. Tier: T3. Chapters: 08, 09. Vectors: 09_future_if_unchecked, 11_facebook_thiel_intelligence_adjacency.
+- `ft-new-zealand-golden-visa-2025`. *New Zealand woos the wealthy with ‘golden visa’ changes*. Tier: T2. Chapters: 08, 09, 10. Vectors: 09_future_if_unchecked, 10_counterstrategy_response_agenda, 11_facebook_thiel_intelligence_adjacency.
+- `simon-schuster-sovereign-individual-2020`. *The Sovereign Individual | Official Publisher Page*. Tier: T1. Chapters: 08, 09. Vectors: 11_facebook_thiel_intelligence_adjacency.
+- `ap-thiel-antichrist-vance-2026`. *Thiel brings his Antichrist lectures to the Vatican’s doorstep, and Catholic institutions back away*. Tier: T2. Chapters: 08. Vectors: 08_power_networks_legitimacy_capture, 11_facebook_thiel_intelligence_adjacency.
+- `digital-sovereignty-imperative-homepage-2026`. *The Digital Sovereignty Imperative*. Tier: T3. Chapters: 09. Vectors: 09_future_if_unchecked.

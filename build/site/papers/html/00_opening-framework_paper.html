@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc 3.10" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="" />
+  <title>Chapter 00: Opening Framework</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="paper_export.css" />
+</head>
+<body>
+  <header class="public-doc-header" aria-label="Document navigation">
+    <div class="public-doc-header-inner">
+      <a class="public-doc-home" href="../../index.html" aria-label="Return to paper index" title="Return to paper index">
+        <svg class="public-doc-home-icon" viewBox="0 0 24 24" role="img" aria-hidden="true">
+          <path d="M3 10.75 12 3l9 7.75v9.25a1 1 0 0 1-1 1h-5.5v-6h-5v6H4a1 1 0 0 1-1-1z"></path>
+        </svg>
+      </a>
+      <a class="public-doc-logo-link" href="https://wakenai.com/" aria-label="WakenAI Labs">
+        <img class="public-doc-logo" src="../assets/brand/waken-ai-black.webp" alt="WakenAI Labs">
+      </a>
+    </div>
+  </header>
+<header id="title-block-header">
+<h1 class="title">Chapter 00: Opening Framework</h1>
+<p class="subtitle">From Surveillance Capitalism to AI Imperialism |
+Chapter 00: Opening framework</p>
+<p class="author"></p>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#abstract" id="toc-abstract">Abstract</a></li>
+<li><a href="#keywords" id="toc-keywords">Keywords</a></li>
+<li><a href="#research-question" id="toc-research-question">Research
+Question</a></li>
+<li><a href="#scope-and-framing-note"
+id="toc-scope-and-framing-note">Scope and Framing Note</a></li>
+<li><a href="#central-thesis" id="toc-central-thesis">Central
+Thesis</a></li>
+<li><a href="#evidence-and-method-note"
+id="toc-evidence-and-method-note">Evidence and Method Note</a></li>
+<li><a href="#introduction" id="toc-introduction">Introduction</a></li>
+<li><a href="#historical-or-institutional-context"
+id="toc-historical-or-institutional-context">Historical or Institutional
+Context</a></li>
+<li><a href="#main-analysis" id="toc-main-analysis">Main
+Analysis</a></li>
+<li><a href="#position-within-the-series"
+id="toc-position-within-the-series">Position Within the Series</a></li>
+<li><a href="#counterarguments"
+id="toc-counterarguments">Counterarguments</a></li>
+<li><a href="#limits-of-the-evidence"
+id="toc-limits-of-the-evidence">Limits of the Evidence</a></li>
+<li><a href="#reform-relevance" id="toc-reform-relevance">Reform
+Relevance</a></li>
+<li><a href="#conclusion" id="toc-conclusion">Conclusion</a></li>
+<li><a href="#notes" id="toc-notes">Notes</a></li>
+<li><a href="#references-bibliography"
+id="toc-references-bibliography">References / Bibliography</a></li>
+<li><a href="#appendix-a.-source-register-for-this-paper"
+id="toc-appendix-a.-source-register-for-this-paper">Appendix A. Source
+Register for This Paper</a>
+<ul>
+<li><a
+href="#appendix-a1-ai-copyright-weights-a-new-frontier-in-intellectual-property-law"
+id="toc-appendix-a1-ai-copyright-weights-a-new-frontier-in-intellectual-property-law">Appendix
+A1. AI Copyright Weights: A New Frontier in Intellectual Property
+Law</a></li>
+<li><a
+href="#appendix-a2-how-ai-is-ruining-your-life-to-build-an-empire"
+id="toc-appendix-a2-how-ai-is-ruining-your-life-to-build-an-empire">Appendix
+A2. How AI Is Ruining Your Life to Build an Empire</a></li>
+<li><a
+href="#appendix-a3-bipartisan-house-task-force-report-on-artificial-intelligence"
+id="toc-appendix-a3-bipartisan-house-task-force-report-on-artificial-intelligence">Appendix
+A3. Bipartisan House Task Force Report on Artificial
+Intelligence</a></li>
+<li><a href="#appendix-a4-c-mo-hackear-al-tecnofeudalismo"
+id="toc-appendix-a4-c-mo-hackear-al-tecnofeudalismo">Appendix A4. ¿Cómo
+hackear al tecnofeudalismo?</a></li>
+<li><a href="#appendix-a5-la-gran-deuda-por-la-ia"
+id="toc-appendix-a5-la-gran-deuda-por-la-ia">Appendix A5. La gran deuda
+por la IA</a></li>
+</ul></li>
+<li><a href="#appendix-b.-claims-used-in-this-paper"
+id="toc-appendix-b.-claims-used-in-this-paper">Appendix B. Claims Used
+in This Paper</a>
+<ul>
+<li><a
+href="#appendix-b1-the-dossier-s-copyright-weights-compensation-framing-entered-a-bipartisan-u-s"
+id="toc-appendix-b1-the-dossier-s-copyright-weights-compensation-framing-entered-a-bipartisan-u-s">Appendix
+B1. The dossier’s copyright / weights / compensation framing entered a
+bipartisan U.S…</a></li>
+<li><a
+href="#appendix-b2-a-formal-house-report-recorded-the-ai-training-dispute-in-terms-that-directly-ove"
+id="toc-appendix-b2-a-formal-house-report-recorded-the-ai-training-dispute-in-terms-that-directly-ove">Appendix
+B2. A formal House report recorded the AI-training dispute in terms that
+directly ove…</a></li>
+<li><a
+href="#appendix-b3-chapter-00-and-chapter-04-can-cite-institutional-uptake-of-the-argument-without-p"
+id="toc-appendix-b3-chapter-00-and-chapter-04-can-cite-institutional-uptake-of-the-argument-without-p">Appendix
+B3. Chapter 00 and Chapter 04 can cite institutional uptake of the
+argument without p…</a></li>
+<li><a
+href="#appendix-b4-by-late-june-2026-the-dossier-s-response-layer-had-a-documented-co-framing-voice"
+id="toc-appendix-b4-by-late-june-2026-the-dossier-s-response-layer-had-a-documented-co-framing-voice">Appendix
+B4. By late June 2026 the dossier’s response layer had a documented
+co-framing voice…</a></li>
+<li><a
+href="#appendix-b5-chapter-10-can-draw-on-a-public-interpretive-vocabulary-that-connects-critique-of"
+id="toc-appendix-b5-chapter-10-can-draw-on-a-public-interpretive-vocabulary-that-connects-critique-of">Appendix
+B5. Chapter 10 can draw on a public interpretive vocabulary that
+connects critique of…</a></li>
+<li><a
+href="#appendix-b6-the-dossier-s-framing-partnership-with-paul-lara-is-textually-grounded-in-an-exis"
+id="toc-appendix-b6-the-dossier-s-framing-partnership-with-paul-lara-is-textually-grounded-in-an-exis">Appendix
+B6. The dossier’s framing partnership with Paul Lara is textually
+grounded in an exis…</a></li>
+<li><a
+href="#appendix-b7-the-dossier-has-a-coherent-thesis-about-how-weights-condense-previously-captured"
+id="toc-appendix-b7-the-dossier-has-a-coherent-thesis-about-how-weights-condense-previously-captured">Appendix
+B7. The dossier has a coherent thesis about how weights condense
+previously captured…</a></li>
+<li><a
+href="#appendix-b8-there-is-a-clear-argumentative-line-linking-ai-property-and-enclosure"
+id="toc-appendix-b8-there-is-a-clear-argumentative-line-linking-ai-property-and-enclosure">Appendix
+B8. There is a clear argumentative line linking AI, property, and
+enclosure</a></li>
+<li><a
+href="#appendix-b9-there-is-a-consistent-argumentative-line-for-reading-surveillance-social-deterio"
+id="toc-appendix-b9-there-is-a-consistent-argumentative-line-for-reading-surveillance-social-deterio">Appendix
+B9. There is a consistent argumentative line for reading surveillance,
+social deterio…</a></li>
+<li><a
+href="#appendix-b10-the-dossier-will-not-be-a-simple-collection-of-scandals-but-an-integrated-theory"
+id="toc-appendix-b10-the-dossier-will-not-be-a-simple-collection-of-scandals-but-an-integrated-theory">Appendix
+B10. The dossier will not be a simple collection of scandals, but an
+integrated theory…</a></li>
+<li><a
+href="#appendix-b11-frontier-ai-weights-can-be-read-as-condensed-claims-over-collectively-produced-hu"
+id="toc-appendix-b11-frontier-ai-weights-can-be-read-as-condensed-claims-over-collectively-produced-hu">Appendix
+B11. Frontier AI weights can be read as condensed claims over
+collectively produced hu…</a></li>
+<li><a
+href="#appendix-b12-current-legal-uncertainty-or-congressional-uptake-already-proves-frontier-ai-weig"
+id="toc-appendix-b12-current-legal-uncertainty-or-congressional-uptake-already-proves-frontier-ai-weig">Appendix
+B12. Current legal uncertainty or congressional uptake already proves
+frontier AI weig…</a></li>
+</ul></li>
+<li><a href="#appendix-c.-timeline-slice"
+id="toc-appendix-c.-timeline-slice">Appendix C. Timeline Slice</a>
+<ul>
+<li><a
+href="#appendix-c1-2024-12-17-the-bipartisan-house-ai-task-force-report-cites-mark-uriostegui-s-weights-and-copyright-argument"
+id="toc-appendix-c1-2024-12-17-the-bipartisan-house-ai-task-force-report-cites-mark-uriostegui-s-weights-and-copyright-argument">Appendix
+C1. 2024-12-17: The Bipartisan House AI Task Force report cites Mark
+Uriostegui’s weights-and-copyrig…</a></li>
+</ul></li>
+<li><a href="#appendix-d.-relevant-entities"
+id="toc-appendix-d.-relevant-entities">Appendix D. Relevant Entities</a>
+<ul>
+<li><a href="#appendix-d1-mark-uriostegui"
+id="toc-appendix-d1-mark-uriostegui">Appendix D1. Mark
+Uriostegui</a></li>
+</ul></li>
+<li><a href="#appendix-e.-evidence-boundaries"
+id="toc-appendix-e.-evidence-boundaries">Appendix E. Evidence
+Boundaries</a>
+<ul>
+<li><a href="#appendix-e1-disputed-matters"
+id="toc-appendix-e1-disputed-matters">Appendix E1. Disputed
+Matters</a></li>
+<li><a href="#appendix-e2-interpretive-boundaries"
+id="toc-appendix-e2-interpretive-boundaries">Appendix E2. Interpretive
+Boundaries</a></li>
+<li><a href="#appendix-e3-speculative-narrative-risks"
+id="toc-appendix-e3-speculative-narrative-risks">Appendix E3.
+Speculative Narrative Risks</a></li>
+<li><a href="#appendix-e4-sensitive-or-review-worthy-note-flags"
+id="toc-appendix-e4-sensitive-or-review-worthy-note-flags">Appendix E4.
+Sensitive or Review-Worthy Note Flags</a></li>
+</ul></li>
+</ul>
+</nav>
+<h2 id="abstract">Abstract</h2>
+<p>The fight over artificial intelligence is not only a fight over
+products, model benchmarks, or corporate market share. By December 17,
+2024, the Bipartisan House Task Force on Artificial Intelligence had
+already recorded the training-data conflict in terms overlapping with
+the dossier’s own framework: reproduction, derivative-work theory,
+commercialization, consent, credit, and compensation. The dossier
+therefore does not end in a vague call for better ethics.</p>
+<h2 id="keywords">Keywords</h2>
+<p>Opening framework; surveillance capitalism; AI imperialism; AI
+weights; patrimony of humanity; evidence-based dossier</p>
+<h2 id="research-question">Research Question</h2>
+<p>How should the dossier’s opening framework connect surveillance
+capitalism, ownership of AI weights, and the three-reform program?</p>
+<h2 id="scope-and-framing-note">Scope and Framing Note</h2>
+<p>This paper examines opening framework within the broader dossier
+<em>From Surveillance Capitalism to AI Imperialism</em>. It is
+intentionally written to circulate on its own: necessary context is
+restated, evidence boundaries are made explicit, and cited material is
+reproduced in paper-local form rather than delegated to repo navigation.
+It contributes to the series as a paper that frames the civilizational
+ownership question and announces the three-reform destination. Adjacent
+reinforcement appears in Chapter 01, Chapter 04, Chapter 10, but those
+cross-references are supportive rather than required for basic
+comprehension.</p>
+<h2 id="central-thesis">Central Thesis</h2>
+<p>The fight over artificial intelligence is not only a fight over
+products, model benchmarks, or corporate market share. It is also a
+fight over who owns the condensed value of collective human cognition.
+In this dossier, the central question is whether captured human
+language, art, code, labor, culture, science, and emotion can be turned
+into privately governed strategic weights without triggering a deeper
+political challenge. <a href="#fn1" class="footnote-ref" id="fnref1"
+role="doc-noteref"><sup>1</sup></a></p>
+<p>This chapter also sets the repo’s two writing layers. The files in
+<code>chapters/</code> are the reference-corpus narrative: readable,
+source-traceable, and explicitly bounded. The files in
+<code>papers/</code> are the durable paper-format outputs:
+self-contained, numerically cited, linked to a global appendix, and
+reusable for later publication or adaptation. The two layers serve
+different audiences, but they defend the same argument. <a href="#fn2"
+class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+<h2 id="evidence-and-method-note">Evidence and Method Note</h2>
+<p>This paper is derived from the chapter corpus for Chapter 00 and is
+grounded in the project’s structured research OS. It relies on source
+notes, extracted claims, entity profiles, and timeline events already
+normalized under the dossier’s evidence hierarchy. Documented facts are
+asserted directly where the record supports them; disputed matters are
+marked as such; interpretive claims are bounded explicitly; and
+speculative overreach is isolated in the evidence-boundary appendix.</p>
+<h2 id="introduction">Introduction</h2>
+<p>This paper asks: How should the dossier’s opening framework connect
+surveillance capitalism, ownership of AI weights, and the three-reform
+program? Its working answer is clear from the start: The fight over
+artificial intelligence is not only a fight over products, model
+benchmarks, or corporate market share. It is also a fight over who owns
+the condensed value of collective human cognition. In this dossier, the
+central question is whether captured human language, art, code, labor,
+culture, science, and emotion can be turned into privately governed
+strategic weights without triggering a deeper political challenge. <a
+href="#fn3" class="footnote-ref" id="fnref3"
+role="doc-noteref"><sup>3</sup></a></p>
+<p>This chapter also sets the repo’s two writing layers. The files in
+<code>chapters/</code> are the reference-corpus narrative: readable,
+source-traceable, and explicitly bounded. The files in
+<code>papers/</code> are the durable paper-format outputs:
+self-contained, numerically cited, linked to a global appendix, and
+reusable for later publication or adaptation. The two layers serve
+different audiences, but they defend the same argument. <a href="#fn4"
+class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> The
+objective is not only to recount developments, but to show why the
+subject of this chapter belongs inside a structural argument about
+extraction, enclosure, legitimacy, and reform.</p>
+<h2 id="historical-or-institutional-context">Historical or Institutional
+Context</h2>
+<p>By December 17, 2024, the Bipartisan House Task Force on Artificial
+Intelligence had already recorded the training-data conflict in terms
+overlapping with the dossier’s own framework: reproduction,
+derivative-work theory, commercialization, consent, credit, and
+compensation. Footnote <code>40</code> on physical page <code>116</code>
+cites Mark Uriostegui’s essay directly. That does not prove the argument
+on the merits, but it does prove institutional uptake. <a href="#fn5"
+class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p>
+<h2 id="main-analysis">Main Analysis</h2>
+<p>Paul Lara’s published writing adds the dossier’s second framing line:
+technofeudalism, debt-heavy buildout, paper valuation, and the
+smoke-economy vocabulary needed to describe how extraction is financed
+and politically sold. The dossier uses that line as interpretive
+framing, not as a substitute for primary evidence. <a href="#fn6"
+class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></p>
+<p>Interpretation: the strongest defensible reading is not that every
+later chapter proves a single grand conspiracy. It is that a coherent
+line can be drawn from platform extraction, to social weakening, to
+pandemic acceleration, to model training, to labor correction, to access
+chokepoints, and finally to legitimacy and capture. The burden of the
+dossier is to keep the factual layer and the political interpretation
+distinct while still arguing forcefully from the evidence. <a
+href="#fn7" class="footnote-ref" id="fnref7"
+role="doc-noteref"><sup>7</sup></a></p>
+<h2 id="position-within-the-series">Position Within the Series</h2>
+<p>This paper sits inside a coordinated 11-paper architecture. Its
+nearest companions are Chapter 01 (Social networks as infrastructure for
+free data capture), Chapter 04 (AI arrives when the human raw material
+already exists), Chapter 10 (What to do). In that series logic, Chapter
+00 frames the civilizational ownership question and announces the
+three-reform destination.</p>
+<h2 id="counterarguments">Counterarguments</h2>
+<p>The opening can overreach if it treats the enclosure argument as
+already complete in legal doctrine rather than politically and
+institutionally emergent. The House citation proves relevance, not
+victory. The Lara framing sharpens the language of the dossier, but it
+does not replace the need for documentary support chapter by chapter. <a
+href="#fn8" class="footnote-ref" id="fnref8"
+role="doc-noteref"><sup>8</sup></a></p>
+<h2 id="limits-of-the-evidence">Limits of the Evidence</h2>
+<p>The opening can overreach if it treats the enclosure argument as
+already complete in legal doctrine rather than politically and
+institutionally emergent. The House citation proves relevance, not
+victory. The Lara framing sharpens the language of the dossier, but it
+does not replace the need for documentary support chapter by chapter. <a
+href="#fn9" class="footnote-ref" id="fnref9"
+role="doc-noteref"><sup>9</sup></a></p>
+<h2 id="reform-relevance">Reform Relevance</h2>
+<p>The dossier therefore does not end in a vague call for better ethics.
+It moves toward three explicit reforms:</p>
+<ul>
+<li><code>Refactor Section 230</code></li>
+<li><code>AI Weights as Patrimony of Humanity</code></li>
+<li><code>Limit Government Capture by AI Companies</code></li>
+</ul>
+<p>Interpretation: those reforms are not presented as already enacted or
+legally settled. They are the dossier’s normative answer to the
+documented structure of extraction, enclosure, and capture. <a
+href="#fn10" class="footnote-ref" id="fnref10"
+role="doc-noteref"><sup>10</sup></a></p>
+<h2 id="conclusion">Conclusion</h2>
+<p>The dossier therefore does not end in a vague call for better ethics.
+To test that argument, the dossier has to begin before frontier AI. In
+the architecture of this series, Chapter 00 therefore functions as a
+self-contained argument while also advancing the cumulative path toward
+the dossier’s three reforms.</p>
+<h2 id="notes">Notes</h2>
+<p>This paper is designed to circulate independently. Public notes point
+readers to the real external documents first, then to the paper-local
+appendix entry that explains why each source matters.</p>
+<p>The underlying research OS distinguishes among
+<code>Documented Fact</code>, <code>Disputed Fact</code>,
+<code>Hypothesis / Interpretation</code>, and
+<code>Speculative Narrative Risk</code>. In Chapter 00, those boundaries
+remain visible in the prose, in the bibliography, and in the appendix
+sections that summarize claims and caution points.</p>
+<h2 id="references-bibliography">References / Bibliography</h2>
+<ol type="1">
+<li>TwinChat. <a
+href="https://medium.com/twinchat/ai-copyright-weights-a-new-frontier-in-intellectual-property-law-d8ee1b6c55ee">AI
+Copyright Weights: A New Frontier in Intellectual Property Law</a>.
+n.d.. T3 essay. Paper appendix: <a
+href="#appendix-a1-ai-copyright-weights-a-new-frontier-in-intellectual-property-law">Appendix
+A1</a>. Corpus companion entry: Source S-122. Audit ID:
+<code>twinchat-ai-copyright-weights</code>. Relevance: That the dossier
+has a coherent thesis about how weights condense previously captured
+human labor.</li>
+<li>TwinChat. <a
+href="https://medium.com/twinchat/how-ai-is-ruining-your-life-to-build-an-empire-8b6d02e55bc9">How
+AI Is Ruining Your Life to Build an Empire</a>. n.d.. T3 essay. Paper
+appendix: <a
+href="#appendix-a2-how-ai-is-ruining-your-life-to-build-an-empire">Appendix
+A2</a>. Corpus companion entry: Source S-123. Audit ID:
+<code>twinchat-ai-ruining-your-life</code>. Relevance: That there is a
+consistent argumentative line for reading surveillance, social
+deterioration, and AI within a single political framework.</li>
+<li>U.S. House of Representatives. <a
+href="https://www.speaker.gov/wp-content/uploads/2024/12/AI-Task-Force-Report-FINAL.pdf">Bipartisan
+House Task Force Report on Artificial Intelligence</a>. 2024-12-17. T1
+report. Paper appendix: <a
+href="#appendix-a3-bipartisan-house-task-force-report-on-artificial-intelligence">Appendix
+A3</a>. Corpus companion entry: Source S-070. Audit ID:
+<code>house-ai-task-force-report-2024</code>. Relevance: That the
+dossier’s copyright / weights / compensation framing entered a
+bipartisan U.S. congressional policy record by December 17, 2024.</li>
+<li>Paul Lara. <a
+href="https://www.dineroenimagen.com/paul-lara/como-hackear-al-tecnofeudalismo/186955">¿Cómo
+hackear al tecnofeudalismo?</a>. 2026-06-29. T3 essay. Paper appendix:
+<a href="#appendix-a4-c-mo-hackear-al-tecnofeudalismo">Appendix A4</a>.
+Corpus companion entry: Source S-104. Audit ID:
+<code>paul-lara-tecnofeudalismo-2026</code>. Relevance: That by late
+June 2026 the dossier’s response layer had a documented co-framing voice
+organized around technofeudalism, democratic governance, and digital
+sovereignty.</li>
+<li>Paul Lara. <a
+href="https://www.dineroenimagen.com/paul-lara/la-gran-deuda-por-la-ia/186930">La
+gran deuda por la IA</a>. 2026-06-22. T3 essay. Paper appendix: <a
+href="#appendix-a5-la-gran-deuda-por-la-ia">Appendix A5</a>. Corpus
+companion entry: Source S-102. Audit ID:
+<code>paul-lara-great-ai-debt-2026</code>. Relevance: Supports a key
+factual or interpretive move inside this paper.</li>
+</ol>
+<h2 id="appendix-a.-source-register-for-this-paper">Appendix A. Source
+Register for This Paper</h2>
+<h3
+id="appendix-a1-ai-copyright-weights-a-new-frontier-in-intellectual-property-law">Appendix
+A1. AI Copyright Weights: A New Frontier in Intellectual Property
+Law</h3>
+<p><strong>Source citation:</strong> <a
+href="https://medium.com/twinchat/ai-copyright-weights-a-new-frontier-in-intellectual-property-law-d8ee1b6c55ee">AI
+Copyright Weights: A New Frontier in Intellectual Property Law</a>
+<strong>Institution / author:</strong> TwinChat <strong>Date:</strong>
+n.d. <strong>Tier / type:</strong> T3 / essay <strong>Why it matters in
+this paper:</strong> That the dossier has a coherent thesis about how
+weights condense previously captured human labor. <strong>Corpus
+companion entry:</strong> Source S-122 <strong>Audit ID:</strong>
+<code>twinchat-ai-copyright-weights</code></p>
+<h3
+id="appendix-a2-how-ai-is-ruining-your-life-to-build-an-empire">Appendix
+A2. How AI Is Ruining Your Life to Build an Empire</h3>
+<p><strong>Source citation:</strong> <a
+href="https://medium.com/twinchat/how-ai-is-ruining-your-life-to-build-an-empire-8b6d02e55bc9">How
+AI Is Ruining Your Life to Build an Empire</a> <strong>Institution /
+author:</strong> TwinChat <strong>Date:</strong> n.d. <strong>Tier /
+type:</strong> T3 / essay <strong>Why it matters in this paper:</strong>
+That there is a consistent argumentative line for reading surveillance,
+social deterioration, and AI within a single political framework.
+<strong>Corpus companion entry:</strong> Source S-123 <strong>Audit
+ID:</strong> <code>twinchat-ai-ruining-your-life</code></p>
+<h3
+id="appendix-a3-bipartisan-house-task-force-report-on-artificial-intelligence">Appendix
+A3. Bipartisan House Task Force Report on Artificial Intelligence</h3>
+<p><strong>Source citation:</strong> <a
+href="https://www.speaker.gov/wp-content/uploads/2024/12/AI-Task-Force-Report-FINAL.pdf">Bipartisan
+House Task Force Report on Artificial Intelligence</a>
+<strong>Institution / author:</strong> U.S. House of Representatives
+<strong>Date:</strong> 2024-12-17 <strong>Tier / type:</strong> T1 /
+report <strong>Why it matters in this paper:</strong> That the dossier’s
+copyright / weights / compensation framing entered a bipartisan U.S.
+congressional policy record by December 17, 2024. <strong>Corpus
+companion entry:</strong> Source S-070 <strong>Audit ID:</strong>
+<code>house-ai-task-force-report-2024</code></p>
+<h3 id="appendix-a4-c-mo-hackear-al-tecnofeudalismo">Appendix A4. ¿Cómo
+hackear al tecnofeudalismo?</h3>
+<p><strong>Source citation:</strong> <a
+href="https://www.dineroenimagen.com/paul-lara/como-hackear-al-tecnofeudalismo/186955">¿Cómo
+hackear al tecnofeudalismo?</a> <strong>Institution / author:</strong>
+Paul Lara <strong>Date:</strong> 2026-06-29 <strong>Tier /
+type:</strong> T3 / essay <strong>Why it matters in this paper:</strong>
+That by late June 2026 the dossier’s response layer had a documented
+co-framing voice organized around technofeudalism, democratic
+governance, and digital sovereignty. <strong>Corpus companion
+entry:</strong> Source S-104 <strong>Audit ID:</strong>
+<code>paul-lara-tecnofeudalismo-2026</code></p>
+<h3 id="appendix-a5-la-gran-deuda-por-la-ia">Appendix A5. La gran deuda
+por la IA</h3>
+<p><strong>Source citation:</strong> <a
+href="https://www.dineroenimagen.com/paul-lara/la-gran-deuda-por-la-ia/186930">La
+gran deuda por la IA</a> <strong>Institution / author:</strong> Paul
+Lara <strong>Date:</strong> 2026-06-22 <strong>Tier / type:</strong> T3
+/ essay <strong>Why it matters in this paper:</strong> Supports a key
+factual or interpretive move inside this paper. <strong>Corpus companion
+entry:</strong> Source S-102 <strong>Audit ID:</strong>
+<code>paul-lara-great-ai-debt-2026</code></p>
+<h2 id="appendix-b.-claims-used-in-this-paper">Appendix B. Claims Used
+in This Paper</h2>
+<h3
+id="appendix-b1-the-dossier-s-copyright-weights-compensation-framing-entered-a-bipartisan-u-s">Appendix
+B1. The dossier’s copyright / weights / compensation framing entered a
+bipartisan U.S…</h3>
+<p><strong>Claim statement:</strong> That the dossier’s copyright /
+weights / compensation framing entered a bipartisan U.S. congressional
+policy record by December 17, 2024. <strong>Evidence status:</strong>
+Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a3-bipartisan-house-task-force-report-on-artificial-intelligence">Appendix
+A3</a> <strong>Corpus companion entry:</strong> Claim C-219
+<strong>Audit Claim ID:</strong>
+<code>house-ai-task-force-report-2024-04-data-to-models-copyright-weights-claim-01</code></p>
+<h3
+id="appendix-b2-a-formal-house-report-recorded-the-ai-training-dispute-in-terms-that-directly-ove">Appendix
+B2. A formal House report recorded the AI-training dispute in terms that
+directly ove…</h3>
+<p><strong>Claim statement:</strong> That a formal House report recorded
+the AI-training dispute in terms that directly overlap with the
+dossier’s concern about reproduction, derivative-work theory,
+commercialization, consent, credit, and compensation. <strong>Evidence
+status:</strong> Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a3-bipartisan-house-task-force-report-on-artificial-intelligence">Appendix
+A3</a> <strong>Corpus companion entry:</strong> Claim C-220
+<strong>Audit Claim ID:</strong>
+<code>house-ai-task-force-report-2024-04-data-to-models-copyright-weights-claim-02</code></p>
+<h3
+id="appendix-b3-chapter-00-and-chapter-04-can-cite-institutional-uptake-of-the-argument-without-p">Appendix
+B3. Chapter 00 and Chapter 04 can cite institutional uptake of the
+argument without p…</h3>
+<p><strong>Claim statement:</strong> That Chapter <code>00</code> and
+Chapter <code>04</code> can cite institutional uptake of the argument
+without pretending that congressional citation settles the underlying
+legal merits. <strong>Evidence status:</strong> Documented Fact
+<strong>Source support:</strong> <a
+href="#appendix-a3-bipartisan-house-task-force-report-on-artificial-intelligence">Appendix
+A3</a> <strong>Corpus companion entry:</strong> Claim C-221
+<strong>Audit Claim ID:</strong>
+<code>house-ai-task-force-report-2024-04-data-to-models-copyright-weights-claim-03</code></p>
+<h3
+id="appendix-b4-by-late-june-2026-the-dossier-s-response-layer-had-a-documented-co-framing-voice">Appendix
+B4. By late June 2026 the dossier’s response layer had a documented
+co-framing voice…</h3>
+<p><strong>Claim statement:</strong> That by late June 2026 the
+dossier’s response layer had a documented co-framing voice organized
+around technofeudalism, democratic governance, and digital sovereignty.
+<strong>Evidence status:</strong> Documented Fact <strong>Source
+support:</strong> <a
+href="#appendix-a4-c-mo-hackear-al-tecnofeudalismo">Appendix A4</a>
+<strong>Corpus companion entry:</strong> Claim C-346 <strong>Audit Claim
+ID:</strong>
+<code>paul-lara-tecnofeudalismo-2026-10-counterstrategy-response-agenda-claim-01</code></p>
+<h3
+id="appendix-b5-chapter-10-can-draw-on-a-public-interpretive-vocabulary-that-connects-critique-of">Appendix
+B5. Chapter 10 can draw on a public interpretive vocabulary that
+connects critique of…</h3>
+<p><strong>Claim statement:</strong> That Chapter <code>10</code> can
+draw on a public interpretive vocabulary that connects critique of
+extraction to concrete institutional countermeasures. <strong>Evidence
+status:</strong> Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a4-c-mo-hackear-al-tecnofeudalismo">Appendix A4</a>
+<strong>Corpus companion entry:</strong> Claim C-347 <strong>Audit Claim
+ID:</strong>
+<code>paul-lara-tecnofeudalismo-2026-10-counterstrategy-response-agenda-claim-02</code></p>
+<h3
+id="appendix-b6-the-dossier-s-framing-partnership-with-paul-lara-is-textually-grounded-in-an-exis">Appendix
+B6. The dossier’s framing partnership with Paul Lara is textually
+grounded in an exis…</h3>
+<p><strong>Claim statement:</strong> That the dossier’s framing
+partnership with Paul Lara is textually grounded in an existing public
+essay sequence rather than improvised after the fact. <strong>Evidence
+status:</strong> Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a4-c-mo-hackear-al-tecnofeudalismo">Appendix A4</a>
+<strong>Corpus companion entry:</strong> Claim C-348 <strong>Audit Claim
+ID:</strong>
+<code>paul-lara-tecnofeudalismo-2026-10-counterstrategy-response-agenda-claim-03</code></p>
+<h3
+id="appendix-b7-the-dossier-has-a-coherent-thesis-about-how-weights-condense-previously-captured">Appendix
+B7. The dossier has a coherent thesis about how weights condense
+previously captured…</h3>
+<p><strong>Claim statement:</strong> That the dossier has a coherent
+thesis about how weights condense previously captured human labor.
+<strong>Evidence status:</strong> Documented Fact <strong>Source
+support:</strong> <a
+href="#appendix-a1-ai-copyright-weights-a-new-frontier-in-intellectual-property-law">Appendix
+A1</a> <strong>Corpus companion entry:</strong> Claim C-397
+<strong>Audit Claim ID:</strong>
+<code>twinchat-ai-copyright-weights-claim-01</code></p>
+<h3
+id="appendix-b8-there-is-a-clear-argumentative-line-linking-ai-property-and-enclosure">Appendix
+B8. There is a clear argumentative line linking AI, property, and
+enclosure</h3>
+<p><strong>Claim statement:</strong> That there is a clear argumentative
+line linking AI, property, and enclosure. <strong>Evidence
+status:</strong> Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a1-ai-copyright-weights-a-new-frontier-in-intellectual-property-law">Appendix
+A1</a> <strong>Corpus companion entry:</strong> Claim C-398
+<strong>Audit Claim ID:</strong>
+<code>twinchat-ai-copyright-weights-claim-02</code></p>
+<h3
+id="appendix-b9-there-is-a-consistent-argumentative-line-for-reading-surveillance-social-deterio">Appendix
+B9. There is a consistent argumentative line for reading surveillance,
+social deterio…</h3>
+<p><strong>Claim statement:</strong> That there is a consistent
+argumentative line for reading surveillance, social deterioration, and
+AI within a single political framework. <strong>Evidence
+status:</strong> Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a2-how-ai-is-ruining-your-life-to-build-an-empire">Appendix
+A2</a> <strong>Corpus companion entry:</strong> Claim C-399
+<strong>Audit Claim ID:</strong>
+<code>twinchat-ai-ruining-your-life-claim-01</code></p>
+<h3
+id="appendix-b10-the-dossier-will-not-be-a-simple-collection-of-scandals-but-an-integrated-theory">Appendix
+B10. The dossier will not be a simple collection of scandals, but an
+integrated theory…</h3>
+<p><strong>Claim statement:</strong> That the dossier will not be a
+simple collection of scandals, but an integrated theory of the process.
+<strong>Evidence status:</strong> Documented Fact <strong>Source
+support:</strong> <a
+href="#appendix-a2-how-ai-is-ruining-your-life-to-build-an-empire">Appendix
+A2</a> <strong>Corpus companion entry:</strong> Claim C-400
+<strong>Audit Claim ID:</strong>
+<code>twinchat-ai-ruining-your-life-claim-02</code></p>
+<h3
+id="appendix-b11-frontier-ai-weights-can-be-read-as-condensed-claims-over-collectively-produced-hu">Appendix
+B11. Frontier AI weights can be read as condensed claims over
+collectively produced hu…</h3>
+<p><strong>Claim statement:</strong> That frontier AI weights can be
+read as condensed claims over collectively produced human expression and
+therefore justify patrimony-oriented governance. <strong>Evidence
+status:</strong> Hypothesis / Interpretation <strong>Source
+support:</strong> <a
+href="#appendix-a1-ai-copyright-weights-a-new-frontier-in-intellectual-property-law">Appendix
+A1</a>, <a
+href="#appendix-a3-bipartisan-house-task-force-report-on-artificial-intelligence">Appendix
+A3</a> <strong>Corpus companion entry:</strong> Claim C-429
+<strong>Audit Claim ID:</strong>
+<code>vector04-weights-patrimony-governance-claim-01</code></p>
+<h3
+id="appendix-b12-current-legal-uncertainty-or-congressional-uptake-already-proves-frontier-ai-weig">Appendix
+B12. Current legal uncertainty or congressional uptake already proves
+frontier AI weig…</h3>
+<p><strong>Claim statement:</strong> That current legal uncertainty or
+congressional uptake already proves frontier AI weights are legally
+settled as patrimony, public trust property, or common heritage.
+<strong>Evidence status:</strong> Speculative Narrative Risk
+<strong>Source support:</strong> <a
+href="#appendix-a3-bipartisan-house-task-force-report-on-artificial-intelligence">Appendix
+A3</a> <strong>Corpus companion entry:</strong> Claim C-426
+<strong>Audit Claim ID:</strong>
+<code>vector04-patrimony-already-settled-overclaim-claim-01</code></p>
+<h2 id="appendix-c.-timeline-slice">Appendix C. Timeline Slice</h2>
+<h3
+id="appendix-c1-2024-12-17-the-bipartisan-house-ai-task-force-report-cites-mark-uriostegui-s-weights-and-copyright-argument">Appendix
+C1. 2024-12-17: The Bipartisan House AI Task Force report cites Mark
+Uriostegui’s weights-and-copyrig…</h3>
+<p><strong>Event summary:</strong> The Bipartisan House AI Task Force
+report cites Mark Uriostegui’s weights-and-copyright argument
+<strong>Event date:</strong> 2024-12-17 <strong>Source support:</strong>
+<a
+href="#appendix-a3-bipartisan-house-task-force-report-on-artificial-intelligence">Appendix
+A3</a> <strong>Corpus companion entry:</strong> Event T-062
+<strong>Audit Event ID:</strong>
+<code>event-house-ai-task-force-report-2024-12-17</code></p>
+<h2 id="appendix-d.-relevant-entities">Appendix D. Relevant
+Entities</h2>
+<h3 id="appendix-d1-mark-uriostegui">Appendix D1. Mark Uriostegui</h3>
+<p><strong>Entity type:</strong> person <strong>Role in this
+paper:</strong> Actor relevant to 04_data_to_models_copyright_weights,
+08_power_networks_legitimacy_capture. <strong>Relevant sources in this
+paper:</strong> <a
+href="#appendix-a1-ai-copyright-weights-a-new-frontier-in-intellectual-property-law">Appendix
+A1</a>, <a
+href="#appendix-a2-how-ai-is-ruining-your-life-to-build-an-empire">Appendix
+A2</a>, <a
+href="#appendix-a3-bipartisan-house-task-force-report-on-artificial-intelligence">Appendix
+A3</a> <strong>Corpus companion entry:</strong> Entity E-053
+<strong>Audit Entity ID:</strong>
+<code>person-mark-uriostegui</code></p>
+<h2 id="appendix-e.-evidence-boundaries">Appendix E. Evidence
+Boundaries</h2>
+<h3 id="appendix-e1-disputed-matters">Appendix E1. Disputed Matters</h3>
+<ul>
+<li>None registered for this paper.</li>
+</ul>
+<h3 id="appendix-e2-interpretive-boundaries">Appendix E2. Interpretive
+Boundaries</h3>
+<ul>
+<li><a
+href="#appendix-b11-frontier-ai-weights-can-be-read-as-condensed-claims-over-collectively-produced-hu">Appendix
+B11</a>: That frontier AI weights can be read as condensed claims over
+collectively produced human expression and therefore justify
+patrimony-oriented governance.</li>
+</ul>
+<h3 id="appendix-e3-speculative-narrative-risks">Appendix E3.
+Speculative Narrative Risks</h3>
+<ul>
+<li><a
+href="#appendix-b12-current-legal-uncertainty-or-congressional-uptake-already-proves-frontier-ai-weig">Appendix
+B12</a>: That current legal uncertainty or congressional uptake already
+proves frontier AI weights are legally settled as patrimony, public
+trust property, or common heritage.</li>
+</ul>
+<h3 id="appendix-e4-sensitive-or-review-worthy-note-flags">Appendix E4.
+Sensitive or Review-Worthy Note Flags</h3>
+<ul>
+<li><a
+href="#appendix-a3-bipartisan-house-task-force-report-on-artificial-intelligence">Appendix
+A3</a>. Companion note: Note N-031. Risk flag: review. Note focus: That
+the dossier’s copyright / weights / compensation framing entered a
+bipartisan U.S. congressional policy record by December 17, 2024.</li>
+<li><a
+href="#appendix-a1-ai-copyright-weights-a-new-frontier-in-intellectual-property-law">Appendix
+A1</a>. Companion note: Note N-035. Risk flag: medium. Note focus: That
+the dossier has a coherent thesis about how weights condense previously
+captured human labor.</li>
+<li><a
+href="#appendix-a2-how-ai-is-ruining-your-life-to-build-an-empire">Appendix
+A2</a>. Companion note: Note N-036. Risk flag: medium. Note focus: That
+there is a consistent argumentative line for reading surveillance,
+social deterioration, and AI within a single political framework.</li>
+<li><a href="#appendix-a4-c-mo-hackear-al-tecnofeudalismo">Appendix
+A4</a>. Companion note: Note N-106. Risk flag: review. Note focus: That
+by late June 2026 the dossier’s response layer had a documented
+co-framing voice organized around technofeudalism, democratic
+governance, and digital sovereignty.</li>
+</ul>
+<section id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Sources: TwinChat, <a
+href="https://medium.com/twinchat/ai-copyright-weights-a-new-frontier-in-intellectual-property-law-d8ee1b6c55ee">AI
+Copyright Weights: A New Frontier…</a> (n.d.; see <a
+href="#appendix-a1-ai-copyright-weights-a-new-frontier-in-intellectual-property-law">Appendix
+A1</a>); TwinChat, <a
+href="https://medium.com/twinchat/how-ai-is-ruining-your-life-to-build-an-empire-8b6d02e55bc9">How
+AI Is Ruining Your Life to Build…</a> (n.d.; see <a
+href="#appendix-a2-how-ai-is-ruining-your-life-to-build-an-empire">Appendix
+A2</a>)<a href="#fnref1" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Sources: U.S. House of Representatives, <a
+href="https://www.speaker.gov/wp-content/uploads/2024/12/AI-Task-Force-Report-FINAL.pdf">Bipartisan
+House Task Force Report on…</a> (2024-12-17; see <a
+href="#appendix-a3-bipartisan-house-task-force-report-on-artificial-intelligence">Appendix
+A3</a>); TwinChat, <a
+href="https://medium.com/twinchat/ai-copyright-weights-a-new-frontier-in-intellectual-property-law-d8ee1b6c55ee">AI
+Copyright Weights: A New Frontier…</a> (n.d.; see <a
+href="#appendix-a1-ai-copyright-weights-a-new-frontier-in-intellectual-property-law">Appendix
+A1</a>)<a href="#fnref2" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Sources: TwinChat, <a
+href="https://medium.com/twinchat/ai-copyright-weights-a-new-frontier-in-intellectual-property-law-d8ee1b6c55ee">AI
+Copyright Weights: A New Frontier…</a> (n.d.; see <a
+href="#appendix-a1-ai-copyright-weights-a-new-frontier-in-intellectual-property-law">Appendix
+A1</a>); TwinChat, <a
+href="https://medium.com/twinchat/how-ai-is-ruining-your-life-to-build-an-empire-8b6d02e55bc9">How
+AI Is Ruining Your Life to Build…</a> (n.d.; see <a
+href="#appendix-a2-how-ai-is-ruining-your-life-to-build-an-empire">Appendix
+A2</a>)<a href="#fnref3" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Sources: U.S. House of Representatives, <a
+href="https://www.speaker.gov/wp-content/uploads/2024/12/AI-Task-Force-Report-FINAL.pdf">Bipartisan
+House Task Force Report on…</a> (2024-12-17; see <a
+href="#appendix-a3-bipartisan-house-task-force-report-on-artificial-intelligence">Appendix
+A3</a>); TwinChat, <a
+href="https://medium.com/twinchat/ai-copyright-weights-a-new-frontier-in-intellectual-property-law-d8ee1b6c55ee">AI
+Copyright Weights: A New Frontier…</a> (n.d.; see <a
+href="#appendix-a1-ai-copyright-weights-a-new-frontier-in-intellectual-property-law">Appendix
+A1</a>)<a href="#fnref4" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Sources: U.S. House of Representatives, <a
+href="https://www.speaker.gov/wp-content/uploads/2024/12/AI-Task-Force-Report-FINAL.pdf">Bipartisan
+House Task Force Report on…</a> (2024-12-17; see <a
+href="#appendix-a3-bipartisan-house-task-force-report-on-artificial-intelligence">Appendix
+A3</a>); TwinChat, <a
+href="https://medium.com/twinchat/ai-copyright-weights-a-new-frontier-in-intellectual-property-law-d8ee1b6c55ee">AI
+Copyright Weights: A New Frontier…</a> (n.d.; see <a
+href="#appendix-a1-ai-copyright-weights-a-new-frontier-in-intellectual-property-law">Appendix
+A1</a>)<a href="#fnref5" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>Sources: Paul Lara, <a
+href="https://www.dineroenimagen.com/paul-lara/como-hackear-al-tecnofeudalismo/186955">¿Cómo
+hackear al tecnofeudalismo?</a> (2026-06-29; see <a
+href="#appendix-a4-c-mo-hackear-al-tecnofeudalismo">Appendix A4</a>);
+Paul Lara, <a
+href="https://www.dineroenimagen.com/paul-lara/la-gran-deuda-por-la-ia/186930">La
+gran deuda por la IA</a> (2026-06-22; see <a
+href="#appendix-a5-la-gran-deuda-por-la-ia">Appendix A5</a>); TwinChat,
+<a
+href="https://medium.com/twinchat/how-ai-is-ruining-your-life-to-build-an-empire-8b6d02e55bc9">How
+AI Is Ruining Your Life to Build…</a> (n.d.; see <a
+href="#appendix-a2-how-ai-is-ruining-your-life-to-build-an-empire">Appendix
+A2</a>)<a href="#fnref6" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>Sources: TwinChat, <a
+href="https://medium.com/twinchat/ai-copyright-weights-a-new-frontier-in-intellectual-property-law-d8ee1b6c55ee">AI
+Copyright Weights: A New Frontier…</a> (n.d.; see <a
+href="#appendix-a1-ai-copyright-weights-a-new-frontier-in-intellectual-property-law">Appendix
+A1</a>); TwinChat, <a
+href="https://medium.com/twinchat/how-ai-is-ruining-your-life-to-build-an-empire-8b6d02e55bc9">How
+AI Is Ruining Your Life to Build…</a> (n.d.; see <a
+href="#appendix-a2-how-ai-is-ruining-your-life-to-build-an-empire">Appendix
+A2</a>); U.S. House of Representatives, <a
+href="https://www.speaker.gov/wp-content/uploads/2024/12/AI-Task-Force-Report-FINAL.pdf">Bipartisan
+House Task Force Report on…</a> (2024-12-17; see <a
+href="#appendix-a3-bipartisan-house-task-force-report-on-artificial-intelligence">Appendix
+A3</a>)<a href="#fnref7" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>Sources: U.S. House of Representatives, <a
+href="https://www.speaker.gov/wp-content/uploads/2024/12/AI-Task-Force-Report-FINAL.pdf">Bipartisan
+House Task Force Report on…</a> (2024-12-17; see <a
+href="#appendix-a3-bipartisan-house-task-force-report-on-artificial-intelligence">Appendix
+A3</a>); Paul Lara, <a
+href="https://www.dineroenimagen.com/paul-lara/la-gran-deuda-por-la-ia/186930">La
+gran deuda por la IA</a> (2026-06-22; see <a
+href="#appendix-a5-la-gran-deuda-por-la-ia">Appendix A5</a>)<a
+href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>Sources: U.S. House of Representatives, <a
+href="https://www.speaker.gov/wp-content/uploads/2024/12/AI-Task-Force-Report-FINAL.pdf">Bipartisan
+House Task Force Report on…</a> (2024-12-17; see <a
+href="#appendix-a3-bipartisan-house-task-force-report-on-artificial-intelligence">Appendix
+A3</a>); Paul Lara, <a
+href="https://www.dineroenimagen.com/paul-lara/la-gran-deuda-por-la-ia/186930">La
+gran deuda por la IA</a> (2026-06-22; see <a
+href="#appendix-a5-la-gran-deuda-por-la-ia">Appendix A5</a>)<a
+href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p>Sources: TwinChat, <a
+href="https://medium.com/twinchat/ai-copyright-weights-a-new-frontier-in-intellectual-property-law-d8ee1b6c55ee">AI
+Copyright Weights: A New Frontier…</a> (n.d.; see <a
+href="#appendix-a1-ai-copyright-weights-a-new-frontier-in-intellectual-property-law">Appendix
+A1</a>); TwinChat, <a
+href="https://medium.com/twinchat/how-ai-is-ruining-your-life-to-build-an-empire-8b6d02e55bc9">How
+AI Is Ruining Your Life to Build…</a> (n.d.; see <a
+href="#appendix-a2-how-ai-is-ruining-your-life-to-build-an-empire">Appendix
+A2</a>); U.S. House of Representatives, <a
+href="https://www.speaker.gov/wp-content/uploads/2024/12/AI-Task-Force-Report-FINAL.pdf">Bipartisan
+House Task Force Report on…</a> (2024-12-17; see <a
+href="#appendix-a3-bipartisan-house-task-force-report-on-artificial-intelligence">Appendix
+A3</a>)<a href="#fnref10" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+</body>
+</html>

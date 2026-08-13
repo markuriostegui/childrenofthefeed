@@ -1,0 +1,212 @@
+document.documentElement.classList.add('js');
+[2203.11136] Work-From-Home is Here to Stay: Call for Flexibility in Post-Pandemic Work Policies
+Skip to main content
+arXiv is now an independent nonprofit!
+Learn more
+×
+Search
+Submit
+Donate
+Log in
+Search arXiv
+Press Enter to search ·
+Advanced search
+Computer Science > Software Engineering
+arXiv:2203.11136
+(cs)
+COVID-19 e-print
+Important:
+e-prints posted on arXiv are not peer-reviewed by arXiv; they should not be relied upon without context to guide clinical practice or health-related behavior and should not be reported in news media as established information without consulting multiple experts in the field.
+[Submitted on 21 Mar 2022]
+Title:
+Work-From-Home is Here to Stay: Call for Flexibility in Post-Pandemic Work Policies
+Authors:
+Darja Smite
+,
+Nils Brede Moe
+,
+Jarle Hildrum
+,
+Javier Gonzalez Huerta
+,
+Daniel Mendez
+View a PDF of the paper titled Work-From-Home is Here to Stay: Call for Flexibility in Post-Pandemic Work Policies, by Darja Smite and 4 other authors
+View PDF
+Abstract:
+In early 2020, the Covid-19 pandemic forced employees in tech companies worldwide to abruptly transition from working in offices to working from their homes. During two years of predominantly working from home, employees and managers alike formed expectations about what post-pandemic working life should look like. Many companies are currently experimenting with new work policies that balance both employee- and manager expectations to where, when and how work should be done in the future. In this article, we gather experiences from 17 companies and their sites, covering 12 countries. We share the results of corporate surveys of employee preferences for working from home and analyse new work policies. Our results are threefold. First, through the new work policies all companies are formally giving more flexibility to the employees with regards to working time and work location. Second, there is a great variation in how much flexibility the companies are willing to yield to the employees. The variation is related both to industry type, size of the companies, and company culture. Third, we document a change in the psychological contract between employees and managers, where the option of working from home is converted from an exclusive perk that managers could choose to give to the few, to a core privilege that all employees feel they are entitled to. Finally, there are indications that as the companies learn and solicit feedback regarding the efficiency of the chosen strategies, we might see further developments and changes of the work policies with respect to how much flexibility to work whenever and from anywhere they grant. Through these findings, the paper contributes to a growing literature about the new trends emerging from the pandemic in tech companies and spells out practical implications onwards.
+Comments:
+Submitted to the Journal of Systems and Software, New Ideas and Trends track
+Subjects:
+Software Engineering (cs.SE)
+; Computers and Society (cs.CY)
+Cite as:
+arXiv:2203.11136
+[cs.SE]
+(or
+arXiv:2203.11136v1
+[cs.SE]
+for this version)
+https://doi.org/10.48550/arXiv.2203.11136
+Focus to learn more
+arXiv-issued DOI via DataCite
+Submission history
+From: Darja Smite [
+view email
+]
+[v1]
+Mon, 21 Mar 2022 17:11:20 UTC (1,112 KB)
+Full-text links:
+Access Paper:
+View a PDF of the paper titled Work-From-Home is Here to Stay: Call for Flexibility in Post-Pandemic Work Policies, by Darja Smite and 4 other authors
+View PDF
+view license
+Current browse context:
+cs.SE
+< prev
+|
+next >
+new
+|
+recent
+|
+2022-03
+Change to browse by:
+cs
+cs.CY
+References & Citations
+NASA ADS
+Google Scholar
+Semantic Scholar
+export BibTeX citation
+Loading...
+BibTeX formatted citation
+×
+loading...
+Data provided by:
+Bookmark
+Bibliographic Tools
+Bibliographic and Citation Tools
+Bibliographic Explorer Toggle
+Bibliographic Explorer
+(
+What is the Explorer?
+)
+Connected Papers Toggle
+Connected Papers
+(
+What is Connected Papers?
+)
+Litmaps Toggle
+Litmaps
+(
+What is Litmaps?
+)
+scite.ai Toggle
+scite Smart Citations
+(
+What are Smart Citations?
+)
+Code, Data, Media
+Code, Data and Media Associated with this Article
+alphaXiv Toggle
+alphaXiv
+(
+What is alphaXiv?
+)
+Links to Code Toggle
+CatalyzeX Code Finder for Papers
+(
+What is CatalyzeX?
+)
+DagsHub Toggle
+DagsHub
+(
+What is DagsHub?
+)
+GotitPub Toggle
+Gotit.pub
+(
+What is GotitPub?
+)
+Huggingface Toggle
+Hugging Face
+(
+What is Huggingface?
+)
+ScienceCast Toggle
+ScienceCast
+(
+What is ScienceCast?
+)
+Demos
+Demos
+Replicate Toggle
+Replicate
+(
+What is Replicate?
+)
+Spaces Toggle
+Hugging Face Spaces
+(
+What is Spaces?
+)
+Spaces Toggle
+TXYZ.AI
+(
+What is TXYZ.AI?
+)
+Related Papers
+Recommenders and Search Tools
+Link to Influence Flower
+Influence Flower
+(
+What are Influence Flowers?
+)
+Core recommender toggle
+CORE Recommender
+(
+What is CORE?
+)
+Author
+Venue
+Institution
+Topic
+About arXivLabs
+arXivLabs: experimental projects with community collaborators
+arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.
+Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
+Have an idea for a project that will add value for arXiv's community?
+Learn more about arXivLabs
+.
+Which authors of this paper are endorsers?
+|
+Disable MathJax
+(
+What is MathJax?
+)
+mathjaxToggle();
+We gratefully acknowledge support from
+        our
+major funders
+,
+member institutions
+,
+,
+        and all contributors.
+About
+·
+Help
+·
+Contact
+·
+Subscribe
+·
+Copyright
+·
+Privacy
+·
+Accessibility
+·
+Operational Status
+(opens in new tab)
+Major funding support from

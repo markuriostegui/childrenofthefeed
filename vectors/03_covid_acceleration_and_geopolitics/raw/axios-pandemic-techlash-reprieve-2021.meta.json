@@ -1,0 +1,11 @@
+{
+  "source_id": "axios-pandemic-techlash-reprieve-2021",
+  "vector_id": "03_covid_acceleration_and_geopolitics",
+  "url": "https://www.axios.com/2021/03/10/pandemic-provides-techlash-reprieve",
+  "captured_at": "2026-07-03T01:30:11Z",
+  "mode": "manual-web-extract",
+  "paths": [
+    "/Users/hassan/repos/AI-Empire/vectors/03_covid_acceleration_and_geopolitics/raw/axios-pandemic-techlash-reprieve-2021.txt"
+  ],
+  "note": "Manual normalized text artifact created from verified article metadata and captured result text after direct page capture was blocked by Cloudflare."
+}

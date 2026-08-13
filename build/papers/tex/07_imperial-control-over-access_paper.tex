@@ -1,0 +1,1916 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\documentclass[
+  american,
+  11pt,
+  letterpaper,
+]{article}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{5}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\ifLuaTeX
+\usepackage[bidi=basic,shorthands=off]{babel}
+\else
+\usepackage[bidi=default,shorthands=off]{babel}
+\fi
+\ifLuaTeX
+  \usepackage{selnolig} % disable illegal ligatures
+\fi
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage[hang,flushmargin,bottom]{footmisc}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{caption}
+
+\setstretch{1.08}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.7em}
+\setlength{\footnotesep}{0.7em}
+\interfootnotelinepenalty=10000
+\emergencystretch=2em
+\raggedbottom
+
+\setlist[itemize]{leftmargin=1.5em, itemsep=0.45em, topsep=0.45em}
+\setlist[enumerate]{leftmargin=1.8em, itemsep=0.45em, topsep=0.45em}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\nouppercase{\leftmark}}
+\fancyhead[R]{AI Empire Research Papers}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{2}
+\renewcommand{\contentsname}{Paper Roadmap}
+
+\titleformat{\section}{\Large\bfseries}{\thesection.}{0.65em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection.}{0.6em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries}{\thesubsubsection.}{0.55em}{}
+
+\captionsetup{font=small, labelfont=bf}
+\AtBeginEnvironment{longtable}{\small}
+
+\AtBeginDocument{
+  \hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=black,
+    urlcolor=blue
+  }
+}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+% fallback for those not using the hyperref driver hyperxmp:
+\makeatletter
+\@ifundefined{xmpquote}{\newcommand{\xmpquote}[1]{#1}}{}
+\makeatother
+\hypersetup{
+  pdftitle={Chapter 07: Imperial Control Over Access},
+  pdflang={en-US},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Chapter 07: Imperial Control Over Access}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{From Surveillance Capitalism to AI Imperialism \textbar{}
+Chapter 07: Imperial control over access}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\subsection{Abstract}\label{abstract}
+
+The AI system is not simply a market of competing products. The United
+States has already moved from broad leadership rhetoric into formal
+doctrine, consultation processes, and implementation guidance. If
+frontier AI is governed through chokepoints, then intelligence itself
+becomes a stratified geopolitical infrastructure.
+
+\subsection{Keywords}\label{keywords}
+
+Imperial control over access; surveillance capitalism; AI imperialism;
+government capture; evidence-based dossier
+
+\subsection{Research Question}\label{research-question}
+
+How does imperial control over access function within the dossier's
+larger argument, and what does the documentary record allow this chapter
+to establish?
+
+\subsection{Scope and Framing Note}\label{scope-and-framing-note}
+
+This paper examines imperial control over access within the broader
+dossier \emph{From Surveillance Capitalism to AI Imperialism}. It is
+intentionally written to circulate on its own: necessary context is
+restated, evidence boundaries are made explicit, and cited material is
+reproduced in paper-local form rather than delegated to repo navigation.
+It contributes to the series as a paper that establishes chokepoints,
+strategic access, and state-company interfaces that justify anti-capture
+obligations. Adjacent reinforcement appears in Chapter 06, Chapter 08,
+Chapter 10, but those cross-references are supportive rather than
+required for basic comprehension.
+
+\subsection{Central Thesis}\label{central-thesis}
+
+The AI system is not simply a market of competing products. It is also
+an architecture of chokepoints. Export controls, cloud dependence, chip
+access, and defense-state adjacency increasingly define who can build,
+scale, or even reach frontier intelligence. The question is no longer
+only who invents. It is who gets permission. \footnote{Sources: The
+  White House,
+  \href{https://www.whitehouse.gov/presidential-actions/2025/01/removing-barriers-to-american-leadership-in-artificial-intelligence/}{Removing
+  Barriers to American Leaders\ldots{}} (2025-01-23; see
+  \hyperref[appendix-a1-removing-barriers-to-american-leadership-in-artificial-intelligence]{Appendix
+  A1}); Bureau of Industry and Security,
+  \href{https://www.bis.gov/media/documents/bis-guidance-may-31-2026.pdf}{Guidance
+  Regarding Enforcement of Lic\ldots{}} (2026-05-31; see
+  \hyperref[appendix-a2-guidance-regarding-enforcement-of-license-requirements-for-advanced-computing-items-for-entities-headquartered-in-country-group-d-5-and-macau]{Appendix
+  A2}); Amazon,
+  \href{https://press.aboutamazon.com/2023/9/amazon-and-anthropic-announce-strategic-collaboration-to-advance-generative-ai}{Amazon
+  and Anthropic Announce Strateg\ldots{}} (2023-09-25; see
+  \hyperref[appendix-a3-amazon-and-anthropic-announce-strategic-collaboration-to-advance-generative-ai]{Appendix
+  A3})}
+
+\subsection{Evidence and Method Note}\label{evidence-and-method-note}
+
+This paper is derived from the chapter corpus for Chapter 07 and is
+grounded in the project's structured research OS. It relies on source
+notes, extracted claims, entity profiles, and timeline events already
+normalized under the dossier's evidence hierarchy. Documented facts are
+asserted directly where the record supports them; disputed matters are
+marked as such; interpretive claims are bounded explicitly; and
+speculative overreach is isolated in the evidence-boundary appendix.
+
+\subsection{Introduction}\label{introduction}
+
+This paper asks: How does imperial control over access function within
+the dossier's larger argument, and what does the documentary record
+allow this chapter to establish? Its working answer is clear from the
+start: The AI system is not simply a market of competing products. It is
+also an architecture of chokepoints. Export controls, cloud dependence,
+chip access, and defense-state adjacency increasingly define who can
+build, scale, or even reach frontier intelligence. The question is no
+longer only who invents. It is who gets permission. \footnote{Sources:
+  The White House,
+  \href{https://www.whitehouse.gov/presidential-actions/2025/01/removing-barriers-to-american-leadership-in-artificial-intelligence/}{Removing
+  Barriers to American Leaders\ldots{}} (2025-01-23; see
+  \hyperref[appendix-a1-removing-barriers-to-american-leadership-in-artificial-intelligence]{Appendix
+  A1}); Bureau of Industry and Security,
+  \href{https://www.bis.gov/media/documents/bis-guidance-may-31-2026.pdf}{Guidance
+  Regarding Enforcement of Lic\ldots{}} (2026-05-31; see
+  \hyperref[appendix-a2-guidance-regarding-enforcement-of-license-requirements-for-advanced-computing-items-for-entities-headquartered-in-country-group-d-5-and-macau]{Appendix
+  A2}); Amazon,
+  \href{https://press.aboutamazon.com/2023/9/amazon-and-anthropic-announce-strategic-collaboration-to-advance-generative-ai}{Amazon
+  and Anthropic Announce Strateg\ldots{}} (2023-09-25; see
+  \hyperref[appendix-a3-amazon-and-anthropic-announce-strategic-collaboration-to-advance-generative-ai]{Appendix
+  A3})} The objective is not only to recount developments, but to show
+why the subject of this chapter belongs inside a structural argument
+about extraction, enclosure, legitimacy, and reform.
+
+\subsection{Historical or Institutional
+Context}\label{historical-or-institutional-context}
+
+The United States has already moved from broad leadership rhetoric into
+formal doctrine, consultation processes, and implementation guidance.
+Executive action, federal requests for information, and corporate
+positioning now form a visible policy sequence rather than a vague
+background condition. \footnote{Sources: The White House,
+  \href{https://www.whitehouse.gov/presidential-actions/2025/01/removing-barriers-to-american-leadership-in-artificial-intelligence/}{Removing
+  Barriers to American Leaders\ldots{}} (2025-01-23; see
+  \hyperref[appendix-a1-removing-barriers-to-american-leadership-in-artificial-intelligence]{Appendix
+  A1}); Federal Register,
+  \href{https://www.federalregister.gov/documents/2025/02/06/2025-02305/request-for-information-on-the-development-of-an-artificial-intelligence-ai-action-plan}{Request
+  for Information on the Develo\ldots{}} (2025-02-06; see
+  \hyperref[appendix-a4-request-for-information-on-the-development-of-an-artificial-intelligence-ai-action-plan]{Appendix
+  A4}); OpenAI,
+  \href{https://openai.com/global-affairs/openai-proposals-for-the-us-ai-action-plan/}{OpenAI's
+  proposals for the U.S. AI Ac\ldots{}} (2025-03-13; see
+  \hyperref[appendix-a5-openais-proposals-for-the-us-ai-action-plan]{Appendix
+  A5})}
+
+\subsection{Main Analysis}\label{main-analysis}
+
+BIS guidance gives the advanced-computing export regime an operational
+enforcement layer. The politics of AI access is therefore not merely
+metaphorical. It is already administrative, technical, and executable.
+\footnote{Sources: Bureau of Industry and Security,
+  \href{https://www.bis.gov/media/documents/bis-guidance-may-31-2026.pdf}{Guidance
+  Regarding Enforcement of Lic\ldots{}} (2026-05-31; see
+  \hyperref[appendix-a2-guidance-regarding-enforcement-of-license-requirements-for-advanced-computing-items-for-entities-headquartered-in-country-group-d-5-and-macau]{Appendix
+  A2})}
+
+Hyperscaler dependence is also documented. At least one major frontier
+lab publicly tied the majority of its workloads and future development
+to a single cloud giant, which means frontier capability is already
+routed through a small number of infrastructural landlords. \footnote{Sources:
+  Amazon,
+  \href{https://press.aboutamazon.com/2023/9/amazon-and-anthropic-announce-strategic-collaboration-to-advance-generative-ai}{Amazon
+  and Anthropic Announce Strateg\ldots{}} (2023-09-25; see
+  \hyperref[appendix-a3-amazon-and-anthropic-announce-strategic-collaboration-to-advance-generative-ai]{Appendix
+  A3})}
+
+The formal government-facing layer is now public as well. OpenAI's
+\texttt{OpenAI\ for\ Government}, Anthropic's \texttt{Claude\ Gov}, and
+the Palantir-AWS-Anthropic classified distribution lane show that
+frontier access is organized not only through markets but through
+accredited, restricted, and government-priority channels. \footnote{Sources:
+  OpenAI,
+  \href{https://openai.com/global-affairs/introducing-openai-for-government/}{Introducing
+  OpenAI for Government} (2025-06-16; see
+  \hyperref[appendix-a6-introducing-openai-for-government]{Appendix
+  A6}); Anthropic,
+  \href{https://www.anthropic.com/news/claude-gov-models-for-u-s-national-security-customers}{Claude
+  Gov models for U.S. national s\ldots{}} (2025-06-06; see
+  \hyperref[appendix-a7-claude-gov-models-for-u-s-national-security-customers]{Appendix
+  A7}); Palantir Technologies,
+  \href{https://investors.palantir.com/news-details/2024/Anthropic-and-Palantir-Partner-to-Bring-Claude-AI-Models-to-AWS-for-U.S.-Government-Intelligence-and-Defense-Operations/}{Anthropic
+  and Palantir Partner to Bri\ldots{}} (2024-11-07; see
+  \hyperref[appendix-a8-anthropic-and-palantir-partner-to-bring-claude-ai-models-to-aws-for-u-s-government-intelligence-and-defense-operations]{Appendix
+  A8})}
+
+The personnel interface is explicit too. The Army's
+\texttt{Detachment\ 201} demonstrates that the boundary between senior
+frontier-tech leadership and military institutions has become porous in
+public view. That does not prove improper command. It does prove public
+institutional integration. \footnote{Sources: U.S. Army Public Affairs,
+  \href{https://www.army.mil/article/286317/army_launches_detachment_201_executive_innovation_corps_to_drive_tech_transformation}{Army
+  Launches Detachment 201: Executi\ldots{}} (2025-06-13; see
+  \hyperref[appendix-a9-army-launches-detachment-201-executive-innovation-corps-to-drive-tech-transformation]{Appendix
+  A9})}
+
+In-Q-Tel, Palantir, and the Thiel-linked network provide a serious
+documentary basis for talking about venture-state-security adjacency
+without drifting into mythology. The structure is the point: chips,
+clouds, accredited environments, contracts, and strategic interfaces
+remain highly concentrated even if some model knowledge diffuses.
+\footnote{Sources: In-Q-Tel, \href{https://www.iqt.org/}{In-Q-Tel}
+  (n.d.; see \hyperref[appendix-a10-in-q-tel]{Appendix A10}); Palantir,
+  \href{https://www.palantir.com/platforms/gotham/}{Gotham} (n.d.; see
+  \hyperref[appendix-a11-gotham]{Appendix A11}); SEC,
+  \href{https://www.sec.gov/Archives/edgar/data/1326801/000132680122000043/meta2022definitiveproxysta.htm}{Meta
+  Platforms, Inc.~2022 Definitive\ldots{}} (2022-04-08; see
+  \hyperref[appendix-a12-meta-platforms-inc-2022-definitive-proxy-statement]{Appendix
+  A12}); arXiv, \href{https://arxiv.org/abs/2501.12948}{DeepSeek-R1:
+  Incentivizing Reasoning\ldots{}} (2025-01-22; see
+  \hyperref[appendix-a13-deepseek-r1-incentivizing-reasoning-capability-in-llms-via-reinforcement-learning]{Appendix
+  A13})}
+
+Interpretation: this is where
+\texttt{Limit\ Government\ Capture\ by\ AI\ Companies} begins to look
+structurally necessary. Once public support, export-control protection,
+privileged state access, and defense channels become material to
+frontier advantage, the resulting intelligence cannot be defended as a
+purely ordinary private market outcome. \footnote{Sources: OpenAI,
+  \href{https://openai.com/global-affairs/introducing-openai-for-government/}{Introducing
+  OpenAI for Government} (2025-06-16; see
+  \hyperref[appendix-a6-introducing-openai-for-government]{Appendix
+  A6}); Anthropic,
+  \href{https://www.anthropic.com/news/claude-gov-models-for-u-s-national-security-customers}{Claude
+  Gov models for U.S. national s\ldots{}} (2025-06-06; see
+  \hyperref[appendix-a7-claude-gov-models-for-u-s-national-security-customers]{Appendix
+  A7}); Bureau of Industry and Security,
+  \href{https://www.bis.gov/media/documents/bis-guidance-may-31-2026.pdf}{Guidance
+  Regarding Enforcement of Lic\ldots{}} (2026-05-31; see
+  \hyperref[appendix-a2-guidance-regarding-enforcement-of-license-requirements-for-advanced-computing-items-for-entities-headquartered-in-country-group-d-5-and-macau]{Appendix
+  A2})}
+
+\subsection{Position Within the
+Series}\label{position-within-the-series}
+
+This paper sits inside a coordinated 11-paper architecture. Its nearest
+companions are Chapter 06 (AI as a dual-use rhetorical weapon), Chapter
+08 (Power network, legitimacy, and institutional capture), Chapter 10
+(What to do). In that series logic, Chapter 07 establishes chokepoints,
+strategic access, and state-company interfaces that justify anti-capture
+obligations.
+
+\subsection{Counterarguments}\label{counterarguments}
+
+This chapter must not confuse chokepoints with total closure. The
+evidence supports concentrated leverage, privileged lanes, and formal
+state-company interfaces, not omnipotent control over all capability
+diffusion. \footnote{Sources: arXiv,
+  \href{https://arxiv.org/abs/2501.12948}{DeepSeek-R1: Incentivizing
+  Reasoning\ldots{}} (2025-01-22; see
+  \hyperref[appendix-a13-deepseek-r1-incentivizing-reasoning-capability-in-llms-via-reinforcement-learning]{Appendix
+  A13}); Amazon,
+  \href{https://press.aboutamazon.com/2023/9/amazon-and-anthropic-announce-strategic-collaboration-to-advance-generative-ai}{Amazon
+  and Anthropic Announce Strateg\ldots{}} (2023-09-25; see
+  \hyperref[appendix-a3-amazon-and-anthropic-announce-strategic-collaboration-to-advance-generative-ai]{Appendix
+  A3})}
+
+\subsection{Limits of the Evidence}\label{limits-of-the-evidence}
+
+This chapter must not confuse chokepoints with total closure. The
+evidence supports concentrated leverage, privileged lanes, and formal
+state-company interfaces, not omnipotent control over all capability
+diffusion. \footnote{Sources: arXiv,
+  \href{https://arxiv.org/abs/2501.12948}{DeepSeek-R1: Incentivizing
+  Reasoning\ldots{}} (2025-01-22; see
+  \hyperref[appendix-a13-deepseek-r1-incentivizing-reasoning-capability-in-llms-via-reinforcement-learning]{Appendix
+  A13}); Amazon,
+  \href{https://press.aboutamazon.com/2023/9/amazon-and-anthropic-announce-strategic-collaboration-to-advance-generative-ai}{Amazon
+  and Anthropic Announce Strateg\ldots{}} (2023-09-25; see
+  \hyperref[appendix-a3-amazon-and-anthropic-announce-strategic-collaboration-to-advance-generative-ai]{Appendix
+  A3})}
+
+\subsection{Reform Relevance}\label{reform-relevance}
+
+If frontier AI is governed through chokepoints, then intelligence itself
+becomes a stratified geopolitical infrastructure. Access is no longer
+merely a subscription question. It becomes a question of empire, supply
+chains, protected lanes, and permission. \footnote{Sources: The White
+  House,
+  \href{https://www.whitehouse.gov/presidential-actions/2025/01/removing-barriers-to-american-leadership-in-artificial-intelligence/}{Removing
+  Barriers to American Leaders\ldots{}} (2025-01-23; see
+  \hyperref[appendix-a1-removing-barriers-to-american-leadership-in-artificial-intelligence]{Appendix
+  A1}); Bureau of Industry and Security,
+  \href{https://www.bis.gov/media/documents/bis-guidance-may-31-2026.pdf}{Guidance
+  Regarding Enforcement of Lic\ldots{}} (2026-05-31; see
+  \hyperref[appendix-a2-guidance-regarding-enforcement-of-license-requirements-for-advanced-computing-items-for-entities-headquartered-in-country-group-d-5-and-macau]{Appendix
+  A2}); OpenAI,
+  \href{https://openai.com/global-affairs/introducing-openai-for-government/}{Introducing
+  OpenAI for Government} (2025-06-16; see
+  \hyperref[appendix-a6-introducing-openai-for-government]{Appendix A6})}
+
+\subsection{Conclusion}\label{conclusion}
+
+If frontier AI is governed through chokepoints, then intelligence itself
+becomes a stratified geopolitical infrastructure. But chokepoints alone
+do not explain public acceptance. In the architecture of this series,
+Chapter 07 therefore functions as a self-contained argument while also
+advancing the cumulative path toward the dossier's three reforms.
+
+\subsection{Notes}\label{notes}
+
+This paper is designed to circulate independently. Public notes point
+readers to the real external documents first, then to the paper-local
+appendix entry that explains why each source matters.
+
+The underlying research OS distinguishes among
+\texttt{Documented\ Fact}, \texttt{Disputed\ Fact},
+\texttt{Hypothesis\ /\ Interpretation}, and
+\texttt{Speculative\ Narrative\ Risk}. In Chapter 07, those boundaries
+remain visible in the prose, in the bibliography, and in the appendix
+sections that summarize claims and caution points.
+
+\subsection{References / Bibliography}\label{references-bibliography}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  The White House.
+  \href{https://www.whitehouse.gov/presidential-actions/2025/01/removing-barriers-to-american-leadership-in-artificial-intelligence/}{Removing
+  Barriers to American Leadership in Artificial Intelligence}.
+  2025-01-23. T1 executive\_order. Paper appendix:
+  \hyperref[appendix-a1-removing-barriers-to-american-leadership-in-artificial-intelligence]{Appendix
+  A1}. Corpus companion entry: Source S-130. Audit ID:
+  \texttt{whitehouse-eo-14179-2025}. Relevance: That AI dominance was
+  elevated to explicit state doctrine in 2025.
+\item
+  Bureau of Industry and Security.
+  \href{https://www.bis.gov/media/documents/bis-guidance-may-31-2026.pdf}{Guidance
+  Regarding Enforcement of License Requirements for Advanced Computing
+  Items for Entities Headquartered in Country Group D:5 and Macau}.
+  2026-05-31. T1 guidance\_pdf. Paper appendix:
+  \hyperref[appendix-a2-guidance-regarding-enforcement-of-license-requirements-for-advanced-computing-items-for-entities-headquartered-in-country-group-d-5-and-macau]{Appendix
+  A2}. Corpus companion entry: Source S-037. Audit ID:
+  \texttt{bis-guidance-advanced-computing-d5-macau-2026}. Relevance:
+  That there is a primary U.S. government record directly describing
+  continued license requirements for advanced computing exports linked
+  to Country Group D:5 and Macau.
+\item
+  Amazon.
+  \href{https://press.aboutamazon.com/2023/9/amazon-and-anthropic-announce-strategic-collaboration-to-advance-generative-ai}{Amazon
+  and Anthropic Announce Strategic Collaboration to Advance Generative
+  AI}. 2023-09-25. T1 press\_release. Paper appendix:
+  \hyperref[appendix-a3-amazon-and-anthropic-announce-strategic-collaboration-to-advance-generative-ai]{Appendix
+  A3}. Corpus companion entry: Source S-002. Audit ID:
+  \texttt{amazon-anthropic-strategic-collaboration-2023}. Relevance:
+  That at least one major frontier lab publicly committed the majority
+  of its workloads and future model development to a hyperscaler cloud
+  provider.
+\item
+  Federal Register.
+  \href{https://www.federalregister.gov/documents/2025/02/06/2025-02305/request-for-information-on-the-development-of-an-artificial-intelligence-ai-action-plan}{Request
+  for Information on the Development of an Artificial Intelligence (AI)
+  Action Plan}. 2025-02-06. T1 federal\_register\_notice. Paper
+  appendix:
+  \hyperref[appendix-a4-request-for-information-on-the-development-of-an-artificial-intelligence-ai-action-plan]{Appendix
+  A4}. Corpus companion entry: Source S-054. Audit ID:
+  \texttt{fr-ai-action-plan-rfi-2025}. Relevance: That the state created
+  an official consultation pathway for shaping the 2025 AI doctrine.
+\item
+  OpenAI.
+  \href{https://openai.com/global-affairs/openai-proposals-for-the-us-ai-action-plan/}{OpenAI's
+  proposals for the U.S. AI Action Plan}. 2025-03-13. T1
+  policy\_submission. Paper appendix:
+  \hyperref[appendix-a5-openais-proposals-for-the-us-ai-action-plan]{Appendix
+  A5}. Corpus companion entry: Source S-096. Audit ID:
+  \texttt{openai-us-ai-action-plan-2025}. Relevance: That OpenAI
+  presents itself as a policy actor seeking to co-design national AI
+  strategy.
+\item
+  OpenAI.
+  \href{https://openai.com/global-affairs/introducing-openai-for-government/}{Introducing
+  OpenAI for Government}. 2025-06-16. T1 release. Paper appendix:
+  \hyperref[appendix-a6-introducing-openai-for-government]{Appendix A6}.
+  Corpus companion entry: Source S-090. Audit ID:
+  \texttt{openai-for-government-2025}. Relevance: That by June 16, 2025
+  OpenAI had formally reorganized and expanded its U.S. public-sector
+  work under an \texttt{OpenAI\ for\ Government} initiative rather than
+  treating government use as\ldots{}
+\item
+  Anthropic.
+  \href{https://www.anthropic.com/news/claude-gov-models-for-u-s-national-security-customers}{Claude
+  Gov models for U.S. national security customers}. 2025-06-06. T1
+  release. Paper appendix:
+  \hyperref[appendix-a7-claude-gov-models-for-u-s-national-security-customers]{Appendix
+  A7}. Corpus companion entry: Source S-004. Audit ID:
+  \texttt{anthropic-claude-gov-2025}. Relevance: That by June 6, 2025
+  Anthropic had publicly launched a government-specific model line for
+  U.S. national security customers.
+\item
+  Palantir Technologies.
+  \href{https://investors.palantir.com/news-details/2024/Anthropic-and-Palantir-Partner-to-Bring-Claude-AI-Models-to-AWS-for-U.S.-Government-Intelligence-and-Defense-Operations/}{Anthropic
+  and Palantir Partner to Bring Claude AI Models to AWS for U.S.
+  Government Intelligence and Defense Operations}. 2024-11-07. T1
+  press\_release. Paper appendix:
+  \hyperref[appendix-a8-anthropic-and-palantir-partner-to-bring-claude-ai-models-to-aws-for-u-s-government-intelligence-and-defense-operations]{Appendix
+  A8}. Corpus companion entry: Source S-098. Audit ID:
+  \texttt{palantir-anthropic-aws-gov-partnership-2024}. Relevance: That
+  by November 7, 2024 Anthropic model access for U.S. intelligence and
+  defense agencies was being publicly distributed through a
+  Palantir-plus-AWS stack.
+\item
+  U.S. Army Public Affairs.
+  \href{https://www.army.mil/article/286317/army_launches_detachment_201_executive_innovation_corps_to_drive_tech_transformation}{Army
+  Launches Detachment 201: Executive Innovation Corps to Drive Tech
+  Transformation}. 2025-06-13. T1 press\_release. Paper appendix:
+  \hyperref[appendix-a9-army-launches-detachment-201-executive-innovation-corps-to-drive-tech-transformation]{Appendix
+  A9}. Corpus companion entry: Source S-026. Audit ID:
+  \texttt{army-detachment-201-2025}. Relevance: That by June 13, 2025
+  the U.S. Army had created a formal structure to embed senior
+  commercial-tech executives in a military innovation role.
+\item
+  In-Q-Tel. \href{https://www.iqt.org/}{In-Q-Tel}. n.d.. T1
+  organization\_homepage. Paper appendix:
+  \hyperref[appendix-a10-in-q-tel]{Appendix A10}. Corpus companion
+  entry: Source S-074. Audit ID: \texttt{iqt-homepage-2026}. Relevance:
+  That there is a formal institutional channel connecting strategic
+  technology development with intelligence and defense needs.
+\item
+  Palantir. \href{https://www.palantir.com/platforms/gotham/}{Gotham}.
+  n.d.. T1 product\_page. Paper appendix:
+  \hyperref[appendix-a11-gotham]{Appendix A11}. Corpus companion entry:
+  Source S-099. Audit ID: \texttt{palantir-gotham-2026}. Relevance: That
+  Palantir openly markets Gotham to defense agencies and the
+  intelligence community.
+\item
+  SEC.
+  \href{https://www.sec.gov/Archives/edgar/data/1326801/000132680122000043/meta2022definitiveproxysta.htm}{Meta
+  Platforms, Inc.~2022 Definitive Proxy Statement}. 2022-04-08. T1
+  proxy\_statement. Paper appendix:
+  \hyperref[appendix-a12-meta-platforms-inc-2022-definitive-proxy-statement]{Appendix
+  A12}. Corpus companion entry: Source S-080. Audit ID:
+  \texttt{meta-proxy-2022-thiel-retirement}. Relevance: That Peter
+  Thiel's formal role at Facebook / Meta lasted well beyond the early
+  startup period and remained active into 2022.
+\item
+  arXiv. \href{https://arxiv.org/abs/2501.12948}{DeepSeek-R1:
+  Incentivizing Reasoning Capability in LLMs via Reinforcement
+  Learning}. 2025-01-22. T1 paper. Paper appendix:
+  \hyperref[appendix-a13-deepseek-r1-incentivizing-reasoning-capability-in-llms-via-reinforcement-learning]{Appendix
+  A13}. Corpus companion entry: Source S-048. Audit ID:
+  \texttt{deepseek-r1-reinforcement-learning-2025}. Relevance: That by
+  January 2025 a non-U.S. lab was publicly claiming frontier-adjacent
+  reasoning performance in a primary technical paper.
+\end{enumerate}
+
+\subsection{Appendix A. Source Register for This
+Paper}\label{appendix-a.-source-register-for-this-paper}
+
+\subsubsection{Appendix A1. Removing Barriers to American Leadership in
+Artificial
+Intelligence}\label{appendix-a1-removing-barriers-to-american-leadership-in-artificial-intelligence}
+
+\textbf{Source citation:}
+\href{https://www.whitehouse.gov/presidential-actions/2025/01/removing-barriers-to-american-leadership-in-artificial-intelligence/}{Removing
+Barriers to American Leadership in Artificial Intelligence}
+\textbf{Institution / author:} The White House \textbf{Date:} 2025-01-23
+\textbf{Tier / type:} T1 / executive\_order \textbf{Why it matters in
+this paper:} That AI dominance was elevated to explicit state doctrine
+in 2025. \textbf{Corpus companion entry:} Source S-130 \textbf{Audit
+ID:} \texttt{whitehouse-eo-14179-2025}
+
+\subsubsection{Appendix A2. Guidance Regarding Enforcement of License
+Requirements for Advanced Computing Items for Entities Headquartered in
+Country Group D:5 and
+Macau}\label{appendix-a2-guidance-regarding-enforcement-of-license-requirements-for-advanced-computing-items-for-entities-headquartered-in-country-group-d-5-and-macau}
+
+\textbf{Source citation:}
+\href{https://www.bis.gov/media/documents/bis-guidance-may-31-2026.pdf}{Guidance
+Regarding Enforcement of License Requirements for Advanced Computing
+Items for Entities Headquartered in Country Group D:5 and Macau}
+\textbf{Institution / author:} Bureau of Industry and Security
+\textbf{Date:} 2026-05-31 \textbf{Tier / type:} T1 / guidance\_pdf
+\textbf{Why it matters in this paper:} That there is a primary U.S.
+government record directly describing continued license requirements for
+advanced computing exports linked to Country Group D:5 and Macau.
+\textbf{Corpus companion entry:} Source S-037 \textbf{Audit ID:}
+\texttt{bis-guidance-advanced-computing-d5-macau-2026}
+
+\subsubsection{Appendix A3. Amazon and Anthropic Announce Strategic
+Collaboration to Advance Generative
+AI}\label{appendix-a3-amazon-and-anthropic-announce-strategic-collaboration-to-advance-generative-ai}
+
+\textbf{Source citation:}
+\href{https://press.aboutamazon.com/2023/9/amazon-and-anthropic-announce-strategic-collaboration-to-advance-generative-ai}{Amazon
+and Anthropic Announce Strategic Collaboration to Advance Generative AI}
+\textbf{Institution / author:} Amazon \textbf{Date:} 2023-09-25
+\textbf{Tier / type:} T1 / press\_release \textbf{Why it matters in this
+paper:} That at least one major frontier lab publicly committed the
+majority of its workloads and future model development to a hyperscaler
+cloud provider. \textbf{Corpus companion entry:} Source S-002
+\textbf{Audit ID:}
+\texttt{amazon-anthropic-strategic-collaboration-2023}
+
+\subsubsection{Appendix A4. Request for Information on the Development
+of an Artificial Intelligence (AI) Action
+Plan}\label{appendix-a4-request-for-information-on-the-development-of-an-artificial-intelligence-ai-action-plan}
+
+\textbf{Source citation:}
+\href{https://www.federalregister.gov/documents/2025/02/06/2025-02305/request-for-information-on-the-development-of-an-artificial-intelligence-ai-action-plan}{Request
+for Information on the Development of an Artificial Intelligence (AI)
+Action Plan} \textbf{Institution / author:} Federal Register
+\textbf{Date:} 2025-02-06 \textbf{Tier / type:} T1 /
+federal\_register\_notice \textbf{Why it matters in this paper:} That
+the state created an official consultation pathway for shaping the 2025
+AI doctrine. \textbf{Corpus companion entry:} Source S-054 \textbf{Audit
+ID:} \texttt{fr-ai-action-plan-rfi-2025}
+
+\subsubsection{Appendix A5. OpenAI's proposals for the U.S. AI Action
+Plan}\label{appendix-a5-openais-proposals-for-the-us-ai-action-plan}
+
+\textbf{Source citation:}
+\href{https://openai.com/global-affairs/openai-proposals-for-the-us-ai-action-plan/}{OpenAI's
+proposals for the U.S. AI Action Plan} \textbf{Institution / author:}
+OpenAI \textbf{Date:} 2025-03-13 \textbf{Tier / type:} T1 /
+policy\_submission \textbf{Why it matters in this paper:} That OpenAI
+presents itself as a policy actor seeking to co-design national AI
+strategy. \textbf{Corpus companion entry:} Source S-096 \textbf{Audit
+ID:} \texttt{openai-us-ai-action-plan-2025}
+
+\subsubsection{Appendix A6. Introducing OpenAI for
+Government}\label{appendix-a6-introducing-openai-for-government}
+
+\textbf{Source citation:}
+\href{https://openai.com/global-affairs/introducing-openai-for-government/}{Introducing
+OpenAI for Government} \textbf{Institution / author:} OpenAI
+\textbf{Date:} 2025-06-16 \textbf{Tier / type:} T1 / release \textbf{Why
+it matters in this paper:} That by June 16, 2025 OpenAI had formally
+reorganized and expanded its U.S. public-sector work under an
+\texttt{OpenAI\ for\ Government} initiative rather than treating
+government use as\ldots{} \textbf{Corpus companion entry:} Source S-090
+\textbf{Audit ID:} \texttt{openai-for-government-2025}
+
+\subsubsection{Appendix A7. Claude Gov models for U.S. national security
+customers}\label{appendix-a7-claude-gov-models-for-u-s-national-security-customers}
+
+\textbf{Source citation:}
+\href{https://www.anthropic.com/news/claude-gov-models-for-u-s-national-security-customers}{Claude
+Gov models for U.S. national security customers} \textbf{Institution /
+author:} Anthropic \textbf{Date:} 2025-06-06 \textbf{Tier / type:} T1 /
+release \textbf{Why it matters in this paper:} That by June 6, 2025
+Anthropic had publicly launched a government-specific model line for
+U.S. national security customers. \textbf{Corpus companion entry:}
+Source S-004 \textbf{Audit ID:} \texttt{anthropic-claude-gov-2025}
+
+\subsubsection{Appendix A8. Anthropic and Palantir Partner to Bring
+Claude AI Models to AWS for U.S. Government Intelligence and Defense
+Operations}\label{appendix-a8-anthropic-and-palantir-partner-to-bring-claude-ai-models-to-aws-for-u-s-government-intelligence-and-defense-operations}
+
+\textbf{Source citation:}
+\href{https://investors.palantir.com/news-details/2024/Anthropic-and-Palantir-Partner-to-Bring-Claude-AI-Models-to-AWS-for-U.S.-Government-Intelligence-and-Defense-Operations/}{Anthropic
+and Palantir Partner to Bring Claude AI Models to AWS for U.S.
+Government Intelligence and Defense Operations} \textbf{Institution /
+author:} Palantir Technologies \textbf{Date:} 2024-11-07 \textbf{Tier /
+type:} T1 / press\_release \textbf{Why it matters in this paper:} That
+by November 7, 2024 Anthropic model access for U.S. intelligence and
+defense agencies was being publicly distributed through a
+Palantir-plus-AWS stack. \textbf{Corpus companion entry:} Source S-098
+\textbf{Audit ID:} \texttt{palantir-anthropic-aws-gov-partnership-2024}
+
+\subsubsection{Appendix A9. Army Launches Detachment 201: Executive
+Innovation Corps to Drive Tech
+Transformation}\label{appendix-a9-army-launches-detachment-201-executive-innovation-corps-to-drive-tech-transformation}
+
+\textbf{Source citation:}
+\href{https://www.army.mil/article/286317/army_launches_detachment_201_executive_innovation_corps_to_drive_tech_transformation}{Army
+Launches Detachment 201: Executive Innovation Corps to Drive Tech
+Transformation} \textbf{Institution / author:} U.S. Army Public Affairs
+\textbf{Date:} 2025-06-13 \textbf{Tier / type:} T1 / press\_release
+\textbf{Why it matters in this paper:} That by June 13, 2025 the U.S.
+Army had created a formal structure to embed senior commercial-tech
+executives in a military innovation role. \textbf{Corpus companion
+entry:} Source S-026 \textbf{Audit ID:}
+\texttt{army-detachment-201-2025}
+
+\subsubsection{Appendix A10. In-Q-Tel}\label{appendix-a10-in-q-tel}
+
+\textbf{Source citation:} \href{https://www.iqt.org/}{In-Q-Tel}
+\textbf{Institution / author:} In-Q-Tel \textbf{Date:} n.d. \textbf{Tier
+/ type:} T1 / organization\_homepage \textbf{Why it matters in this
+paper:} That there is a formal institutional channel connecting
+strategic technology development with intelligence and defense needs.
+\textbf{Corpus companion entry:} Source S-074 \textbf{Audit ID:}
+\texttt{iqt-homepage-2026}
+
+\subsubsection{Appendix A11. Gotham}\label{appendix-a11-gotham}
+
+\textbf{Source citation:}
+\href{https://www.palantir.com/platforms/gotham/}{Gotham}
+\textbf{Institution / author:} Palantir \textbf{Date:} n.d. \textbf{Tier
+/ type:} T1 / product\_page \textbf{Why it matters in this paper:} That
+Palantir openly markets Gotham to defense agencies and the intelligence
+community. \textbf{Corpus companion entry:} Source S-099 \textbf{Audit
+ID:} \texttt{palantir-gotham-2026}
+
+\subsubsection{Appendix A12. Meta Platforms, Inc.~2022 Definitive Proxy
+Statement}\label{appendix-a12-meta-platforms-inc-2022-definitive-proxy-statement}
+
+\textbf{Source citation:}
+\href{https://www.sec.gov/Archives/edgar/data/1326801/000132680122000043/meta2022definitiveproxysta.htm}{Meta
+Platforms, Inc.~2022 Definitive Proxy Statement} \textbf{Institution /
+author:} SEC \textbf{Date:} 2022-04-08 \textbf{Tier / type:} T1 /
+proxy\_statement \textbf{Why it matters in this paper:} That Peter
+Thiel's formal role at Facebook / Meta lasted well beyond the early
+startup period and remained active into 2022. \textbf{Corpus companion
+entry:} Source S-080 \textbf{Audit ID:}
+\texttt{meta-proxy-2022-thiel-retirement}
+
+\subsubsection{Appendix A13. DeepSeek-R1: Incentivizing Reasoning
+Capability in LLMs via Reinforcement
+Learning}\label{appendix-a13-deepseek-r1-incentivizing-reasoning-capability-in-llms-via-reinforcement-learning}
+
+\textbf{Source citation:}
+\href{https://arxiv.org/abs/2501.12948}{DeepSeek-R1: Incentivizing
+Reasoning Capability in LLMs via Reinforcement Learning}
+\textbf{Institution / author:} arXiv \textbf{Date:} 2025-01-22
+\textbf{Tier / type:} T1 / paper \textbf{Why it matters in this paper:}
+That by January 2025 a non-U.S. lab was publicly claiming
+frontier-adjacent reasoning performance in a primary technical paper.
+\textbf{Corpus companion entry:} Source S-048 \textbf{Audit ID:}
+\texttt{deepseek-r1-reinforcement-learning-2025}
+
+\subsection{Appendix B. Claims Used in This
+Paper}\label{appendix-b.-claims-used-in-this-paper}
+
+\subsubsection{Appendix B1. At least one major frontier lab publicly
+committed the majority of its
+workloads\ldots{}}\label{appendix-b1-at-least-one-major-frontier-lab-publicly-committed-the-majority-of-its-workloads}
+
+\textbf{Claim statement:} That at least one major frontier lab publicly
+committed the majority of its workloads and future model development to
+a hyperscaler cloud provider. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a3-amazon-and-anthropic-announce-strategic-collaboration-to-advance-generative-ai]{Appendix
+A3} \textbf{Corpus companion entry:} Claim C-004 \textbf{Audit Claim
+ID:}
+\texttt{amazon-anthropic-strategic-collaboration-2023-07-export-controls-compute-defense-access-claim-01}
+
+\subsubsection{Appendix B2. Chapter 07 can document compute dependence
+and cloud concentration with a
+primary\ldots{}}\label{appendix-b2-chapter-07-can-document-compute-dependence-and-cloud-concentration-with-a-primary}
+
+\textbf{Claim statement:} That Chapter 07 can document compute
+dependence and cloud concentration with a primary source rather than
+only with abstract market language. \textbf{Evidence status:} Documented
+Fact \textbf{Source support:}
+\hyperref[appendix-a3-amazon-and-anthropic-announce-strategic-collaboration-to-advance-generative-ai]{Appendix
+A3} \textbf{Corpus companion entry:} Claim C-005 \textbf{Audit Claim
+ID:}
+\texttt{amazon-anthropic-strategic-collaboration-2023-07-export-controls-compute-defense-access-claim-02}
+
+\subsubsection{Appendix B3. Chip access, cloud infrastructure, model
+distribution, and capital investment
+wer\ldots{}}\label{appendix-b3-chip-access-cloud-infrastructure-model-distribution-and-capital-investment-wer}
+
+\textbf{Claim statement:} That chip access, cloud infrastructure, model
+distribution, and capital investment were being bundled together in a
+single strategic relationship. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a3-amazon-and-anthropic-announce-strategic-collaboration-to-advance-generative-ai]{Appendix
+A3} \textbf{Corpus companion entry:} Claim C-006 \textbf{Audit Claim
+ID:}
+\texttt{amazon-anthropic-strategic-collaboration-2023-07-export-controls-compute-defense-access-claim-03}
+
+\subsubsection{Appendix B4. By June 6, 2025 Anthropic had publicly
+launched a government-specific model
+line\ldots{}}\label{appendix-b4-by-june-6-2025-anthropic-had-publicly-launched-a-government-specific-model-line}
+
+\textbf{Claim statement:} That by June 6, 2025 Anthropic had publicly
+launched a government-specific model line for U.S. national security
+customers. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a7-claude-gov-models-for-u-s-national-security-customers]{Appendix
+A7} \textbf{Corpus companion entry:} Claim C-010 \textbf{Audit Claim
+ID:}
+\texttt{anthropic-claude-gov-2025-07-export-controls-compute-defense-access-claim-01}
+
+\subsubsection{Appendix B5. Anthropic publicly described those models as
+already deployed in high-level
+natio\ldots{}}\label{appendix-b5-anthropic-publicly-described-those-models-as-already-deployed-in-high-level-natio}
+
+\textbf{Claim statement:} That Anthropic publicly described those models
+as already deployed in high-level national-security agencies and
+restricted to classified environments. \textbf{Evidence status:}
+Documented Fact \textbf{Source support:}
+\hyperref[appendix-a7-claude-gov-models-for-u-s-national-security-customers]{Appendix
+A7} \textbf{Corpus companion entry:} Claim C-011 \textbf{Audit Claim
+ID:}
+\texttt{anthropic-claude-gov-2025-07-export-controls-compute-defense-access-claim-02}
+
+\subsubsection{Appendix B6. The company openly framed model adaptation
+for defense, intelligence, and
+cyberse\ldots{}}\label{appendix-b6-the-company-openly-framed-model-adaptation-for-defense-intelligence-and-cyberse}
+
+\textbf{Claim statement:} That the company openly framed model
+adaptation for defense, intelligence, and cybersecurity use cases as
+part of its government offering. \textbf{Evidence status:} Documented
+Fact \textbf{Source support:}
+\hyperref[appendix-a7-claude-gov-models-for-u-s-national-security-customers]{Appendix
+A7} \textbf{Corpus companion entry:} Claim C-012 \textbf{Audit Claim
+ID:}
+\texttt{anthropic-claude-gov-2025-07-export-controls-compute-defense-access-claim-03}
+
+\subsubsection{Appendix B7. By June 13, 2025 the U.S. Army had created a
+formal structure to embed senior
+com\ldots{}}\label{appendix-b7-by-june-13-2025-the-u-s-army-had-created-a-formal-structure-to-embed-senior-com}
+
+\textbf{Claim statement:} That by June 13, 2025 the U.S. Army had
+created a formal structure to embed senior commercial-tech executives in
+a military innovation role. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a9-army-launches-detachment-201-executive-innovation-corps-to-drive-tech-transformation]{Appendix
+A9} \textbf{Corpus companion entry:} Claim C-078 \textbf{Audit Claim
+ID:}
+\texttt{army-detachment-201-2025-07-export-controls-compute-defense-access-claim-01}
+
+\subsubsection{Appendix B8. The initial cohort explicitly included
+executives from Palantir and OpenAI, not
+o\ldots{}}\label{appendix-b8-the-initial-cohort-explicitly-included-executives-from-palantir-and-openai-not-o}
+
+\textbf{Claim statement:} That the initial cohort explicitly included
+executives from Palantir and OpenAI, not only traditional defense
+contractors. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a9-army-launches-detachment-201-executive-innovation-corps-to-drive-tech-transformation]{Appendix
+A9} \textbf{Corpus companion entry:} Claim C-079 \textbf{Audit Claim
+ID:}
+\texttt{army-detachment-201-2025-07-export-controls-compute-defense-access-claim-02}
+
+\subsubsection{Appendix B9. Chapter 07 and Chapter 08 can document a
+direct institutional bridge between
+fron\ldots{}}\label{appendix-b9-chapter-07-and-chapter-08-can-document-a-direct-institutional-bridge-between-fron}
+
+\textbf{Claim statement:} That Chapter 07 and Chapter 08 can document a
+direct institutional bridge between frontier/commercial AI leadership
+and military structures without relying on rumor or guilt by
+association. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a9-army-launches-detachment-201-executive-innovation-corps-to-drive-tech-transformation]{Appendix
+A9} \textbf{Corpus companion entry:} Claim C-080 \textbf{Audit Claim
+ID:}
+\texttt{army-detachment-201-2025-07-export-controls-compute-defense-access-claim-03}
+
+\subsubsection{Appendix B10. There is a primary U.S. government record
+directly describing continued license
+r\ldots{}}\label{appendix-b10-there-is-a-primary-u-s-government-record-directly-describing-continued-license-r}
+
+\textbf{Claim statement:} That there is a primary U.S. government record
+directly describing continued license requirements for advanced
+computing exports linked to Country Group D:5 and Macau.
+\textbf{Evidence status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a2-guidance-regarding-enforcement-of-license-requirements-for-advanced-computing-items-for-entities-headquartered-in-country-group-d-5-and-macau]{Appendix
+A2} \textbf{Corpus companion entry:} Claim C-111 \textbf{Audit Claim
+ID:}
+\texttt{bis-guidance-advanced-computing-d5-macau-2026-07-export-controls-compute-defense-access-claim-01}
+
+\subsubsection{Appendix B11. Chapter 07 can document a concrete
+implementation layer beneath abstract talk
+of\ldots{}}\label{appendix-b11-chapter-07-can-document-a-concrete-implementation-layer-beneath-abstract-talk-of}
+
+\textbf{Claim statement:} That Chapter 07 can document a concrete
+implementation layer beneath abstract talk of export controls and access
+politics. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a2-guidance-regarding-enforcement-of-license-requirements-for-advanced-computing-items-for-entities-headquartered-in-country-group-d-5-and-macau]{Appendix
+A2} \textbf{Corpus companion entry:} Claim C-112 \textbf{Audit Claim
+ID:}
+\texttt{bis-guidance-advanced-computing-d5-macau-2026-07-export-controls-compute-defense-access-claim-02}
+
+\subsubsection{Appendix B12. The AI Diffusion Rule and the earlier
+November 2023 controls should be treated
+as\ldots{}}\label{appendix-b12-the-ai-diffusion-rule-and-the-earlier-november-2023-controls-should-be-treated-as}
+
+\textbf{Claim statement:} That the AI Diffusion Rule and the earlier
+November 2023 controls should be treated as connected parts of a
+continuing export-control regime rather than isolated headlines.
+\textbf{Evidence status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a2-guidance-regarding-enforcement-of-license-requirements-for-advanced-computing-items-for-entities-headquartered-in-country-group-d-5-and-macau]{Appendix
+A2} \textbf{Corpus companion entry:} Claim C-113 \textbf{Audit Claim
+ID:}
+\texttt{bis-guidance-advanced-computing-d5-macau-2026-07-export-controls-compute-defense-access-claim-03}
+
+\subsubsection{Appendix B13. By January 2025 a non-U.S. lab was publicly
+claiming frontier-adjacent
+reasoning\ldots{}}\label{appendix-b13-by-january-2025-a-non-u-s-lab-was-publicly-claiming-frontier-adjacent-reasoning}
+
+\textbf{Claim statement:} That by January 2025 a non-U.S. lab was
+publicly claiming frontier-adjacent reasoning performance in a primary
+technical paper. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a13-deepseek-r1-incentivizing-reasoning-capability-in-llms-via-reinforcement-learning]{Appendix
+A13} \textbf{Corpus companion entry:} Claim C-146 \textbf{Audit Claim
+ID:}
+\texttt{deepseek-r1-reinforcement-learning-2025-06-ai-double-use-reasoning-deepseek-claim-01}
+
+\subsubsection{Appendix B14. Reasoning capability was not confined
+entirely to closed U.S. product stacks
+and\ldots{}}\label{appendix-b14-reasoning-capability-was-not-confined-entirely-to-closed-u-s-product-stacks-and}
+
+\textbf{Claim statement:} That reasoning capability was not confined
+entirely to closed U.S. product stacks and was partly diffusing through
+open publication and model release. \textbf{Evidence status:} Documented
+Fact \textbf{Source support:}
+\hyperref[appendix-a13-deepseek-r1-incentivizing-reasoning-capability-in-llms-via-reinforcement-learning]{Appendix
+A13} \textbf{Corpus companion entry:} Claim C-147 \textbf{Audit Claim
+ID:}
+\texttt{deepseek-r1-reinforcement-learning-2025-06-ai-double-use-reasoning-deepseek-claim-02}
+
+\subsubsection{Appendix B15. Chapters 06 and 07 can contrast
+frontier-access politics with a documented
+patter\ldots{}}\label{appendix-b15-chapters-06-and-07-can-contrast-frontier-access-politics-with-a-documented-patter}
+
+\textbf{Claim statement:} That Chapters 06 and 07 can contrast
+frontier-access politics with a documented pattern of partial technical
+diffusion. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a13-deepseek-r1-incentivizing-reasoning-capability-in-llms-via-reinforcement-learning]{Appendix
+A13} \textbf{Corpus companion entry:} Claim C-148 \textbf{Audit Claim
+ID:}
+\texttt{deepseek-r1-reinforcement-learning-2025-06-ai-double-use-reasoning-deepseek-claim-03}
+
+\subsubsection{Appendix B16. The state created an official consultation
+pathway for shaping the 2025 AI
+doctrine}\label{appendix-b16-the-state-created-an-official-consultation-pathway-for-shaping-the-2025-ai-doctrine}
+
+\textbf{Claim statement:} That the state created an official
+consultation pathway for shaping the 2025 AI doctrine. \textbf{Evidence
+status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a4-request-for-information-on-the-development-of-an-artificial-intelligence-ai-action-plan]{Appendix
+A4} \textbf{Corpus companion entry:} Claim C-167 \textbf{Audit Claim
+ID:}
+\texttt{fr-ai-action-plan-rfi-2025-08-power-networks-legitimacy-capture-claim-01}
+
+\subsubsection{Appendix B17. Legitimacy in AI was being organized
+through formal administrative processes,
+not\ldots{}}\label{appendix-b17-legitimacy-in-ai-was-being-organized-through-formal-administrative-processes-not}
+
+\textbf{Claim statement:} That legitimacy in AI was being organized
+through formal administrative processes, not only informal lobbying.
+\textbf{Evidence status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a4-request-for-information-on-the-development-of-an-artificial-intelligence-ai-action-plan]{Appendix
+A4} \textbf{Corpus companion entry:} Claim C-168 \textbf{Audit Claim
+ID:}
+\texttt{fr-ai-action-plan-rfi-2025-08-power-networks-legitimacy-capture-claim-02}
+
+\subsubsection{Appendix B18. Chapter 8 can map institutional capture or
+influence as a documented procedural
+f\ldots{}}\label{appendix-b18-chapter-8-can-map-institutional-capture-or-influence-as-a-documented-procedural-f}
+
+\textbf{Claim statement:} That Chapter 8 can map institutional capture
+or influence as a documented procedural field. \textbf{Evidence status:}
+Documented Fact \textbf{Source support:}
+\hyperref[appendix-a4-request-for-information-on-the-development-of-an-artificial-intelligence-ai-action-plan]{Appendix
+A4} \textbf{Corpus companion entry:} Claim C-169 \textbf{Audit Claim
+ID:}
+\texttt{fr-ai-action-plan-rfi-2025-08-power-networks-legitimacy-capture-claim-03}
+
+\subsubsection{Appendix B19. The language of AI dominance did not remain
+only in a political order, but
+moved\ldots{}}\label{appendix-b19-the-language-of-ai-dominance-did-not-remain-only-in-a-political-order-but-moved}
+
+\textbf{Claim statement:} That the language of AI dominance did not
+remain only in a political order, but moved into an official federal
+consultation process. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a4-request-for-information-on-the-development-of-an-artificial-intelligence-ai-action-plan]{Appendix
+A4} \textbf{Corpus companion entry:} Claim C-170 \textbf{Audit Claim
+ID:} \texttt{fr-ai-action-plan-rfi-2025-claim-01}
+
+\subsubsection{Appendix B20. OSTP and federal agencies activated a
+formal channel to gather input from
+industr\ldots{}}\label{appendix-b20-ostp-and-federal-agencies-activated-a-formal-channel-to-gather-input-from-industr}
+
+\textbf{Claim statement:} That OSTP and federal agencies activated a
+formal channel to gather input from industry, academia, and other actors
+on U.S. AI strategy. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a4-request-for-information-on-the-development-of-an-artificial-intelligence-ai-action-plan]{Appendix
+A4} \textbf{Corpus companion entry:} Claim C-171 \textbf{Audit Claim
+ID:} \texttt{fr-ai-action-plan-rfi-2025-claim-02}
+
+\subsubsection{Appendix B21. The dossier can document a clear
+institutional sequence between the
+presidential\ldots{}}\label{appendix-b21-the-dossier-can-document-a-clear-institutional-sequence-between-the-presidential}
+
+\textbf{Claim statement:} That the dossier can document a clear
+institutional sequence between the presidential order, the RFI, and
+later corporate policy positioning. \textbf{Evidence status:} Documented
+Fact \textbf{Source support:}
+\hyperref[appendix-a4-request-for-information-on-the-development-of-an-artificial-intelligence-ai-action-plan]{Appendix
+A4} \textbf{Corpus companion entry:} Claim C-172 \textbf{Audit Claim
+ID:} \texttt{fr-ai-action-plan-rfi-2025-claim-03}
+
+\subsubsection{Appendix B22. There is a formal institutional channel
+connecting strategic technology
+developme\ldots{}}\label{appendix-b22-there-is-a-formal-institutional-channel-connecting-strategic-technology-developme}
+
+\textbf{Claim statement:} That there is a formal institutional channel
+connecting strategic technology development with intelligence and
+defense needs. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:} \hyperref[appendix-a10-in-q-tel]{Appendix A10} \textbf{Corpus
+companion entry:} Claim C-234 \textbf{Audit Claim ID:}
+\texttt{iqt-homepage-2026-08-power-networks-legitimacy-capture-claim-01}
+
+\subsubsection{Appendix B23. The adjacency between frontier innovation
+and the state apparatus can be
+document\ldots{}}\label{appendix-b23-the-adjacency-between-frontier-innovation-and-the-state-apparatus-can-be-document}
+
+\textbf{Claim statement:} That the adjacency between frontier innovation
+and the state apparatus can be documented from primary sources.
+\textbf{Evidence status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a10-in-q-tel]{Appendix A10} \textbf{Corpus companion
+entry:} Claim C-235 \textbf{Audit Claim ID:}
+\texttt{iqt-homepage-2026-08-power-networks-legitimacy-capture-claim-02}
+
+\subsubsection{Appendix B24. Chapter 8 can discuss legitimacy networks
+without relying on conspiratorial
+infer\ldots{}}\label{appendix-b24-chapter-8-can-discuss-legitimacy-networks-without-relying-on-conspiratorial-infer}
+
+\textbf{Claim statement:} That Chapter 8 can discuss legitimacy networks
+without relying on conspiratorial inference. \textbf{Evidence status:}
+Documented Fact \textbf{Source support:}
+\hyperref[appendix-a10-in-q-tel]{Appendix A10} \textbf{Corpus companion
+entry:} Claim C-236 \textbf{Audit Claim ID:}
+\texttt{iqt-homepage-2026-08-power-networks-legitimacy-capture-claim-03}
+
+\subsubsection{Appendix B25. There is an organization officially
+dedicated to connecting technological
+innovat\ldots{}}\label{appendix-b25-there-is-an-organization-officially-dedicated-to-connecting-technological-innovat}
+
+\textbf{Claim statement:} That there is an organization officially
+dedicated to connecting technological innovation with intelligence,
+defense, and national-security needs. \textbf{Evidence status:}
+Documented Fact \textbf{Source support:}
+\hyperref[appendix-a10-in-q-tel]{Appendix A10} \textbf{Corpus companion
+entry:} Claim C-237 \textbf{Audit Claim ID:}
+\texttt{iqt-homepage-2026-claim-01}
+
+\subsubsection{Appendix B26. Adjacency between venture capital, frontier
+tech, and the state apparatus is
+not\ldots{}}\label{appendix-b26-adjacency-between-venture-capital-frontier-tech-and-the-state-apparatus-is-not}
+
+\textbf{Claim statement:} That adjacency between venture capital,
+frontier tech, and the state apparatus is not speculation: in the case
+of IQT, it is expressed by the organization itself. \textbf{Evidence
+status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a10-in-q-tel]{Appendix A10} \textbf{Corpus companion
+entry:} Claim C-238 \textbf{Audit Claim ID:}
+\texttt{iqt-homepage-2026-claim-02}
+
+\subsubsection{Appendix B27. The dossier can discuss a
+technology-transfer infrastructure toward the state
+wit\ldots{}}\label{appendix-b27-the-dossier-can-discuss-a-technology-transfer-infrastructure-toward-the-state-wit}
+
+\textbf{Claim statement:} That the dossier can discuss a
+technology-transfer infrastructure toward the state without depending on
+conspiratorial sources. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:} \hyperref[appendix-a10-in-q-tel]{Appendix A10}
+\textbf{Corpus companion entry:} Claim C-239 \textbf{Audit Claim ID:}
+\texttt{iqt-homepage-2026-claim-03}
+
+\subsubsection{Appendix B28. Peter Thiel's formal role at Facebook /
+Meta lasted well beyond the early
+startup\ldots{}}\label{appendix-b28-peter-thiel-s-formal-role-at-facebook-meta-lasted-well-beyond-the-early-startup}
+
+\textbf{Claim statement:} That Peter Thiel's formal role at Facebook /
+Meta lasted well beyond the early startup period and remained active
+into 2022. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a12-meta-platforms-inc-2022-definitive-proxy-statement]{Appendix
+A12} \textbf{Corpus companion entry:} Claim C-262 \textbf{Audit Claim
+ID:}
+\texttt{meta-proxy-2022-thiel-retirement-11-facebook-thiel-intelligence-adjacency-claim-01}
+
+\subsubsection{Appendix B29. The company itself presented Thiel's board
+tenure as spanning from 2005 to the
+en\ldots{}}\label{appendix-b29-the-company-itself-presented-thiel-s-board-tenure-as-spanning-from-2005-to-the-en}
+
+\textbf{Claim statement:} That the company itself presented Thiel's
+board tenure as spanning from 2005 to the end of his term at the 2022
+annual meeting. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a12-meta-platforms-inc-2022-definitive-proxy-statement]{Appendix
+A12} \textbf{Corpus companion entry:} Claim C-263 \textbf{Audit Claim
+ID:}
+\texttt{meta-proxy-2022-thiel-retirement-11-facebook-thiel-intelligence-adjacency-claim-02}
+
+\subsubsection{Appendix B30. Thiel still held committee-level governance
+authority at Meta immediately
+before\ldots{}}\label{appendix-b30-thiel-still-held-committee-level-governance-authority-at-meta-immediately-before}
+
+\textbf{Claim statement:} That Thiel still held committee-level
+governance authority at Meta immediately before his departure from the
+board. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a12-meta-platforms-inc-2022-definitive-proxy-statement]{Appendix
+A12} \textbf{Corpus companion entry:} Claim C-264 \textbf{Audit Claim
+ID:}
+\texttt{meta-proxy-2022-thiel-retirement-11-facebook-thiel-intelligence-adjacency-claim-03}
+
+\subsubsection{Appendix B31. Continuity between the Facebook
+surveillance era and the Meta rebrand era
+include\ldots{}}\label{appendix-b31-continuity-between-the-facebook-surveillance-era-and-the-meta-rebrand-era-include}
+
+\textbf{Claim statement:} That continuity between the Facebook
+surveillance era and the Meta rebrand era included continuity in elite
+board membership. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a12-meta-platforms-inc-2022-definitive-proxy-statement]{Appendix
+A12} \textbf{Corpus companion entry:} Claim C-265 \textbf{Audit Claim
+ID:}
+\texttt{meta-proxy-2022-thiel-retirement-11-facebook-thiel-intelligence-adjacency-claim-04}
+
+\subsubsection{Appendix B32. By June 16, 2025 OpenAI had formally
+reorganized and expanded its U.S.
+public-sec\ldots{}}\label{appendix-b32-by-june-16-2025-openai-had-formally-reorganized-and-expanded-its-u-s-public-sec}
+
+\textbf{Claim statement:} That by June 16, 2025 OpenAI had formally
+reorganized and expanded its U.S. public-sector work under an
+\texttt{OpenAI\ for\ Government} initiative rather than treating
+government use as incidental. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a6-introducing-openai-for-government]{Appendix A6}
+\textbf{Corpus companion entry:} Claim C-298 \textbf{Audit Claim ID:}
+\texttt{openai-for-government-2025-07-export-controls-compute-defense-access-claim-01}
+
+\subsubsection{Appendix B33. OpenAI publicly tied government access to
+secure environments, limited
+national-s\ldots{}}\label{appendix-b33-openai-publicly-tied-government-access-to-secure-environments-limited-national-s}
+
+\textbf{Claim statement:} That OpenAI publicly tied government access to
+secure environments, limited national-security custom models, and
+structured forward visibility into upcoming capabilities.
+\textbf{Evidence status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a6-introducing-openai-for-government]{Appendix A6}
+\textbf{Corpus companion entry:} Claim C-299 \textbf{Audit Claim ID:}
+\texttt{openai-for-government-2025-07-export-controls-compute-defense-access-claim-02}
+
+\subsubsection{Appendix B34. OpenAI's own record documents a formal DoD
+CDAO pilot with a \$200 million
+ceiling\ldots{}}\label{appendix-b34-openai-s-own-record-documents-a-formal-dod-cdao-pilot-with-a-200-million-ceiling}
+
+\textbf{Claim statement:} That OpenAI's own record documents a formal
+DoD \texttt{CDAO} pilot with a \texttt{\$200\ million} ceiling under
+this initiative. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a6-introducing-openai-for-government]{Appendix A6}
+\textbf{Corpus companion entry:} Claim C-300 \textbf{Audit Claim ID:}
+\texttt{openai-for-government-2025-07-export-controls-compute-defense-access-claim-03}
+
+\subsubsection{Appendix B35. OpenAI presents itself as a policy actor
+seeking to co-design national AI
+strategy}\label{appendix-b35-openai-presents-itself-as-a-policy-actor-seeking-to-co-design-national-ai-strategy}
+
+\textbf{Claim statement:} That OpenAI presents itself as a policy actor
+seeking to co-design national AI strategy. \textbf{Evidence status:}
+Documented Fact \textbf{Source support:}
+\hyperref[appendix-a5-openais-proposals-for-the-us-ai-action-plan]{Appendix
+A5} \textbf{Corpus companion entry:} Claim C-319 \textbf{Audit Claim
+ID:}
+\texttt{openai-us-ai-action-plan-2025-08-power-networks-legitimacy-capture-claim-01}
+
+\subsubsection{Appendix B36. The company publicly links its commercial
+and technical agenda to
+national-securi\ldots{}}\label{appendix-b36-the-company-publicly-links-its-commercial-and-technical-agenda-to-national-securi}
+
+\textbf{Claim statement:} That the company publicly links its commercial
+and technical agenda to national-security and industrial-policy
+language. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a5-openais-proposals-for-the-us-ai-action-plan]{Appendix
+A5} \textbf{Corpus companion entry:} Claim C-320 \textbf{Audit Claim
+ID:}
+\texttt{openai-us-ai-action-plan-2025-08-power-networks-legitimacy-capture-claim-02}
+
+\subsubsection{Appendix B37. Chapter 8 can treat lobbying and doctrinal
+positioning as part of the
+legitimacy\ldots{}}\label{appendix-b37-chapter-8-can-treat-lobbying-and-doctrinal-positioning-as-part-of-the-legitimacy}
+
+\textbf{Claim statement:} That Chapter 8 can treat lobbying and
+doctrinal positioning as part of the legitimacy architecture of frontier
+firms. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a5-openais-proposals-for-the-us-ai-action-plan]{Appendix
+A5} \textbf{Corpus companion entry:} Claim C-321 \textbf{Audit Claim
+ID:}
+\texttt{openai-us-ai-action-plan-2025-08-power-networks-legitimacy-capture-claim-03}
+
+\subsubsection{Appendix B38. OpenAI officially defended a public-policy
+agenda combining global commercial
+exp\ldots{}}\label{appendix-b38-openai-officially-defended-a-public-policy-agenda-combining-global-commercial-exp}
+
+\textbf{Claim statement:} That OpenAI officially defended a
+public-policy agenda combining global commercial expansion, export
+controls, and preservation of access to copyrighted material for
+training. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a5-openais-proposals-for-the-us-ai-action-plan]{Appendix
+A5} \textbf{Corpus companion entry:} Claim C-322 \textbf{Audit Claim
+ID:} \texttt{openai-us-ai-action-plan-2025-claim-01}
+
+\subsubsection{Appendix B39. The company presents itself not only as a
+model provider, but as an actor
+seeking\ldots{}}\label{appendix-b39-the-company-presents-itself-not-only-as-a-model-provider-but-as-an-actor-seeking}
+
+\textbf{Claim statement:} That the company presents itself not only as a
+model provider, but as an actor seeking to co-design U.S. national AI
+strategy. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a5-openais-proposals-for-the-us-ai-action-plan]{Appendix
+A5} \textbf{Corpus companion entry:} Claim C-323 \textbf{Audit Claim
+ID:} \texttt{openai-us-ai-action-plan-2025-claim-02}
+
+\subsubsection{Appendix B40. The language of national security,
+competition with the PRC, and government
+adopt\ldots{}}\label{appendix-b40-the-language-of-national-security-competition-with-the-prc-and-government-adopt}
+
+\textbf{Claim statement:} That the language of national security,
+competition with the PRC, and government adoption is already integrated
+into its official 2025 discourse. \textbf{Evidence status:} Documented
+Fact \textbf{Source support:}
+\hyperref[appendix-a5-openais-proposals-for-the-us-ai-action-plan]{Appendix
+A5} \textbf{Corpus companion entry:} Claim C-324 \textbf{Audit Claim
+ID:} \texttt{openai-us-ai-action-plan-2025-claim-03}
+
+\subsubsection{Appendix B41. By November 7, 2024 Anthropic model access
+for U.S. intelligence and defense
+agen\ldots{}}\label{appendix-b41-by-november-7-2024-anthropic-model-access-for-u-s-intelligence-and-defense-agen}
+
+\textbf{Claim statement:} That by November 7, 2024 Anthropic model
+access for U.S. intelligence and defense agencies was being publicly
+distributed through a Palantir-plus-AWS stack. \textbf{Evidence status:}
+Documented Fact \textbf{Source support:}
+\hyperref[appendix-a8-anthropic-and-palantir-partner-to-bring-claude-ai-models-to-aws-for-u-s-government-intelligence-and-defense-operations]{Appendix
+A8} \textbf{Corpus companion entry:} Claim C-328 \textbf{Audit Claim
+ID:}
+\texttt{palantir-anthropic-aws-gov-partnership-2024-07-export-controls-compute-defense-access-claim-01}
+
+\subsubsection{Appendix B42. Classified-environment frontier-model
+access was tied to specific accredited
+infr\ldots{}}\label{appendix-b42-classified-environment-frontier-model-access-was-tied-to-specific-accredited-infr}
+
+\textbf{Claim statement:} That classified-environment frontier-model
+access was tied to specific accredited infrastructure and
+defense-cleared platform arrangements rather than open public
+availability. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a8-anthropic-and-palantir-partner-to-bring-claude-ai-models-to-aws-for-u-s-government-intelligence-and-defense-operations]{Appendix
+A8} \textbf{Corpus companion entry:} Claim C-329 \textbf{Audit Claim
+ID:}
+\texttt{palantir-anthropic-aws-gov-partnership-2024-07-export-controls-compute-defense-access-claim-02}
+
+\subsubsection{Appendix B43. Chapter 07 can document a concrete
+distribution channel where model access,
+cloud\ldots{}}\label{appendix-b43-chapter-07-can-document-a-concrete-distribution-channel-where-model-access-cloud}
+
+\textbf{Claim statement:} That Chapter 07 can document a concrete
+distribution channel where model access, cloud concentration,
+accreditation, and defense use cases are bundled together.
+\textbf{Evidence status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a8-anthropic-and-palantir-partner-to-bring-claude-ai-models-to-aws-for-u-s-government-intelligence-and-defense-operations]{Appendix
+A8} \textbf{Corpus companion entry:} Claim C-330 \textbf{Audit Claim
+ID:}
+\texttt{palantir-anthropic-aws-gov-partnership-2024-07-export-controls-compute-defense-access-claim-03}
+
+\subsubsection{Appendix B44. Palantir openly markets Gotham to defense
+agencies and the intelligence
+community}\label{appendix-b44-palantir-openly-markets-gotham-to-defense-agencies-and-the-intelligence-community}
+
+\textbf{Claim statement:} That Palantir openly markets Gotham to defense
+agencies and the intelligence community. \textbf{Evidence status:}
+Documented Fact \textbf{Source support:}
+\hyperref[appendix-a11-gotham]{Appendix A11} \textbf{Corpus companion
+entry:} Claim C-331 \textbf{Audit Claim ID:}
+\texttt{palantir-gotham-2026-11-facebook-thiel-intelligence-adjacency-claim-01}
+
+\subsubsection{Appendix B45. Palantir's public product framing already
+includes operational AI, deployment
+at\ldots{}}\label{appendix-b45-palantir-s-public-product-framing-already-includes-operational-ai-deployment-at}
+
+\textbf{Claim statement:} That Palantir's public product framing already
+includes operational AI, deployment at the edge, and mission-critical
+decision support. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:} \hyperref[appendix-a11-gotham]{Appendix A11}
+\textbf{Corpus companion entry:} Claim C-332 \textbf{Audit Claim ID:}
+\texttt{palantir-gotham-2026-11-facebook-thiel-intelligence-adjacency-claim-02}
+
+\subsubsection{Appendix B46. Palantir's position inside security-state
+and defense workflows does not need
+to\ldots{}}\label{appendix-b46-palantir-s-position-inside-security-state-and-defense-workflows-does-not-need-to}
+
+\textbf{Claim statement:} That Palantir's position inside security-state
+and defense workflows does not need to be inferred from hostile or
+conspiratorial sources because the company states it directly.
+\textbf{Evidence status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a11-gotham]{Appendix A11} \textbf{Corpus companion
+entry:} Claim C-333 \textbf{Audit Claim ID:}
+\texttt{palantir-gotham-2026-11-facebook-thiel-intelligence-adjacency-claim-03}
+
+\subsubsection{Appendix B47. AI dominance was elevated to explicit state
+doctrine in
+2025}\label{appendix-b47-ai-dominance-was-elevated-to-explicit-state-doctrine-in-2025}
+
+\textbf{Claim statement:} That AI dominance was elevated to explicit
+state doctrine in 2025. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a1-removing-barriers-to-american-leadership-in-artificial-intelligence]{Appendix
+A1} \textbf{Corpus companion entry:} Claim C-477 \textbf{Audit Claim
+ID:}
+\texttt{whitehouse-eo-14179-2025-08-power-networks-legitimacy-capture-claim-01}
+
+\subsubsection{Appendix B48. Deregulatory and dominance-oriented state
+framing can serve as an external
+source\ldots{}}\label{appendix-b48-deregulatory-and-dominance-oriented-state-framing-can-serve-as-an-external-source}
+
+\textbf{Claim statement:} That deregulatory and dominance-oriented state
+framing can serve as an external source of legitimacy for frontier
+firms. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a1-removing-barriers-to-american-leadership-in-artificial-intelligence]{Appendix
+A1} \textbf{Corpus companion entry:} Claim C-478 \textbf{Audit Claim
+ID:}
+\texttt{whitehouse-eo-14179-2025-08-power-networks-legitimacy-capture-claim-02}
+
+\subsubsection{Appendix B49. Chapter 8 can ground the idea of
+institutional capture or mutual reinforcement
+in\ldots{}}\label{appendix-b49-chapter-8-can-ground-the-idea-of-institutional-capture-or-mutual-reinforcement-in}
+
+\textbf{Claim statement:} That Chapter 8 can ground the idea of
+institutional capture or mutual reinforcement in official state language
+rather than metaphor alone. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a1-removing-barriers-to-american-leadership-in-artificial-intelligence]{Appendix
+A1} \textbf{Corpus companion entry:} Claim C-479 \textbf{Audit Claim
+ID:}
+\texttt{whitehouse-eo-14179-2025-08-power-networks-legitimacy-capture-claim-03}
+
+\subsubsection{Appendix B50. Competition over AI was officially framed
+by the U.S. government in terms of
+glob\ldots{}}\label{appendix-b50-competition-over-ai-was-officially-framed-by-the-u-s-government-in-terms-of-glob}
+
+\textbf{Claim statement:} That competition over AI was officially framed
+by the U.S. government in terms of global dominance, economic
+competitiveness, and national security. \textbf{Evidence status:}
+Documented Fact \textbf{Source support:}
+\hyperref[appendix-a1-removing-barriers-to-american-leadership-in-artificial-intelligence]{Appendix
+A1} \textbf{Corpus companion entry:} Claim C-480 \textbf{Audit Claim
+ID:} \texttt{whitehouse-eo-14179-2025-claim-01}
+
+\subsubsection{Appendix B51. There was an explicit turn toward a more
+deregulatory line aimed at removing
+inte\ldots{}}\label{appendix-b51-there-was-an-explicit-turn-toward-a-more-deregulatory-line-aimed-at-removing-inte}
+
+\textbf{Claim statement:} That there was an explicit turn toward a more
+deregulatory line aimed at removing internal barriers for U.S. actors.
+\textbf{Evidence status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a1-removing-barriers-to-american-leadership-in-artificial-intelligence]{Appendix
+A1} \textbf{Corpus companion entry:} Claim C-481 \textbf{Audit Claim
+ID:} \texttt{whitehouse-eo-14179-2025-claim-02}
+
+\subsubsection{Appendix B52. The 2025 state framework directly connected
+AI policy, national security, and
+adm\ldots{}}\label{appendix-b52-the-2025-state-framework-directly-connected-ai-policy-national-security-and-adm}
+
+\textbf{Claim statement:} That the 2025 state framework directly
+connected AI policy, national security, and administrative reordering.
+\textbf{Evidence status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a1-removing-barriers-to-american-leadership-in-artificial-intelligence]{Appendix
+A1} \textbf{Corpus companion entry:} Claim C-482 \textbf{Audit Claim
+ID:} \texttt{whitehouse-eo-14179-2025-claim-03}
+
+\subsubsection{Appendix B53. Current official records show frontier labs
+and adjacent platform firms
+building\ldots{}}\label{appendix-b53-current-official-records-show-frontier-labs-and-adjacent-platform-firms-building}
+
+\textbf{Claim statement:} That current official records show frontier
+labs and adjacent platform firms building formal government-facing
+channels through secure offerings, classified-environment access,
+accredited cloud stacks, and even military personnel embedding rather
+than engaging the state only through lobbying or abstract policy
+rhetoric. \textbf{Evidence status:} Hypothesis / Interpretation
+\textbf{Source support:}
+\hyperref[appendix-a6-introducing-openai-for-government]{Appendix A6},
+\hyperref[appendix-a7-claude-gov-models-for-u-s-national-security-customers]{Appendix
+A7},
+\hyperref[appendix-a8-anthropic-and-palantir-partner-to-bring-claude-ai-models-to-aws-for-u-s-government-intelligence-and-defense-operations]{Appendix
+A8},
+\hyperref[appendix-a9-army-launches-detachment-201-executive-innovation-corps-to-drive-tech-transformation]{Appendix
+A9} \textbf{Corpus companion entry:} Claim C-437 \textbf{Audit Claim
+ID:} \texttt{vector07-formal-government-interface-synthesis-claim-01}
+
+\subsubsection{Appendix B54. Firms benefiting from export-control
+protection, strategic state access, or
+privi\ldots{}}\label{appendix-b54-firms-benefiting-from-export-control-protection-strategic-state-access-or-privi}
+
+\textbf{Claim statement:} That firms benefiting from export-control
+protection, strategic state access, or privileged public coordination
+should face stronger transparency and public-obligation duties than
+ordinary software vendors. \textbf{Evidence status:} Hypothesis /
+Interpretation \textbf{Source support:}
+\hyperref[appendix-a1-removing-barriers-to-american-leadership-in-artificial-intelligence]{Appendix
+A1},
+\hyperref[appendix-a5-openais-proposals-for-the-us-ai-action-plan]{Appendix
+A5},
+\hyperref[appendix-a2-guidance-regarding-enforcement-of-license-requirements-for-advanced-computing-items-for-entities-headquartered-in-country-group-d-5-and-macau]{Appendix
+A2} \textbf{Corpus companion entry:} Claim C-438 \textbf{Audit Claim
+ID:} \texttt{vector07-public-obligations-for-protected-firms-claim-01}
+
+\subsubsection{Appendix B55. The Facebook-Thiel-Palantir-In-Q-Tel record
+supports a bounded argument about
+net\ldots{}}\label{appendix-b55-the-facebook-thiel-palantir-in-q-tel-record-supports-a-bounded-argument-about-net}
+
+\textbf{Claim statement:} That the Facebook-Thiel-Palantir-In-Q-Tel
+record supports a bounded argument about networked governance continuity
+between surveillance platforms, venture capital, and security-state
+technology ecosystems. \textbf{Evidence status:} Hypothesis /
+Interpretation \textbf{Source support:}
+\hyperref[appendix-a12-meta-platforms-inc-2022-definitive-proxy-statement]{Appendix
+A12}, \hyperref[appendix-a10-in-q-tel]{Appendix A10} \textbf{Corpus
+companion entry:} Claim C-459 \textbf{Audit Claim ID:}
+\texttt{vector11-networked-adjacency-synthesis-claim-01}
+
+\subsubsection{Appendix B56. The strongest reading of the
+Facebook-Thiel-Palantir-In-Q-Tel record is a
+structu\ldots{}}\label{appendix-b56-the-strongest-reading-of-the-facebook-thiel-palantir-in-q-tel-record-is-a-structu}
+
+\textbf{Claim statement:} That the strongest reading of the
+Facebook-Thiel-Palantir-In-Q-Tel record is a structured adjacency model
+built through board power, venture sponsorship, and government
+contracting rather than evidence of covert command. \textbf{Evidence
+status:} Hypothesis / Interpretation \textbf{Source support:}
+\hyperref[appendix-a12-meta-platforms-inc-2022-definitive-proxy-statement]{Appendix
+A12}, \hyperref[appendix-a10-in-q-tel]{Appendix A10},
+\hyperref[appendix-a11-gotham]{Appendix A11} \textbf{Corpus companion
+entry:} Claim C-461 \textbf{Audit Claim ID:}
+\texttt{vector11-structured-adjacency-not-command-claim-01}
+
+\subsubsection{Appendix B57. Open reasoning papers or public model
+releases eliminate the politics of
+compute\ldots{}}\label{appendix-b57-open-reasoning-papers-or-public-model-releases-eliminate-the-politics-of-compute}
+
+\textbf{Claim statement:} That open reasoning papers or public model
+releases eliminate the politics of compute concentration, distribution
+control, or institutional gatekeeping around frontier AI.
+\textbf{Evidence status:} Speculative Narrative Risk \textbf{Source
+support:}
+\hyperref[appendix-a13-deepseek-r1-incentivizing-reasoning-capability-in-llms-via-reinforcement-learning]{Appendix
+A13} \textbf{Corpus companion entry:} Claim C-432 \textbf{Audit Claim
+ID:}
+\texttt{vector06-open-publication-solves-control-overclaim-claim-01}
+
+\subsubsection{Appendix B58. Export controls, hyperscaler dependence,
+and defense adjacency prove total
+state\ldots{}}\label{appendix-b58-export-controls-hyperscaler-dependence-and-defense-adjacency-prove-total-state}
+
+\textbf{Claim statement:} That export controls, hyperscaler dependence,
+and defense adjacency prove total state ownership or seamless command
+over every frontier-model training, deployment, or access pathway.
+\textbf{Evidence status:} Speculative Narrative Risk \textbf{Source
+support:}
+\hyperref[appendix-a2-guidance-regarding-enforcement-of-license-requirements-for-advanced-computing-items-for-entities-headquartered-in-country-group-d-5-and-macau]{Appendix
+A2},
+\hyperref[appendix-a3-amazon-and-anthropic-announce-strategic-collaboration-to-advance-generative-ai]{Appendix
+A3} \textbf{Corpus companion entry:} Claim C-439 \textbf{Audit Claim
+ID:} \texttt{vector07-total-state-command-overclaim-claim-01}
+
+\subsection{Appendix C. Timeline
+Slice}\label{appendix-c.-timeline-slice}
+
+\subsubsection{Appendix C1. 2022-04-08: Meta's proxy states that Peter
+Thiel will retire from the board after the annual
+meeting}\label{appendix-c1-2022-04-08-meta-s-proxy-states-that-peter-thiel-will-retire-from-the-board-after-the-annual-meeting}
+
+\textbf{Event summary:} Meta's proxy states that Peter Thiel will retire
+from the board after the annual meeting \textbf{Event date:} 2022-04-08
+\textbf{Source support:}
+\hyperref[appendix-a12-meta-platforms-inc-2022-definitive-proxy-statement]{Appendix
+A12} \textbf{Corpus companion entry:} Event T-017 \textbf{Audit Event
+ID:} \texttt{event-meta-proxy-thiel-retirement-2022-04-08}
+
+\subsubsection{Appendix C2. 2023-09-25: Amazon and Anthropic tie
+frontier-model development to AWS cloud and
+chips}\label{appendix-c2-2023-09-25-amazon-and-anthropic-tie-frontier-model-development-to-aws-cloud-and-chips}
+
+\textbf{Event summary:} Amazon and Anthropic tie frontier-model
+development to AWS cloud and chips \textbf{Event date:} 2023-09-25
+\textbf{Source support:}
+\hyperref[appendix-a3-amazon-and-anthropic-announce-strategic-collaboration-to-advance-generative-ai]{Appendix
+A3} \textbf{Corpus companion entry:} Event T-030 \textbf{Audit Event
+ID:} \texttt{event-amazon-anthropic-collaboration-2023-09-25}
+
+\subsubsection{Appendix C3. 2024-11-07: Palantir, Anthropic, and AWS
+announce a classified-environment channel for Claude
+in\ldots{}}\label{appendix-c3-2024-11-07-palantir-anthropic-and-aws-announce-a-classified-environment-channel-for-claude-in-u-s-defense-and-intelligence-work}
+
+\textbf{Event summary:} Palantir, Anthropic, and AWS announce a
+classified-environment channel for Claude in U.S. defense and
+intelligence work \textbf{Event date:} 2024-11-07 \textbf{Source
+support:}
+\hyperref[appendix-a8-anthropic-and-palantir-partner-to-bring-claude-ai-models-to-aws-for-u-s-government-intelligence-and-defense-operations]{Appendix
+A8} \textbf{Corpus companion entry:} Event T-059 \textbf{Audit Event
+ID:} \texttt{event-palantir-anthropic-aws-government-channel-2024-11-07}
+
+\subsubsection{Appendix C4. 2025-01-22: DeepSeek publishes its R1
+reasoning paper and open release
+claims}\label{appendix-c4-2025-01-22-deepseek-publishes-its-r1-reasoning-paper-and-open-release-claims}
+
+\textbf{Event summary:} DeepSeek publishes its R1 reasoning paper and
+open release claims \textbf{Event date:} 2025-01-22 \textbf{Source
+support:}
+\hyperref[appendix-a13-deepseek-r1-incentivizing-reasoning-capability-in-llms-via-reinforcement-learning]{Appendix
+A13} \textbf{Corpus companion entry:} Event T-065 \textbf{Audit Event
+ID:} \texttt{event-deepseek-r1-2025-01-22}
+
+\subsubsection{Appendix C5. 2025-01-23: The White House makes sustaining
+and enhancing U.S. global AI dominance official
+policy}\label{appendix-c5-2025-01-23-the-white-house-makes-sustaining-and-enhancing-u-s-global-ai-dominance-official-policy}
+
+\textbf{Event summary:} The White House makes sustaining and enhancing
+U.S. global AI dominance official policy \textbf{Event date:} 2025-01-23
+\textbf{Source support:}
+\hyperref[appendix-a1-removing-barriers-to-american-leadership-in-artificial-intelligence]{Appendix
+A1} \textbf{Corpus companion entry:} Event T-066 \textbf{Audit Event
+ID:} \texttt{event-eo-14179-2025-01-23}
+
+\subsubsection{Appendix C6. 2025-02-06: The AI Action Plan RFI is
+published in the Federal
+Register}\label{appendix-c6-2025-02-06-the-ai-action-plan-rfi-is-published-in-the-federal-register}
+
+\textbf{Event summary:} The AI Action Plan RFI is published in the
+Federal Register \textbf{Event date:} 2025-02-06 \textbf{Source
+support:}
+\hyperref[appendix-a4-request-for-information-on-the-development-of-an-artificial-intelligence-ai-action-plan]{Appendix
+A4} \textbf{Corpus companion entry:} Event T-068 \textbf{Audit Event
+ID:} \texttt{event-fr-rfi-2025-02-06}
+
+\subsubsection{Appendix C7. 2025-03-13: OpenAI publishes its proposals
+for the U.S. AI Action
+Plan}\label{appendix-c7-2025-03-13-openai-publishes-its-proposals-for-the-u-s-ai-action-plan}
+
+\textbf{Event summary:} OpenAI publishes its proposals for the U.S. AI
+Action Plan \textbf{Event date:} 2025-03-13 \textbf{Source support:}
+\hyperref[appendix-a5-openais-proposals-for-the-us-ai-action-plan]{Appendix
+A5} \textbf{Corpus companion entry:} Event T-072 \textbf{Audit Event
+ID:} \texttt{event-openai-action-plan-2025-03-13}
+
+\subsubsection{Appendix C8. 2025-06-06: Anthropic launches Claude Gov
+for U.S. national security
+customers}\label{appendix-c8-2025-06-06-anthropic-launches-claude-gov-for-u-s-national-security-customers}
+
+\textbf{Event summary:} Anthropic launches Claude Gov for U.S. national
+security customers \textbf{Event date:} 2025-06-06 \textbf{Source
+support:}
+\hyperref[appendix-a7-claude-gov-models-for-u-s-national-security-customers]{Appendix
+A7} \textbf{Corpus companion entry:} Event T-077 \textbf{Audit Event
+ID:} \texttt{event-anthropic-claude-gov-2025-06-06}
+
+\subsubsection{Appendix C9. 2025-06-13: The U.S. Army launches
+Detachment 201 and commissions senior tech executives into a
+r\ldots{}}\label{appendix-c9-2025-06-13-the-u-s-army-launches-detachment-201-and-commissions-senior-tech-executives-into-a-reserve-innovation-corps}
+
+\textbf{Event summary:} The U.S. Army launches Detachment 201 and
+commissions senior tech executives into a reserve innovation corps
+\textbf{Event date:} 2025-06-13 \textbf{Source support:}
+\hyperref[appendix-a9-army-launches-detachment-201-executive-innovation-corps-to-drive-tech-transformation]{Appendix
+A9} \textbf{Corpus companion entry:} Event T-078 \textbf{Audit Event
+ID:} \texttt{event-army-detachment-201-2025-06-13}
+
+\subsubsection{Appendix C10. 2025-06-16: OpenAI launches OpenAI for
+Government and announces a DoD CDAO
+pilot}\label{appendix-c10-2025-06-16-openai-launches-openai-for-government-and-announces-a-dod-cdao-pilot}
+
+\textbf{Event summary:} OpenAI launches OpenAI for Government and
+announces a DoD CDAO pilot \textbf{Event date:} 2025-06-16
+\textbf{Source support:}
+\hyperref[appendix-a6-introducing-openai-for-government]{Appendix A6}
+\textbf{Corpus companion entry:} Event T-079 \textbf{Audit Event ID:}
+\texttt{event-openai-for-government-2025-06-16}
+
+\subsubsection{Appendix C11. 2026-05-31: BIS reaffirms license
+requirements for advanced computing items tied to D:5 and
+Macau\ldots{}}\label{appendix-c11-2026-05-31-bis-reaffirms-license-requirements-for-advanced-computing-items-tied-to-d-5-and-macau-entities}
+
+\textbf{Event summary:} BIS reaffirms license requirements for advanced
+computing items tied to D:5 and Macau entities \textbf{Event date:}
+2026-05-31 \textbf{Source support:}
+\hyperref[appendix-a2-guidance-regarding-enforcement-of-license-requirements-for-advanced-computing-items-for-entities-headquartered-in-country-group-d-5-and-macau]{Appendix
+A2} \textbf{Corpus companion entry:} Event T-092 \textbf{Audit Event
+ID:} \texttt{event-bis-advanced-computing-guidance-2026-05-31}
+
+\subsection{Appendix D. Relevant
+Entities}\label{appendix-d.-relevant-entities}
+
+\subsubsection{Appendix D1. Amazon Web
+Services}\label{appendix-d1-amazon-web-services}
+
+\textbf{Entity type:} cloud\_provider \textbf{Role in this paper:} Actor
+relevant to 07\_export\_controls\_compute\_defense\_access.
+\textbf{Relevant sources in this paper:}
+\hyperref[appendix-a3-amazon-and-anthropic-announce-strategic-collaboration-to-advance-generative-ai]{Appendix
+A3} \textbf{Corpus companion entry:} Entity E-009 \textbf{Audit Entity
+ID:} \texttt{org-aws}
+
+\subsubsection{Appendix D2. Amazon}\label{appendix-d2-amazon}
+
+\textbf{Entity type:} company \textbf{Role in this paper:} Actor
+relevant to 07\_export\_controls\_compute\_defense\_access.
+\textbf{Relevant sources in this paper:}
+\hyperref[appendix-a3-amazon-and-anthropic-announce-strategic-collaboration-to-advance-generative-ai]{Appendix
+A3} \textbf{Corpus companion entry:} Entity E-006 \textbf{Audit Entity
+ID:} \texttt{org-amazon}
+
+\subsubsection{Appendix D3. Anthropic}\label{appendix-d3-anthropic}
+
+\textbf{Entity type:} company \textbf{Role in this paper:} Actor
+relevant to 04\_data\_to\_models\_copyright\_weights,
+06\_ai\_double\_use\_reasoning\_deepseek,
+07\_export\_controls\_compute\_defense\_access,
+08\_power\_networks\_legitimacy\_capture and others. \textbf{Relevant
+sources in this paper:}
+\hyperref[appendix-a3-amazon-and-anthropic-announce-strategic-collaboration-to-advance-generative-ai]{Appendix
+A3},
+\hyperref[appendix-a7-claude-gov-models-for-u-s-national-security-customers]{Appendix
+A7},
+\hyperref[appendix-a8-anthropic-and-palantir-partner-to-bring-claude-ai-models-to-aws-for-u-s-government-intelligence-and-defense-operations]{Appendix
+A8} \textbf{Corpus companion entry:} Entity E-008 \textbf{Audit Entity
+ID:} \texttt{org-anthropic}
+
+\subsubsection{Appendix D4. DeepSeek}\label{appendix-d4-deepseek}
+
+\textbf{Entity type:} company \textbf{Role in this paper:} Actor
+relevant to 06\_ai\_double\_use\_reasoning\_deepseek,
+07\_export\_controls\_compute\_defense\_access. \textbf{Relevant sources
+in this paper:}
+\hyperref[appendix-a13-deepseek-r1-incentivizing-reasoning-capability-in-llms-via-reinforcement-learning]{Appendix
+A13} \textbf{Corpus companion entry:} Entity E-013 \textbf{Audit Entity
+ID:} \texttt{org-deepseek}
+
+\subsubsection{Appendix D5. Facebook /
+Meta}\label{appendix-d5-facebook-meta}
+
+\textbf{Entity type:} company \textbf{Role in this paper:} Actor
+relevant to 01\_surveillance\_capitalism,
+03\_covid\_acceleration\_and\_geopolitics,
+04\_data\_to\_models\_copyright\_weights,
+11\_facebook\_thiel\_intelligence\_adjacency and others.
+\textbf{Relevant sources in this paper:}
+\hyperref[appendix-a12-meta-platforms-inc-2022-definitive-proxy-statement]{Appendix
+A12} \textbf{Corpus companion entry:} Entity E-015 \textbf{Audit Entity
+ID:} \texttt{org-facebook}
+
+\subsubsection{Appendix D6. OpenAI}\label{appendix-d6-openai}
+
+\textbf{Entity type:} company \textbf{Role in this paper:} Actor
+relevant to 04\_data\_to\_models\_copyright\_weights,
+06\_ai\_double\_use\_reasoning\_deepseek,
+07\_export\_controls\_compute\_defense\_access,
+08\_power\_networks\_legitimacy\_capture and others. \textbf{Relevant
+sources in this paper:}
+\hyperref[appendix-a5-openais-proposals-for-the-us-ai-action-plan]{Appendix
+A5}, \hyperref[appendix-a6-introducing-openai-for-government]{Appendix
+A6} \textbf{Corpus companion entry:} Entity E-027 \textbf{Audit Entity
+ID:} \texttt{org-openai}
+
+\subsubsection{Appendix D7. Palantir
+Technologies}\label{appendix-d7-palantir-technologies}
+
+\textbf{Entity type:} company \textbf{Role in this paper:} Actor
+relevant to 07\_export\_controls\_compute\_defense\_access,
+08\_power\_networks\_legitimacy\_capture,
+11\_facebook\_thiel\_intelligence\_adjacency. \textbf{Relevant sources
+in this paper:} \hyperref[appendix-a11-gotham]{Appendix A11},
+\hyperref[appendix-a8-anthropic-and-palantir-partner-to-bring-claude-ai-models-to-aws-for-u-s-government-intelligence-and-defense-operations]{Appendix
+A8},
+\hyperref[appendix-a9-army-launches-detachment-201-executive-innovation-corps-to-drive-tech-transformation]{Appendix
+A9} \textbf{Corpus companion entry:} Entity E-029 \textbf{Audit Entity
+ID:} \texttt{org-palantir}
+
+\subsubsection{Appendix D8. Bureau of Industry and
+Security}\label{appendix-d8-bureau-of-industry-and-security}
+
+\textbf{Entity type:} government \textbf{Role in this paper:} Actor
+relevant to 07\_export\_controls\_compute\_defense\_access.
+\textbf{Relevant sources in this paper:}
+\hyperref[appendix-a2-guidance-regarding-enforcement-of-license-requirements-for-advanced-computing-items-for-entities-headquartered-in-country-group-d-5-and-macau]{Appendix
+A2} \textbf{Corpus companion entry:} Entity E-010 \textbf{Audit Entity
+ID:} \texttt{org-bis}
+
+\subsubsection{Appendix D9. The White House / OSTP
+process}\label{appendix-d9-the-white-house-ostp-process}
+
+\textbf{Entity type:} government \textbf{Role in this paper:} Actor
+relevant to 07\_export\_controls\_compute\_defense\_access,
+08\_power\_networks\_legitimacy\_capture. \textbf{Relevant sources in
+this paper:}
+\hyperref[appendix-a1-removing-barriers-to-american-leadership-in-artificial-intelligence]{Appendix
+A1},
+\hyperref[appendix-a4-request-for-information-on-the-development-of-an-artificial-intelligence-ai-action-plan]{Appendix
+A4} \textbf{Corpus companion entry:} Entity E-039 \textbf{Audit Entity
+ID:} \texttt{org-white-house}
+
+\subsubsection{Appendix D10. U.S. Department of Defense Chief Digital
+and Artificial Intelligence
+Office}\label{appendix-d10-u-s-department-of-defense-chief-digital-and-artificial-intelligence-office}
+
+\textbf{Entity type:} government \textbf{Role in this paper:} Actor
+relevant to 07\_export\_controls\_compute\_defense\_access,
+08\_power\_networks\_legitimacy\_capture. \textbf{Relevant sources in
+this paper:}
+\hyperref[appendix-a6-introducing-openai-for-government]{Appendix A6}
+\textbf{Corpus companion entry:} Entity E-014 \textbf{Audit Entity ID:}
+\texttt{org-dod-cdao}
+
+\subsubsection{Appendix D11. United States
+Army}\label{appendix-d11-united-states-army}
+
+\textbf{Entity type:} government \textbf{Role in this paper:} Actor
+relevant to 07\_export\_controls\_compute\_defense\_access,
+08\_power\_networks\_legitimacy\_capture. \textbf{Relevant sources in
+this paper:}
+\hyperref[appendix-a9-army-launches-detachment-201-executive-innovation-corps-to-drive-tech-transformation]{Appendix
+A9} \textbf{Corpus companion entry:} Entity E-035 \textbf{Audit Entity
+ID:} \texttt{org-us-army}
+
+\subsubsection{Appendix D12. Central Intelligence
+Agency}\label{appendix-d12-central-intelligence-agency}
+
+\textbf{Entity type:} government\_agency \textbf{Role in this paper:}
+Actor relevant to 11\_facebook\_thiel\_intelligence\_adjacency.
+\textbf{Relevant sources in this paper:}
+\hyperref[appendix-a10-in-q-tel]{Appendix A10} \textbf{Corpus companion
+entry:} Entity E-012 \textbf{Audit Entity ID:} \texttt{org-cia}
+
+\subsubsection{Appendix D13. In-Q-Tel}\label{appendix-d13-in-q-tel}
+
+\textbf{Entity type:} organization \textbf{Role in this paper:} Actor
+relevant to 01\_surveillance\_capitalism,
+08\_power\_networks\_legitimacy\_capture,
+11\_facebook\_thiel\_intelligence\_adjacency. \textbf{Relevant sources
+in this paper:} \hyperref[appendix-a10-in-q-tel]{Appendix A10}
+\textbf{Corpus companion entry:} Entity E-022 \textbf{Audit Entity ID:}
+\texttt{org-iqt}
+
+\subsubsection{Appendix D14. Peter
+Thiel}\label{appendix-d14-peter-thiel}
+
+\textbf{Entity type:} person \textbf{Role in this paper:} Actor relevant
+to 01\_surveillance\_capitalism,
+08\_power\_networks\_legitimacy\_capture, 09\_future\_if\_unchecked,
+11\_facebook\_thiel\_intelligence\_adjacency. \textbf{Relevant sources
+in this paper:}
+\hyperref[appendix-a12-meta-platforms-inc-2022-definitive-proxy-statement]{Appendix
+A12} \textbf{Corpus companion entry:} Entity E-058 \textbf{Audit Entity
+ID:} \texttt{person-peter-thiel}
+
+\subsubsection{Appendix D15. Sam Altman}\label{appendix-d15-sam-altman}
+
+\textbf{Entity type:} person \textbf{Role in this paper:} Actor relevant
+to 07\_export\_controls\_compute\_defense\_access,
+08\_power\_networks\_legitimacy\_capture, 09\_future\_if\_unchecked,
+10\_counterstrategy\_response\_agenda and others. \textbf{Relevant
+sources in this paper:}
+\hyperref[appendix-a5-openais-proposals-for-the-us-ai-action-plan]{Appendix
+A5} \textbf{Corpus companion entry:} Entity E-059 \textbf{Audit Entity
+ID:} \texttt{person-sam-altman}
+
+\subsection{Appendix E. Evidence
+Boundaries}\label{appendix-e.-evidence-boundaries}
+
+\subsubsection{Appendix E1. Disputed
+Matters}\label{appendix-e1-disputed-matters}
+
+\begin{itemize}
+\tightlist
+\item
+  None registered for this paper.
+\end{itemize}
+
+\subsubsection{Appendix E2. Interpretive
+Boundaries}\label{appendix-e2-interpretive-boundaries}
+
+\begin{itemize}
+\tightlist
+\item
+  \hyperref[appendix-b53-current-official-records-show-frontier-labs-and-adjacent-platform-firms-building]{Appendix
+  B53}: That current official records show frontier labs and adjacent
+  platform firms building formal government-facing channels through
+  secure offerings, classified-environment access, accredited cloud
+  stacks, and even military personnel embedding rather than engaging the
+  state only through lobbying or abstract policy rhetoric.
+\item
+  \hyperref[appendix-b54-firms-benefiting-from-export-control-protection-strategic-state-access-or-privi]{Appendix
+  B54}: That firms benefiting from export-control protection, strategic
+  state access, or privileged public coordination should face stronger
+  transparency and public-obligation duties than ordinary software
+  vendors.
+\item
+  \hyperref[appendix-b55-the-facebook-thiel-palantir-in-q-tel-record-supports-a-bounded-argument-about-net]{Appendix
+  B55}: That the Facebook-Thiel-Palantir-In-Q-Tel record supports a
+  bounded argument about networked governance continuity between
+  surveillance platforms, venture capital, and security-state technology
+  ecosystems.
+\item
+  \hyperref[appendix-b56-the-strongest-reading-of-the-facebook-thiel-palantir-in-q-tel-record-is-a-structu]{Appendix
+  B56}: That the strongest reading of the
+  Facebook-Thiel-Palantir-In-Q-Tel record is a structured adjacency
+  model built through board power, venture sponsorship, and government
+  contracting rather than evidence of covert command.
+\end{itemize}
+
+\subsubsection{Appendix E3. Speculative Narrative
+Risks}\label{appendix-e3-speculative-narrative-risks}
+
+\begin{itemize}
+\tightlist
+\item
+  \hyperref[appendix-b57-open-reasoning-papers-or-public-model-releases-eliminate-the-politics-of-compute]{Appendix
+  B57}: That open reasoning papers or public model releases eliminate
+  the politics of compute concentration, distribution control, or
+  institutional gatekeeping around frontier AI.
+\item
+  \hyperref[appendix-b58-export-controls-hyperscaler-dependence-and-defense-adjacency-prove-total-state]{Appendix
+  B58}: That export controls, hyperscaler dependence, and defense
+  adjacency prove total state ownership or seamless command over every
+  frontier-model training, deployment, or access pathway.
+\end{itemize}
+
+\subsubsection{Appendix E4. Sensitive or Review-Worthy Note
+Flags}\label{appendix-e4-sensitive-or-review-worthy-note-flags}
+
+\begin{itemize}
+\tightlist
+\item
+  \hyperref[appendix-a13-deepseek-r1-incentivizing-reasoning-capability-in-llms-via-reinforcement-learning]{Appendix
+  A13}. Companion note: Note N-057. Risk flag: medium. Note focus: That
+  by January 2025 a non-U.S. lab was publicly claiming frontier-adjacent
+  reasoning performance in a primary technical paper.
+\item
+  \hyperref[appendix-a3-amazon-and-anthropic-announce-strategic-collaboration-to-advance-generative-ai]{Appendix
+  A3}. Companion note: Note N-067. Risk flag: low. Note focus: That at
+  least one major frontier lab publicly committed the majority of its
+  workloads and future model development to a hyperscaler cloud
+  provider.
+\item
+  \hyperref[appendix-a7-claude-gov-models-for-u-s-national-security-customers]{Appendix
+  A7}. Companion note: Note N-068. Risk flag: low. Note focus: That by
+  June 6, 2025 Anthropic had publicly launched a government-specific
+  model line for U.S. national security customers.
+\item
+  \hyperref[appendix-a9-army-launches-detachment-201-executive-innovation-corps-to-drive-tech-transformation]{Appendix
+  A9}. Companion note: Note N-069. Risk flag: low. Note focus: That by
+  June 13, 2025 the U.S. Army had created a formal structure to embed
+  senior commercial-tech executives in a military innovation role.
+\item
+  \hyperref[appendix-a2-guidance-regarding-enforcement-of-license-requirements-for-advanced-computing-items-for-entities-headquartered-in-country-group-d-5-and-macau]{Appendix
+  A2}. Companion note: Note N-070. Risk flag: low. Note focus: That
+  there is a primary U.S. government record directly describing
+  continued license requirements for advanced computing exports linked
+  to Country Group D:5 and Macau.
+\item
+  \hyperref[appendix-a4-request-for-information-on-the-development-of-an-artificial-intelligence-ai-action-plan]{Appendix
+  A4}. Companion note: Note N-071. Risk flag: low. Note focus: That the
+  language of AI dominance did not remain only in a political order, but
+  moved into an official federal consultation process.
+\item
+  \hyperref[appendix-a6-introducing-openai-for-government]{Appendix A6}.
+  Companion note: Note N-072. Risk flag: low. Note focus: That by June
+  16, 2025 OpenAI had formally reorganized and expanded its U.S.
+  public-sector work under an \texttt{OpenAI\ for\ Government}
+  initiative rather than treating government use as incidental.
+\item
+  \hyperref[appendix-a5-openais-proposals-for-the-us-ai-action-plan]{Appendix
+  A5}. Companion note: Note N-073. Risk flag: medium. Note focus: That
+  OpenAI officially defended a public-policy agenda combining global
+  commercial expansion, export controls, and preservation of access to
+  copyrighted material for training.
+\item
+  \hyperref[appendix-a8-anthropic-and-palantir-partner-to-bring-claude-ai-models-to-aws-for-u-s-government-intelligence-and-defense-operations]{Appendix
+  A8}. Companion note: Note N-074. Risk flag: low. Note focus: That by
+  November 7, 2024 Anthropic model access for U.S. intelligence and
+  defense agencies was being publicly distributed through a
+  Palantir-plus-AWS stack.
+\item
+  \hyperref[appendix-a1-removing-barriers-to-american-leadership-in-artificial-intelligence]{Appendix
+  A1}. Companion note: Note N-076. Risk flag: low. Note focus: That
+  competition over AI was officially framed by the U.S. government in
+  terms of global dominance, economic competitiveness, and national
+  security.
+\item
+  \hyperref[appendix-a4-request-for-information-on-the-development-of-an-artificial-intelligence-ai-action-plan]{Appendix
+  A4}. Companion note: Note N-086. Risk flag: low. Note focus: That the
+  state created an official consultation pathway for shaping the 2025 AI
+  doctrine.
+\item
+  \hyperref[appendix-a10-in-q-tel]{Appendix A10}. Companion note: Note
+  N-088. Risk flag: medium. Note focus: That there is a formal
+  institutional channel connecting strategic technology development with
+  intelligence and defense needs.
+\item
+  \hyperref[appendix-a5-openais-proposals-for-the-us-ai-action-plan]{Appendix
+  A5}. Companion note: Note N-093. Risk flag: medium. Note focus: That
+  OpenAI presents itself as a policy actor seeking to co-design national
+  AI strategy.
+\item
+  \hyperref[appendix-a1-removing-barriers-to-american-leadership-in-artificial-intelligence]{Appendix
+  A1}. Companion note: Note N-096. Risk flag: low. Note focus: That AI
+  dominance was elevated to explicit state doctrine in 2025.
+\item
+  \hyperref[appendix-a10-in-q-tel]{Appendix A10}. Companion note: Note
+  N-113. Risk flag: medium. Note focus: That there is an organization
+  officially dedicated to connecting technological innovation with
+  intelligence, defense, and national-security needs.
+\item
+  \hyperref[appendix-a12-meta-platforms-inc-2022-definitive-proxy-statement]{Appendix
+  A12}. Companion note: Note N-114. Risk flag: medium. Note focus: That
+  Peter Thiel's formal role at Facebook / Meta lasted well beyond the
+  early startup period and remained active into 2022.
+\item
+  \hyperref[appendix-a11-gotham]{Appendix A11}. Companion note: Note
+  N-116. Risk flag: medium. Note focus: That Palantir openly markets
+  Gotham to defense agencies and the intelligence community.
+\end{itemize}
+
+\end{document}

@@ -1,0 +1,12 @@
+Source: OpenAI, "OpenAI o1 System Card"
+URL: https://openai.com/index/openai-o1-system-card/
+Published / updated: 2024-12-05
+Captured: 2026-07-03T00:10:00Z
+Capture mode: manual-web-excerpt
+
+Verified excerpt points from Codex web capture:
+- Page label: Updated: December 5, 2024.
+- OpenAI says the o1 model series is trained with large-scale reinforcement learning to reason using chain-of-thought.
+- The card says o1 and o1-mini were trained on a mix of publicly available data, proprietary data accessed through partnerships, and custom datasets developed in-house.
+- It says only models with a post-mitigation score of medium or below can be deployed.
+- The card frames the family as a shift from fast, intuitive thinking toward slower, more deliberate reasoning.

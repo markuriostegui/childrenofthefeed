@@ -1,0 +1,11 @@
+{
+  "source_id": "axios-anthropic-openai-lobbying-quarter-2026",
+  "vector_id": "08_power_networks_legitimacy_capture",
+  "url": "https://www.axios.com/2026/04/21/anthropic-outspends-openai-biggest-lobbying-quarter",
+  "captured_at": "2026-07-03T01:10:00Z",
+  "mode": "manual-web-excerpt",
+  "paths": [
+    "/Users/hassan/repos/AI-Empire/vectors/08_power_networks_legitimacy_capture/raw/axios-anthropic-openai-lobbying-quarter-2026.txt"
+  ],
+  "notes": "Built from verified Axios excerpts captured inside Codex."
+}

@@ -1,0 +1,10 @@
+{
+  "source_id": "bartz-anthropic-fair-use-order-2025",
+  "vector_id": "04_data_to_models_copyright_weights",
+  "captured_at": "2026-07-02T18:10:20Z",
+  "mode": "ingest-pdf",
+  "paths": [
+    "/Users/hassan/repos/AI-Empire/vectors/04_data_to_models_copyright_weights/raw/bartz-anthropic-fair-use-order-2025.pdf",
+    "/Users/hassan/repos/AI-Empire/vectors/04_data_to_models_copyright_weights/raw/bartz-anthropic-fair-use-order-2025.txt"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "source_id": "radford-gpt2-webtext-2019",
+  "vector_id": "04_data_to_models_copyright_weights",
+  "captured_at": "2026-07-02T23:41:04Z",
+  "mode": "ingest-pdf",
+  "paths": [
+    "/Users/hassan/repos/AI-Empire/vectors/04_data_to_models_copyright_weights/raw/radford-gpt2-webtext-2019.pdf",
+    "/Users/hassan/repos/AI-Empire/vectors/04_data_to_models_copyright_weights/raw/radford-gpt2-webtext-2019.txt"
+  ]
+}

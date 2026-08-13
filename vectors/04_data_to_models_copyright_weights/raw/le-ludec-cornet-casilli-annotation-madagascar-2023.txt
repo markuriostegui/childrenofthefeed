@@ -1,0 +1,1632 @@
+The problem with annotation. Human labour and outsourcing between France 
+and Madagascar - Clément Le Ludec, Maxime Cornet, Antonio A Casilli, 2023
+try {
+            document.documentElement.classList.add('js');
+        } catch (e) {
+        }
+var eventName = "page_data_loaded";
+    var dataLayer = dataLayer ||[];
+    if (!dataLayer.some(item => item.event === eventName)) {
+        dataLayer.push({"event":"page_data_loaded","article":{"article_doi":"10.1177/20539517231188723","article_name":"The problem with annotation. Human labour and outsourcing between France \nand Madagascar"},"journal":{"journal_code":"BDS","journal_name":"Big Data &amp;amp; Society","category":[],"subCategory":[],"journal_eissn_pissn":"2053-9517;2053-9517","issue_vol_no_date":"10;2;2023-Jul-1"},"site":{"site_type_platform":"live,responsive-web","product_type":"article","page_type":"full-text","ad_blocker":"False"},"Marketing":{"internal_campaign_id":""},"user":{"user_id":5046262339,"user_type":[],"login_status":false,"authentication_status":false,"authentication_type":"[]","user_institution":[]}});
+    }
+
+    window.onload = function() {
+        if (window.jQuery) {
+            let adBlockerTracker = {
+                adBlockerPresent: true,
+                reason: '',
+                dataLayer: null,
+                run: function() {
+                    this.dataLayer = window.dataLayer || [];
+                    if (document.getElementById('no-ad-blocker-present')) {
+                        if ($('#ad-blocker-test-image').is(':visible')) {
+                            this.adBlockerPresent = false;
+                        }
+                        else {
+                            this.reason = '(image block)';
+                        }
+                    }
+                    else {
+                        this.reason = '(script block)';
+                    }
+                    console.log('Blocking Ads: ' + (this.adBlockerPresent ? 'Yes ' : 'No ') + this.reason);
+                    let index = this.dataLayer.findIndex(item => item.site);
+                    if (index !== -1) {
+                        dataLayer[index].site.ad_blocker = this.adBlockerPresent
+                    }
+                    window.dataLayer = this.dataLayer;
+                }
+            }
+            adBlockerTracker.run();
+        }
+    }
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5M58KS');
+function OptanonWrapper() {
+        }
+//if ($('meta[property="og:image"]').length===0)
+//	$('meta[property="fallback:image"]').attr('property','og:image');
+// Remove HTML tag-items from the page tile
+//document.title=document.title.replace(/<\/?[^>]+(>|$)/g, "");
+function CM8ShowAd(ph) {} // fallback function "masking" CM8
+function htmlDecode(input) {
+  var doc = new DOMParser().parseFromString(input, "text/html");
+  return doc.documentElement.textContent;
+}
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+var dfpSlotsReady=false;
+var globalAdParams={
+portal: {
+	name: 'Portal',
+	slot: 'portal_site.home',
+	code: '1530873931903'
+},
+search: {
+	name: 'Search',
+	slot: 'portal_site.search',
+	code: '1530874010820'
+},
+browse: {
+	name: 'Browse',
+	slot: 'portal_site.browse',
+	code: '1530874064610'
+}
+};
+var	hasSerialContentConfig = '{publisher_id&#x3D;sage-publications, article_influence_score&#x3D;, continuous_publication_type&#x3D;cp, alpha_code&#x3D;BDS, social_media_icons_facebook_url&#x3D;www.facebook.com/SagePublications, society_logo_yn&#x3D;false, acceptance_ratio&#x3D;0.158289, article_pin&#x3D;3.000053805E9, ad_service_param3&#x3D;, social_media_icons_linkedin_url&#x3D;www.linkedin.com/company/big-data-society-sage-journals, discipline&#x3D;Social Theory, perpetual_access_site_yn&#x3D;{final-issue-wording&#x3D;, content&#x3D;false}, ad_service_param2&#x3D;1.527462772633E12, ad_service_param1&#x3D;social_science_humanities//sociology, jcis&#x3D;{jci&#x3D;[{heading&#x3D;Journal Citation Indicator, content&#x3D;2.61}, {heading&#x3D;Ranking, content&#x3D;Social Sciences, Interdisciplinary 5 out of 276}, {heading&#x3D;Source, content&#x3D;The Journal Citation Indicator (JCI) is a measure of citation impact that is normalized by subject category. It is calculated using citations from items published in the JCI year and prior three years, to items published in the prior three years. Because of the category normalization, a score of 1 means that articles in a journal received a number of citations equal to the average citation count in that subject category.}]}, twitter&#x3D;{consumer_key&#x3D;fUppY6pfAuuXqURYhbJm6kO8L, OAuth_Token&#x3D;, consumer_secret&#x3D;, OAuth_Token_secret&#x3D;, has_twitter_widget_yn&#x3D;true, twitter_id&#x3D;BigDataSoc}, open_access_yn&#x3D;true, print_issn&#x3D;2053-9517, journal_doi&#x3D;10.1177/bds.2053-9517, abstracting_indexing_services&#x3D;{service_name&#x3D;[Google Scholar: h-5 index - 11, h-5 median - 13, Directory of Open Access Journals (DOAJ), Scopus, Clarivate Analytics: Social Sciences Citation Index (SSCI)]}, copyright_holder&#x3D;SAGE Publications Ltd, unless otherwise noted. Manuscript content on this site is licensed under Creative Commons Licenses., immediacy_index&#x3D;, citing_half_life&#x3D;, issue_pin&#x3D;3.000055015E9, ad_service_name&#x3D;DFP, time_acceptance_to_online_first_pub&#x3D;33.0, impact_factor&#x3D;[{heading&#x3D;Impact Factor, content&#x3D;7.8}, {heading&#x3D;Ranking, content&#x3D;Social Sciences, Interdisciplinary 4 out of 275}, {heading&#x3D;5-Year Impact Factor, content&#x3D;10.0}, {heading&#x3D;5-Year Ranking, content&#x3D;Social Sciences, Interdisciplinary 3 out of 275}, {heading&#x3D;Source, content&#x3D;Journal Citation Reports from Clarivate, 2026}], cited_half_life&#x3D;, us_code&#x3D;L190, ranks&#x3D;{rank&#x3D;[{subject&#x3D;Communication, out_of&#x3D;541.0, rank&#x3D;22.0, type&#x3D;CiteScore}, {subject&#x3D;Computer Science Applications, out_of&#x3D;1022.0, rank&#x3D;151.0, type&#x3D;CiteScore}, {subject&#x3D;Library and Information Sciences, out_of&#x3D;296.0, rank&#x3D;27.0, type&#x3D;CiteScore}, {subject&#x3D;Information Systems and Management, out_of&#x3D;222.0, rank&#x3D;28.0, type&#x3D;CiteScore}, {subject&#x3D;Information Systems, out_of&#x3D;519.0, rank&#x3D;80.0, type&#x3D;CiteScore}, {subject&#x3D;Communication, out_of&#x3D;541.0, rank&#x3D;20.0, type&#x3D;SCImago Journal Rank (SJR)}, {subject&#x3D;Computer Science Applications, out_of&#x3D;1022.0, rank&#x3D;55.0, type&#x3D;SCImago Journal Rank (SJR)}, {subject&#x3D;Library and Information Sciences, out_of&#x3D;296.0, rank&#x3D;7.0, type&#x3D;SCImago Journal Rank (SJR)}, {subject&#x3D;Information Systems and Management, out_of&#x3D;222.0, rank&#x3D;14.0, type&#x3D;SCImago Journal Rank (SJR)}, {subject&#x3D;Information Systems, out_of&#x3D;519.0, rank&#x3D;27.0, type&#x3D;SCImago Journal Rank (SJR)}]}, cope_member_yn&#x3D;true, redirect_url_2&#x3D;, redirect_url_1&#x3D;, website_id&#x3D;sage, eigenfactor&#x3D;, extended_footer_yn&#x3D;false, logo_yn&#x3D;false, society_name&#x3D;, time_from_submission_to_acceptance&#x3D;306.0, manuscript_history_dates&#x3D;false, scores&#x3D;{score&#x3D;[{type&#x3D;CiteScore, content&#x3D;9.700}, {type&#x3D;SCImago Journal Rank (SJR), content&#x3D;2.026}]}, top_level_subject_name&#x3D;Social Sciences &amp; Humanities, dora_signatory_yn&#x3D;false, time_to_first_decision&#x3D;5.0, is_continuous_publication_yn&#x3D;true, social_media_icons_youtube_url&#x3D;www.youtube.com/user/sagepublications, full_text_downloads&#x3D;, submission_site&#x3D;https://mc.manuscriptcentral.com/BDAS, use_altmetric&#x3D;true, video_journal_yn&#x3D;false, society_url&#x3D;, journal_title&#x3D;Big Data &amp; Society, track_npi_yn&#x3D;false, ccc_links_in_content_yn&#x3D;true, journal_subtitle&#x3D;, menu&#x3D;[{menu_title&#x3D;Journal Homepage, menu_url&#x3D;/home/BDS}, {menu_title&#x3D;Browse journal, menu_url&#x3D;, menu_item&#x3D;[{title&#x3D;All articles, content&#x3D;/articles/BDS}, {title&#x3D;OnlineFirst, content&#x3D;/toc/BDS/0/0}, {title&#x3D;Browse by year, content&#x3D;/loi/BDS}, {title&#x3D;Accepted manuscripts, content&#x3D;/toc/BDS/0/ja}, {title&#x3D;Special issues index, content&#x3D;/page/bds/collections/index}]}, {menu_title&#x3D;Journal information, menu_url&#x3D;, menu_item&#x3D;[{title&#x3D;Journal overview and metrics, content&#x3D;/overview-metric/BDS}, {title&#x3D;Editorial board, content&#x3D;/editorial-board/BDS}, {title&#x3D;Submission guidelines, content&#x3D;/author-instructions/BDS}, {title&#x3D;Reprints, content&#x3D;https://advertising.sagepub.com/reprints/}, {title&#x3D;Journal permissions, content&#x3D;https://sagepub.com/journals-permissions}, {title&#x3D;Recommend to library, content&#x3D;http://sagepub.checkboxonline.com/Survey.aspx?s&#x3D;bd96efb628c54feaa7f2ab060f4165cb&amp;forcenew&#x3D;true&amp;link&#x3D;1dcfLqr&amp;cc&#x3D;sj&amp;formtype&#x3D;librec&amp;from&#x3D;TO&amp;contact&#x3D;bit.ly/lib_us&amp;product&#x3D;&#x27;Big%20Data%20&amp;%20Society&#x27;}, {title&#x3D;Advertising and promotion, content&#x3D;/global_master_rate_card}]}, {menu_title&#x3D;Stay Connected, menu_url&#x3D;, menu_item&#x3D;[{title&#x3D;Email Alerts, content&#x3D;/connected/BDS#email-alert}, {title&#x3D;RSS Feed, content&#x3D;/connected/BDS#rss}, {title&#x3D;Feedback / Contact SAGE, content&#x3D;/connected/BDS#feedback}]}, {menu_title&#x3D;Submission Guidelines, menu_url&#x3D;/author-instructions/BDS, target&#x3D;_blank}], total_citations&#x3D;, snip&#x3D;, electronic_issn&#x3D;2053-9517, is_sage_open&#x3D;true, time_in_peer_review&#x3D;121.0}'!=='{}';
+var journalAdParams = hasSerialContentConfig ? {
+	serviceName: 'DFP',
+	dfp_slot: 'social_science_humanities//sociology',
+	ad_targeting: decodeURIComponent('').split(', ['),
+	subject: htmlDecode('Social Sciences &amp; Humanities'),
+	alpha_code: 'BDS',
+	alt_code: 'bds',
+	j_code:'bdsa',
+	doi: '10.1177/20539517231188723',
+	society: ''
+} : {
+	serviceName: 'DFP',
+	dfp_slot: 'social_science_humanities//sociology',
+	ad_targeting: decodeURIComponent('').split(', ['),
+	subject: htmlDecode('Social Sciences &amp; Humanities'),
+	alpha_code: 'BDS',
+	alt_code: 'bds',
+	j_code:'bdsa',
+	doi: '10.1177/20539517231188723',
+	society: ''
+}
+var userParams={
+	object: '',
+	lastName: '',
+	firstName: '',
+	title: ''
+};
+var insticatorAdsEnabled=false;
+var docereeEnabled=false;
+var hcpContext;
+
+//if (journalAdParams.subject.indexOf('Life & Biomedical Sciences')!=-1)
+{
+	let head = document.getElementsByTagName('head')[0];
+	let js = document.createElement('script');
+	js.src = 'https://cdn.pbgrd.com/core-sage.js';
+	if (head!=null) head.appendChild(js);
+}
+document.addEventListener("DOMContentLoaded", (event) => {
+	let infoBannerId=document.getElementById('rich-text-39056285-933b-4c4c-87e8-29bdbecb5f90');
+	if (infoBannerId) 
+	{
+		document.body.classList.add('has-info-banner');
+		addEventListener("scroll", (event) => { 
+			if (window.scrollY>50) document.body.classList.remove('has-info-banner'); 
+			else document.body.classList.add('has-info-banner');
+		});
+	}
+
+	if (inJournalScope())
+		initJournalDfp();
+	else if (inMicrositeScope()) 
+		initMicrositeDfp();
+	else 
+		initGlobalDfp();
+});
+var SeamlessAccessService = {
+            spUrl: "/action/ssostart",
+            
+
+
+    
+        returnURL: "/doi/10.1177/20539517231188723",
+    
+    
+
+
+            my_context: 'seamlessaccess.org',
+            timeout: 5000,
+            _persistenceService: null,
+            _getPersistenceService: function () {
+                if (!this._persistenceService) {
+                    this._persistenceService = new thiss.PersistenceService('https://service.seamlessaccess.org/ps/');
+                }
+                return this._persistenceService;
+            },
+
+            getWAYFLessUrl: function (entityId) {
+                return this.spUrl + "?idp=" + encodeURIComponent(entityId)
+                    + "&redirectUri=" + encodeURIComponent(this.returnURL);
+            },
+            retrieveEntity: function (ms) {
+                var self = this;
+                var persistService = this._getPersistenceService();
+
+                if (ms == undefined || ms === '') {
+                    ms = this.timeout;
+                }
+
+                return new Promise(function (resolve, reject) {
+                    persistService.entities(self.my_context)
+                        .then(function (res) {
+                            return resolve(res.data);
+                        }, function (err) {
+                            // failed
+                            reject('failed to retrieve entity from local storage: ' + err);
+                        });
+                    // Set up the timeout
+                    setTimeout(function () {
+                        reject('Promise timed out ' + ms + ' ms');
+                    }, ms);
+                });
+            },
+            updateEntity: function (entitydata) {
+                var self = this;
+                var persistService = this._getPersistenceService();
+
+                var jsonObj = {};
+                try {
+                    //try to parse it, if it is a json string
+                    jsonObj = JSON.parse(entitydata.val());
+                } catch (e) {
+                    jsonObj = entitydata;
+                }
+                return new Promise(function (resolve, reject) {
+                    persistService.update(self.my_context, jsonObj)
+                        .then(function (res) {
+                            // Process the results
+                            var ssoInstitutions = res.data;
+                            return resolve(ssoInstitutions);
+                        }, function (err) {
+                            // failed
+                            console.log('failed to update the local storage due to: ' + err);
+                            reject(err);
+                        });
+                })
+            },
+            removeEntity: function (entityId) {
+                var self = this;
+                var persistService = this._getPersistenceService();
+
+                return new Promise(function (resolve) {
+                    persistService.remove(self.my_context, entityId)
+                        .then(function (res) {
+                            return resolve(res);
+                        }, function (err) {
+                            // failed
+                            console.log('failed to remove from local storage duo to: ' + err);
+                        });
+                })
+            },
+            getAccessibleEntityStatus: function (doi, entityId, entityTitle) {
+                return new Promise(function (resolve, reject) {
+                    $.ajax({
+                        type: 'POST',
+                        url: '/action/seamlessAccess',
+                        accept: {
+                            text: "application/json"
+                        },
+                        data: {
+                            doi: doi,
+                            entityid: entityId,
+                            entityTitle: entityTitle,
+                            eventGroupKey: '4c145933-440d-4f0b-8ff4-685f11e25967'
+                        }
+
+                    }).done(function (status) {
+                        return resolve(status);
+                    }).fail(function (status) {
+                        return reject(status);
+                    });
+                });
+            },
+            getEntitiesWithAllInfo: function (doi) {
+                let self = this,
+                    arrayOfPromises = [];
+                return new Promise(function (resolve, reject) {
+                    self.retrieveEntity().then(function (res) {
+                        let allSsoInstitutions = res;
+                        for (i = 0; i < allSsoInstitutions.length; i++) {
+                            let ssoInstitution = allSsoInstitutions[i];
+                            arrayOfPromises.push(new Promise(function (resolve) {
+                                self.getAccessibleEntityStatus(doi, ssoInstitution.entity.entityID, ssoInstitution.entity.title)
+                                    .then(function (entityStatus) {
+                                        resolve({
+                                            entityID: ssoInstitution.entity.entityID,
+                                            entityTitle: ssoInstitution.entity.title,
+                                            entityStatusObj: entityStatus,
+                                            entitySsoUrl: self.getWAYFLessUrl(ssoInstitution.entity.entityID)
+                                        });
+                                    }, function (err) {
+                                        console.log('failed to get the entity status: ' + ssoInstitution.entity.entityID,err);
+                                    });
+                            }));
+                        }
+                        if(allSsoInstitutions.length === 0 && false){
+                            self.getAccessibleEntityStatus(doi, null, null)
+                                .then(function () {
+                                    console.log('No Entity found');
+                                }, function (err) {
+                                    console.log('failed to get the none entity status' ,err);
+                                });
+                        }
+                        Promise.all(arrayOfPromises)
+                            .then(function (finalResponse) {
+                                resolve(finalResponse);
+                            }).catch(function (err) {
+                                reject(err);
+                            });
+
+                    }).catch(function (err) {
+                        reject(err);
+                    })
+                });
+            }
+        };
+
+        window.addEventListener('load', function () {
+            document.querySelectorAll(".sso-institution").forEach(function (institution) {
+                var entityId = institution.getAttribute('data-entityid');
+                var entityName = institution.getAttribute('data-name');
+                var entitydata = {
+                    entityID: entityId,
+                    title: entityName
+                };
+                institution.addEventListener("click", function (e) {
+                    e.preventDefault();
+
+                    if ($('.institution-preference-userconsent-checkbox').length > 0) {
+                        let institutionPreferenceUserConsentCheckbox = $('.institution-preference-userconsent-checkbox').get(0);
+                        if (!$(institutionPreferenceUserConsentCheckbox).is(":checked")) {
+                            return;
+                        }
+                    }
+
+                    var self = this;
+                    SeamlessAccessService.updateEntity(entitydata).then(function (res) {
+                        console.log(res);
+                        window.location.href = self.href;
+                    }).catch(function (err) {
+                        window.location.href = self.href;
+                    });
+                });
+            });
+        });
+Skip to main content
+.more-sage-products .sageknowledge .product-name::after {background-color: #001A69}
+#healthcare-banner {
+	  font-size: 14px;
+	  color:#333333;
+	  padding: 4px 0px;
+	  background-color:#D9EDF7;
+	  border: 1px solid #BCE8F1;
+	  text-align: center
+	}
+	#healthcare-banner span:focus, #healthcare-banner span:active, #healthcare-banner span:hover{
+		box-shadow:none;
+		font-weight:600
+	}
+	.top-info-banner-container{
+		position: relative;
+		z-index:1010		
+	}
+[{id=145852, label=ICD, uri=icd}, {id=145700, label=Other and unspecified diseases of blood and blood-forming organs, uri=d70-d77_d75}, {id=147747, label=Other bacterial diseases (A30-A49), uri=a30-a49}, {id=146006, label=Other bacterial diseases, not elsewhere classified, uri=a30-a49_a48}, {id=145843, label=Other diseases caused by chlamydiae, uri=a70-a74_a74}, {id=146941, label=Other diseases caused by chlamydiae (A70-A74), uri=a70-a74}, {id=147629, label=Other diseases of the respiratory system (J96-J99), uri=j96-j99}, {id=147226, label=Other disorders of blood and blood-forming organs (D70-D77), uri=d70-d77}, {id=145722, label=Other specified diseases with participation of lymphoreticular and reticulohistiocytic tissue, uri=d70-d77_d76}]
+icd,
+d70-d77_d75,
+a30-a49,
+a30-a49_a48,
+a70-a74_a74,
+a70-a74,
+j96-j99,
+d70-d77,
+d70-d77_d76,
+Intended for healthcare professionals
+showDfpAd(0, 1024)
+if (journalAdParams.dfp_slot.toLowerCase().indexOf('health_sciences')!==-1) // journalAdParams.dfp_slot.toLowerCase().indexOf('life_bio_sciences')!==-1
+		document.getElementById('healthcare-banner').classList.remove('d-none');
+Search this journal
+Search all journals
+Enter search terms...
+Search
+Search
+Advanced search
+Enter search terms...
+Search
+Search
+Advanced search
+Search
+Access/Profile
+Access
+View access options
+View profile
+Create profile
+Cart
+0
+Close Drawer Menu
+Open Drawer Menu
+Menu
+Browse by discipline
+Select discipline:
+All disciplines
+All disciplines
+Health Sciences
+Life & Biomedical Sciences
+Materials Science & Engineering
+Social Sciences & Humanities
+Select subject:
+All subjects
+All subjects
+Allied Health
+Cardiology & Cardiovascular Medicine
+Dentistry
+Emergency Medicine & Critical Care
+Endocrinology & Metabolism
+Environmental Science
+General Medicine
+Geriatrics
+Infectious Diseases
+Medico-legal
+Neurology
+Nursing
+Nutrition
+Obstetrics & Gynecology
+Oncology
+Orthopaedics & Sports Medicine
+Otolaryngology
+Palliative Medicine & Chronic Care
+Pediatrics
+Pharmacology & Toxicology
+Psychiatry & Psychology
+Public Health
+Pulmonary & Respiratory Medicine
+Radiology
+Research Methods & Evaluation
+Rheumatology
+Surgery
+Tropical Medicine
+Veterinary Medicine
+Cell Biology
+Clinical Biochemistry
+Environmental Science
+Life Sciences
+Neuroscience
+Pharmacology & Toxicology
+Biomedical Engineering
+Engineering & Computing
+Environmental Engineering
+Materials Science
+Anthropology & Archaeology
+Communication & Media Studies
+Criminology & Criminal Justice
+Cultural Studies
+Economics & Development
+Education
+Environmental Studies
+Ethnic Studies
+Family Studies
+Gender Studies
+Geography
+Gerontology & Aging
+Group Studies
+History
+Information Science
+Interpersonal Violence
+Language & Linguistics
+Law
+Management & Organization Studies
+Marketing & Hospitality
+Music
+Peace Studies & Conflict Resolution
+Philosophy
+Politics & International Relations
+Psychoanalysis
+Psychology & Counseling
+Public Administration
+Regional Studies
+Religion
+Research Methods & Evaluation
+Science & Society Studies
+Social Work & Social Policy
+Sociology
+Special Education
+Theology & Biblical Studies
+Urban Studies & Planning
+Browse journals
+Alternatively, explore:
+Fully (Gold) Open Access Journals
+Special Collections
+Articles, Journals & Resources By Subject
+Information for
+Authors
+Editors
+Librarians
+Researchers
+Reviewers
+Societies & Partners
+Frequently asked questions
+Advertising & Promotion
+In this journal
+Journal Homepage
+Submission Guidelines
+Big Data & Society
+Impact Factor:
+7.8
+/
+5-Year Impact Factor:
+10.0
+Journal Homepage
+Submission Guidelines
+Close
+Add email alerts
+You are adding the following journal to your email alerts
+New content
+Big Data & Society
+Create email alert
+Open access
+Research article
+First published online July 25, 2023
+Re-use permissions
+The problem with annotation. Human labour and outsourcing between France and Madagascar
+Clément
+Le Ludec
+https://orcid.org/0000-0002-0133-856X
+[email protected]
+,
+Maxime
+Cornet
+https://orcid.org/0000-0002-2332-8266
+, and
+Antonio A
+Casilli
+https://orcid.org/0000-0003-2025-1627
+View all authors and affiliations
+All Articles
+https://doi.org/10.1177/20539517231188723
+Contents
+Abstract
+Introduction
+Literature review
+Methods
+Human labor behind AI-based services: Insights from two case studies
+The relationship between AI and labour: Towards several displacements of labour
+Discussion
+Conclusion
+Acknowledgements
+Declaration of conflicting interests
+Funding
+ORCID iDs
+Footnotes
+References
+PDF/EPUB
+More
+Cite
+Share options
+Information, rights and permissions
+Metrics and citations
+Figures and tables
+Abstract
+Artificial intelligence advancements have reignited job displacement debates that focus on how the use of artificial intelligence affects labour, without considering how the production of this technology influences labour division. The generalisation of machine learning has created an increased demand for outsourced data workers. Outsourcing companies and crowdwork platforms are both used to generate, annotate, and enrich data. This data tasks are performed by workers from low-income countries, who often earn poverty wages. As with traditional outsourcing, workers must integrate complex multinational subcontracting networks. In this article, we examine how France outsources artificial intelligence-related tasks to workers in the African island nation of Madagascar. For our study, we interviewed 26 data workers, eight employees of French start-ups, and conducted secondary research on two artificial intelligence systems – a canteen checkout terminal and an algorithm to detect shoplifters in stores. The data collected allowed us to reconstruct an end-to-end artificial intelligence production value chain, revealing the need for data
+classification
+and artificial intelligence
+problematisation
+. Commercial artificial intelligence, therefore, does not displace employment by automating service jobs. Rather, by delocalising labour into the Global South, it lengthens the externalisation chain.
+Introduction
+Recent years have seen a proliferation of commercial artificial intelligence (AI) products, from voice assistants to generative AI. This growth has reignited an ongoing debate about job displacement. An egregious example of this is the March 2023 OpenAI study on generative pre-trained transformer (GPT) models (
+Eloundou et al., 2023
+), according to which 80% of the workforce will be affected, including high-skilled positions. The study’s methods and many limitations have been compared to a controversial 2013 publication by two Oxford researchers who predicted 47% job losses due to AI by 2030 (
+2017
+). Both publications adopt a reductionist approach that breaks down human work into a series of tasks. They then evaluate how many of those tasks could be performed by AI.
+Over the last decades, both this approach and more general theoretical analyses about the ‘end of work’ (
+Rifkin, 1995
+) seem to manifest cyclically, coinciding with waves of technological innovation. These debates share one common flaw. While they focus on the impact on labour of commercial AI adoption and usage, they overlook the way AI production affects labour division.
+A new demand for outsourced data work has arisen due to machine learning generalisation. In addition to traditional outsourcing companies, crowdwork platforms are also used to generate, annotate, and enrich data. For a few cents, AI producers can hire and dismiss hundreds of thousands of workers via services such as Amazon Mechanical Turk. Australia’s Appen offers more stable piecework, providing short gigs for over 10 million workers. In most cases, this ‘microwork’ is performed by workers from low-income countries, who earn poverty wages.
+From Amazon to OpenAI, from start-ups to big tech corporations, AI producers outsource data work. In an article published by TIME magazine a few months after ChatGPT launched, it was revealed that Kenyan workers were paid less than USD 2 per hour to train the chatbot (
+Perrigo, 2023
+). In other documents, the U.S. company claimed it contracted workers in the Philippines, Latin America, and the Middle East (
+Stiennon et al., 2022
+).
+The article argues that the true impact of AI on labor is not selecting talent or replacing formally employed workers, but fostering an increasingly precarious globalised workforce of underpaid pieceworkers. Our goal is to explore the perspectives of workers from both sides of the production chain and organisational aspects of data work. An end-to-end analysis of AI production chains reveals several parallels with traditional outsourcing, as AI fosters a redistribution of service labour to consumers and workers in the Global South.
+Literature review
+An increasingly significant part of the literature on digital labour studies has focused on the emergence of
+microwork
+, described as a new way of arranging data entry and
+‘human computation’
+tasks. This concept describes how complex projects are broken down into smaller, easily accomplished tasks, which can then be distributed to a large number of workers. Micro-tasks can be outsourced through digital labour platforms (DLPs) such as Amazon Mechanical Turk (AMT). DLPs are two-sided markets between independent labour providers and clients. They typically rely on algorithmic management tools (connection hours, price matching, etc.) and quality control measures (rating system) and offer workers few protections and guarantees. In the literature on digital labour, they have been emphasised as they allow researchers and start-ups to clean and label massive amounts of data, distributed to crowds of pieceworkers (
+Irani, 2013
+). Microworkers’ working conditions and platformisation of work are currently the subjects of most research, as atypical and contingent work is increasing globally, including in the Global North (
+Katz and Krueger, 2019
+). The micro-workers who use DLPs for data-work have repeatedly been shown to suffer from poorly paid, abusive, often automated, managerial practices, such as arbitrary account deactivation, and wage theft from platform clients (
+Casilli et al., 2019
+;
+Gray and Suri, 2019
+). Given the prevalence of the concept in the literature, Antonio Casilli and Julian Posada (
+Casilli and Posada, 2019
+) consider that micro-work dispatched via DLPs is crucial to AI production. Recent advances in the literature suggest that DLPs are not the only way to attribute micro-work, and that companies also tend to externalise data work through outsourcing companies that bear some resemblance to traditional organisations (
+Schmidt, 2022
+).
+Regardless of how it is procured, data work is essential to the production and maintenance of commercial AI-powered services. Commercial AI builds on scientific research into AI, but is primarily focused on finding applications in business and industry for various purposes, including automation, prediction, and decision-making. According to
+Tubaro et al. (2020
+), there are three contributions microworkers make to commercial AI systems: by generating and annotating data (
+AI preparation
+), by verifying model output (
+AI verification
+), and by directly mimicking model behaviour to produce a service (
+AI impersonation
+). As the computer science community grows more aware of the biases associated with data work, all three phases have become more significant. Studies of the archaeology of ImageNet and other well-known machine learning datasets found that the labour embedded in them is also a source of bias (
+Crawford and Paglen, 2019
+;
+Denton et al., 2020
+;
+Paullada et al., 2020
+). Aside from this literature that documents micro-workers’ contributions, very few scholars are able to track the full production process of AI systems. In studies on ImageNet and other academic projects, commercial solutions are often overlooked (
+Jaton, 2017
+), and the AI preparation phase is not given much attention. Thus, locating and estimating the amount of labour required for a particular model is challenging.
+A global offshoring context can re-inscribe data-labour externalisation practices as strategic decisions. In economic geography, literature focusing on microwork spatial distribution highlights how AI companies in the global North outsource data work to Global South workers due to lower labour costs and advantageous labour laws (
+Graham and Anwar, 2019
+). This article examines how data work is outsourced in a broad sense by analysing every data work process in the AI value chain. This approach also allows us to consider the end-product effects of the externalisation structure. Along the production chain, we can also consider labour conditions and extractive practices.
+Industrial companies have been outsourcing an increasing part of their activities since the 1980s. Using examples from the French nuclear and automotive industries,
+Appay (1998
+) links the dynamic with lean production. In these decades, mass layoffs occurred as a result of these novel ways of organising labour. This was not due to a decrease in labour demand, but rather to an increase in the externalisation of tasks. In Appay’s view, this phenomenon is characterised by a cascading externalisation chain: contractors located far away from the hiring firm are the most locally embedded and employ the most precarious workers. Due to this complex structure, outsourcers face high coordination costs, as one contractor defaulting may cause major disruptions. Hiring organisations therefore tend to control contractors’ production processes directly and tightly to mitigate those risks. The production chain structure shifts are dynamic, however, and are affected by several factors, including Information and communication technologies (ICT) innovation.
+A study of externalised contract manufacturers by
+López et al. (2021
+) shows that digitisation plays a role in many aspects of logistical and production chains. A complex network of locally embedded subcontractors produces, moves, stores and ships garments. Companies can develop diverse fashion lines and scale up and down production quickly by outsourcing garment design and production to this network of small to mid-sized contractors. Digitisation of bulk of inventory management systems partially offsets the high organisational costs of distributed production processes. Digital devices, such as RFID, have also transformed and ‘taylorised’ service jobs in retail and logistics. Information and communication technologies have offset some of the costs induced by labour-intensive activities in the service sector, according to
+Esparza (1992
+). Unlike agriculture and manufacturing, the service sector has not experienced the progressive replacement of labour with capital. Due to a more linear relationship between customer acquisition and labour requirement, most service providers observe low productivity. The use of contingent workers is an efficient way to increase revenue in this context. Contingent workers are more likely to belong to vulnerable groups (minorities, women, and elderly persons) (
+Noyelle, 1990
+).
+Thus, parallels can be drawn between the patterns of externalisation described above in manufacturing industry sectors, and the externalisation of data-work by AI firms. Traditional manufacturing (as well as agricultural work and mineral resources) intersects with the distribution, circulation, and consumption of different kinds of information. The connection illustrates what
+Fuchs (2016
+) describes as an ‘international division of digital labour’. In order to drive wages down and increase profits for tech companies, data production is increasingly fragmented and distributed across the globe. This creates an asymmetrical geography, where dependencies and imbalances in power and wealth reproduce historical colonial patterns. Although in the present article, we will not address directly the topic of data colonialism (
+Couldry and Mejias, 2019
+) and digital coloniality (
+2017
+), this notion represents an undercurrent of our work and informs our focus on the role of human labour in AI production across its entire value chain, as well as the role of ICTs in sustaining and enabling the externalisation of data-labour by AI companies. AI therefore becomes a central component of the performance of various workers, displacing it both spatially and chronologically.
+As shown above, the literature on data work has mainly focused on disclosing the human labour embedded in the AI production process. Several authors have shown that human workers are essential for producing algorithms, and have studied their roles and working conditions. Here, we propose a different perspective on data work to deepen the analysis. Data workers – and AI systems – should be reintegrated into the production chains of the goods and services they craft. In this way, we can not only ask who performs data work, but also study AI as part of a broader global labour market transformation. The question then becomes: how is AI used in production?
+Methods
+The fieldwork results presented here are part of a larger research project dedicated to the outsourcing of the production and annotation of data needed for AI in European, an more specifically French start-ups. As part of this investigation, we studied the entire AI production chain from a more in-depth perspective, focusing on four key actors: employees using AI-enabled devices at work, AI companies, annotation companies, and their employees.
+1
+Here we present two case studies: the first one focuses on an automatic canteen cash register produced by the French start-up Automatik
+2
+for CanteenCorp, while the second focuses on an image recognition system developed by AIView for detecting in-store shoplifting (all names have been changed for confidentiality reasons). For those case studies, 34 remote interviews were conducted between February and December 2021 with annotators, annotation-managers and start-up employees, as well as secondary data sources drawn from the communication of the two start-ups studied (corporate websites, social media presence, etc.).
+In those two case studies, we are able to account for a wide range of annotation types used by AI start-ups, while maintaining similarities to allow comparisons to be made. The start-ups use the same contractor, employ about 70 people in France, but one develops a specialised product, while the other sells trained models to third parties. Fieldwork was conducted in several phases. First, we contacted Automatik and interviewed five employees: two co-founders, one ‘annotation manager’, one engineer, and one solution architect.
+We also were granted access to a Slack server used to coordinate labour between Automatik and their Malagasy contractor. When doubts arise about their tasks, annotators use this channel to ask for clarification. Interview topics included data-work outsourcing decisions, the way data work is organised, and how clients and subcontractors interact. This start-up connected us with subcontractors who hired data workers. Located in Madagascar’s capital Tananarivo, DataMada employs approximately 100 people, mainly for two French clients. We then set up a mixed-method survey combining a questionnaire and semi-structured interviews. Qualitative data from this fieldwork is used in this article. We interviewed 21 data workers for the AIView canteen solution and seven for the Automatik shoplifter detection project between September 2021 and January 2022. Interview topics included their professional background, annotation activities, and interactions with French AI start-ups.
+We also studied AI models’ end-users. In particular, we interviewed Automatik’s solution architect, who handles start-up customers’ feedback and difficulties regarding the scan-and-go checkout solution. In our other case study, we interviewed the manager of a store that uses AIView. The purpose of our study is to explore how cashiers and security agents in French stores use the system and how it may affect their work. Additionally, we analyse secondary data sources, such as company websites.
+Human labor behind AI-based services: Insights from two case studies
+We studied two specific AI applications deployed by several French companies in different industries. As a starting point, we present both case studies through the lens of the human work that goes into creating and maintaining AI-based services.
+CanteenCorp’s automatic checkout machine
+With subsidiaries in 14 countries and more than 13,000 employees worldwide, CanteenCorp is an international industrial catering company. Check-out process efficiencies, and the cost of running a canteen are among their concerns. The company is experimenting with automated payment terminals that are expected to handle food detection, billing and payment processes with minimal human intervention. Using a computer vision algorithm, this terminal will identify food on trays and sort it. This algorithm was designed and trained by the French start-up Automatik.
+Human input is supposedly only required when a machine vision model is unable to come to a reliable conclusion. First, the system involves the consumer, and if that fails, a restaurant employee, to scan the food and tag it according to predefined categories.
+Even though the computer vision model is designed in Paris by a French start-up, the data annotation needed to build the ground truth datasets necessary to train the model is delegated to a contractor in Madagascar. Malagasy data labellers receive unsorted pictures from the international catering company and they segment the images using the French start-up’s platform. They identify different kinds of food on plates, and sort them according to a complex label structure.
+According to the start-up’s Chief Executive Officer (CEO), digital work platforms such as Amazon Mechanical Turk differ from the Business Process Outsourcing (BPO) structure in many ways. For the development of automatic products, he prefers traditional outsourcing, mainly because it allows the existence of strong ties between the French start-up and the Malagasy annotators:
+‘We prefer to keep a hand on almost-employees, even if they’re not technically employees’
+. Indeed, we observed frequent communication between Malagasy annotators and French start-up employees to ensure mutual understanding of the labelling process.
+A strict division of labour governs the dataset production process at the French start-up. First, solution architects identify customer needs. A first annotation guide is then drafted with the help of data scientists, describing the relevant labels and categories. Madagascar’s annotation team leaders receive the guide, discuss its implementation, and train annotators. The annotation of the dataset can then begin. An extensive feedback loop has been observed, following a strict hierarchy on the part of the Malagasy contractor. Expert annotators or team leaders receive comments from annotators about labels and their suitability. Afterwards, the information is transmitted to the start-up’s solution architect. There follows a new cycle of adaptation of the guide and labels.
+For now, the solution architects make a document detailing the instructions. The leader reads the instructions and when everything is clear, he explains it to the annotators who will have a training document to accompany them during the processing. When they encounter a difficult case, they consult the leaders. If [leaders] can’t answer, they ask us. Our solution architect and I have a Slack channel where we answer questions very matter-of-factly. One or two hours after the annotators start processing, the leaders start the production check. Interview – Dataset manager, Automatik
+Dataset production is both dynamic and cyclical, particularly for labels which are necessary for a standardised classification to be used when training a computer vision algorithm (
+Jaton, 2017
+). Newly designed dishes, cutlery, plates and other items introduced in restaurants can’t be recognised by the computer without recently annotated data. Other issues arise as a result of consumer behaviour. For instance, while deploying the system, the start-up noticed that consumers were putting their phones on trays. Since this might have been detrimental to the privacy of end users, the French start-up requested that annotators identify consumer phones on the trays in order to blur them.
+Additionally, quality control of the dataset is distributed along the production chain. Because the performance of the model is heavily dependent on the quality of the dataset, labelled images are manually verified by the Malagasy contractor and then technically audited by the French AI startup. Project details and deadlines heavily influence the verification process. While some AI projects require real-time data classification, others delegate some of the verification process to their users-in the case of this check-out system, as we have seen, canteen employees and consumers are the ultimate judges. In the end, the question arises: Who catches the algorithm when it slips? What is the importance of preventing false positives and ensuring that true positives are not missed? In many ways, the answer to these questions determines how the production chain will be shaped. Automatik relies on the consumer to ensure that the algorithm works properly:
+Automatik customers interact with our system. In the case of disagreement [with the algorithm’s output], they can correct it. – Automatik solution architect.
+AI companies require stable partnerships with professional annotators due to the importance of dataset quality and the circular nature of the data annotation process.
+Often, the initial brief isn’t very good. There is always something missing. It never covers edgecases. So we update the documentation, we give it back to the annotation team, and ask them to redo the work to increase data quality. In time, we get to know our annotators better, and they tell us how to improve our tools because they know them well. – Automatik CEO
+In addition, due to the low cost of labour provided by the Malagasy contractor (data annotation accounts for between 1% and 5% of AI project costs), each actor in the chain is strongly discouraged from trying to optimise it, as a result of which the quality of the dataset may suffer:
+The truth is, it’s a low-value task. Once we have a system that works, I don’t want to endlessly second-guess myself about it. The real issue concerning the quality of the dataset concerns the diversity of the pictures we feed it. Once [annotation] is solved, there’s no point in talking about it forever. – Automatik CEO
+Nevertheless, three main points emerge from this case study. First and foremost, the annotation process requires constant updating and amendments. The second point is the international division of labour between the French AI engineers and managers, and the Malagasy subcontractor. Lastly, this framework assesses the performance of AI systems by using consumers and canteen employees as last resort options.
+AIView’s theft-detection intelligent cameras
+AIView is a French AI start-up that launched in 2018. In 2022, it employed about 50 people. The company adds a computer vision algorithm to already-installed store surveillance cameras to detect thefts automatically in an effort to prevent shoplifting. Using the service, security guards, cashiers, or store managers are supposed to be able to receive automatic alerts on their phones. According to AIView’s social media communication, they supply almost 5000 cameras to over 100 stores in France, Australia, Belgium, and the UK.
+Clients including supermarkets and drugstores contract the start-up to automate video surveillance. On the company’s website, several phases are described: the algorithm is first connected to surveillance cameras, and tests are conducted; afterwards, the algorithm can detect
+‘gestures associated with theft’
+in
+‘real time’
+; if the algorithm spots a potential shoplifter, an alert containing a link to a video recorded by the camera is sent to store staff (store employees must receive this alert on their smartphones fast enough to catch the suspected thief). Four annotation companies, three in Madagascar and one in Indonesia, are involved in each of these phases.
+There is a preparation phase that must be completed before Malagasy workers can begin annotating data. Both start-up and supermarket employees are involved in it. As explained by the store manager during an interview, first AIView technicians visit the store to observe how it operates. Using their computer systems, they also analyse surveillance camera recordings in order to identify thefts and design labels for annotators:
+‘theft’
+when a shoplifter is clearly visible, and
+‘suspicious’
+when it’s not clear that a theft has taken place. Afterwards, the AIView system is actually installed to retrieve the video streams and make them accessible to data workers. Meanwhile in Madagascar, annotators undergo a training to learn to distinguish between thefts and other more mundane behaviours. As explained by an annotator: ‘
+Yes, we went through a training course before going into production. It explained each gesture that customers make in a store, if it is suspicious or if it is normal and it is from this [training] that we will label videos. Yes [they show] examples
+’ (Data annotator).
+When training is completed, data labelling starts. Data workers’ tasks are much broader than simply annotating videos, we discovered after several interviews. They receive video sequences lasting between 6 and 8 seconds over a digital platform. Sometimes this footage shows people stealing, damaging, or unpacking products, although of course the majority of shoppers act in more innocuous ways. As one data worker puts it:
+‘These images, they are real videos online, which means that if I go to a supermarket, I can actually see [these persons]. We see families, old people, couples. We see them taking products, sometimes breaking them’
+(Data Annotator). Workers can categorise videos on the platform on which they receive them. As another annotator points out:
+‘For example, if a customer puts something in their personal bag, we label it “theft.”’
+Yet another data worker explains that annotators have to detect thefts in less than a minute, and are divided into several shifts in order to cover nights and weekends.
+This information led us to the conclusion that what the annotators are viewing
+is a livestream
+. They act primarily as remote security guards, detecting theft almost in real time (in fact, a few seconds pass between the time the video is recorded and the time workers in Madagascar receive it). In line with the data work typology by
+Tubaro et al. (2020
+), these annotators actually imitate the algorithm: they perform
+AI impersonation
+.
+There are, however, some videos that are not processed in real time:
+‘The alerts are real time videos and the analysis consists of looking for thefts and labelling them, if it’s a theft or if there’s nothing to report. There are other tasks in our team too (…), including the annotations [of videos] that we accumulate on a server. When we label these videos we evaluate our performance. – Data annotator
+So when they are not annotating livestreamed images, data workers label non-live videos that are stored on a server for asynchronous processing. Once annotators have finished labelling a batch of these videos, they must also review other workers’ annotations by double-checking them. These activities are consistent with the other two types of data work listed by
+Tubaro et al. (2020
+), namely
+AI preparation
+and
+AI verification
+. In light of this, it’s possible that the startup is automating at least part of the process. Based on the annotators’ descriptions of their tasks, we suspect that the algorithm is actually just used to detect human figures in video frames. This system cannot, however, automatically interpret their gestures as shoplifting or as normal consumer behaviour.
+Annotators must also adapt to the technological advancements of the model when producing this AI service. That also entails adapting to the preferences of the final clients, as well as incorporating into their labels unusual types of theft or suspicious behaviour. In the following excerpt, HR managers of the Malagasy annotation company describe how they identify and handle non-anticipated theft gestures. These complex cases are discussed first internally, either among annotators or among annotators and team leaders in Madagascar. In the words of a data annotator:
+‘When there are doubts or problems, we talk (…). We find solutions when we encounter a problem’
+. Special cases and outliers may also be discussed with the start-up, which can subsequently adapt the labelling process, in a manner that is not dissimilar from the pattern we observed in our other case study.
+We also communicate with the client directly (…). I would say every fortnight, because (…), there are always updates on the [annotation] platform. On our side we do our best to participate, and not only as executors. When it comes to label names, there are shoppers (…) who hide the products in their clothes, so there is no label for them.
+[Q: And this was pointed out by an agent to the team leader who brought it up with the client]
+Yes, that’s right. Shoplifting techniques evolve indeed. We try to detect them, and then report them. The client then updates the [annotation platform] and creates labels for them. – Data annotation HR managers
+As with the Automatik checkout system, the success of the model depends on the quality of the service. How effective is the interaction with the
+‘automated’
+system in a production environment? Success for AIView and its contractor depends on whether the assemblage of human annotations and computer vision models alerts store employees of
+the bulk
+of the suspicious behaviours on-premises. A constant adaptation of the model to changes in the perceived phenomenon is crucial here. As shoplifters adapt to avoid detection, the annotators (and ultimately, the model) need to be able to detect ever-evolving thefts. To do this, they must constantly adjust tooling and label definitions: What are the proxies of the phenomena they are inferring? Is a person discreetly putting a rectangular object in their pocket a shoplifter trying to steal chocolate or an average shopper putting away their smartphone? And how should they report these proxies? Should they add a new label (‘smartphone’) or simply tag it as ‘non suspicious’? So, AIView implemented a Slack to discuss instructions changes with annotators. A data worker summarises:
+‘The client contacts us via Slack when there are new instructions for the activities, and we also contact them in cases of difficulty and vice versa’.
+This discussion aims to address model errors and annotation challenges, as well as to structure client demands in a way that can be implemented by a contractor. AIView hired an operations officer to handle data workers and annotation:
+‘If an agent makes a mistake, he makes a video call with N.[the operations officer], and she shows him videos of thefts, and he has to tell her the label [to tag] the video’
+(Data annotator).
+As a result, the AI system links data workers’ decisions with supermarket staff’s actions. As explained by a data annotator, decisions taken by Malagasy data workers affect the behaviour of department store workers in other countries:
+‘If a child breaks a bottle, I label it as suspicious, and the supermarket employees get an alert and act accordingly’
+. Depending on the store, the alerts are received by either the manager, cashiers, or security. Store employees need to receive alerts in a timeframe that allows them to act on them, so annotators have a special incentive to act quickly:
+‘I receive alerts every minute on the 1st floor of the supermarket, and every thirty seconds on the ground floor of the store’
+(Supermarket manager). We were told by the same supermarket manager that the alert system would eventually be handled directly by the cashiers. It will therefore modify their job description to add another monitoring task. Employees can communicate with the startup through AIView, either to confirm a theft or to report problems with ‘automatic detection’. When there is a doubt about a theft, there is group chat where ‘[supermarket staff] can request video recordings from the startup’. It is possible for false positives to disrupt the workflow of store employees. The supermarket manager also reported raising the following issue with the startup:
+‘We asked them to remove the alerts for shopping bags, because it was causing too many alerts’
+.
+The relationship between AI and labour: Towards several displacements of labour
+Through the examination of these case studies, we have explored the role of human labour in AI systems. What can we learn from them about AI work and its effect on work? This section presents three findings from our fieldwork showing that, rather than eliminating work, AI merely distances it.
+Integrating data workers to monitor datasets quality issues
+In our fieldwork, we found that data production differs substantially from what the international literature describes as platformised micro-work. Possible explanations for this could be either the persistence of traditional forms of firm-based outsourcing, or the evolution of the AI industry towards longer-term commercial projects, as argued by some of the persons interviewed in our case studies.
+In these two cases, subcontracting through complex networks of local intermediaries is more common than using self-service internet portals like Amazon Mechanical Turk to find workers. We interviewed workers who admitted to using ‘platforms’, but they mostly meant online software provided by their BPO employers, rather than full-fledged marketplaces for crowdwork. The French start-ups we examined externalise this activity, but not to a crowd of anonymous users on an online platform. Their direct relationship with suppliers enables them to control workers almost as if they were their own employees – in spite of the fact that they are not required to provide comparable salaries, work stability, and benefits.
+According to our interviewees, using remote crowdwork to produce data is fundamentally different from working with long-term local subcontractors. Interviews with Automatik officials reveal that direct subcontractors provide better quality datasets than platform workers. According to our two case studies, annotators must develop expertise in specific tasks. Managers and startup employees support and train workers both when they perform core functions (such as detecting theft or distinguishing different dishes on a tray) and when handling annotation tools. This, in turn, affects the flow of information and the shape of the production chains in the organisations studied.
+Honestly, we looked at Amazon and their system, but we quickly abandoned it. From an annotation standpoint, the quality is rotten. We wanted people to develop some kind of expertise. If random people do this for a small amount of side money, the quality [of the work] will most likely be affected. If you mess up 100 percent of your annotations, it’s pointless. – Automatik CTO
+The quality of data annotations is therefore the main criterion for discarding commercial micro-work platforms. The BPO model is seen as a better way to integrate workers into the production process. The development of worker ‘expertise’ and the dynamic nature of annotation guides and labels are essential for long-term AI projects. The skill building process at Automatik is formalised with the creation of ‘expert annotators’ who specialise in identifying one type of dish (starters, main dishes, etc.).
+And when I compare it to MTurk, etc., the quality [is better]…Knowledge and expertise are still building as we move along, and [the data workers] are doing assignments tailored to the typology of our customers and what we offer them. We can get real product feedback. – Automatik CEO
+We found that workers communicate regularly with startup employees in order to achieve this level of expertise. Slack conversations, as well as telephone meetings, are used to communicate with them about annotation guides. Startup employees and team leaders discuss doubts and common mistakes in annotation. In addition, they are systematically given initial training on projects and paired with more experienced annotators until they become comfortable with the job.
+It is essential to contextualise these results, as both models are interrelated. With crowdsourcing platforms, labour is allocated through APIs, according to price mechanisms and gamification elements such as badges and scores. The majority of the control is allegedly performed by algorithmic management, so human management is not specifically required. BPOs, on the other hand, handle communication with clients and the briefing of instructions through personal interaction. This implies creating management posts such as team leaders and experts. The enriched data produced by both platform and BPO workers is part of a pipeline that is ultimately controlled by the AI startups, and both systems rely on software-as-a-service to produce the annotations. Moreover even on crowdsourcing platform, recent literature underline the spread of direct management and worker-verification tools (
+Hauser et al., 2022
+), challenging the argument that work is allocated and managed purely through API-like means.
+The distinction between BPO and platform is therefore ambiguous. Both of them originated from earlier organisations, like call centres and teleservices, to disaggregate information-intensive functions (
+Apte and Mason, 1995
+). Compared to pre-internet modes of outsourcing, both of them are technology-driven (
+Borman, 2006
+) and partake in the imaginary vision of establishing and running ‘virtual business units’ in which most or all of the functions are outsourced to remote services (
+Motahari-Nezhad and Stephenson, 2009
+). Both models are seen as viable options for supporting outsourcing and minimising costs through global labour arbitrage (
+Borman, 2006
+). In short, today’s interconnected data services, whether they are BPOs or ‘pure platforms’, are forming flexible processing units (
+Person et al., 2018
+).
+In light of this continuity between the two models, what factors influence the decision to adopt one over the other? Despite the inability to have a definitive answer to this question, some assumptions can be made. There may be signs of maturation in the rapid development of the AI sector. AI companies are therefore moving from R&D to production. As a result, the organisation of the data production structure needs to change.
+A reliable and stable supply chain is essential for companies developing ‘last-mile automation’ products. Some side projects could function with datasets annotated by an anonymous crowd, whereas specific, long-term commercial products require a stable, trained workforce for maintenance, verification, and feature extension. A long-term relationship with the annotators is maintained through this structure, which ensures continuity and quality of service.
+Inside data work: The distributed cognitive work of AI workers
+Data workers are integrated according to specific business imperatives. As a corollary, data work involves many actors at different levels of the chain, who will each contribute to AI. As shown in the following figure, this process is distributed among AI companies, annotation companies, clients, and consumers. The arrows represent the interaction between workers involved in AI work.
+Each project requires annotation work from several types of employees at the annotation company in Madagascar. At one end of the data supply chain, ordinary annotators use basic tags (e.g. ‘theft’ and ‘dish’) to roughly outline elements in pictures and videos. After that, quality teams composed of Malagasy verifiers sometimes known as ‘expert agents’ review the annotations. Expert annotators examine hard-to-interpret images, and some specialise in particular types of objects or situations (e.g. certain dishes for food projects and certain types of shoplifting in surveillance projects). Cross-team communication is conducted via an online commercial platform, Slack, which serves as a remote workspace. Within teams, communication between annotators, experts and management (team leaders and production officers) occurs locally and in-person.
+Figure 1
+. Data work production chain. Note (from bottom to top): In a subcontracting firm in Madagascar (‘Data company’), data workers annotate, enrich, and tag videos and pictures with the help of local expert agents and managers. The annotated data are then sent to a French ‘AI company’, whose dataset managers and solution architects integrate them into their systems. Afterwards, the systems are sold to a ‘Client company’, whose managers, employees, and customers fine-tune them to meet their needs. Companies carry out
+AI preparation,
+AI verification,
+AI impersonation (white symbols signify active and grey symbols inactive).
+Source:
+Authors’ elaboration.
+The French part of the value chain develops annotation production processes. Both AI startups we studied have their own proprietary annotation online software that allows them to monitor annotators’ performance and quality. A ‘dataset manager’ oversees annotation quality and communicates with annotators about their input. As a second category of French employees, ‘solution architects’ are responsible for designing models as well as acting as the interface between the final client, the AI startup and the annotation company. They are tasked with writing annotation guides, in cooperation with the dataset manager.
+They therefore bring customers’ needs to bear in terms of AI models and annotations. In this way, the final client may provide feedback on their needs or corrections to the model. For instance, store managers may not want textile bags considered suspicious for automatic theft detection. Also involved in AIView’s case are supermarket employees who receive alerts and validate them by detaining potential shoplifters.
+Finally, there is a category of ‘workers’ who are unaware of their involvement: consumers (
+Dujarier, 2016
+). In the case of AIView, they pass in front of cameras that record theft videos, from which a model will be trained. In CanteenCorp’s case, the model only guesses objects in a tray, so their impact is much greater: consumers have to validate the dish that matches their tray based on three choices the AI system provides in a certain percentage of cases.
+Based on
+Tubaro et al. (2020
+)’s data work typology, we can review how data workers contribute to AI. By describing the various tasks behind this data and AI work, we complement this typology. The examples cited above clearly illustrate how many different tasks are involved in AI work and how many different workers participate. The tasks are diverse and often combine data classification (‘what do we see in the data?’) with model problematisation (‘what problem are we trying to resolve?’). When it comes to data annotation, work can be informal (a gut feeling about the manner in which certain objects are identified) or, on the contrary, quite formal: compiling and updating annotation guides, detecting data anomalies, translating instructions in foreign languages, refining parameters, interacting with clients, validating output.
+A key finding from our studies is that data classification practices are embedded within several stages of micro and macro decisions that ultimately shape the service and its reality. The production of AI, we argue, involves multiple workers at various levels of the value chain who ultimately define and redefine how the datasets are structured and how machine learning models work. Our observation is that there are very porous boundaries between modelling (the
+AI work
+supposedly reserved for startups in France) and annotation work (the
+data work
+outsourced to Madagascar).
+Both activities are mixtures of data classification and model problematisation
+defined as ‘a succession of collective practices that aim at defining the terms of a problem to be solved’ (
+Jaton, 2017
+). To varying degrees, annotators perform cognitive work that aligns models with domain-specific knowledge. Conversely, startup engineers, clients, and even consumers perform data work alongside the annotators. This distributed work involves more than annotation, that is, circling elements on images. As a digital infrastructure, AI coordinates and embeds human work in complex classification-problematisation processes at every stage of the supply chain.
+AI act as a workforce coordination mechanism through a wider digital infrastructure
+Another aspect of our work has been figuring out what AI means for coordination and monitoring. AI-based services require wider technological infrastructures as well as subjective judgement in producing and refining information.
+To produce AI enabled services, the supply chain infrastructure ties together subcontractors, employees, clients, and customers. Inputs (such as surveillance videos and images of trays) are collected directly from client tools. Subcontractors send alerts directly to supermarket cashiers and security guards when workers detect theft. AI start-up employees monitor data annotation labour and communicate with subcontractors through chat systems: Are there any labels missing from the image of a canteen tray? What makes a certain gesture suspicious in a surveillance video? How should data workers annotate free bread? These discussions involve examining the annotation process, a task that annotators perform as well. On the end-user side, digital infrastructures are cameras and canteen terminals that will eventually collect their inputs. In-store cameras and canteen terminals also serve as a verification system where final consumers may validate the results of the model. Aside from that, AI systems are also benefited by discussions between Madagascar workers, start-up employees, and clients’ managers. As in the shopping bag example, many customers at a supermarket were detected as ‘suspicious’, resulting in several false positives.
+In this sense, ‘AI-as-a-service’ (
+Newlands, 2021
+) can be construed as a workforce coordination mechanism that collects multiple human inputs to work and rework them via multiple human feedback loops. In other words, its role is to organise the contributions of humans that will enable it to operate effectively. Artificial intelligence is orchestrating several displacements of labour, in line with digitisation and cascading externalisation trends.
+AI systems organise displacements and modification of labour
+Both cases discussed in this article involve low-paid workers from Madagascar as well as end customers participating for free in AI’s productive activities. AI can take advantage of this low-cost workforce through digitisation to achieve its automation goals. Due to the multiple levels of outsourcing involved in AI production, it creates ‘cascading externalisation chains’ similar to those observed in manufacturing. So AI doesn’t primarily destroy jobs, but re-distributes them to poorly paid workers and unpaid consumers. We estimate that salaries in Madagascar annotation companies range from $50 for a basic data worker to $200 for a manager for a forty-hour-week, or from $0.41 to $1.7 per hour.
+AI is evidently contributing to several displacements of labour. The first category of labour displacement involves surplus labour performed by consumers and sometimes for workers, as part of a larger trend of outsourcing activities to unpaid customers. Another displacement comes from the fact that core parts of the AI enabled services production chains are outsourced to Madagascar. Subcontractors in the Global South replace employees within organisations.
+Traditional jobs in client companies are also changing due to AI systems. Supermarket cashiers are now required to respond to alerts when data workers in Madagascar detect something suspicious. In addition to working as cashiers, canteen workers have the responsibility of checking if plates are properly positioned to be detected by the checkout terminal. According to Automatik’s solution architect, their job description will eventually become ‘hospitality workers’, tasked with welcoming patrons and serving meals.
+Developing and maintaining AI systems involves several teams, organisations, and constituencies across several countries, which illustrates how complex automation work can be. Rather than the ‘end of work’ that several theorists predicted, we are experiencing its systematic multiplication and displacement.
+Digitalisation, outsourcing, and consumer work
+are three trends that allow AI companies to thrive. So, what sells is not necessarily AI-enabled products that automate, but a production process that relies on productive activities, mixing classifications and problematisations performed for free by consumers and
+nearly for free
+by workers based in countries regarded as peripheral (
+Ekbia and Nardi, 2017
+).
+Discussion
+This article documented human work hidden behind AI’s ‘layers of knowledge’. Beyond automation, what does this technology mean for human work? How does an organisation implement AI-based systems?
+We discussed the AI production process from the perspective of the work required to implement automation. This study offers insight into the work organization behind AI development, despite its limited scope. Furthermore, it highlights the importance of production processes and the need to focus on firms rather than only conducting research at the macro level. In this way, we can better understand what AI means organisationally, namely in terms of work reorganisation. Building and maintaining AI-based services requires data classification and model problematisation tasks. At the end of the day, we show that AI, and its core tasks necessary to its functioning, are driving a more general trend towards services outsourcing.
+In contrast to the existing literature on platformed digital labour, we demonstrate that data workers are more deeply embedded in AI companies’ operations (
+Gray and Suri, 2019
+). Consequently, data workers are often invisible to end users, but much less so to companies that produce models (
+Irani, 2013
+). So, regardless of how data work is outsourced, the claim that certain services are automatic is the most powerful vector of invisibility. This lack of visibility also affects annotators’ self-worth and perception of themselves. Despite their expertise, data workers see their activity as ‘menial’ compared to highly paid and visible AI workers such as data scientists and software engineers. This ultimately hurts the bottom line of Malagasy workers regardless of their integration into French startups’ operations. Thus, our estimates of their pay (from $0.41 to $1.7 per hour) are significantly lower than Amazon Mechanical Turk’s estimated earnings of $3.13 per hour on average (
+Hara et al., 2018
+). By outsourcing data work in this way, AI firms benefit from highly skilled workers. Using AI companies’ control and discussion tools and by integrating with a working group in Madagascar (managers and colleagues), workers contribute to the production of AI-based services, and develop a project-oriented expertise over several months. Rather than eliminating work, AI relies on outsourcing and digitisation to ‘remotise’ it. In that regard, our findings support the notion of ‘complementary work’ that is necessary to supplement AI and which is never completely eliminated (
+Shestakofsky, 2017
+).
+As regards the organisational aspect of data work,
+Lehdonvirta et al. (2019
+) suggested that DLPs are fundamentally different from BPOs. The former allow client companies to distribute projects divided into smaller tasks to a vast number of independent work providers, while the latter allow clients to outsource whole projects. Our findings suggest the existence of a continuum ranging from ‘pure’ DLPs to BPOs. According to recent advances in the literature, hybrid organisations exist; they present themselves as DLPs, but integrate levels of management and supervisory oversight as in BPOs and conventional companies. ‘Deep labour’ is what such hybrid organisations provide, according to
+Tubaro (2021
+). In both case studies, we presented evidence that workers in Madagascar are often directly supervised by employees of French AI companies, even though data work is formally externalised. There is no definitive explanation for why firms choose one form of outsourcing over another, but several empirical clues suggest it may be related to project complexity and timeline. It is essential to have a stable, trained, and supervised workforce if annotation quality is critical, if the algorithm requires frequent data updates, or if employees interact with the system in real time, as was the case with the ‘smart’ surveillance camera solution we discussed above. Any way you look at it, data workers are fully embedded in the AI-enabled service or entire production chain, no matter the organisational form used to externalise them.
+While data workers’ expertise isn’t always recognised by AI developers, our research shows that, in contexts of AI applied to commercial products, companies value the ability of workers to understand the application domain. In discussing the loss of jobs associated with AI, it is also important to keep in mind that data work is integral to the production process.
+Our position is in agreement with that of the authors who stipulate that the impact of AI on jobs cannot be assessed by the likelihood that a specific set of tasks will be automated (
+Autor and Salomons, 2018
+). Automation through AI is based on complex assemblages of models and distantiated labour. We discussed two cases of augmented services where data workers participated directly in AI solutions production. In the second case, they go so far as to replace the algorithm.
+Recent literature analyses this issue from the perspective of potential AI effects on job quality. According to
+Benanav (2020
+), automation in the manufacturing sector and AI in the service sector have not significantly improved productivity. The labour market is not affected by technological innovation, but by an overproduction crisis. Therefore, the question is not whether work has a future, but what will it look like? The author argues that we are more likely to see the generalisation of precarious work and underemployment than the disappearance of all jobs. Micro-level studies should be conducted to analyse the transformation of work following the implementation of AI systems.
+Based on our reconstruction of the production chain, we conclude that what’s ultimately sold and deployed as an AI solution is a production process itself, not a finished algorithm. ‘AI-as-a-process’ is a sociotechnical device that automates last-mile tasks. As part of a global trend toward transfer learning and large pre-trained models, French AI companies employ open-source and big-tech development frameworks to customise ready-to-use models. In this context, data-related tasks are fundamental to AI work, and they extend beyond just annotating data. In Madagascar, they also include writing annotation instructions, reviewing models’ behaviour and discussing it with clients. In France, employees of client companies are required to adopt expanded roles as data curators, as well as to supervise the capture of unremunerated consumer inputs. Consumers, data workers, client employees, and AI startup officers share the cognitive workload of looking at the data (
+classification
+) and analysing how it will be interpreted by the model (
+problematisation
+).
+We view AI as a logistic tool that facilitates and coordinates various work processes related to these two functions. We contribute to the literature in Science and Technology Studies that attempts to understand the human activity behind digital infrastructures (
+Muniesa, 2003
+). This work is also in line with the work of
+Jaton (2017
+) on AI-labs as well as his definition of modelling as a process of problematisation. Commercial AI challenges are constantly (re)negotiated by various categories of workers. In summary, AI systems encompass a range of dimensions related to their organisation, social, and technical structure (
+Dagiral, 2012
+), which ultimately ‘does more than make work easier, faster or more efficient; it changes the very nature of what we mean by work’ (
+Bowker and Star, 2000
+).
+Providing AI-enriched services is labour-intensive, so involving AI in the production process does not mean automating, but allowing labour outsourcing at both ends of the value chain. Our argument therefore is that commercial AI does not automate service jobs but reproduces and enables labour displacements, lengthening externalisation chains. The study concludes that AI production is largely driven by economic arbitrage driven by wage minimisation. This is also consistent with the seminal argument by
+MacKenzie and Wajcman (1999
+) who states that ‘much innovation is sponsored and justified on the grounds that it saves labour costs’.
+AI is woven into a long-standing dynamic of job displacement. This is not a result of robots replacing humans, but of lowest-cost workforce being selected to produce AI solutions. Companies in the North outsource standardised tasks to subcontractors in the South, while maintaining strong control over the production processes at work. Our case studies show that AI is used to transfer service-related tasks from in-house employees to outsourced vendors. Similar dynamics are put in place by companies for manufactured goods. The distancing of the workforce allows for reduced labour costs in sectors where local wages are traditionally high (
+Esparza, 1992
+). As a result, volume growth and production costs no longer grow linearly. In this context, automation should be viewed as a form of labour externalisation.
+Conclusion
+We believe that ethical considerations of AI should begin with working conditions, as data workers play an increasingly significant role in the technology sector. Working conditions and the organisation of the production chain should also be considered along with the devices’ purposes. The results are consistent with computer science research on the archaeology of large datasets, which has found numerous errors in ‘canonical’ AI datasets and the potential impacts on algorithmic bias (
+Paullada et al., 2020
+).
+Building AI models is a dynamic process involving many actors in the chain. In this context, we have emphasised the importance of integrating data workers into artificial intelligence production. Because of the cyclical nature of model production, they also contribute to model problematisation by taking responsibility for a key element of model production, namely the annotation of the dataset. Through this loop of human work, tasks previously performed locally by workers can now be performed remotely. That is regarded as automation, especially in the service sector.
+One limitation of this article is that we did not detail annotator’s working conditions, nor the post-colonial aspect of the relationship between Malagasy contractors and French AI companies. As those aspects are related to the structure of the production chains as well, they should lead to further publications.
+Moreover, we find evidence of a strengthening of the professional identities of data workers. Although they are prevented to aspire to the role of AI experts, they are aware of the importance of their specialised knowledge in particular fields, such as food or security. Further research is needed to develop this trend.
+Our results can also be used to facilitate AI regulation by providing insights into how models are produced and the international division of data labour. When evaluating the effects of AI on work, public policies must consider the entire production chain, absent which it would be impossible to observe the productive activities necessary to develop AI. A further question arises as to whether AI biases can be lawfully regulated, particularly in light of EU legislation such as GDPR and the AI Act.
+3
+Because it requires AI system producers to disclose the processes behind their solutions, we need to ensure that data annotation practices are documented.
+AI companies are selling automation promises that can be boiled down to business decisions and managerial choices that involve precarious labour at every level. A fair algorithm can only be developed if its production process is controlled. Therefore, a key element of AI regulation should be ensuring the responsibility of principal companies towards their subcontractors. This will ensure that global chains in the future have a more effective way of taking AI into account.
+Acknowledgements
+The authors warmly thank all the workers who answered our questions, as well as Julie who opened her company to us. We also thank Paola Tubaro, as well as all the members of the DIPLab research project for their valuable comments on this article.
+Declaration of conflicting interests
+The author(s) declared the following potential conflicts of interest with respect to the research, authorship, and/or publication of this article: An anonymous start-up provided an additional source of funding to allow access to their workforce.
+Funding
+The author(s) disclosed receipt of the following financial support for the research, authorship, and/or publication of this article: This article presents the results of the project HUSH ‘The Human Supply Chain Behind Smart Technologies’ funded by the French National Research Agency (Project ANR-19-CE10-0012). The authors of the present article have been involved in the project as doctoral researchers (authors 1 and 2) and principal investigator (author 3). This research also benefited from an additional funding provided by a French AI start-up in order to pay interviewees.
+ORCID iDs
+Clément Le Ludec
+https://orcid.org/0000-0002-0133-856X
+Maxime Cornet
+https://orcid.org/0000-0002-2332-8266
+Antonio A Casilli
+https://orcid.org/0000-0003-2025-1627
+Footnotes
+Copyright statement
+Please be aware that the use of this LATE X2
+ε
+class file is governed by the following conditions.
+Copyright
+Copyright © 2023 SAGE Publications Ltd, 1 Oliver’s Yard, 55 City Road, London, EC1Y 1SP, UK. All rights reserved.
+1.
+There are several reasons for this concentration of externalisation flux toward Madagascar. These include the low cost of qualified labour, a long-established business services industry on the island, and a high number of businesses offering those services.
+2.
+In this case, we set up a research agreement with the company Automatik to guarantee our freedom of publication. They were supposed to help us get to know their subcontractor. However, in order to interview the workers, it was still necessary to negotiate with the subcontractor.
+3.
+There are several levels of AI systems defined in the AI Act. High risk systems are prohibited except in certain cases (Art. 5), while limited and minimal risk systems must be registered with the regulator. Any decisions made during the production process of the AI system must be disclosed (Annex 4). Yet, to be meaningful, EU compliance should also include an overview of the production chain and not overlook data workers, one of AI’s most crucial stakeholders.
+References
+Appay B (1998) Economic concentration and the externalization of labour.
+Economic and Industrial Democracy
+19(1): 161–184.
+https://doi.org/10.1177/0143831X98191008
+.
+Web of Science
+Google Scholar
+Apte UM, Mason RO (1995) Global disaggregation of information-intensive services.
+Management Science
+41(7): 1250–1262.
+https://doi.org/10.1287/mnsc.41.7.1250
+Web of Science
+Google Scholar
+Autor D, Salomons A (2018) Is Automation Labor-Displacing? Productivity Growth, Employment, and the Labor Share. Technical Report w24871, National Bureau of Economic Research, Cambridge, MA. DOI: 10.3386/w24871.
+http://www.nber.org/papers/w24871.pdf
+.
+Crossref
+Google Scholar
+Benanav A (2020)
+Automation and the Future of Work
+. London; New York: Verso. ISBN 978-1-83976-129-4. OCLC: on1147891672.
+Google Scholar
+Borman M (2006) Applying multiple perspectives to the bpo decision: A case study of call centres in australia.
+https://www.semanticscholar.org/paper/Applying-multiple-perspectives-to-the-BPO-decision
+.
+Crossref
+Google Scholar
+Bowker GC, Star SL (2000)
+Sorting Things Out: Classification and its Consequences
+. Cambridge: MIT Press. ISBN 978-0-262-26160-9.
+Crossref
+Google Scholar
+Casilli AA (2017) Digital Labor Studies Go Global: Toward a Digital Decolonial Turn.
+International Journal of Communication
+11: 3934–3954.
+Web of Science
+Google Scholar
+Casilli A, Posada J (2019)
+The Platformization of Labor and Society
+. Oxford University Press. ISBN 978-0-19-884350-4.
+https://halshs.archives-ouvertes.fr/halshs-01895137
+. Pages: 293.
+Crossref
+Google Scholar
+Casilli A, Tubaro P, Ludec CL, et al. (2019) Le Micro-Travail en France. Derrière l’automatisation, de nouvelles précarités au travail? Technical report, DiPLab, Paris.
+Google Scholar
+Couldry N, Mejias U (2019) Data colonialism: Rethinking big data’s relation to the contemporary subject.
+Television & New Media
+20: 336–349.
+Crossref
+Web of Science
+Google Scholar
+Crawford K, Paglen T (2019) Excavating AI.
+-
+https://excavating.ai
+.
+Google Scholar
+Dagiral E, Peerbaye A: (2012) Les mains dans les bases de données.
+Revue d’anthropologie des connaissances
+6(1).
+https://journals.openedition.org/rac/13353
+. Number: 1 Publisher: Société d’Anthropologie des Connaissances.
+Crossref
+Google Scholar
+Denton E, Hanna A, Amironesei R, et al. (2020) Bringing the People Back In: Contesting Benchmark Machine Learning Datasets.
+arXiv:2007.07399 [cs]
+http://arxiv.org/abs/2007.07399
+. ArXiv: 2007.07399.
+Google Scholar
+Dujarier MA (2016) The three sociological types of consumer work.
+Journal of Consumer Culture
+16(2): 555–571.
+https://doi.org/10.1177/1469540514528198
+Web of Science
+Google Scholar
+Ekbia H, Nardi B (2017)
+Heteromation, and Other Stories of Computing and Capitalism
+. ISBN 978-0-262-34032-8. DOI:10.7551/mitpress/10767.001.0001.
+Crossref
+Google Scholar
+Eloundou T, Manning S, Mishkin P, et al. (2023) GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models.
+Crossref
+Google Scholar
+Esparza A (1992) Small manufacturing firm: Business services externalization in the Chicago metropolitan region.
+Urban Geography
+13(1): 68–86.
+https://doi.org/10.2747/0272-3638.13.1.68
+Web of Science
+Google Scholar
+Frey Carl Benedikt, Osborne Michael A (2017) The future of employment: How susceptible are jobs to computerisation?.
+Technological Forecasting and Social Change
+114: 254–280.
+https://doi.org/10.1016/j.techfore.2016.08.019
+.
+Web of Science
+Google Scholar
+Fuchs C (2016) Conclusion. In:
+Critical Theory of Communication
+,
+New Readings of Lukács, Adorno, Marcuse, Honneth and Habermas in the Age of the Internet
+, volume 1. University of Westminster Press. ISBN 978-1-911534-04-4, pp.207–220.
+http://www.jstor.org/stable/j.ctv5vddf2.9
+.
+Google Scholar
+Graham M, Anwar MA (2019) The global gig economy: Towards a planetary labour market?.
+First Monday
+24(4).
+https://doi.org/10.5210/fm.v24i4.9913
+.
+https://firstmonday.org/ojs/index.php/fm/article/view/9913
+Google Scholar
+Gray ML, Suri S (2019)
+Ghost Work: How to Stop Silicon Valley From Building a New Global Underclass
+. Boston: Houghton Mifflin Harcourt. ISBN 978-1-328-56628-7.
+Google Scholar
+Hara K, Adams A, Milland K, et al. (2018) A data-driven analysis of workers’ earnings on Amazon Mechanical Turk. In:
+Conf Hum Fact Comput Syst Proc
+, volume 2018-April. Association for Computing Machinery. ISBN 9781450356206 (ISBN); 9781450356213 (ISBN). DOI: 10.1145/3173574.3174023.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85046962507&doi=10.11452f3173574.3174023&partnerID=40&md5=52a7b6302710ecb00ea1c7e96b867ba4
+.
+Crossref
+Google Scholar
+Hauser DJ, Moss AJ, Rosenzweig C, et al. (2022) Evaluating CloudResearch’s approved group as a solution for problematic data quality on MTurk.
+Behavior Research Methods
+.
+https://doi.org/10.3758/s13428-022-01999-x
+Web of Science
+Google Scholar
+Irani L (2013) The cultural work of microwork.
+New Media & Society
+17(5): 720–739.
+https://doi.org/10.1177/1461444813511926
+.
+Web of Science
+Google Scholar
+Jaton F (2017) We get the algorithms of our ground truths: Designing referential databases in digital image processing.
+Social Studies of Science
+47(6): 811–840.
+https://doi.org/10.1177/0306312717730428
+.
+PubMed
+Web of Science
+Google Scholar
+Katz LF, Krueger AB (2019) The rise and nature of alternative work arrangements in the United States, 1995–2015.
+ILR Review
+72(2): 382–416.
+https://doi.org/10.1177/0019793918820008
+Web of Science
+Google Scholar
+Lehdonvirta V, Kässi O, Hjorth I, et al. (2019) The global platform economy: A new offshoring institution enabling emerging-economy microproviders.
+Journal of Management
+45(2): 567–599.
+https://doi.org/10.1177/0149206318786781
+.
+PubMed
+Web of Science
+Google Scholar
+López T, Riedler T, Köhnen H, et al. (2021) Digital value chain restructuring and labour process transformations in the fast-fashion sector: Evidence from the value chains of Zara & H&M.
+Global Networks
+n/a(n/a). DOI: 10.1111/glob.12353.
+Crossref
+Google Scholar
+MacKenzie D, Wajcman J (1999)
+The Social Shaping of Technology
+. UK: Open University Press: Buckingham. ISBN 978-0-335-19913-6.
+http://mcgraw-hill.co.uk/openup/
+Google Scholar
+Motahari-Nezhad H, Stephenson B, Singhal S (2009) [pdf] outsourcing business to cloud computing services: Opportunities and challenges: Semantic scholar.
+https://www.semanticscholar.org/paper/Outsourcing-Business-to-Cloud-Computing-Services3A-Motahari-Nezhad-Stephenson/7a254dd866c2241d1f5d51d9929c19878ccbd2cf
+.
+Google Scholar
+Muniesa F (2003)
+Des marchés comme algorithmes: Sociologie de la cotation électronique à la Bourse de Paris
+. PhD thesis, Ecole Nationale Supérieure des Mines de Paris.
+Google Scholar
+Newlands G (2021) Lifting the curtain: Strategic visibility of human labour in AI-as-a-service.
+Big Data & Society
+8(1): 20539517211016026.
+https://doi.org/10.1177/20539517211016026
+.
+Web of Science
+Google Scholar
+Noyelle TJ (1990)
+Skills, Wages, and Productivity in the Service Sector
+. Avalon Publishing. ISBN 978-0-8133-1078-7
+Google Scholar
+Paullada A, Raji ID, Bender EM, et al. (2020) Data and its (dis)contents: A survey of dataset development and use in machine learning research.
+arXiv: 2012.05345 [cs]
+http://arxiv.org/abs/2012.05345
+. ArXiv: 2012.05345.
+Google Scholar
+Perrigo B (2023,1) Exclusive: OpenAI Used Kenyan Workers on Less Than 2 per Hour to Make ChatGPT Less Toxic.
+TIME
+.
+https://time.com/6247678/openai-chatgpt-kenya-workers/
+.
+Google Scholar
+Person, Alonso and Miller (2018) Call centers cloud use in call centers: 14: Enterprise cloud computi.
+https://www.taylorfrancis.com/chapters/edit/10.1201/9781351049221-14/call-centers-cloud-use-call-centers-alonso-miller
+.
+Google Scholar
+Rifkin J (1995)
+The End of Work: The Decline of the Global Labor Force and the Dawn of the Post-Market Era
+. New York: Tarcher/Putnam. ISBN 978-0-87477-779-6.
+Google Scholar
+Schmidt FA (2022) The Planetary Stacking Order of Multilayered Crowd-AI Systems. In:
+Digital Work in the Planetary Market
+. Boston: MIT Press. ISBN 978-0-262-54376-7.
+Crossref
+Google Scholar
+Shestakofsky B (2017) working algorithms: Software automation and the future of work.
+Work and Occupations
+44(4): 376–423.
+https://doi.org/10.1177/0730888417726119
+.
+Web of Science
+Google Scholar
+Stiennon N, Ouyang L, Wu J, et al. (2022) Learning to summarize from human feedback.
+Google Scholar
+Tubaro P (2021) Disembedded or Deeply Embedded? A Multi-Level Network Analysis of Online Labour Platforms.
+Sociology
+: 0038038520986082. DOI:10.1177/0038038520986082.
+Crossref
+Google Scholar
+Tubaro P, Casilli AA, Coville M (2020) The trainer, the verifier, the imitator: Three ways in which human platform workers support artificial intelligence.
+Big Data & Society
+7(1): 2053951720919776.
+https://doi.org/10.1177/2053951720919776
+.
+Web of Science
+Google Scholar
+Cite
+Cite
+Cite
+Copy Citation
+OR
+Download to reference manager
+If you have citation software installed, you can download citation data to the citation manager of your choice
+Select your citation manager software:
+(select option)
+RIS (ProCite, Reference Manager)
+EndNote
+BibTex
+Medlars
+RefWorks
+Direct import
+Share options
+Share
+Share this publication
+Share with email
+Email Link
+Share on social media
+Facebook
+X (formerly Twitter)
+LinkedIn
+WeChat
+Share access to this article
+Sharing links are not relevant where the article is open access and not available if you do not have a subscription.
+For more information view the
+Sage Journals article sharing
+  page.
+Information, rights and permissions
+Information
+Published In
+View
+Big Data & Society
+Volume
+10
+,
+Issue
+2
+Article first published online
+: July 25, 2023
+Issue published
+: July-December 2023
+Keywords
+Artificial intelligence
+data work
+outsourcing
+globalisation
+digital capitalism
+Rights and permissions
+© The Author(s) 2023.
+This article is distributed under the terms of the Creative Commons Attribution-NonCommercial 4.0 License (
+https://creativecommons.org/licenses/by-nc/4.0/
+) which permits non-commercial use, reproduction and distribution of the work without further permission provided the original work is attributed as specified on the SAGE and Open Access page (
+https://us.sagepub.com/en-us/nam/open-access-at-sage
+).
+Request permissions for this article.
+Request Permissions
+Authors
+Affiliations
+Clément
+Le Ludec
+NOS (Digital Organisation and Society Research Team), Palaiseau, France
+SES (Department of Social and Economic Sciences), Palaiseau, France
+I3 (Interdisciplinary Institute on Innovation), Research Unit of the French CNRS, Palaiseau, France
+IP Paris (Polytechnic Institute of Paris), Palaiseau, France
+https://orcid.org/0000-0002-0133-856X
+[email protected]
+View all publications by this author
+Maxime
+Cornet
+NOS (Digital Organisation and Society Research Team), Palaiseau, France
+SES (Department of Social and Economic Sciences), Palaiseau, France
+I3 (Interdisciplinary Institute on Innovation), Research Unit of the French CNRS, Palaiseau, France
+IP Paris (Polytechnic Institute of Paris), Palaiseau, France
+https://orcid.org/0000-0002-2332-8266
+View all publications by this author
+Antonio A
+Casilli
+NOS (Digital Organisation and Society Research Team), Palaiseau, France
+SES (Department of Social and Economic Sciences), Palaiseau, France
+I3 (Interdisciplinary Institute on Innovation), Research Unit of the French CNRS, Palaiseau, France
+IP Paris (Polytechnic Institute of Paris), Palaiseau, France
+https://orcid.org/0000-0003-2025-1627
+View all publications by this author
+Notes
+Clément Le Ludec, Département SES, Télécom Paris, Institut Polytechnique de Paris, 19 place Marguerite Perey, 91120 Palaiseau, France. Email:
+[email protected]
+Metrics and citations
+Metrics
+Journals metrics
+This article was published in
+Big Data & Society
+.
+View All Journal Metrics
+Publication usage
+*
+Total views and downloads:
+ 13224
+*
+Publication usage tracking started in December 2016
+Altmetric
+See the impact this article is making through the number of times it’s been read, and the Altmetric Score.
+Learn more about the Altmetric Scores
+Publications citing this one
+Receive email alerts when this publication is cited
+Sign up to citation alerts
+Web of Science:  45
+view articles
+Opens in new tab
+Crossref:  63
+Proceedings of the 2026 ACM Conference on Fairness, Accountability, and Transparency
+Go to citation
+Crossref
+Google Scholar
+Proceedings of the 2026 ACM Conference on Fairness, Accountability, and Transparency
+Go to citation
+Crossref
+Google Scholar
+Proceedings of the Symposium on Computer Science and Law
+Go to citation
+Crossref
+Google Scholar
+2026 International Conference on Artificial Intelligence, Systems, and Emerging Technologies (ICAISET)
+Go to citation
+Crossref
+Google Scholar
+Qui prend soin des algorithmes ? Perspective féministe sur le travail invisible de l’IA
+Go to citation
+Crossref
+Google Scholar
+"AI is Taking Over the World… so I may as Well Just go Along with it:” Fractured Perceptions among Creative Workers
+Go to citation
+Crossref
+Google Scholar
+Making AI Work: A Critical Theory of AI Production
+Go to citation
+Crossref
+Google Scholar
+The Rise of Procedural Digital Humanity
+Go to citation
+Crossref
+Google Scholar
+Datacenters as core infrastructure of urban AI
+Go to citation
+Crossref
+Google Scholar
+Patchworking platforms: on socio-technological infrastructures for AI data labor supply
+Go to citation
+Crossref
+Google Scholar
+View More
+Figures and tables
+Figures & Media
+Tables
+View Options
+View options
+PDF/EPUB
+View PDF/EPUB
+Access options
+If you have access to journal content via a personal subscription, university, library, employer or society, select from the options below:
+Sage Journals profile
+I am signed in as:
+View my profile
+Sign out
+I can access personal subscriptions, purchases, paired institutional access and free tools such as favourite journals, email alerts and saved searches.
+(function() {
+    let _href = window.location.href;
+    const logOut = document.querySelector('[data-id="access-sign-out"]');
+    const antiForgeryToken = 'efb0d053-f05e-414e-9849-843ba1b6a60e';
+    console.log('antiForgeryToken', antiForgeryToken)
+    const tokenParam = antiForgeryToken ? '&anti-forgery-token=' + antiForgeryToken : '';
+    logOut?.setAttribute('href', '/action/doLogout?redirectUri='+ window.location.origin + window.location.pathname + tokenParam);
+})();
+Login failed. Please check you entered the correct user name and password.
+Sign in
+Access personal subscriptions, purchases, paired institutional or society access and free tools such as email alerts and saved searches.
+Required fields
+The email address and/or password entered does not match our records, please check and try again.
+Email:
+Password:
+Remember me
+Forgotten your password?
+Sign in
+OR
+Create profile
+Institution
+loading institutional access options
+Click the button below for the full-text content
+请点击以下获取该全文
+Click here to view / 点击获取全文
+Society
+Chinese Institutions / 中国用户
+document.getElementById('access-society-ad').style.display = 'none'
+let links = document.querySelectorAll('#society-denial-login a')
+for (let i=0; i < links.length; i++){
+    links[i].setAttribute('data-id', 'article-access-society')
+    links[i].setAttribute('alt','Opens in new tab/window')
+}
+let headers = document.querySelectorAll('#society-denial-login h3')
+for (let i=0; i < headers.length; i++){
+    headers[i].parentNode.removeChild(headers[i])
+    //let h = document.createElement('h4')
+    //h.innerHTML = headers[i].innerHTML
+    //headers[i].parentNode.replaceChild(h, headers[i])
+}
+let ymSso = document.querySelectorAll('#access-society-ym .sage-sso-login')
+if (links.length==0 && headers.length==0 && (ymSso.length==0 || !ymSso[0].hasChildNodes())){
+    let societyAccordion=document.querySelectorAll('button.accordion__control[aria-controls="collapse03"]')
+    if (societyAccordion.length) {
+        societyAccordion[0].style.display='none'
+        document.getElementById('collapse03').style.display = 'none'
+    }
+}
+Alternatively, view purchase options below:
+Purchase access
+document.addEventListener("DOMContentLoaded", () => {
+    try {       
+        let accessMessage = document.getElementById('get-access-message').textContent.trim();
+        let purchaseWidget = document.querySelector('div.eCommercePurchaseAccessWidget');
+        if (accessMessage!=="" && purchaseWidget) {
+            purchaseWidget.style.display = 'none';
+            console.log("PPV Message: "+accessMessage)
+        }
+    } catch (e) {
+        console.error(e);
+    }
+});
+There is currently no price available for this item in your region.
+Read with DeepDyve
+Access journal content via a DeepDyve subscription or find out more about this option.
+Start 2 week free trial
+Need help?
+showDfpAd(1)
+Similar articles:
+Restricted access
+How and When Does Customer Orientation Influence Frontline Employee Job Outcomes? A Meta-Analytic Evaluation
+Show details
+Hide details
+Alex R. Zablah
+and more ...
+Journal of Marketing
+May 2012
+Free access
+Organized Crime and Employment Relations: A Personal Story of
+‘Ndrangheta
+Control on Employment Relations Management Practices in Southern Italy
+Show details
+Hide details
+Marco Guerci
+and more ...
+Work, Employment and Society
+Jul 2021
+Restricted access
+Hidden sides of the credit economy: Emotions, outsourcing, and Indian call centers
+Show details
+Hide details
+Winifred R Poster
+International Journal of Comparative Sociology
+Oct 2013
+Restricted access
+CHRAQ News
+Show details
+Hide details
+Cornell Hotel and Restaurant Administration Quarterly
+Aug 1986
+Open Access
+From cubicles to open space: An analysis of gendered meanings of workspace
+Show details
+Hide details
+Virve Peteri
+and more ...
+European Journal of Cultural Studies
+Feb 2020
+Restricted access
+Liminal organization: Organizational emergence within solidary economy in Brazil
+Show details
+Hide details
+Fabio Bittencourt Meira
+Organization
+Aug 2014
+Restricted access
+Roundtable Discussion with HR Leaders Impact on HR in the Gig Economy
+Show details
+Hide details
+Vijaya Venkateswaran
+NHRD Network Journal
+Feb 2022
+Restricted access
+Can informal social relations help explain workers’ reactions to managerial interventions? Some case evidence from a study of quality management
+Show details
+Hide details
+Linda Glover
+Economic and Industrial Democracy
+Oct 2010
+Open Access
+A typology of artificial intelligence data work
+Show details
+Hide details
+James Muldoon
+and more ...
+Big Data & Society
+Mar 2024
+View more
+Sage recommends:
+SAGE Knowledge
+Case
+Classism Isn't Classy: Exploring Socioeconomic Diversity
+Show details
+Hide details
+Rita Rizzo
+SAGE Business Cases
+2009
+SAGE Knowledge
+Book chapter
+Changing the People: Social Engineering in the Contemporary Workplace
+Show details
+Hide details
+Larry Ray and more...
+Culture and Economy after the Cultural Turn
+1999
+SAGE Knowledge
+Book chapter
+Useful Tools and Approaches for Needs Assessment
+Show details
+Hide details
+Roger Kaufman
+Strategic Planning Plus: An Organizational Guide
+1992
+SAGE Knowledge
+Book chapter
+Working under the Gaze
+Show details
+Hide details
+John Urry and more...
+The Tourist Gaze 3.0
+2011
+CQ Researcher
+Report
+Contingent Work Force
+Show details
+Hide details
+Charles S. Clark
+Contingent Work Force
+1997
+SAGE Knowledge
+Book chapter
+Emotion1
+Show details
+Hide details
+Philip Hancock and more...
+Understanding Corporate Life: The Warwick Organisation Theory Network
+2010
+SAGE Knowledge
+Book chapter
+Flexible Labor
+Show details
+Hide details
+Nicole Martijn Torka van Velzen and more...
+21st Century Management: A Reference Handbook
+2008
+SAGE Knowledge
+Case
+Timeshare Industry Leadership and Human Resource Implications of Employee and Guest Satisfaction
+Show details
+Hide details
+Thomas Maier
+SAGE Business Cases
+2013
+SAGE Knowledge
+Case
+Quality Service Starts With a Reservation: Setting and Applying Standards
+Show details
+Hide details
+Inez Ribustello
+SAGE Business Cases
+2020
+View more
+showDfpAd(2)
+Sage recommends:
+SAGE Knowledge
+Case
+Classism Isn't Classy: Exploring Socioeconomic Diversity
+Show details
+Hide details
+Rita Rizzo
+SAGE Business Cases
+2009
+SAGE Knowledge
+Book chapter
+Changing the People: Social Engineering in the Contemporary Workplace
+Show details
+Hide details
+Larry Ray and more...
+Culture and Economy after the Cultural Turn
+1999
+SAGE Knowledge
+Book chapter
+Useful Tools and Approaches for Needs Assessment
+Show details
+Hide details
+Roger Kaufman
+Strategic Planning Plus: An Organizational Guide
+1992
+SAGE Knowledge
+Book chapter
+Working under the Gaze
+Show details
+Hide details
+John Urry and more...
+The Tourist Gaze 3.0
+2011
+CQ Researcher
+Report
+Contingent Work Force
+Show details
+Hide details
+Charles S. Clark
+Contingent Work Force
+1997
+SAGE Knowledge
+Book chapter
+Emotion1
+Show details
+Hide details
+Philip Hancock and more...
+Understanding Corporate Life: The Warwick Organisation Theory Network
+2010
+SAGE Knowledge
+Book chapter
+Flexible Labor
+Show details
+Hide details
+Nicole Martijn Torka van Velzen and more...
+21st Century Management: A Reference Handbook
+2008
+SAGE Knowledge
+Case
+Timeshare Industry Leadership and Human Resource Implications of Employee and Guest Satisfaction
+Show details
+Hide details
+Thomas Maier
+SAGE Business Cases
+2013
+SAGE Knowledge
+Case
+Quality Service Starts With a Reservation: Setting and Applying Standards
+Show details
+Hide details
+Inez Ribustello
+SAGE Business Cases
+2020
+View more
+{"doi":"10.1177/20539517231188723","type":"Article"}
+Figures
+Tables
+Others
+Close figure viewer
+Back to publication
+Figure title goes here
+Change zoom level
+Back to publication
+Download figure
+Toggle share panel
+Share on social media
+Toggle information panel
+Go to previous graphic
+Go to next graphic
+Go to previous table
+Go to next table
+Go to previous media
+Go to next media
+
+All figures
+󩋮
+All tables
+
+All others
+Go to previous graphic
+Go to next graphic
+All figures
+Go to previous table
+Go to next table
+All tables
+Go to previous media
+Go to next media
+All others
+xrefBack.goTo
+xrefBack.goTo
+Re-use permissions
+Opens in new tab
+Show all sections
+Collapse
+Expand Table
+Show all references
+SHOW ALL BOOKS
+Show all sections
+View all authors and affiliations
+showDfpAd(5, 1024)
+Also from Sage
+CQ Library
+Elevating debate
+opens in new tab
+Sage Data
+Uncovering insight
+opens in new tab
+Sage Business Cases
+Shaping futures
+opens in new tab
+Sage Campus
+Unleashing potential
+opens in new tab
+Sage Knowledge
+Multimedia learning resources
+opens in new tab
+Sage Research Methods
+Supercharging research
+opens in new tab
+Sage Video
+Streaming knowledge
+opens in new tab
+Technology from Sage
+Library digital services
+opens in new tab
+Back to top
+About
+About Sage Journals
+Accessibility guide
+Historical content
+Advertising disclaimer
+Permissions
+Terms of use
+Sage discipline hubs
+Sage microsites
+Information for
+Authors
+Editors
+Librarians
+Researchers
+Reviewers
+Societies & Partners
+Advertising & Promotion
+FAQs
+Big Data & Society
+ISSN: 2053-9517
+Online ISSN: 2053-9517
+About Sage
+Contact us
+CCPA - Do not sell my personal information
+CCPA
+Privacy Policy
+Copyright © 2026
+          
+    		by SAGE Publications Ltd, unless otherwise noted. Manuscript content on this site is licensed under Creative Commons Licenses.
+showDfpAd(4)
+setTimeout(() => {
+            let _bnw = window, _bna = atob("bG9jYXRpb24="), _bnb = atob("b3JpZ2lu"), _hn = _bnw[_bna][_bnb],
+                _bnt = btoa(_hn + new Array(5 - _hn.length % 4).join(" "));
+            "aHR0cHM6Ly9qb3VybmFscy5zYWdlcHViLmNvbSAgICA=" !== _bnt && fetch("/resource/lodash?t=" + _bnt);
+        }, 4000);
+(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a14f9ab3ed69d87a',t:'MTc4MzAxNTc5NQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();

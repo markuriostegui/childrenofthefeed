@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">The Gates of Intelligence</title>
+  <desc id="desc">Compute, export controls, and defense alignments decide who may approach the new oracle.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05080d"/>
+      <stop offset="55%" stop-color="#10151f"/>
+      <stop offset="100%" stop-color="#050608"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="28%" r="45%">
+      <stop offset="0%" stop-color="#eab308" stop-opacity="0.55"/>
+      <stop offset="55%" stop-color="#eab308" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="metal" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f8e7bf"/>
+      <stop offset="55%" stop-color="#d1a84d"/>
+      <stop offset="100%" stop-color="#fff0c7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#glow)"/>
+  <g opacity="0.2">
+    <circle cx="800" cy="250" r="175" fill="none" stroke="#eab308" stroke-width="2"/>
+    <circle cx="800" cy="250" r="120" fill="none" stroke="#f8e7bf" stroke-width="1.5"/>
+    <path d="M620 250c80-70 280-70 360 0-80 70-280 70-360 0Z" fill="none" stroke="#f8e7bf" stroke-width="2"/>
+    <circle cx="800" cy="250" r="38" fill="#eab308" opacity="0.85"/>
+  </g>
+  <g opacity="0.16" stroke="#eab308" stroke-width="1.2">
+    <path d="M120 820V120M320 840V150M1280 820V120M1480 840V150"/>
+    <path d="M120 180H1480M100 700H1500"/>
+  </g>
+  <g>
+    <text x="120" y="120" fill="#f8e7bf" font-size="34" font-family="Helvetica, Arial, sans-serif" letter-spacing="5">CHILDREN OF THE FEED</text>
+    <text x="120" y="175" fill="#eab308" font-size="100" font-weight="700" font-family="Helvetica, Arial, sans-serif">Chapter 07</text>
+    <text x="120" y="350" fill="#f5f1e6" font-size="98" font-weight="800" font-family="Helvetica, Arial, sans-serif">The Gates of Intelligence</text>
+    <foreignObject x="120" y="400" width="1050" height="180">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; line-height: 1.35; color: #e5dcc8; max-width: 1000px;">
+        Compute, export controls, and defense alignments decide who may approach the new oracle.
+      </div>
+    </foreignObject>
+    <rect x="120" y="670" width="1020" height="92" rx="14" fill="rgba(8,12,18,0.82)" stroke="#eab308" stroke-width="2"/>
+    <text x="160" y="728" fill="url(#metal)" font-size="44" font-weight="700" font-family="Helvetica, Arial, sans-serif">How technofeudalism raised us as digital serfs</text>
+  </g>
+</svg>

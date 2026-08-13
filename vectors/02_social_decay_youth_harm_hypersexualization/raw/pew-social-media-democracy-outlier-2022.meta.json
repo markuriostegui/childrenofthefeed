@@ -1,0 +1,12 @@
+{
+  "source_id": "pew-social-media-democracy-outlier-2022",
+  "vector_id": "02_social_decay_youth_harm_hypersexualization",
+  "url": "https://www.pewresearch.org/global/2022/12/06/social-media-seen-as-mostly-good-for-democracy-across-many-nations-but-u-s-is-a-major-outlier/",
+  "captured_at": "2026-07-03T01:30:11Z",
+  "mode": "manual-web-extract",
+  "paths": [
+    "/Users/hassan/repos/AI-Empire/vectors/02_social_decay_youth_harm_hypersexualization/raw/pew-social-media-democracy-outlier-2022.html",
+    "/Users/hassan/repos/AI-Empire/vectors/02_social_decay_youth_harm_hypersexualization/raw/pew-social-media-democracy-outlier-2022.txt"
+  ],
+  "note": "Manual normalized text artifact created from a verified HTML capture of the Pew report."
+}

@@ -1,0 +1,11 @@
+{
+  "source_id": "meta-proxy-2022-thiel-retirement",
+  "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680122000043/meta2022definitiveproxysta.htm",
+  "captured_at": "2026-07-02T16:58:19Z",
+  "mode": "manual-import",
+  "vector_id": "11_facebook_thiel_intelligence_adjacency",
+  "paths": [
+    "/Users/hassan/repos/AI-Empire/vectors/11_facebook_thiel_intelligence_adjacency/raw/meta-proxy-2022-thiel-retirement.html",
+    "/Users/hassan/repos/AI-Empire/vectors/11_facebook_thiel_intelligence_adjacency/raw/meta-proxy-2022-thiel-retirement.txt"
+  ]
+}

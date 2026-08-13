@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ChapterMap",
+  "type": "object",
+  "required": ["chapters"],
+  "properties": {
+    "chapters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["chapter_id", "title", "vector_ids"],
+        "properties": {
+          "chapter_id": {"type": "string"},
+          "title": {"type": "string"},
+          "vector_ids": {"type": "array", "items": {"type": "string"}},
+          "core_thesis": {"type": ["string", "null"]}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+Title: In Oxford Handbook on AI Governance: The Role of Workers in AI Ethics and Governance
+Publisher: arXiv
+Published at: 2021-08-05
+
+Working extract:
+This chapter argues that workers are essential actors in AI governance because they often encounter harms, misuses, and failures before outside observers do. It links worker voice, collective action, whistleblowing, and labor standards to the governance of deployed systems. The paper critiques ethics frameworks that focus only on designers or regulators while ignoring workers as a source of operational oversight.

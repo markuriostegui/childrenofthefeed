@@ -1,0 +1,2704 @@
+var site_locale = decodeURIComponent("en_US");
+	var login_status = decodeURIComponent("no");
+	var post_type = decodeURIComponent("post");
+	var gtm_category = decodeURIComponent("Company%20News");
+	var gtm_categories = JSON.parse( decodeURIComponent( '%5B%22Company%20News%22%2C%22Meta%22%2C%22Meta%20Quest%22%2C%22Recent%20News%22%2C%22Sidebar%20-%20Featured%22%2C%22Technology%20and%20Innovation%22%5D'));
+	var gtm_tags = JSON.parse( decodeURIComponent( '%5B%22Augmented%20Reality%22%2C%22Metaverse%22%2C%22Virtual%20Reality%22%5D'));		
+	window.dataLayer = window.dataLayer || [];
+	window.dataLayer.push({
+		"language": site_locale,
+		"is_logged_in": login_status,
+		"post_type": post_type,
+		"post_category": gtm_category,
+		"post_categories":gtm_categories,
+		"post_tags":gtm_tags,
+		"gtm_complete": "yes"
+	});
+The Facebook Company Is Now Meta | Meta
+{"@context":"https://schema.org","@graph":[{"@type":"NewsArticle","@id":"https://about.fb.com/news/2021/10/facebook-company-is-now-meta/#article","isPartOf":{"@id":"https://about.fb.com/news/2021/10/facebook-company-is-now-meta/"},"author":"Facebook company","headline":"Introducing Meta: A Social Technology Company","datePublished":"2021-10-28T18:18:44+00:00","dateModified":"2022-11-07T19:07:57+00:00","mainEntityOfPage":{"@id":"https://about.fb.com/news/2021/10/facebook-company-is-now-meta/"},"wordCount":472,"publisher":{"@id":"https://about.fb.com/#organization"},"image":{"@id":"https://about.fb.com/news/2021/10/facebook-company-is-now-meta/#primaryimage"},"thumbnailUrl":"https://about.fb.com/wp-content/uploads/2021/10/Meta-Planets-img-16x9-1.jpg?w=1200","keywords":["Augmented Reality","Metaverse","Virtual Reality"],"articleSection":["Company News","Meta","Meta Quest","Recent News","Sidebar - Featured","Technology and Innovation"],"inLanguage":"en-US","articleBody":"Today at Connect 2021, CEO Mark Zuckerberg introduced Meta, which brings together our apps and technologies under one new company brand. Meta's focus will be to bring the metaverse to life and help people connect, find communities and grow businesses.\r\n\r\nThe metaverse will feel like a hybrid of today’s online social experiences, sometimes expanded into three dimensions or projected into the physical world. It will let you share immersive experiences with other people even when you can’t be together — and do things together you couldn’t do in the physical world. It’s the next evolution in a long line of social technologies, and it’s ushering in a new chapter for our company. Mark shared more about this vision in a founder's letter.\r\n\r\nOur annual Connect conference brings together augmented and virtual reality developers, content creators, marketers and others to celebrate the industry’s momentum and growth. This year’s virtual event explored what experiences in the metaverse could feel like over the next decade — from social connection, to entertainment, gaming, fitness, work, education and commerce. We also announced new tools to help people build for the metaverse, including Presence Platform, which will enable new mixed reality experiences on Quest 2, and a $150-million investment in immersive learning to train the next generation of creators.\r\n\r\nYou can watch the full Connect keynote and learn more about how the metaverse will unlock new opportunities at meta.com. You can also learn more about our work over the past several months to develop the Meta brand on our design blog. Read all our news in the posts below:\r\n\r\n \tConnect 2021: Our Vision for the Metaverse\r\n \tHorizon Home, the Future of Work, Presence Platform, and More\r\n \tProject Aria Update\r\n \tHow VR Is Changing the Way We Collaborate and Get Things Done\r\n \tGaming News\r\n \t‘Blade &amp; Sorcery: Nomad’ Is Coming to Oculus Quest\r\n \tSpark AR Roundup\r\n \tSpark AR Certification &amp; Professional Course Preview\r\n\r\nOur corporate structure is not changing, however, how we report on our financials will. Starting with our results for the fourth quarter of 2021, we plan to report on two operating segments: Family of Apps and Reality Labs. We also intend to start trading under the new stock ticker we have reserved, MVRS, on December 1. Today’s announcement does not affect how we use or share data.\r\n\r\nSee also: Building the Metaverse Responsibly, Expanding Horizon: New Funding to Support Creators, Introducing Our New Company Brand (2019)\r\n\r\nWhat is Meta?\r\n\r\nMeta builds technologies that help people connect, find communities, and grow businesses. When Facebook launched in 2004, it changed the way people connect. Apps like Messenger, Instagram and WhatsApp further empowered billions around the world. Now, Meta is moving beyond 2D screens toward immersive experiences like augmented and virtual reality to help build the next evolution in social technology.","description":"The metaverse is the next evolution in a long line of social technologies, and it’s ushering in a new chapter for our company.","isAccessibleForFree":true},{"@type":"WebPage","@id":"https://about.fb.com/news/2021/10/facebook-company-is-now-meta/","url":"https://about.fb.com/news/2021/10/facebook-company-is-now-meta/","name":"The Facebook Company Is Now Meta | Meta","isPartOf":{"@id":"https://about.fb.com/#website"},"primaryImageOfPage":{"@id":"https://about.fb.com/news/2021/10/facebook-company-is-now-meta/#primaryimage"},"image":{"@id":"https://about.fb.com/news/2021/10/facebook-company-is-now-meta/#primaryimage"},"thumbnailUrl":"https://about.fb.com/wp-content/uploads/2021/10/06_211025_CompanyEC_16x9__30fps__1080-1.gif?fit=1920%2C1080","datePublished":"2021-10-28T18:18:44+00:00","dateModified":"2022-11-07T19:07:57+00:00","description":"CEO Mark Zuckerberg announced Meta, a new company brand for Facebook apps and technologies.","breadcrumb":{"@id":"https://about.fb.com/news/2021/10/facebook-company-is-now-meta/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://about.fb.com/news/2021/10/facebook-company-is-now-meta/"]}],"author":"Meta Newsroom"},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://about.fb.com/news/2021/10/facebook-company-is-now-meta/#primaryimage","url":"https://about.fb.com/wp-content/uploads/2021/10/06_211025_CompanyEC_16x9__30fps__1080-1.gif?fit=1920%2C1080","contentUrl":"https://about.fb.com/wp-content/uploads/2021/10/06_211025_CompanyEC_16x9__30fps__1080-1.gif?fit=1920%2C1080","width":1920,"height":1080,"caption":"Facebook to Meta logo transformation animation"},{"@type":"BreadcrumbList","@id":"https://about.fb.com/news/2021/10/facebook-company-is-now-meta/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://about.fb.com/"},{"@type":"ListItem","position":2,"name":"Newsroom","item":"https://about.fb.com/news/"},{"@type":"ListItem","position":3,"name":"Introducing Meta: A Social Technology Company"}]},{"@type":"WebSite","@id":"https://about.fb.com/#website","url":"https://about.fb.com/news/","name":"Meta Newsroom","description":"","publisher":{"@id":"https://about.fb.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://about.fb.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US","alternateName":["Meta Newsroom","Meta"]},{"@type":"Organization","@id":"https://about.fb.com/#organization","name":"Meta","url":"https://about.fb.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://about.fb.com/#/schema/logo/image/","url":"https://about.fb.com/wp-content/uploads/2023/09/Meta-logo-PNG-1.png?fit=2048%2C883","contentUrl":"https://about.fb.com/wp-content/uploads/2023/09/Meta-logo-PNG-1.png?fit=2048%2C883","width":2048,"height":883,"caption":"Meta"},"image":{"@id":"https://about.fb.com/#/schema/logo/image/"}}]}
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=wp-block-library-inline-css */
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+/* <![CDATA[ */
+var related_posts_js_options = {"post_heading":"h4"};
+//# sourceURL=jetpack_related-posts-js-extra
+/* ]]> */
+/* <![CDATA[ */
+if (window.gdprSafeTrack) {
+						window.gdprSafeTrack(function() {
+							var google_tag_manager  = decodeURIComponent( 'GTM-W5J2VCV' );
+							(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+							new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+							j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+							'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+							})(window,document,'script','dataLayer',google_tag_manager);
+						});
+					}
+//# sourceURL=gdprconsent-js-after
+/* ]]> */
+/* <![CDATA[ */
+var fbcorp_alert_bar = {"domain":"about.fb.com","site_locale":"en_US","locale_selects":{"en_US":{"dir":"","lang":"en","label":"Viewing this site in","locales":{"en_US":"English","pt_BR":"Portugese","de_DE":"German","fr_FR":"French","ja_JP":"Japanese","ko_KR":"Korean","es_419":"Spanish (LTAM)","es_ES":"Spanish (ES)"}},"pt_BR":{"dir":"br","lang":"pt","label":"Voc\u00ea est\u00e1 visualizando este site em","locales":{"en_US":"Ingl\u00eas","pt_BR":"Portugu\u00eas","de_DE":"Alem\u00e3o","fr_FR":"Franc\u00eas","ja_JP":"Japon\u00eas","ko_KR":"Coreano","es_419":"Espanhol (LTAM)","es_ES":"Espanhol (ES)"}},"de_DE":{"dir":"de","lang":"de","label":"Diese Seite anzeigen auf","locales":{"en_US":"Englisch","pt_BR":"Portugiesisch","de_DE":"Deutsch","fr_FR":"Franz\u00f6sisch","ja_JP":"Japanisch","ko_KR":"Koreanisch","es_419":"Spanisch (LTAM)","es_ES":"Spanisch (ES)"}},"fr_FR":{"dir":"fr","lang":"fr","label":"Vous consultez ce site en","locales":{"en_US":"Anglais","pt_BR":"Portugais","de_DE":"Allemand","fr_FR":"Fran\u00e7ais","ja_JP":"Japonais","ko_KR":"Cor\u00e9en","es_419":"Espagnol (LTAM)","es_ES":"Espagnol (ES)"}},"ja_JP":{"dir":"ja","lang":"ja","label":"\u3053\u306e\u30b5\u30a4\u30c8\u3092\u6b21\u306e\u8a00\u8a9e\u3067\u8868\u793a","locales":{"en_US":"\u82f1\u8a9e","pt_BR":"\u30dd\u30eb\u30c8\u30ac\u30eb\u8a9e","de_DE":"\u30c9\u30a4\u30c4\u8a9e","fr_FR":"\u30d5\u30e9\u30f3\u30b9\u8a9e","ja_JP":"\u65e5\u672c\u8a9e","ko_KR":"\u97d3\u56fd\u8a9e","es_419":"\u30b9\u30da\u30a4\u30f3\u8a9e (LTAM)","es_ES":"\u30b9\u30da\u30a4\u30f3\u8a9e (ES)"}},"ko_KR":{"dir":"ko","lang":"ko","label":"\ub2e4\uc74c \uc5b8\uc5b4\ub85c \ud45c\uc2dc \uc911","locales":{"en_US":"\uc601\uc5b4","pt_BR":"\ud3ec\ub974\ud22c\uac08\uc5b4","de_DE":"\ub3c5\uc77c\uc5b4","fr_FR":"\ud504\ub791\uc2a4\uc5b4","ja_JP":"\uc77c\ubcf8\uc5b4","ko_KR":"\ud55c\uad6d\uc5b4","es_419":"\uc2a4\ud398\uc778\uc5b4 (LTAM)","es_ES":"\uc2a4\ud398\uc778\uc5b4 (ES)"}},"es_419":{"dir":"ltam","lang":"es","label":"Este sitio se est\u00e1 viendo en","locales":{"en_US":"Ingl\u00e9s","pt_BR":"Portugu\u00e9s","de_DE":"Alem\u00e1n","fr_FR":"Franc\u00e9s","ja_JP":"Japon\u00e9s","ko_KR":"Coreano","es_419":"Espa\u00f1ol (LTAM)","es_ES":"Espa\u00f1ol (ES)"}},"es_ES":{"dir":"es","lang":"es","label":"Este sitio se est\u00e1 viendo en","locales":{"en_US":"Ingl\u00e9s","pt_BR":"Portugu\u00e9s","de_DE":"Alem\u00e1n","fr_FR":"Franc\u00e9s","ja_JP":"Japon\u00e9s","ko_KR":"Coreano","es_419":"Espa\u00f1ol (LTAM)","es_ES":"Espa\u00f1ol (ES)"}}}};
+//# sourceURL=fbcorp-alert-bar-js-extra
+/* ]]> */
+.wpcom-related-posts ul li {
+				list-style-type: none;
+				display: inline-block;
+			}
+@media (max-width: 639px) {
+.archive.category .loop-section.archive-posts-section .posts-and-pagination, .archive.tag .loop-section.archive-posts-section .posts-and-pagination {
+margin-left: -20px !important;
+}
+}
+
+@media (min-width: 640px) and (max-width: 991px) {
+.archive.category .loop-section.archive-posts-section .posts-and-pagination, .archive.tag .loop-section.archive-posts-section .posts-and-pagination {
+padding-left: 30px !important;
+}
+}
+
+.single b, .single strong {
+	font-family: 'Optimistic Text', Helvetica, Arial, 'NotoSans', 'NotoSansJP', 'NotoSansKR', sans-serif;
+}
+
+.product-grid {
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+	gap: 20px;
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.product-column {
+	flex: 1;
+	max-width: 33.33%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.product-column img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+.product-column h3 {
+	margin: 10px 0 5px;
+	font-size: 16px;
+}
+
+.product-link {
+	color: #0073e6;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.product-link:hover {
+	text-decoration: underline;
+}
+
+.twocolumn-mm.shop {
+	padding-right: 5%;
+}
+
+.twocolumn-mm.shop .footer-column-two:nth-child(5) {
+    width: 100%;
+    max-width: 100% !important;
+}
+
+.twocolumn-mm.shop > .footer-column-two:last-of-type {
+	display: none !important;
+}
+
+@media (min-width: 960px) {
+    .archive .archive-articles-2col-container {
+        margin-left: 40px !important;
+    }
+	.archive .archive-posts-container .uk-grid.archive-posts-grid {
+    	padding-left: 0px;
+    	padding-right: 0px;
+	}
+	.archive .maxw13 {
+		max-width: 1266px !important;
+	}
+}
+
+@media screen and (max-width: 959px) {
+    .search-query-container>.uk-grid, .search-posts-container>.uk-grid, .highlights-container>.uk-grid, .lowlight-container>.uk-grid, .archive-header-container>.uk-grid, .archive-posts-container>.uk-grid {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .archive .loop-section.archive-posts-section .posts-and-pagination {
+    	margin-left: -40px;
+	}
+}
+
+.query-and-results .uk-search-navbar .uk-search-input {
+    padding-left: 54px !important;
+}
+
+.mejs-poster.mejs-layer {
+    border-radius: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .blog .highlights-column-a, .blog .highlights-column-b {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+
+@media screen and (min-width: 1160px) {
+	.twocolumn-mm.our_technologies .footer-column-two .footer-col-title {
+    display: none;
+}
+}
+
+/* Nav Updates */
+
+/* 9/15 patch */
+.twocolumn-mm img {
+    max-height: 150px;
+    width: auto;
+    margin: 0px !important;
+}
+
+.twocolumn-mm.support {
+    justify-content: end;
+    float: right;
+    padding-left: 30%;
+    padding-right: 0%;
+}
+
+.twocolumn-mm.support > .footer-column-two {
+    order: 1;
+}
+  
+.twocolumn-mm.support > .footer-column-two:nth-child(3) { order: 3; }
+.twocolumn-mm.support > .footer-column-two:nth-child(4) { order: 4; }
+.twocolumn-mm.support > .footer-column-two:nth-child(5) { order: 5; }
+
+.twocolumn-mm img {
+    max-height: 150px;
+    width: auto;
+}
+
+.twocolumn-mm .widget_media_image {
+    text-align: center;
+}
+
+.twocolumn-mm .textwidget a {
+    font-size: 14px !important;
+    font-weight: 600;
+}
+
+.twocolumn-mm .textwidget p {
+    text-align: center;
+}
+
+.twocolumn-mm.shop .footer-column-two:nth-child(2n+2) {
+	display: block;
+}
+
+@media (max-width: 991px) {
+	.twocolumn-mm.shop li.js-accordion-item:nth-child(2n+2) {
+		display: block;
+	}
+	.twocolumn-mm.shop li.js-accordion-item:nth-child(1n+3) {
+		display: none;
+	}
+}
+
+.twocolumn-mm.shop .footer-column-two {
+    max-width: 247.8px !important;
+}
+
+.main-navigation li.menu-item > a.menu-link:hover,
+.main-navigation li.menu-item-depth-0 > button.menu-link:hover,
+.twocolumn-mm ul.menu li a:hover,
+.main-navigation li.menu-item-depth-0.active > button.menu-link,
+.main-navigation li.menu-item-depth-0.active > a {
+  background-color: #e3e3e5;
+}
+
+.main-navigation li.menu-item > a.menu-link:after,
+.main-navigation li.menu-item-depth-0 > button.menu-link:after,
+.twocolumn-mm ul.menu li a:after {
+  display: none;
+}
+
+@media (min-width: 992px) {
+	.main-navigation li.menu-item-depth-0 > a.menu-link {
+		margin: 22px 16px 25px;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+		border-radius: 24px;
+  }
+}
+
+@media (min-width: 1160px) {
+#site-navigation.main-navigation img.dd-arrow-img {
+    display: none;
+}
+}
+
+/* RTL Styling */
+.rtl_styling p {
+    direction: rtl !important;
+}
+
+.rtl_styling ul {
+    direction: rtl !important;
+    padding-right: 30px;
+    padding-left: 0px;
+}
+
+.rtl_styling li {
+    direction: rtl !important;
+}
+
+.rtl_styling li:after {
+    color: #677b8c;
+    content: "\2022";
+    display: inline-block;
+    font-size: 1em;
+    right: -1.1225em;
+    position: absolute;
+    top: 0;
+}
+
+.rtl_styling li:before {
+    content: none !important;
+}
+
+.gdprconsent-content .gdprconsent-button button {
+    visibility: hidden;
+}
+
+.footer-section .footer-container .faq-items .uk-accordion .js-accordion-item:nth-child(2) {
+    display: none;
+}
+
+/* Self-Host Video */
+.single-post .featured-container .featured-video .videoWrapper.selfvideo .wp-video,
+.single-post .featured-container .featured-video .videoWrapper.selfvideo .wp-video .wp-video-shortcode.mejs-video,
+.single-post .featured-container .featured-video .videoWrapper.selfvideo .wp-video .wp-video-shortcode.mejs-video .mejs-mediaelement mediaelementwrapper,
+.single-post .featured-container .featured-video .videoWrapper.selfvideo .wp-video .wp-video-shortcode video, video.wp-video-shortcode {
+    width: 100% !important;
+}
+
+.menuimg {
+    max-width: 190px !important;
+    margin: 20px 0px !important;
+}
+
+/* Footer Nav - 2022 */
+.footer-container .footer-column-widget.widget_nav_menu {
+    min-height: auto;
+    margin-bottom: 24px;
+}
+
+/*
+.subm-arrow {
+display: inline-block;
+transform: rotate(-45deg) translateY(2px);
+border: 1px solid #1c2b33;
+border-left: none;
+border-top: none;
+    height: 5px;
+    margin: 0 6px 4px 6px;
+    transition: transform 665ms cubic-bezier(0, 0, .1, 1);
+    width: 5px;
+}
+.twocolumn-mm .footer-col-title>a {
+    letter-spacing: 0px !important;
+}
+*/
+/* Remove Border on Slideshows */
+.single .jetpack-slideshow-window {
+    border: 0px;
+	    background-color: transparent;
+}
+/*
+@media (max-width: 480px) {
+.single .jetpack-slideshow-window {
+    padding-bottom: 53% !important;
+    width: 99%;
+}
+}
+
+@media (max-width: 415px) {
+.single .jetpack-slideshow-window {
+    padding-bottom: 53% !important;
+    width: 100%;
+}
+}
+
+@media (max-width: 391px) {
+.single .jetpack-slideshow-window {
+    padding-bottom: 52% !important;
+    width: 99%;
+}
+}
+
+@media (max-width: 376px) {
+.single .jetpack-slideshow-window {
+    padding-bottom: 52% !important;
+    width: 100%;
+}
+}
+
+@media (max-width: 321px) {
+.single .jetpack-slideshow-window {
+    padding-bottom: 51% !important;
+    width: 100%;
+}
+}
+*/
+div[data-adtags-width] {
+display: none !important;
+}
+
+/* SDG Page Nav Update */
+.page-template-page-sdg .site-header:not(.uk-active) .primary-menu > .menu-item > .menu-link {
+    color: inherit;
+}
+
+.footer-section {
+    background: #fff;
+}
+
+/* Nav */
+.has-hero-bg header.site-header {
+    border-bottom: 1px solid;
+    border-color: rgba(22,22,22,.16);
+    background: #fff;
+}
+/*
+.site-header:not(.uk-active) .primary-menu > .menu-item > .menu-link, .site-header:not(.uk-active) .search-glass-icon {
+    color: #677b8c !important;
+}
+*/
+.site-header:not(.uk-active) .menu-toggle-inner > .toggle-bar {
+    background-color: #677b8c !important;
+}
+
+/* Eyebrow */
+.news-label.label-line.label-meta, .cat-link.cat-slug-meta {
+    border-bottom-color: #1877F2;
+}
+.news-label.label-line.label-facebook, .cat-link.cat-slug-facebook {
+    border-bottom-color: #1877e9;
+}
+
+.site-footer .copyright {
+    text-transform: none;
+}
+
+/* Enforcement Page */
+.page-template-page-ce101 .selection-feedback h3 {
+    color: #ffffff;
+}
+.page-template-page-ce101 .hero-col-inner h1 {
+    color: #ffffff;
+}
+.page-enforcement div.uk-section:nth-child(4) {
+    display: none !important;
+}
+.single .slideshow-window {
+    margin-bottom: 1.5em !important;
+}
+@media (max-width: 639px) {
+a.app-icon {
+    margin-bottom: 0px;
+}
+.hero-mothers-day {
+    padding-top: 80px;
+}	
+}
+.home .home-hero .intro-featured {
+    max-width: 800px;
+}
+.page-template-page-reinvent .displaymax-exceeded.css-mode .js-slide-frame-fbcorp {
+    overflow-x: hidden;
+}
+
+.page-template-page-front-page button#js-open-hero-modal-desktop.arrow-link.arrow-link-varicolor span svg {
+    width: 34px;
+    height: 34px;
+}
+
+.page-template-page-front-page button#js-open-hero-modal-desktop.arrow-link.arrow-link-varicolor span {
+    margin-left: 0px;
+    width: 38px;
+}
+
+@media (max-width: 640px) {
+
+.page-template-page-reinvent .reinvent-context-section .section-col-inner.hero-col-inner {
+    padding-top: 0px;
+}
+
+.page-template-page-reinvent .reinvent-content-embed.basiccard-link.basiccard-link--stories {
+    margin-bottom: 16px;
+}
+}
+
+@media (max-width: 959px) {
+.page-template-page-elections.has-hero-bg .hero-section {
+    padding-top: 124px;
+}
+}
+
+.page-projectaria .section-frl_two_column_text_asset a.arrow-link.see-more-link:before {
+    margin-top: 0px;
+}
+
+@media screen and (min-width: 960px) {
+    .postid-30969.single .videoWrapper.fb .fb-video.fb_iframe_widget.fb_iframe_widget_fluid_desktop.verticalvid {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+    .postid-30969.single .fb_iframe_widget_fluid_desktop.verticalvid span {
+        width: 100% !important;
+    }
+    .postid-30969.single .entry-content .fb_iframe_widget_fluid_desktop.verticalvid span {
+        width: 550px !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+.page-template-page-chub .section-chub_campaign_b .section-desc+.cta {
+    margin-top: 0;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+}
+
+@media screen and (min-width: 960px) {
+.home .home-hero .section-inner {
+    margin-top: 0px;
+}
+}
+
+.page-remote-work-resources .section-action_links {
+    background-color: #f5f6f6 !important;
+}
+.page-remote-work-resources .section-action_links .section-col-inner {
+    padding-left: 0px;
+}
+
+.sitemap-container .sitemap-novi>a:before {
+    background-image: url(/wp-content/themes/fbcorp/assets/images/novi.svg);
+}
+
+/* Community Hub CSS Updates */
+.page-template-page-chub h1.hero-headline,
+.page-template-page-chub .home-hero-title h1,
+.page-template-page-front-page h1.hero-headline,
+.page-template-page-front-page .home-hero-title h1,
+.page-template-page-actions h1.hero-headline,
+.page-template-page-actions .home-hero-title h1{
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.page-template-page-chub .hero-intro-container,
+.page-template-page-front-page .hero-intro-container,
+.page-template-page-actions .hero-intro-container{
+    margin-bottom: 0px;
+}
+
+@media screen and (min-width: 960px) {
+.page-template-page-chub .home-hero .section-inner,
+	.page-template-page-front-page .home-hero .section-inner,
+	.page-template-page-actions .home-hero .section-inner{
+    margin-top: unset;
+}
+}
+
+@media screen and (max-width: 414px) {
+.page-template-page-chub .home-hero-title,
+	.page-template-page-front-page .home-hero-title,
+	.page-template-page-actions .home-hero-title {
+    max-width: 100%;
+}
+}
+
+@media screen and (max-width: 959px) {
+.page-template-page-chub h1.hero-headline,
+.page-template-page-chub .home-hero-title h1,
+	.page-template-page-front-page h1.hero-headline,
+.page-template-page-front-page .home-hero-title h1,
+	.page-template-page-actions h1.hero-headline,
+.page-template-page-actions .home-hero-title h1 {
+    font-size: 32px !important;
+    line-height: 38px !important;
+}
+	}
+
+@media (max-width: 639px) {
+.page-template-page-front-page .home-hero-v2 .hero-intro-container {
+    margin-top: 0px;
+}
+}
+
+@media (max-width: 959px) {
+section.belowhero-video.section.hero-actions-home {
+    margin-top: 0px  !important;
+}
+}
+
+@media screen and (max-width: 480px) {
+	.specificVideo {
+		    max-height: 465px !important;
+	}
+}
+
+/* Vertical Video Resize */
+@media screen and (min-width: 960px) {
+	.specificVideo {
+				    margin: 0 0 0 20%;
+			}
+	.single .entry-content .fb_iframe_widget_fluid_desktop.verticalvid span { width: 285px !important; }
+	.fb-video.fb_iframe_widget.fb_iframe_widget_fluid_desktop.verticalvid { max-height: fit-content; }
+}
+
+.page-template-page-actions .section, .page-template-page-actions .related-posts.related-posts-multiterm {
+    overflow: hidden;
+    position: relative;
+}
+
+/* PA Caption Update */
+@media (min-width: 991px) {
+    .page-template-page-actions .three_video_media .card-title-wrap {
+        padding-bottom: 16px;
+    }
+}
+
+@media (max-width: 991px) {
+    .page-template-page-actions .three_video_media .card-title-wrap .card-title {
+        padding-top: 0px;
+    }
+}
+
+/* SDG */
+.section-sdg_related_links2 {
+    background-color: #FFFFFF;
+}
+.section-sdg_related_links2 {
+    padding-top: 0px;
+}
+.section-sdg_imgdividerblock .img-content-block .company-stats-desc, .section-sdg_imgdividerblock .img-content-block .company-stats-desc2 {
+    color: #FFFFFF;
+}
+@media screen and (max-width: 768px) {
+.section-sdg_imgdividerblock.modular-section-5 .stats-featured-image.stats-featured-image-mobile {
+    background-position: 90% bottom;
+}
+}
+@media screen and (min-width: 1200px) {
+        .page-template-page-sdg h1.hero-headline, .page-template-page-sdg .home-hero-title h1 {
+    margin: 20px 0px 0px 0px;
+}
+        .page-template-page-sdg .home-hero .section-inner {
+            margin-top: 40px !important;
+        }
+}
+
+@media screen and (min-width: 1200px), 
+       screen and (max-width: 1380px) {
+        .page-template-page-sdg .home-hero-title br.desktop {
+            display: none;
+        }
+}
+
+/* Good Ideas Shop */
+@media (max-width: 639px) {
+.hero2 .section-title {
+        line-height: 120% !important;
+	margin-bottom: 15px !important;
+    }
+    .herocontent p {
+			    line-height: 26px !important;
+    font-size: 19px !important;
+			    margin-bottom: 17px !important;
+    }
+    .hero2--w-bg.hero2--gifts {
+    padding-top: 110px !important;
+    padding-bottom: 100px !important;
+    }
+	.section-card_slider_more_ways {
+        padding-top: 62px;
+        padding-bottom: 0px;
+    }
+}
+.page-template-page-gifts .filters-toggle .button-icon {
+    margin-right: 12px;
+}
+.section-gg_two_column_text_asset .ctalink .fbcorp-icon-alertarrow {
+	    margin-top: 1px;
+}
+
+@media (min-width: 960px) {
+    .section-card_slider_more_ways {
+        padding-bottom: 70px;
+    }
+}
+
+/* Alert Bar Mobile */
+@media (max-width: 639px) {
+    a .locale-prompt-body-inner, a .alert-body-inner {
+        padding-left: 25%;
+    }
+}
+
+/* Multi Carousel Page */
+
+.page-template-page-mothers-day .basiccard-image .aspect-spacer {
+    padding-bottom: 100% !important;
+}
+
+.wp-caption-text {
+	text-align: left;
+	    color: #677b8c;
+	    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+	    margin-top: 0px !important;
+}
+
+.hero-mothers-day .section-divider-wrap {
+    padding-top: 30px;
+}
+
+.page-template-page-mothers-day .hero-text div.desc {
+    color: #344854;
+    font-family: 'Optimistic Text',sans-serif;
+    font-size: 1rem;
+    line-height: 1.5 !important;
+	    letter-spacing: .32px !important;
+	    font-size: 18px !important;
+}
+
+
+.page-template-page-mothers-day .section-card_slider {
+    padding-top: 65px;
+	    background-color: #F1F4F7;
+	padding-bottom: 81px;
+}
+
+.section-card_slider .section-title {
+    color: #1C2B33 !important;
+    font-size: 38px;
+    line-height: 150% !important;
+    letter-spacing: 0.02em !important;
+	    font-family: 'Optimistic Display','NotoSans','NotoSansJP','NotoSansKR',sans-serif;
+    font-weight: 400 !important;
+	text-transform: capitalize;
+}
+
+.page-template-page-mothers-day .section-header+.basiccard-cards-area {
+    margin-top: 0px;
+}
+
+.page-template-page-mothers-day .uk-container-large {
+	max-width: 1200px !important;
+}
+
+.hero-mothers-day .section-title {
+    color: #344854 !important;
+    margin: 0 0 48px !important;
+}
+
+.hero-mothers-day .section-title:before {
+    content: "Meta";
+    margin-bottom: 11px;
+    color: #232323;
+    padding-bottom: 0px;
+    border-bottom: 2px solid #1877F2;
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: .06em;
+    width: 49px;
+	max-height: 47px;
+	display: block;
+}
+
+.hero-mothers-day .section-title:after {
+    content: "June 21, 2022";
+    margin-bottom: 11px;
+	padding-top: 20px;
+    padding-bottom: 0px;
+    display: block;
+    font-size: .875rem;
+    margin-top: 0 !important;
+    line-height: 1.125rem;
+    color: #666;
+    font-weight: 400;
+    letter-spacing: .3px;
+}
+
+.page-template-page-mothers-day .hero-text {
+		    padding-bottom: 40px;
+}
+
+@media (min-width: 960px) {
+.page-template-page-mothers-day .hero-text div.desc p {
+    width: 80%;
+}
+	.page-template-page-mothers-day .hero-text {
+	width: calc(100%*2/3.001);
+}
+	.page-template-page-mothers-day .section-card_slider {
+    padding-top: 65px !important;
+}
+}
+
+@media (min-width: 640px) {
+	.page-template-page-mothers-day .uk-push-1-12\@s {
+		margin-left: 0px !important;
+	}
+}
+
+@media (max-width: 640px) {
+		.page-template-page-mothers-day .basiccard-cards-area .js-prev-slide {
+    margin-left: 5vw;
+}
+	.page-template-page-mothers-day .basiccard-cards-area .js-next-slide {
+    margin-right: 26vw;
+}
+}
+
+@media (max-width: 480px) {
+		.page-template-page-mothers-day .basiccard-cards-area .js-prev-slide {
+    margin-left: 5vw;
+}
+	.page-template-page-mothers-day .basiccard-cards-area .js-next-slide {
+    margin-right: 17vw;
+}
+}
+
+@media (max-width: 640px) {
+
+	.page-template-page-mothers-day a.arrow-link:before, .page-template-page-mothers-day a.arrow-link:before {
+    margin-top: 7px !important;
+}
+	
+.page-template-page-mothers-day .section-card_slider {
+    padding-top: 24px !important;
+    padding-bottom: 35px !important;
+}
+
+.section-card_slider .section-title {
+    font-size: 30px !important;
+}
+	
+	.page-template-page-mothers-day .basiccard-cards-area>.uk-width-1-1 {
+    padding-left: 20px !important;
+}
+	.page-template-page-mothers-day .carousel-ctrls-fbcorp {
+    display: block !important;
+}
+	.page-template-page-mothers-day .css-mode .basiccard-card {
+    width: 310px !important;
+}
+	.page-template-page-mothers-day .carousel-ctrls-fbcorp svg {
+    width: 22px !important;
+    height: 22px !important;
+}
+	.page-template-page-mothers-day .js-prev-slide, .page-template-page-mothers-day .js-next-slide {
+    top: 20%;
+	}
+	
+.page-template-page-mothers-day .fbcorp-icon-arrow-left-bluegray svg	{
+		background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjMiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMyAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzE3MTZfMzAxKSI+CjxwYXRoIGQ9Ik0xMS40OTQ0IC00LjgwODI1ZS0wN0MxNy41Njk1IC0yLjE1MjczZS0wNyAyMi40OTQ0IDQuOTI0ODcgMjIuNDk0NCAxMVYxMUMyMi40OTQ0IDE3LjA3NTEgMTcuNTY5NSAyMiAxMS40OTQ0IDIyVjIyQzUuNDE5MjUgMjIgMC40OTQzODQgMTcuMDc1MSAwLjQ5NDM4NCAxMVYxMUMwLjQ5NDM4NSA0LjkyNDg3IDUuNDE5MjUgLTcuNDYzNzhlLTA3IDExLjQ5NDQgLTQuODA4MjVlLTA3Vi00LjgwODI1ZS0wN1oiIGZpbGw9IndoaXRlIiBmaWxsLW9wYWNpdHk9IjAuMyIvPgo8cGF0aCBkPSJNMjEuODgzMyAxMUMyMS44ODMzIDEzLjA1NDcgMjEuMjc0IDE1LjA2MzMgMjAuMTMyNCAxNi43NzE4QzE4Ljk5MDkgMTguNDgwMiAxNy4zNjg0IDE5LjgxMTggMTUuNDcgMjAuNTk4MUMxMy41NzE3IDIxLjM4NDQgMTEuNDgyOSAyMS41OTAxIDkuNDY3NjEgMjEuMTg5M0M3LjQ1MjM2IDIwLjc4ODQgNS42MDEyNCAxOS43OTkgNC4xNDgzMyAxOC4zNDYxQzIuNjk1NDIgMTYuODkzMSAxLjcwNTk3IDE1LjA0MiAxLjMwNTExIDEzLjAyNjhDMC45MDQyNTcgMTEuMDExNSAxLjEwOTk5IDguOTIyNjcgMS44OTYzIDcuMDI0MzVDMi42ODI2MSA1LjEyNjAzIDQuMDE0MTggMy41MDM1IDUuNzIyNjMgMi4zNjE5NkM3LjQzMTA3IDEuMjIwNDEgOS40Mzk2NiAwLjYxMTExNiAxMS40OTQ0IDAuNjExMTE2QzE0LjI0OTcgMC42MTExMTYgMTYuODkyMSAxLjcwNTY2IDE4Ljg0MDQgMy42NTM5NUMyMC43ODg3IDUuNjAyMjUgMjEuODgzMyA4LjI0NDcgMjEuODgzMyAxMVYxMVpNMjIuNDk0NCAxMUMyMi40OTQ0IDguODI0NDEgMjEuODQ5MiA2LjY5NzY3IDIwLjY0MDYgNC44ODg3M0MxOS40MzE5IDMuMDc5NzkgMTcuNzEzOSAxLjY2OTg5IDE1LjcwMzkgMC44MzczM0MxMy42OTM5IDAuMDA0NzY1NzYgMTEuNDgyMiAtMC4yMTMwNzEgOS4zNDgzOSAwLjIxMTM2NkM3LjIxNDYgMC42MzU4MDQgNS4yNTQ1OSAxLjY4MzQ1IDMuNzE2MjEgMy4yMjE4M0MyLjE3NzgzIDQuNzYwMjEgMS4xMzAxOCA2LjcyMDIyIDAuNzA1NzQ2IDguODU0MDFDMC4yODEzMDggMTAuOTg3OCAwLjQ5OTE0NSAxMy4xOTk1IDEuMzMxNzEgMTUuMjA5NUMyLjE2NDI3IDE3LjIxOTUgMy41NzQxNyAxOC45Mzc1IDUuMzgzMTEgMjAuMTQ2MkM3LjE5MjA1IDIxLjM1NDkgOS4zMTg3OSAyMiAxMS40OTQ0IDIyQzE0LjQxMTggMjIgMTcuMjA5NyAyMC44NDExIDE5LjI3MjYgMTguNzc4MkMyMS4zMzU1IDE2LjcxNTMgMjIuNDk0NCAxMy45MTc0IDIyLjQ5NDQgMTFWMTFaIiBmaWxsPSIjMUMyQjMzIi8+CjxwYXRoIGQ9Ik0xMy40NzQ0IDE1LjU4MzJMOC44OTEwOSAxMC45OTk4TDEzLjQ3NDQgNi40MTY1IiBzdHJva2U9IiMxQzJCMzMiIHN0cm9rZS13aWR0aD0iMC44IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiLz4KPC9nPgo8ZGVmcz4KPGNsaXBQYXRoIGlkPSJjbGlwMF8xNzE2XzMwMSI+CjxwYXRoIGQ9Ik0xMS40OTQ0IC00LjgwODI1ZS0wN0MxNy41Njk1IC0yLjE1MjczZS0wNyAyMi40OTQ0IDQuOTI0ODcgMjIuNDk0NCAxMVYxMUMyMi40OTQ0IDE3LjA3NTEgMTcuNTY5NSAyMiAxMS40OTQ0IDIyVjIyQzUuNDE5MjUgMjIgMC40OTQzODQgMTcuMDc1MSAwLjQ5NDM4NCAxMVYxMUMwLjQ5NDM4NSA0LjkyNDg3IDUuNDE5MjUgLTcuNDYzNzhlLTA3IDExLjQ5NDQgLTQuODA4MjVlLTA3Vi00LjgwODI1ZS0wN1oiIGZpbGw9IndoaXRlIi8+CjwvY2xpcFBhdGg+CjwvZGVmcz4KPC9zdmc+Cg==")
+	}
+	
+.page-template-page-mothers-day .fbcorp-icon-arrow-right-bluegray svg {
+		background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjMiIGhlaWdodD0iMjMiIHZpZXdCb3g9IjAgMCAyMyAyMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzE3MTZfMzAyKSI+CjxwYXRoIGQ9Ik0xMS43MTA0IDIzQzUuNjM1MzIgMjMgMC43MTA0NDkgMTguMDY1NyAwLjcxMDQ0OSAxMS45OTA2QzAuNzEwNDQ5IDUuOTE1NDkgNS42MzUzMiAwLjk4MTIzNiAxMS43MTA0IDAuOTgxMjM2QzE3Ljc4NTYgMC45ODEyMzYgMjIuNzEwNCA1LjkxNTQ5IDIyLjcxMDQgMTEuOTkwNkMyMi43MTA0IDE4LjA2NTcgMTcuNzg1NiAyMyAxMS43MTA0IDIzWiIgZmlsbD0id2hpdGUiIGZpbGwtb3BhY2l0eT0iMC4zIi8+CjxwYXRoIGQ9Ik0xLjMyMTU2IDExLjk5MDZDMS4zMjE1NiA5LjkzNDEzIDEuOTMwODYgNy45MjM4MyAzLjA3MjQgNi4yMTM5M0M0LjIxMzk1IDQuNTA0MDMgNS44MzY0NyAzLjE3MTMzIDcuNzM0NzkgMi4zODQzNEM5LjYzMzEyIDEuNTk3MzYgMTEuNzIyIDEuMzkxNDUgMTMuNzM3MiAxLjc5MjY1QzE1Ljc1MjUgMi4xOTM4NSAxNy42MDM2IDMuMTg0MTQgMTkuMDU2NSA0LjYzODI5QzIwLjUwOTQgNi4wOTI0NSAyMS40OTg5IDcuOTQ1MTUgMjEuODk5NyA5Ljk2MjExQzIyLjMwMDYgMTEuOTc5MSAyMi4wOTQ4IDE0LjA2OTcgMjEuMzA4NSAxNS45Njk3QzIwLjUyMjIgMTcuODY5NiAxOS4xOTA3IDE5LjQ5MzUgMTcuNDgyMiAyMC42MzZDMTUuNzczOCAyMS43Nzg1IDEzLjc2NTIgMjIuMzg4NCAxMS43MTA0IDIyLjM4ODRDOC45NTUxNCAyMi4zODg0IDYuMzEyNjkgMjEuMjkyOSA0LjM2NDQgMTkuMzQyOUMyLjQxNjEgMTcuMzkzIDEuMzIxNTYgMTQuNzQ4MyAxLjMyMTU2IDExLjk5MDZaTTAuNzEwNDQ5IDExLjk5MDZDMC43MTA0NDkgMTQuMTY4MSAxLjM1NTU5IDE2LjI5NjYgMi41NjQyOCAxOC4xMDcxQzMuNzcyOTggMTkuOTE3NiA1LjQ5MDk0IDIxLjMyODcgNy41MDA5MyAyMi4xNjJDOS41MTA5MiAyMi45OTUyIDExLjcyMjcgMjMuMjEzMyAxMy44NTY0IDIyLjc4ODVDMTUuOTkwMiAyMi4zNjM3IDE3Ljk1MDIgMjEuMzE1MSAxOS40ODg2IDE5Ljc3NTRDMjEuMDI3IDE4LjIzNTcgMjIuMDc0NiAxNi4yNzQgMjIuNDk5MSAxNC4xMzg0QzIyLjkyMzUgMTIuMDAyOCAyMi43MDU3IDkuNzg5MjEgMjEuODczMSA3Ljc3NzUxQzIxLjA0MDYgNS43NjU4IDE5LjYzMDcgNC4wNDYzNyAxNy44MjE3IDIuODM2NjVDMTYuMDEyOCAxLjYyNjkyIDEzLjg4NiAwLjk4MTIzMiAxMS43MTA0IDAuOTgxMjMyQzguNzkzMDcgMC45ODEyMzIgNS45OTUxOCAyLjE0MTE0IDMuOTMyMjcgNC4yMDU4QzEuODY5MzcgNi4yNzA0NiAwLjcxMDQ0OSA5LjA3MDc0IDAuNzEwNDQ5IDExLjk5MDZIMC43MTA0NDlaIiBmaWxsPSIjMUMyQjMzIi8+CjxwYXRoIGQ9Ik05LjczMDQ3IDcuNDAzMTVMMTQuMzEzOCAxMS45OTA0TDkuNzMwNDcgMTYuNTc3NiIgc3Ryb2tlPSIjMUMyQjMzIiBzdHJva2Utd2lkdGg9IjAuOCIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIi8+CjwvZz4KPGRlZnM+CjxjbGlwUGF0aCBpZD0iY2xpcDBfMTcxNl8zMDIiPgo8cGF0aCBkPSJNMTEuNzEwNCAyM0M1LjYzNTMyIDIzIDAuNzEwNDQ5IDE4LjA2NTcgMC43MTA0NDkgMTEuOTkwNkMwLjcxMDQ0OSA1LjkxNTQ5IDUuNjM1MzIgMC45ODEyMzYgMTEuNzEwNCAwLjk4MTIzNkMxNy43ODU2IDAuOTgxMjM2IDIyLjcxMDQgNS45MTU0OSAyMi43MTA0IDExLjk5MDZDMjIuNzEwNCAxOC4wNjU3IDE3Ljc4NTYgMjMgMTEuNzEwNCAyM1oiIGZpbGw9IndoaXRlIi8+CjwvY2xpcFBhdGg+CjwvZGVmcz4KPC9zdmc+Cg==")
+	}
+	
+.page-template-page-mothers-day .fbcorp-icon-arrow-left-bluegray svg g, .page-template-page-mothers-day .fbcorp-icon-arrow-right-bluegray svg g {
+    visibility: hidden;
+}
+	
+}
+
+.page-template-page-mothers-day .carousel-ctrls-fbcorp svg {
+width: 32px;
+height: 32px;
+}
+
+.page-template-page-mothers-day .basiccard-cards-area>.uk-width-1-1 {
+padding-left: 0px;
+	    width: 100%;
+}
+
+.page-template-page-mothers-day .basiccard-body h3 {
+color: #1C2B33 !important;
+font-size: 26px;
+line-height: 150%;
+letter-spacing: 0.02em;
+}
+
+.page-template-page-mothers-day .basiccard-body {
+	padding: 24px 0px 17px;
+	display: inline-grid;
+}
+
+.page-template-page-mothers-day a.card-url {
+color: #67788A !important;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0.02em;
+text-decoration: none !important;
+}
+
+.page-template-page-mothers-day .basiccard-desc {
+color: #1C2B33 !important;
+padding-top: 23px;
+    margin-bottom: 0px !important;
+}
+
+.page-template-page-mothers-day .basiccard-card-inner {
+background-color: transparent !important;
+border: none !important;
+}
+
+.page-template-page-mothers-day .section-card_slider:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.page-template-page-mothers-day .section-divider-wrap {
+    display: none;
+}
+
+.page-template-page-mothers-day .basiccard-body .basiccard-desc {
+    order: 2;
+}
+
+.page-template-page-mothers-day .basiccard-body a {
+    order: 1;
+    position: relative;
+	padding-right: 0px;
+	color: #67788A !important;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-decoration: none !important;
+	    margin-bottom: 0px;
+}
+
+.page-template-page-mothers-day .basiccard-body a:before {
+	display: none;
+}
+
+.page-template-page-mothers-day .basiccard-card-inner:hover .basiccard-body a.app-icon {
+    text-decoration: none !important;
+}
+
+.page-template-page-mothers-day .backtonr {
+    position: absolute;
+    bottom: -20px;
+}
+
+.page-template-page-mothers-day .modular-section-last {
+    overflow: visible;
+}
+
+.back-to-newsroom a.arrow-link {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.page-template-page-mothers-day a.arrow-link:before, .page-template-page-mothers-day a.arrow-link:before {
+    transform: scaleX(-1);
+	margin-top: 12px;
+}
+
+.page-template-page-mothers-day.no-hero-bg .site-header:not(.uk-active), .page-template-page-mothers-day .site-header:not(.uk-active) {
+    border-bottom-color: rgba(22,22,22,.16) !important;
+}
+
+.page-template-page-mothers-day .fb-like span {
+    height: 20px !important;
+}
+
+/* Slideshow */
+.single .jetpack-slideshow-window {
+    background-color: #fff !important;
+    border: none !important;
+    padding-bottom: 82.25% !important;
+}
+.single .jetpack-slideshow-slide {
+    background-color: #fff !important;
+}
+
+.single .jetpack-slideshow-window {
+    overflow: visible;
+    /* margin-bottom: 8%; */
+    margin-bottom: 0px;
+}
+
+.single .jetpack-slideshow-window:has(.jetpack-slideshow-slide-caption:empty) {
+    margin-bottom: -10px;
+}
+
+.jetpack-slideshow-slide-caption {
+    color: #677b8c !important;
+    text-shadow: none !important;
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+    font-weight: 400 !important;
+    height: 30px !important;
+    bottom: -34px !important;
+	text-align: left !important;
+	    font-family: 'Optimistic Text',sans-serif !important;
+}
+
+@media (max-width: 480px) {
+    /* .single .jetpack-slideshow-window {
+        margin-bottom: 24%;
+    }*/
+    .single .jetpack-slideshow-window:has(.jetpack-slideshow-slide-caption:empty) {
+        margin-bottom: -20px;
+    }
+    .jetpack-slideshow-slide-caption {
+        line-height: normal !important;
+    }
+}
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Meta?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Meta builds technologies that help people connect, find communities, and grow businesses. When Facebook launched in 2004, it changed the way people connect. Apps like Messenger, Instagram and WhatsApp further empowered billions around the world. Now, Meta is moving beyond 2D screens toward immersive experiences like augmented and virtual reality to help build the next evolution in social technology."
+      }
+    }
+  ]
+}
+.showUSonly { display: none; }
+(function(){try{var c=getComputedStyle(document.body),r=document.documentElement,ink=c.color,bg=c.backgroundColor;if(ink){r.style.setProperty('--jp-search-page-ink',ink);}if(bg&&bg!==ink&&bg!=='rgba(0, 0, 0, 0)'&&bg!=='transparent'){r.style.setProperty('--jp-search-page-surface',bg);}}catch(e){}})();
+Skip to content
+Viewing this site in
+English
+Portugese
+German
+French
+Japanese
+Korean
+Spanish (LTAM)
+Spanish (ES)
+Você está visualizando este site em
+Inglês
+Português
+Alemão
+Francês
+Japonês
+Coreano
+Espanhol (LTAM)
+Espanhol (ES)
+Diese Seite anzeigen auf
+Englisch
+Portugiesisch
+Deutsch
+Französisch
+Japanisch
+Koreanisch
+Spanisch (LTAM)
+Spanisch (ES)
+Vous consultez ce site en
+Anglais
+Portugais
+Allemand
+Français
+Japonais
+Coréen
+Espagnol (LTAM)
+Espagnol (ES)
+このサイトを次の言語で表示
+英語
+ポルトガル語
+ドイツ語
+フランス語
+日本語
+韓国語
+スペイン語 (LTAM)
+スペイン語 (ES)
+다음 언어로 표시 중
+영어
+포르투갈어
+독일어
+프랑스어
+일본어
+한국어
+스페인어 (LTAM)
+스페인어 (ES)
+Este sitio se está viendo en
+Inglés
+Portugués
+Alemán
+Francés
+Japonés
+Coreano
+Español (LTAM)
+Español (ES)
+Este sitio se está viendo en
+Inglés
+Portugués
+Alemán
+Francés
+Japonés
+Coreano
+Español (LTAM)
+Español (ES)
+Dismiss locale prompt
+Meta
+.st0{fill:#1c2b33}.st1{clip-path:url(#SVGID_1_)}.st2{clip-path:url(#SVGID_3_)}.st3{fill:url(#SVGID_6_)}
+AI glasses
+Menu
+Menu
+Back
+Meta Quest
+Menu
+Menu
+Back
+Explore Meta
+Menu
+Menu
+Back
+Support
+Help Center
+Newsroom
+Explore
+About AI glasses
+Ray-Ban Meta
+Oakley Meta Vanguard
+Oakley Meta HSTN
+Meta Ray-Ban Display
+Compare glasses
+Shop
+Shop all glasses
+Certified refurbished
+Prescription
+Explore
+About AI glasses
+Ray-Ban Meta
+Oakley Meta Vanguard
+Oakley Meta HSTN
+Meta Ray-Ban Display
+Compare glasses
+Shop
+Shop all glasses
+Certified refurbished
+Prescription
+Ray-Ban Meta
+Shop Wayfarer (Gen 2)
+Oakley Meta
+Shop Vanguard
+Meta Ray-Ban Display
+Learn More
+Meta Quest
+Meta Quest overview
+Meta Quest 3s
+Meta Quest 3
+Compare devices
+Accessories
+Accessories
+Play now. Pay later.
+Meta Warranty Plus
+Gift Cards
+Work products overview
+Virtual reality headsets
+Meta Horizon Workrooms
+Workplace
+Learn about all technologies
+Meta Quest
+Meta Quest overview
+Meta Quest 3s
+Meta Quest 3
+Compare devices
+Accessories
+Accessories
+Play now. Pay later.
+Meta Warranty Plus
+Gift Cards
+Shop Meta Quest 3
+Shop Meta Quest 3s
+Learn about all technologies
+Apps
+Facebook
+Messenger
+Instagram
+WhatsApp
+Meta Horizon
+Threads
+Services
+Meta AI
+AI Studio
+Llama
+Meta Pay
+Meta Verified
+Community
+About Meta
+Businesses
+Creators
+Developers
+Educators
+Researchers
+Learn about Meta
+Businesses
+Creators
+Developers
+Careers
+Investors
+Media
+Researchers
+Engineers
+Government, Politics & Advocacy
+Nonprofits
+Educators
+Store and Device Help Centers
+Find order
+Meta Quest and Quest Pro
+AI Glasses
+Meta Portal
+Meta Help Center
+Accounts Center
+Meta Pay
+Policies
+Connected Experiences
+Store and Device Help Centers
+Find order
+Meta Quest and Quest Pro
+AI Glasses
+Meta Portal
+Meta Help Center
+Accounts Center
+Meta Pay
+Policies
+Connected Experiences
+App Help Centers
+Meta Horizon
+Facebook
+Messenger
+Instagram
+WhatsApp
+Workplace
+Search
+Clear
+see all results for
+Close tray
+header#masthead .headernav { border-bottom: 1px solid rgba(22, 22, 22, 0.16); }
+.fbsubnav .main-navigation {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 230px;
+    transition: all 0.3s ease-in-out;
+  }
+  .fbsubnav ul#subnav-menu {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+  }
+  .menu-sub-nav-our-technologies-container ul {
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+  }
+  .mega-backdrop-wrapper {
+    /*display: none !important;*/
+  }
+
+  #archive_header,
+  #header_search_form_sub {
+      transition: height 0.3s ease, opacity 0.3s ease;
+  }
+Technologies
+Menu
+Menu
+Back
+Product News
+Innovation
+Public Policy
+Youth Well-Being
+Privacy
+Security
+Search News
+Clear
+see all results for
+// Set up a MutationObserver to watch for the dynamic input
+const searchInputContainer = document.getElementById('js-header_search_input_sub_container');
+const observer = new MutationObserver((mutations) => {
+    mutations.forEach((mutation) => {
+        if (mutation.addedNodes.length) {
+            const searchInput = document.getElementById('header_search_input_sub');
+            if (searchInput) {
+                initializeSearchBehavior(searchInput);
+                observer.disconnect();
+            }
+        }
+    });
+});
+
+observer.observe(searchInputContainer, {
+    childList: true,
+    subtree: true
+});
+
+function initializeSearchBehavior(searchInput) {
+    const searchContainer = document.getElementById('header_search_form_sub');
+    const subnavWrapper = document.querySelector('.subnav-content-wrapper');
+    const headerWrapper = document.querySelector('.archive-header-container.the-sub-nav');
+    const bodyWrapper = document.querySelector('body');
+
+    searchInput.addEventListener('focus', function() {
+        // Manually trigger the searchfocus event to load typeahead terms
+        window.dispatchEvent(new Event('searchfocus'));
+        
+        searchContainer.classList.add('search-focused');
+        subnavWrapper.classList.add('search-focused');
+        headerWrapper.classList.add('search-focused');
+        bodyWrapper.classList.add('mega-open');
+        searchContainer.classList.add('search-transitioning');
+        setTimeout(() => {
+            searchContainer.classList.remove('search-transitioning');
+        }, 300);
+    });
+
+    searchInput.addEventListener('blur', function() {
+        // Only collapse if there's no search query
+        if (!this.value) {
+            searchContainer.classList.remove('search-focused');
+            subnavWrapper.classList.remove('search-focused');
+            headerWrapper.classList.remove('search-focused');
+            bodyWrapper.classList.remove('mega-open');
+            searchContainer.classList.add('search-transitioning');
+            setTimeout(() => {
+                searchContainer.classList.remove('search-transitioning');
+            }, 300);
+        }
+        // This function is defined in mega-menuv2.js and handles the placeholder visibility
+        if (typeof headerQueryClasser === 'function') {
+            headerQueryClasser('header_search_form_sub', 'search_dynamic_update_sub', 'header_search_input_sub');
+        }
+    });
+}
+
+// Handle escape key to close search
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        const searchInput = document.getElementById('header_search_input_sub');
+        if (searchInput && document.activeElement === searchInput) {
+            searchInput.blur();
+        }
+    }
+});
+.font80 {
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.016em;
+  color: #1C2B33;
+  margin: 28px 0 0 0;
+}
+#header_search_form_sub .header-search-inner {
+    padding-top: 0px;
+}
+.mega-backdrop-wrapper {
+    transition: all 0.8s ease-in-out;
+}
+AI
+Facebook
+Instagram
+Messenger
+Meta Quest
+Threads
+WhatsApp
+AI Glasses
+#subnav-menu .main-navigation li.menu-item-depth-0 > a.menu-link {
+  margin: 22px 0px 25px;
+}
+document.addEventListener('DOMContentLoaded', function () {
+    const archiveHeader = document.querySelector('#archive_header');
+    const firstArticle = document.querySelector('div.highlights-container');
+    const header = document.querySelector('header#masthead');
+
+    const showElements = () => {
+        if (!archiveHeader) {
+            return;
+        }
+
+        archiveHeader.style.height = '110px';
+        archiveHeader.style.opacity = '1';
+    };
+
+    const hideElements = () => {
+        if (!archiveHeader) {
+            return;
+        }
+
+        archiveHeader.style.height = '0';
+        archiveHeader.style.opacity = '0';
+    };
+
+    const checkScrollPosition = () => {
+        if (!firstArticle) {
+            showElements();
+            return;
+        }
+
+        const firstArticleTop = firstArticle.getBoundingClientRect().top + window.scrollY;
+        const firstArticleBottom = firstArticle.getBoundingClientRect().bottom + window.scrollY;
+        const currentScroll = window.scrollY;
+        const headerHasActiveClass = header && header.classList.contains('uk-active');
+
+        if (currentScroll < firstArticleTop - 230 || !headerHasActiveClass) {
+            showElements();
+        } else if (currentScroll > firstArticleBottom) {
+          hideElements();
+        } else {
+            hideElements();
+        }
+    };
+
+    checkScrollPosition();
+
+    window.addEventListener('scroll', checkScrollPosition);
+
+    if (header) {
+        const observer = new MutationObserver(function(mutations) {
+            mutations.forEach(function(mutation) {
+                if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+                    checkScrollPosition();
+                }
+            });
+        });
+
+        observer.observe(header, {
+            attributes: true,
+            attributeFilter: ['class']
+        });
+    }
+});
+jQuery(window).ready(function($){
+				
+				var initClone = false;
+				var theSelected;
+				var shop_overlay = jQuery('<div class="twocolumn-mm shop uk-visible@m animated animated2" style="display:none;"><div class="mobilemenu_header_title uk-hidden@m"><h2 class="ui-heading1"></h2></div></div>').append(jQuery('.twocolumn-mm.shop').html());
+				var our_technologies_overlay = jQuery('<div class="twocolumn-mm our_technologies uk-visible@m animated animated2" style="display:none;"><div class="mobilemenu_header_title uk-hidden@m"><h2 class="ui-heading1"></h2></div></div>').append(jQuery('.twocolumn-mm.our_technologies').html());
+				var about_us_overlay = jQuery('<div class="twocolumn-mm about_us uk-visible@m animated animated2" style="display:none;"><div class="mobilemenu_header_title uk-hidden@m"><h2 class="ui-heading1"></h2></div></div>').append(jQuery('.twocolumn-mm.about_us').html());
+				var build_with_us_overlay = jQuery('<div class="twocolumn-mm build_with_us uk-visible@m animated animated2" style="display:none;"><div class="mobilemenu_header_title uk-hidden@m"><h2 class="ui-heading1"></h2></div></div>').append(jQuery('.twocolumn-mm.build_with_us').html());
+				var support_overlay = jQuery('<div class="twocolumn-mm support uk-visible@m animated animated2" style="display:none;"><div class="mobilemenu_header_title uk-hidden@m"><h2 class="ui-heading1"></h2></div></div>').append(jQuery('.twocolumn-mm.support').html());
+				var our_technologies_suboverlay = jQuery('<div class="twocolumn-mm our_technologies_sub uk-visible@m animated animated2" style="display:none;"></div>').append(jQuery('.twocolumn-mm.our_technologies_sub').html());
+
+				jQuery('.twocolumn-mm').remove();
+				//jQuery('#site-navigation .twocolumn-mm').remove();
+			
+				if (initClone === false) {
+					jQuery('#primary-menu.uk-align-left .menu-item-type-custom:nth-child(1) .mega-depth-0.top-mega').append(shop_overlay); //Shop
+					jQuery('.twocolumn-mm.shop .mobilemenu_header_title h2').append(jQuery('#primary-menu.uk-align-left .menu-item-type-custom:nth-child(1) a.menu-link.mega-toggle').attr("aria-label")); //Shop Menu Label
+					jQuery('#primary-menu.uk-align-left .menu-item-type-custom:nth-child(2) .mega-depth-0.top-mega').append(our_technologies_overlay); //Our Technologies
+					jQuery('.twocolumn-mm.our_technologies .mobilemenu_header_title h2').append(jQuery('#primary-menu.uk-align-left .menu-item-type-custom:nth-child(2) a.menu-link.mega-toggle').attr("aria-label")); //Our Technologies Menu Label
+					jQuery('#primary-menu.uk-align-left .menu-item-type-custom:nth-child(3) .mega-depth-0.top-mega').append(about_us_overlay); //About Us
+					jQuery('.twocolumn-mm.about_us .mobilemenu_header_title h2').append(jQuery('#primary-menu.uk-align-left .menu-item-type-custom:nth-child(3) a.menu-link.mega-toggle').attr("aria-label")); //About Us Menu Label
+					jQuery('#primary-menu.uk-align-left .menu-item-type-custom:nth-child(4) .mega-depth-0.top-mega').append(build_with_us_overlay); //Build With Us
+					jQuery('.twocolumn-mm.build_with_us .mobilemenu_header_title h2').append(jQuery('#primary-menu.uk-align-left .menu-item-type-custom:nth-child(4) a.menu-link.mega-toggle').attr("aria-label")); //Build With Us Menu Label
+					jQuery('#primary-menu.uk-align-right .menu-item-type-custom:nth-child(1) .mega-depth-0.top-mega').append(support_overlay); //Support
+					jQuery('.twocolumn-mm.support .mobilemenu_header_title h2').append(jQuery('#primary-menu.uk-align-right .menu-item-type-custom:nth-child(1) a.menu-link.mega-toggle').attr("aria-label")); //Support Menu Label
+					jQuery('#subnav-menu.subnav-menu.uk-align-left .menu-item-type-custom:nth-child(1) .mega-depth-0.top-mega').append(our_technologies_suboverlay); //Our Technologies
+					jQuery('.twocolumn-mm.our_technologies_sub .mobilemenu_header_title h2').append(jQuery('#primary-menu.subnav-menu.uk-align-left .menu-item-type-custom:nth-child(1) a.menu-link.mega-toggle').attr("aria-label")); //Our Technologies Menu Label
+					initClone = true;
+				}
+
+								
+				jQuery('#primary-menu .menu-link.mega-toggle').mouseover(function(){
+					jQuery(this).click();
+					theSelected = jQuery(this)
+				});
+			
+				jQuery('#primary-menu .menu-link.mega-toggle').mouseleave(function(){
+					jQuery(this).blur();
+				});
+			
+				jQuery('#primary-menu .top-mega').mouseleave(function(){
+					theSelected.click();
+				});
+
+				jQuery('#subnav-menu .menu-link.mega-toggle').mouseover(function(){
+					jQuery(this).click();
+					theSelected = jQuery(this);
+				});
+			
+				jQuery('#subnav-menu .menu-link.mega-toggle').mouseleave(function(){
+					jQuery(this).blur();
+				});
+			
+				jQuery('#subnav-menu .top-mega').mouseleave(function(){
+					theSelected.click();
+				});
+			
+				jQuery('.reverseorder-mobile button#menu-toggle.swaporder1').click(function(){
+					if (jQuery(this).attr('aria-expanded') == "true") {
+						jQuery('.swaporder1').css('order', 3);
+						jQuery('.swaporder3').css('order', 1);
+					} else {
+						jQuery('.swaporder1').css('order', 1);
+						jQuery('.swaporder3').css('order', 3);
+					}
+				})
+			});
+(function($) {
+	
+	var $styles = $('<style id="hero_offset"></style>');
+	var stylesAdded = false;
+	var sanityCheckHeight = 150; // @match $.fbHeader, setHeroOffset()
+	
+	// Partial @match: setHeroOffset(), .repositionBg()
+	function setHeroOffset() {
+		
+		var isMobile = ( $('#menu-toggle').is(':visible') );
+		var $header = ( isMobile ) ? $('#branding-column') : $('#masthead');
+		
+		if ( $header.length < 1 ) {
+			console.warn('Header not found.');
+			return;
+		}
+		
+		var headerH = parseInt( $header.children().first().outerHeight() )
+		
+		if ( isNaN(headerH) || headerH === 0 ) {
+			console.warn('Header does not have a height.');
+			return;
+		}
+		
+		if ( headerH > sanityCheckHeight ) {
+			console.warn('Header too tall. Setting default.');
+			headerH = ( isMobile ) ? 59 : 90;
+		}
+
+		var top = headerH;
+		
+		// Get header top position relative to document. Using placeholder since sticky (fixed pos) header will have top offset of 0
+		var headerOffset = $('#js-masthead-position').offset();
+		
+		// Header not at top of document? (e.g. due to an alert bar)
+		if ( typeof headerOffset !== 'undefined' && typeof headerOffset.top === 'number' && headerOffset.top > 0 ) {
+		
+			var scrollPosTop = parseInt( $(window).scrollTop() );
+			var stickyAdjustment = headerOffset.top - scrollPosTop;
+			
+			// ...and user hasn't entirely scrolled past site header?
+			if ( (stickyAdjustment + headerH) > 0 ) {
+			
+				// Add vertical space above header to mega bg position
+				top += stickyAdjustment;
+				
+			}
+			
+		}
+
+		// Hero adjustments
+		$styles.html('.company-hero-row-1, .has-hero-bg .hero-section { margin-top: -' + parseFloat(top) + 'px; } .has-hero-overhang .hero-section .overhang-wrapper { margin-bottom: -' + parseFloat(top) + 'px; } .company-hero-row-1, .has-hero-overhang .hero-section + .uk-section, .has-hero-bg .hero-section { padding-top: ' + parseFloat(top) + 'px; } .has-hero-bg .hero-section { padding-bottom: ' + parseFloat(top) + 'px; } .hero-intro-container { margin-bottom: ' + parseFloat(top) + 'px; }');
+		
+		// Nav/header adjustments
+		if ( typeof stickyAdjustment === 'number' && (stickyAdjustment + headerH) > 0 ) {
+			$styles.append('@media screen and (max-width: 1160px) { .main-nav-container { top: ' + parseFloat(top) + 'px; } .tray-open .site-header { top: ' + parseFloat(stickyAdjustment) + 'px; } }');
+		} else {
+			$styles.append('@media screen and (max-width: 1160px) { .main-nav-container { top: ' + parseFloat(top) + 'px; } .tray-open .site-header { top: auto; } }');
+		}
+		
+		if ( !stylesAdded ) {
+			$styles.appendTo('head');
+			stylesAdded = true;
+		}
+		
+	}
+
+	setHeroOffset();
+	
+	$(window).on('debouncedresize trayopen trayclose', setHeroOffset);
+
+	$(document.body).on('post-load', setHeroOffset);
+
+})(jQuery);
+.single a.a_back_to_newsroom_link:before {
+						width: 12px;
+						height: 12px;
+						margin: 8px 13px 0 0;
+					}
+					.uk-grid.uk-flex.uk-flex-start.initial {
+						margin-top: 10px;
+					}
+					.cattagsdlmedia {
+						width: 100%;
+						display: flex;
+						gap: 20px;
+					}
+					@media (max-width: 767px) {
+						.cattagsdlmedia {
+							flex-direction: column;
+						}
+						.cattagsdlmedia .uk-width-1-2 {
+							width: 100%;
+						}
+					}
+					
+					@media (min-width: 1161px) {
+						.single h1.entry-title {
+							font-size: 40px;
+							line-height: 50px;
+						}
+					}
+
+					.jetpack-slideshow-controls {
+						display: flex;
+						justify-content: space-between;
+						bottom: 50%;
+					}
+
+					body div div.jetpack-slideshow-controls a.button-prev, body div div.jetpack-slideshow-controls a.button-prev:hover {
+						border: none !important;
+						background-color: transparent !important;
+						background-image: url('/wp-content/themes/fbcorp/assets/images/chevron-left.svg') !important;
+						background-repeat: no-repeat;
+						background-size: contain !important;
+						background-position: center !important;
+						margin: 0 15px !important;
+						height: 20px !important;
+						width: 20px !important;
+						line-height: 20px !important;
+					}
+
+					body div div.jetpack-slideshow-controls a.button-next, body div div.jetpack-slideshow-controls a.button-next:hover {
+						border: none !important;
+						background-color: transparent !important;
+						background-image: url('/wp-content/themes/fbcorp/assets/images/chevron-right.svg') !important;
+						background-repeat: no-repeat;
+						background-size: contain !important;
+						background-position: center !important;
+						margin: 0 15px !important;
+						height: 20px !important;
+						width: 20px !important;
+						line-height: 20px !important;
+					}
+
+					body div div.jetpack-slideshow-controls a.button-stop.paused, body div div.jetpack-slideshow-controls a.button-stop.paused:hover {
+						border: none !important;
+						background-color: transparent !important;
+						background-image: url('/wp-content/themes/fbcorp/assets/images/carousel_arrow_play.png') !important;
+						background-repeat: no-repeat;
+						background-size: contain !important;
+						background-position: center !important;
+						margin: 0 15px !important;
+						height: 30px !important;
+						width: 30px !important;
+						line-height: 30px !important;
+						position: absolute;
+						right: 0px;
+						top: calc(100% + 260px);
+					}
+
+					body div div.jetpack-slideshow-controls a.button-stop.running, body div div.jetpack-slideshow-controls a.button-stop.running:hover {
+						border: none !important;
+						background-color: transparent !important;
+						background-image: url('/wp-content/themes/fbcorp/assets/images/carousel_arrow_pause.png') !important;
+						background-repeat: no-repeat;
+						background-size: contain !important;
+						background-position: center !important;
+						margin: 0 15px !important;
+						height: 30px !important;
+						width: 30px !important;
+						line-height: 30px !important;
+						position: absolute;
+						right: 0px;
+						top: calc(100% + 260px);
+					}
+
+					body div div.jetpack-slideshow-controls a.button-stop, body div div.jetpack-slideshow-controls a.button-stop:hover {
+						border: none !important;
+						background-color: transparent !important;
+						background-image: url('/wp-content/themes/fbcorp/assets/images/carousel_arrow_pause.png') !important;
+						background-repeat: no-repeat;
+						background-size: contain !important;
+						background-position: center !important;
+						margin: 0 15px !important;
+						height: 30px !important;
+						width: 30px !important;
+						line-height: 30px !important;
+						position: absolute;
+						right: 0px;
+						top: calc(100% + 260px);
+					}
+
+					@media (max-width: 640px) {
+						body div div.jetpack-slideshow-controls a.button-prev, body div div.jetpack-slideshow-controls a.button-prev:hover {
+							margin: 0 7px !important;
+							height: 15px !important;
+							width: 15px !important;
+							line-height: 15px !important;
+						}
+
+						body div div.jetpack-slideshow-controls a.button-next, body div div.jetpack-slideshow-controls a.button-next:hover {
+							margin: 0 7px !important;
+							height: 15px !important;
+							width: 15px !important;
+							line-height: 15px !important;
+						}
+
+						body div div.jetpack-slideshow-controls a.button-stop.paused, body div div.jetpack-slideshow-controls a.button-stop.paused:hover {
+							margin: 0 7px !important;
+							height: 20px !important;
+							width: 20px !important;
+							line-height: 20px !important;
+							position: absolute;
+							right: 0px;
+							top: calc(100% + 120px);
+						}
+
+						body div div.jetpack-slideshow-controls a.button-stop.running, body div div.jetpack-slideshow-controls a.button-stop.running:hover {
+							margin: 0 7px !important;
+							height: 20px !important;
+							width: 20px !important;
+							line-height: 20px !important;
+							position: absolute;
+							right: 0px;
+							top: calc(100% + 120px);
+						}
+
+						body div div.jetpack-slideshow-controls a.button-stop, body div div.jetpack-slideshow-controls a.button-stop:hover {
+							margin: 0 7px !important;
+							height: 20px !important;
+							width: 20px !important;
+							line-height: 20px !important;
+							position: absolute;
+							right: 0px;
+							top: calc(100% + 120px);
+						}
+					}
+Back to Newsroom
+Meta
+Introducing Meta: A Social Technology Company
+October 28, 2021
+November 7, 2022
+Listen to Article
+10
+Pause
+10
+0.25×
+0.5×
+1×
+1.25×
+1.5×
+2×
+{"alignment":[],"alignment_raw":{"characters":["I","n","t","r","o","d","u","c","i","n","g","","M","e","t","a",":","","A","","S","o","c","i","a","l","","T","e","c","h","n","o","l","o","g","y","","C","o","m","p","a","n","y",".",".",".","","T","o","d","a","y","","a","t","","C","o","n","n","e","c","t","","2","0","2","1",",","","C","E","O","","M","a","r","k","","Z","u","c","k","e","r","b","e","r","g","","i","n","t","r","o","d","u","c","e","d","","M","e","t","a",",","","w","h","i","c","h","","b","r","i","n","g","s","","t","o","g","e","t","h","e","r","","o","u","r","","a","p","p","s","","a","n","d","","t","e","c","h","n","o","l","o","g","i","e","s","","u","n","d","e","r","","o","n","e","","n","e","w","","c","o","m","p","a","n","y","","b","r","a","n","d",".","","M","e","t","a","'","s","","f","o","c","u","s","","w","i","l","l","","b","e","","t","o","","b","r","i","n","g","","t","h","e","","m","e","t","a","v","e","r","s","e","","t","o","","l","i","f","e","","a","n","d","","h","e","l","p","","p","e","o","p","l","e","","c","o","n","n","e","c","t",",","","f","i","n","d","","c","o","m","m","u","n","i","t","i","e","s","","a","n","d","","g","r","o","w","","b","u","s","i","n","e","s","s","e","s",".","","T","h","e","","m","e","t","a","v","e","r","s","e","","w","i","l","l","","f","e","e","l","","l","i","k","e","","a","","h","y","b","r","i","d","","o","f","","t","o","d","a","y","u2019","s","","o","n","l","i","n","e","","s","o","c","i","a","l","","e","x","p","e","r","i","e","n","c","e","s",",","","s","o","m","e","t","i","m","e","s","","e","x","p","a","n","d","e","d","","i","n","t","o","","t","h","r","e","e","","d","i","m","e","n","s","i","o","n","s","","o","r","","p","r","o","j","e","c","t","e","d","","i","n","t","o","","t","h","e","","p","h","y","s","i","c","a","l","","w","o","r","l","d",".","","I","t","","w","i","l","l","","l","e","t","","y","o","u","","s","h","a","r","e","","i","m","m","e","r","s","i","v","e","","e","x","p","e","r","i","e","n","c","e","s","","w","i","t","h","","o","t","h","e","r","","p","e","o","p","l","e","","e","v","e","n","","w","h","e","n","","y","o","u","","c","a","n","u2019","t","","b","e","","t","o","g","e","t","h","e","r","","u2014","","a","n","d","","d","o","","t","h","i","n","g","s","","t","o","g","e","t","h","e","r","","y","o","u","","c","o","u","l","d","n","u2019","t","","d","o","","i","n","","t","h","e","","p","h","y","s","i","c","a","l","","w","o","r","l","d",".","","I","t","u2019","s","","t","h","e","","n","e","x","t","","e","v","o","l","u","t","i","o","n","","i","n","","a","","l","o","n","g","","l","i","n","e","","o","f","","s","o","c","i","a","l","","t","e","c","h","n","o","l","o","g","i","e","s",",","","a","n","d","","i","t","u2019","s","","u","s","h","e","r","i","n","g","","i","n","","a","","n","e","w","","c","h","a","p","t","e","r","","f","o","r","","o","u","r","","c","o","m","p","a","n","y",".","","M","a","r","k","","s","h","a","r","e","d","","m","o","r","e","","a","b","o","u","t","","t","h","i","s","","v","i","s","i","o","n","","i","n","","a","","f","o","u","n","d","e","r","'","s","","l","e","t","t","e","r",".","","O","u","r","","a","n","n","u","a","l","","C","o","n","n","e","c","t","","c","o","n","f","e","r","e","n","c","e","","b","r","i","n","g","s","","t","o","g","e","t","h","e","r","","a","u","g","m","e","n","t","e","d","","a","n","d","","v","i","r","t","u","a","l","","r","e","a","l","i","t","y","","d","e","v","e","l","o","p","e","r","s",",","","c","o","n","t","e","n","t","","c","r","e","a","t","o","r","s",",","","m","a","r","k","e","t","e","r","s","","a","n","d","","o","t","h","e","r","s","","t","o","","c","e","l","e","b","r","a","t","e","","t","h","e","","i","n","d","u","s","t","r","y","u2019","s","","m","o","m","e","n","t","u","m","","a","n","d","","g","r","o","w","t","h",".","","T","h","i","s","","y","e","a","r","u2019","s","","v","i","r","t","u","a","l","","e","v","e","n","t","","e","x","p","l","o","r","e","d","","w","h","a","t","","e","x","p","e","r","i","e","n","c","e","s","","i","n","","t","h","e","","m","e","t","a","v","e","r","s","e","","c","o","u","l","d","","f","e","e","l","","l","i","k","e","","o","v","e","r","","t","h","e","","n","e","x","t","","d","e","c","a","d","e","","u2014","","f","r","o","m","","s","o","c","i","a","l","","c","o","n","n","e","c","t","i","o","n",",","","t","o","","e","n","t","e","r","t","a","i","n","m","e","n","t",",","","g","a","m","i","n","g",",","","f","i","t","n","e","s","s",",","","w","o","r","k",",","","e","d","u","c","a","t","i","o","n","","a","n","d","","c","o","m","m","e","r","c","e",".","","W","e","","a","l","s","o","","a","n","n","o","u","n","c","e","d","","n","e","w","","t","o","o","l","s","","t","o","","h","e","l","p","","p","e","o","p","l","e","","b","u","i","l","d","","f","o","r","","t","h","e","","m","e","t","a","v","e","r","s","e",",","","i","n","c","l","u","d","i","n","g","","P","r","e","s","e","n","c","e","","P","l","a","t","f","o","r","m",",","","w","h","i","c","h","","w","i","l","l","","e","n","a","b","l","e","","n","e","w","","m","i","x","e","d","","r","e","a","l","i","t","y","","e","x","p","e","r","i","e","n","c","e","s","","o","n","","Q","u","e","s","t","","2",",","","a","n","d","","a","","$","1","5","0","-","m","i","l","l","i","o","n","","i","n","v","e","s","t","m","e","n","t","","i","n","","i","m","m","e","r","s","i","v","e","","l","e","a","r","n","i","n","g","","t","o","","t","r","a","i","n","","t","h","e","","n","e","x","t","","g","e","n","e","r","a","t","i","o","n","","o","f","","c","r","e","a","t","o","r","s",".","","Y","o","u","","c","a","n","","w","a","t","c","h","","t","h","e","","f","u","l","l","","C","o","n","n","e","c","t","","k","e","y","n","o","t","e","","a","n","d","","l","e","a","r","n","","m","o","r","e","","a","b","o","u","t","","h","o","w","","t","h","e","","m","e","t","a","v","e","r","s","e","","w","i","l","l","","u","n","l","o","c","k","","n","e","w","","o","p","p","o","r","t","u","n","i","t","i","e","s","","a","t","","m","e","t","a",".","c","o","m",".","","Y","o","u","","c","a","n","","a","l","s","o","","l","e","a","r","n","","m","o","r","e","","a","b","o","u","t","","o","u","r","","w","o","r","k","","o","v","e","r","","t","h","e","","p","a","s","t","","s","e","v","e","r","a","l","","m","o","n","t","h","s","","t","o","","d","e","v","e","l","o","p","","t","h","e","","M","e","t","a","","b","r","a","n","d","","o","n","","o","u","r","","d","e","s","i","g","n","","b","l","o","g",".","","R","e","a","d","","a","l","l","","o","u","r","","n","e","w","s","","i","n","","t","h","e","","p","o","s","t","s","","b","e","l","o","w",":","","C","o","n","n","e","c","t","","2","0","2","1",":","","O","u","r","","V","i","s","i","o","n","","f","o","r","","t","h","e","","M","e","t","a","v","e","r","s","e","","H","o","r","i","z","o","n","","H","o","m","e",",","","t","h","e","","F","u","t","u","r","e","","o","f","","W","o","r","k",",","","P","r","e","s","e","n","c","e","","P","l","a","t","f","o","r","m",",","","a","n","d","","M","o","r","e","","P","r","o","j","e","c","t","","A","r","i","a","","U","p","d","a","t","e","","H","o","w","","V","R","","I","s","","C","h","a","n","g","i","n","g","","t","h","e","","W","a","y","","W","e","","C","o","l","l","a","b","o","r","a","t","e","","a","n","d","","G","e","t","","T","h","i","n","g","s","","D","o","n","e","","G","a","m","i","n","g","","N","e","w","s","","u2018","B","l","a","d","e","","&","","S","o","r","c","e","r","y",":","","N","o","m","a","d","u2019","","I","s","","C","o","m","i","n","g","","t","o","","O","c","u","l","u","s","","Q","u","e","s","t","","S","p","a","r","k","","A","R","","R","o","u","n","d","u","p","","S","p","a","r","k","","A","R","","C","e","r","t","i","f","i","c","a","t","i","o","n","","&","","P","r","o","f","e","s","s","i","o","n","a","l","","C","o","u","r","s","e","","P","r","e","v","i","e","w","","O","u","r","","c","o","r","p","o","r","a","t","e","","s","t","r","u","c","t","u","r","e","","i","s","","n","o","t","","c","h","a","n","g","i","n","g",",","","h","o","w","e","v","e","r",",","","h","o","w","","w","e","","r","e","p","o","r","t","","o","n","","o","u","r","","f","i","n","a","n","c","i","a","l","s","","w","i","l","l",".","","S","t","a","r","t","i","n","g","","w","i","t","h","","o","u","r","","r","e","s","u","l","t","s","","f","o","r","","t","h","e","","f","o","u","r","t","h","","q","u","a","r","t","e","r","","o","f","","2","0","2","1",",","","w","e","","p","l","a","n","","t","o","","r","e","p","o","r","t","","o","n","","t","w","o","","o","p","e","r","a","t","i","n","g","","s","e","g","m","e","n","t","s",":","","F","a","m","i","l","y","","o","f","","A","p","p","s","","a","n","d","","R","e","a","l","i","t","y","","L","a","b","s",".","","W","e","","a","l","s","o","","i","n","t","e","n","d","","t","o","","s","t","a","r","t","","t","r","a","d","i","n","g","","u","n","d","e","r","","t","h","e","","n","e","w","","s","t","o","c","k","","t","i","c","k","e","r","","w","e","","h","a","v","e","","r","e","s","e","r","v","e","d",",","","M","V","R","S",",","","o","n","","D","e","c","e","m","b","e","r","","1",".","","T","o","d","a","y","u2019","s","","a","n","n","o","u","n","c","e","m","e","n","t","","d","o","e","s","","n","o","t","","a","f","f","e","c","t","","h","o","w","","w","e","","u","s","e","","o","r","","s","h","a","r","e","","d","a","t","a",".","","S","e","e","","a","l","s","o",":","","B","u","i","l","d","i","n","g","","t","h","e","","M","e","t","a","v","e","r","s","e","","R","e","s","p","o","n","s","i","b","l","y",",","","E","x","p","a","n","d","i","n","g","","H","o","r","i","z","o","n",":","","N","e","w","","F","u","n","d","i","n","g","","t","o","","S","u","p","p","o","r","t","","C","r","e","a","t","o","r","s",",","","I","n","t","r","o","d","u","c","i","n","g","","O","u","r","","N","e","w","","C","o","m","p","a","n","y","","B","r","a","n","d","","(","2","0","1","9",")","","W","h","a","t","","i","s","","M","e","t","a","?","","M","e","t","a","","b","u","i","l","d","s","","t","e","c","h","n","o","l","o","g","i","e","s","","t","h","a","t","","h","e","l","p","","p","e","o","p","l","e","","c","o","n","n","e","c","t",",","","f","i","n","d","","c","o","m","m","u","n","i","t","i","e","s",",","","a","n","d","","g","r","o","w","","b","u","s","i","n","e","s","s","e","s",".","","W","h","e","n","","F","a","c","e","b","o","o","k","","l","a","u","n","c","h","e","d","","i","n","","2","0","0","4",",","","i","t","","c","h","a","n","g","e","d","","t","h","e","","w","a","y","","p","e","o","p","l","e","","c","o","n","n","e","c","t",".","","A","p","p","s","","l","i","k","e","","M","e","s","s","e","n","g","e","r",",","","I","n","s","t","a","g","r","a","m","","a","n","d","","W","h","a","t","s","A","p","p","","f","u","r","t","h","e","r","","e","m","p","o","w","e","r","e","d","","b","i","l","l","i","o","n","s","","a","r","o","u","n","d","","t","h","e","","w","o","r","l","d",".","","N","o","w",",","","M","e","t","a","","i","s","","m","o","v","i","n","g","","b","e","y","o","n","d","","2","D","","s","c","r","e","e","n","s","","t","o","w","a","r","d","","i","m","m","e","r","s","i","v","e","","e","x","p","e","r","i","e","n","c","e","s","","l","i","k","e","","a","u","g","m","e","n","t","e","d","","a","n","d","","v","i","r","t","u","a","l","","r","e","a","l","i","t","y","","t","o","","h","e","l","p","","b","u","i","l","d","","t","h","e","","n","e","x","t","","e","v","o","l","u","t","i","o","n","","i","n","","s","o","c","i","a","l","","t","e","c","h","n","o","l","o","g","y","."],"character_start_times_seconds":[0,0.139,0.197,0.244,0.29,0.337,0.395,0.453,0.522,0.604,0.627,0.65,0.72,0.766,0.836,0.906,1.022,1.138,1.416,1.486,1.602,1.66,1.776,1.834,1.881,1.916,1.95,2.02,2.067,2.136,2.171,2.229,2.287,2.38,2.438,2.485,2.543,2.624,2.694,2.74,2.798,2.856,2.902,2.961,3.007,3.1,3.216,3.251,3.274,3.599,3.68,3.762,3.82,3.866,3.901,3.936,3.982,4.005,4.052,4.087,4.122,4.156,4.191,4.238,4.272,4.319,4.389,4.505,5.016,5.062,5.271,5.422,5.468,5.642,5.886,6.002,6.072,6.107,6.153,6.2,6.258,6.304,6.339,6.409,6.455,6.49,6.536,6.583,6.629,6.676,6.722,6.792,6.85,6.885,6.931,6.978,7.024,7.059,7.117,7.163,7.221,7.256,7.279,7.314,7.361,7.43,7.5,7.616,7.79,7.964,8.011,8.069,8.104,8.127,8.162,8.22,8.266,8.324,8.371,8.394,8.452,8.51,8.557,8.591,8.661,8.731,8.812,8.858,8.882,8.916,8.951,9.044,9.102,9.125,9.172,9.242,9.358,9.404,9.462,9.532,9.578,9.613,9.648,9.683,9.718,9.752,9.822,9.857,9.903,9.961,10.054,10.101,10.147,10.217,10.263,10.321,10.368,10.449,10.484,10.53,10.577,10.612,10.646,10.728,10.797,10.879,10.925,10.972,11.018,11.064,11.099,11.169,11.204,11.273,11.32,11.366,11.413,11.459,11.494,11.54,11.587,11.657,11.738,11.773,11.9,11.993,12.597,12.678,12.748,12.783,12.829,12.864,12.887,12.945,12.98,13.061,13.131,13.201,13.235,13.27,13.305,13.34,13.375,13.398,13.433,13.468,13.503,13.537,13.561,13.584,13.653,13.7,13.758,13.804,13.839,13.874,13.932,13.955,13.979,14.002,14.037,14.071,14.118,14.164,14.222,14.269,14.327,14.373,14.42,14.443,14.478,14.513,14.547,14.629,14.687,14.78,14.838,15.012,15.07,15.163,15.198,15.221,15.29,15.325,15.372,15.418,15.476,15.511,15.546,15.592,15.639,15.697,15.743,15.79,15.836,15.871,15.929,15.999,16.057,16.126,16.184,16.301,16.417,16.66,16.742,16.858,16.904,16.927,16.986,17.02,17.067,17.113,17.16,17.218,17.264,17.322,17.357,17.415,17.462,17.543,17.624,17.74,17.775,17.798,17.845,17.879,17.938,17.984,18.007,18.054,18.1,18.17,18.216,18.251,18.274,18.321,18.355,18.402,18.483,18.564,18.715,19.157,19.203,19.249,19.273,19.342,19.389,19.435,19.493,19.575,19.633,19.691,19.749,19.807,19.83,19.865,19.9,19.946,19.981,20.016,20.074,20.109,20.167,20.225,20.26,20.306,20.341,20.376,20.422,20.457,20.492,20.527,20.608,20.666,20.817,20.886,20.945,21.003,21.037,21.084,21.119,21.153,21.223,21.258,21.328,21.386,21.455,21.502,21.548,21.583,21.699,21.85,21.931,21.989,22.082,22.129,22.175,22.222,22.268,22.361,22.419,22.454,22.489,22.523,22.582,22.616,22.686,22.767,22.825,22.872,22.918,22.976,23.023,23.069,23.22,23.313,23.487,23.812,23.882,23.94,23.986,24.033,24.091,24.16,24.219,24.265,24.3,24.381,24.428,24.509,24.625,24.683,24.729,24.787,24.857,24.88,24.927,24.962,24.996,25.043,25.078,25.124,25.147,25.182,25.229,25.275,25.31,25.333,25.356,25.414,25.461,25.519,25.554,25.612,25.647,25.693,25.739,25.856,26.181,26.297,26.332,26.401,26.436,26.471,26.529,26.587,26.657,26.703,26.761,26.819,26.854,26.889,26.924,26.959,27.005,27.028,27.098,27.121,27.144,27.167,27.202,27.237,27.295,27.342,27.388,27.435,27.469,27.516,27.551,27.597,27.632,27.678,27.725,27.771,27.887,28.003,28.514,28.584,28.642,28.677,28.712,28.746,28.781,28.805,28.851,28.886,28.944,28.979,29.025,29.048,29.083,29.118,29.199,29.234,29.304,29.362,29.431,29.466,29.501,29.548,29.594,29.64,29.71,29.757,29.815,29.896,29.931,29.954,29.989,30.035,30.105,30.186,30.244,30.302,30.349,30.418,30.465,30.523,30.65,30.72,30.79,30.848,30.918,30.952,30.999,31.068,31.138,31.185,31.208,31.243,31.266,31.324,31.359,31.417,31.475,31.533,31.603,31.777,31.858,31.974,32.02,32.079,32.102,32.148,32.183,32.218,32.253,32.276,32.322,32.346,32.369,32.392,32.462,32.508,32.578,32.636,32.671,32.705,32.752,32.787,32.845,32.88,32.903,32.949,33.019,33.1,33.147,33.17,33.205,33.251,33.379,33.448,33.832,33.901,33.948,33.983,34.052,34.099,34.18,34.25,34.273,34.319,34.366,34.389,34.424,34.47,34.517,34.54,34.609,34.679,34.76,34.807,34.83,34.865,34.935,35.051,35.109,35.132,35.167,35.213,35.248,35.271,35.306,35.341,35.376,35.411,35.434,35.469,35.503,35.55,35.701,35.817,35.898,35.945,35.979,36.003,36.026,36.049,36.084,36.107,36.154,36.188,36.235,36.281,36.316,36.363,36.397,36.432,36.467,36.502,36.537,36.583,36.676,36.792,37.233,37.315,37.373,37.407,37.442,37.477,37.5,37.524,37.547,37.593,37.628,37.686,37.744,37.779,37.825,37.883,37.942,38,38.069,38.139,38.197,38.243,38.29,38.36,38.418,38.487,38.534,38.58,38.615,38.685,38.743,38.859,38.917,38.94,39.01,39.044,39.126,39.172,39.207,39.23,39.253,39.277,39.335,39.381,39.474,39.52,39.555,39.59,39.625,39.671,39.706,39.776,39.799,39.857,39.915,39.997,40.055,40.101,40.171,40.24,40.287,40.368,40.542,40.821,40.902,40.949,40.983,41.03,41.053,41.088,41.123,41.146,41.216,41.297,41.355,41.401,41.448,41.506,41.564,41.587,41.61,41.68,41.726,41.773,41.831,41.866,41.935,41.982,42.028,42.063,42.121,42.156,42.214,42.307,42.377,42.423,42.481,42.551,42.667,42.748,42.806,42.853,42.911,42.945,42.98,43.015,43.073,43.108,43.166,43.224,43.271,43.317,43.363,43.456,43.572,44.083,44.164,44.223,44.269,44.327,44.373,44.408,44.455,44.513,44.571,44.629,44.652,44.699,44.733,44.815,44.884,44.919,44.954,45,45.047,45.093,45.14,45.175,45.209,45.233,45.267,45.314,45.349,45.418,45.476,45.546,45.604,45.651,45.697,45.767,45.836,45.929,45.976,46.034,46.057,46.138,46.185,46.254,46.289,46.324,46.37,46.405,46.44,46.475,46.498,46.556,46.591,46.626,46.672,46.719,46.754,46.812,46.928,47.531,47.648,47.706,47.752,47.833,47.926,47.984,48.054,48.135,48.193,48.228,48.298,48.332,48.379,48.437,48.472,48.553,48.588,48.611,48.634,48.681,48.762,48.832,48.89,48.925,48.959,48.983,49.017,49.052,49.087,49.134,49.203,49.261,49.296,49.319,49.366,49.412,49.447,49.482,49.54,49.598,49.656,49.702,49.726,49.761,49.784,49.877,49.935,49.993,50.062,50.144,50.202,50.26,50.329,50.411,50.48,50.759,50.852,50.887,50.922,50.991,51.038,51.096,51.142,51.212,51.27,51.328,51.374,51.444,51.49,51.572,51.641,51.711,51.757,51.815,51.862,51.92,51.955,52.024,52.071,52.129,52.187,52.257,52.315,52.384,52.431,52.547,52.721,53.046,53.104,53.197,53.278,53.348,53.406,53.452,53.487,53.522,53.569,53.627,53.673,53.766,53.824,53.87,53.928,54.045,54.219,54.602,54.683,54.753,54.822,54.881,54.95,54.997,55.043,55.113,55.229,55.345,55.461,55.519,55.566,55.647,55.763,55.821,55.844,55.891,55.937,55.983,56.03,56.065,56.111,56.204,56.262,56.343,56.401,56.459,56.506,56.564,56.61,56.657,56.692,56.726,56.75,56.773,56.796,56.866,56.901,56.947,56.994,57.04,57.086,57.121,57.191,57.237,57.272,57.307,57.353,57.4,57.47,57.539,57.597,57.644,57.713,57.795,57.864,58.189,58.282,58.329,58.363,58.433,58.48,58.549,58.619,58.654,58.712,58.781,58.932,59.374,59.432,59.501,59.548,59.583,59.629,59.664,59.699,59.745,59.792,59.826,59.85,59.908,59.954,60.012,60.059,60.14,60.209,60.256,60.314,60.384,60.442,60.511,60.569,60.616,60.662,60.72,60.802,60.871,60.964,61.011,61.057,61.115,61.15,61.173,61.22,61.243,61.278,61.313,61.347,61.394,61.429,61.51,61.591,61.626,61.672,61.719,61.765,61.812,61.858,61.974,62.009,62.067,62.09,62.125,62.16,62.183,62.206,62.23,62.276,62.323,62.381,62.439,62.497,62.555,62.613,62.659,62.717,62.752,62.799,62.833,62.868,62.903,62.926,62.961,63.019,63.066,63.135,63.205,63.24,63.275,63.309,63.367,63.414,63.46,63.507,63.576,63.611,63.646,63.669,63.704,63.727,63.751,63.774,63.809,63.843,63.902,63.948,63.983,64.052,64.099,64.192,64.261,64.354,64.412,64.563,64.61,64.772,65.097,65.155,65.202,65.237,65.272,65.353,65.422,65.539,65.597,65.643,65.678,65.713,65.771,65.794,65.84,65.887,65.933,65.991,66.038,66.084,66.131,66.177,66.258,66.433,66.641,66.711,66.769,66.85,66.92,66.955,67.001,67.036,67.083,67.164,67.234,67.28,67.361,67.419,67.477,67.512,67.605,67.686,67.965,68.046,68.197,68.29,68.348,68.383,68.453,68.627,68.836,68.929,69.022,69.091,69.149,69.207,69.254,69.37,69.486,69.73,69.811,69.904,69.985,70.101,70.229,70.438,70.554,70.612,70.682,70.763,70.879,70.949,71.007,71.042,71.076,71.123,71.146,71.169,71.193,71.262,71.309,71.39,71.46,71.506,71.553,71.599,71.645,71.82,71.854,72.296,72.365,72.435,72.493,72.539,72.609,72.69,72.76,72.83,72.853,72.911,72.946,72.992,73.027,73.073,73.108,73.143,73.166,73.236,73.282,73.329,73.375,73.433,73.468,73.549,73.619,73.7,73.758,73.793,73.828,73.863,73.933,73.956,73.991,74.037,74.083,74.13,74.165,74.211,74.258,74.304,74.351,74.397,74.443,74.467,74.513,74.548,74.606,74.641,74.687,74.71,74.745,74.78,74.815,74.838,74.861,74.885,74.931,74.977,75.035,75.094,75.152,75.21,75.279,75.326,75.384,75.535,75.616,75.825,75.895,75.965,76.034,76.092,76.139,76.197,76.243,76.266,76.29,76.359,76.406,76.464,76.522,76.58,76.638,76.684,76.719,76.754,76.789,76.835,76.905,76.998,77.068,77.137,77.195,77.265,77.358,77.532,77.741,77.776,77.834,77.88,77.915,77.938,77.985,78.02,78.089,78.124,78.17,78.24,78.321,78.414,78.53,78.6,78.658,78.716,78.809,78.89,78.96,79.006,79.088,79.146,79.215,79.273,79.32,79.343,79.39,79.436,79.517,79.598,79.668,79.715,79.773,79.819,79.866,79.912,79.982,80.075,80.121,80.167,80.214,80.26,80.307,80.353,80.469,80.527,80.609,80.667,80.713,80.771,80.806,80.864,80.934,80.992,81.038,81.096,81.247,81.456,81.781,81.862,81.909,81.955,82.002,82.025,82.06,82.211,83.163,83.198,83.279,83.36,83.395,83.453,83.499,83.534,83.569,83.616,83.941,84.01,84.045,84.126,84.196,84.277,84.335,84.417,84.463,84.51,84.544,84.614,84.742,84.858,84.916,84.974,85.009,85.067,85.113,85.171,85.229,85.287,85.369,85.403,85.45,85.496,85.543,85.589,85.624,85.671,85.717,85.763,85.787,85.845,85.996,86.065,86.123,86.193,86.251,86.321,86.39,86.437,86.483,86.53,86.553,86.576,86.599,86.657,86.704,86.762,86.808,86.843,86.89,86.924,86.994,87.029,87.087,87.157,87.238,87.296,87.331,87.366,87.4,87.435,87.458,87.482,87.54,87.586,87.656,87.725,87.818,87.888,87.934,87.981,88.074,88.201,88.805,88.863,88.898,88.921,88.968,89.003,89.049,89.084,89.142,89.177,89.235,89.281,89.328,89.374,89.432,89.455,89.479,89.502,89.571,89.618,89.676,89.734,89.769,89.838,89.873,89.908,89.978,90.024,90.082,90.129,90.175,90.222,90.268,90.349,90.419,90.512,90.593,90.651,90.721,90.837,90.918,90.976,90.999,91.046,91.081,91.127,91.162,91.208,91.255,91.313,91.371,91.452,91.51,91.557,91.592,91.638,91.696,91.754,91.801,91.847,91.917,91.986,92.056,92.091,92.161,92.184,92.207,92.23,92.3,92.335,92.393,92.451,92.521,92.579,92.637,92.695,92.753,92.776,92.811,92.857,92.927,92.973,93.02,93.101,93.182,93.275,93.345,93.415,93.461,93.507,93.6,93.647,93.693,93.728,93.798,93.867,93.914,93.96,94.007,94.041,94.1,94.158,94.216,94.262,94.32,94.367,94.413,94.436,94.483,94.564,94.587,94.657,94.692,94.738,94.785,94.808,95.052,95.098,95.249,95.365,95.539,95.922,95.969,96.004,96.027,96.073,96.108,96.143,96.178,96.224,96.259,96.317,96.398,96.48,96.538,96.572,96.619,96.654,96.7,96.747,96.816,96.863,96.944,97.002,97.037,97.072,97.118,97.165,97.211,97.246,97.269,97.304,97.339,97.374,97.408,97.466,97.501,97.559,97.617,97.71,97.826,97.942,97.989,98.024,98.047,98.093,98.117,98.14,98.163,98.209,98.268,98.384,98.453,98.5,98.546,98.581,98.651,98.685,98.72,98.755,98.79,98.836,98.883,98.918,98.999,99.034,99.08,99.115,99.196,99.521,99.603,99.649,99.707,99.742,99.812,99.858,99.916,99.974,100.021,100.067,100.125,100.148,100.172,100.195,100.253,100.288,100.346,100.404,100.439,100.497,100.531,100.613,100.706,100.752,100.845,101.019,101.135,101.182,101.216,101.251,101.274,101.309,101.356,101.391,101.449,101.518,101.588,101.634,101.669,101.704,101.751,101.82,101.901,102.018,102.134,102.83,102.9,102.958,103.004,103.039,103.097,103.144,103.19,103.225,103.283,103.318,103.353,103.388,103.446,103.492,103.55,103.631,103.701,103.747,103.782,103.817,103.852,103.875,103.898,103.922,103.968,104.026,104.142,104.2,104.281,104.34,104.398,104.432,104.49,104.572,104.653,104.723,104.966,105.477,105.547,105.605,105.651,105.698,105.756,105.802,105.884,105.907,105.953,106.65,106.685,106.894,107.045,107.428,107.521,107.567,107.602,107.672,107.706,107.776,107.823,107.857,107.892,107.927,107.973,108.008,108.031,108.066,108.101,108.124,108.148,108.171,108.206,108.241,108.299,108.345,108.403,108.45,108.508,108.554,108.601,108.636,108.67,108.705,108.752,108.833,108.949,109.019,109.088,109.123,109.181,109.216,109.297,109.344,109.518,109.588,109.913,109.948,109.982,110.006,110.064,110.11,110.191,110.249,110.307,110.354,110.377,110.424,110.447,110.47,110.54,110.574,110.633,110.702,110.818,110.934,111.376,111.445,111.503,111.55,111.608,111.666,111.712,111.747,111.77,111.794,111.84,111.898,111.968,112.049,112.119,112.165,112.235,112.351,112.56,112.885,112.966,113.013,113.036,113.105,113.14,113.21,113.245,113.268,113.314,113.372,113.442,113.535,113.616,113.686,113.732,113.779,114.22,114.429,114.522,114.615,114.731,114.754,114.824,114.905,114.986,115.056,115.091,115.126,115.172,115.207,115.277,115.335,115.381,115.427,115.706,115.764,115.787,115.834,115.892,115.927,115.996,116.031,116.089,116.136,116.194,116.217,116.24,116.287,116.31,116.333,116.356,116.391,116.426,116.496,116.542,116.612,116.647,116.716,116.786,116.832,116.902,116.937,116.983,117.076,117.134,117.181,117.239,117.297,117.331,117.378,117.401,117.424,117.448,117.471,117.517,117.552,117.622,117.668,117.703,117.726,117.773,117.807,117.842,117.889,117.935,117.982,118.028,118.109,118.167,118.376,118.818,118.91,119.003,119.073,119.119,119.154,119.177,119.236,119.282,119.352,119.386,119.479,119.537,119.572,119.642,119.712,119.758,119.816,119.851,119.874,119.909,119.979,120.025,120.095,120.164,120.222,120.28,120.338,120.431,122.835,123.345,123.438,123.554,123.647,123.763,123.798,123.833,123.949,123.972,123.996,124.077,124.112,124.17,124.228,124.263,124.286,124.309,124.356,124.379,124.402,124.472,124.564,124.634,124.704,124.75,124.82,124.855,124.901,124.936,124.994,125.122,125.168,125.261,125.772,125.888,126.004,126.051,126.109,126.178,126.271,126.596,126.689,126.747,126.817,126.875,126.921,126.991,127.049,127.13,127.212,127.653,127.769,127.862,127.908,127.966,128.013,128.106,128.349,128.442,128.558,128.604,128.662,128.697,128.744,128.79,128.837,128.918,128.988,129.104,129.173,129.22,129.266,129.301,129.359,129.406,129.464,129.498,129.545,129.591,129.638,129.684,129.731,129.765,129.8,129.835,129.87,129.905,129.94,129.986,130.021,130.056,130.09,130.137,130.195,130.218,130.253,130.288,130.346,130.416,130.485,130.532,130.567,130.648,131.251,131.368,131.426,131.46,131.553,131.6,131.681,131.739,131.809,131.925,131.948,132.029,132.122,132.238,132.262,132.343,132.401,132.459,132.517,132.575,132.633,132.68,132.714,132.749,132.784,132.819,132.854,132.912,132.947,133.005,133.051,133.097,133.132,133.179,133.237,133.295,133.353,133.411,133.434,133.504,133.62,134.061,134.119,134.166,134.224,134.293,134.34,134.386,134.409,134.433,134.456,134.491,134.526,134.56,134.595,134.63,134.665,134.746,134.781,134.839,134.897,134.955,135.002,135.048,135.083,135.118,135.152,135.187,135.21,135.234,135.269,135.315,135.361,135.431,135.489,135.547,135.594,135.64,135.687,135.733,135.791,135.826,135.872,135.919,135.977,136.023,136.104,136.221,136.824,136.906,136.964,137.022,137.056,137.091,137.126,137.149,137.173,137.196,137.219,137.254,137.277,137.312,137.347,137.37,137.405,137.44,137.474,137.509,137.556,137.614,137.683,137.741,137.776,137.811,137.846,137.881,137.904,137.939,137.974,137.997,138.02,138.043,138.101,138.136,138.183,138.229,138.276,138.31,138.345,138.392,138.415,138.45,138.496,138.543,138.589,138.624,138.647,138.682,138.705,138.728,138.81,138.833,139.274,139.32,139.529,139.704,139.854,139.913,139.982,140.063,140.11,140.156,140.238,140.284,140.342,140.365,140.389,140.481,140.516,140.586,140.667,140.748,140.806,140.865,140.923,140.981,141.027,141.097,141.155,141.224,141.283,141.364,141.445,141.515,141.55,141.584,141.631,141.677,141.712,141.735,141.759,141.817,141.863,141.956,142.014,142.072,142.107,142.142,142.176,142.258,142.409,142.792,142.873,142.966,143.012,143.059,143.105,143.14,143.198,143.221,143.256,143.337,143.43,143.476,143.523,143.604,143.72,143.801,143.848,143.871,143.941,143.976,144.057,144.127,144.185,144.231,144.289,144.324,144.37,144.417,144.533,144.591,144.684,144.835,145.647,145.717,145.787,145.833,145.88,145.949,146.031,146.123,146.216,146.263,146.344,146.425,146.495,146.541,146.588,146.646,146.669,146.692,146.739,146.774,146.808,146.867,146.901,146.959,146.994,147.052,147.122,147.192,147.25,147.308,147.331,147.366,147.447,147.482,147.517,147.552,147.586,147.61,147.656,147.679,147.702,147.726,147.772,147.807,147.853,147.888,147.935,147.981,148.051,148.132,148.178,148.202,148.248,148.295,148.353,148.387,148.422,148.469,148.538,148.782,148.852,148.898,148.933,148.968,148.991,149.026,149.049,149.084,149.13,149.2,149.281,149.374,149.444,149.502,149.56,149.618,149.699,150.082,150.291,150.408,150.651,150.826,150.942,151.011,151.081,151.116,151.162,151.197,151.255,151.313,151.371,151.418,151.464,151.511,151.534,151.603,151.847,152.056,152.497,152.567,152.637,152.683,152.741,152.788,152.822,152.857,152.892,152.927,152.973,153.008,153.043,153.078,153.113,153.148,153.182,153.217,153.252,153.287,153.322,153.357,153.38,153.415,153.449,153.484,153.531,153.565,153.612,153.658,153.693,153.728,153.774,153.821,153.879,153.925,153.972,154.018,154.053,154.123,154.146,154.216,154.239,154.309,154.378,154.494,154.576,154.599,154.645,154.692,154.715,154.761,154.796,154.843,154.901,154.947,154.982,155.017,155.063,155.144,155.214,155.307,155.516,155.841,155.922,156.004,156.062,156.108,156.178,156.247,156.34,156.514,156.689,156.863,156.921,156.979,157.025,157.072,157.118,157.176,157.199,157.234,157.292,157.316,157.339,157.362,157.432,157.478,157.536,157.594,157.664,157.722,157.792,157.861,157.919,157.966,158.012,158.059,158.117,158.186,158.256,158.326,158.384,158.442,158.523,158.581,158.651,158.744,158.918,159.243,159.359,159.475,159.568,159.637,159.672,159.73,159.788,159.812,159.835,159.905,159.928,159.974,160.055,160.172,160.264,160.346,160.427,160.636,160.961,161.042,161.1,161.135,161.216,161.263,161.344,161.379,161.437,161.484,161.507,161.542,161.6,161.634,161.669,161.751,161.785,161.832,161.89,161.948,162.018,162.076,162.122,162.18,162.227,162.285,162.354,162.447,162.517,162.563,162.61,162.726,162.9,163.179,163.271,163.33,163.388,163.434,163.492,163.562,163.62,163.701,163.817,163.852,163.887,163.98,164.038,164.061,164.096,164.177,164.223,164.27,164.316,164.374,164.421,164.491,164.537,164.583,164.63,164.676,164.711,164.769,164.804,164.885,164.967,165.013,165.083,165.21,165.489,165.663,165.779,166.162,166.244,166.395,166.836,166.905,166.975,167.021,167.056,167.103,167.149,167.184,167.265,167.3,167.37,167.439,167.556,167.672,168.182,168.275,168.333,168.403,168.45,168.519,168.554,168.577,168.624,168.67,168.728,168.763,168.809,168.856,168.926,168.96,169.018,169.088,169.204,169.262,169.332,169.402,169.471,169.529,169.564,169.599,169.622,169.657,169.692,169.727,169.785,169.819,169.854,169.912,169.97,170.017,170.052,170.098,170.145,170.203,170.249,170.296,170.342,170.388,170.435,170.504,170.563,170.644,170.702,170.818,170.946,171.097,171.178,171.271,171.317,171.34,171.398,171.422,171.468,171.515,171.584,171.642,171.7,171.758,171.805,171.863,171.921,172.002,172.095,172.118,172.2,172.234,172.258,172.304,172.339,172.397,172.443,172.467,172.525,172.559,172.629,172.676,172.71,172.734,172.78,172.815,172.873,172.943,173.024,173.198,173.639,173.686,173.744,173.778,173.813,173.883,173.929,174.022,174.08,174.115,174.162,174.196,174.231,174.278,174.336,174.382,174.429,174.452,174.498,174.533,174.556,174.591,174.614,174.649,174.684,174.707,174.777,174.951,175.102,175.253,175.497,175.671,175.845,175.926,175.984,176.042,176.089,176.159,176.228,176.286,176.333,176.391,176.414,176.449,176.472,176.495,176.518,176.565,176.611,176.669,176.727,176.809,176.844,176.89,176.936,176.983,177.029,177.064,177.099,177.122,177.169,177.227,177.273,177.331,177.378,177.494,177.61,178.051,178.225,178.272,178.318,178.365,178.423,178.458,178.504,178.551,178.585,178.655,178.701,178.748,178.794,178.841,178.887,178.922,178.98,179.05,179.131,179.375,179.421,179.537,179.607,179.677,179.723,179.781,179.839,179.909,180.037,180.129,180.211,180.28,180.327,180.362,180.431,180.455,180.513,180.571,180.629,180.722,180.873,180.896,180.977,181.36,181.441,181.511,181.546,181.604,181.627,181.674,181.708,181.766,181.813,181.894,181.975,182.126,182.184,182.242,182.266,182.312,182.335,182.382,182.428,182.486,182.533,182.568,182.614,182.649,182.684,182.73,182.765,182.8,182.846,182.869,182.916,182.951,182.974,182.997,183.02,183.044,183.067,183.102,183.136,183.183,183.229,183.276,183.369,183.462,184.065,184.158,184.239,184.274,184.321,184.367,184.448,184.541,184.576,184.623,184.692,184.739,184.773,184.855,184.89,184.948,184.994,185.04,185.064,185.087,185.145,185.18,185.238,185.284,185.354,185.412,185.447,185.598,185.749,185.83,185.946,186.004,186.085,186.155,186.201,186.271,186.341,186.434,186.585,186.677,186.747,186.805,186.875,186.921,186.968,187.014,187.061,187.095,187.142,187.212,187.258,187.316,187.386,187.421,187.455,187.49,187.537,187.606,187.699,187.757,187.804,187.85,187.908,187.955,188.001,188.094,188.129,188.187,188.233,188.28,188.326,188.361,188.419,188.477,188.535,188.605,188.686,188.767,188.825,188.895,188.976,189.034,189.313,189.394,189.441,189.475,189.545,189.58,189.638,189.684,189.754,189.824,189.882,189.917,189.986,190.033,190.114,190.184,190.242,190.288,190.346,190.462,190.845,190.927,190.962,191.043,191.066,191.112,191.159,191.217,191.275,191.31,191.356,191.391,191.449,191.484,191.519,191.542,191.565,191.589,191.635,191.67,191.728,191.774,191.809,191.856,191.914,191.972,192.018,192.088,192.146,192.204,192.239,192.273,192.308,192.343,192.366,192.39,192.459,192.506,192.587,192.633,192.668,192.703,192.726,192.784,192.819,192.877,192.912,192.958,193.017,193.098,193.144,193.202,193.249,193.376],"character_end_times_seconds":[0.139,0.197,0.244,0.29,0.337,0.395,0.453,0.522,0.604,0.627,0.65,0.72,0.766,0.836,0.906,1.022,1.138,1.416,1.486,1.602,1.66,1.776,1.834,1.881,1.916,1.95,2.02,2.067,2.136,2.171,2.229,2.287,2.38,2.438,2.485,2.543,2.624,2.694,2.74,2.798,2.856,2.902,2.961,3.007,3.1,3.216,3.251,3.274,3.599,3.68,3.762,3.82,3.866,3.901,3.936,3.982,4.005,4.052,4.087,4.122,4.156,4.191,4.238,4.272,4.319,4.389,4.505,5.016,5.062,5.271,5.422,5.468,5.642,5.886,6.002,6.072,6.107,6.153,6.2,6.258,6.304,6.339,6.409,6.455,6.49,6.536,6.583,6.629,6.676,6.722,6.792,6.85,6.885,6.931,6.978,7.024,7.059,7.117,7.163,7.221,7.256,7.279,7.314,7.361,7.43,7.5,7.616,7.79,7.964,8.011,8.069,8.104,8.127,8.162,8.22,8.266,8.324,8.371,8.394,8.452,8.51,8.557,8.591,8.661,8.731,8.812,8.858,8.882,8.916,8.951,9.044,9.102,9.125,9.172,9.242,9.358,9.404,9.462,9.532,9.578,9.613,9.648,9.683,9.718,9.752,9.822,9.857,9.903,9.961,10.054,10.101,10.147,10.217,10.263,10.321,10.368,10.449,10.484,10.53,10.577,10.612,10.646,10.728,10.797,10.879,10.925,10.972,11.018,11.064,11.099,11.169,11.204,11.273,11.32,11.366,11.413,11.459,11.494,11.54,11.587,11.657,11.738,11.773,11.9,11.993,12.597,12.678,12.748,12.783,12.829,12.864,12.887,12.945,12.98,13.061,13.131,13.201,13.235,13.27,13.305,13.34,13.375,13.398,13.433,13.468,13.503,13.537,13.561,13.584,13.653,13.7,13.758,13.804,13.839,13.874,13.932,13.955,13.979,14.002,14.037,14.071,14.118,14.164,14.222,14.269,14.327,14.373,14.42,14.443,14.478,14.513,14.547,14.629,14.687,14.78,14.838,15.012,15.07,15.163,15.198,15.221,15.29,15.325,15.372,15.418,15.476,15.511,15.546,15.592,15.639,15.697,15.743,15.79,15.836,15.871,15.929,15.999,16.057,16.126,16.184,16.301,16.417,16.66,16.742,16.858,16.904,16.927,16.986,17.02,17.067,17.113,17.16,17.218,17.264,17.322,17.357,17.415,17.462,17.543,17.624,17.74,17.775,17.798,17.845,17.879,17.938,17.984,18.007,18.054,18.1,18.17,18.216,18.251,18.274,18.321,18.355,18.402,18.483,18.564,18.715,19.157,19.203,19.249,19.273,19.342,19.389,19.435,19.493,19.575,19.633,19.691,19.749,19.807,19.83,19.865,19.9,19.946,19.981,20.016,20.074,20.109,20.167,20.225,20.26,20.306,20.341,20.376,20.422,20.457,20.492,20.527,20.608,20.666,20.817,20.886,20.945,21.003,21.037,21.084,21.119,21.153,21.223,21.258,21.328,21.386,21.455,21.502,21.548,21.583,21.699,21.85,21.931,21.989,22.082,22.129,22.175,22.222,22.268,22.361,22.419,22.454,22.489,22.523,22.582,22.616,22.686,22.767,22.825,22.872,22.918,22.976,23.023,23.069,23.22,23.313,23.487,23.812,23.882,23.94,23.986,24.033,24.091,24.16,24.219,24.265,24.3,24.381,24.428,24.509,24.625,24.683,24.729,24.787,24.857,24.88,24.927,24.962,24.996,25.043,25.078,25.124,25.147,25.182,25.229,25.275,25.31,25.333,25.356,25.414,25.461,25.519,25.554,25.612,25.647,25.693,25.739,25.856,26.181,26.297,26.332,26.401,26.436,26.471,26.529,26.587,26.657,26.703,26.761,26.819,26.854,26.889,26.924,26.959,27.005,27.028,27.098,27.121,27.144,27.167,27.202,27.237,27.295,27.342,27.388,27.435,27.469,27.516,27.551,27.597,27.632,27.678,27.725,27.771,27.887,28.003,28.514,28.584,28.642,28.677,28.712,28.746,28.781,28.805,28.851,28.886,28.944,28.979,29.025,29.048,29.083,29.118,29.199,29.234,29.304,29.362,29.431,29.466,29.501,29.548,29.594,29.64,29.71,29.757,29.815,29.896,29.931,29.954,29.989,30.035,30.105,30.186,30.244,30.302,30.349,30.418,30.465,30.523,30.65,30.72,30.79,30.848,30.918,30.952,30.999,31.068,31.138,31.185,31.208,31.243,31.266,31.324,31.359,31.417,31.475,31.533,31.603,31.777,31.858,31.974,32.02,32.079,32.102,32.148,32.183,32.218,32.253,32.276,32.322,32.346,32.369,32.392,32.462,32.508,32.578,32.636,32.671,32.705,32.752,32.787,32.845,32.88,32.903,32.949,33.019,33.1,33.147,33.17,33.205,33.251,33.379,33.448,33.832,33.901,33.948,33.983,34.052,34.099,34.18,34.25,34.273,34.319,34.366,34.389,34.424,34.47,34.517,34.54,34.609,34.679,34.76,34.807,34.83,34.865,34.935,35.051,35.109,35.132,35.167,35.213,35.248,35.271,35.306,35.341,35.376,35.411,35.434,35.469,35.503,35.55,35.701,35.817,35.898,35.945,35.979,36.003,36.026,36.049,36.084,36.107,36.154,36.188,36.235,36.281,36.316,36.363,36.397,36.432,36.467,36.502,36.537,36.583,36.676,36.792,37.233,37.315,37.373,37.407,37.442,37.477,37.5,37.524,37.547,37.593,37.628,37.686,37.744,37.779,37.825,37.883,37.942,38,38.069,38.139,38.197,38.243,38.29,38.36,38.418,38.487,38.534,38.58,38.615,38.685,38.743,38.859,38.917,38.94,39.01,39.044,39.126,39.172,39.207,39.23,39.253,39.277,39.335,39.381,39.474,39.52,39.555,39.59,39.625,39.671,39.706,39.776,39.799,39.857,39.915,39.997,40.055,40.101,40.171,40.24,40.287,40.368,40.542,40.821,40.902,40.949,40.983,41.03,41.053,41.088,41.123,41.146,41.216,41.297,41.355,41.401,41.448,41.506,41.564,41.587,41.61,41.68,41.726,41.773,41.831,41.866,41.935,41.982,42.028,42.063,42.121,42.156,42.214,42.307,42.377,42.423,42.481,42.551,42.667,42.748,42.806,42.853,42.911,42.945,42.98,43.015,43.073,43.108,43.166,43.224,43.271,43.317,43.363,43.456,43.572,44.083,44.164,44.223,44.269,44.327,44.373,44.408,44.455,44.513,44.571,44.629,44.652,44.699,44.733,44.815,44.884,44.919,44.954,45,45.047,45.093,45.14,45.175,45.209,45.233,45.267,45.314,45.349,45.418,45.476,45.546,45.604,45.651,45.697,45.767,45.836,45.929,45.976,46.034,46.057,46.138,46.185,46.254,46.289,46.324,46.37,46.405,46.44,46.475,46.498,46.556,46.591,46.626,46.672,46.719,46.754,46.812,46.928,47.531,47.648,47.706,47.752,47.833,47.926,47.984,48.054,48.135,48.193,48.228,48.298,48.332,48.379,48.437,48.472,48.553,48.588,48.611,48.634,48.681,48.762,48.832,48.89,48.925,48.959,48.983,49.017,49.052,49.087,49.134,49.203,49.261,49.296,49.319,49.366,49.412,49.447,49.482,49.54,49.598,49.656,49.702,49.726,49.761,49.784,49.877,49.935,49.993,50.062,50.144,50.202,50.26,50.329,50.411,50.48,50.759,50.852,50.887,50.922,50.991,51.038,51.096,51.142,51.212,51.27,51.328,51.374,51.444,51.49,51.572,51.641,51.711,51.757,51.815,51.862,51.92,51.955,52.024,52.071,52.129,52.187,52.257,52.315,52.384,52.431,52.547,52.721,53.046,53.104,53.197,53.278,53.348,53.406,53.452,53.487,53.522,53.569,53.627,53.673,53.766,53.824,53.87,53.928,54.045,54.219,54.602,54.683,54.753,54.822,54.881,54.95,54.997,55.043,55.113,55.229,55.345,55.461,55.519,55.566,55.647,55.763,55.821,55.844,55.891,55.937,55.983,56.03,56.065,56.111,56.204,56.262,56.343,56.401,56.459,56.506,56.564,56.61,56.657,56.692,56.726,56.75,56.773,56.796,56.866,56.901,56.947,56.994,57.04,57.086,57.121,57.191,57.237,57.272,57.307,57.353,57.4,57.47,57.539,57.597,57.644,57.713,57.795,57.864,58.189,58.282,58.329,58.363,58.433,58.48,58.549,58.619,58.654,58.712,58.781,58.932,59.374,59.432,59.501,59.548,59.583,59.629,59.664,59.699,59.745,59.792,59.826,59.85,59.908,59.954,60.012,60.059,60.14,60.209,60.256,60.314,60.384,60.442,60.511,60.569,60.616,60.662,60.72,60.802,60.871,60.964,61.011,61.057,61.115,61.15,61.173,61.22,61.243,61.278,61.313,61.347,61.394,61.429,61.51,61.591,61.626,61.672,61.719,61.765,61.812,61.858,61.974,62.009,62.067,62.09,62.125,62.16,62.183,62.206,62.23,62.276,62.323,62.381,62.439,62.497,62.555,62.613,62.659,62.717,62.752,62.799,62.833,62.868,62.903,62.926,62.961,63.019,63.066,63.135,63.205,63.24,63.275,63.309,63.367,63.414,63.46,63.507,63.576,63.611,63.646,63.669,63.704,63.727,63.751,63.774,63.809,63.843,63.902,63.948,63.983,64.052,64.099,64.192,64.261,64.354,64.412,64.563,64.61,64.772,65.097,65.155,65.202,65.237,65.272,65.353,65.422,65.539,65.597,65.643,65.678,65.713,65.771,65.794,65.84,65.887,65.933,65.991,66.038,66.084,66.131,66.177,66.258,66.433,66.641,66.711,66.769,66.85,66.92,66.955,67.001,67.036,67.083,67.164,67.234,67.28,67.361,67.419,67.477,67.512,67.605,67.686,67.965,68.046,68.197,68.29,68.348,68.383,68.453,68.627,68.836,68.929,69.022,69.091,69.149,69.207,69.254,69.37,69.486,69.73,69.811,69.904,69.985,70.101,70.229,70.438,70.554,70.612,70.682,70.763,70.879,70.949,71.007,71.042,71.076,71.123,71.146,71.169,71.193,71.262,71.309,71.39,71.46,71.506,71.553,71.599,71.645,71.82,71.854,72.296,72.365,72.435,72.493,72.539,72.609,72.69,72.76,72.83,72.853,72.911,72.946,72.992,73.027,73.073,73.108,73.143,73.166,73.236,73.282,73.329,73.375,73.433,73.468,73.549,73.619,73.7,73.758,73.793,73.828,73.863,73.933,73.956,73.991,74.037,74.083,74.13,74.165,74.211,74.258,74.304,74.351,74.397,74.443,74.467,74.513,74.548,74.606,74.641,74.687,74.71,74.745,74.78,74.815,74.838,74.861,74.885,74.931,74.977,75.035,75.094,75.152,75.21,75.279,75.326,75.384,75.535,75.616,75.825,75.895,75.965,76.034,76.092,76.139,76.197,76.243,76.266,76.29,76.359,76.406,76.464,76.522,76.58,76.638,76.684,76.719,76.754,76.789,76.835,76.905,76.998,77.068,77.137,77.195,77.265,77.358,77.532,77.741,77.776,77.834,77.88,77.915,77.938,77.985,78.02,78.089,78.124,78.17,78.24,78.321,78.414,78.53,78.6,78.658,78.716,78.809,78.89,78.96,79.006,79.088,79.146,79.215,79.273,79.32,79.343,79.39,79.436,79.517,79.598,79.668,79.715,79.773,79.819,79.866,79.912,79.982,80.075,80.121,80.167,80.214,80.26,80.307,80.353,80.469,80.527,80.609,80.667,80.713,80.771,80.806,80.864,80.934,80.992,81.038,81.096,81.247,81.456,81.781,81.862,81.909,81.955,82.002,82.025,82.06,82.211,83.163,83.198,83.279,83.36,83.395,83.453,83.499,83.534,83.569,83.616,83.941,84.01,84.045,84.126,84.196,84.277,84.335,84.417,84.463,84.51,84.544,84.614,84.742,84.858,84.916,84.974,85.009,85.067,85.113,85.171,85.229,85.287,85.369,85.403,85.45,85.496,85.543,85.589,85.624,85.671,85.717,85.763,85.787,85.845,85.996,86.065,86.123,86.193,86.251,86.321,86.39,86.437,86.483,86.53,86.553,86.576,86.599,86.657,86.704,86.762,86.808,86.843,86.89,86.924,86.994,87.029,87.087,87.157,87.238,87.296,87.331,87.366,87.4,87.435,87.458,87.482,87.54,87.586,87.656,87.725,87.818,87.888,87.934,87.981,88.074,88.201,88.805,88.863,88.898,88.921,88.968,89.003,89.049,89.084,89.142,89.177,89.235,89.281,89.328,89.374,89.432,89.455,89.479,89.502,89.571,89.618,89.676,89.734,89.769,89.838,89.873,89.908,89.978,90.024,90.082,90.129,90.175,90.222,90.268,90.349,90.419,90.512,90.593,90.651,90.721,90.837,90.918,90.976,90.999,91.046,91.081,91.127,91.162,91.208,91.255,91.313,91.371,91.452,91.51,91.557,91.592,91.638,91.696,91.754,91.801,91.847,91.917,91.986,92.056,92.091,92.161,92.184,92.207,92.23,92.3,92.335,92.393,92.451,92.521,92.579,92.637,92.695,92.753,92.776,92.811,92.857,92.927,92.973,93.02,93.101,93.182,93.275,93.345,93.415,93.461,93.507,93.6,93.647,93.693,93.728,93.798,93.867,93.914,93.96,94.007,94.041,94.1,94.158,94.216,94.262,94.32,94.367,94.413,94.436,94.483,94.564,94.587,94.657,94.692,94.738,94.785,94.808,95.052,95.098,95.249,95.365,95.539,95.922,95.969,96.004,96.027,96.073,96.108,96.143,96.178,96.224,96.259,96.317,96.398,96.48,96.538,96.572,96.619,96.654,96.7,96.747,96.816,96.863,96.944,97.002,97.037,97.072,97.118,97.165,97.211,97.246,97.269,97.304,97.339,97.374,97.408,97.466,97.501,97.559,97.617,97.71,97.826,97.942,97.989,98.024,98.047,98.093,98.117,98.14,98.163,98.209,98.268,98.384,98.453,98.5,98.546,98.581,98.651,98.685,98.72,98.755,98.79,98.836,98.883,98.918,98.999,99.034,99.08,99.115,99.196,99.521,99.603,99.649,99.707,99.742,99.812,99.858,99.916,99.974,100.021,100.067,100.125,100.148,100.172,100.195,100.253,100.288,100.346,100.404,100.439,100.497,100.531,100.613,100.706,100.752,100.845,101.019,101.135,101.182,101.216,101.251,101.274,101.309,101.356,101.391,101.449,101.518,101.588,101.634,101.669,101.704,101.751,101.82,101.901,102.018,102.134,102.83,102.9,102.958,103.004,103.039,103.097,103.144,103.19,103.225,103.283,103.318,103.353,103.388,103.446,103.492,103.55,103.631,103.701,103.747,103.782,103.817,103.852,103.875,103.898,103.922,103.968,104.026,104.142,104.2,104.281,104.34,104.398,104.432,104.49,104.572,104.653,104.723,104.966,105.477,105.547,105.605,105.651,105.698,105.756,105.802,105.884,105.907,105.953,106.65,106.685,106.894,107.045,107.428,107.521,107.567,107.602,107.672,107.706,107.776,107.823,107.857,107.892,107.927,107.973,108.008,108.031,108.066,108.101,108.124,108.148,108.171,108.206,108.241,108.299,108.345,108.403,108.45,108.508,108.554,108.601,108.636,108.67,108.705,108.752,108.833,108.949,109.019,109.088,109.123,109.181,109.216,109.297,109.344,109.518,109.588,109.913,109.948,109.982,110.006,110.064,110.11,110.191,110.249,110.307,110.354,110.377,110.424,110.447,110.47,110.54,110.574,110.633,110.702,110.818,110.934,111.376,111.445,111.503,111.55,111.608,111.666,111.712,111.747,111.77,111.794,111.84,111.898,111.968,112.049,112.119,112.165,112.235,112.351,112.56,112.885,112.966,113.013,113.036,113.105,113.14,113.21,113.245,113.268,113.314,113.372,113.442,113.535,113.616,113.686,113.732,113.779,114.22,114.429,114.522,114.615,114.731,114.754,114.824,114.905,114.986,115.056,115.091,115.126,115.172,115.207,115.277,115.335,115.381,115.427,115.706,115.764,115.787,115.834,115.892,115.927,115.996,116.031,116.089,116.136,116.194,116.217,116.24,116.287,116.31,116.333,116.356,116.391,116.426,116.496,116.542,116.612,116.647,116.716,116.786,116.832,116.902,116.937,116.983,117.076,117.134,117.181,117.239,117.297,117.331,117.378,117.401,117.424,117.448,117.471,117.517,117.552,117.622,117.668,117.703,117.726,117.773,117.807,117.842,117.889,117.935,117.982,118.028,118.109,118.167,118.376,118.818,118.91,119.003,119.073,119.119,119.154,119.177,119.236,119.282,119.352,119.386,119.479,119.537,119.572,119.642,119.712,119.758,119.816,119.851,119.874,119.909,119.979,120.025,120.095,120.164,120.222,120.28,120.338,120.431,122.835,123.345,123.438,123.554,123.647,123.763,123.798,123.833,123.949,123.972,123.996,124.077,124.112,124.17,124.228,124.263,124.286,124.309,124.356,124.379,124.402,124.472,124.564,124.634,124.704,124.75,124.82,124.855,124.901,124.936,124.994,125.122,125.168,125.261,125.772,125.888,126.004,126.051,126.109,126.178,126.271,126.596,126.689,126.747,126.817,126.875,126.921,126.991,127.049,127.13,127.212,127.653,127.769,127.862,127.908,127.966,128.013,128.106,128.349,128.442,128.558,128.604,128.662,128.697,128.744,128.79,128.837,128.918,128.988,129.104,129.173,129.22,129.266,129.301,129.359,129.406,129.464,129.498,129.545,129.591,129.638,129.684,129.731,129.765,129.8,129.835,129.87,129.905,129.94,129.986,130.021,130.056,130.09,130.137,130.195,130.218,130.253,130.288,130.346,130.416,130.485,130.532,130.567,130.648,131.251,131.368,131.426,131.46,131.553,131.6,131.681,131.739,131.809,131.925,131.948,132.029,132.122,132.238,132.262,132.343,132.401,132.459,132.517,132.575,132.633,132.68,132.714,132.749,132.784,132.819,132.854,132.912,132.947,133.005,133.051,133.097,133.132,133.179,133.237,133.295,133.353,133.411,133.434,133.504,133.62,134.061,134.119,134.166,134.224,134.293,134.34,134.386,134.409,134.433,134.456,134.491,134.526,134.56,134.595,134.63,134.665,134.746,134.781,134.839,134.897,134.955,135.002,135.048,135.083,135.118,135.152,135.187,135.21,135.234,135.269,135.315,135.361,135.431,135.489,135.547,135.594,135.64,135.687,135.733,135.791,135.826,135.872,135.919,135.977,136.023,136.104,136.221,136.824,136.906,136.964,137.022,137.056,137.091,137.126,137.149,137.173,137.196,137.219,137.254,137.277,137.312,137.347,137.37,137.405,137.44,137.474,137.509,137.556,137.614,137.683,137.741,137.776,137.811,137.846,137.881,137.904,137.939,137.974,137.997,138.02,138.043,138.101,138.136,138.183,138.229,138.276,138.31,138.345,138.392,138.415,138.45,138.496,138.543,138.589,138.624,138.647,138.682,138.705,138.728,138.81,138.833,139.274,139.32,139.529,139.704,139.854,139.913,139.982,140.063,140.11,140.156,140.238,140.284,140.342,140.365,140.389,140.481,140.516,140.586,140.667,140.748,140.806,140.865,140.923,140.981,141.027,141.097,141.155,141.224,141.283,141.364,141.445,141.515,141.55,141.584,141.631,141.677,141.712,141.735,141.759,141.817,141.863,141.956,142.014,142.072,142.107,142.142,142.176,142.258,142.409,142.792,142.873,142.966,143.012,143.059,143.105,143.14,143.198,143.221,143.256,143.337,143.43,143.476,143.523,143.604,143.72,143.801,143.848,143.871,143.941,143.976,144.057,144.127,144.185,144.231,144.289,144.324,144.37,144.417,144.533,144.591,144.684,144.835,145.647,145.717,145.787,145.833,145.88,145.949,146.031,146.123,146.216,146.263,146.344,146.425,146.495,146.541,146.588,146.646,146.669,146.692,146.739,146.774,146.808,146.867,146.901,146.959,146.994,147.052,147.122,147.192,147.25,147.308,147.331,147.366,147.447,147.482,147.517,147.552,147.586,147.61,147.656,147.679,147.702,147.726,147.772,147.807,147.853,147.888,147.935,147.981,148.051,148.132,148.178,148.202,148.248,148.295,148.353,148.387,148.422,148.469,148.538,148.782,148.852,148.898,148.933,148.968,148.991,149.026,149.049,149.084,149.13,149.2,149.281,149.374,149.444,149.502,149.56,149.618,149.699,150.082,150.291,150.408,150.651,150.826,150.942,151.011,151.081,151.116,151.162,151.197,151.255,151.313,151.371,151.418,151.464,151.511,151.534,151.603,151.847,152.056,152.497,152.567,152.637,152.683,152.741,152.788,152.822,152.857,152.892,152.927,152.973,153.008,153.043,153.078,153.113,153.148,153.182,153.217,153.252,153.287,153.322,153.357,153.38,153.415,153.449,153.484,153.531,153.565,153.612,153.658,153.693,153.728,153.774,153.821,153.879,153.925,153.972,154.018,154.053,154.123,154.146,154.216,154.239,154.309,154.378,154.494,154.576,154.599,154.645,154.692,154.715,154.761,154.796,154.843,154.901,154.947,154.982,155.017,155.063,155.144,155.214,155.307,155.516,155.841,155.922,156.004,156.062,156.108,156.178,156.247,156.34,156.514,156.689,156.863,156.921,156.979,157.025,157.072,157.118,157.176,157.199,157.234,157.292,157.316,157.339,157.362,157.432,157.478,157.536,157.594,157.664,157.722,157.792,157.861,157.919,157.966,158.012,158.059,158.117,158.186,158.256,158.326,158.384,158.442,158.523,158.581,158.651,158.744,158.918,159.243,159.359,159.475,159.568,159.637,159.672,159.73,159.788,159.812,159.835,159.905,159.928,159.974,160.055,160.172,160.264,160.346,160.427,160.636,160.961,161.042,161.1,161.135,161.216,161.263,161.344,161.379,161.437,161.484,161.507,161.542,161.6,161.634,161.669,161.751,161.785,161.832,161.89,161.948,162.018,162.076,162.122,162.18,162.227,162.285,162.354,162.447,162.517,162.563,162.61,162.726,162.9,163.179,163.271,163.33,163.388,163.434,163.492,163.562,163.62,163.701,163.817,163.852,163.887,163.98,164.038,164.061,164.096,164.177,164.223,164.27,164.316,164.374,164.421,164.491,164.537,164.583,164.63,164.676,164.711,164.769,164.804,164.885,164.967,165.013,165.083,165.21,165.489,165.663,165.779,166.162,166.244,166.395,166.836,166.905,166.975,167.021,167.056,167.103,167.149,167.184,167.265,167.3,167.37,167.439,167.556,167.672,168.182,168.275,168.333,168.403,168.45,168.519,168.554,168.577,168.624,168.67,168.728,168.763,168.809,168.856,168.926,168.96,169.018,169.088,169.204,169.262,169.332,169.402,169.471,169.529,169.564,169.599,169.622,169.657,169.692,169.727,169.785,169.819,169.854,169.912,169.97,170.017,170.052,170.098,170.145,170.203,170.249,170.296,170.342,170.388,170.435,170.504,170.563,170.644,170.702,170.818,170.946,171.097,171.178,171.271,171.317,171.34,171.398,171.422,171.468,171.515,171.584,171.642,171.7,171.758,171.805,171.863,171.921,172.002,172.095,172.118,172.2,172.234,172.258,172.304,172.339,172.397,172.443,172.467,172.525,172.559,172.629,172.676,172.71,172.734,172.78,172.815,172.873,172.943,173.024,173.198,173.639,173.686,173.744,173.778,173.813,173.883,173.929,174.022,174.08,174.115,174.162,174.196,174.231,174.278,174.336,174.382,174.429,174.452,174.498,174.533,174.556,174.591,174.614,174.649,174.684,174.707,174.777,174.951,175.102,175.253,175.497,175.671,175.845,175.926,175.984,176.042,176.089,176.159,176.228,176.286,176.333,176.391,176.414,176.449,176.472,176.495,176.518,176.565,176.611,176.669,176.727,176.809,176.844,176.89,176.936,176.983,177.029,177.064,177.099,177.122,177.169,177.227,177.273,177.331,177.378,177.494,177.61,178.051,178.225,178.272,178.318,178.365,178.423,178.458,178.504,178.551,178.585,178.655,178.701,178.748,178.794,178.841,178.887,178.922,178.98,179.05,179.131,179.375,179.421,179.537,179.607,179.677,179.723,179.781,179.839,179.909,180.037,180.129,180.211,180.28,180.327,180.362,180.431,180.455,180.513,180.571,180.629,180.722,180.873,180.896,180.977,181.36,181.441,181.511,181.546,181.604,181.627,181.674,181.708,181.766,181.813,181.894,181.975,182.126,182.184,182.242,182.266,182.312,182.335,182.382,182.428,182.486,182.533,182.568,182.614,182.649,182.684,182.73,182.765,182.8,182.846,182.869,182.916,182.951,182.974,182.997,183.02,183.044,183.067,183.102,183.136,183.183,183.229,183.276,183.369,183.462,184.065,184.158,184.239,184.274,184.321,184.367,184.448,184.541,184.576,184.623,184.692,184.739,184.773,184.855,184.89,184.948,184.994,185.04,185.064,185.087,185.145,185.18,185.238,185.284,185.354,185.412,185.447,185.598,185.749,185.83,185.946,186.004,186.085,186.155,186.201,186.271,186.341,186.434,186.585,186.677,186.747,186.805,186.875,186.921,186.968,187.014,187.061,187.095,187.142,187.212,187.258,187.316,187.386,187.421,187.455,187.49,187.537,187.606,187.699,187.757,187.804,187.85,187.908,187.955,188.001,188.094,188.129,188.187,188.233,188.28,188.326,188.361,188.419,188.477,188.535,188.605,188.686,188.767,188.825,188.895,188.976,189.034,189.313,189.394,189.441,189.475,189.545,189.58,189.638,189.684,189.754,189.824,189.882,189.917,189.986,190.033,190.114,190.184,190.242,190.288,190.346,190.462,190.845,190.927,190.962,191.043,191.066,191.112,191.159,191.217,191.275,191.31,191.356,191.391,191.449,191.484,191.519,191.542,191.565,191.589,191.635,191.67,191.728,191.774,191.809,191.856,191.914,191.972,192.018,192.088,192.146,192.204,192.239,192.273,192.308,192.343,192.366,192.39,192.459,192.506,192.587,192.633,192.668,192.703,192.726,192.784,192.819,192.877,192.912,192.958,193.017,193.098,193.144,193.202,193.249,193.376,193.702]},"tts_text":"Introducing Meta: A Social Technology Company... Today at Connect 2021, CEO Mark Zuckerberg introduced Meta, which brings together our apps and technologies under one new company brand. Meta's focus will be to bring the metaverse to life and help people connect, find communities and grow businesses. The metaverse will feel like a hybrid of today\u2019s online social experiences, sometimes expanded into three dimensions or projected into the physical world. It will let you share immersive experiences with other people even when you can\u2019t be together \u2014 and do things together you couldn\u2019t do in the physical world. It\u2019s the next evolution in a long line of social technologies, and it\u2019s ushering in a new chapter for our company. Mark shared more about this vision in a founder's letter. Our annual Connect conference brings together augmented and virtual reality developers, content creators, marketers and others to celebrate the industry\u2019s momentum and growth. This year\u2019s virtual event explored what experiences in the metaverse could feel like over the next decade \u2014 from social connection, to entertainment, gaming, fitness, work, education and commerce. We also announced new tools to help people build for the metaverse, including Presence Platform, which will enable new mixed reality experiences on Quest 2, and a $150-million investment in immersive learning to train the next generation of creators. You can watch the full Connect keynote and learn more about how the metaverse will unlock new opportunities at meta.com. You can also learn more about our work over the past several months to develop the Meta brand on our design blog. Read all our news in the posts below: Connect 2021: Our Vision for the Metaverse Horizon Home, the Future of Work, Presence Platform, and More Project Aria Update How VR Is Changing the Way We Collaborate and Get Things Done Gaming News \u2018Blade & Sorcery: Nomad\u2019 Is Coming to Oculus Quest Spark AR Roundup Spark AR Certification & Professional Course Preview Our corporate structure is not changing, however, how we report on our financials will. Starting with our results for the fourth quarter of 2021, we plan to report on two operating segments: Family of Apps and Reality Labs. We also intend to start trading under the new stock ticker we have reserved, MVRS, on December 1. Today\u2019s announcement does not affect how we use or share data. See also: Building the Metaverse Responsibly, Expanding Horizon: New Funding to Support Creators, Introducing Our New Company Brand (2019) What is Meta? Meta builds technologies that help people connect, find communities, and grow businesses. When Facebook launched in 2004, it changed the way people connect. Apps like Messenger, Instagram and WhatsApp further empowered billions around the world. Now, Meta is moving beyond 2D screens toward immersive experiences like augmented and virtual reality to help build the next evolution in social technology.","audio_url":"https:\/\/about.fb.com\/wp-content\/uploads\/2025\/11\/elevenlabs-31869-1762468429.mp3","available_sections":["title","content"]}
+.featured-article-image {
+											margin-bottom: 30px;
+											width: 100%;
+												height: 100%;
+										}
+
+										@media screen and (max-width: 640px) {
+											.featured-article-image .aspect-spacer {
+												padding-bottom: 75% !important;
+											}
+										}
+Today at Connect 2021, CEO Mark Zuckerberg introduced
+Meta
+, which brings together our apps and technologies under one new company brand. Meta’s focus will be to bring the metaverse to life and help people connect, find communities and grow businesses.
+The metaverse will feel like a hybrid of today’s online social experiences, sometimes expanded into three dimensions or projected into the physical world. It will let you share immersive experiences with other people even when you can’t be together — and do things together you couldn’t do in the physical world. It’s the next evolution in a long line of social technologies, and it’s ushering in a new chapter for our company. Mark shared more about this vision in a
+founder’s letter
+.
+Our annual Connect conference brings together augmented and virtual reality developers, content creators, marketers and others to celebrate the industry’s momentum and growth. This year’s virtual event explored what experiences in the metaverse could feel like over the next decade — from social connection, to entertainment, gaming, fitness, work, education and commerce. We also announced new tools to help people build for the metaverse, including Presence Platform, which will enable new mixed reality experiences on Quest 2, and a $150-million investment in immersive learning to train the next generation of creators.
+You can watch the full Connect keynote and learn more about how the metaverse will unlock new opportunities at
+meta.com
+. You can also learn more about our work over the past several months to develop the Meta brand on our
+design blog
+.
+Read all our news in the posts below:
+Connect 2021: Our Vision for the Metaverse
+Horizon Home, the Future of Work, Presence Platform, and More
+Project Aria Update
+How VR Is Changing the Way We Collaborate and Get Things Done
+Gaming News
+‘Blade & Sorcery: Nomad’ Is Coming to Oculus Quest
+Spark AR Roundup
+Spark AR Certification & Professional Course Preview
+Our corporate structure is not changing, however, how we report on our financials will. Starting with our results for the fourth quarter of 2021, we plan to report on two operating segments: Family of Apps and Reality Labs. We also intend to start trading under the new stock ticker we have reserved, MVRS, on December 1. Today’s announcement does not affect how we use or share data.
+See also:
+Building the Metaverse Responsibly
+,
+Expanding Horizon: New Funding to Support Creators
+,
+Introducing Our New Company Brand (2019)
+What is Meta?
+Meta builds technologies that help people connect, find communities, and grow businesses. When Facebook launched in 2004, it changed the way people connect. Apps like Messenger, Instagram and WhatsApp further empowered billions around the world. Now, Meta is moving beyond 2D screens toward immersive experiences like augmented and virtual reality to help build the next evolution in social technology.
+Downloads
+Press Assets
+Categories
+:
+Company News
+Meta
+Meta Quest
+Technology and Innovation
+Tags:
+Augmented Reality
+Metaverse
+Virtual Reality
+DOWNLOAD ALL IMAGES
+Share this article
+function popupWindow(url, windowName, win, w, h) {
+		const y = window.outerHeight / 2 + window.screenY - ( h / 2);
+		const x = window.outerWidth / 2 + window.screenX - ( w / 2);
+		return win.open(url, windowName, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=' + w + ', height=' + h + ', top=' + y + ', left=' + x);
+		}
+Recent News
+It’s Time to Reserve Your WhatsApp Username
+Inside One of Meta’s Data Centers
+We’re Partnering With EssilorLuxottica to Launch Meta Glasses
+Instagram for TV Gets Bigger, With New Ways to Watch Together
+Related News
+Meta
+How We’re Advancing Accessibility at Meta
+May 15, 2025
+September 15, 2025
+Meta
+Infrastructure Explained: Data Centers
+April 28, 2026
+April 28, 2026
+Follow Meta Newsroom
+Press Resources
+press@meta.com
+Media Gallery
+.sidebar-container {
+		position: -webkit-sticky; /* For Safari */
+		position: sticky;
+		top: 0; /* Sticky starts when the user scrolls to the top of the sidebar */
+	}
+jQuery(document).ready(function($) {
+  var $sidebar = $('.sidebar-container');
+  var $article = $('.featured-container'); // need to see if featured exists, if not then use $('.entry-content');
+  var navHeight = 170; // Height of the navigation menu
+
+  // Cache the initial top offset of the sidebar
+  var sidebarTop = $sidebar.offset().top;
+
+  // Calculate the bottom position of the article content
+  var articleBottom = $article.offset().top + $article.outerHeight();
+
+  $(window).scroll(function() {
+    var scrollTop = $(window).scrollTop();
+    var sidebarHeight = $sidebar.outerHeight();
+
+    // Check if the header is fixed by checking the presence of the 'uk-sticky-fixed' class
+    var isHeaderFixed = $('#masthead').hasClass('uk-sticky-fixed');
+    var topOffset = isHeaderFixed ? navHeight+10 : 10;
+
+    // Adjust the sidebar's position based on the scroll position
+    if (scrollTop > sidebarTop - topOffset) {
+      $sidebar.css({
+        'position': 'sticky',
+        'top': topOffset + 'px',
+		'margin-bottom': '191px'
+        });
+    } else {
+      $sidebar.css({
+        'position': 'relative',
+        'top': '0',
+      });
+    }
+  });
+});
+
+var h, w, needresize;
+
+jQuery(document).ready(checkContainer);
+
+function checkContainer () {
+	if(jQuery('div.fb-video.fb_iframe_widget.fb_iframe_widget_fluid_desktop').height() < 300) {
+		window.requestAnimationFrame(checkContainer);
+	} else {
+	createResize();
+	}
+}
+
+function createResize() {
+jQuery('div.fb-video.fb_iframe_widget.fb_iframe_widget_fluid_desktop span iframe').each(function(i, obj) {
+	var checkExist = setInterval(function() {
+		h = jQuery('div.fb-video.fb_iframe_widget.fb_iframe_widget_fluid_desktop span iframe')[i].style.height;
+		w = jQuery('div.fb-video.fb_iframe_widget.fb_iframe_widget_fluid_desktop span iframe')[i].style.width;
+		h = h.replace("px", "");
+		w = w.replace("px", "");
+		w = parseInt(w);
+		h = parseInt(h);
+
+			if (h > 0) {
+			if (h > 478) {
+				needresize = true;
+				jQuery('div.fb-video.fb_iframe_widget.fb_iframe_widget_fluid_desktop')[i].style.margin= 'auto';
+				jQuery('div.fb-video.fb_iframe_widget.fb_iframe_widget_fluid_desktop')[i].style.width = '420px';
+				var cnfrm = jQuery('div.fb-video.fb_iframe_widget.fb_iframe_widget_fluid_desktop')[i].style.margin;
+				jQuery('div.fb-video.fb_iframe_widget.fb_iframe_widget_fluid_desktop').eq(i).addClass("verticalvid");
+				} else {
+				needresize = false;
+				}
+			clearInterval(checkExist);
+			} else {
+
+			}
+	}, 100);
+});
+}
+
+// Adjust Jetpack Slideshow Controls Position
+jQuery(document).ready(function() {
+	console.log('Checking for .single .jetpack-slideshow-slide element...');
+	
+	var slideshowSlide = jQuery('.single .jetpack-slideshow-slide');
+	
+	if (slideshowSlide.length > 0) {
+		console.log('✓ .single .jetpack-slideshow-slide exists on the page');
+		console.log('Number of slideshow slides found:', slideshowSlide.length);
+		
+		function adjustSlideshowControls() {
+			var slideHeight = slideshowSlide.outerHeight();
+			var windowWidth = jQuery(window).width();
+			console.log('Slideshow slide height:', slideHeight + 'px');
+			console.log('Window width:', windowWidth + 'px');
+			
+			if (slideHeight > 0) {
+				// Set top position based on window width
+				// Window width > 1024px → 290px
+				// Window width 768-1024px → 280px
+				// Window width 430-640px → 150px
+				// Window width 390-420px → 140px
+				// Window width < 390px → 140px
+				var topPosition;
+				var breakpointLabel;
+				
+				if (windowWidth > 1024) {
+					topPosition = 290;
+					breakpointLabel = '> 1024px (desktop)';
+				} else if (windowWidth >= 768 && windowWidth <= 1024) {
+					topPosition = 280;
+					breakpointLabel = '768-1024px (tablet)';
+				} else if (windowWidth >= 430 && windowWidth <= 640) {
+					topPosition = 150;
+					breakpointLabel = '430-640px (large mobile)';
+				} else if (windowWidth >= 390 && windowWidth <= 420) {
+					topPosition = 140;
+					breakpointLabel = '390-420px (mobile)';
+				} else {
+					topPosition = 140;
+					breakpointLabel = '< 390px (small mobile)';
+				}
+				
+				var newTopValue = topPosition + 'px';
+				
+				console.log('Calculated top position:', newTopValue, '(based on window width ' + breakpointLabel + ')');
+				
+				// Update CSS for all button-stop elements (paused and running)
+				var stopButtons = jQuery('body div div.jetpack-slideshow-controls a.button-stop');
+				console.log('Found stop buttons:', stopButtons.length);
+				
+				if (stopButtons.length > 0) {
+					stopButtons.css('top', newTopValue);
+					console.log('✓ CSS updated for .button-stop elements');
+					console.log('Applied top value to controls:', stopButtons.css('top'));
+				} else {
+					console.log('⚠ Stop buttons not found yet, will retry in 300ms...');
+					setTimeout(adjustSlideshowControls, 300);
+				}
+			} else {
+				console.log('⚠ Slide height is 0, waiting for content to load...');
+				// Retry after a short delay if height is 0
+				setTimeout(adjustSlideshowControls, 500);
+			}
+		}
+		
+		// Initial adjustment
+		adjustSlideshowControls();
+		
+		// Re-adjust on window resize
+		jQuery(window).on('resize', function() {
+			console.log('Window resized, re-adjusting slideshow controls...');
+			adjustSlideshowControls();
+		});
+		
+	} else {
+		console.log('✗ .single .jetpack-slideshow-slide does NOT exist on this page');
+	}
+});
+(function () {
+	document.addEventListener('DOMContentLoaded', function () {
+		var slideshows = document.querySelectorAll('.jetpack-slideshow');
+		if (!slideshows.length) {
+			return;
+		}
+
+		var ICON_SETS = {
+			dark: {
+				prev: '/wp-content/themes/fbcorp/assets/images/chevron-left.svg',
+				next: '/wp-content/themes/fbcorp/assets/images/chevron-right.svg',
+				play: '/wp-content/themes/fbcorp/assets/images/carousel_arrow_play.png',
+				pause: '/wp-content/themes/fbcorp/assets/images/carousel_arrow_pause.png',
+			},
+			light: {
+				prev: '/wp-content/themes/fbcorp/assets/images/chevron-left-wht.svg',
+				next: '/wp-content/themes/fbcorp/assets/images/chevron-right-wht.svg',
+				play: '/wp-content/themes/fbcorp/assets/images/carousel_arrow_play-wht.png',
+				pause: '/wp-content/themes/fbcorp/assets/images/carousel_arrow_pause-wht.png',
+			},
+		};
+
+		var luminanceCache = typeof WeakMap !== 'undefined' ? new WeakMap() : null;
+		var captionMarginTimer = null;
+
+		function captionLineHeight(caption) {
+			var styles = window.getComputedStyle(caption);
+			var lineHeight = parseFloat(styles.lineHeight);
+			if (!lineHeight) {
+				lineHeight = parseFloat(styles.fontSize) * 1.5;
+			}
+			return lineHeight || 24;
+		}
+
+		function measureCaptionHeight(caption, slideshow) {
+			if (!caption.textContent.trim() && !caption.children.length) {
+				return 0;
+			}
+
+			var width =
+				caption.getBoundingClientRect().width ||
+				slideshow.getBoundingClientRect().width ||
+				slideshow.clientWidth;
+			if (!width) {
+				return 0;
+			}
+
+			var clone = caption.cloneNode(true);
+			clone.style.cssText += [
+				';display:block!important',
+				';visibility:hidden!important',
+				';position:absolute!important',
+				';left:-9999px!important',
+				';top:0!important',
+				';bottom:auto!important',
+				';width:' + width + 'px!important',
+				';height:auto!important',
+				';max-height:none!important',
+				';white-space:normal!important',
+				';overflow:visible!important',
+			].join('');
+
+			document.body.appendChild(clone);
+			var height = Math.max(clone.scrollHeight, clone.getBoundingClientRect().height);
+			document.body.removeChild(clone);
+
+			return height;
+		}
+
+		function adjustCaptionMargin(slideshow) {
+			var captions = slideshow.querySelectorAll('.jetpack-slideshow-slide-caption, .slideshow-slide-caption');
+			if (!captions.length) {
+				return;
+			}
+
+			var tallestCaption = 0;
+			var lineHeight = 0;
+
+			captions.forEach(function (caption) {
+				tallestCaption = Math.max(tallestCaption, measureCaptionHeight(caption, slideshow));
+				lineHeight = Math.max(lineHeight, captionLineHeight(caption));
+			});
+
+			if (tallestCaption) {
+				slideshow.style.setProperty('margin-bottom', Math.ceil(tallestCaption + lineHeight) + 'px', 'important');
+			}
+		}
+
+		function queueCaptionMarginUpdate() {
+			window.clearTimeout(captionMarginTimer);
+			captionMarginTimer = window.setTimeout(function () {
+				document.querySelectorAll('.jetpack-slideshow').forEach(function (slideshow) {
+					adjustCaptionMargin(slideshow);
+				});
+			}, 80);
+		}
+
+		function analyzeImage(img, callback) {
+			if (!img || typeof callback !== 'function') {
+				return;
+			}
+			if (luminanceCache && luminanceCache.has(img)) {
+				callback(luminanceCache.get(img));
+				return;
+			}
+
+			function compute() {
+				var width = img.naturalWidth || img.width;
+				var height = img.naturalHeight || img.height;
+				if (!width || !height) {
+					callback(null);
+					return;
+				}
+				var sampleSize = 24;
+				var sw = Math.min(sampleSize, width);
+				var sh = Math.min(sampleSize, height);
+				var canvas = document.createElement('canvas');
+				var ctx = canvas.getContext && canvas.getContext('2d');
+				if (!ctx) {
+					callback(null);
+					return;
+				}
+				canvas.width = sw;
+				canvas.height = sh;
+				var positions = [
+					{ x: Math.max(0, width - sw), y: 0 },
+					{ x: Math.max(0, width - sw), y: Math.max(0, Math.round(height / 2 - sh / 2)) },
+					{ x: Math.max(0, width - sw), y: Math.max(0, height - sh) },
+				];
+				try {
+					var samples = [];
+					for (var i = 0; i < positions.length; i++) {
+						var pos = positions[i];
+						ctx.clearRect(0, 0, sw, sh);
+						ctx.drawImage(img, pos.x, pos.y, sw, sh, 0, 0, sw, sh);
+						var data = ctx.getImageData(0, 0, sw, sh).data;
+						var total = 0;
+						var pixels = data.length / 4;
+						for (var j = 0; j < data.length; j += 4) {
+							var r = data[j];
+							var g = data[j + 1];
+							var b = data[j + 2];
+							total += 0.2126 * r + 0.7152 * g + 0.0722 * b;
+						}
+						samples.push(total / pixels);
+					}
+					var darkThreshold = 125;
+					var darkCount = samples.filter(function (val) {
+						return val <= darkThreshold;
+					}).length;
+					var theme = darkCount >= 2 ? 'light' : 'dark';
+					if (luminanceCache) {
+						luminanceCache.set(img, theme);
+					}
+					callback(theme);
+				} catch (err) {
+					callback(null);
+				}
+			}
+
+			if (!img.complete || !img.naturalWidth) {
+				img.addEventListener('load', function onLoad() {
+					img.removeEventListener('load', onLoad);
+					compute();
+				});
+				return;
+			}
+
+			compute();
+		}
+
+		function getVisibleSlideImage(slideshow) {
+			if (!slideshow) {
+				return null;
+			}
+			var selectors = ['.jetpack-slideshow-slide img', '.jetpack-slideshow-window img', 'img'];
+			var imgs = null;
+			for (var i = 0; i < selectors.length; i++) {
+				var found = slideshow.querySelectorAll(selectors[i]);
+				if (found && found.length) {
+					imgs = found;
+					break;
+				}
+			}
+			if (!imgs || !imgs.length) {
+				return null;
+			}
+			var fallback = imgs[0];
+			for (var j = 0; j < imgs.length; j++) {
+				var img = imgs[j];
+				var holder = img.closest('.jetpack-slideshow-slide') || img;
+				var style = window.getComputedStyle(holder);
+				if (!style) {
+					continue;
+				}
+				if (style.display === 'none' || style.visibility === 'hidden') {
+					continue;
+				}
+				var opacity = parseFloat(style.opacity || '1');
+				if (opacity < 0.1) {
+					continue;
+				}
+				return img;
+			}
+			return fallback;
+		}
+
+		function applyControlTheme(slideshow, theme) {
+			var controls = slideshow.querySelector('.jetpack-slideshow-controls');
+			if (!controls) {
+				return;
+			}
+			var palette = ICON_SETS[theme === 'light' ? 'light' : 'dark'];
+			var prev = controls.querySelector('.button-prev');
+			var next = controls.querySelector('.button-next');
+			var stop = controls.querySelector('.button-stop');
+
+			function setControlBackground(el, url) {
+				if (!el || !url) {
+					return;
+				}
+				el.style.setProperty('background-image', 'url(' + url + ')', 'important');
+			}
+
+			setControlBackground(prev, palette.prev);
+			setControlBackground(next, palette.next);
+			if (stop) {
+				var isPaused = stop.classList.contains('paused') && !stop.classList.contains('running');
+				setControlBackground(stop, isPaused ? palette.play : palette.pause);
+			}
+		}
+
+		function updateControls(slideshow) {
+			var img = getVisibleSlideImage(slideshow);
+			if (!img) {
+				return;
+			}
+			analyzeImage(img, function (theme) {
+				applyControlTheme(slideshow, theme || 'dark');
+			});
+		}
+
+		function watchSlideshow(slideshow) {
+			if (slideshow.dataset.pmzControlWatcher === '1') {
+				return;
+			}
+			var slides = slideshow.querySelectorAll('.jetpack-slideshow-slide');
+			if (!slides.length) {
+				setTimeout(function () {
+					watchSlideshow(slideshow);
+				}, 300);
+				return;
+			}
+			slideshow.dataset.pmzControlWatcher = '1';
+
+			var scheduled = null;
+			function queueUpdate() {
+				if (scheduled) {
+					return;
+				}
+				scheduled = setTimeout(function () {
+					scheduled = null;
+					updateControls(slideshow);
+				}, 80);
+			}
+
+			updateControls(slideshow);
+			adjustCaptionMargin(slideshow);
+
+			if (typeof MutationObserver !== 'undefined') {
+				var observer = new MutationObserver(function (mutations) {
+					for (var i = 0; i < mutations.length; i++) {
+						var target = mutations[i].target;
+						if (
+							target &&
+							target.classList &&
+							(target.classList.contains('jetpack-slideshow-slide') ||
+								target.classList.contains('jetpack-slideshow-window'))
+						) {
+							queueUpdate();
+							break;
+						}
+					}
+				});
+				slides.forEach(function (slide) {
+					observer.observe(slide, { attributes: true, attributeFilter: ['style', 'class'] });
+				});
+				slideshow._pmzControlsObserver = observer;
+			}
+
+			if (typeof MutationObserver !== 'undefined') {
+				var containerObserver = new MutationObserver(function (mutations) {
+					for (var i = 0; i < mutations.length; i++) {
+						var mutation = mutations[i];
+						if (mutation.type === 'childList') {
+							for (var j = 0; j < mutation.addedNodes.length; j++) {
+								var node = mutation.addedNodes[j];
+								if (
+									node.nodeType === 1 &&
+									node.classList &&
+									node.classList.contains('jetpack-slideshow-controls')
+								) {
+									queueUpdate();
+									return;
+								}
+							}
+						}
+					}
+				});
+				containerObserver.observe(slideshow, { childList: true, subtree: false });
+			}
+
+			var controls = slideshow.querySelectorAll('.jetpack-slideshow-controls a');
+			controls.forEach(function (ctrl) {
+				ctrl.addEventListener('click', queueUpdate);
+			});
+
+			var stop = slideshow.querySelector('.jetpack-slideshow-controls .button-stop');
+			if (stop && typeof MutationObserver !== 'undefined') {
+				var stopObserver = new MutationObserver(function () {
+					queueUpdate();
+				});
+				stopObserver.observe(stop, { attributes: true, attributeFilter: ['class'] });
+			}
+		}
+
+		function initSlideshows() {
+			var instances = document.querySelectorAll('.jetpack-slideshow');
+			instances.forEach(function (slideshow) {
+				watchSlideshow(slideshow);
+				adjustCaptionMargin(slideshow);
+			});
+		}
+
+		initSlideshows();
+		setTimeout(initSlideshows, 800);
+		window.addEventListener('load', queueCaptionMarginUpdate);
+		window.addEventListener('resize', queueCaptionMarginUpdate);
+		if (document.fonts && document.fonts.ready) {
+			document.fonts.ready.then(queueCaptionMarginUpdate);
+		}
+
+		if (window.jQuery) {
+			window.jQuery(document).on('jetpack-slideshow-initialized', function () {
+				setTimeout(initSlideshows, 120);
+			});
+		}
+	});
+})();
+Facebook
+.st0{fill:#1c2b33}.st1{clip-path:url(#SVGID_1_)}.st2{clip-path:url(#SVGID_3_)}.st3{fill:url(#SVGID_6_)}
+Meta Store
+Ray-Ban Meta glasses
+Oakley Meta glasses
+Meta Quest
+Accessories
+Apps and games
+Meta Quest gift cards
+Refurbished Meta Quest 3
+Refurbished Meta Quest 3S
+Refurbished Ray-Ban Meta glasses
+More from Ray-Ban
+Meta Quest: Play now. Pay later.
+Meta Warranty Plus
+Meta for Work
+Meta for Education
+Meta Quest referrals
+Education discount
+Blog
+Store support and legal
+Meta Help Center
+Order status
+Returns
+Find a product demo
+Authorized retailers
+Legal
+Terms of sale
+Meta Quest safety center
+Community
+Creators
+Developers
+Businesses
+Non-profits
+VR for Good
+Download SDKs
+Made for Meta partner program
+Our actions
+Data and privacy
+Responsible business practices
+Elections
+About us
+About Meta
+Careers
+Media gallery
+Brand resources
+For investors
+Newsroom
+Site terms and policies
+Community standards
+Privacy policy
+Terms
+Cookie policy
+App support
+Shop Meta Quest
+Refurbished Meta Quest 2
+VR for Good
+Forums
+Referrals
+Blog
+Creators
+Download SDKs
+Developers
+Made for Meta partner program
+Meta Quest health & safety information
+Meta Quest safety center
+VR for work
+Facebook
+.st0{fill:#1c2b33}.st1{clip-path:url(#SVGID_1_)}.st2{clip-path:url(#SVGID_3_)}.st3{fill:url(#SVGID_6_)}
+Skip footer menu
+Skip footer menu
+Meta Store
+Ray-Ban Meta glasses
+Oakley Meta glasses
+Meta Quest
+Accessories
+Apps and games
+Meta Quest gift cards
+Refurbished Meta Quest 3
+Refurbished Meta Quest 3S
+Refurbished Ray-Ban Meta glasses
+More from Ray-Ban
+Meta Quest: Play now. Pay later.
+Meta Warranty Plus
+Meta for Work
+Meta for Education
+Meta Quest referrals
+Education discount
+Blog
+Store support and legal
+Meta Help Center
+Order status
+Returns
+Find a product demo
+Authorized retailers
+Legal
+Terms of sale
+Meta Quest safety center
+Community
+Creators
+Developers
+Businesses
+Non-profits
+VR for Good
+Download SDKs
+Made for Meta partner program
+Our actions
+Data and privacy
+Responsible business practices
+Elections
+About us
+About Meta
+Careers
+Media gallery
+Brand resources
+For investors
+Newsroom
+Site terms and policies
+Community standards
+Privacy policy
+Terms
+Cookie policy
+App support
+Facebook Help Center
+Messenger Help Center
+Instagram Help Center
+WhatsApp Help Center
+Workplace Help Center
+Meta Verified
+© 2026 Meta
+Community Standards
+Data Policy
+Terms
+Cookie policy
+United States (English)
+Brazil (Português)
+Germany (Deutsch)
+France (Français)
+Japan (日本語)
+Korea (한국어)
+Latin America (Español)
+Spain (Español)
+EMEA (English)
+India (English)
+jQuery('#language_select').on('change', function() {
+									var language_choice = jQuery(this).val();
+									window.location = language_choice;
+								});
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/fbcorp/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+To help personalize content, tailor and measure ads, and provide a safer experience, we use cookies. By clicking or navigating the site, you agree to allow our collection of information on and off Facebook through cookies. Learn more, including about available controls:
+Cookie Policy
+I Agree
+/* <![CDATA[ */
+var PMZ_DATA = {"downloadBase":"https://about.fb.com/wp-admin/admin-post.php","postId":"31869","singleNonce":"508424bd1e","icon":"https://about.fb.com/wp-content/plugins/post-media-zip/assets/downloadicon_arrowimg.png","inlineIcon":"https://about.fb.com/wp-content/plugins/post-media-zip/assets/downloadicon_arrowimg.png","inlineIconLight":"https://about.fb.com/wp-content/plugins/post-media-zip/assets/downloadicon_arrow.png","featuredId":"31876","attachmentIds":[31876],"strings":{"downloadImage":"Download image","creatingZip":"Creating zip file"}};
+//# sourceURL=pmz-js-extra
+/* ]]> */
+/* <![CDATA[ */
+window.ajaxurl = window.ajaxurl || "https:\/\/about.fb.com\/wp-admin\/admin-ajax.php";
+//# sourceURL=elabs-player-js-js-before
+/* ]]> */
+/* <![CDATA[ */
+var RTA_TRACKER = {"rest_url":"https://about.fb.com/wp-json/rta/v1/heartbeat","wp_nonce":"48f75090d7","post_id":"31869","post_type":"post","interval_sec":"10","active_ttl":"60","dl_enabled":"0","gtm_container_id":"","gtm_datalayer_name":"rtaDataLayer","consent_cookie_name":"gdpr-consent","consent_cookie_value":"consent","debug_bypass":"0","page_type_id":"1","page_type_slug":"tracked_story"};
+//# sourceURL=rta-tracker-js-extra
+/* ]]> */
+/* <![CDATA[ */
+var fbcorp_typeahead = {"sitedir":""};
+//# sourceURL=fbcorp-typeahead-js-extra
+/* ]]> */
+/* <![CDATA[ */
+if (window.gdprSafeTrack) {
+					window.gdprSafeTrack(function() {
+						let youtube = document.querySelectorAll('[src*="youtube-nocookie"]');
+						for (let i = 0; i < youtube.length; i++) {
+							youtube[i].src = youtube[i].src.replace('youtube-nocookie.com', 'youtube.com');
+						}
+						let vimeo = document.querySelectorAll('[src*="vimeo"]');
+						for (let i = 0; i < vimeo.length; i++) {
+							vimeo[i].src = vimeo[i].src.replace('&dnt=true', '');
+						}
+					});
+				}
+//# sourceURL=video-analytics-js-after
+/* ]]> */
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://about.fb.com/wp-includes/js/wp-emoji-release.min.js?ver=6.9.4"}}
+/* <![CDATA[ */
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://about.fb.com/wp-includes/js/wp-emoji-loader.min.js
+/* ]]> */
+(function() {
+		function prepareVideo(video) {
+			if (!video) {
+				return;
+			}
+
+			if (!video.hasAttribute('controls') && !video.classList.contains('fbcorp-featured-loop-video')) {
+				video.setAttribute('controls', 'controls');
+			}
+
+			video.muted = true;
+			video.defaultMuted = true;
+			video.loop = true;
+			video.autoplay = true;
+			video.setAttribute('autoplay', '');
+			video.setAttribute('loop', '');
+			video.setAttribute('muted', '');
+			video.setAttribute('playsinline', '');
+			video.setAttribute('webkit-playsinline', '');
+		}
+
+		function playVideo(video) {
+			var playPromise;
+
+			if (!video) {
+				return;
+			}
+
+			if (typeof video.play === 'function' && video.paused) {
+				playPromise = video.play();
+
+				if (playPromise && typeof playPromise.catch === 'function') {
+					playPromise.catch(function(error) {
+						if (error && error.name === 'AbortError') {
+							window.setTimeout(function() {
+								playVideo(video);
+							}, 250);
+						}
+					});
+				}
+			}
+		}
+
+		function scheduleVideo(video, delay) {
+			prepareVideo(video);
+			window.clearTimeout(video.fbcorpAutoplayTimer);
+			video.fbcorpAutoplayTimer = window.setTimeout(function() {
+				playVideo(video);
+			}, delay);
+		}
+
+		function initAutoplayVideos() {
+			var videos = document.querySelectorAll('video.fbcorp-featured-loop-video, video.fbcorp-autoplay-loop-video');
+
+			videos.forEach(function(video, index) {
+				var delay = video.classList.contains('fbcorp-featured-loop-video') ? 0 : 500 + (index * 200);
+
+				if (video.readyState < 2) {
+					video.addEventListener('canplay', function() {
+						scheduleVideo(video, delay);
+					}, { once: true });
+				}
+
+				scheduleVideo(video, delay);
+			});
+		}
+
+		function replayPausedAutoplayVideos() {
+			document.querySelectorAll('video.fbcorp-autoplay-loop-video').forEach(function(video, index) {
+				if (video.paused) {
+					scheduleVideo(video, index * 150);
+				}
+			});
+		}
+
+		if (document.readyState === 'loading') {
+			document.addEventListener('DOMContentLoaded', initAutoplayVideos);
+		} else {
+			initAutoplayVideos();
+		}
+
+		window.addEventListener('load', initAutoplayVideos);
+		setTimeout(initAutoplayVideos, 600);
+		setTimeout(replayPausedAutoplayVideos, 1500);
+		setTimeout(replayPausedAutoplayVideos, 3000);
+		setTimeout(replayPausedAutoplayVideos, 5000);
+	})();
+(function() {
+		function preparePlaylistVideo(video) {
+			if (!video) {
+				return;
+			}
+
+			video.muted = true;
+			video.defaultMuted = true;
+			video.autoplay = true;
+			video.preload = 'auto';
+			video.setAttribute('autoplay', '');
+			video.setAttribute('muted', '');
+			video.setAttribute('playsinline', '');
+			video.setAttribute('webkit-playsinline', '');
+			video.setAttribute('preload', 'auto');
+		}
+
+		function playPlaylistVideo(video) {
+			var playPromise;
+
+			preparePlaylistVideo(video);
+
+			if (video && typeof video.play === 'function' && video.paused) {
+				playPromise = video.play();
+
+				if (playPromise && typeof playPromise.catch === 'function') {
+					playPromise.catch(function(error) {
+						if (error && error.name === 'AbortError') {
+							window.setTimeout(function() {
+								playPlaylistVideo(video);
+							}, 250);
+						}
+					});
+				}
+			}
+		}
+
+		function initAutoplayPlaylists() {
+			var playlists = document.querySelectorAll('.fbcorp-video-playlist-autoplay');
+
+			playlists.forEach(function(playlist, index) {
+				var video = playlist.querySelector('video');
+
+				if (!video) {
+					return;
+				}
+
+				preparePlaylistVideo(video);
+				window.clearTimeout(playlist.fbcorpPlaylistAutoplayTimer);
+				playlist.fbcorpPlaylistAutoplayTimer = window.setTimeout(function() {
+					playPlaylistVideo(video);
+				}, 300 + (index * 200));
+			});
+		}
+
+		function replayPausedAutoplayPlaylists() {
+			document.querySelectorAll('.fbcorp-video-playlist-autoplay video').forEach(function(video) {
+				if (video.paused) {
+					playPlaylistVideo(video);
+				}
+			});
+		}
+
+		if (document.readyState === 'loading') {
+			document.addEventListener('DOMContentLoaded', initAutoplayPlaylists);
+		} else {
+			initAutoplayPlaylists();
+		}
+
+		window.addEventListener('load', initAutoplayPlaylists);
+		setTimeout(initAutoplayPlaylists, 600);
+		setTimeout(replayPausedAutoplayPlaylists, 1500);
+		setTimeout(replayPausedAutoplayPlaylists, 3000);
+		setTimeout(replayPausedAutoplayPlaylists, 5000);
+	})();
+jQuery(window).ready(function($){
+		/* Add classnames directly to specific a links */
+		jQuery( "div.site-branding a" ).addClass( "a_header_logo_link" );
+		jQuery( "div.back-to-newsroom a" ).addClass( "a_back_to_newsroom_link" );
+		jQuery( "nav.main-navigation li.menu-item a" ).addClass( "a_main_menu_link" );
+		jQuery( "div.footer-container li.menu-item a" ).addClass( "a_footer_menu_link" );
+		jQuery( "div.footer-branding a" ).addClass( "a_footer_logo_link" );
+		jQuery( "div#footer-row-2.site-info a" ).addClass( "a_bottom_row_footer_menu_link" );
+		jQuery( ".article-container article.post a" ).addClass( "in_article_link" );
+		jQuery( "article.article-card a" ).addClass( "article_link" );
+		jQuery( "article.news-card a" ).addClass( "related_news_article_link" );
+		jQuery( "section.featured_news li a" ).addClass( "a_sidebar_featured_news_link" );
+		jQuery( "div.sidebar-container section.widget_nav_menu li.menu-item a" ).addClass( "a_sidebar_right_rail_link" );
+
+		if ($('.gdprconsent-button').length) {
+			// Add a scroll event listener to the window
+			$(window).scroll(function() {
+				// Check if the div is visible
+				if ($('.gdprconsent-button').is(':visible')) {
+					// Hide the div if it's visible
+					$('.gdprconsent-button button').click();
+				}
+			});
+
+			// Add a click event listener to the document
+			$(document).click(function(event) {
+				// Check if the clicked element is not inside the div
+				if (!$(event.target).closest('.gdprconsent-button').length) {
+					// Hide the div if it's visible
+					if ($('.gdprconsent-button').is(':visible')) {
+						$('.gdprconsent-button button').click();
+					}
+				}
+			});
+		}
+	});

@@ -1,0 +1,34 @@
+\usepackage[margin=1.24in]{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{helvet}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{hyperref}
+\definecolor{BookGold}{HTML}{FFD166}
+\definecolor{BookBone}{HTML}{F6E8C8}
+\definecolor{BookEmber}{HTML}{FF5E3A}
+\definecolor{BookInk}{HTML}{12171F}
+\renewcommand{\familydefault}{\rmdefault}
+\setstretch{1.31}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1.05em}
+\raggedbottom
+\titleformat{\section}{\normalfont\Large\bfseries\sffamily\color{BookEmber}}{\thesection}{0.7em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries\sffamily\color{BookGold}}{\thesubsection}{0.7em}{}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=BookEmber,
+  urlcolor=BookEmber,
+  citecolor=BookEmber
+}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\sffamily\small\textcolor{BookInk}{Children of the Feed}}
+\fancyhead[R]{\sffamily\small\textcolor{BookInk}{\nouppercase{\leftmark}}}
+\fancyfoot[C]{\sffamily\small\thepage}
+\setlength{\headheight}{14pt}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TimelineEvent",
+  "type": "object",
+  "required": ["event_id", "date", "label", "vector_ids", "source_ids"],
+  "properties": {
+    "event_id": {"type": "string"},
+    "date": {"type": "string"},
+    "label": {"type": "string"},
+    "description": {"type": ["string", "null"]},
+    "vector_ids": {"type": "array", "items": {"type": "string"}},
+    "entity_ids": {"type": "array", "items": {"type": "string"}},
+    "source_ids": {"type": "array", "items": {"type": "string"}},
+    "chapter_ids": {"type": "array", "items": {"type": "string"}},
+    "confidence": {"type": ["string", "null"]}
+  }
+}

@@ -1,0 +1,14 @@
+Source: Federal Election Commission, "LEADING THE FUTURE - committee overview"
+URL: https://www.fec.gov/data/committee/C00916114/
+Published / viewed state: 2025-2026 cycle data page
+Captured: 2026-07-03T02:00:00Z
+Capture mode: manual-web-excerpt
+
+Verified excerpt points from Codex web capture:
+- The page is an official U.S. government FEC committee profile page.
+- The committee is listed as: Active - Quarterly Super PAC (Independent Expenditure-Only) - Unauthorized.
+- Committee ID: C00916114.
+- Registration date: August 15, 2025.
+- Statement of organization current version is linked and filing FEC-1911202 is listed as filed 08/15/2025.
+- For coverage dates 08/15/2025 to 03/31/2026, total receipts are listed as $75,535,801.59.
+- For the same period, total disbursements are listed as $24,390,931.31 and ending cash on hand as $51,144,870.28.

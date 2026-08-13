@@ -1,0 +1,2023 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc 3.10" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="" />
+  <title>Chapter 06: AI as a Dual-Use Rhetorical Weapon</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="paper_export.css" />
+</head>
+<body>
+  <header class="public-doc-header" aria-label="Document navigation">
+    <div class="public-doc-header-inner">
+      <a class="public-doc-home" href="../../index.html" aria-label="Return to paper index" title="Return to paper index">
+        <svg class="public-doc-home-icon" viewBox="0 0 24 24" role="img" aria-hidden="true">
+          <path d="M3 10.75 12 3l9 7.75v9.25a1 1 0 0 1-1 1h-5.5v-6h-5v6H4a1 1 0 0 1-1-1z"></path>
+        </svg>
+      </a>
+      <a class="public-doc-logo-link" href="https://wakenai.com/" aria-label="WakenAI Labs">
+        <img class="public-doc-logo" src="../assets/brand/waken-ai-black.webp" alt="WakenAI Labs">
+      </a>
+    </div>
+  </header>
+<header id="title-block-header">
+<h1 class="title">Chapter 06: AI as a Dual-Use Rhetorical Weapon</h1>
+<p class="subtitle">From Surveillance Capitalism to AI Imperialism |
+Chapter 06: AI as a dual-use rhetorical weapon</p>
+<p class="author"></p>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#abstract" id="toc-abstract">Abstract</a></li>
+<li><a href="#keywords" id="toc-keywords">Keywords</a></li>
+<li><a href="#research-question" id="toc-research-question">Research
+Question</a></li>
+<li><a href="#scope-and-framing-note"
+id="toc-scope-and-framing-note">Scope and Framing Note</a></li>
+<li><a href="#central-thesis" id="toc-central-thesis">Central
+Thesis</a></li>
+<li><a href="#evidence-and-method-note"
+id="toc-evidence-and-method-note">Evidence and Method Note</a></li>
+<li><a href="#introduction" id="toc-introduction">Introduction</a></li>
+<li><a href="#historical-or-institutional-context"
+id="toc-historical-or-institutional-context">Historical or Institutional
+Context</a></li>
+<li><a href="#main-analysis" id="toc-main-analysis">Main
+Analysis</a></li>
+<li><a href="#position-within-the-series"
+id="toc-position-within-the-series">Position Within the Series</a></li>
+<li><a href="#counterarguments"
+id="toc-counterarguments">Counterarguments</a></li>
+<li><a href="#limits-of-the-evidence"
+id="toc-limits-of-the-evidence">Limits of the Evidence</a></li>
+<li><a href="#reform-relevance" id="toc-reform-relevance">Reform
+Relevance</a></li>
+<li><a href="#conclusion" id="toc-conclusion">Conclusion</a></li>
+<li><a href="#notes" id="toc-notes">Notes</a></li>
+<li><a href="#references-bibliography"
+id="toc-references-bibliography">References / Bibliography</a></li>
+<li><a href="#appendix-a.-source-register-for-this-paper"
+id="toc-appendix-a.-source-register-for-this-paper">Appendix A. Source
+Register for This Paper</a>
+<ul>
+<li><a href="#appendix-a1-learning-to-reason-with-llms"
+id="toc-appendix-a1-learning-to-reason-with-llms">Appendix A1. Learning
+to reason with LLMs</a></li>
+<li><a href="#appendix-a2-openai-o1-system-card"
+id="toc-appendix-a2-openai-o1-system-card">Appendix A2. OpenAI o1 System
+Card</a></li>
+<li><a
+href="#appendix-a3-openai-acknowledges-new-models-increase-risk-of-misuse-to-create-bioweapons"
+id="toc-appendix-a3-openai-acknowledges-new-models-increase-risk-of-misuse-to-create-bioweapons">Appendix
+A3. OpenAI acknowledges new models increase risk of misuse to create
+bioweapons</a></li>
+<li><a
+href="#appendix-a4-openai-researchers-warned-board-of-ai-breakthrough-ahead-of-ceo-ouster-sources-say"
+id="toc-appendix-a4-openai-researchers-warned-board-of-ai-breakthrough-ahead-of-ceo-ouster-sources-say">Appendix
+A4. OpenAI researchers warned board of AI breakthrough ahead of CEO
+ouster, sources say</a></li>
+<li><a
+href="#appendix-a5-exclusive-openai-working-on-new-reasoning-technology-under-code-name-strawberry"
+id="toc-appendix-a5-exclusive-openai-working-on-new-reasoning-technology-under-code-name-strawberry">Appendix
+A5. Exclusive: OpenAI working on new reasoning technology under code
+name ‘Strawberry’</a></li>
+<li><a
+href="#appendix-a6-scaling-llm-test-time-compute-optimally-can-be-more-effective-than-scaling-model-parameters"
+id="toc-appendix-a6-scaling-llm-test-time-compute-optimally-can-be-more-effective-than-scaling-model-parameters">Appendix
+A6. Scaling LLM Test-Time Compute Optimally can be More Effective than
+Scaling Model Parameters</a></li>
+<li><a href="#appendix-a7-s1-simple-test-time-scaling"
+id="toc-appendix-a7-s1-simple-test-time-scaling">Appendix A7. s1: Simple
+test-time scaling</a></li>
+<li><a
+href="#appendix-a8-it-s-not-that-simple-an-analysis-of-simple-test-time-scaling"
+id="toc-appendix-a8-it-s-not-that-simple-an-analysis-of-simple-test-time-scaling">Appendix
+A8. It’s Not That Simple. An Analysis of Simple Test-Time
+Scaling</a></li>
+<li><a
+href="#appendix-a9-chatgpt-plans-free-go-plus-pro-business-and-enterprise"
+id="toc-appendix-a9-chatgpt-plans-free-go-plus-pro-business-and-enterprise">Appendix
+A9. ChatGPT Plans | Free, Go, Plus, Pro, Business, and
+Enterprise</a></li>
+<li><a href="#appendix-a10-pricing-openai-api"
+id="toc-appendix-a10-pricing-openai-api">Appendix A10. Pricing | OpenAI
+API</a></li>
+<li><a href="#appendix-a11-plans-pricing-claude-by-anthropic"
+id="toc-appendix-a11-plans-pricing-claude-by-anthropic">Appendix A11.
+Plans &amp; Pricing | Claude by Anthropic</a></li>
+<li><a href="#appendix-a12-introducing-claude-4"
+id="toc-appendix-a12-introducing-claude-4">Appendix A12. Introducing
+Claude 4</a></li>
+<li><a href="#appendix-a13-deepseek-v3-technical-report"
+id="toc-appendix-a13-deepseek-v3-technical-report">Appendix A13.
+DeepSeek-V3 Technical Report</a></li>
+<li><a
+href="#appendix-a14-deepseek-r1-incentivizing-reasoning-capability-in-llms-via-reinforcement-learning"
+id="toc-appendix-a14-deepseek-r1-incentivizing-reasoning-capability-in-llms-via-reinforcement-learning">Appendix
+A14. DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via
+Reinforcement Learning</a></li>
+</ul></li>
+<li><a href="#appendix-b.-claims-used-in-this-paper"
+id="toc-appendix-b.-claims-used-in-this-paper">Appendix B. Claims Used
+in This Paper</a>
+<ul>
+<li><a
+href="#appendix-b1-on-may-22-2025-anthropic-launched-reasoning-oriented-hybrid-frontier-models-toge"
+id="toc-appendix-b1-on-may-22-2025-anthropic-launched-reasoning-oriented-hybrid-frontier-models-toge">Appendix
+B1. On May 22, 2025 Anthropic launched reasoning-oriented hybrid
+frontier models toge…</a></li>
+<li><a
+href="#appendix-b2-anthropic-itself-tied-extended-thinking-capability-to-differentiated-plan-availab"
+id="toc-appendix-b2-anthropic-itself-tied-extended-thinking-capability-to-differentiated-plan-availab">Appendix
+B2. Anthropic itself tied extended-thinking capability to differentiated
+plan availab…</a></li>
+<li><a
+href="#appendix-b3-reasoning-capable-frontier-models-were-commercialized-with-explicit-api-price-dif"
+id="toc-appendix-b3-reasoning-capable-frontier-models-were-commercialized-with-explicit-api-price-dif">Appendix
+B3. Reasoning-capable frontier models were commercialized with explicit
+API price dif…</a></li>
+<li><a
+href="#appendix-b4-as-of-july-3-2026-anthropic-s-official-current-pricing-structure-tied-higher-us"
+id="toc-appendix-b4-as-of-july-3-2026-anthropic-s-official-current-pricing-structure-tied-higher-us">Appendix
+B4. As of July 3, 2026, Anthropic’s official current pricing structure
+tied higher us…</a></li>
+<li><a
+href="#appendix-b5-anthropic-s-own-current-pricing-also-differentiates-materially-across-model-famil"
+id="toc-appendix-b5-anthropic-s-own-current-pricing-also-differentiates-materially-across-model-famil">Appendix
+B5. Anthropic’s own current pricing also differentiates materially
+across model famil…</a></li>
+<li><a
+href="#appendix-b6-chapter-06-can-compare-more-than-one-frontier-lab-when-arguing-that-reasoning-era"
+id="toc-appendix-b6-chapter-06-can-compare-more-than-one-frontier-lab-when-arguing-that-reasoning-era">Appendix
+B6. Chapter 06 can compare more than one frontier lab when arguing that
+reasoning-era…</a></li>
+<li><a
+href="#appendix-b7-as-of-capture-on-july-3-2026-openai-s-official-chatgpt-plan-structure-reserved"
+id="toc-appendix-b7-as-of-capture-on-july-3-2026-openai-s-official-chatgpt-plan-structure-reserved">Appendix
+B7. As of capture on July 3, 2026, OpenAI’s official ChatGPT plan
+structure reserved…</a></li>
+<li><a
+href="#appendix-b8-current-official-consumer-access-to-reasoning-capable-models-is-stratified-by-pla"
+id="toc-appendix-b8-current-official-consumer-access-to-reasoning-capable-models-is-stratified-by-pla">Appendix
+B8. Current official consumer access to reasoning-capable models is
+stratified by pla…</a></li>
+<li><a
+href="#appendix-b9-chapter-06-can-ground-its-reasoning-premium-argument-in-a-primary-access-policy-s"
+id="toc-appendix-b9-chapter-06-can-ground-its-reasoning-premium-argument-in-a-primary-access-policy-s">Appendix
+B9. Chapter 06 can ground its reasoning-premium argument in a primary
+access-policy s…</a></li>
+<li><a
+href="#appendix-b10-by-january-2025-a-non-u-s-lab-was-publicly-claiming-frontier-adjacent-reasoning"
+id="toc-appendix-b10-by-january-2025-a-non-u-s-lab-was-publicly-claiming-frontier-adjacent-reasoning">Appendix
+B10. By January 2025 a non-U.S. lab was publicly claiming
+frontier-adjacent reasoning…</a></li>
+<li><a
+href="#appendix-b11-reasoning-capability-was-not-confined-entirely-to-closed-u-s-product-stacks-and"
+id="toc-appendix-b11-reasoning-capability-was-not-confined-entirely-to-closed-u-s-product-stacks-and">Appendix
+B11. Reasoning capability was not confined entirely to closed U.S.
+product stacks and…</a></li>
+<li><a
+href="#appendix-b12-chapters-06-and-07-can-contrast-frontier-access-politics-with-a-documented-patter"
+id="toc-appendix-b12-chapters-06-and-07-can-contrast-frontier-access-politics-with-a-documented-patter">Appendix
+B12. Chapters 06 and 07 can contrast frontier-access politics with a
+documented patter…</a></li>
+<li><a
+href="#appendix-b13-by-late-2024-there-was-already-a-competitor-publicly-claiming-frontier-adjacent-p"
+id="toc-appendix-b13-by-late-2024-there-was-already-a-competitor-publicly-claiming-frontier-adjacent-p">Appendix
+B13. By late 2024 there was already a competitor publicly claiming
+frontier-adjacent p…</a></li>
+<li><a
+href="#appendix-b14-the-debate-over-reasoning-efficiency-and-cost-cannot-be-reduced-to-the-marketin"
+id="toc-appendix-b14-the-debate-over-reasoning-efficiency-and-cost-cannot-be-reduced-to-the-marketin">Appendix
+B14. The debate over reasoning, efficiency, and cost cannot be reduced
+to the marketin…</a></li>
+<li><a
+href="#appendix-b15-narratives-of-absolute-scarcity-around-advanced-capabilities-must-be-contrasted-w"
+id="toc-appendix-b15-narratives-of-absolute-scarcity-around-advanced-capabilities-must-be-contrasted-w">Appendix
+B15. Narratives of absolute scarcity around advanced capabilities must
+be contrasted w…</a></li>
+<li><a
+href="#appendix-b16-serious-t2-reporting-documented-openai-publicly-acknowledging-higher-misuse-risk"
+id="toc-appendix-b16-serious-t2-reporting-documented-openai-publicly-acknowledging-higher-misuse-risk">Appendix
+B16. Serious T2 reporting documented OpenAI publicly acknowledging
+higher misuse risk…</a></li>
+<li><a
+href="#appendix-b17-chapter-06-can-ground-the-dual-use-argument-in-contemporaneous-mainstream-reporti"
+id="toc-appendix-b17-chapter-06-can-ground-the-dual-use-argument-in-contemporaneous-mainstream-reporti">Appendix
+B17. Chapter 06 can ground the dual-use argument in contemporaneous
+mainstream reporti…</a></li>
+<li><a
+href="#appendix-b18-danger-rhetoric-around-reasoning-models-accompanied-commercialization-rather-than"
+id="toc-appendix-b18-danger-rhetoric-around-reasoning-models-accompanied-commercialization-rather-than">Appendix
+B18. Danger rhetoric around reasoning models accompanied
+commercialization rather than…</a></li>
+<li><a
+href="#appendix-b19-there-is-direct-technical-pushback-against-simplistic-claims-that-frontier-reason"
+id="toc-appendix-b19-there-is-direct-technical-pushback-against-simplistic-claims-that-frontier-reason">Appendix
+B19. There is direct technical pushback against simplistic claims that
+frontier reason…</a></li>
+<li><a
+href="#appendix-b20-the-paper-argued-simple-test-time-scaling-often-reflects-scaling-down-through-len"
+id="toc-appendix-b20-the-paper-argued-simple-test-time-scaling-often-reflects-scaling-down-through-len">Appendix
+B20. The paper argued simple test-time scaling often reflects scaling
+down through len…</a></li>
+<li><a
+href="#appendix-b21-the-paper-argued-o1-like-and-deepseek-r1-like-systems-differ-from-simple-replicat"
+id="toc-appendix-b21-the-paper-argued-o1-like-and-deepseek-r1-like-systems-differ-from-simple-replicat">Appendix
+B21. The paper argued o1-like and DeepSeek-R1-like systems differ from
+simple replicat…</a></li>
+<li><a
+href="#appendix-b22-as-of-july-3-2026-openai-s-official-api-pricing-imposed-a-large-price-premium-o"
+id="toc-appendix-b22-as-of-july-3-2026-openai-s-official-api-pricing-imposed-a-large-price-premium-o">Appendix
+B22. As of July 3, 2026, OpenAI’s official API pricing imposed a large
+price premium o…</a></li>
+<li><a
+href="#appendix-b23-openai-s-current-api-record-treats-top-tier-reasoning-capable-access-as-materiall"
+id="toc-appendix-b23-openai-s-current-api-record-treats-top-tier-reasoning-capable-access-as-materiall">Appendix
+B23. OpenAI’s current API record treats top-tier reasoning-capable
+access as materiall…</a></li>
+<li><a
+href="#appendix-b24-chapter-06-can-document-reasoning-premium-monetization-through-a-primary-pricing"
+id="toc-appendix-b24-chapter-06-can-document-reasoning-premium-monetization-through-a-primary-pricing">Appendix
+B24. Chapter 06 can document reasoning-premium monetization through a
+primary pricing…</a></li>
+<li><a
+href="#appendix-b25-openai-publicly-framed-reasoning-as-a-new-scaling-layer-based-on-additional-train"
+id="toc-appendix-b25-openai-publicly-framed-reasoning-as-a-new-scaling-layer-based-on-additional-train">Appendix
+B25. OpenAI publicly framed reasoning as a new scaling layer based on
+additional train…</a></li>
+<li><a
+href="#appendix-b26-the-company-explicitly-marketed-o1-as-a-major-reasoning-advance-over-gpt-4o-in-ma"
+id="toc-appendix-b26-the-company-explicitly-marketed-o1-as-a-major-reasoning-advance-over-gpt-4o-in-ma">Appendix
+B26. The company explicitly marketed o1 as a major reasoning advance
+over GPT-4o in ma…</a></li>
+<li><a
+href="#appendix-b27-chapter-06-can-document-reasoning-as-a-commercial-and-strategic-product-category"
+id="toc-appendix-b27-chapter-06-can-document-reasoning-as-a-commercial-and-strategic-product-category">Appendix
+B27. Chapter 06 can document reasoning as a commercial and strategic
+product category,…</a></li>
+<li><a
+href="#appendix-b28-openai-itself-paired-stronger-reasoning-capability-with-formal-safety-preparedne"
+id="toc-appendix-b28-openai-itself-paired-stronger-reasoning-capability-with-formal-safety-preparedne">Appendix
+B28. OpenAI itself paired stronger reasoning capability with formal
+safety, preparedne…</a></li>
+<li><a
+href="#appendix-b29-the-company-documented-a-training-data-mix-combining-public-web-scale-material-p"
+id="toc-appendix-b29-the-company-documented-a-training-data-mix-combining-public-web-scale-material-p">Appendix
+B29. The company documented a training-data mix combining public
+web-scale material, p…</a></li>
+<li><a
+href="#appendix-b30-chapter-06-can-ground-the-coexistence-of-capability-escalation-and-safety-governa"
+id="toc-appendix-b30-chapter-06-can-ground-the-coexistence-of-capability-escalation-and-safety-governa">Appendix
+B30. Chapter 06 can ground the coexistence of capability escalation and
+safety-governa…</a></li>
+<li><a
+href="#appendix-b31-by-november-23-2023-there-was-serious-mainstream-reporting-explicitly-linking-th"
+id="toc-appendix-b31-by-november-23-2023-there-was-serious-mainstream-reporting-explicitly-linking-th">Appendix
+B31. By November 23, 2023 there was serious mainstream reporting
+explicitly linking th…</a></li>
+<li><a
+href="#appendix-b32-chapter-06-can-describe-the-q-thread-as-a-real-reporting-trail-in-the-public-rec"
+id="toc-appendix-b32-chapter-06-can-describe-the-q-thread-as-a-real-reporting-trail-in-the-public-rec">Appendix
+B32. Chapter 06 can describe the Q* thread as a real reporting trail in
+the public rec…</a></li>
+<li><a
+href="#appendix-b33.-the-dossier-should-treat-q-related-causal-claims-as-reported-and-contested-rathe-appendix-b33-the-dossier-should-treat-q-related-causal-claims-as-reported-and-contested-rathe"
+id="toc-appendix-b33.-the-dossier-should-treat-q-related-causal-claims-as-reported-and-contested-rathe-appendix-b33-the-dossier-should-treat-q-related-causal-claims-as-reported-and-contested-rathe">Appendix
+B33. The dossier should treat Q*-related causal claims as reported and
+contested rathe…
+{#appendix-b33-the-dossier-should-treat-q-related-causal-claims-as-reported-and-contested-rathe}</a></li>
+<li><a
+href="#appendix-b34-by-mid-july-2024-reuters-had-published-serious-reporting-about-an-openai-reasonin"
+id="toc-appendix-b34-by-mid-july-2024-reuters-had-published-serious-reporting-about-an-openai-reasonin">Appendix
+B34. By mid-July 2024 Reuters had published serious reporting about an
+OpenAI reasonin…</a></li>
+<li><a
+href="#appendix-b35-the-dossier-can-document-a-pre-release-public-reporting-trail-for-reasoning-model"
+id="toc-appendix-b35-the-dossier-can-document-a-pre-release-public-reporting-trail-for-reasoning-model">Appendix
+B35. The dossier can document a pre-release public reporting trail for
+reasoning-model…</a></li>
+<li><a
+href="#appendix-b36-chapter-06-can-connect-later-reasoning-model-branding-to-an-earlier-serious-repo"
+id="toc-appendix-b36-chapter-06-can-connect-later-reasoning-model-branding-to-an-earlier-serious-repo">Appendix
+B36. Chapter 06 can connect later reasoning-model branding to an
+earlier, serious repo…</a></li>
+<li><a
+href="#appendix-b37-openai-s-reasoning-launch-quickly-triggered-open-replication-efforts-focused-on-t"
+id="toc-appendix-b37-openai-s-reasoning-launch-quickly-triggered-open-replication-efforts-focused-on-t">Appendix
+B37. OpenAI’s reasoning launch quickly triggered open replication
+efforts focused on t…</a></li>
+<li><a
+href="#appendix-b38-the-paper-proposed-budget-forcing-as-a-simple-way-to-control-test-time-compute-by"
+id="toc-appendix-b38-the-paper-proposed-budget-forcing-as-a-simple-way-to-control-test-time-compute-by">Appendix
+B38. The paper proposed budget forcing as a simple way to control
+test-time compute by…</a></li>
+<li><a
+href="#appendix-b39-the-paper-reported-benchmark-gains-substantial-enough-to-challenge-simplistic-fro"
+id="toc-appendix-b39-the-paper-reported-benchmark-gains-substantial-enough-to-challenge-simplistic-fro">Appendix
+B39. The paper reported benchmark gains substantial enough to challenge
+simplistic fro…</a></li>
+<li><a
+href="#appendix-b40-test-time-compute-scaling-is-a-documented-technical-mechanism-rather-than-only-a"
+id="toc-appendix-b40-test-time-compute-scaling-is-a-documented-technical-mechanism-rather-than-only-a">Appendix
+B40. Test-time compute scaling is a documented technical mechanism
+rather than only a…</a></li>
+<li><a
+href="#appendix-b41-the-paper-reported-a-compute-optimal-strategy-improving-test-time-compute-efficie"
+id="toc-appendix-b41-the-paper-reported-a-compute-optimal-strategy-improving-test-time-compute-efficie">Appendix
+B41. The paper reported a compute-optimal strategy improving test-time
+compute efficie…</a></li>
+<li><a
+href="#appendix-b42-under-a-flops-matched-evaluation-the-paper-found-cases-where-a-smaller-model-usin"
+id="toc-appendix-b42-under-a-flops-matched-evaluation-the-paper-found-cases-where-a-smaller-model-usin">Appendix
+B42. Under a FLOPs-matched evaluation the paper found cases where a
+smaller model usin…</a></li>
+<li><a
+href="#appendix-b43-whether-simple-budget-forcing-style-replications-capture-the-same-scaling-mechani"
+id="toc-appendix-b43-whether-simple-budget-forcing-style-replications-capture-the-same-scaling-mechani">Appendix
+B43. Whether simple budget-forcing style replications capture the same
+scaling mechani…</a></li>
+<li><a
+href="#appendix-b44-the-public-record-does-not-settle-whether-q-or-any-specific-capability-breakthro"
+id="toc-appendix-b44-the-public-record-does-not-settle-whether-q-or-any-specific-capability-breakthro">Appendix
+B44. The public record does not settle whether Q* or any specific
+capability breakthro…</a></li>
+<li><a
+href="#appendix-b45-frontier-labs-are-turning-reasoning-into-a-premium-political-economic-category-by"
+id="toc-appendix-b45-frontier-labs-are-turning-reasoning-into-a-premium-political-economic-category-by">Appendix
+B45. Frontier labs are turning reasoning into a premium
+political-economic category by…</a></li>
+<li><a
+href="#appendix-b46-current-official-pricing-and-launch-records-from-openai-and-anthropic-show-reason"
+id="toc-appendix-b46-current-official-pricing-and-launch-records-from-openai-and-anthropic-show-reason">Appendix
+B46. Current official pricing and launch records from OpenAI and
+Anthropic show reason…</a></li>
+<li><a
+href="#appendix-b47-chapter-06-is-strongest-when-it-argues-that-reasoning-tiers-package-a-real-comput"
+id="toc-appendix-b47-chapter-06-is-strongest-when-it-argues-that-reasoning-tiers-package-a-real-comput">Appendix
+B47. Chapter 06 is strongest when it argues that reasoning tiers package
+a real comput…</a></li>
+<li><a
+href="#appendix-b48-openai-s-governance-rupture-safety-rhetoric-leadership-churn-and-reasoning-mod"
+id="toc-appendix-b48-openai-s-governance-rupture-safety-rhetoric-leadership-churn-and-reasoning-mod">Appendix
+B48. OpenAI’s governance rupture, safety rhetoric, leadership churn, and
+reasoning-mod…</a></li>
+<li><a
+href="#appendix-b49-open-reasoning-papers-or-public-model-releases-eliminate-the-politics-of-compute"
+id="toc-appendix-b49-open-reasoning-papers-or-public-model-releases-eliminate-the-politics-of-compute">Appendix
+B49. Open reasoning papers or public model releases eliminate the
+politics of compute…</a></li>
+<li><a
+href="#appendix-b50-one-secret-breakthrough-letter-or-hidden-internal-discovery-fully-explains-the"
+id="toc-appendix-b50-one-secret-breakthrough-letter-or-hidden-internal-discovery-fully-explains-the">Appendix
+B50. One secret breakthrough, letter, or hidden internal discovery fully
+explains the…</a></li>
+</ul></li>
+<li><a href="#appendix-c.-timeline-slice"
+id="toc-appendix-c.-timeline-slice">Appendix C. Timeline Slice</a>
+<ul>
+<li><a
+href="#appendix-c1.-2023-11-23-reuters-publishes-a-q-linked-reporting-trail-tied-to-the-openai-board-crisis-appendix-c1-2023-11-23-reuters-publishes-a-q-linked-reporting-trail-tied-to-the-openai-board-crisis"
+id="toc-appendix-c1.-2023-11-23-reuters-publishes-a-q-linked-reporting-trail-tied-to-the-openai-board-crisis-appendix-c1-2023-11-23-reuters-publishes-a-q-linked-reporting-trail-tied-to-the-openai-board-crisis">Appendix
+C1. 2023-11-23: Reuters publishes a Q*-linked reporting trail tied to
+the OpenAI board crisis
+{#appendix-c1-2023-11-23-reuters-publishes-a-q-linked-reporting-trail-tied-to-the-openai-board-crisis}</a></li>
+<li><a
+href="#appendix-c2-2024-07-15-reuters-reports-on-openai-s-strawberry-reasoning-project-before-o1-release"
+id="toc-appendix-c2-2024-07-15-reuters-reports-on-openai-s-strawberry-reasoning-project-before-o1-release">Appendix
+C2. 2024-07-15: Reuters reports on OpenAI’s Strawberry reasoning project
+before o1 release</a></li>
+<li><a
+href="#appendix-c3-2024-08-06-researchers-publish-a-compute-optimal-test-time-scaling-paper-for-llms"
+id="toc-appendix-c3-2024-08-06-researchers-publish-a-compute-optimal-test-time-scaling-paper-for-llms">Appendix
+C3. 2024-08-06: Researchers publish a compute-optimal test-time scaling
+paper for LLMs</a></li>
+<li><a
+href="#appendix-c4-2024-09-12-openai-launches-o1-preview-as-a-reasoning-focused-model-line"
+id="toc-appendix-c4-2024-09-12-openai-launches-o1-preview-as-a-reasoning-focused-model-line">Appendix
+C4. 2024-09-12: OpenAI launches o1-preview as a reasoning-focused model
+line</a></li>
+<li><a
+href="#appendix-c5-2024-09-13-financial-times-reports-openai-acknowledging-higher-bioweapon-misuse-risk-for-o1"
+id="toc-appendix-c5-2024-09-13-financial-times-reports-openai-acknowledging-higher-bioweapon-misuse-risk-for-o1">Appendix
+C5. 2024-09-13: Financial Times reports OpenAI acknowledging higher
+bioweapon misuse risk for o1</a></li>
+<li><a
+href="#appendix-c6-2024-12-05-openai-updates-the-o1-system-card-with-preparedness-and-training-data-details"
+id="toc-appendix-c6-2024-12-05-openai-updates-the-o1-system-card-with-preparedness-and-training-data-details">Appendix
+C6. 2024-12-05: OpenAI updates the o1 system card with preparedness and
+training-data details</a></li>
+<li><a
+href="#appendix-c7-2024-12-27-deepseek-presents-the-deepseek-v3-technical-report-on-arxiv"
+id="toc-appendix-c7-2024-12-27-deepseek-presents-the-deepseek-v3-technical-report-on-arxiv">Appendix
+C7. 2024-12-27: DeepSeek presents the DeepSeek-V3 technical report on
+arXiv</a></li>
+<li><a
+href="#appendix-c8-2025-01-22-deepseek-publishes-its-r1-reasoning-paper-and-open-release-claims"
+id="toc-appendix-c8-2025-01-22-deepseek-publishes-its-r1-reasoning-paper-and-open-release-claims">Appendix
+C8. 2025-01-22: DeepSeek publishes its R1 reasoning paper and open
+release claims</a></li>
+<li><a
+href="#appendix-c9-2025-01-31-researchers-release-s1-as-an-open-attempt-to-replicate-test-time-scaling"
+id="toc-appendix-c9-2025-01-31-researchers-release-s1-as-an-open-attempt-to-replicate-test-time-scaling">Appendix
+C9. 2025-01-31: Researchers release s1 as an open attempt to replicate
+test-time scaling</a></li>
+<li><a
+href="#appendix-c10-2025-05-22-anthropic-launches-claude-4-with-extended-thinking-commercial-availability"
+id="toc-appendix-c10-2025-05-22-anthropic-launches-claude-4-with-extended-thinking-commercial-availability">Appendix
+C10. 2025-05-22: Anthropic launches Claude 4 with extended-thinking
+commercial availability</a></li>
+<li><a
+href="#appendix-c11-2025-07-19-a-follow-up-paper-challenges-simplistic-readings-of-simple-test-time-scaling"
+id="toc-appendix-c11-2025-07-19-a-follow-up-paper-challenges-simplistic-readings-of-simple-test-time-scaling">Appendix
+C11. 2025-07-19: A follow-up paper challenges simplistic readings of
+simple test-time scaling</a></li>
+</ul></li>
+<li><a href="#appendix-d.-relevant-entities"
+id="toc-appendix-d.-relevant-entities">Appendix D. Relevant Entities</a>
+<ul>
+<li><a href="#appendix-d1-anthropic"
+id="toc-appendix-d1-anthropic">Appendix D1. Anthropic</a></li>
+<li><a href="#appendix-d2-deepseek"
+id="toc-appendix-d2-deepseek">Appendix D2. DeepSeek</a></li>
+<li><a href="#appendix-d3-openai" id="toc-appendix-d3-openai">Appendix
+D3. OpenAI</a></li>
+<li><a href="#appendix-d4-test-time-compute-scaling"
+id="toc-appendix-d4-test-time-compute-scaling">Appendix D4. Test-time
+compute scaling</a></li>
+</ul></li>
+<li><a href="#appendix-e.-evidence-boundaries"
+id="toc-appendix-e.-evidence-boundaries">Appendix E. Evidence
+Boundaries</a>
+<ul>
+<li><a href="#appendix-e1-disputed-matters"
+id="toc-appendix-e1-disputed-matters">Appendix E1. Disputed
+Matters</a></li>
+<li><a href="#appendix-e2-interpretive-boundaries"
+id="toc-appendix-e2-interpretive-boundaries">Appendix E2. Interpretive
+Boundaries</a></li>
+<li><a href="#appendix-e3-speculative-narrative-risks"
+id="toc-appendix-e3-speculative-narrative-risks">Appendix E3.
+Speculative Narrative Risks</a></li>
+<li><a href="#appendix-e4-sensitive-or-review-worthy-note-flags"
+id="toc-appendix-e4-sensitive-or-review-worthy-note-flags">Appendix E4.
+Sensitive or Review-Worthy Note Flags</a></li>
+</ul></li>
+</ul>
+</nav>
+<h2 id="abstract">Abstract</h2>
+<p>One of the clearest contradictions in the current AI regime is that
+systems are marketed simultaneously as dangerous enough to justify elite
+governance and safe enough to be rolled out as broad dependence
+infrastructure. OpenAI publicly framed reasoning as a distinct
+capability layer tied to additional train-time and test-time compute,
+and paired it with preparedness, safety, and misuse-risk language. This
+is how AI becomes a dual-use rhetorical weapon.</p>
+<h2 id="keywords">Keywords</h2>
+<p>AI as a dual-use rhetorical weapon; surveillance capitalism; AI
+imperialism; evidence-based dossier</p>
+<h2 id="research-question">Research Question</h2>
+<p>How does ai as a dual-use rhetorical weapon function within the
+dossier’s larger argument, and what does the documentary record allow
+this chapter to establish?</p>
+<h2 id="scope-and-framing-note">Scope and Framing Note</h2>
+<p>This paper examines ai as a dual-use rhetorical weapon within the
+broader dossier <em>From Surveillance Capitalism to AI Imperialism</em>.
+It is intentionally written to circulate on its own: necessary context
+is restated, evidence boundaries are made explicit, and cited material
+is reproduced in paper-local form rather than delegated to repo
+navigation. It contributes to the series as a paper that shows how
+danger rhetoric, cheapness rhetoric, and reasoning rhetoric together
+normalize frontier enclosure and strategic dependence. Adjacent
+reinforcement appears in Chapter 04, Chapter 05, Chapter 07, Chapter 10,
+but those cross-references are supportive rather than required for basic
+comprehension.</p>
+<h2 id="central-thesis">Central Thesis</h2>
+<p>One of the clearest contradictions in the current AI regime is that
+systems are marketed simultaneously as dangerous enough to justify elite
+governance and safe enough to be rolled out as broad dependence
+infrastructure. The point is not that reasoning advances are fake. The
+point is that real advances are being packaged inside a politics of
+fear, prestige, and access management at the same time. <a href="#fn1"
+class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<h2 id="evidence-and-method-note">Evidence and Method Note</h2>
+<p>This paper is derived from the chapter corpus for Chapter 06 and is
+grounded in the project’s structured research OS. It relies on source
+notes, extracted claims, entity profiles, and timeline events already
+normalized under the dossier’s evidence hierarchy. Documented facts are
+asserted directly where the record supports them; disputed matters are
+marked as such; interpretive claims are bounded explicitly; and
+speculative overreach is isolated in the evidence-boundary appendix.</p>
+<h2 id="introduction">Introduction</h2>
+<p>This paper asks: How does ai as a dual-use rhetorical weapon function
+within the dossier’s larger argument, and what does the documentary
+record allow this chapter to establish? Its working answer is clear from
+the start: One of the clearest contradictions in the current AI regime
+is that systems are marketed simultaneously as dangerous enough to
+justify elite governance and safe enough to be rolled out as broad
+dependence infrastructure. The point is not that reasoning advances are
+fake. The point is that real advances are being packaged inside a
+politics of fear, prestige, and access management at the same time. <a
+href="#fn2" class="footnote-ref" id="fnref2"
+role="doc-noteref"><sup>2</sup></a> The objective is not only to recount
+developments, but to show why the subject of this chapter belongs inside
+a structural argument about extraction, enclosure, legitimacy, and
+reform.</p>
+<h2 id="historical-or-institutional-context">Historical or Institutional
+Context</h2>
+<p>OpenAI publicly framed reasoning as a distinct capability layer tied
+to additional train-time and test-time compute, and paired it with
+preparedness, safety, and misuse-risk language. The product story and
+the security story arrived together. <a href="#fn3" class="footnote-ref"
+id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
+<h2 id="main-analysis">Main Analysis</h2>
+<p>The Reuters Q* and <code>Strawberry</code> reporting shows that this
+reasoning story has a serious public prehistory rather than being a
+later marketing improvisation. That matters because it confirms both
+sides of the contradiction: the capability arc may be real, but so is
+the later struggle over how it is narrated, priced, and gated. <a
+href="#fn4" class="footnote-ref" id="fnref4"
+role="doc-noteref"><sup>4</sup></a></p>
+<p>Primary research strengthens the middle claim. Test-time compute is
+not just a corporate slogan. A 2024 paper on compute-optimal
+inference-time scaling showed meaningful efficiency improvements over
+simpler baselines, while later research and open-replication efforts
+showed both rapid diffusion pressure and an active technical dispute
+over what those replications actually reproduced. In other words, the
+dossier no longer needs to pretend that reasoning scarcity is fake in
+order to criticize how it is governed. <a href="#fn5"
+class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p>
+<p>The pricing layer is also direct now. OpenAI’s own plan and API
+pages, along with Anthropic’s pricing and <code>Claude 4</code> launch
+material, show that stronger reasoning access is tiered across premium
+plans, higher usage classes, and higher-priced API lanes. Reasoning is
+not only a capability. It is also a gated commercial product. <a
+href="#fn6" class="footnote-ref" id="fnref6"
+role="doc-noteref"><sup>6</sup></a></p>
+<p>DeepSeek complicates total exclusivity claims without eliminating
+concentration. Its releases show that parts of reasoning capability
+diffuse faster than absolutist frontier rhetoric suggests. The real
+story is not zero diffusion versus perfect monopoly. It is diffusion at
+the edges and political curation at the core. <a href="#fn7"
+class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></p>
+<p>Interpretation: this chapter supports the patrimony argument by
+showing how a real compute-intensive technical mechanism is turned into
+a managed access regime. Fear legitimizes the gate, convenience fills
+the funnel, and premium reasoning tiers convert collectively grounded
+capability into selectively governed scarcity. <a href="#fn8"
+class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></p>
+<h2 id="position-within-the-series">Position Within the Series</h2>
+<p>This paper sits inside a coordinated 11-paper architecture. Its
+nearest companions are Chapter 04 (AI arrives when the human raw
+material already exists), Chapter 05 (Talent, overhiring, valuation, and
+layoffs), Chapter 07 (Imperial control over access), Chapter 10 (What to
+do). In that series logic, Chapter 06 shows how danger rhetoric,
+cheapness rhetoric, and reasoning rhetoric together normalize frontier
+enclosure and strategic dependence.</p>
+<h2 id="counterarguments">Counterarguments</h2>
+<p>The chapter should not collapse three separate issues into one: the
+reality of test-time compute as a technical mechanism, the open
+challenge to frontier mystique, and the unresolved dispute over what
+simple replications actually prove. The strongest claim is about
+rhetoric, gating, and governance, not about proving that every frontier
+capability turned out to be hollow. <a href="#fn9" class="footnote-ref"
+id="fnref9" role="doc-noteref"><sup>9</sup></a></p>
+<h2 id="limits-of-the-evidence">Limits of the Evidence</h2>
+<p>The chapter should not collapse three separate issues into one: the
+reality of test-time compute as a technical mechanism, the open
+challenge to frontier mystique, and the unresolved dispute over what
+simple replications actually prove. The strongest claim is about
+rhetoric, gating, and governance, not about proving that every frontier
+capability turned out to be hollow. <a href="#fn10" class="footnote-ref"
+id="fnref10" role="doc-noteref"><sup>10</sup></a></p>
+<h2 id="reform-relevance">Reform Relevance</h2>
+<p>This is how AI becomes a dual-use rhetorical weapon. Danger justifies
+concentration, while convenience justifies mass adoption. A public told
+that the system is too dangerous to democratize and too useful to refuse
+is being prepared to accept hierarchy as prudence. That pushes Chapter
+<code>04</code>’s ownership question toward a sharper answer: capability
+built from collective human production is being enclosed as a governed
+premium. <a href="#fn11" class="footnote-ref" id="fnref11"
+role="doc-noteref"><sup>11</sup></a></p>
+<h2 id="conclusion">Conclusion</h2>
+<p>This is how AI becomes a dual-use rhetorical weapon. Once managed
+dependency exists, the next question is who controls the most
+consequential access lanes and under what geopolitical terms. In the
+architecture of this series, Chapter 06 therefore functions as a
+self-contained argument while also advancing the cumulative path toward
+the dossier’s three reforms.</p>
+<h2 id="notes">Notes</h2>
+<p>This paper is designed to circulate independently. Public notes point
+readers to the real external documents first, then to the paper-local
+appendix entry that explains why each source matters.</p>
+<p>The underlying research OS distinguishes among
+<code>Documented Fact</code>, <code>Disputed Fact</code>,
+<code>Hypothesis / Interpretation</code>, and
+<code>Speculative Narrative Risk</code>. In Chapter 06, those boundaries
+remain visible in the prose, in the bibliography, and in the appendix
+sections that summarize claims and caution points.</p>
+<h2 id="references-bibliography">References / Bibliography</h2>
+<ol type="1">
+<li>OpenAI. <a
+href="https://openai.com/index/learning-to-reason-with-llms/">Learning
+to reason with LLMs</a>. 2024-09-12. T1 release. Paper appendix: <a
+href="#appendix-a1-learning-to-reason-with-llms">Appendix A1</a>. Corpus
+companion entry: Source S-093. Audit ID:
+<code>openai-learning-to-reason-with-llms-2024</code>. Relevance: That
+OpenAI publicly framed reasoning as a new scaling layer based on
+additional train-time and test-time compute.</li>
+<li>OpenAI. <a
+href="https://openai.com/index/openai-o1-system-card/">OpenAI o1 System
+Card</a>. 2024-12-05. T1 system_card. Paper appendix: <a
+href="#appendix-a2-openai-o1-system-card">Appendix A2</a>. Corpus
+companion entry: Source S-095. Audit ID:
+<code>openai-o1-system-card-2024</code>. Relevance: That OpenAI itself
+paired stronger reasoning capability with formal safety, preparedness,
+and misuse-risk framing.</li>
+<li>Financial Times. <a
+href="https://www.ft.com/content/37ba7236-2a64-4807-b1e1-7e21ee7d0914">OpenAI
+acknowledges new models increase risk of misuse to create
+bioweapons</a>. 2024-09-13. T2 news_article. Paper appendix: <a
+href="#appendix-a3-openai-acknowledges-new-models-increase-risk-of-misuse-to-create-bioweapons">Appendix
+A3</a>. Corpus companion entry: Source S-060. Audit ID:
+<code>ft-openai-o1-bioweapon-risk-2024</code>. Relevance: That serious
+<code>T2</code> reporting documented OpenAI publicly acknowledging
+higher misuse risk at the same moment it was releasing stronger
+reasoning models.</li>
+<li>Reuters. <a
+href="https://www.reuters.com/technology/sam-altmans-ouster-openai-was-precipitated-by-letter-board-about-ai-breakthrough-2023-11-22/">OpenAI
+researchers warned board of AI breakthrough ahead of CEO ouster, sources
+say</a>. 2023-11-23. T2 news_article. Paper appendix: <a
+href="#appendix-a4-openai-researchers-warned-board-of-ai-breakthrough-ahead-of-ceo-ouster-sources-say">Appendix
+A4</a>. Corpus companion entry: Source S-110. Audit ID:
+<code>reuters-qstar-board-warning-2023</code>. Relevance: That by
+November 23, 2023 there was serious mainstream reporting explicitly
+linking the board crisis to a letter about an AI breakthrough.</li>
+<li>Reuters. <a
+href="https://www.reuters.com/technology/artificial-intelligence/openai-working-new-reasoning-technology-under-code-name-strawberry-2024-07-12/">Exclusive:
+OpenAI working on new reasoning technology under code name
+‘Strawberry’</a>. 2024-07-15. T2 news_article. Paper appendix: <a
+href="#appendix-a5-exclusive-openai-working-on-new-reasoning-technology-under-code-name-strawberry">Appendix
+A5</a>. Corpus companion entry: Source S-111. Audit ID:
+<code>reuters-strawberry-reasoning-2024</code>. Relevance: That by
+mid-July 2024 Reuters had published serious reporting about an OpenAI
+reasoning project under the codename <code>Strawberry</code>.</li>
+<li>Charlie Snell; Jaehoon Lee; Kelvin Xu; Aviral Kumar. <a
+href="https://arxiv.org/abs/2408.03314">Scaling LLM Test-Time Compute
+Optimally can be More Effective than Scaling Model Parameters</a>.
+2024-08-06. T1 paper. Paper appendix: <a
+href="#appendix-a6-scaling-llm-test-time-compute-optimally-can-be-more-effective-than-scaling-model-parameters">Appendix
+A6</a>. Corpus companion entry: Source S-115. Audit ID:
+<code>snell-test-time-compute-2024</code>. Relevance: That test-time
+compute scaling is a documented technical mechanism rather than only a
+commercial branding story.</li>
+<li>Niklas Muennighoff; Zitong Yang; Weijia Shi; Xiang Lisa Li; Li
+Fei-Fei; Hannaneh Hajishirzi; Luke Zettlemoyer; Percy Liang; Emmanuel
+Candès; Tatsunori Hashimoto. <a
+href="https://arxiv.org/abs/2501.19393">s1: Simple test-time
+scaling</a>. 2025-01-31. T1 paper. Paper appendix: <a
+href="#appendix-a7-s1-simple-test-time-scaling">Appendix A7</a>. Corpus
+companion entry: Source S-112. Audit ID:
+<code>s1-simple-test-time-scaling-2025</code>. Relevance: That OpenAI’s
+reasoning launch quickly triggered open replication efforts focused on
+test-time scaling.</li>
+<li>Guojun Wu. <a href="https://arxiv.org/abs/2507.14419">It’s Not That
+Simple. An Analysis of Simple Test-Time Scaling</a>. 2025-07-19. T1
+paper. Paper appendix: <a
+href="#appendix-a8-it-s-not-that-simple-an-analysis-of-simple-test-time-scaling">Appendix
+A8</a>. Corpus companion entry: Source S-076. Audit ID:
+<code>its-not-that-simple-test-time-scaling-2025</code>. Relevance: That
+there is direct technical pushback against simplistic claims that
+frontier reasoning was trivially replicated.</li>
+<li>OpenAI. <a href="https://chatgpt.com/pricing/">ChatGPT Plans | Free,
+Go, Plus, Pro, Business, and Enterprise</a>. n.d.. T1 pricing_page.
+Paper appendix: <a
+href="#appendix-a9-chatgpt-plans-free-go-plus-pro-business-and-enterprise">Appendix
+A9</a>. Corpus companion entry: Source S-039. Audit ID:
+<code>chatgpt-pricing-2026</code>. Relevance: That as of capture on July
+3, 2026, OpenAI’s official ChatGPT plan structure reserved the
+highest-end reasoning access for upper paid tiers rather than offering
+it uniformly acr…</li>
+<li>OpenAI. <a
+href="https://developers.openai.com/api/docs/pricing">Pricing | OpenAI
+API</a>. n.d.. T1 pricing_page. Paper appendix: <a
+href="#appendix-a10-pricing-openai-api">Appendix A10</a>. Corpus
+companion entry: Source S-088. Audit ID:
+<code>openai-api-pricing-2026</code>. Relevance: That as of July 3,
+2026, OpenAI’s official API pricing imposed a large price premium on
+<code>GPT-5.5 Pro</code> relative to <code>GPT-5.5</code>.</li>
+<li>Anthropic. <a href="https://claude.com/pricing">Plans &amp; Pricing
+| Claude by Anthropic</a>. n.d.. T1 pricing_page. Paper appendix: <a
+href="#appendix-a11-plans-pricing-claude-by-anthropic">Appendix A11</a>.
+Corpus companion entry: Source S-005. Audit ID:
+<code>anthropic-claude-pricing-2026</code>. Relevance: That as of July
+3, 2026, Anthropic’s official current pricing structure tied higher
+usage, priority access, and stronger feature access to premium paid
+plans.</li>
+<li>Anthropic. <a
+href="https://www.anthropic.com/news/claude-4">Introducing Claude 4</a>.
+2025-05-22. T1 release. Paper appendix: <a
+href="#appendix-a12-introducing-claude-4">Appendix A12</a>. Corpus
+companion entry: Source S-003. Audit ID:
+<code>anthropic-claude-4-release-2025</code>. Relevance: That on May 22,
+2025 Anthropic launched reasoning-oriented hybrid frontier models
+together with immediate commercial distribution across subscription
+plans, API access, and majo…</li>
+<li>arXiv. <a href="https://arxiv.org/abs/2412.19437">DeepSeek-V3
+Technical Report</a>. 2024-12-27. T1 paper. Paper appendix: <a
+href="#appendix-a13-deepseek-v3-technical-report">Appendix A13</a>.
+Corpus companion entry: Source S-049. Audit ID:
+<code>deepseek-v3-technical-report-2024</code>. Relevance: That by late
+2024 there was already a competitor publicly claiming frontier-adjacent
+performance through a technical report.</li>
+<li>arXiv. <a href="https://arxiv.org/abs/2501.12948">DeepSeek-R1:
+Incentivizing Reasoning Capability in LLMs via Reinforcement
+Learning</a>. 2025-01-22. T1 paper. Paper appendix: <a
+href="#appendix-a14-deepseek-r1-incentivizing-reasoning-capability-in-llms-via-reinforcement-learning">Appendix
+A14</a>. Corpus companion entry: Source S-048. Audit ID:
+<code>deepseek-r1-reinforcement-learning-2025</code>. Relevance: That by
+January 2025 a non-U.S. lab was publicly claiming frontier-adjacent
+reasoning performance in a primary technical paper.</li>
+</ol>
+<h2 id="appendix-a.-source-register-for-this-paper">Appendix A. Source
+Register for This Paper</h2>
+<h3 id="appendix-a1-learning-to-reason-with-llms">Appendix A1. Learning
+to reason with LLMs</h3>
+<p><strong>Source citation:</strong> <a
+href="https://openai.com/index/learning-to-reason-with-llms/">Learning
+to reason with LLMs</a> <strong>Institution / author:</strong> OpenAI
+<strong>Date:</strong> 2024-09-12 <strong>Tier / type:</strong> T1 /
+release <strong>Why it matters in this paper:</strong> That OpenAI
+publicly framed reasoning as a new scaling layer based on additional
+train-time and test-time compute. <strong>Corpus companion
+entry:</strong> Source S-093 <strong>Audit ID:</strong>
+<code>openai-learning-to-reason-with-llms-2024</code></p>
+<h3 id="appendix-a2-openai-o1-system-card">Appendix A2. OpenAI o1 System
+Card</h3>
+<p><strong>Source citation:</strong> <a
+href="https://openai.com/index/openai-o1-system-card/">OpenAI o1 System
+Card</a> <strong>Institution / author:</strong> OpenAI
+<strong>Date:</strong> 2024-12-05 <strong>Tier / type:</strong> T1 /
+system_card <strong>Why it matters in this paper:</strong> That OpenAI
+itself paired stronger reasoning capability with formal safety,
+preparedness, and misuse-risk framing. <strong>Corpus companion
+entry:</strong> Source S-095 <strong>Audit ID:</strong>
+<code>openai-o1-system-card-2024</code></p>
+<h3
+id="appendix-a3-openai-acknowledges-new-models-increase-risk-of-misuse-to-create-bioweapons">Appendix
+A3. OpenAI acknowledges new models increase risk of misuse to create
+bioweapons</h3>
+<p><strong>Source citation:</strong> <a
+href="https://www.ft.com/content/37ba7236-2a64-4807-b1e1-7e21ee7d0914">OpenAI
+acknowledges new models increase risk of misuse to create bioweapons</a>
+<strong>Institution / author:</strong> Financial Times
+<strong>Date:</strong> 2024-09-13 <strong>Tier / type:</strong> T2 /
+news_article <strong>Why it matters in this paper:</strong> That serious
+<code>T2</code> reporting documented OpenAI publicly acknowledging
+higher misuse risk at the same moment it was releasing stronger
+reasoning models. <strong>Corpus companion entry:</strong> Source S-060
+<strong>Audit ID:</strong>
+<code>ft-openai-o1-bioweapon-risk-2024</code></p>
+<h3
+id="appendix-a4-openai-researchers-warned-board-of-ai-breakthrough-ahead-of-ceo-ouster-sources-say">Appendix
+A4. OpenAI researchers warned board of AI breakthrough ahead of CEO
+ouster, sources say</h3>
+<p><strong>Source citation:</strong> <a
+href="https://www.reuters.com/technology/sam-altmans-ouster-openai-was-precipitated-by-letter-board-about-ai-breakthrough-2023-11-22/">OpenAI
+researchers warned board of AI breakthrough ahead of CEO ouster, sources
+say</a> <strong>Institution / author:</strong> Reuters
+<strong>Date:</strong> 2023-11-23 <strong>Tier / type:</strong> T2 /
+news_article <strong>Why it matters in this paper:</strong> That by
+November 23, 2023 there was serious mainstream reporting explicitly
+linking the board crisis to a letter about an AI breakthrough.
+<strong>Corpus companion entry:</strong> Source S-110 <strong>Audit
+ID:</strong> <code>reuters-qstar-board-warning-2023</code></p>
+<h3
+id="appendix-a5-exclusive-openai-working-on-new-reasoning-technology-under-code-name-strawberry">Appendix
+A5. Exclusive: OpenAI working on new reasoning technology under code
+name ‘Strawberry’</h3>
+<p><strong>Source citation:</strong> <a
+href="https://www.reuters.com/technology/artificial-intelligence/openai-working-new-reasoning-technology-under-code-name-strawberry-2024-07-12/">Exclusive:
+OpenAI working on new reasoning technology under code name
+‘Strawberry’</a> <strong>Institution / author:</strong> Reuters
+<strong>Date:</strong> 2024-07-15 <strong>Tier / type:</strong> T2 /
+news_article <strong>Why it matters in this paper:</strong> That by
+mid-July 2024 Reuters had published serious reporting about an OpenAI
+reasoning project under the codename <code>Strawberry</code>.
+<strong>Corpus companion entry:</strong> Source S-111 <strong>Audit
+ID:</strong> <code>reuters-strawberry-reasoning-2024</code></p>
+<h3
+id="appendix-a6-scaling-llm-test-time-compute-optimally-can-be-more-effective-than-scaling-model-parameters">Appendix
+A6. Scaling LLM Test-Time Compute Optimally can be More Effective than
+Scaling Model Parameters</h3>
+<p><strong>Source citation:</strong> <a
+href="https://arxiv.org/abs/2408.03314">Scaling LLM Test-Time Compute
+Optimally can be More Effective than Scaling Model Parameters</a>
+<strong>Institution / author:</strong> Charlie Snell; Jaehoon Lee;
+Kelvin Xu; Aviral Kumar <strong>Date:</strong> 2024-08-06 <strong>Tier /
+type:</strong> T1 / paper <strong>Why it matters in this paper:</strong>
+That test-time compute scaling is a documented technical mechanism
+rather than only a commercial branding story. <strong>Corpus companion
+entry:</strong> Source S-115 <strong>Audit ID:</strong>
+<code>snell-test-time-compute-2024</code></p>
+<h3 id="appendix-a7-s1-simple-test-time-scaling">Appendix A7. s1: Simple
+test-time scaling</h3>
+<p><strong>Source citation:</strong> <a
+href="https://arxiv.org/abs/2501.19393">s1: Simple test-time scaling</a>
+<strong>Institution / author:</strong> Niklas Muennighoff; Zitong Yang;
+Weijia Shi; Xiang Lisa Li; Li Fei-Fei; Hannaneh Hajishirzi; Luke
+Zettlemoyer; Percy Liang; Emmanuel Candès; Tatsunori Hashimoto
+<strong>Date:</strong> 2025-01-31 <strong>Tier / type:</strong> T1 /
+paper <strong>Why it matters in this paper:</strong> That OpenAI’s
+reasoning launch quickly triggered open replication efforts focused on
+test-time scaling. <strong>Corpus companion entry:</strong> Source S-112
+<strong>Audit ID:</strong>
+<code>s1-simple-test-time-scaling-2025</code></p>
+<h3
+id="appendix-a8-it-s-not-that-simple-an-analysis-of-simple-test-time-scaling">Appendix
+A8. It’s Not That Simple. An Analysis of Simple Test-Time Scaling</h3>
+<p><strong>Source citation:</strong> <a
+href="https://arxiv.org/abs/2507.14419">It’s Not That Simple. An
+Analysis of Simple Test-Time Scaling</a> <strong>Institution /
+author:</strong> Guojun Wu <strong>Date:</strong> 2025-07-19
+<strong>Tier / type:</strong> T1 / paper <strong>Why it matters in this
+paper:</strong> That there is direct technical pushback against
+simplistic claims that frontier reasoning was trivially replicated.
+<strong>Corpus companion entry:</strong> Source S-076 <strong>Audit
+ID:</strong> <code>its-not-that-simple-test-time-scaling-2025</code></p>
+<h3
+id="appendix-a9-chatgpt-plans-free-go-plus-pro-business-and-enterprise">Appendix
+A9. ChatGPT Plans | Free, Go, Plus, Pro, Business, and Enterprise</h3>
+<p><strong>Source citation:</strong> <a
+href="https://chatgpt.com/pricing/">ChatGPT Plans | Free, Go, Plus, Pro,
+Business, and Enterprise</a> <strong>Institution / author:</strong>
+OpenAI <strong>Date:</strong> n.d. <strong>Tier / type:</strong> T1 /
+pricing_page <strong>Why it matters in this paper:</strong> That as of
+capture on July 3, 2026, OpenAI’s official ChatGPT plan structure
+reserved the highest-end reasoning access for upper paid tiers rather
+than offering it uniformly acr… <strong>Corpus companion entry:</strong>
+Source S-039 <strong>Audit ID:</strong>
+<code>chatgpt-pricing-2026</code></p>
+<h3 id="appendix-a10-pricing-openai-api">Appendix A10. Pricing | OpenAI
+API</h3>
+<p><strong>Source citation:</strong> <a
+href="https://developers.openai.com/api/docs/pricing">Pricing | OpenAI
+API</a> <strong>Institution / author:</strong> OpenAI
+<strong>Date:</strong> n.d. <strong>Tier / type:</strong> T1 /
+pricing_page <strong>Why it matters in this paper:</strong> That as of
+July 3, 2026, OpenAI’s official API pricing imposed a large price
+premium on <code>GPT-5.5 Pro</code> relative to <code>GPT-5.5</code>.
+<strong>Corpus companion entry:</strong> Source S-088 <strong>Audit
+ID:</strong> <code>openai-api-pricing-2026</code></p>
+<h3 id="appendix-a11-plans-pricing-claude-by-anthropic">Appendix A11.
+Plans &amp; Pricing | Claude by Anthropic</h3>
+<p><strong>Source citation:</strong> <a
+href="https://claude.com/pricing">Plans &amp; Pricing | Claude by
+Anthropic</a> <strong>Institution / author:</strong> Anthropic
+<strong>Date:</strong> n.d. <strong>Tier / type:</strong> T1 /
+pricing_page <strong>Why it matters in this paper:</strong> That as of
+July 3, 2026, Anthropic’s official current pricing structure tied higher
+usage, priority access, and stronger feature access to premium paid
+plans. <strong>Corpus companion entry:</strong> Source S-005
+<strong>Audit ID:</strong>
+<code>anthropic-claude-pricing-2026</code></p>
+<h3 id="appendix-a12-introducing-claude-4">Appendix A12. Introducing
+Claude 4</h3>
+<p><strong>Source citation:</strong> <a
+href="https://www.anthropic.com/news/claude-4">Introducing Claude 4</a>
+<strong>Institution / author:</strong> Anthropic <strong>Date:</strong>
+2025-05-22 <strong>Tier / type:</strong> T1 / release <strong>Why it
+matters in this paper:</strong> That on May 22, 2025 Anthropic launched
+reasoning-oriented hybrid frontier models together with immediate
+commercial distribution across subscription plans, API access, and majo…
+<strong>Corpus companion entry:</strong> Source S-003 <strong>Audit
+ID:</strong> <code>anthropic-claude-4-release-2025</code></p>
+<h3 id="appendix-a13-deepseek-v3-technical-report">Appendix A13.
+DeepSeek-V3 Technical Report</h3>
+<p><strong>Source citation:</strong> <a
+href="https://arxiv.org/abs/2412.19437">DeepSeek-V3 Technical Report</a>
+<strong>Institution / author:</strong> arXiv <strong>Date:</strong>
+2024-12-27 <strong>Tier / type:</strong> T1 / paper <strong>Why it
+matters in this paper:</strong> That by late 2024 there was already a
+competitor publicly claiming frontier-adjacent performance through a
+technical report. <strong>Corpus companion entry:</strong> Source S-049
+<strong>Audit ID:</strong>
+<code>deepseek-v3-technical-report-2024</code></p>
+<h3
+id="appendix-a14-deepseek-r1-incentivizing-reasoning-capability-in-llms-via-reinforcement-learning">Appendix
+A14. DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via
+Reinforcement Learning</h3>
+<p><strong>Source citation:</strong> <a
+href="https://arxiv.org/abs/2501.12948">DeepSeek-R1: Incentivizing
+Reasoning Capability in LLMs via Reinforcement Learning</a>
+<strong>Institution / author:</strong> arXiv <strong>Date:</strong>
+2025-01-22 <strong>Tier / type:</strong> T1 / paper <strong>Why it
+matters in this paper:</strong> That by January 2025 a non-U.S. lab was
+publicly claiming frontier-adjacent reasoning performance in a primary
+technical paper. <strong>Corpus companion entry:</strong> Source S-048
+<strong>Audit ID:</strong>
+<code>deepseek-r1-reinforcement-learning-2025</code></p>
+<h2 id="appendix-b.-claims-used-in-this-paper">Appendix B. Claims Used
+in This Paper</h2>
+<h3
+id="appendix-b1-on-may-22-2025-anthropic-launched-reasoning-oriented-hybrid-frontier-models-toge">Appendix
+B1. On May 22, 2025 Anthropic launched reasoning-oriented hybrid
+frontier models toge…</h3>
+<p><strong>Claim statement:</strong> That on May 22, 2025 Anthropic
+launched reasoning-oriented hybrid frontier models together with
+immediate commercial distribution across subscription plans, API access,
+and major cloud platforms. <strong>Evidence status:</strong> Documented
+Fact <strong>Source support:</strong> <a
+href="#appendix-a12-introducing-claude-4">Appendix A12</a>
+<strong>Corpus companion entry:</strong> Claim C-007 <strong>Audit Claim
+ID:</strong>
+<code>anthropic-claude-4-release-2025-06-ai-double-use-reasoning-deepseek-claim-01</code></p>
+<h3
+id="appendix-b2-anthropic-itself-tied-extended-thinking-capability-to-differentiated-plan-availab">Appendix
+B2. Anthropic itself tied extended-thinking capability to differentiated
+plan availab…</h3>
+<p><strong>Claim statement:</strong> That Anthropic itself tied
+extended-thinking capability to differentiated plan availability, with
+full-model access concentrated in paid tiers even while Sonnet 4 also
+reached free users. <strong>Evidence status:</strong> Documented Fact
+<strong>Source support:</strong> <a
+href="#appendix-a12-introducing-claude-4">Appendix A12</a>
+<strong>Corpus companion entry:</strong> Claim C-008 <strong>Audit Claim
+ID:</strong>
+<code>anthropic-claude-4-release-2025-06-ai-double-use-reasoning-deepseek-claim-02</code></p>
+<h3
+id="appendix-b3-reasoning-capable-frontier-models-were-commercialized-with-explicit-api-price-dif">Appendix
+B3. Reasoning-capable frontier models were commercialized with explicit
+API price dif…</h3>
+<p><strong>Claim statement:</strong> That reasoning-capable frontier
+models were commercialized with explicit API price differentiation at
+launch rather than released only as a research artifact.
+<strong>Evidence status:</strong> Documented Fact <strong>Source
+support:</strong> <a href="#appendix-a12-introducing-claude-4">Appendix
+A12</a> <strong>Corpus companion entry:</strong> Claim C-009
+<strong>Audit Claim ID:</strong>
+<code>anthropic-claude-4-release-2025-06-ai-double-use-reasoning-deepseek-claim-03</code></p>
+<h3
+id="appendix-b4-as-of-july-3-2026-anthropic-s-official-current-pricing-structure-tied-higher-us">Appendix
+B4. As of July 3, 2026, Anthropic’s official current pricing structure
+tied higher us…</h3>
+<p><strong>Claim statement:</strong> That as of July 3, 2026,
+Anthropic’s official current pricing structure tied higher usage,
+priority access, and stronger feature access to premium paid plans.
+<strong>Evidence status:</strong> Documented Fact <strong>Source
+support:</strong> <a
+href="#appendix-a11-plans-pricing-claude-by-anthropic">Appendix A11</a>
+<strong>Corpus companion entry:</strong> Claim C-013 <strong>Audit Claim
+ID:</strong>
+<code>anthropic-claude-pricing-2026-06-ai-double-use-reasoning-deepseek-claim-01</code></p>
+<h3
+id="appendix-b5-anthropic-s-own-current-pricing-also-differentiates-materially-across-model-famil">Appendix
+B5. Anthropic’s own current pricing also differentiates materially
+across model famil…</h3>
+<p><strong>Claim statement:</strong> That Anthropic’s own current
+pricing also differentiates materially across model families at the API
+level rather than presenting frontier access as uniform.
+<strong>Evidence status:</strong> Documented Fact <strong>Source
+support:</strong> <a
+href="#appendix-a11-plans-pricing-claude-by-anthropic">Appendix A11</a>
+<strong>Corpus companion entry:</strong> Claim C-014 <strong>Audit Claim
+ID:</strong>
+<code>anthropic-claude-pricing-2026-06-ai-double-use-reasoning-deepseek-claim-02</code></p>
+<h3
+id="appendix-b6-chapter-06-can-compare-more-than-one-frontier-lab-when-arguing-that-reasoning-era">Appendix
+B6. Chapter 06 can compare more than one frontier lab when arguing that
+reasoning-era…</h3>
+<p><strong>Claim statement:</strong> That Chapter 06 can compare more
+than one frontier lab when arguing that reasoning-era capability is
+stratified by availability and price. <strong>Evidence status:</strong>
+Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a11-plans-pricing-claude-by-anthropic">Appendix A11</a>
+<strong>Corpus companion entry:</strong> Claim C-015 <strong>Audit Claim
+ID:</strong>
+<code>anthropic-claude-pricing-2026-06-ai-double-use-reasoning-deepseek-claim-03</code></p>
+<h3
+id="appendix-b7-as-of-capture-on-july-3-2026-openai-s-official-chatgpt-plan-structure-reserved">Appendix
+B7. As of capture on July 3, 2026, OpenAI’s official ChatGPT plan
+structure reserved…</h3>
+<p><strong>Claim statement:</strong> That as of capture on July 3, 2026,
+OpenAI’s official ChatGPT plan structure reserved the highest-end
+reasoning access for upper paid tiers rather than offering it uniformly
+across all users. <strong>Evidence status:</strong> Documented Fact
+<strong>Source support:</strong> <a
+href="#appendix-a9-chatgpt-plans-free-go-plus-pro-business-and-enterprise">Appendix
+A9</a> <strong>Corpus companion entry:</strong> Claim C-117
+<strong>Audit Claim ID:</strong>
+<code>chatgpt-pricing-2026-06-ai-double-use-reasoning-deepseek-claim-01</code></p>
+<h3
+id="appendix-b8-current-official-consumer-access-to-reasoning-capable-models-is-stratified-by-pla">Appendix
+B8. Current official consumer access to reasoning-capable models is
+stratified by pla…</h3>
+<p><strong>Claim statement:</strong> That current official consumer
+access to reasoning-capable models is stratified by plan, usage
+envelope, and feature set. <strong>Evidence status:</strong> Documented
+Fact <strong>Source support:</strong> <a
+href="#appendix-a9-chatgpt-plans-free-go-plus-pro-business-and-enterprise">Appendix
+A9</a> <strong>Corpus companion entry:</strong> Claim C-118
+<strong>Audit Claim ID:</strong>
+<code>chatgpt-pricing-2026-06-ai-double-use-reasoning-deepseek-claim-02</code></p>
+<h3
+id="appendix-b9-chapter-06-can-ground-its-reasoning-premium-argument-in-a-primary-access-policy-s">Appendix
+B9. Chapter 06 can ground its reasoning-premium argument in a primary
+access-policy s…</h3>
+<p><strong>Claim statement:</strong> That Chapter 06 can ground its
+reasoning-premium argument in a primary access-policy source rather than
+relying only on commentary about hype or control. <strong>Evidence
+status:</strong> Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a9-chatgpt-plans-free-go-plus-pro-business-and-enterprise">Appendix
+A9</a> <strong>Corpus companion entry:</strong> Claim C-119
+<strong>Audit Claim ID:</strong>
+<code>chatgpt-pricing-2026-06-ai-double-use-reasoning-deepseek-claim-03</code></p>
+<h3
+id="appendix-b10-by-january-2025-a-non-u-s-lab-was-publicly-claiming-frontier-adjacent-reasoning">Appendix
+B10. By January 2025 a non-U.S. lab was publicly claiming
+frontier-adjacent reasoning…</h3>
+<p><strong>Claim statement:</strong> That by January 2025 a non-U.S. lab
+was publicly claiming frontier-adjacent reasoning performance in a
+primary technical paper. <strong>Evidence status:</strong> Documented
+Fact <strong>Source support:</strong> <a
+href="#appendix-a14-deepseek-r1-incentivizing-reasoning-capability-in-llms-via-reinforcement-learning">Appendix
+A14</a> <strong>Corpus companion entry:</strong> Claim C-146
+<strong>Audit Claim ID:</strong>
+<code>deepseek-r1-reinforcement-learning-2025-06-ai-double-use-reasoning-deepseek-claim-01</code></p>
+<h3
+id="appendix-b11-reasoning-capability-was-not-confined-entirely-to-closed-u-s-product-stacks-and">Appendix
+B11. Reasoning capability was not confined entirely to closed U.S.
+product stacks and…</h3>
+<p><strong>Claim statement:</strong> That reasoning capability was not
+confined entirely to closed U.S. product stacks and was partly diffusing
+through open publication and model release. <strong>Evidence
+status:</strong> Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a14-deepseek-r1-incentivizing-reasoning-capability-in-llms-via-reinforcement-learning">Appendix
+A14</a> <strong>Corpus companion entry:</strong> Claim C-147
+<strong>Audit Claim ID:</strong>
+<code>deepseek-r1-reinforcement-learning-2025-06-ai-double-use-reasoning-deepseek-claim-02</code></p>
+<h3
+id="appendix-b12-chapters-06-and-07-can-contrast-frontier-access-politics-with-a-documented-patter">Appendix
+B12. Chapters 06 and 07 can contrast frontier-access politics with a
+documented patter…</h3>
+<p><strong>Claim statement:</strong> That Chapters 06 and 07 can
+contrast frontier-access politics with a documented pattern of partial
+technical diffusion. <strong>Evidence status:</strong> Documented Fact
+<strong>Source support:</strong> <a
+href="#appendix-a14-deepseek-r1-incentivizing-reasoning-capability-in-llms-via-reinforcement-learning">Appendix
+A14</a> <strong>Corpus companion entry:</strong> Claim C-148
+<strong>Audit Claim ID:</strong>
+<code>deepseek-r1-reinforcement-learning-2025-06-ai-double-use-reasoning-deepseek-claim-03</code></p>
+<h3
+id="appendix-b13-by-late-2024-there-was-already-a-competitor-publicly-claiming-frontier-adjacent-p">Appendix
+B13. By late 2024 there was already a competitor publicly claiming
+frontier-adjacent p…</h3>
+<p><strong>Claim statement:</strong> That by late 2024 there was already
+a competitor publicly claiming frontier-adjacent performance through a
+technical report. <strong>Evidence status:</strong> Documented Fact
+<strong>Source support:</strong> <a
+href="#appendix-a13-deepseek-v3-technical-report">Appendix A13</a>
+<strong>Corpus companion entry:</strong> Claim C-149 <strong>Audit Claim
+ID:</strong> <code>deepseek-v3-technical-report-2024-claim-01</code></p>
+<h3
+id="appendix-b14-the-debate-over-reasoning-efficiency-and-cost-cannot-be-reduced-to-the-marketin">Appendix
+B14. The debate over reasoning, efficiency, and cost cannot be reduced
+to the marketin…</h3>
+<p><strong>Claim statement:</strong> That the debate over reasoning,
+efficiency, and cost cannot be reduced to the marketing of a single
+Western actor. <strong>Evidence status:</strong> Documented Fact
+<strong>Source support:</strong> <a
+href="#appendix-a13-deepseek-v3-technical-report">Appendix A13</a>
+<strong>Corpus companion entry:</strong> Claim C-150 <strong>Audit Claim
+ID:</strong> <code>deepseek-v3-technical-report-2024-claim-02</code></p>
+<h3
+id="appendix-b15-narratives-of-absolute-scarcity-around-advanced-capabilities-must-be-contrasted-w">Appendix
+B15. Narratives of absolute scarcity around advanced capabilities must
+be contrasted w…</h3>
+<p><strong>Claim statement:</strong> That narratives of absolute
+scarcity around advanced capabilities must be contrasted with open
+technical reports and partial replicability. <strong>Evidence
+status:</strong> Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a13-deepseek-v3-technical-report">Appendix A13</a>
+<strong>Corpus companion entry:</strong> Claim C-151 <strong>Audit Claim
+ID:</strong> <code>deepseek-v3-technical-report-2024-claim-03</code></p>
+<h3
+id="appendix-b16-serious-t2-reporting-documented-openai-publicly-acknowledging-higher-misuse-risk">Appendix
+B16. Serious T2 reporting documented OpenAI publicly acknowledging
+higher misuse risk…</h3>
+<p><strong>Claim statement:</strong> That serious <code>T2</code>
+reporting documented OpenAI publicly acknowledging higher misuse risk at
+the same moment it was releasing stronger reasoning models.
+<strong>Evidence status:</strong> Documented Fact <strong>Source
+support:</strong> <a
+href="#appendix-a3-openai-acknowledges-new-models-increase-risk-of-misuse-to-create-bioweapons">Appendix
+A3</a> <strong>Corpus companion entry:</strong> Claim C-187
+<strong>Audit Claim ID:</strong>
+<code>ft-openai-o1-bioweapon-risk-2024-06-ai-double-use-reasoning-deepseek-claim-01</code></p>
+<h3
+id="appendix-b17-chapter-06-can-ground-the-dual-use-argument-in-contemporaneous-mainstream-reporti">Appendix
+B17. Chapter 06 can ground the dual-use argument in contemporaneous
+mainstream reporti…</h3>
+<p><strong>Claim statement:</strong> That Chapter 06 can ground the
+dual-use argument in contemporaneous mainstream reporting, not only in
+retrospective critique. <strong>Evidence status:</strong> Documented
+Fact <strong>Source support:</strong> <a
+href="#appendix-a3-openai-acknowledges-new-models-increase-risk-of-misuse-to-create-bioweapons">Appendix
+A3</a> <strong>Corpus companion entry:</strong> Claim C-188
+<strong>Audit Claim ID:</strong>
+<code>ft-openai-o1-bioweapon-risk-2024-06-ai-double-use-reasoning-deepseek-claim-02</code></p>
+<h3
+id="appendix-b18-danger-rhetoric-around-reasoning-models-accompanied-commercialization-rather-than">Appendix
+B18. Danger rhetoric around reasoning models accompanied
+commercialization rather than…</h3>
+<p><strong>Claim statement:</strong> That danger rhetoric around
+reasoning models accompanied commercialization rather than halting
+deployment altogether. <strong>Evidence status:</strong> Documented Fact
+<strong>Source support:</strong> <a
+href="#appendix-a3-openai-acknowledges-new-models-increase-risk-of-misuse-to-create-bioweapons">Appendix
+A3</a> <strong>Corpus companion entry:</strong> Claim C-189
+<strong>Audit Claim ID:</strong>
+<code>ft-openai-o1-bioweapon-risk-2024-06-ai-double-use-reasoning-deepseek-claim-03</code></p>
+<h3
+id="appendix-b19-there-is-direct-technical-pushback-against-simplistic-claims-that-frontier-reason">Appendix
+B19. There is direct technical pushback against simplistic claims that
+frontier reason…</h3>
+<p><strong>Claim statement:</strong> That there is direct technical
+pushback against simplistic claims that frontier reasoning was trivially
+replicated. <strong>Evidence status:</strong> Documented Fact
+<strong>Source support:</strong> <a
+href="#appendix-a8-it-s-not-that-simple-an-analysis-of-simple-test-time-scaling">Appendix
+A8</a> <strong>Corpus companion entry:</strong> Claim C-243
+<strong>Audit Claim ID:</strong>
+<code>its-not-that-simple-test-time-scaling-2025-06-ai-double-use-reasoning-deepseek-claim-01</code></p>
+<h3
+id="appendix-b20-the-paper-argued-simple-test-time-scaling-often-reflects-scaling-down-through-len">Appendix
+B20. The paper argued simple test-time scaling often reflects scaling
+down through len…</h3>
+<p><strong>Claim statement:</strong> That the paper argued simple
+test-time scaling often reflects scaling down through length constraints
+rather than true scaling up. <strong>Evidence status:</strong>
+Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a8-it-s-not-that-simple-an-analysis-of-simple-test-time-scaling">Appendix
+A8</a> <strong>Corpus companion entry:</strong> Claim C-244
+<strong>Audit Claim ID:</strong>
+<code>its-not-that-simple-test-time-scaling-2025-06-ai-double-use-reasoning-deepseek-claim-02</code></p>
+<h3
+id="appendix-b21-the-paper-argued-o1-like-and-deepseek-r1-like-systems-differ-from-simple-replicat">Appendix
+B21. The paper argued o1-like and DeepSeek-R1-like systems differ from
+simple replicat…</h3>
+<p><strong>Claim statement:</strong> That the paper argued o1-like and
+DeepSeek-R1-like systems differ from simple replications because they
+learn to scale up test-time compute through reinforcement learning.
+<strong>Evidence status:</strong> Documented Fact <strong>Source
+support:</strong> <a
+href="#appendix-a8-it-s-not-that-simple-an-analysis-of-simple-test-time-scaling">Appendix
+A8</a> <strong>Corpus companion entry:</strong> Claim C-245
+<strong>Audit Claim ID:</strong>
+<code>its-not-that-simple-test-time-scaling-2025-06-ai-double-use-reasoning-deepseek-claim-03</code></p>
+<h3
+id="appendix-b22-as-of-july-3-2026-openai-s-official-api-pricing-imposed-a-large-price-premium-o">Appendix
+B22. As of July 3, 2026, OpenAI’s official API pricing imposed a large
+price premium o…</h3>
+<p><strong>Claim statement:</strong> That as of July 3, 2026, OpenAI’s
+official API pricing imposed a large price premium on
+<code>GPT-5.5 Pro</code> relative to <code>GPT-5.5</code>.
+<strong>Evidence status:</strong> Documented Fact <strong>Source
+support:</strong> <a href="#appendix-a10-pricing-openai-api">Appendix
+A10</a> <strong>Corpus companion entry:</strong> Claim C-292
+<strong>Audit Claim ID:</strong>
+<code>openai-api-pricing-2026-06-ai-double-use-reasoning-deepseek-claim-01</code></p>
+<h3
+id="appendix-b23-openai-s-current-api-record-treats-top-tier-reasoning-capable-access-as-materiall">Appendix
+B23. OpenAI’s current API record treats top-tier reasoning-capable
+access as materiall…</h3>
+<p><strong>Claim statement:</strong> That OpenAI’s current API record
+treats top-tier reasoning-capable access as materially higher-cost
+infrastructure rather than as a negligible increment over ordinary
+flagship use. <strong>Evidence status:</strong> Documented Fact
+<strong>Source support:</strong> <a
+href="#appendix-a10-pricing-openai-api">Appendix A10</a> <strong>Corpus
+companion entry:</strong> Claim C-293 <strong>Audit Claim ID:</strong>
+<code>openai-api-pricing-2026-06-ai-double-use-reasoning-deepseek-claim-02</code></p>
+<h3
+id="appendix-b24-chapter-06-can-document-reasoning-premium-monetization-through-a-primary-pricing">Appendix
+B24. Chapter 06 can document reasoning-premium monetization through a
+primary pricing…</h3>
+<p><strong>Claim statement:</strong> That Chapter 06 can document
+reasoning-premium monetization through a primary pricing source rather
+than only through media summaries. <strong>Evidence status:</strong>
+Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a10-pricing-openai-api">Appendix A10</a> <strong>Corpus
+companion entry:</strong> Claim C-294 <strong>Audit Claim ID:</strong>
+<code>openai-api-pricing-2026-06-ai-double-use-reasoning-deepseek-claim-03</code></p>
+<h3
+id="appendix-b25-openai-publicly-framed-reasoning-as-a-new-scaling-layer-based-on-additional-train">Appendix
+B25. OpenAI publicly framed reasoning as a new scaling layer based on
+additional train…</h3>
+<p><strong>Claim statement:</strong> That OpenAI publicly framed
+reasoning as a new scaling layer based on additional train-time and
+test-time compute. <strong>Evidence status:</strong> Documented Fact
+<strong>Source support:</strong> <a
+href="#appendix-a1-learning-to-reason-with-llms">Appendix A1</a>
+<strong>Corpus companion entry:</strong> Claim C-310 <strong>Audit Claim
+ID:</strong>
+<code>openai-learning-to-reason-with-llms-2024-06-ai-double-use-reasoning-deepseek-claim-01</code></p>
+<h3
+id="appendix-b26-the-company-explicitly-marketed-o1-as-a-major-reasoning-advance-over-gpt-4o-in-ma">Appendix
+B26. The company explicitly marketed o1 as a major reasoning advance
+over GPT-4o in ma…</h3>
+<p><strong>Claim statement:</strong> That the company explicitly
+marketed <code>o1</code> as a major reasoning advance over GPT-4o in
+math, coding, and science-heavy evaluations. <strong>Evidence
+status:</strong> Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a1-learning-to-reason-with-llms">Appendix A1</a>
+<strong>Corpus companion entry:</strong> Claim C-311 <strong>Audit Claim
+ID:</strong>
+<code>openai-learning-to-reason-with-llms-2024-06-ai-double-use-reasoning-deepseek-claim-02</code></p>
+<h3
+id="appendix-b27-chapter-06-can-document-reasoning-as-a-commercial-and-strategic-product-category">Appendix
+B27. Chapter 06 can document reasoning as a commercial and strategic
+product category,…</h3>
+<p><strong>Claim statement:</strong> That Chapter 06 can document
+reasoning as a commercial and strategic product category, not just a
+later media label. <strong>Evidence status:</strong> Documented Fact
+<strong>Source support:</strong> <a
+href="#appendix-a1-learning-to-reason-with-llms">Appendix A1</a>
+<strong>Corpus companion entry:</strong> Claim C-312 <strong>Audit Claim
+ID:</strong>
+<code>openai-learning-to-reason-with-llms-2024-06-ai-double-use-reasoning-deepseek-claim-03</code></p>
+<h3
+id="appendix-b28-openai-itself-paired-stronger-reasoning-capability-with-formal-safety-preparedne">Appendix
+B28. OpenAI itself paired stronger reasoning capability with formal
+safety, preparedne…</h3>
+<p><strong>Claim statement:</strong> That OpenAI itself paired stronger
+reasoning capability with formal safety, preparedness, and misuse-risk
+framing. <strong>Evidence status:</strong> Documented Fact
+<strong>Source support:</strong> <a
+href="#appendix-a2-openai-o1-system-card">Appendix A2</a> <strong>Corpus
+companion entry:</strong> Claim C-316 <strong>Audit Claim ID:</strong>
+<code>openai-o1-system-card-2024-06-ai-double-use-reasoning-deepseek-claim-01</code></p>
+<h3
+id="appendix-b29-the-company-documented-a-training-data-mix-combining-public-web-scale-material-p">Appendix
+B29. The company documented a training-data mix combining public
+web-scale material, p…</h3>
+<p><strong>Claim statement:</strong> That the company documented a
+training-data mix combining public web-scale material, proprietary
+partnership data, and internal datasets. <strong>Evidence
+status:</strong> Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a2-openai-o1-system-card">Appendix A2</a> <strong>Corpus
+companion entry:</strong> Claim C-317 <strong>Audit Claim ID:</strong>
+<code>openai-o1-system-card-2024-06-ai-double-use-reasoning-deepseek-claim-02</code></p>
+<h3
+id="appendix-b30-chapter-06-can-ground-the-coexistence-of-capability-escalation-and-safety-governa">Appendix
+B30. Chapter 06 can ground the coexistence of capability escalation and
+safety-governa…</h3>
+<p><strong>Claim statement:</strong> That Chapter 06 can ground the
+coexistence of capability escalation and safety-governance packaging in
+a primary source. <strong>Evidence status:</strong> Documented Fact
+<strong>Source support:</strong> <a
+href="#appendix-a2-openai-o1-system-card">Appendix A2</a> <strong>Corpus
+companion entry:</strong> Claim C-318 <strong>Audit Claim ID:</strong>
+<code>openai-o1-system-card-2024-06-ai-double-use-reasoning-deepseek-claim-03</code></p>
+<h3
+id="appendix-b31-by-november-23-2023-there-was-serious-mainstream-reporting-explicitly-linking-th">Appendix
+B31. By November 23, 2023 there was serious mainstream reporting
+explicitly linking th…</h3>
+<p><strong>Claim statement:</strong> That by November 23, 2023 there was
+serious mainstream reporting explicitly linking the board crisis to a
+letter about an AI breakthrough. <strong>Evidence status:</strong>
+Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a4-openai-researchers-warned-board-of-ai-breakthrough-ahead-of-ceo-ouster-sources-say">Appendix
+A4</a> <strong>Corpus companion entry:</strong> Claim C-362
+<strong>Audit Claim ID:</strong>
+<code>reuters-qstar-board-warning-2023-13-openai-governance-qstar-talent-exodus-claim-01</code></p>
+<h3
+id="appendix-b32-chapter-06-can-describe-the-q-thread-as-a-real-reporting-trail-in-the-public-rec">Appendix
+B32. Chapter 06 can describe the Q* thread as a real reporting trail in
+the public rec…</h3>
+<p><strong>Claim statement:</strong> That Chapter 06 can describe the Q*
+thread as a real reporting trail in the public record rather than a
+purely fringe rumor. <strong>Evidence status:</strong> Documented Fact
+<strong>Source support:</strong> <a
+href="#appendix-a4-openai-researchers-warned-board-of-ai-breakthrough-ahead-of-ceo-ouster-sources-say">Appendix
+A4</a> <strong>Corpus companion entry:</strong> Claim C-363
+<strong>Audit Claim ID:</strong>
+<code>reuters-qstar-board-warning-2023-13-openai-governance-qstar-talent-exodus-claim-02</code></p>
+<h3
+id="appendix-b33.-the-dossier-should-treat-q-related-causal-claims-as-reported-and-contested-rathe-appendix-b33-the-dossier-should-treat-q-related-causal-claims-as-reported-and-contested-rathe">Appendix
+B33. The dossier should treat Q*-related causal claims as reported and
+contested rathe…
+{#appendix-b33-the-dossier-should-treat-q-related-causal-claims-as-reported-and-contested-rathe}</h3>
+<p><strong>Claim statement:</strong> That the dossier should treat
+Q*-related causal claims as reported and contested rather than as
+settled fact. <strong>Evidence status:</strong> Documented Fact
+<strong>Source support:</strong> <a
+href="#appendix-a4-openai-researchers-warned-board-of-ai-breakthrough-ahead-of-ceo-ouster-sources-say">Appendix
+A4</a> <strong>Corpus companion entry:</strong> Claim C-364
+<strong>Audit Claim ID:</strong>
+<code>reuters-qstar-board-warning-2023-13-openai-governance-qstar-talent-exodus-claim-03</code></p>
+<h3
+id="appendix-b34-by-mid-july-2024-reuters-had-published-serious-reporting-about-an-openai-reasonin">Appendix
+B34. By mid-July 2024 Reuters had published serious reporting about an
+OpenAI reasonin…</h3>
+<p><strong>Claim statement:</strong> That by mid-July 2024 Reuters had
+published serious reporting about an OpenAI reasoning project under the
+codename <code>Strawberry</code>. <strong>Evidence status:</strong>
+Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a5-exclusive-openai-working-on-new-reasoning-technology-under-code-name-strawberry">Appendix
+A5</a> <strong>Corpus companion entry:</strong> Claim C-365
+<strong>Audit Claim ID:</strong>
+<code>reuters-strawberry-reasoning-2024-13-openai-governance-qstar-talent-exodus-claim-01</code></p>
+<h3
+id="appendix-b35-the-dossier-can-document-a-pre-release-public-reporting-trail-for-reasoning-model">Appendix
+B35. The dossier can document a pre-release public reporting trail for
+reasoning-model…</h3>
+<p><strong>Claim statement:</strong> That the dossier can document a
+pre-release public reporting trail for reasoning-model development
+before <code>o1</code> entered the market. <strong>Evidence
+status:</strong> Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a5-exclusive-openai-working-on-new-reasoning-technology-under-code-name-strawberry">Appendix
+A5</a> <strong>Corpus companion entry:</strong> Claim C-366
+<strong>Audit Claim ID:</strong>
+<code>reuters-strawberry-reasoning-2024-13-openai-governance-qstar-talent-exodus-claim-02</code></p>
+<h3
+id="appendix-b36-chapter-06-can-connect-later-reasoning-model-branding-to-an-earlier-serious-repo">Appendix
+B36. Chapter 06 can connect later reasoning-model branding to an
+earlier, serious repo…</h3>
+<p><strong>Claim statement:</strong> That Chapter 06 can connect later
+reasoning-model branding to an earlier, serious reporting record without
+overstating certainty about every internal detail. <strong>Evidence
+status:</strong> Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a5-exclusive-openai-working-on-new-reasoning-technology-under-code-name-strawberry">Appendix
+A5</a> <strong>Corpus companion entry:</strong> Claim C-367
+<strong>Audit Claim ID:</strong>
+<code>reuters-strawberry-reasoning-2024-13-openai-governance-qstar-talent-exodus-claim-03</code></p>
+<h3
+id="appendix-b37-openai-s-reasoning-launch-quickly-triggered-open-replication-efforts-focused-on-t">Appendix
+B37. OpenAI’s reasoning launch quickly triggered open replication
+efforts focused on t…</h3>
+<p><strong>Claim statement:</strong> That OpenAI’s reasoning launch
+quickly triggered open replication efforts focused on test-time scaling.
+<strong>Evidence status:</strong> Documented Fact <strong>Source
+support:</strong> <a
+href="#appendix-a7-s1-simple-test-time-scaling">Appendix A7</a>
+<strong>Corpus companion entry:</strong> Claim C-368 <strong>Audit Claim
+ID:</strong>
+<code>s1-simple-test-time-scaling-2025-06-ai-double-use-reasoning-deepseek-claim-01</code></p>
+<h3
+id="appendix-b38-the-paper-proposed-budget-forcing-as-a-simple-way-to-control-test-time-compute-by">Appendix
+B38. The paper proposed budget forcing as a simple way to control
+test-time compute by…</h3>
+<p><strong>Claim statement:</strong> That the paper proposed budget
+forcing as a simple way to control test-time compute by truncating or
+extending model thinking. <strong>Evidence status:</strong> Documented
+Fact <strong>Source support:</strong> <a
+href="#appendix-a7-s1-simple-test-time-scaling">Appendix A7</a>
+<strong>Corpus companion entry:</strong> Claim C-369 <strong>Audit Claim
+ID:</strong>
+<code>s1-simple-test-time-scaling-2025-06-ai-double-use-reasoning-deepseek-claim-02</code></p>
+<h3
+id="appendix-b39-the-paper-reported-benchmark-gains-substantial-enough-to-challenge-simplistic-fro">Appendix
+B39. The paper reported benchmark gains substantial enough to challenge
+simplistic fro…</h3>
+<p><strong>Claim statement:</strong> That the paper reported benchmark
+gains substantial enough to challenge simplistic frontier-exclusivity
+narratives. <strong>Evidence status:</strong> Documented Fact
+<strong>Source support:</strong> <a
+href="#appendix-a7-s1-simple-test-time-scaling">Appendix A7</a>
+<strong>Corpus companion entry:</strong> Claim C-370 <strong>Audit Claim
+ID:</strong>
+<code>s1-simple-test-time-scaling-2025-06-ai-double-use-reasoning-deepseek-claim-03</code></p>
+<h3
+id="appendix-b40-test-time-compute-scaling-is-a-documented-technical-mechanism-rather-than-only-a">Appendix
+B40. Test-time compute scaling is a documented technical mechanism
+rather than only a…</h3>
+<p><strong>Claim statement:</strong> That test-time compute scaling is a
+documented technical mechanism rather than only a commercial branding
+story. <strong>Evidence status:</strong> Documented Fact <strong>Source
+support:</strong> <a
+href="#appendix-a6-scaling-llm-test-time-compute-optimally-can-be-more-effective-than-scaling-model-parameters">Appendix
+A6</a> <strong>Corpus companion entry:</strong> Claim C-376
+<strong>Audit Claim ID:</strong>
+<code>snell-test-time-compute-2024-06-ai-double-use-reasoning-deepseek-claim-01</code></p>
+<h3
+id="appendix-b41-the-paper-reported-a-compute-optimal-strategy-improving-test-time-compute-efficie">Appendix
+B41. The paper reported a compute-optimal strategy improving test-time
+compute efficie…</h3>
+<p><strong>Claim statement:</strong> That the paper reported a
+compute-optimal strategy improving test-time compute efficiency by more
+than 4x over a best-of-N baseline. <strong>Evidence status:</strong>
+Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a6-scaling-llm-test-time-compute-optimally-can-be-more-effective-than-scaling-model-parameters">Appendix
+A6</a> <strong>Corpus companion entry:</strong> Claim C-377
+<strong>Audit Claim ID:</strong>
+<code>snell-test-time-compute-2024-06-ai-double-use-reasoning-deepseek-claim-02</code></p>
+<h3
+id="appendix-b42-under-a-flops-matched-evaluation-the-paper-found-cases-where-a-smaller-model-usin">Appendix
+B42. Under a FLOPs-matched evaluation the paper found cases where a
+smaller model usin…</h3>
+<p><strong>Claim statement:</strong> That under a FLOPs-matched
+evaluation the paper found cases where a smaller model using test-time
+compute outperformed a model 14x larger. <strong>Evidence
+status:</strong> Documented Fact <strong>Source support:</strong> <a
+href="#appendix-a6-scaling-llm-test-time-compute-optimally-can-be-more-effective-than-scaling-model-parameters">Appendix
+A6</a> <strong>Corpus companion entry:</strong> Claim C-378
+<strong>Audit Claim ID:</strong>
+<code>snell-test-time-compute-2024-06-ai-double-use-reasoning-deepseek-claim-03</code></p>
+<h3
+id="appendix-b43-whether-simple-budget-forcing-style-replications-capture-the-same-scaling-mechani">Appendix
+B43. Whether simple budget-forcing style replications capture the same
+scaling mechani…</h3>
+<p><strong>Claim statement:</strong> That whether simple budget-forcing
+style replications capture the same scaling mechanism as o1-like or
+R1-like reasoning remains contested. <strong>Evidence status:</strong>
+Disputed Fact <strong>Source support:</strong> <a
+href="#appendix-a7-s1-simple-test-time-scaling">Appendix A7</a>, <a
+href="#appendix-a8-it-s-not-that-simple-an-analysis-of-simple-test-time-scaling">Appendix
+A8</a> <strong>Corpus companion entry:</strong> Claim C-434
+<strong>Audit Claim ID:</strong>
+<code>vector06-simple-replication-contested-claim-01</code></p>
+<h3
+id="appendix-b44-the-public-record-does-not-settle-whether-q-or-any-specific-capability-breakthro">Appendix
+B44. The public record does not settle whether Q* or any specific
+capability breakthro…</h3>
+<p><strong>Claim statement:</strong> That the public record does not
+settle whether Q* or any specific capability breakthrough directly
+triggered the November 2023 OpenAI board rupture. <strong>Evidence
+status:</strong> Disputed Fact <strong>Source support:</strong> <a
+href="#appendix-a4-openai-researchers-warned-board-of-ai-breakthrough-ahead-of-ceo-ouster-sources-say">Appendix
+A4</a> <strong>Corpus companion entry:</strong> Claim C-465
+<strong>Audit Claim ID:</strong>
+<code>vector13-qstar-causality-contested-claim-01</code></p>
+<h3
+id="appendix-b45-frontier-labs-are-turning-reasoning-into-a-premium-political-economic-category-by">Appendix
+B45. Frontier labs are turning reasoning into a premium
+political-economic category by…</h3>
+<p><strong>Claim statement:</strong> That frontier labs are turning
+reasoning into a premium political-economic category by coupling genuine
+capability gains to danger rhetoric, controlled release, and tiered
+strategic positioning. <strong>Evidence status:</strong> Hypothesis /
+Interpretation <strong>Source support:</strong> <a
+href="#appendix-a2-openai-o1-system-card">Appendix A2</a>, <a
+href="#appendix-a3-openai-acknowledges-new-models-increase-risk-of-misuse-to-create-bioweapons">Appendix
+A3</a> <strong>Corpus companion entry:</strong> Claim C-433
+<strong>Audit Claim ID:</strong>
+<code>vector06-reasoning-premium-control-claim-01</code></p>
+<h3
+id="appendix-b46-current-official-pricing-and-launch-records-from-openai-and-anthropic-show-reason">Appendix
+B46. Current official pricing and launch records from OpenAI and
+Anthropic show reason…</h3>
+<p><strong>Claim statement:</strong> That current official pricing and
+launch records from OpenAI and Anthropic show reasoning capability being
+commercialized through tiered plans, priority access, and premium API
+pricing rather than released as an equal-access utility.
+<strong>Evidence status:</strong> Hypothesis / Interpretation
+<strong>Source support:</strong> <a
+href="#appendix-a9-chatgpt-plans-free-go-plus-pro-business-and-enterprise">Appendix
+A9</a>, <a href="#appendix-a10-pricing-openai-api">Appendix A10</a>, <a
+href="#appendix-a11-plans-pricing-claude-by-anthropic">Appendix A11</a>,
+<a href="#appendix-a12-introducing-claude-4">Appendix A12</a>
+<strong>Corpus companion entry:</strong> Claim C-435 <strong>Audit Claim
+ID:</strong>
+<code>vector06-tiered-reasoning-access-synthesis-claim-01</code></p>
+<h3
+id="appendix-b47-chapter-06-is-strongest-when-it-argues-that-reasoning-tiers-package-a-real-comput">Appendix
+B47. Chapter 06 is strongest when it argues that reasoning tiers package
+a real comput…</h3>
+<p><strong>Claim statement:</strong> That Chapter 06 is strongest when
+it argues that reasoning tiers package a real compute-intensive
+technical mechanism inside a commercial and political access regime
+rather than treating the whole phenomenon as fake. <strong>Evidence
+status:</strong> Hypothesis / Interpretation <strong>Source
+support:</strong> <a
+href="#appendix-a6-scaling-llm-test-time-compute-optimally-can-be-more-effective-than-scaling-model-parameters">Appendix
+A6</a>, <a href="#appendix-a2-openai-o1-system-card">Appendix A2</a>, <a
+href="#appendix-a9-chatgpt-plans-free-go-plus-pro-business-and-enterprise">Appendix
+A9</a>, <a href="#appendix-a10-pricing-openai-api">Appendix A10</a>
+<strong>Corpus companion entry:</strong> Claim C-436 <strong>Audit Claim
+ID:</strong> <code>vector06-ttc-real-but-packaged-claim-01</code></p>
+<h3
+id="appendix-b48-openai-s-governance-rupture-safety-rhetoric-leadership-churn-and-reasoning-mod">Appendix
+B48. OpenAI’s governance rupture, safety rhetoric, leadership churn, and
+reasoning-mod…</h3>
+<p><strong>Claim statement:</strong> That OpenAI’s governance rupture,
+safety rhetoric, leadership churn, and reasoning-model rollout are best
+read as parts of one reorganization of authority rather than as isolated
+episodes. <strong>Evidence status:</strong> Hypothesis / Interpretation
+<strong>Source support:</strong> <a
+href="#appendix-a5-exclusive-openai-working-on-new-reasoning-technology-under-code-name-strawberry">Appendix
+A5</a> <strong>Corpus companion entry:</strong> Claim C-464
+<strong>Audit Claim ID:</strong>
+<code>vector13-governance-productization-synthesis-claim-01</code></p>
+<h3
+id="appendix-b49-open-reasoning-papers-or-public-model-releases-eliminate-the-politics-of-compute">Appendix
+B49. Open reasoning papers or public model releases eliminate the
+politics of compute…</h3>
+<p><strong>Claim statement:</strong> That open reasoning papers or
+public model releases eliminate the politics of compute concentration,
+distribution control, or institutional gatekeeping around frontier AI.
+<strong>Evidence status:</strong> Speculative Narrative Risk
+<strong>Source support:</strong> <a
+href="#appendix-a13-deepseek-v3-technical-report">Appendix A13</a>, <a
+href="#appendix-a14-deepseek-r1-incentivizing-reasoning-capability-in-llms-via-reinforcement-learning">Appendix
+A14</a> <strong>Corpus companion entry:</strong> Claim C-432
+<strong>Audit Claim ID:</strong>
+<code>vector06-open-publication-solves-control-overclaim-claim-01</code></p>
+<h3
+id="appendix-b50-one-secret-breakthrough-letter-or-hidden-internal-discovery-fully-explains-the">Appendix
+B50. One secret breakthrough, letter, or hidden internal discovery fully
+explains the…</h3>
+<p><strong>Claim statement:</strong> That one secret breakthrough,
+letter, or hidden internal discovery fully explains the OpenAI
+governance crisis, later product strategy, and subsequent talent exodus
+by itself. <strong>Evidence status:</strong> Speculative Narrative Risk
+<strong>Source support:</strong> <a
+href="#appendix-a4-openai-researchers-warned-board-of-ai-breakthrough-ahead-of-ceo-ouster-sources-say">Appendix
+A4</a>, <a
+href="#appendix-a5-exclusive-openai-working-on-new-reasoning-technology-under-code-name-strawberry">Appendix
+A5</a> <strong>Corpus companion entry:</strong> Claim C-466
+<strong>Audit Claim ID:</strong>
+<code>vector13-secret-trigger-overclaim-claim-01</code></p>
+<h2 id="appendix-c.-timeline-slice">Appendix C. Timeline Slice</h2>
+<h3
+id="appendix-c1.-2023-11-23-reuters-publishes-a-q-linked-reporting-trail-tied-to-the-openai-board-crisis-appendix-c1-2023-11-23-reuters-publishes-a-q-linked-reporting-trail-tied-to-the-openai-board-crisis">Appendix
+C1. 2023-11-23: Reuters publishes a Q*-linked reporting trail tied to
+the OpenAI board crisis
+{#appendix-c1-2023-11-23-reuters-publishes-a-q-linked-reporting-trail-tied-to-the-openai-board-crisis}</h3>
+<p><strong>Event summary:</strong> Reuters publishes a Q*-linked
+reporting trail tied to the OpenAI board crisis <strong>Event
+date:</strong> 2023-11-23 <strong>Source support:</strong> <a
+href="#appendix-a4-openai-researchers-warned-board-of-ai-breakthrough-ahead-of-ceo-ouster-sources-say">Appendix
+A4</a> <strong>Corpus companion entry:</strong> Event T-033
+<strong>Audit Event ID:</strong>
+<code>event-reuters-qstar-report-2023-11-23</code></p>
+<h3
+id="appendix-c2-2024-07-15-reuters-reports-on-openai-s-strawberry-reasoning-project-before-o1-release">Appendix
+C2. 2024-07-15: Reuters reports on OpenAI’s Strawberry reasoning project
+before o1 release</h3>
+<p><strong>Event summary:</strong> Reuters reports on OpenAI’s
+Strawberry reasoning project before o1 release <strong>Event
+date:</strong> 2024-07-15 <strong>Source support:</strong> <a
+href="#appendix-a5-exclusive-openai-working-on-new-reasoning-technology-under-code-name-strawberry">Appendix
+A5</a> <strong>Corpus companion entry:</strong> Event T-050
+<strong>Audit Event ID:</strong>
+<code>event-reuters-strawberry-2024-07-15</code></p>
+<h3
+id="appendix-c3-2024-08-06-researchers-publish-a-compute-optimal-test-time-scaling-paper-for-llms">Appendix
+C3. 2024-08-06: Researchers publish a compute-optimal test-time scaling
+paper for LLMs</h3>
+<p><strong>Event summary:</strong> Researchers publish a compute-optimal
+test-time scaling paper for LLMs <strong>Event date:</strong> 2024-08-06
+<strong>Source support:</strong> <a
+href="#appendix-a6-scaling-llm-test-time-compute-optimally-can-be-more-effective-than-scaling-model-parameters">Appendix
+A6</a> <strong>Corpus companion entry:</strong> Event T-053
+<strong>Audit Event ID:</strong>
+<code>event-snell-test-time-compute-2024-08-06</code></p>
+<h3
+id="appendix-c4-2024-09-12-openai-launches-o1-preview-as-a-reasoning-focused-model-line">Appendix
+C4. 2024-09-12: OpenAI launches o1-preview as a reasoning-focused model
+line</h3>
+<p><strong>Event summary:</strong> OpenAI launches o1-preview as a
+reasoning-focused model line <strong>Event date:</strong> 2024-09-12
+<strong>Source support:</strong> <a
+href="#appendix-a1-learning-to-reason-with-llms">Appendix A1</a>
+<strong>Corpus companion entry:</strong> Event T-055 <strong>Audit Event
+ID:</strong> <code>event-openai-o1-preview-2024-09-12</code></p>
+<h3
+id="appendix-c5-2024-09-13-financial-times-reports-openai-acknowledging-higher-bioweapon-misuse-risk-for-o1">Appendix
+C5. 2024-09-13: Financial Times reports OpenAI acknowledging higher
+bioweapon misuse risk for o1</h3>
+<p><strong>Event summary:</strong> Financial Times reports OpenAI
+acknowledging higher bioweapon misuse risk for o1 <strong>Event
+date:</strong> 2024-09-13 <strong>Source support:</strong> <a
+href="#appendix-a3-openai-acknowledges-new-models-increase-risk-of-misuse-to-create-bioweapons">Appendix
+A3</a> <strong>Corpus companion entry:</strong> Event T-056
+<strong>Audit Event ID:</strong>
+<code>event-ft-openai-bioweapon-risk-2024-09-13</code></p>
+<h3
+id="appendix-c6-2024-12-05-openai-updates-the-o1-system-card-with-preparedness-and-training-data-details">Appendix
+C6. 2024-12-05: OpenAI updates the o1 system card with preparedness and
+training-data details</h3>
+<p><strong>Event summary:</strong> OpenAI updates the o1 system card
+with preparedness and training-data details <strong>Event date:</strong>
+2024-12-05 <strong>Source support:</strong> <a
+href="#appendix-a2-openai-o1-system-card">Appendix A2</a> <strong>Corpus
+companion entry:</strong> Event T-060 <strong>Audit Event ID:</strong>
+<code>event-openai-o1-system-card-2024-12-05</code></p>
+<h3
+id="appendix-c7-2024-12-27-deepseek-presents-the-deepseek-v3-technical-report-on-arxiv">Appendix
+C7. 2024-12-27: DeepSeek presents the DeepSeek-V3 technical report on
+arXiv</h3>
+<p><strong>Event summary:</strong> DeepSeek presents the DeepSeek-V3
+technical report on arXiv <strong>Event date:</strong> 2024-12-27
+<strong>Source support:</strong> <a
+href="#appendix-a13-deepseek-v3-technical-report">Appendix A13</a>
+<strong>Corpus companion entry:</strong> Event T-063 <strong>Audit Event
+ID:</strong> <code>event-deepseek-v3-2024-12-27</code></p>
+<h3
+id="appendix-c8-2025-01-22-deepseek-publishes-its-r1-reasoning-paper-and-open-release-claims">Appendix
+C8. 2025-01-22: DeepSeek publishes its R1 reasoning paper and open
+release claims</h3>
+<p><strong>Event summary:</strong> DeepSeek publishes its R1 reasoning
+paper and open release claims <strong>Event date:</strong> 2025-01-22
+<strong>Source support:</strong> <a
+href="#appendix-a14-deepseek-r1-incentivizing-reasoning-capability-in-llms-via-reinforcement-learning">Appendix
+A14</a> <strong>Corpus companion entry:</strong> Event T-065
+<strong>Audit Event ID:</strong>
+<code>event-deepseek-r1-2025-01-22</code></p>
+<h3
+id="appendix-c9-2025-01-31-researchers-release-s1-as-an-open-attempt-to-replicate-test-time-scaling">Appendix
+C9. 2025-01-31: Researchers release s1 as an open attempt to replicate
+test-time scaling</h3>
+<p><strong>Event summary:</strong> Researchers release s1 as an open
+attempt to replicate test-time scaling <strong>Event date:</strong>
+2025-01-31 <strong>Source support:</strong> <a
+href="#appendix-a7-s1-simple-test-time-scaling">Appendix A7</a>
+<strong>Corpus companion entry:</strong> Event T-067 <strong>Audit Event
+ID:</strong>
+<code>event-s1-simple-test-time-scaling-2025-01-31</code></p>
+<h3
+id="appendix-c10-2025-05-22-anthropic-launches-claude-4-with-extended-thinking-commercial-availability">Appendix
+C10. 2025-05-22: Anthropic launches Claude 4 with extended-thinking
+commercial availability</h3>
+<p><strong>Event summary:</strong> Anthropic launches Claude 4 with
+extended-thinking commercial availability <strong>Event date:</strong>
+2025-05-22 <strong>Source support:</strong> <a
+href="#appendix-a12-introducing-claude-4">Appendix A12</a>
+<strong>Corpus companion entry:</strong> Event T-076 <strong>Audit Event
+ID:</strong> <code>event-anthropic-claude-4-launch-2025-05-22</code></p>
+<h3
+id="appendix-c11-2025-07-19-a-follow-up-paper-challenges-simplistic-readings-of-simple-test-time-scaling">Appendix
+C11. 2025-07-19: A follow-up paper challenges simplistic readings of
+simple test-time scaling</h3>
+<p><strong>Event summary:</strong> A follow-up paper challenges
+simplistic readings of simple test-time scaling <strong>Event
+date:</strong> 2025-07-19 <strong>Source support:</strong> <a
+href="#appendix-a8-it-s-not-that-simple-an-analysis-of-simple-test-time-scaling">Appendix
+A8</a> <strong>Corpus companion entry:</strong> Event T-082
+<strong>Audit Event ID:</strong>
+<code>event-its-not-that-simple-test-time-scaling-2025-07-19</code></p>
+<h2 id="appendix-d.-relevant-entities">Appendix D. Relevant
+Entities</h2>
+<h3 id="appendix-d1-anthropic">Appendix D1. Anthropic</h3>
+<p><strong>Entity type:</strong> company <strong>Role in this
+paper:</strong> Actor relevant to 04_data_to_models_copyright_weights,
+06_ai_double_use_reasoning_deepseek,
+07_export_controls_compute_defense_access,
+08_power_networks_legitimacy_capture and others. <strong>Relevant
+sources in this paper:</strong> <a
+href="#appendix-a11-plans-pricing-claude-by-anthropic">Appendix A11</a>,
+<a href="#appendix-a12-introducing-claude-4">Appendix A12</a>
+<strong>Corpus companion entry:</strong> Entity E-008 <strong>Audit
+Entity ID:</strong> <code>org-anthropic</code></p>
+<h3 id="appendix-d2-deepseek">Appendix D2. DeepSeek</h3>
+<p><strong>Entity type:</strong> company <strong>Role in this
+paper:</strong> Actor relevant to 06_ai_double_use_reasoning_deepseek,
+07_export_controls_compute_defense_access. <strong>Relevant sources in
+this paper:</strong> <a
+href="#appendix-a13-deepseek-v3-technical-report">Appendix A13</a>, <a
+href="#appendix-a14-deepseek-r1-incentivizing-reasoning-capability-in-llms-via-reinforcement-learning">Appendix
+A14</a> <strong>Corpus companion entry:</strong> Entity E-013
+<strong>Audit Entity ID:</strong> <code>org-deepseek</code></p>
+<h3 id="appendix-d3-openai">Appendix D3. OpenAI</h3>
+<p><strong>Entity type:</strong> company <strong>Role in this
+paper:</strong> Actor relevant to 04_data_to_models_copyright_weights,
+06_ai_double_use_reasoning_deepseek,
+07_export_controls_compute_defense_access,
+08_power_networks_legitimacy_capture and others. <strong>Relevant
+sources in this paper:</strong> <a
+href="#appendix-a1-learning-to-reason-with-llms">Appendix A1</a>, <a
+href="#appendix-a2-openai-o1-system-card">Appendix A2</a>, <a
+href="#appendix-a3-openai-acknowledges-new-models-increase-risk-of-misuse-to-create-bioweapons">Appendix
+A3</a>, <a
+href="#appendix-a4-openai-researchers-warned-board-of-ai-breakthrough-ahead-of-ceo-ouster-sources-say">Appendix
+A4</a>, <a
+href="#appendix-a5-exclusive-openai-working-on-new-reasoning-technology-under-code-name-strawberry">Appendix
+A5</a>, <a
+href="#appendix-a9-chatgpt-plans-free-go-plus-pro-business-and-enterprise">Appendix
+A9</a>, <a href="#appendix-a10-pricing-openai-api">Appendix A10</a>
+<strong>Corpus companion entry:</strong> Entity E-027 <strong>Audit
+Entity ID:</strong> <code>org-openai</code></p>
+<h3 id="appendix-d4-test-time-compute-scaling">Appendix D4. Test-time
+compute scaling</h3>
+<p><strong>Entity type:</strong> technical_mechanism <strong>Role in
+this paper:</strong> Actor relevant to
+06_ai_double_use_reasoning_deepseek. <strong>Relevant sources in this
+paper:</strong> <a
+href="#appendix-a6-scaling-llm-test-time-compute-optimally-can-be-more-effective-than-scaling-model-parameters">Appendix
+A6</a>, <a href="#appendix-a7-s1-simple-test-time-scaling">Appendix
+A7</a>, <a
+href="#appendix-a8-it-s-not-that-simple-an-analysis-of-simple-test-time-scaling">Appendix
+A8</a> <strong>Corpus companion entry:</strong> Entity E-004
+<strong>Audit Entity ID:</strong>
+<code>concept-test-time-compute-scaling</code></p>
+<h2 id="appendix-e.-evidence-boundaries">Appendix E. Evidence
+Boundaries</h2>
+<h3 id="appendix-e1-disputed-matters">Appendix E1. Disputed Matters</h3>
+<ul>
+<li><a
+href="#appendix-b43-whether-simple-budget-forcing-style-replications-capture-the-same-scaling-mechani">Appendix
+B43</a>: That whether simple budget-forcing style replications capture
+the same scaling mechanism as o1-like or R1-like reasoning remains
+contested.</li>
+<li><a
+href="#appendix-b44-the-public-record-does-not-settle-whether-q-or-any-specific-capability-breakthro">Appendix
+B44</a>: That the public record does not settle whether Q* or any
+specific capability breakthrough directly triggered the November 2023
+OpenAI board rupture.</li>
+</ul>
+<h3 id="appendix-e2-interpretive-boundaries">Appendix E2. Interpretive
+Boundaries</h3>
+<ul>
+<li><a
+href="#appendix-b45-frontier-labs-are-turning-reasoning-into-a-premium-political-economic-category-by">Appendix
+B45</a>: That frontier labs are turning reasoning into a premium
+political-economic category by coupling genuine capability gains to
+danger rhetoric, controlled release, and tiered strategic
+positioning.</li>
+<li><a
+href="#appendix-b46-current-official-pricing-and-launch-records-from-openai-and-anthropic-show-reason">Appendix
+B46</a>: That current official pricing and launch records from OpenAI
+and Anthropic show reasoning capability being commercialized through
+tiered plans, priority access, and premium API pricing rather than
+released as an equal-access utility.</li>
+<li><a
+href="#appendix-b47-chapter-06-is-strongest-when-it-argues-that-reasoning-tiers-package-a-real-comput">Appendix
+B47</a>: That Chapter 06 is strongest when it argues that reasoning
+tiers package a real compute-intensive technical mechanism inside a
+commercial and political access regime rather than treating the whole
+phenomenon as fake.</li>
+<li><a
+href="#appendix-b48-openai-s-governance-rupture-safety-rhetoric-leadership-churn-and-reasoning-mod">Appendix
+B48</a>: That OpenAI’s governance rupture, safety rhetoric, leadership
+churn, and reasoning-model rollout are best read as parts of one
+reorganization of authority rather than as isolated episodes.</li>
+</ul>
+<h3 id="appendix-e3-speculative-narrative-risks">Appendix E3.
+Speculative Narrative Risks</h3>
+<ul>
+<li><a
+href="#appendix-b49-open-reasoning-papers-or-public-model-releases-eliminate-the-politics-of-compute">Appendix
+B49</a>: That open reasoning papers or public model releases eliminate
+the politics of compute concentration, distribution control, or
+institutional gatekeeping around frontier AI.</li>
+<li><a
+href="#appendix-b50-one-secret-breakthrough-letter-or-hidden-internal-discovery-fully-explains-the">Appendix
+B50</a>: That one secret breakthrough, letter, or hidden internal
+discovery fully explains the OpenAI governance crisis, later product
+strategy, and subsequent talent exodus by itself.</li>
+</ul>
+<h3 id="appendix-e4-sensitive-or-review-worthy-note-flags">Appendix E4.
+Sensitive or Review-Worthy Note Flags</h3>
+<ul>
+<li><a href="#appendix-a12-introducing-claude-4">Appendix A12</a>.
+Companion note: Note N-054. Risk flag: low. Note focus: That on May 22,
+2025 Anthropic launched reasoning-oriented hybrid frontier models
+together with immediate commercial distribution across subscription
+plans, API access, and major cloud platforms.</li>
+<li><a href="#appendix-a11-plans-pricing-claude-by-anthropic">Appendix
+A11</a>. Companion note: Note N-055. Risk flag: low. Note focus: That as
+of July 3, 2026, Anthropic’s official current pricing structure tied
+higher usage, priority access, and stronger feature access to premium
+paid plans.</li>
+<li><a
+href="#appendix-a9-chatgpt-plans-free-go-plus-pro-business-and-enterprise">Appendix
+A9</a>. Companion note: Note N-056. Risk flag: low. Note focus: That as
+of capture on July 3, 2026, OpenAI’s official ChatGPT plan structure
+reserved the highest-end reasoning access for upper paid tiers rather
+than offering it uniformly across all users.</li>
+<li><a
+href="#appendix-a14-deepseek-r1-incentivizing-reasoning-capability-in-llms-via-reinforcement-learning">Appendix
+A14</a>. Companion note: Note N-057. Risk flag: medium. Note focus: That
+by January 2025 a non-U.S. lab was publicly claiming frontier-adjacent
+reasoning performance in a primary technical paper.</li>
+<li><a href="#appendix-a13-deepseek-v3-technical-report">Appendix
+A13</a>. Companion note: Note N-058. Risk flag: medium. Note focus: That
+by late 2024 there was already a competitor publicly claiming
+frontier-adjacent performance through a technical report.</li>
+<li><a
+href="#appendix-a3-openai-acknowledges-new-models-increase-risk-of-misuse-to-create-bioweapons">Appendix
+A3</a>. Companion note: Note N-059. Risk flag: medium. Note focus: That
+serious <code>T2</code> reporting documented OpenAI publicly
+acknowledging higher misuse risk at the same moment it was releasing
+stronger reasoning models.</li>
+<li><a
+href="#appendix-a8-it-s-not-that-simple-an-analysis-of-simple-test-time-scaling">Appendix
+A8</a>. Companion note: Note N-060. Risk flag: low. Note focus: That
+there is direct technical pushback against simplistic claims that
+frontier reasoning was trivially replicated.</li>
+<li><a href="#appendix-a10-pricing-openai-api">Appendix A10</a>.
+Companion note: Note N-061. Risk flag: low. Note focus: That as of July
+3, 2026, OpenAI’s official API pricing imposed a large price premium on
+<code>GPT-5.5 Pro</code> relative to <code>GPT-5.5</code>.</li>
+<li><a href="#appendix-a1-learning-to-reason-with-llms">Appendix A1</a>.
+Companion note: Note N-062. Risk flag: medium. Note focus: That OpenAI
+publicly framed reasoning as a new scaling layer based on additional
+train-time and test-time compute.</li>
+<li><a href="#appendix-a2-openai-o1-system-card">Appendix A2</a>.
+Companion note: Note N-063. Risk flag: medium. Note focus: That OpenAI
+itself paired stronger reasoning capability with formal safety,
+preparedness, and misuse-risk framing.</li>
+<li><a href="#appendix-a7-s1-simple-test-time-scaling">Appendix A7</a>.
+Companion note: Note N-064. Risk flag: medium. Note focus: That OpenAI’s
+reasoning launch quickly triggered open replication efforts focused on
+test-time scaling.</li>
+<li><a
+href="#appendix-a6-scaling-llm-test-time-compute-optimally-can-be-more-effective-than-scaling-model-parameters">Appendix
+A6</a>. Companion note: Note N-065. Risk flag: low. Note focus: That
+test-time compute scaling is a documented technical mechanism rather
+than only a commercial branding story.</li>
+<li><a
+href="#appendix-a4-openai-researchers-warned-board-of-ai-breakthrough-ahead-of-ceo-ouster-sources-say">Appendix
+A4</a>. Companion note: Note N-141. Risk flag: medium. Note focus: That
+by November 23, 2023 there was serious mainstream reporting explicitly
+linking the board crisis to a letter about an AI breakthrough.</li>
+<li><a
+href="#appendix-a5-exclusive-openai-working-on-new-reasoning-technology-under-code-name-strawberry">Appendix
+A5</a>. Companion note: Note N-142. Risk flag: medium. Note focus: That
+by mid-July 2024 Reuters had published serious reporting about an OpenAI
+reasoning project under the codename <code>Strawberry</code>.</li>
+</ul>
+<section id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Sources: OpenAI, <a
+href="https://openai.com/index/learning-to-reason-with-llms/">Learning
+to reason with LLMs</a> (2024-09-12; see <a
+href="#appendix-a1-learning-to-reason-with-llms">Appendix A1</a>);
+OpenAI, <a href="https://openai.com/index/openai-o1-system-card/">OpenAI
+o1 System Card</a> (2024-12-05; see <a
+href="#appendix-a2-openai-o1-system-card">Appendix A2</a>); Financial
+Times, <a
+href="https://www.ft.com/content/37ba7236-2a64-4807-b1e1-7e21ee7d0914">OpenAI
+acknowledges new models increa…</a> (2024-09-13; see <a
+href="#appendix-a3-openai-acknowledges-new-models-increase-risk-of-misuse-to-create-bioweapons">Appendix
+A3</a>)<a href="#fnref1" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Sources: OpenAI, <a
+href="https://openai.com/index/learning-to-reason-with-llms/">Learning
+to reason with LLMs</a> (2024-09-12; see <a
+href="#appendix-a1-learning-to-reason-with-llms">Appendix A1</a>);
+OpenAI, <a href="https://openai.com/index/openai-o1-system-card/">OpenAI
+o1 System Card</a> (2024-12-05; see <a
+href="#appendix-a2-openai-o1-system-card">Appendix A2</a>); Financial
+Times, <a
+href="https://www.ft.com/content/37ba7236-2a64-4807-b1e1-7e21ee7d0914">OpenAI
+acknowledges new models increa…</a> (2024-09-13; see <a
+href="#appendix-a3-openai-acknowledges-new-models-increase-risk-of-misuse-to-create-bioweapons">Appendix
+A3</a>)<a href="#fnref2" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Sources: OpenAI, <a
+href="https://openai.com/index/learning-to-reason-with-llms/">Learning
+to reason with LLMs</a> (2024-09-12; see <a
+href="#appendix-a1-learning-to-reason-with-llms">Appendix A1</a>);
+OpenAI, <a href="https://openai.com/index/openai-o1-system-card/">OpenAI
+o1 System Card</a> (2024-12-05; see <a
+href="#appendix-a2-openai-o1-system-card">Appendix A2</a>); Financial
+Times, <a
+href="https://www.ft.com/content/37ba7236-2a64-4807-b1e1-7e21ee7d0914">OpenAI
+acknowledges new models increa…</a> (2024-09-13; see <a
+href="#appendix-a3-openai-acknowledges-new-models-increase-risk-of-misuse-to-create-bioweapons">Appendix
+A3</a>)<a href="#fnref3" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Sources: Reuters, <a
+href="https://www.reuters.com/technology/sam-altmans-ouster-openai-was-precipitated-by-letter-board-about-ai-breakthrough-2023-11-22/">OpenAI
+researchers warned board of AI…</a> (2023-11-23; see <a
+href="#appendix-a4-openai-researchers-warned-board-of-ai-breakthrough-ahead-of-ceo-ouster-sources-say">Appendix
+A4</a>); Reuters, <a
+href="https://www.reuters.com/technology/artificial-intelligence/openai-working-new-reasoning-technology-under-code-name-strawberry-2024-07-12/">Exclusive:
+OpenAI working on new reas…</a> (2024-07-15; see <a
+href="#appendix-a5-exclusive-openai-working-on-new-reasoning-technology-under-code-name-strawberry">Appendix
+A5</a>)<a href="#fnref4" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Sources: Charlie Snell; Jaehoon Lee; Kelvin Xu; Aviral
+Kumar, <a href="https://arxiv.org/abs/2408.03314">Scaling LLM Test-Time
+Compute Optimal…</a> (2024-08-06; see <a
+href="#appendix-a6-scaling-llm-test-time-compute-optimally-can-be-more-effective-than-scaling-model-parameters">Appendix
+A6</a>); Niklas Muennighoff; Zitong Yang; Weijia Shi; Xiang Lisa Li; Li
+Fei-Fei; Hannaneh Hajishirzi; Luke Zettlemoyer; Percy Liang; Emmanuel
+Candès; Tatsunori Hashimoto, <a
+href="https://arxiv.org/abs/2501.19393">s1: Simple test-time scaling</a>
+(2025-01-31; see <a
+href="#appendix-a7-s1-simple-test-time-scaling">Appendix A7</a>); Guojun
+Wu, <a href="https://arxiv.org/abs/2507.14419">It’s Not That Simple. An
+Analysis of…</a> (2025-07-19; see <a
+href="#appendix-a8-it-s-not-that-simple-an-analysis-of-simple-test-time-scaling">Appendix
+A8</a>)<a href="#fnref5" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>Sources: OpenAI, <a
+href="https://chatgpt.com/pricing/">ChatGPT Plans | Free, Go, Plus,
+Pro,…</a> (n.d.; see <a
+href="#appendix-a9-chatgpt-plans-free-go-plus-pro-business-and-enterprise">Appendix
+A9</a>); OpenAI, <a
+href="https://developers.openai.com/api/docs/pricing">Pricing | OpenAI
+API</a> (n.d.; see <a href="#appendix-a10-pricing-openai-api">Appendix
+A10</a>); Anthropic, <a href="https://claude.com/pricing">Plans &amp;
+Pricing | Claude by Anthropic</a> (n.d.; see <a
+href="#appendix-a11-plans-pricing-claude-by-anthropic">Appendix
+A11</a>); Anthropic, <a
+href="https://www.anthropic.com/news/claude-4">Introducing Claude 4</a>
+(2025-05-22; see <a href="#appendix-a12-introducing-claude-4">Appendix
+A12</a>)<a href="#fnref6" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>Sources: arXiv, <a
+href="https://arxiv.org/abs/2412.19437">DeepSeek-V3 Technical Report</a>
+(2024-12-27; see <a
+href="#appendix-a13-deepseek-v3-technical-report">Appendix A13</a>);
+arXiv, <a href="https://arxiv.org/abs/2501.12948">DeepSeek-R1:
+Incentivizing Reasoning…</a> (2025-01-22; see <a
+href="#appendix-a14-deepseek-r1-incentivizing-reasoning-capability-in-llms-via-reinforcement-learning">Appendix
+A14</a>); Niklas Muennighoff; Zitong Yang; Weijia Shi; Xiang Lisa Li; Li
+Fei-Fei; Hannaneh Hajishirzi; Luke Zettlemoyer; Percy Liang; Emmanuel
+Candès; Tatsunori Hashimoto, <a
+href="https://arxiv.org/abs/2501.19393">s1: Simple test-time scaling</a>
+(2025-01-31; see <a
+href="#appendix-a7-s1-simple-test-time-scaling">Appendix A7</a>)<a
+href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>Sources: OpenAI, <a
+href="https://openai.com/index/openai-o1-system-card/">OpenAI o1 System
+Card</a> (2024-12-05; see <a
+href="#appendix-a2-openai-o1-system-card">Appendix A2</a>); OpenAI, <a
+href="https://chatgpt.com/pricing/">ChatGPT Plans | Free, Go, Plus,
+Pro,…</a> (n.d.; see <a
+href="#appendix-a9-chatgpt-plans-free-go-plus-pro-business-and-enterprise">Appendix
+A9</a>); Anthropic, <a href="https://claude.com/pricing">Plans &amp;
+Pricing | Claude by Anthropic</a> (n.d.; see <a
+href="#appendix-a11-plans-pricing-claude-by-anthropic">Appendix
+A11</a>); Charlie Snell; Jaehoon Lee; Kelvin Xu; Aviral Kumar, <a
+href="https://arxiv.org/abs/2408.03314">Scaling LLM Test-Time Compute
+Optimal…</a> (2024-08-06; see <a
+href="#appendix-a6-scaling-llm-test-time-compute-optimally-can-be-more-effective-than-scaling-model-parameters">Appendix
+A6</a>)<a href="#fnref8" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>Sources: Charlie Snell; Jaehoon Lee; Kelvin Xu; Aviral
+Kumar, <a href="https://arxiv.org/abs/2408.03314">Scaling LLM Test-Time
+Compute Optimal…</a> (2024-08-06; see <a
+href="#appendix-a6-scaling-llm-test-time-compute-optimally-can-be-more-effective-than-scaling-model-parameters">Appendix
+A6</a>); Niklas Muennighoff; Zitong Yang; Weijia Shi; Xiang Lisa Li; Li
+Fei-Fei; Hannaneh Hajishirzi; Luke Zettlemoyer; Percy Liang; Emmanuel
+Candès; Tatsunori Hashimoto, <a
+href="https://arxiv.org/abs/2501.19393">s1: Simple test-time scaling</a>
+(2025-01-31; see <a
+href="#appendix-a7-s1-simple-test-time-scaling">Appendix A7</a>); Guojun
+Wu, <a href="https://arxiv.org/abs/2507.14419">It’s Not That Simple. An
+Analysis of…</a> (2025-07-19; see <a
+href="#appendix-a8-it-s-not-that-simple-an-analysis-of-simple-test-time-scaling">Appendix
+A8</a>)<a href="#fnref9" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p>Sources: Charlie Snell; Jaehoon Lee; Kelvin Xu; Aviral
+Kumar, <a href="https://arxiv.org/abs/2408.03314">Scaling LLM Test-Time
+Compute Optimal…</a> (2024-08-06; see <a
+href="#appendix-a6-scaling-llm-test-time-compute-optimally-can-be-more-effective-than-scaling-model-parameters">Appendix
+A6</a>); Niklas Muennighoff; Zitong Yang; Weijia Shi; Xiang Lisa Li; Li
+Fei-Fei; Hannaneh Hajishirzi; Luke Zettlemoyer; Percy Liang; Emmanuel
+Candès; Tatsunori Hashimoto, <a
+href="https://arxiv.org/abs/2501.19393">s1: Simple test-time scaling</a>
+(2025-01-31; see <a
+href="#appendix-a7-s1-simple-test-time-scaling">Appendix A7</a>); Guojun
+Wu, <a href="https://arxiv.org/abs/2507.14419">It’s Not That Simple. An
+Analysis of…</a> (2025-07-19; see <a
+href="#appendix-a8-it-s-not-that-simple-an-analysis-of-simple-test-time-scaling">Appendix
+A8</a>)<a href="#fnref10" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p>Sources: OpenAI, <a
+href="https://openai.com/index/openai-o1-system-card/">OpenAI o1 System
+Card</a> (2024-12-05; see <a
+href="#appendix-a2-openai-o1-system-card">Appendix A2</a>); OpenAI, <a
+href="https://chatgpt.com/pricing/">ChatGPT Plans | Free, Go, Plus,
+Pro,…</a> (n.d.; see <a
+href="#appendix-a9-chatgpt-plans-free-go-plus-pro-business-and-enterprise">Appendix
+A9</a>); Anthropic, <a
+href="https://www.anthropic.com/news/claude-4">Introducing Claude 4</a>
+(2025-05-22; see <a href="#appendix-a12-introducing-claude-4">Appendix
+A12</a>)<a href="#fnref11" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+</body>
+</html>

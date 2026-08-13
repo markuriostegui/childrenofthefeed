@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc 3.10" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="" />
+  <title>Children of the Feed. Servants of the AI God</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="paper_export.css" />
+</head>
+<body>
+  <header class="public-doc-header" aria-label="Document navigation">
+    <div class="public-doc-header-inner">
+      <a class="public-doc-home" href="../../index.html" aria-label="Return to paper index" title="Return to paper index">
+        <svg class="public-doc-home-icon" viewBox="0 0 24 24" role="img" aria-hidden="true">
+          <path d="M3 10.75 12 3l9 7.75v9.25a1 1 0 0 1-1 1h-5.5v-6h-5v6H4a1 1 0 0 1-1-1z"></path>
+        </svg>
+      </a>
+      <a class="public-doc-logo-link" href="https://wakenai.com/" aria-label="WakenAI Labs">
+        <img class="public-doc-logo" src="../assets/brand/waken-ai-black.webp" alt="WakenAI Labs">
+      </a>
+    </div>
+  </header>
+<header id="title-block-header">
+<h1 class="title">Children of the Feed. Servants of the AI God</h1>
+<p class="subtitle">A synthesis paper derived from the AI Empire
+research series</p>
+<p class="author"></p>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#abstract" id="toc-abstract">Abstract</a></li>
+<li><a href="#keywords" id="toc-keywords">Keywords</a></li>
+<li><a href="#research-question" id="toc-research-question">Research
+Question</a></li>
+<li><a href="#scope-and-framing-note"
+id="toc-scope-and-framing-note">Scope and Framing Note</a></li>
+<li><a href="#central-thesis" id="toc-central-thesis">Central
+Thesis</a></li>
+<li><a href="#evidence-and-method-note"
+id="toc-evidence-and-method-note">Evidence and Method Note</a></li>
+<li><a href="#introduction" id="toc-introduction">Introduction</a></li>
+<li><a href="#historical-or-institutional-context"
+id="toc-historical-or-institutional-context">Historical or Institutional
+Context</a></li>
+<li><a href="#main-analysis" id="toc-main-analysis">Main Analysis</a>
+<ul>
+<li><a href="#i.-children-of-the-feed"
+id="toc-i.-children-of-the-feed">I. Children of the Feed</a></li>
+<li><a href="#ii.-servants-of-the-model"
+id="toc-ii.-servants-of-the-model">II. Servants of the Model</a></li>
+<li><a href="#iii.-toward-the-ai-god"
+id="toc-iii.-toward-the-ai-god">III. Toward the AI God</a></li>
+<li><a href="#iv.-the-reform-synthesis"
+id="toc-iv.-the-reform-synthesis">IV. The Reform Synthesis</a></li>
+</ul></li>
+<li><a href="#position-within-the-series"
+id="toc-position-within-the-series">Position Within the Series</a></li>
+<li><a href="#counterarguments"
+id="toc-counterarguments">Counterarguments</a></li>
+<li><a href="#limits-of-the-evidence"
+id="toc-limits-of-the-evidence">Limits of the Evidence</a></li>
+<li><a href="#reform-relevance" id="toc-reform-relevance">Reform
+Relevance</a></li>
+<li><a href="#conclusion" id="toc-conclusion">Conclusion</a></li>
+<li><a href="#notes" id="toc-notes">Notes</a></li>
+<li><a href="#references-bibliography"
+id="toc-references-bibliography">References / Bibliography</a></li>
+<li><a href="#appendix-a.-source-register-for-this-paper"
+id="toc-appendix-a.-source-register-for-this-paper">Appendix A. Source
+Register for This Paper</a>
+<ul>
+<li><a href="#appendix-a1-chapter-00-opening-framework"
+id="toc-appendix-a1-chapter-00-opening-framework">Appendix A1. Chapter
+00: Opening Framework</a></li>
+<li><a
+href="#appendix-a2-chapter-01-social-networks-as-infrastructure-for-free-data-capture"
+id="toc-appendix-a2-chapter-01-social-networks-as-infrastructure-for-free-data-capture">Appendix
+A2. Chapter 01: Social Networks as Infrastructure for Free Data
+Capture</a></li>
+<li><a
+href="#appendix-a3-chapter-02-social-erosion-and-moral-reconfiguration"
+id="toc-appendix-a3-chapter-02-social-erosion-and-moral-reconfiguration">Appendix
+A3. Chapter 02: Social Erosion and Moral Reconfiguration</a></li>
+<li><a href="#appendix-a4-chapter-03-covid-as-a-historical-accelerator"
+id="toc-appendix-a4-chapter-03-covid-as-a-historical-accelerator">Appendix
+A4. Chapter 03: COVID as a Historical Accelerator</a></li>
+<li><a
+href="#appendix-a5-chapter-04-ai-arrives-when-the-human-raw-material-already-exists"
+id="toc-appendix-a5-chapter-04-ai-arrives-when-the-human-raw-material-already-exists">Appendix
+A5. Chapter 04: AI Arrives When the Human Raw Material Already
+Exists</a></li>
+<li><a
+href="#appendix-a6-chapter-05-talent-overhiring-valuation-and-layoffs"
+id="toc-appendix-a6-chapter-05-talent-overhiring-valuation-and-layoffs">Appendix
+A6. Chapter 05: Talent, Overhiring, Valuation, and Layoffs</a></li>
+<li><a href="#appendix-a7-chapter-06-ai-as-a-dual-use-rhetorical-weapon"
+id="toc-appendix-a7-chapter-06-ai-as-a-dual-use-rhetorical-weapon">Appendix
+A7. Chapter 06: AI as a Dual-Use Rhetorical Weapon</a></li>
+<li><a href="#appendix-a8-chapter-07-imperial-control-over-access"
+id="toc-appendix-a8-chapter-07-imperial-control-over-access">Appendix
+A8. Chapter 07: Imperial Control Over Access</a></li>
+<li><a
+href="#appendix-a9-chapter-08-power-network-legitimacy-and-institutional-capture"
+id="toc-appendix-a9-chapter-08-power-network-legitimacy-and-institutional-capture">Appendix
+A9. Chapter 08: Power Network, Legitimacy, and Institutional
+Capture</a></li>
+<li><a href="#appendix-a10-chapter-09-future-if-no-action-is-taken"
+id="toc-appendix-a10-chapter-09-future-if-no-action-is-taken">Appendix
+A10. Chapter 09: Future if No Action Is Taken</a></li>
+<li><a href="#appendix-a11-chapter-10-what-to-do"
+id="toc-appendix-a11-chapter-10-what-to-do">Appendix A11. Chapter 10:
+What To Do</a></li>
+</ul></li>
+<li><a href="#appendix-b.-claims-used-in-this-paper"
+id="toc-appendix-b.-claims-used-in-this-paper">Appendix B. Claims Used
+in This Paper</a>
+<ul>
+<li><a
+href="#appendix-b1.-the-feed-prepared-the-social-conditions-later-exploited-by-frontier-ai"
+id="toc-appendix-b1.-the-feed-prepared-the-social-conditions-later-exploited-by-frontier-ai">Appendix
+B1. The feed prepared the social conditions later exploited by frontier
+AI</a></li>
+<li><a
+href="#appendix-b2.-frontier-ai-power-is-best-understood-as-a-problem-of-enclosure-plus-strategic-access"
+id="toc-appendix-b2.-frontier-ai-power-is-best-understood-as-a-problem-of-enclosure-plus-strategic-access">Appendix
+B2. Frontier AI power is best understood as a problem of enclosure plus
+strategic access</a></li>
+<li><a
+href="#appendix-b3.-the-series-converges-on-a-three-reform-doctrine-rather-than-open-ended-ethics"
+id="toc-appendix-b3.-the-series-converges-on-a-three-reform-doctrine-rather-than-open-ended-ethics">Appendix
+B3. The series converges on a three-reform doctrine rather than
+open-ended ethics</a></li>
+</ul></li>
+<li><a href="#appendix-c.-timeline-slice"
+id="toc-appendix-c.-timeline-slice">Appendix C. Timeline Slice</a>
+<ul>
+<li><a
+href="#appendix-c1.-2024-12-17-congressional-uptake-of-the-weights-argument"
+id="toc-appendix-c1.-2024-12-17-congressional-uptake-of-the-weights-argument">Appendix
+C1. 2024-12-17: Congressional uptake of the weights argument</a></li>
+<li><a
+href="#appendix-c2.-2025-06-government-specific-frontier-ai-offerings-become-explicit"
+id="toc-appendix-c2.-2025-06-government-specific-frontier-ai-offerings-become-explicit">Appendix
+C2. 2025-06: Government-specific frontier AI offerings become
+explicit</a></li>
+<li><a
+href="#appendix-c3.-2026-05-15-moral-legitimacy-extends-into-the-vatican-field"
+id="toc-appendix-c3.-2026-05-15-moral-legitimacy-extends-into-the-vatican-field">Appendix
+C3. 2026-05-15: Moral legitimacy extends into the Vatican field</a></li>
+</ul></li>
+<li><a href="#appendix-d.-relevant-entities"
+id="toc-appendix-d.-relevant-entities">Appendix D. Relevant Entities</a>
+<ul>
+<li><a href="#appendix-d1.-meta" id="toc-appendix-d1.-meta">Appendix D1.
+Meta</a></li>
+<li><a href="#appendix-d2.-openai" id="toc-appendix-d2.-openai">Appendix
+D2. OpenAI</a></li>
+<li><a href="#appendix-d3.-anthropic"
+id="toc-appendix-d3.-anthropic">Appendix D3. Anthropic</a></li>
+</ul></li>
+<li><a href="#appendix-e.-evidence-boundaries"
+id="toc-appendix-e.-evidence-boundaries">Appendix E. Evidence
+Boundaries</a>
+<ul>
+<li><a href="#appendix-e1.-disputed-matters"
+id="toc-appendix-e1.-disputed-matters">Appendix E1. Disputed
+Matters</a></li>
+<li><a href="#appendix-e2.-interpretive-boundaries"
+id="toc-appendix-e2.-interpretive-boundaries">Appendix E2. Interpretive
+Boundaries</a></li>
+<li><a href="#appendix-e3.-speculative-narrative-risks"
+id="toc-appendix-e3.-speculative-narrative-risks">Appendix E3.
+Speculative Narrative Risks</a></li>
+<li><a href="#appendix-e4.-sensitive-or-review-worthy-note-flags"
+id="toc-appendix-e4.-sensitive-or-review-worthy-note-flags">Appendix E4.
+Sensitive or Review-Worthy Note Flags</a></li>
+</ul></li>
+</ul>
+</nav>
+<h2 id="abstract">Abstract</h2>
+<p>This paper synthesizes the eleven-paper AI Empire series into one
+argument: the feed prepared the subject, the model enclosed the
+subject’s output, and the frontier firm sought to govern the resulting
+intelligence infrastructure. The result is a cumulative case for three
+reforms: refactor Section 230, treat frontier AI weights as a patrimony
+problem, and limit government capture by AI companies.</p>
+<h2 id="keywords">Keywords</h2>
+<p>surveillance capitalism; AI imperialism; Section 230 reform; AI
+weights; patrimony of humanity; government capture; platform power;
+research synthesis</p>
+<h2 id="research-question">Research Question</h2>
+<p>What does the validated AI Empire paper series establish, taken as a
+whole, about the path from feed-based extraction to frontier AI
+enclosure and state-corporate alignment?</p>
+<h2 id="scope-and-framing-note">Scope and Framing Note</h2>
+<p>This paper is the series-level synthesis document derived from the
+validated standalone papers in the AI Empire publication set. It is
+written to circulate independently, but it deliberately cites the
+chapter papers as its evidence spine so that readers can move from the
+final synthesis back into the deeper specialized arguments.</p>
+<h2 id="central-thesis">Central Thesis</h2>
+<p>Children of the Feed. Servants of the AI God argues that contemporary
+AI power is not simply a technical breakthrough. It is the latest
+political form of a longer process in which platforms captured social
+life, converted that capture into model capability, and then sought to
+stabilize the resulting power through institutional access and
+legitimacy.</p>
+<h2 id="evidence-and-method-note">Evidence and Method Note</h2>
+<p>This synthesis is built from the completed chapter papers in the AI
+Empire series. It treats those papers as validated internal sources,
+preserves their factual and interpretive boundaries, and advances only
+claims that can be grounded in the documented publication set.</p>
+<h2 id="introduction">Introduction</h2>
+<p>This paper synthesizes the full AI Empire research series into one
+researcher-facing argument. Its claim is that surveillance platforms
+first trained populations into life through interfaces, then converted
+that social dependence into data, then converted that data and labor
+into frontier-model capacity, and finally wrapped that capacity in state
+access, legitimacy, and reform-resistant power. <a href="#fn1"
+class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<h2 id="historical-or-institutional-context">Historical or Institutional
+Context</h2>
+<p>The argument begins before generative AI. The series shows that
+social media normalized free behavioral capture, youth dependence,
+algorithmic mediation, and platform indispensability long before
+frontier labs claimed to be building neutral intelligence
+infrastructure. COVID then accelerated dependency rather than
+originating it. <a href="#fn2" class="footnote-ref" id="fnref2"
+role="doc-noteref"><sup>2</sup></a></p>
+<h2 id="main-analysis">Main Analysis</h2>
+<h3 id="i.-children-of-the-feed">I. Children of the Feed</h3>
+<p>The fight over artificial intelligence is not only a fight over
+products, model benchmarks, or corporate market share. Before AI could
+be marketed as a new intelligence order, social platforms had already
+built the behavioral raw material of that order. The platform system did
+not only capture behavior. COVID should be treated as a historical
+accelerator, not as a proven master plot. <a href="#fn3"
+class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
+<p>Taken together, these papers support the dossier’s first
+civilizational claim: populations were not merely entertained by the
+feed. They were habituated into an environment where attention, desire,
+social trust, and everyday coordination could be continuously captured,
+ranked, and redirected. <a href="#fn4" class="footnote-ref" id="fnref4"
+role="doc-noteref"><sup>4</sup></a></p>
+<h3 id="ii.-servants-of-the-model">II. Servants of the Model</h3>
+<p>Foundation models do not emerge from nowhere. The cleanest version of
+the layoffs story is not that AI suddenly made technical labor obsolete.
+One of the clearest contradictions in the current AI regime is that
+systems are marketed simultaneously as dangerous enough to justify elite
+governance and safe enough to be rolled out as broad dependence
+infrastructure. <a href="#fn5" class="footnote-ref" id="fnref5"
+role="doc-noteref"><sup>5</sup></a></p>
+<p>The middle layer of the series shows how captured expression becomes
+frontier capability. The legal ambiguity around training, the economic
+correction hidden beneath AI rhetoric, and the dual-use marketing of
+cheap yet dangerous intelligence all serve one enclosure logic: socially
+produced value is reissued as private model power. <a href="#fn6"
+class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></p>
+<h3 id="iii.-toward-the-ai-god">III. Toward the AI God</h3>
+<p>The AI system is not simply a market of competing products. Frontier
+firms do not consolidate power by product alone. The most credible
+continuity scenario is not science-fiction apocalypse. The response
+program is no longer an open-ended menu. <a href="#fn7"
+class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></p>
+<p>The final layer of the series traces how that power is hardened.
+Compute chokepoints, national-security offerings, lobbying, governance
+restructuring, moral legitimation, and future-of-civilization rhetoric
+all elevate frontier firms beyond vendors. They begin to look like
+would-be custodians of intelligence infrastructure itself. <a
+href="#fn8" class="footnote-ref" id="fnref8"
+role="doc-noteref"><sup>8</sup></a></p>
+<h3 id="iv.-the-reform-synthesis">IV. The Reform Synthesis</h3>
+<p>The series therefore converges on three reforms rather than a loose
+ethics wishlist: refactor Section 230 for sovereign-scale platform
+power; treat frontier AI weights as a patrimony problem rather than
+ordinary private property; and impose anti-capture obligations on AI
+firms that operate through public support, national-security channels,
+or strategic policy access. <a href="#fn9" class="footnote-ref"
+id="fnref9" role="doc-noteref"><sup>9</sup></a></p>
+<h2 id="position-within-the-series">Position Within the Series</h2>
+<p>This paper closes the research program’s first major publication
+cycle. Where the individual chapter papers defend narrower domains, this
+synthesis paper states the integrated argument they were building
+toward.</p>
+<h2 id="counterarguments">Counterarguments</h2>
+<p>The strongest counterargument is that this paper risks overstating
+systemic coherence. The series does not prove a single omniscient
+conspiracy. It proves a sequence of documented structures that reinforce
+one another: platform extraction, social weakening, contested training,
+financial enclosure, access control, and institutional capture. Where
+the evidence is interpretive, the underlying papers say so directly. <a
+href="#fn10" class="footnote-ref" id="fnref10"
+role="doc-noteref"><sup>10</sup></a></p>
+<h2 id="limits-of-the-evidence">Limits of the Evidence</h2>
+<p>This synthesis inherits the limits of the underlying papers. It does
+not claim that every frontier lab has fully disclosed its training
+stack, that the origin of COVID-19 is settled, or that current law
+already recognizes AI weights as public patrimony. It advances a bounded
+political reading built from the series’ documented record. <a
+href="#fn11" class="footnote-ref" id="fnref11"
+role="doc-noteref"><sup>11</sup></a></p>
+<h2 id="reform-relevance">Reform Relevance</h2>
+<p>As a final publication object, this paper exists to make the end
+state unmistakable. If the feed trains social dependence, if the model
+encloses collectively produced cognition, and if the frontier firm seeks
+privileged state alignment, then piecemeal reform is structurally
+inadequate. The response has to move at the level of infrastructure,
+property, and public power. <a href="#fn12" class="footnote-ref"
+id="fnref12" role="doc-noteref"><sup>12</sup></a></p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Children of the Feed. Servants of the AI God argues that contemporary
+AI power was not born in a vacuum. It was prepared socially by the feed,
+economically by enclosure, and politically by institutional capture. The
+project of resistance therefore cannot stop at critique. It has to
+reorganize platform liability, frontier-model ownership, and the terms
+on which governments may empower AI firms. <a href="#fn13"
+class="footnote-ref" id="fnref13"
+role="doc-noteref"><sup>13</sup></a></p>
+<h2 id="notes">Notes</h2>
+<p>This synthesis cites the validated chapter papers as its internal
+evidence base. Readers who want fuller external-source inspection should
+move from the cited series papers into the omnibus and companion
+volumes.</p>
+<h2 id="references-bibliography">References / Bibliography</h2>
+<ol type="1">
+<li>AI Empire Research Program. <a
+href="00_opening-framework_paper.html">Chapter 00: Opening
+Framework</a>. Series paper. Paper appendix: <a
+href="#appendix-a1-chapter-00-opening-framework">Appendix A1</a>.
+Relevance: Supports the synthesis layer of this master paper.</li>
+<li>AI Empire Research Program. <a
+href="01_social-networks-data-capture_paper.html">Chapter 01: Social
+Networks as Infrastructure for Free Data Capture</a>. Series paper.
+Paper appendix: <a
+href="#appendix-a2-chapter-01-social-networks-as-infrastructure-for-free-data-capture">Appendix
+A2</a>. Relevance: Supports the synthesis layer of this master
+paper.</li>
+<li>AI Empire Research Program. <a
+href="02_social-erosion-and-moral-reconfiguration_paper.html">Chapter
+02: Social Erosion and Moral Reconfiguration</a>. Series paper. Paper
+appendix: <a
+href="#appendix-a3-chapter-02-social-erosion-and-moral-reconfiguration">Appendix
+A3</a>. Relevance: Supports the synthesis layer of this master
+paper.</li>
+<li>AI Empire Research Program. <a
+href="03_covid-historical-accelerator_paper.html">Chapter 03: COVID as a
+Historical Accelerator</a>. Series paper. Paper appendix: <a
+href="#appendix-a4-chapter-03-covid-as-a-historical-accelerator">Appendix
+A4</a>. Relevance: Supports the synthesis layer of this master
+paper.</li>
+<li>AI Empire Research Program. <a
+href="04_data-models-weights_paper.html">Chapter 04: AI Arrives When the
+Human Raw Material Already Exists</a>. Series paper. Paper appendix: <a
+href="#appendix-a5-chapter-04-ai-arrives-when-the-human-raw-material-already-exists">Appendix
+A5</a>. Relevance: Supports the synthesis layer of this master
+paper.</li>
+<li>AI Empire Research Program. <a
+href="05_talent-overhiring-layoffs_paper.html">Chapter 05: Talent,
+Overhiring, Valuation, and Layoffs</a>. Series paper. Paper appendix: <a
+href="#appendix-a6-chapter-05-talent-overhiring-valuation-and-layoffs">Appendix
+A6</a>. Relevance: Supports the synthesis layer of this master
+paper.</li>
+<li>AI Empire Research Program. <a
+href="06_dual-use-rhetorical-weapon_paper.html">Chapter 06: AI as a
+Dual-Use Rhetorical Weapon</a>. Series paper. Paper appendix: <a
+href="#appendix-a7-chapter-06-ai-as-a-dual-use-rhetorical-weapon">Appendix
+A7</a>. Relevance: Supports the synthesis layer of this master
+paper.</li>
+<li>AI Empire Research Program. <a
+href="07_imperial-control-over-access_paper.html">Chapter 07: Imperial
+Control Over Access</a>. Series paper. Paper appendix: <a
+href="#appendix-a8-chapter-07-imperial-control-over-access">Appendix
+A8</a>. Relevance: Supports the synthesis layer of this master
+paper.</li>
+<li>AI Empire Research Program. <a
+href="08_legitimacy-and-institutional-capture_paper.html">Chapter 08:
+Power Network, Legitimacy, and Institutional Capture</a>. Series paper.
+Paper appendix: <a
+href="#appendix-a9-chapter-08-power-network-legitimacy-and-institutional-capture">Appendix
+A9</a>. Relevance: Supports the synthesis layer of this master
+paper.</li>
+<li>AI Empire Research Program. <a
+href="09_future-if-unchecked_paper.html">Chapter 09: Future if No Action
+Is Taken</a>. Series paper. Paper appendix: <a
+href="#appendix-a10-chapter-09-future-if-no-action-is-taken">Appendix
+A10</a>. Relevance: Supports the synthesis layer of this master
+paper.</li>
+<li>AI Empire Research Program. <a
+href="10_three-reform-program_paper.html">Chapter 10: What To Do</a>.
+Series paper. Paper appendix: <a
+href="#appendix-a11-chapter-10-what-to-do">Appendix A11</a>. Relevance:
+Supports the synthesis layer of this master paper.</li>
+</ol>
+<h2 id="appendix-a.-source-register-for-this-paper">Appendix A. Source
+Register for This Paper</h2>
+<h3 id="appendix-a1-chapter-00-opening-framework">Appendix A1. Chapter
+00: Opening Framework</h3>
+<p><strong>Series role:</strong> Chapter 00 in the AI Empire publication
+set. <strong>Series paper link:</strong> <a
+href="00_opening-framework_paper.html">Chapter 00: Opening Framework</a>
+<strong>Why it matters in this paper:</strong> The dossier therefore
+does not end in a vague call for better ethics. <strong>Source
+layer:</strong> Internal series paper</p>
+<h3
+id="appendix-a2-chapter-01-social-networks-as-infrastructure-for-free-data-capture">Appendix
+A2. Chapter 01: Social Networks as Infrastructure for Free Data
+Capture</h3>
+<p><strong>Series role:</strong> Chapter 01 in the AI Empire publication
+set. <strong>Series paper link:</strong> <a
+href="01_social-networks-data-capture_paper.html">Chapter 01: Social
+Networks as Infrastructure for Free Data Capture</a> <strong>Why it
+matters in this paper:</strong> Once social life is reorganized around
+measurable engagement, extractive targeting, and recommendation systems,
+platforms stop looking like passive infrastructure and start looking
+like privately governed civic systems. <strong>Source layer:</strong>
+Internal series paper</p>
+<h3
+id="appendix-a3-chapter-02-social-erosion-and-moral-reconfiguration">Appendix
+A3. Chapter 02: Social Erosion and Moral Reconfiguration</h3>
+<p><strong>Series role:</strong> Chapter 02 in the AI Empire publication
+set. <strong>Series paper link:</strong> <a
+href="02_social-erosion-and-moral-reconfiguration_paper.html">Chapter
+02: Social Erosion and Moral Reconfiguration</a> <strong>Why it matters
+in this paper:</strong> If attention is trained by systems optimized for
+engagement rather than flourishing, then the outcome is not only
+distraction. <strong>Source layer:</strong> Internal series paper</p>
+<h3
+id="appendix-a4-chapter-03-covid-as-a-historical-accelerator">Appendix
+A4. Chapter 03: COVID as a Historical Accelerator</h3>
+<p><strong>Series role:</strong> Chapter 03 in the AI Empire publication
+set. <strong>Series paper link:</strong> <a
+href="03_covid-historical-accelerator_paper.html">Chapter 03: COVID as a
+Historical Accelerator</a> <strong>Why it matters in this
+paper:</strong> COVID widened the field in which screens became
+necessary, platforms became indispensable, and digitally mediated life
+became normalized. <strong>Source layer:</strong> Internal series
+paper</p>
+<h3
+id="appendix-a5-chapter-04-ai-arrives-when-the-human-raw-material-already-exists">Appendix
+A5. Chapter 04: AI Arrives When the Human Raw Material Already
+Exists</h3>
+<p><strong>Series role:</strong> Chapter 04 in the AI Empire publication
+set. <strong>Series paper link:</strong> <a
+href="04_data-models-weights_paper.html">Chapter 04: AI Arrives When the
+Human Raw Material Already Exists</a> <strong>Why it matters in this
+paper:</strong> Once captured human production can be recombined into
+proprietary weights, the surveillance economy acquires a new layer.
+<strong>Source layer:</strong> Internal series paper</p>
+<h3
+id="appendix-a6-chapter-05-talent-overhiring-valuation-and-layoffs">Appendix
+A6. Chapter 05: Talent, Overhiring, Valuation, and Layoffs</h3>
+<p><strong>Series role:</strong> Chapter 05 in the AI Empire publication
+set. <strong>Series paper link:</strong> <a
+href="05_talent-overhiring-layoffs_paper.html">Chapter 05: Talent,
+Overhiring, Valuation, and Layoffs</a> <strong>Why it matters in this
+paper:</strong> If this reading holds, then the AI boom is also a class
+story. <strong>Source layer:</strong> Internal series paper</p>
+<h3
+id="appendix-a7-chapter-06-ai-as-a-dual-use-rhetorical-weapon">Appendix
+A7. Chapter 06: AI as a Dual-Use Rhetorical Weapon</h3>
+<p><strong>Series role:</strong> Chapter 06 in the AI Empire publication
+set. <strong>Series paper link:</strong> <a
+href="06_dual-use-rhetorical-weapon_paper.html">Chapter 06: AI as a
+Dual-Use Rhetorical Weapon</a> <strong>Why it matters in this
+paper:</strong> This is how AI becomes a dual-use rhetorical weapon.
+<strong>Source layer:</strong> Internal series paper</p>
+<h3 id="appendix-a8-chapter-07-imperial-control-over-access">Appendix
+A8. Chapter 07: Imperial Control Over Access</h3>
+<p><strong>Series role:</strong> Chapter 07 in the AI Empire publication
+set. <strong>Series paper link:</strong> <a
+href="07_imperial-control-over-access_paper.html">Chapter 07: Imperial
+Control Over Access</a> <strong>Why it matters in this paper:</strong>
+If frontier AI is governed through chokepoints, then intelligence itself
+becomes a stratified geopolitical infrastructure. <strong>Source
+layer:</strong> Internal series paper</p>
+<h3
+id="appendix-a9-chapter-08-power-network-legitimacy-and-institutional-capture">Appendix
+A9. Chapter 08: Power Network, Legitimacy, and Institutional
+Capture</h3>
+<p><strong>Series role:</strong> Chapter 08 in the AI Empire publication
+set. <strong>Series paper link:</strong> <a
+href="08_legitimacy-and-institutional-capture_paper.html">Chapter 08:
+Power Network, Legitimacy, and Institutional Capture</a> <strong>Why it
+matters in this paper:</strong> Once legitimacy is institutionally
+assembled, frontier AI stops looking like just another industry and
+begins to look like a state-adjacent governing infrastructure.
+<strong>Source layer:</strong> Internal series paper</p>
+<h3 id="appendix-a10-chapter-09-future-if-no-action-is-taken">Appendix
+A10. Chapter 09: Future if No Action Is Taken</h3>
+<p><strong>Series role:</strong> Chapter 09 in the AI Empire publication
+set. <strong>Series paper link:</strong> <a
+href="09_future-if-unchecked_paper.html">Chapter 09: Future if No Action
+Is Taken</a> <strong>Why it matters in this paper:</strong> If no action
+is taken, platform immunity, private control over weights, and opaque
+state-company entanglement stop looking like separate policy issues and
+start looking like one reinforced system. <strong>Source layer:</strong>
+Internal series paper</p>
+<h3 id="appendix-a11-chapter-10-what-to-do">Appendix A11. Chapter 10:
+What To Do</h3>
+<p><strong>Series role:</strong> Chapter 10 in the AI Empire publication
+set. <strong>Series paper link:</strong> <a
+href="10_three-reform-program_paper.html">Chapter 10: What To Do</a>
+<strong>Why it matters in this paper:</strong> The essential political
+choice is whether intelligence infrastructure will remain a privately
+concentrated empire built on captured social life, or whether societies
+will recover sovereignty over the terms on which cognition itself is
+organized. <strong>Source layer:</strong> Internal series paper</p>
+<h2 id="appendix-b.-claims-used-in-this-paper">Appendix B. Claims Used
+in This Paper</h2>
+<h3
+id="appendix-b1.-the-feed-prepared-the-social-conditions-later-exploited-by-frontier-ai">Appendix
+B1. The feed prepared the social conditions later exploited by frontier
+AI</h3>
+<p><strong>Claim statement:</strong> The AI Empire series supports the
+argument that large platforms first normalized social dependence, then
+translated that dependence into data capture and downstream model power.
+<strong>Evidence status:</strong> Hypothesis / Interpretation
+<strong>Source support:</strong> <a
+href="#appendix-a2-chapter-01-social-networks-as-infrastructure-for-free-data-capture">Appendix
+A2</a>, <a
+href="#appendix-a3-chapter-02-social-erosion-and-moral-reconfiguration">Appendix
+A3</a>, <a
+href="#appendix-a4-chapter-03-covid-as-a-historical-accelerator">Appendix
+A4</a></p>
+<h3
+id="appendix-b2.-frontier-ai-power-is-best-understood-as-a-problem-of-enclosure-plus-strategic-access">Appendix
+B2. Frontier AI power is best understood as a problem of enclosure plus
+strategic access</h3>
+<p><strong>Claim statement:</strong> The strongest cumulative reading of
+the series is that frontier-model capability is socially derived,
+financially enclosed, and then hardened through privileged state and
+institutional access. <strong>Evidence status:</strong> Hypothesis /
+Interpretation <strong>Source support:</strong> <a
+href="#appendix-a5-chapter-04-ai-arrives-when-the-human-raw-material-already-exists">Appendix
+A5</a>, <a
+href="#appendix-a6-chapter-05-talent-overhiring-valuation-and-layoffs">Appendix
+A6</a>, <a
+href="#appendix-a8-chapter-07-imperial-control-over-access">Appendix
+A8</a>, <a
+href="#appendix-a9-chapter-08-power-network-legitimacy-and-institutional-capture">Appendix
+A9</a></p>
+<h3
+id="appendix-b3.-the-series-converges-on-a-three-reform-doctrine-rather-than-open-ended-ethics">Appendix
+B3. The series converges on a three-reform doctrine rather than
+open-ended ethics</h3>
+<p><strong>Claim statement:</strong> The full publication set
+consistently supports a final program centered on Section 230 reform,
+patrimony-oriented governance of AI weights, and limits on government
+capture by AI firms. <strong>Evidence status:</strong> Documented Fact
+<strong>Source support:</strong> <a
+href="#appendix-a1-chapter-00-opening-framework">Appendix A1</a>, <a
+href="#appendix-a11-chapter-10-what-to-do">Appendix A11</a></p>
+<h2 id="appendix-c.-timeline-slice">Appendix C. Timeline Slice</h2>
+<h3
+id="appendix-c1.-2024-12-17-congressional-uptake-of-the-weights-argument">Appendix
+C1. 2024-12-17: Congressional uptake of the weights argument</h3>
+<p><strong>Event summary:</strong> The series documents that the House
+AI Task Force report recorded the copyright / weights / compensation
+conflict in a bipartisan policy record. <strong>Source support:</strong>
+<a href="#appendix-a1-chapter-00-opening-framework">Appendix A1</a>, <a
+href="#appendix-a5-chapter-04-ai-arrives-when-the-human-raw-material-already-exists">Appendix
+A5</a></p>
+<h3
+id="appendix-c2.-2025-06-government-specific-frontier-ai-offerings-become-explicit">Appendix
+C2. 2025-06: Government-specific frontier AI offerings become
+explicit</h3>
+<p><strong>Event summary:</strong> The series documents June 2025 as a
+key moment in which frontier AI firms publicly formalized
+government-only product lines and security-facing coordination.
+<strong>Source support:</strong> <a
+href="#appendix-a8-chapter-07-imperial-control-over-access">Appendix
+A8</a>, <a href="#appendix-a11-chapter-10-what-to-do">Appendix
+A11</a></p>
+<h3
+id="appendix-c3.-2026-05-15-moral-legitimacy-extends-into-the-vatican-field">Appendix
+C3. 2026-05-15: Moral legitimacy extends into the Vatican field</h3>
+<p><strong>Event summary:</strong> The series documents the expansion of
+AI legitimacy discourse into formal religious authority. <strong>Source
+support:</strong> <a
+href="#appendix-a9-chapter-08-power-network-legitimacy-and-institutional-capture">Appendix
+A9</a></p>
+<h2 id="appendix-d.-relevant-entities">Appendix D. Relevant
+Entities</h2>
+<h3 id="appendix-d1.-meta">Appendix D1. Meta</h3>
+<p><strong>Entity type:</strong> company <strong>Role in this
+paper:</strong> Archetype of the feed-era extraction platform and
+reputational redirection cycle. <strong>Relevant series papers:</strong>
+<a
+href="#appendix-a2-chapter-01-social-networks-as-infrastructure-for-free-data-capture">Appendix
+A2</a>, <a
+href="#appendix-a3-chapter-02-social-erosion-and-moral-reconfiguration">Appendix
+A3</a>, <a
+href="#appendix-a4-chapter-03-covid-as-a-historical-accelerator">Appendix
+A4</a></p>
+<h3 id="appendix-d2.-openai">Appendix D2. OpenAI</h3>
+<p><strong>Entity type:</strong> company <strong>Role in this
+paper:</strong> Core example of model enclosure, governance turbulence,
+and government-facing strategic repositioning. <strong>Relevant series
+papers:</strong> <a
+href="#appendix-a7-chapter-06-ai-as-a-dual-use-rhetorical-weapon">Appendix
+A7</a>, <a
+href="#appendix-a8-chapter-07-imperial-control-over-access">Appendix
+A8</a>, <a
+href="#appendix-a9-chapter-08-power-network-legitimacy-and-institutional-capture">Appendix
+A9</a></p>
+<h3 id="appendix-d3.-anthropic">Appendix D3. Anthropic</h3>
+<p><strong>Entity type:</strong> company <strong>Role in this
+paper:</strong> Core example of frontier legitimacy, safety rhetoric,
+and government-facing model access. <strong>Relevant series
+papers:</strong> <a
+href="#appendix-a7-chapter-06-ai-as-a-dual-use-rhetorical-weapon">Appendix
+A7</a>, <a
+href="#appendix-a8-chapter-07-imperial-control-over-access">Appendix
+A8</a>, <a
+href="#appendix-a9-chapter-08-power-network-legitimacy-and-institutional-capture">Appendix
+A9</a></p>
+<h2 id="appendix-e.-evidence-boundaries">Appendix E. Evidence
+Boundaries</h2>
+<h3 id="appendix-e1.-disputed-matters">Appendix E1. Disputed
+Matters</h3>
+<ul>
+<li>The series does not treat the origin of COVID-19 as settled. See the
+Chapter 03 paper for the bounded formulation.</li>
+</ul>
+<h3 id="appendix-e2.-interpretive-boundaries">Appendix E2. Interpretive
+Boundaries</h3>
+<ul>
+<li>This master paper argues for a structural reading of extraction,
+enclosure, and capture. It does not claim a single omniscient conspiracy
+behind every event in the record.</li>
+</ul>
+<h3 id="appendix-e3.-speculative-narrative-risks">Appendix E3.
+Speculative Narrative Risks</h3>
+<ul>
+<li>The series explicitly rejects the overclaim that current law already
+settles frontier AI weights as patrimony, public trust property, or
+common heritage.</li>
+</ul>
+<h3 id="appendix-e4.-sensitive-or-review-worthy-note-flags">Appendix E4.
+Sensitive or Review-Worthy Note Flags</h3>
+<ul>
+<li>Named-individual disputes remain bounded by the underlying Chapter
+08 evidence rules and should not be read as guilt by association.</li>
+</ul>
+<section id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Series sources: AI Empire Research Program, <a
+href="00_opening-framework_paper.html">Chapter 00: Opening Framework</a>
+(see <a href="#appendix-a1-chapter-00-opening-framework">Appendix
+A1</a>); AI Empire Research Program, <a
+href="01_social-networks-data-capture_paper.html">Chapter 01: Social
+Networks as Infrastructure for Free Data Capture</a> (see <a
+href="#appendix-a2-chapter-01-social-networks-as-infrastructure-for-free-data-capture">Appendix
+A2</a>); AI Empire Research Program, <a
+href="02_social-erosion-and-moral-reconfiguration_paper.html">Chapter
+02: Social Erosion and Moral Reconfiguration</a> (see <a
+href="#appendix-a3-chapter-02-social-erosion-and-moral-reconfiguration">Appendix
+A3</a>); AI Empire Research Program, <a
+href="03_covid-historical-accelerator_paper.html">Chapter 03: COVID as a
+Historical Accelerator</a> (see <a
+href="#appendix-a4-chapter-03-covid-as-a-historical-accelerator">Appendix
+A4</a>); AI Empire Research Program, <a
+href="04_data-models-weights_paper.html">Chapter 04: AI Arrives When the
+Human Raw Material Already Exists</a> (see <a
+href="#appendix-a5-chapter-04-ai-arrives-when-the-human-raw-material-already-exists">Appendix
+A5</a>); AI Empire Research Program, <a
+href="05_talent-overhiring-layoffs_paper.html">Chapter 05: Talent,
+Overhiring, Valuation, and Layoffs</a> (see <a
+href="#appendix-a6-chapter-05-talent-overhiring-valuation-and-layoffs">Appendix
+A6</a>); AI Empire Research Program, <a
+href="06_dual-use-rhetorical-weapon_paper.html">Chapter 06: AI as a
+Dual-Use Rhetorical Weapon</a> (see <a
+href="#appendix-a7-chapter-06-ai-as-a-dual-use-rhetorical-weapon">Appendix
+A7</a>); AI Empire Research Program, <a
+href="07_imperial-control-over-access_paper.html">Chapter 07: Imperial
+Control Over Access</a> (see <a
+href="#appendix-a8-chapter-07-imperial-control-over-access">Appendix
+A8</a>); AI Empire Research Program, <a
+href="08_legitimacy-and-institutional-capture_paper.html">Chapter 08:
+Power Network, Legitimacy, and Institutional Capture</a> (see <a
+href="#appendix-a9-chapter-08-power-network-legitimacy-and-institutional-capture">Appendix
+A9</a>); AI Empire Research Program, <a
+href="09_future-if-unchecked_paper.html">Chapter 09: Future if No Action
+Is Taken</a> (see <a
+href="#appendix-a10-chapter-09-future-if-no-action-is-taken">Appendix
+A10</a>); AI Empire Research Program, <a
+href="10_three-reform-program_paper.html">Chapter 10: What To Do</a>
+(see <a href="#appendix-a11-chapter-10-what-to-do">Appendix A11</a>)<a
+href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Series sources: AI Empire Research Program, <a
+href="00_opening-framework_paper.html">Chapter 00: Opening Framework</a>
+(see <a href="#appendix-a1-chapter-00-opening-framework">Appendix
+A1</a>); AI Empire Research Program, <a
+href="01_social-networks-data-capture_paper.html">Chapter 01: Social
+Networks as Infrastructure for Free Data Capture</a> (see <a
+href="#appendix-a2-chapter-01-social-networks-as-infrastructure-for-free-data-capture">Appendix
+A2</a>); AI Empire Research Program, <a
+href="02_social-erosion-and-moral-reconfiguration_paper.html">Chapter
+02: Social Erosion and Moral Reconfiguration</a> (see <a
+href="#appendix-a3-chapter-02-social-erosion-and-moral-reconfiguration">Appendix
+A3</a>); AI Empire Research Program, <a
+href="03_covid-historical-accelerator_paper.html">Chapter 03: COVID as a
+Historical Accelerator</a> (see <a
+href="#appendix-a4-chapter-03-covid-as-a-historical-accelerator">Appendix
+A4</a>)<a href="#fnref2" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Series sources: AI Empire Research Program, <a
+href="00_opening-framework_paper.html">Chapter 00: Opening Framework</a>
+(see <a href="#appendix-a1-chapter-00-opening-framework">Appendix
+A1</a>); AI Empire Research Program, <a
+href="01_social-networks-data-capture_paper.html">Chapter 01: Social
+Networks as Infrastructure for Free Data Capture</a> (see <a
+href="#appendix-a2-chapter-01-social-networks-as-infrastructure-for-free-data-capture">Appendix
+A2</a>); AI Empire Research Program, <a
+href="02_social-erosion-and-moral-reconfiguration_paper.html">Chapter
+02: Social Erosion and Moral Reconfiguration</a> (see <a
+href="#appendix-a3-chapter-02-social-erosion-and-moral-reconfiguration">Appendix
+A3</a>); AI Empire Research Program, <a
+href="03_covid-historical-accelerator_paper.html">Chapter 03: COVID as a
+Historical Accelerator</a> (see <a
+href="#appendix-a4-chapter-03-covid-as-a-historical-accelerator">Appendix
+A4</a>)<a href="#fnref3" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Series sources: AI Empire Research Program, <a
+href="00_opening-framework_paper.html">Chapter 00: Opening Framework</a>
+(see <a href="#appendix-a1-chapter-00-opening-framework">Appendix
+A1</a>); AI Empire Research Program, <a
+href="01_social-networks-data-capture_paper.html">Chapter 01: Social
+Networks as Infrastructure for Free Data Capture</a> (see <a
+href="#appendix-a2-chapter-01-social-networks-as-infrastructure-for-free-data-capture">Appendix
+A2</a>); AI Empire Research Program, <a
+href="02_social-erosion-and-moral-reconfiguration_paper.html">Chapter
+02: Social Erosion and Moral Reconfiguration</a> (see <a
+href="#appendix-a3-chapter-02-social-erosion-and-moral-reconfiguration">Appendix
+A3</a>); AI Empire Research Program, <a
+href="03_covid-historical-accelerator_paper.html">Chapter 03: COVID as a
+Historical Accelerator</a> (see <a
+href="#appendix-a4-chapter-03-covid-as-a-historical-accelerator">Appendix
+A4</a>)<a href="#fnref4" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Series sources: AI Empire Research Program, <a
+href="04_data-models-weights_paper.html">Chapter 04: AI Arrives When the
+Human Raw Material Already Exists</a> (see <a
+href="#appendix-a5-chapter-04-ai-arrives-when-the-human-raw-material-already-exists">Appendix
+A5</a>); AI Empire Research Program, <a
+href="05_talent-overhiring-layoffs_paper.html">Chapter 05: Talent,
+Overhiring, Valuation, and Layoffs</a> (see <a
+href="#appendix-a6-chapter-05-talent-overhiring-valuation-and-layoffs">Appendix
+A6</a>); AI Empire Research Program, <a
+href="06_dual-use-rhetorical-weapon_paper.html">Chapter 06: AI as a
+Dual-Use Rhetorical Weapon</a> (see <a
+href="#appendix-a7-chapter-06-ai-as-a-dual-use-rhetorical-weapon">Appendix
+A7</a>)<a href="#fnref5" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>Series sources: AI Empire Research Program, <a
+href="04_data-models-weights_paper.html">Chapter 04: AI Arrives When the
+Human Raw Material Already Exists</a> (see <a
+href="#appendix-a5-chapter-04-ai-arrives-when-the-human-raw-material-already-exists">Appendix
+A5</a>); AI Empire Research Program, <a
+href="05_talent-overhiring-layoffs_paper.html">Chapter 05: Talent,
+Overhiring, Valuation, and Layoffs</a> (see <a
+href="#appendix-a6-chapter-05-talent-overhiring-valuation-and-layoffs">Appendix
+A6</a>); AI Empire Research Program, <a
+href="06_dual-use-rhetorical-weapon_paper.html">Chapter 06: AI as a
+Dual-Use Rhetorical Weapon</a> (see <a
+href="#appendix-a7-chapter-06-ai-as-a-dual-use-rhetorical-weapon">Appendix
+A7</a>)<a href="#fnref6" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>Series sources: AI Empire Research Program, <a
+href="07_imperial-control-over-access_paper.html">Chapter 07: Imperial
+Control Over Access</a> (see <a
+href="#appendix-a8-chapter-07-imperial-control-over-access">Appendix
+A8</a>); AI Empire Research Program, <a
+href="08_legitimacy-and-institutional-capture_paper.html">Chapter 08:
+Power Network, Legitimacy, and Institutional Capture</a> (see <a
+href="#appendix-a9-chapter-08-power-network-legitimacy-and-institutional-capture">Appendix
+A9</a>); AI Empire Research Program, <a
+href="09_future-if-unchecked_paper.html">Chapter 09: Future if No Action
+Is Taken</a> (see <a
+href="#appendix-a10-chapter-09-future-if-no-action-is-taken">Appendix
+A10</a>); AI Empire Research Program, <a
+href="10_three-reform-program_paper.html">Chapter 10: What To Do</a>
+(see <a href="#appendix-a11-chapter-10-what-to-do">Appendix A11</a>)<a
+href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>Series sources: AI Empire Research Program, <a
+href="07_imperial-control-over-access_paper.html">Chapter 07: Imperial
+Control Over Access</a> (see <a
+href="#appendix-a8-chapter-07-imperial-control-over-access">Appendix
+A8</a>); AI Empire Research Program, <a
+href="08_legitimacy-and-institutional-capture_paper.html">Chapter 08:
+Power Network, Legitimacy, and Institutional Capture</a> (see <a
+href="#appendix-a9-chapter-08-power-network-legitimacy-and-institutional-capture">Appendix
+A9</a>); AI Empire Research Program, <a
+href="09_future-if-unchecked_paper.html">Chapter 09: Future if No Action
+Is Taken</a> (see <a
+href="#appendix-a10-chapter-09-future-if-no-action-is-taken">Appendix
+A10</a>); AI Empire Research Program, <a
+href="10_three-reform-program_paper.html">Chapter 10: What To Do</a>
+(see <a href="#appendix-a11-chapter-10-what-to-do">Appendix A11</a>)<a
+href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>Series sources: AI Empire Research Program, <a
+href="01_social-networks-data-capture_paper.html">Chapter 01: Social
+Networks as Infrastructure for Free Data Capture</a> (see <a
+href="#appendix-a2-chapter-01-social-networks-as-infrastructure-for-free-data-capture">Appendix
+A2</a>); AI Empire Research Program, <a
+href="02_social-erosion-and-moral-reconfiguration_paper.html">Chapter
+02: Social Erosion and Moral Reconfiguration</a> (see <a
+href="#appendix-a3-chapter-02-social-erosion-and-moral-reconfiguration">Appendix
+A3</a>); AI Empire Research Program, <a
+href="04_data-models-weights_paper.html">Chapter 04: AI Arrives When the
+Human Raw Material Already Exists</a> (see <a
+href="#appendix-a5-chapter-04-ai-arrives-when-the-human-raw-material-already-exists">Appendix
+A5</a>); AI Empire Research Program, <a
+href="07_imperial-control-over-access_paper.html">Chapter 07: Imperial
+Control Over Access</a> (see <a
+href="#appendix-a8-chapter-07-imperial-control-over-access">Appendix
+A8</a>); AI Empire Research Program, <a
+href="08_legitimacy-and-institutional-capture_paper.html">Chapter 08:
+Power Network, Legitimacy, and Institutional Capture</a> (see <a
+href="#appendix-a9-chapter-08-power-network-legitimacy-and-institutional-capture">Appendix
+A9</a>); AI Empire Research Program, <a
+href="10_three-reform-program_paper.html">Chapter 10: What To Do</a>
+(see <a href="#appendix-a11-chapter-10-what-to-do">Appendix A11</a>)<a
+href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p>Series sources: AI Empire Research Program, <a
+href="00_opening-framework_paper.html">Chapter 00: Opening Framework</a>
+(see <a href="#appendix-a1-chapter-00-opening-framework">Appendix
+A1</a>); AI Empire Research Program, <a
+href="03_covid-historical-accelerator_paper.html">Chapter 03: COVID as a
+Historical Accelerator</a> (see <a
+href="#appendix-a4-chapter-03-covid-as-a-historical-accelerator">Appendix
+A4</a>); AI Empire Research Program, <a
+href="04_data-models-weights_paper.html">Chapter 04: AI Arrives When the
+Human Raw Material Already Exists</a> (see <a
+href="#appendix-a5-chapter-04-ai-arrives-when-the-human-raw-material-already-exists">Appendix
+A5</a>); AI Empire Research Program, <a
+href="08_legitimacy-and-institutional-capture_paper.html">Chapter 08:
+Power Network, Legitimacy, and Institutional Capture</a> (see <a
+href="#appendix-a9-chapter-08-power-network-legitimacy-and-institutional-capture">Appendix
+A9</a>)<a href="#fnref10" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p>Series sources: AI Empire Research Program, <a
+href="03_covid-historical-accelerator_paper.html">Chapter 03: COVID as a
+Historical Accelerator</a> (see <a
+href="#appendix-a4-chapter-03-covid-as-a-historical-accelerator">Appendix
+A4</a>); AI Empire Research Program, <a
+href="04_data-models-weights_paper.html">Chapter 04: AI Arrives When the
+Human Raw Material Already Exists</a> (see <a
+href="#appendix-a5-chapter-04-ai-arrives-when-the-human-raw-material-already-exists">Appendix
+A5</a>); AI Empire Research Program, <a
+href="10_three-reform-program_paper.html">Chapter 10: What To Do</a>
+(see <a href="#appendix-a11-chapter-10-what-to-do">Appendix A11</a>)<a
+href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn12"><p>Series sources: AI Empire Research Program, <a
+href="01_social-networks-data-capture_paper.html">Chapter 01: Social
+Networks as Infrastructure for Free Data Capture</a> (see <a
+href="#appendix-a2-chapter-01-social-networks-as-infrastructure-for-free-data-capture">Appendix
+A2</a>); AI Empire Research Program, <a
+href="04_data-models-weights_paper.html">Chapter 04: AI Arrives When the
+Human Raw Material Already Exists</a> (see <a
+href="#appendix-a5-chapter-04-ai-arrives-when-the-human-raw-material-already-exists">Appendix
+A5</a>); AI Empire Research Program, <a
+href="07_imperial-control-over-access_paper.html">Chapter 07: Imperial
+Control Over Access</a> (see <a
+href="#appendix-a8-chapter-07-imperial-control-over-access">Appendix
+A8</a>); AI Empire Research Program, <a
+href="08_legitimacy-and-institutional-capture_paper.html">Chapter 08:
+Power Network, Legitimacy, and Institutional Capture</a> (see <a
+href="#appendix-a9-chapter-08-power-network-legitimacy-and-institutional-capture">Appendix
+A9</a>); AI Empire Research Program, <a
+href="10_three-reform-program_paper.html">Chapter 10: What To Do</a>
+(see <a href="#appendix-a11-chapter-10-what-to-do">Appendix A11</a>)<a
+href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13"><p>Series sources: AI Empire Research Program, <a
+href="00_opening-framework_paper.html">Chapter 00: Opening Framework</a>
+(see <a href="#appendix-a1-chapter-00-opening-framework">Appendix
+A1</a>); AI Empire Research Program, <a
+href="09_future-if-unchecked_paper.html">Chapter 09: Future if No Action
+Is Taken</a> (see <a
+href="#appendix-a10-chapter-09-future-if-no-action-is-taken">Appendix
+A10</a>); AI Empire Research Program, <a
+href="10_three-reform-program_paper.html">Chapter 10: What To Do</a>
+(see <a href="#appendix-a11-chapter-10-what-to-do">Appendix A11</a>)<a
+href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+</body>
+</html>

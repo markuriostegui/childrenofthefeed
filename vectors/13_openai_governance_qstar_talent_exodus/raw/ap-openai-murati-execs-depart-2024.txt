@@ -1,0 +1,9 @@
+Source: Associated Press
+URL: https://apnews.com/article/df75217584696b442935dbccc9b0347d
+Published: 2024-09-25
+
+Relevant extracted text:
+- Mira Murati announced she was leaving OpenAI after six years.
+- AP reported that chief research officer Bob McGrew and research leader Barret Zoph were also departing.
+- Sam Altman said the decisions were independent and amicable, while acknowledging the difficulty of leadership changes in a fast-growing company.
+- AP situated the departures within a broader pattern that already included Schulman, Brockman, and Sutskever.

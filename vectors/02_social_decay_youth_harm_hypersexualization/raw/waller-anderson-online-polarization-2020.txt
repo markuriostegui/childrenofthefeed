@@ -1,0 +1,14 @@
+Source: arXiv
+URL: https://arxiv.org/abs/2010.00590
+Published: 2020-10-01
+
+Relevant extracted findings from the abstract and metadata page:
+- The paper is titled "Quantifying social organization and political polarization in online platforms" by Isaac Waller and Ashton Anderson.
+- The study applies a neural embedding methodology to 5.1 billion Reddit comments made in 10,000 communities over 14 years.
+- It measures macroscale online community structure with respect to age, gender, and U.S. political partisanship.
+- The abstract states that Reddit underwent a significant polarization event around the 2016 U.S. presidential election and remained highly polarized for years afterward.
+- The abstract also states that individual-level polarization was rare, while the system-level shift was disproportionately driven by the arrival of new and newly political users.
+- The authors report an ideological asymmetry in which the sharp increase in 2016 was attributable to changes in right-wing activity.
+
+Normalization note:
+This text snapshot was created from the arXiv abstract page because the built-in `capture-web` command failed in the current shell network environment.

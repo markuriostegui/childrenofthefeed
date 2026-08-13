@@ -1,0 +1,11 @@
+Source: Reuters, "Exclusive: OpenAI working on new reasoning technology under code name 'Strawberry'"
+URL: https://www.reuters.com/technology/artificial-intelligence/openai-working-new-reasoning-technology-under-code-name-strawberry-2024-07-12/
+Published: 2024-07-15
+Captured: 2026-07-03T01:10:00Z
+Capture mode: manual-web-excerpt
+
+Verified citation and reference points from Codex web capture:
+- Public reference records list Reuters as the publisher and July 15, 2024 as the publication date.
+- The exact title is: "Exclusive: OpenAI working on new reasoning technology under code name 'Strawberry'."
+- Public reference records about OpenAI o1 place this Reuters article in the pre-release background of the reasoning-model line.
+- Full Reuters article text was not directly retrievable in the current environment, so this source is stored as a reporting-trail anchor with tightly bounded use.

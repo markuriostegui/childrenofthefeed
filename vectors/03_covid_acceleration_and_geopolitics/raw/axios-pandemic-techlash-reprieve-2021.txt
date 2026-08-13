@@ -1,0 +1,10 @@
+Pandemic provides a techlash reprieve
+Source: Axios
+Published: 2021-03-10
+URL: https://www.axios.com/2021/03/10/pandemic-provides-techlash-reprieve
+
+Normalized extract based on captured result text and article framing:
+- Axios reports that big tech entered 2021 under bipartisan antitrust pressure, but the pandemic shifted the political atmosphere by making large platforms look less like optional consumer products and more like indispensable infrastructure.
+- The piece frames COVID as a temporary reprieve for the pre-pandemic techlash because commerce, work, schooling, and social contact were all routed more heavily through dominant digital firms during lockdown conditions.
+- The reporting does not argue that scrutiny disappeared; it argues that the political and public context changed in ways that softened near-term pressure while dependence on large technology companies increased.
+- Use this source as a supporting bridge for the concentration-and-dependence story, not as the sole proof of market structure or long-term regulatory outcomes.

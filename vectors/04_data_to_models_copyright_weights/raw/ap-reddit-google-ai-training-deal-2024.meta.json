@@ -1,0 +1,12 @@
+{
+  "source_id": "ap-reddit-google-ai-training-deal-2024",
+  "vector_id": "04_data_to_models_copyright_weights",
+  "url": "https://apnews.com/article/a7f131c7cb4225307134ef21d3c6a708",
+  "captured_at": "2026-07-03T01:30:11Z",
+  "mode": "manual-web-extract",
+  "paths": [
+    "/Users/hassan/repos/AI-Empire/vectors/04_data_to_models_copyright_weights/raw/ap-reddit-google-ai-training-deal-2024.html",
+    "/Users/hassan/repos/AI-Empire/vectors/04_data_to_models_copyright_weights/raw/ap-reddit-google-ai-training-deal-2024.txt"
+  ],
+  "note": "Manual normalized text artifact created from a verified AP HTML capture and article metadata."
+}

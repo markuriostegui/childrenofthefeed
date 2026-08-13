@@ -1,0 +1,703 @@
+Subscribe to read
+{"@context":"http://schema.org","@type":"NewsArticle","headline":"Who’s left at OpenAI? Sam Altman consolidates power after failed coup","datePublished":"2024-09-28T04:00:11.822Z","dateModified":"2024-09-28T04:00:11.822Z","isAccessibleForFree":"False","isPartOf":{"@type":["CreativeWork","Product"],"name":"Financial Times","productID":"ft.com:subscribed"},"image":{"@type":"ImageObject","@context":"http://schema.org","url":"https://d1e00ek4ebabms.cloudfront.net/production/5df17040-be92-4696-89d8-a706742fa1f9.jpg","width":2048,"height":1152},"author":[{"@type":"Person","@context":"http://schema.org","name":"Madhumita Murgia","url":"https://www.ft.com/madhumita-murgia","worksFor":{"@type":"Organization","@context":"http://schema.org","name":"Financial Times","legalName":"The Financial Times Ltd.","logo":{"@type":"ImageObject","@context":"http://schema.org","url":"https://im.ft-static.com/m/img/masthead_main.jpg","width":435,"height":36},"url":"https://www.ft.com","sameAs":["https://www.twitter.com/FT","https://www.facebook.com/financialtimes","https://www.linkedin.com/company/financial-times","https://www.youtube.com/user/FinancialTimesVideos","https://www.instagram.com/financialtimes"]}},{"@type":"Person","@context":"http://schema.org","name":"Cristina Criddle","url":"https://www.ft.com/cristina-criddle","worksFor":{"@type":"Organization","@context":"http://schema.org","name":"Financial Times","legalName":"The Financial Times Ltd.","logo":{"@type":"ImageObject","@context":"http://schema.org","url":"https://im.ft-static.com/m/img/masthead_main.jpg","width":435,"height":36},"url":"https://www.ft.com","sameAs":["https://www.twitter.com/FT","https://www.facebook.com/financialtimes","https://www.linkedin.com/company/financial-times","https://www.youtube.com/user/FinancialTimesVideos","https://www.instagram.com/financialtimes"]}}],"publisher":{"@type":"Organization","@context":"http://schema.org","name":"Financial Times","legalName":"The Financial Times Ltd.","logo":{"@type":"ImageObject","@context":"http://schema.org","url":"https://im.ft-static.com/m/img/masthead_main.jpg","width":435,"height":36},"url":"https://www.ft.com","sameAs":["https://www.twitter.com/FT","https://www.facebook.com/financialtimes","https://www.linkedin.com/company/financial-times","https://www.youtube.com/user/FinancialTimesVideos","https://www.instagram.com/financialtimes"]}}
+{"@context":"http://schema.org","@type":"WebSite","name":"Financial Times","alternateName":"FT.com","url":"https://www.ft.com/"}
+function buildAWETrackingEvent(event) {
+                        const eventProperties = event?.eventProperties || {};
+                        const oTrackingEvent = new CustomEvent('oTracking.event', {
+                            bubbles: true,
+                            cancelable: true,
+                            detail: {
+                                category: 'amplitudeExperiment',
+                                action: 'impression',
+                                event_properties: {
+                                    flag_key: eventProperties.flag_key,
+                                    variant: eventProperties.variant,
+                                    experiment_key: eventProperties.experiment_key,
+                                },
+                            },
+                        });
+
+                        return oTrackingEvent;
+                    };
+                    window.experimentIntegration = {
+                        getUser: () => {
+                            return {
+                                device_id: "undefined",
+                            };
+                        },
+                        track: (event) => {
+                            try {
+                                const oTrackingEvent = buildAWETrackingEvent(event);
+                                window.addEventListener('load', (e) => {
+                                    document.body.dispatchEvent(oTrackingEvent);
+                                });
+                            } catch (err) {
+                                console.error('Error tracking Amplitude Web Experiment event', err);
+                            }
+                            return true;
+                        }
+                    };
+{"trackErrors":true,"core":[],"enhanced":["https://www.ft.com/__assets/hashed/page-kit/webpack-runtime.0909ca680c15.bundle.js","https://www.ft.com/__assets/hashed/page-kit/page-kit-components.01c579547da5.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-tracking.2a6987b047b2.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-n-tracking.d99aa4a65058.bundle.js","https://www.ft.com/__assets/hashed/page-kit/shared.stable.cd85a4dc2ec8.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-header.eb39557587c6.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-viewport.c3855bf500bc.bundle.js","https://www.ft.com/__assets/hashed/page-kit/preact.26a4ff03152d.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-toggle.bb7cc3c7d3ce.bundle.js","https://www.ft.com/__assets/hashed/page-kit/privacy-components.cbab31bd6462.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-grid.491385bf7f88.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-utils.2ebfbd07cd46.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-footer.7f83cd9b228a.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-private-foundation.ed2547148468.bundle.js","https://www.ft.com/__assets/hashed/page-kit/821.2a136df6a9cb.bundle.js","https://www.ft.com/__assets/hashed/page-kit/zephrBarriersScripts.6f3ef85553f0.bundle.js","https://consent-notice.ft.com/cmp.js"]}
+;(function () {
+  var doc = document.documentElement
+  var isEnhanced = isEnhancedBrowser()
+  var scriptsConfig = getScriptsConfig()
+  var scriptsToLoad = []
+  var currentScript = document.scripts[document.scripts.length - 1]
+
+  doc.className = doc.className.replace('no-js', 'js')
+
+  if (isEnhanced) {
+    doc.className = doc.className.replace('core', 'enhanced')
+    Array.prototype.push.apply(scriptsToLoad, scriptsConfig.enhanced)
+  } else {
+    Array.prototype.push.apply(scriptsToLoad, scriptsConfig.core)
+  }
+
+  for (var i = 0, len = scriptsToLoad.length; i < len; i++) {
+    loadScript(scriptsToLoad[i])
+  }
+
+  function scriptLoadError(error) {
+    var script = error.target ? error.target.src : null
+
+    if (script) {
+      console.error('The script ' + script + ' failed to load') // eslint-disable-line no-console
+    }
+
+    const scriptHost = new URL(script).hostname
+
+    if (/enhanced/.test(doc.className)) {
+      if (scriptHost === 'www.ft.com') {
+        console.warn('Script loading failed, reverting to core experience') // eslint-disable-line no-console
+        doc.className = doc.className.replace('enhanced', 'core')
+      } else {
+        console.warn('Third-party script, not reverting to core experience') // eslint-disable-line no-console
+      }
+    }
+
+    if (scriptsConfig.trackErrors) {
+      addErrorTrackingPixel(script)
+    }
+  }
+
+  function loadScript(src) {
+    var script = document.createElement('script')
+    script.onerror = scriptLoadError
+    script.async = false
+    script.src = src
+    currentScript.parentNode.insertBefore(script, currentScript)
+  }
+
+  // "Cut the mustard" test
+  // by Maggie Allen and Matt Hinchliffe November 2018
+  function isEnhancedBrowser() {
+    var script = document.createElement('script')
+    var input = document.createElement('input')
+
+    return (
+      'visibilityState' in document && // not supported by old Android (4.0-4.4) without a prefix
+      'indeterminate' in input && // not supported by BB 10
+      'flex' in doc.style && // not supported by old Safari (< 9) or IE 6-10
+      'async' in script // not supported by old Opera (Presto engine < 15)
+    )
+  }
+
+  function getScriptsConfig() {
+    var scriptsConfigEl = document.getElementById('page-kit-bootstrap-config')
+    var scriptsConfig = { core: [], enhanced: [], trackErrors: false }
+
+    if (scriptsConfigEl) {
+      try {
+        scriptsConfig = JSON.parse(scriptsConfigEl.innerHTML)
+      } catch (error) {
+        console.error('Bootstrap configuration error', error) // eslint-disable-line no-console
+      }
+    }
+
+    return scriptsConfig
+  }
+
+  function addErrorTrackingPixel(script) {
+    var img = new Image()
+
+    var data = JSON.stringify({
+      category: 'javascript',
+      action: 'load-error',
+      system: {
+        source: 'page-kit'
+      },
+      context: {
+        script: script
+      }
+    })
+
+    img.src = 'https://spoor-api.ft.com/px.gif?data=' + encodeURIComponent(data)
+  }
+})()
+(function(w,d,s,l){
+    w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});
+    var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+    j.async=true;
+    j.src='https://www.googletagmanager.com/gtm.js?id=GTM-NWQJW68'+dl;
+    f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer');
+Accessibility help
+Skip to navigation
+Skip to main content
+Skip to footer
+Sign In
+Subscribe
+Open side navigation menu
+Open search bar
+Financial Times
+Subscribe
+Sign In
+Search the
+FT
+Search
+Close search bar
+Close
+Home
+World
+Sections
+World Home
+Middle East war
+Global Economy
+UK
+US
+China
+Africa
+Asia Pacific
+Emerging Markets
+Europe
+War in Ukraine
+Americas
+Middle East & North Africa
+Most Read
+OpenAI proposes handing Trump administration 5% stake
+Russia unleashes huge bombardment on Kyiv
+HMRC’s clampdown on the corporate structure that saves City firms millions
+Trump made up to $1.4bn in stock purchases in 2025
+Pancakes and holograms fail to draw crowds to Trump’s ‘Freedom 250’ fair
+US
+Sections
+US Home
+US Economy
+US Companies
+US Politics & Policy
+Most Read
+OpenAI proposes handing Trump administration 5% stake
+Trump made up to $1.4bn in stock purchases in 2025
+Pancakes and holograms fail to draw crowds to Trump’s ‘Freedom 250’ fair
+US economy undershoots forecasts with 57,000 jobs added in June
+Trump blocks long-term renewal of North America trade pact
+Companies
+Sections
+Companies Home
+Energy
+Financials
+Health
+Industrials
+Media
+Professional Services
+Retail & Consumer
+Tech Sector
+Telecoms
+Transport
+Most Read
+OpenAI proposes handing Trump administration 5% stake
+Argentina angered by prospect of oil boom in Falklands
+HMRC’s clampdown on the corporate structure that saves City firms millions
+PwC picks Canary Wharf for new London office
+This is how we can make AI safe for everyone
+Tech
+Sections
+Tech Home
+Artificial intelligence
+Semiconductors
+Cyber Security
+Social Media
+Most Read
+OpenAI proposes handing Trump administration 5% stake
+This is how we can make AI safe for everyone
+Sony is first console giant to stop making physical games
+AOL and Eventbrite owner Bending Spoons soars 40% on Nasdaq debut
+Google loses appeal against record €4.1bn EU fine over Android
+Markets
+Sections
+Markets Home
+Alphaville
+Markets Data
+Private markets
+Equities
+Bonds
+Currencies
+Commodities
+Crypto
+Monetary Policy Radar
+Wealth Management
+Moral Money
+ETF Hub
+Asset management
+Most Read
+Argentina angered by prospect of oil boom in Falklands
+Trump made up to $1.4bn in stock purchases in 2025
+What will murder the bull market?
+Bank of England to push ahead with plan to limit hedge fund leverage
+Woah-oh, we’re halfway there
+Climate
+Opinion
+Sections
+Opinion Home
+Columnists
+The FT View
+The Big Read
+Lex
+Obituaries
+Letters
+Most Read
+The economics of women’s weight
+This is how we can make AI safe for everyone
+Andy Burnham and the politics of nostalgia
+Can Kevin Warsh tame the Fed’s $7tn balance sheet?
+Burnham should beware uncanny echoes of the 1930s on defence
+Lex
+Stock Picking Game
+Life & Arts
+Sections
+Life & Arts Home
+Arts
+Books
+Food & Drink
+FT Magazine
+House & Home
+Style
+Puzzles
+Travel
+FT Globetrotter
+Most Read
+Sony is first console giant to stop making physical games
+Morgan McSweeney: ‘I felt guilty about what I’d done to Keir’
+Chanel acquires luxury Parisian shirtmaker Charvet
+The Invite — Olivia Wilde and Seth Rogen fumble hilariously in mid-life sex comedy
+Uniqlo’s plan to dominate global fashion
+How To Spend It
+Menu
+Search
+Home
+World
+US
+Companies
+Tech
+Markets
+Climate
+Opinion
+Lex
+Stock Picking Game
+Life & Arts
+How To Spend It
+Financial Times
+Subscribe
+Sign In
+Search the
+FT
+Search
+Close search bar
+Close
+.css-1m1hvci{padding-top:var(--o3-spacing-s);margin-bottom:var(--o3-spacing-s);background-image:linear-gradient(color-mix(in srgb, var(--o3-color-palette-black) 60%, transparent), var(--o3-color-palette-black)),url(https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F5df17040-be92-4696-89d8-a706742fa1f9.jpg?source=next-barrier-page);-webkit-background-size:cover;background-size:cover;background-repeat:no-repeat;color:var(--o3-color-use-case-body-inverse-text);}@media (min-width: 740px){.css-1m1hvci{padding-top:var(--o3-spacing-xl);margin-bottom:var(--o3-spacing-xl);}}.css-1m1hvci p{margin:0;}
+.css-bticxj{margin-bottom:28px;}@media (min-width: 740px){.css-bticxj{margin-bottom:28px;}}@media (min-width: 980px){.css-bticxj{margin-bottom:40px;}}
+.css-1k8i55w{margin:0 0 0 var(--o3-spacing-s);}
+.css-6zxfpg{margin:0;}.css-6zxfpg blockquote{margin:0;position:relative;}.css-6zxfpg blockquote::after,.css-6zxfpg blockquote::before{display:inline-block;z-index:0;opacity:0.2;background-color:var(--o3-color-palette-black-10);height:40px;width:40px;content:'';-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:contain;mask-size:contain;}@media (min-width: 740px){.css-6zxfpg blockquote::after,.css-6zxfpg blockquote::before{height:50px;width:50px;}}.css-6zxfpg blockquote::after{-webkit-mask-image:var(--o3-icon-quote-right);mask-image:var(--o3-icon-quote-right);position:relative;vertical-align:text-top;top:0.5rem;right:1rem;}@media (min-width: 740px){.css-6zxfpg blockquote::after{top:1rem;}}.css-6zxfpg blockquote::before{-webkit-mask-image:var(--o3-icon-quote-left);mask-image:var(--o3-icon-quote-left);position:absolute;left:calc((var(--o3-spacing-s) + 4px) * -1);top:-1rem;}
+Who’s left at OpenAI? Sam Altman consolidates power after failed coup
+.css-127h5am{margin-bottom:24px;}@media (min-width: 740px){.css-127h5am{margin-bottom:32px;}}@media (min-width: 980px){.css-127h5am{margin-bottom:32px;}}
+.css-6rin83{--unlock-article-color:var(--o3-color-use-case-body-inverse-text);color:var(--unlock-article-color);text-align:center;}
+.css-6drv6j{display:grid;padding:0;grid-template-columns:1fr 20px 1fr;grid-template-rows:1fr 1fr 1fr;row-gap:4px;-webkit-column-gap:20px;column-gap:20px;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}.css-6drv6j>:nth-of-type(4){grid-column:span 3;}.css-6drv6j>:nth-of-type(5){grid-column:span 3;}@media (min-width: 740px){.css-6drv6j{grid-template-columns:1fr 20px auto 1fr;grid-template-rows:24px;}.css-6drv6j>:nth-of-type(3){display:none;}.css-6drv6j>:nth-of-type(4){grid-column:3/3;}.css-6drv6j>:nth-of-type(5){grid-column:4/4;}}
+.css-ti6up5{border-top:1px solid var(--unlock-article-color);}
+.css-1uvweu1{display:inline-block;background-color:var(--unlock-article-color);width:20px;height:20px;-webkit-mask-image:var(--o3-icon-lock);mask-image:var(--o3-icon-lock);-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:contain;mask-size:contain;}
+Subscribe to unlock this article
+.css-13hw3ep{margin-bottom:var(--o3-spacing-s);}
+.css-eh7lb7{margin:0;}
+Try unlimited access
+Only
+.css-79fz17{-webkit-text-decoration:none;text-decoration:none;}
+MX$100
+for 4 weeks
+.css-1h69zf4{margin:0;white-space:pre-wrap;font-family:var(--o3-type-body-base-font-family);font-weight:var(--o3-type-body-base-font-weight);font-size:var(--o3-type-body-base-font-size);line-height:var(--o3-type-body-base-line-height);color:var(--o3-color-use-case-support-inverse-text);}
+Then
+MX$1475
+per month. Complete digital access to quality FT journalism on any device. Cancel anytime during your trial.
+.css-az38g4{margin-bottom:0;}
+.css-13nnyzo{margin-bottom:var(--o3-spacing-s);}@media (min-width: 740px){.css-13nnyzo{margin-bottom:var(--o3-spacing-xl);}}
+.css-1fdw1ra{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding-bottom:2rem;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}.css-1fdw1ra .link-button{margin-bottom:var(--o3-spacing-5xs);}@media (min-width: 490px){.css-1fdw1ra{-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;}.css-1fdw1ra .link-button{margin-bottom:0%;margin-right:var(--o3-spacing-5xs);}}
+Keep reading for
+MX$100
+What’s included
+.css-181mf0j{color:var(--o3-color-use-case-body-inverse-text);padding-bottom:1rem;}.css-181mf0j[aria-hidden='true']{display:none;}.css-181mf0j ul{list-style:none;-webkit-padding-start:0;padding-inline-start:0;}
+.css-1apc9os{padding-bottom:1rem;}.css-1apc9os:before{content:'';background-color:var(--o3-color-palette-teal-50);-webkit-mask-image:var(--o3-icon-tick);mask-image:var(--o3-icon-tick);-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:contain;mask-size:contain;width:24px;height:24px;display:inline-block;padding-right:1rem;vertical-align:middle;}
+Global news & analysis
+Expert opinion
+FT App on Android & iOS
+First FT: the day’s biggest stories
+20+ curated newsletters
+Follow topics & set alerts with myFT
+FT Videos & Podcasts
+10 additional monthly gift articles to share
+Lex: FT’s flagship investment column
+15+ Premium newsletters from leading experts
+FT Digital Edition: our digitised print edition
+.css-wjmu7y{margin-bottom:var(--o3-spacing-s);}@media (min-width: 980px){.css-wjmu7y{padding-right:0;}}.css-wjmu7y p{margin:0;}
+@media (min-width: 980px){.css-1xutq83.css-1xutq83{margin-bottom:48px;}}
+Explore more offers.
+.css-1fppu3m{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;margin-bottom:0;}@media (min-width: 980px){.css-1fppu3m{margin-bottom:var(--o3-spacing-xl);-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;}}@media (min-width: 980px){.css-1fppu3m>:first-child{margin-left:calc(-1 * var(--o3-spacing-xs));}}.css-1fppu3m>:not(:last-child){border-bottom:1px solid var(--o3-color-palette-black-10);}@media (min-width: 980px){.css-1fppu3m>:not(:last-child){border-bottom:none;border-right:1px solid var(--o3-color-palette-black-10);}}
+.css-1ih92gu{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;margin-top:var(--o3-spacing-m);}.css-1ih92gu .o-grid-row{margin-left:0;}.css-1ih92gu [data-o-grid-colspan]{padding-left:0;}@media (min-width: 980px){.css-1ih92gu{margin-top:54px;min-width:0;max-width:none;-webkit-flex:1;-ms-flex:1;flex:1;}}
+.css-1onnxdk{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-flex:1;-ms-flex:1;flex:1;padding:0 var(--o3-spacing-4xs) var(--o3-spacing-m);}@media (min-width: 980px){.css-1onnxdk{padding:0 0 0;}}
+.css-1elfoxc{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;justify-items:left;margin-bottom:var(--o3-spacing-2xs);}@media (min-width: 980px){.css-1elfoxc{-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:flex-start;-webkit-box-align:flex-start;-ms-flex-align:flex-start;align-items:flex-start;}}.css-1elfoxc h3{margin:0;}@media (min-width: 980px){.css-1elfoxc h3{margin:0 0 var(--o3-spacing-4xs) 0;}}
+.css-1werhoz{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;height:64px;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}@media (min-width: 980px){.css-1werhoz{-webkit-align-items:flex-end;-webkit-box-align:flex-end;-ms-flex-align:flex-end;align-items:flex-end;}}.css-1werhoz img{margin:0 var(--o3-spacing-3xs) 0 0;}@media (min-width: 980px){.css-1werhoz img{margin:0 0 var(--o3-spacing-4xs) 0;}}
+FT Digital Edition
+.css-1rea6b9{margin:0;white-space:break-spaces;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:baseline;-webkit-box-align:baseline;-ms-flex-align:baseline;align-items:baseline;color:var(--o3-color-use-case-body-text);}.css-1rea6b9 .price,.css-1rea6b9 .crossed-out-price{font-size:30px;}.css-1rea6b9 .crossed-out-price{color:var(--o3-color-use-case-muted-text);}
+.css-79fz17{-webkit-text-decoration:none;text-decoration:none;}
+MX$325
+per month
+.css-pmzbjb{color:var(--o3-color-use-case-support-text);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex:1;-ms-flex:1;flex:1;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;padding:1em 0;margin-bottom:var(--o3-spacing-3xs);}.css-pmzbjb p{margin:0;}@media (min-width: 980px){.css-pmzbjb{-webkit-flex:none;-ms-flex:none;flex:none;}}
+Our digitised version of the FT newspaper, for easy reading on any device.
+@media (min-width: 490px){.css-1u6k45e{-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-flex-wrap:nowrap;-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap;}}.css-1u6k45e [id^='select-button']{margin-bottom:var(--o3-spacing-4xs);}@media (min-width: 490px){.css-1u6k45e [id^='select-button']{margin-bottom:0;margin-right:var(--o3-spacing-4xs);}}
+Select
+What's included
+.css-1n99znb{color:var(--o3-color-use-case-body-text);-webkit-flex:1 0 auto;-ms-flex:1 0 auto;flex:1 0 auto;}.css-1n99znb[aria-hidden='true']{display:none;}.css-1n99znb ul{padding:0;}
+.css-i7yamd{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+.css-1edpyo9{height:50px;width:28px;-webkit-background-size:28px 40px;background-size:28px 40px;background-image:url(https://images.ft.com/v3/image/raw/https%3A%2F%2Fbarrier-page-components.s3.eu-west-1.amazonaws.com%2Fassets%2Ficons%2Fft_digital_edition_text.svg?format=svg&source=next-barrier-page);background-repeat:no-repeat;-webkit-background-position:left;background-position:left;padding-right:1.5rem;}
+FT Digital Edition: our digitised print edition
+.css-x8dj7x{height:50px;width:28px;-webkit-background-size:28px 40px;background-size:28px 40px;background-image:url(https://images.ft.com/v3/image/raw/https%3A%2F%2Fbarrier-page-components.s3.eu-west-1.amazonaws.com%2Fassets%2Ficons%2Fglobal_news.svg?format=svg&source=next-barrier-page);background-repeat:no-repeat;-webkit-background-position:left;background-position:left;padding-right:1.5rem;}
+Global news & analysis
+.css-mt1dx6{height:50px;width:28px;-webkit-background-size:28px 40px;background-size:28px 40px;background-image:url(https://images.ft.com/v3/image/raw/https%3A%2F%2Fbarrier-page-components.s3.eu-west-1.amazonaws.com%2Fassets%2Ficons%2Fexpert_opinion.svg?format=svg&source=next-barrier-page);background-repeat:no-repeat;-webkit-background-position:left;background-position:left;padding-right:1.5rem;}
+Expert opinion
+.css-zbfppm{height:50px;width:28px;-webkit-background-size:28px 40px;background-size:28px 40px;background-image:url(https://images.ft.com/v3/image/raw/https%3A%2F%2Fbarrier-page-components.s3.eu-west-1.amazonaws.com%2Fassets%2Ficons%2Fprimary-product-icon-translate.svg?format=svg&source=next-barrier-page);background-repeat:no-repeat;-webkit-background-position:left;background-position:left;padding-right:1.5rem;}
+Translate instantly to 26 languages
+.css-9x860f{height:50px;width:28px;-webkit-background-size:28px 40px;background-size:28px 40px;background-image:url(https://images.ft.com/v3/image/raw/https%3A%2F%2Fbarrier-page-components.s3.eu-west-1.amazonaws.com%2Fassets%2Ficons%2Flex_text.svg?format=svg&source=next-barrier-page);background-repeat:no-repeat;-webkit-background-position:left;background-position:left;padding-right:1.5rem;}
+Lex: FT's flagship investment column
+.css-1j3ti3j{height:50px;width:28px;-webkit-background-size:28px 40px;background-size:28px 40px;background-image:url(https://images.ft.com/v3/image/raw/https%3A%2F%2Fbarrier-page-components.s3.eu-west-1.amazonaws.com%2Fassets%2Ficons%2Fprimary-product-icon-ft-magazines.svg?format=svg&source=next-barrier-page);background-repeat:no-repeat;-webkit-background-position:left;background-position:left;padding-right:1.5rem;}
+FT Magazines, including HTSI
+.css-vbeyv{height:50px;width:28px;-webkit-background-size:28px 40px;background-size:28px 40px;background-image:url(https://images.ft.com/v3/image/raw/https%3A%2F%2Fbarrier-page-components.s3.eu-west-1.amazonaws.com%2Fassets%2Ficons%2Fprimary-product-icon-offline-access.svg?format=svg&source=next-barrier-page);background-repeat:no-repeat;-webkit-background-position:left;background-position:left;padding-right:1.5rem;}
+Offline Access
+Standard Digital
+MX$999
+per month
+Essential digital access to quality FT journalism on any device. Pay a year upfront and save 20%.
+Select
+What's included
+Global news & analysis
+Expert opinion
+.css-11dqqw{height:50px;width:28px;-webkit-background-size:28px 40px;background-size:28px 40px;background-image:url(https://images.ft.com/v3/image/raw/https%3A%2F%2Fbarrier-page-components.s3.eu-west-1.amazonaws.com%2Fassets%2Ficons%2Fft_logo_android_ios.svg?format=svg&source=next-barrier-page);background-repeat:no-repeat;-webkit-background-position:left;background-position:left;padding-right:1.5rem;}
+FT App on Android & iOS
+.css-11ry4fr{height:50px;width:28px;-webkit-background-size:28px 40px;background-size:28px 40px;background-image:url(https://images.ft.com/v3/image/raw/https%3A%2F%2Fbarrier-page-components.s3.eu-west-1.amazonaws.com%2Fassets%2Ficons%2Fft_edit_app.svg?format=svg&source=next-barrier-page);background-repeat:no-repeat;-webkit-background-position:left;background-position:left;padding-right:1.5rem;}
+FT Edit: Access on iOS and web
+.css-hq0u77{height:50px;width:28px;-webkit-background-size:28px 40px;background-size:28px 40px;background-image:url(https://images.ft.com/v3/image/raw/https%3A%2F%2Fbarrier-page-components.s3.eu-west-1.amazonaws.com%2Fassets%2Ficons%2Ffirst_ft.svg?format=svg&source=next-barrier-page);background-repeat:no-repeat;-webkit-background-position:left;background-position:left;padding-right:1.5rem;}
+FirstFT: the day's biggest stories
+.css-ddg3oz{height:50px;width:28px;-webkit-background-size:28px 40px;background-size:28px 40px;background-image:url(https://images.ft.com/v3/image/raw/https%3A%2F%2Fbarrier-page-components.s3.eu-west-1.amazonaws.com%2Fassets%2Ficons%2Fmail_icon.svg?format=svg&source=next-barrier-page);background-repeat:no-repeat;-webkit-background-position:left;background-position:left;padding-right:1.5rem;}
+20+ curated newsletters
+.css-4am0es{height:50px;width:28px;-webkit-background-size:28px 40px;background-size:28px 40px;background-image:url(https://images.ft.com/v3/image/raw/https%3A%2F%2Fbarrier-page-components.s3.eu-west-1.amazonaws.com%2Fassets%2Ficons%2Fmy_ft.svg?format=svg&source=next-barrier-page);background-repeat:no-repeat;-webkit-background-position:left;background-position:left;padding-right:1.5rem;}
+Follow topics & set alerts with myFT
+.css-u0ppib{height:50px;width:28px;-webkit-background-size:28px 40px;background-size:28px 40px;background-image:url(https://images.ft.com/v3/image/raw/https%3A%2F%2Fbarrier-page-components.s3.eu-west-1.amazonaws.com%2Fassets%2Ficons%2Fvideos_and_podcasts.svg?format=svg&source=next-barrier-page);background-repeat:no-repeat;-webkit-background-position:left;background-position:left;padding-right:1.5rem;}
+FT Videos & Podcasts
+.css-1a8hgwp{height:50px;width:28px;-webkit-background-size:28px 40px;background-size:28px 40px;background-image:url(https://images.ft.com/v3/image/raw/https%3A%2F%2Fbarrier-page-components.s3.eu-west-1.amazonaws.com%2Fassets%2Ficons%2Fadditional_articles.svg?format=svg&source=next-barrier-page);background-repeat:no-repeat;-webkit-background-position:left;background-position:left;padding-right:1.5rem;}
+10 monthly gift articles to share
+.css-1nkjqk6{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;margin-top:var(--o3-spacing-m);margin-top:var(--o3-spacing-4xl);}.css-1nkjqk6 .o-grid-row{margin-left:0;}.css-1nkjqk6 [data-o-grid-colspan]{padding-left:0;}@media (min-width: 980px){.css-1nkjqk6{margin-top:54px;min-width:0;max-width:none;-webkit-flex:1;-ms-flex:1;flex:1;}}
+Premium Digital
+.css-k8gaqa{position:absolute;top:-54px;margin-bottom:var(--o3-spacing-s);}.css-k8gaqa div{color:var(--o3-color-use-case-body-inverse-text);background:var(--o3-color-palette-claret);display:inline-block;padding:var(--o3-spacing-4xs) var(--o3-spacing-3xs);border-radius:30px;}
+Complete coverage
+MX$1475
+per month
+Complete digital access to quality FT journalism with expert analysis from industry leaders. Pay a year upfront and save 20%.
+Select
+What's included
+Global news & analysis
+Expert opinion
+FT App on Android & iOS
+FT Edit: Access on iOS and web
+FirstFT: the day's biggest stories
+20+ curated newsletters
+Follow topics & set alerts with myFT
+FT Videos & Podcasts
+.css-z6yk43{height:50px;width:28px;-webkit-background-size:28px 40px;background-size:28px 40px;background-image:url(https://images.ft.com/v3/image/raw/https%3A%2F%2Fbarrier-page-components.s3.eu-west-1.amazonaws.com%2Fassets%2Ficons%2Fgift_articles_20.svg?format=svg&source=next-barrier-page);background-repeat:no-repeat;-webkit-background-position:left;background-position:left;padding-right:1.5rem;}
+20 monthly gift articles to share
+Lex: FT's flagship investment column
+.css-1fhm6qk{height:50px;width:28px;-webkit-background-size:28px 40px;background-size:28px 40px;background-image:url(https://images.ft.com/v3/image/raw/https%3A%2F%2Fbarrier-page-components.s3.eu-west-1.amazonaws.com%2Fassets%2Ficons%2Fblack_mail_icon.svg?format=svg&source=next-barrier-page);background-repeat:no-repeat;-webkit-background-position:left;background-position:left;padding-right:1.5rem;}
+15+ Premium newsletters by leading experts
+FT Digital Edition: our digitised print edition
+.css-hpnn4i{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;}.css-hpnn4i p:not(:last-child){margin-bottom:var(--o3-spacing-s);}.css-hpnn4i p{text-align:center;}@media (min-width: 980px){.css-hpnn4i{text-align:left;}}
+Check whether you already have access via your
+university
+or
+organisation.
+Terms & Conditions
+apply
+function debounce(func, wait, immediate) {
+      let timeout;
+      return function() {
+        const context = this, args = arguments;
+        const later = function() {
+          timeout = null;
+          if (!immediate) func.apply(context, args);
+        };
+        const callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+      };
+  }
+(function() {
+			// Function to calculate and set the maximum height of DetailsSection components
+			function alignButtonContainers() {
+				if (window.innerWidth > 980) {
+					const detailsSectionElements = document.querySelectorAll('.details-section');
+					let maxHeight = 0;
+
+					detailsSectionElements.forEach(el => {
+						// Reset before recalculating
+						el.style.height = 'auto';
+						// Get the height of the p element inside the DetailsSection component
+						const height = el.querySelector('p').getBoundingClientRect().height;
+						// Set the max height of the DetailsSection components
+						maxHeight = Math.max(maxHeight, height);
+					});
+
+					// Add the max height to all of the DetailsSection components
+					detailsSectionElements.forEach(el => {
+						el.style.height = `${maxHeight}px`;
+					});
+				}
+			}
+
+			// Setup event listeners on window load and resize
+
+			// Debounce the function that's being called on window resize
+			const debouncedAlign = debounce(alignButtonContainers, 250);
+
+			// Call function immediately to ensure it runs on the first load
+			alignButtonContainers();
+
+			window.addEventListener('resize', debouncedAlign);
+		})();
+.css-fi521k{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;background:var(--o3-color-use-case-page-inverse-background);}
+.css-timv14{margin-bottom:var(--o3-spacing-m);}@media (min-width: 740px){.css-timv14{margin-bottom:var(--o3-spacing-2xl);}}@media (min-width: 1150px){.css-timv14{min-width:1150px;}}
+.css-15ff7od.css-15ff7od{color:var(--o3-color-use-case-body-inverse-text);margin-top:var(--o3-spacing-s);margin-bottom:var(--o3-spacing-m);}@media (min-width: 740px){.css-15ff7od.css-15ff7od{margin-top:var(--o3-spacing-m);margin-bottom:var(--o3-spacing-xl);}}
+Explore our full range of subscriptions.
+.css-ddf1wi{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}@media (min-width: 980px){.css-ddf1wi{-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;}}
+.css-1jdhapl{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-flex:1;-ms-flex:1;flex:1;}.css-1jdhapl+.css-1jdhapl{margin-top:var(--o3-spacing-2xs);padding-top:var(--o3-spacing-m);border-top:1px solid color-mix(in srgb, var(--o3-color-palette-white) 15%, transparent);}@media (min-width: 980px){.css-1jdhapl+.css-1jdhapl{margin-top:0;padding-top:0;border-top:none;margin-left:var(--o3-spacing-s);padding-left:var(--o3-spacing-s);border-left:1px solid color-mix(in srgb, var(--o3-color-palette-white) 15%, transparent);}}
+.css-y0pnve{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:var(--o3-spacing-3xs);margin-bottom:var(--o3-spacing-2xs);}
+.css-l6tv8c{display:inline-block;width:24px;height:24px;background-color:var(--o3-color-use-case-body-inverse-text);-webkit-mask-image:var(--o3-icon-user);mask-image:var(--o3-icon-user);-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:contain;mask-size:contain;}
+.css-eh7lb7{margin:0;}
+For individuals
+.css-1b5zshh{color:var(--o3-color-use-case-support-inverse-text);margin:0;}@media (min-width: 740px) and (max-width: 1150px){.css-1b5zshh{min-height:var(--o3-spacing-xl);}}
+Discover all the plans currently available in your country
+.css-134bj3d{margin-top:var(--o3-spacing-s);}
+Digital
+Print
+Print + Digital
+.css-13sn3di{display:inline-block;width:24px;height:24px;background-color:var(--o3-color-use-case-body-inverse-text);-webkit-mask-image:var(--o3-icon-corporate);mask-image:var(--o3-icon-corporate);-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:contain;mask-size:contain;}
+For multiple readers
+Digital access for organisations. Includes exclusive features and content.
+FT Professional
+.css-zx564w{background-image:linear-gradient(
+			to top,
+			color-mix(in srgb, var(--o3-color-palette-black) 50%, transparent),
+			var(--o3-color-palette-black)
+		),url(https://images.ft.com/v3/image/raw/https%3A%2F%2Fbarrier-page-components.s3.eu-west-1.amazonaws.com%2Fassets%2Fimages%2Fbanner_bg_1800x800px_why_the_ft.jpg?source=next-barrier-page);background-repeat:no-repeat;-webkit-background-size:cover;background-size:cover;color:var(--o3-color-use-case-body-inverse-text);}
+.css-o199jv{padding-top:var(--o3-spacing-s);padding-bottom:var(--o3-spacing-m);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:flex-start;-webkit-box-align:flex-start;-ms-flex-align:flex-start;align-items:flex-start;}@media (min-width: 980px){.css-o199jv{padding-top:var(--o3-spacing-2xl);padding-bottom:var(--o3-spacing-3xl);}}
+.css-p2nigq{margin-bottom:var(--o3-spacing-s);}.css-p2nigq p{max-width:340px;margin:0;width:100%;}@media (min-width: 980px){.css-p2nigq p{max-width:365px;}}
+Why the FT?
+See why over a million readers pay to read the Financial Times.
+Find out why
+if (!window.Zephr) window.Zephr = {};
+if (!window.Zephr.outcomes) window.Zephr.outcomes = {};
+window.Zephr.outcomes["Paywall"] = { featureLabel: "Paywall", outcomeId: "transformation/426", outcomeLabel: "BAU Trial NP" };
+if (!window.Zephr) window.Zephr = {};
+window.Zephr.accessDetails = {"accessDecisions":{},"entitlements":{},"credits":{},"meters":{},"trials":{},"timeTrials":{},"testGroups":{"05349646-dada-4a81-9b2f-cfa5356f0c90":"B","a94eda37-9744-4cc8-85a5-18d6fa3879f8":"A","65b4e903-466d-4868-b0ad-1d729a67b0bd":"A","73d70735-6659-44fa-8b1f-2817a76ea257":"B","af14ef18-1cff-4c8c-9427-933611398b75":"D","d1dd4426-df91-4b98-af94-dffd1991f072":"B","493e294f-2337-4254-acfa-b5760ee3be41":"B","cebb038d-d643-4d58-b3f3-8cdbbada6d06":"B","2c1d38ee-15a3-42a5-b559-86589d16dc22":"A","9d84b3f5-eb57-4781-968f-d06392c2b66f":"B","5ebb8ee5-467b-4c17-af9b-f7f76dd9180e":"A","3b79ac2e-0ff2-4f51-b73a-6309a1559add":"A","0296d484-80a8-4aa8-8d77-ab420053aa5e":"B","0bb7f9a9-ef95-443b-a28d-d059bdd2d1ed":"A","2d5c55e9-c151-4ff9-9823-d1da35670ab9":"A","783f80a9-a83c-4e8b-b0b3-4a797c546769":"A","bef51e8c-415b-489c-b4d0-0922bbf651aa":"A","1832858d-3985-46e9-aad1-9865d37deddc":"A","032b9788-213d-42a4-8b54-adcfa8cbf47e":"A","155132c1-ca13-4771-ae17-cdf919f8170b":"A","31bf4d28-eed5-4ea3-909d-0e797cee18ae":"B","9fdc4cb5-e2bf-4c03-ab39-a662eaa1d4fe":"B","18e135b3-8aec-4ffb-bb86-79cb79a04152":"B","9e531c10-5e26-444d-a290-f5151ef62953":"B","100a2f15-1a33-4cd7-b9b2-df69d936b9a8":"A","99096acb-8e1d-433a-9354-2d3c04fb9cc1":"B","cc6a30ce-e20f-43c0-b6dd-314a05c452ea":"B","4f71c464-e964-4447-ba38-dc9970d45661":"B","c07270e6-6dfc-48d0-b035-1a423608bb86":"B","ce751594-554d-4adb-adbb-9786dd7b2ea2":"A","f1ad8775-bbdf-4fb9-96eb-754207a85023":"B","7f469912-1347-4d41-8f5b-ba1aeea93dc2":"A","81b216fd-9d0a-4519-8e38-a2676a44c03e":"A","f761488f-2965-48e2-bd26-7c44ca2c21f5":"A","301f391e-7419-4d28-97a3-13ac8ff3ea7d":"B","b0e41693-29d7-41ad-9da0-6187aaf5ef0a":"B","d9dc44b3-64f9-46ae-b88c-fb204fc8a7f4":"B","6323924a-b841-4e36-9667-6c91f506a71a":"B","f2ac8f39-6dcc-4454-8c75-44a7b2ffb248":"B","6b01874f-ebb8-43b2-a6ba-270fb6fce634":"B","48980332-1adc-405f-9f78-3b0ecb1a965e":"B","4c5194be-7ab8-4ee4-ba1a-a4e9b797bbf8":"A","8e3867bf-0bf8-4496-9226-a90e3271d630":"A","5fbba893-e652-4c49-bb4e-bfb29be97287":"A","9fcb4e36-92a3-45ae-be98-cdb72e494d28":"B","018ad6cb-b45a-4bfc-8c5b-8d9fb3ec59cf":"B","56aa2bb3-2fa8-406a-ab3d-91d968426eae":"B","670562a4-dd81-4384-af40-6f8bfd605e48":"B","daf043f8-0a2b-4e22-b42f-ad738d830e00":"B","fcc4419c-dcc2-4307-9abe-30b10e2389ee":"B","7a1a5642-9ac1-4df5-82ed-5584b893fc64":"B","0eab7b94-e216-41e1-a033-40abe8c0651d":"A","cce02ab2-8ec9-4c02-b129-763a52f48835":"A","0324c2a9-ef10-4263-a985-978507218a3e":"B","d51e93e6-525e-4968-966a-4e072d5bcf30":"A","783dbc24-085b-45b8-b8e4-1b05a5ebe6ff":"A","a2203f11-5fa9-4b0e-b3fe-ddc3224c0467":"A"},"activeProducts":[],"authenticated":false,"trialTrackingDetails":[]};
+Useful links
+Support
+Help Centre
+Contact Us
+About Us
+Accessibility
+Careers
+Suppliers
+Legal & Privacy
+Terms & Conditions
+Privacy Policy
+Cookie Policy
+Manage Cookies
+Copyright
+Slavery Statement & Policies
+Services
+Share News Tips Securely
+Individual Subscriptions
+Professional Subscriptions
+Republishing
+Executive Job Search
+Advertise with the FT
+Follow the FT on X
+FT Channels
+FT Schools
+Tools
+Portfolio
+FT App
+FT Digital Edition
+FT Edit
+Alerts Hub
+Business School Rankings
+Subscription Manager
+News feed
+Newsletters
+Currency Converter
+Community & Events
+FT Live Events
+FT Forums
+FT Leaders Academy
+More from the FT Group
+Markets data delayed by at least 15 minutes. © THE FINANCIAL TIMES LTD 2026.
+FT
+and ‘Financial Times’ are trademarks of The Financial Times Ltd.
+The Financial Times and its journalism are subject to a self-regulation regime under the
+FT Editorial Code of Practice
+.
+(function coreExperience() {
+    if (/\bcore\b/.test(document.documentElement.className)) {
+      // eslint-disable-next-line no-var
+      var currentScript = document.scripts[document.scripts.length - 1];
+      // eslint-disable-next-line no-var
+      var img = new Image();
+      img.alt = '';
+      img.src = currentScript.getAttribute('data-pixel-src');
+    }
+  })();
+Close side navigation menu
+Edition:
+International
+UK
+Search the
+FT
+Search
+Subscribe for full access
+Top sections
+Home
+World
+Show more World
+Middle East war
+Global Economy
+UK
+US
+China
+Africa
+Asia Pacific
+Emerging Markets
+Europe
+War in Ukraine
+Americas
+Middle East & North Africa
+US
+Show more US
+US Economy
+US Companies
+US Politics & Policy
+Companies
+Show more Companies
+Energy
+Financials
+Health
+Industrials
+Media
+Professional Services
+Retail & Consumer
+Tech Sector
+Telecoms
+Transport
+Tech
+Show more Tech
+Artificial intelligence
+Semiconductors
+Cyber Security
+Social Media
+Markets
+Show more Markets
+Alphaville
+Markets Data
+Private markets
+Equities
+Bonds
+Currencies
+Commodities
+Crypto
+Monetary Policy Radar
+Wealth Management
+Moral Money
+ETF Hub
+Asset management
+Climate
+Opinion
+Show more Opinion
+Columnists
+The FT View
+The Big Read
+Lex
+Obituaries
+Letters
+Lex
+Stock Picking Game
+Work & Careers
+Show more Work & Careers
+Business School Rankings
+Business Education
+Europe's Start-Up Hubs
+Entrepreneurship
+Recruitment
+Business Books
+Business Travel
+Working It
+Life & Arts
+Show more Life & Arts
+Arts
+Books
+Food & Drink
+FT Magazine
+House & Home
+Style
+Puzzles
+Travel
+FT Globetrotter
+Personal Finance
+Show more Personal Finance
+Property & Mortgages
+Investments
+Pensions
+Tax
+Banking & Savings
+Advice & Comment
+How To Spend It
+Special Reports
+FT recommends
+Alphaville
+FT Edit
+Lunch with the FT
+FT Globetrotter
+#techAsia
+Moral Money
+Visual and data journalism
+Newsletters
+Video
+Podcasts
+News feed
+FT Schools
+FT Live Events
+FT Forums
+FT Leaders Academy
+myFT
+Portfolio
+FT Digital Edition
+Crossword
+Our Apps
+Help Centre
+Subscribe
+Sign In
+{"appName":"barrier-page","product":"next","edition":"international","abTestState":"ads-pg-on-static-loader:variant,adsmvt2:variant-1,adsmvt3:variant-1,adsmvt4:control-1,chartbeat:variant,extensiblefrontends:on,pro-user-highlights:read_only,proarticlecontextwidget:control","isProduction":true,"isUserLoggedIn":false,"pageKitVersion":"13.10.0","app":"opportunity-page","trackingData":{"pageViewContext":{"access_decision_provider":"ZEPHR","access":{"decision":"DENIED_ZEPHR_ALLOTHERTRAFFIC_0_0"},"barrier":true,"barrierType":"BAU Trial NP","content":{"uuid":"85d6ff56-89f1-4720-bc2f-dceb82402c4e","classifications":["CONDITIONAL_STANDARD"],"topics":{"article_main_topic":{"id":"e3402603-d253-4aa1-ac4d-fc9bdbf4ccb8","label":"OpenAI"},"article_topics":[{"id":"1248b3d3-1d4c-4454-af23-c0b4707ed412","label":"US companies"},{"id":"5ff0fdef-db37-4070-9710-b6fb95779a39","label":"Mira Murati"},{"id":"6b32f2c1-da43-4e19-80b9-8aef4ab640d7","label":"Technology sector"},{"id":"d2e5aa89-e168-416d-b41b-af8e847fb3cd","label":"Artificial intelligence"},{"id":"d91e0e17-f152-4a82-99bb-e4232a092b5d","label":"Sam Altman"}]}},"opportunity":{"type":"barrier","subtype":"BAU Trial NP"}}}}
+{"articleRelatedContent":true,"ads":true,"javascript":true,"articleComments":true,"myFtApi":true,"articleShareButtons":true,"myFtApiWrite":true,"adTargetingUserApi":true,"videoPlayerAdvertising":true,"streamMostRead":true,"openGraph":true,"nativeAds":true,"syndication":true,"myFTEmailDisableABAlloc":true,"newsletterSignupOnArticle":true,"myFTInstantNotifications":true,"myftPrioritiseTopics":true,"showEventPromo":true,"myftConsentSwitch":true,"manageCookiesWhiteLabel":true,"AdsPermutive":true,"syndication_promo":true,"enableGTM":true,"myftPageAppNotificationsToggle":true,"realUserMonitoringForPerformance":true,"textCopyTracking":true,"enableBrandmetricsSurveyScript":true,"articleInstantAlertsPromo":true,"privShowCCPALinkOnFooter":true,"adsNativeLazyload":true,"enableRavelinOnProd":true,"enableMarketingAnalyticsTags":true,"useFlourish":true,"adsHighImpact":true,"homePageHeaderMarketsData":true,"enableGoogleExtendedMeter":true,"inArticleContentSignUp":true,"newsletterAutoEnrolment":true,"scrollytellingImages":true,"AdsExtraMobileSlot":true,"dotcomPages":true,"exponeaOnsiteMessaging":true,"homepageInteractivesEmbeds":true,"bankTransferFeature":true,"purgeableLongTailArticleCaching":true,"chatterboxChat":true,"liveChat":true,"AdsCompaniesTypeaheadDemo":true,"adsCommentsRHR":true,"stripeForIndia":true,"adsDisableInternalCMP":true,"myFTInstantAlertsOnboarding":true,"proCentralBanking":true,"magnetOnArticle":true,"myftFollowButton":true,"customCodeComponent":true,"adsAppDisableInternalCMP":true,"enableSubX":true,"homepageClips":true,"adsInsertTexasDNSLink":true,"inArticleContentSignUpUSElectionNewsletter":true,"backToTopButton":true,"amplitudeExperiment":true,"useFlourishIFrame":true,"commentsOnlySubscriber":true,"pro-workspace-recommendation-cards-enabled":true,"articleToolsBox":true,"adsVideoPageConsent":true,"clipsEnhancedPlayer":true,"adsEnableMiniBillboard":true,"ads-refresh-pc":true,"enableProfessionalSubscriptionCheck":true,"ads-validate-traffic-ias":true,"adsEnableMiniBillboardWeb":true,"bertha.strictmode":true,"adsArticlePcStyling":true,"mprHomePageSlice":true,"liveBlogPagination":true,"enableWhiteHouseWatchNewsletterSignup":true,"adsEnableGpp":true,"adsValidateTraffic":true,"mprTrials":true,"enableSubscriptionTask":true,"homepageCustomCodeComponents":true,"QandaUI":true,"cpClientMetrics":true,"adsPGAskFt":true,"oTracking":true,"enablePaypalPayments":true,"mprAnalystViews":true,"enableAppleSignUp":true,"adsEnableSequentialVideo":true,"enableAccessDecisionServiceZephrPolicy":true,"enableAccessDecisionServiceSubxPolicy":true,"adsStreamLuxurySlots":true,"adsEnableFomoCarousel":true,"adsIlluma":true,"enableAmplitudeSessionReplay":true,"enableAmplitudeWebExperiment":true,"enableNextProfileAmplitudeWebExperiment":true,"liveBlogsCustomCodeComponent":true,"adsIllumaPassTimeStamp":true,"enableNextBarrierAmplitudeWebExperiment":true,"adsEnableCookieMismatchTracking":true,"adsEnableLiveramp":true,"emailVerification":true,"nextEpaperRedesign":true,"enableApplePayPayments":true,"adsSearchWidgetSponsorSlot":true,"enableSessionReplayNextSubscribe":true,"stockPickingGameLink":true,"PersonalDetailsUpdateUSAState":true,"preflightDisableCookieConsentTask":true,"ads-pg-on-static-loader":"variant","adsmvt2":"variant-1","adsmvt3":"variant-1","adsmvt4":"control-1","chartbeat":"variant","extensiblefrontends":true,"pro-user-highlights":"read_only"}

@@ -1,0 +1,13 @@
+Source: Associated Press
+URL: https://apnews.com/article/bbb2f3a09eafdfc7cda54a3b87e538ad
+Published: 2023-01-04
+
+Relevant extracted text:
+- Amazon and Salesforce announced major job cuts as they pruned payrolls that rapidly expanded during pandemic lockdown.
+- Andy Jassy: "These changes will help us pursue our long-term opportunities with a stronger cost structure."
+- Marc Benioff wrote: "As our revenue accelerated through the pandemic, we hired too many people leading into this economic downturn we're now facing, and I take responsibility for that."
+- Salesforce's workforce remained 50% larger than it was before the pandemic.
+- Wedbush analyst Dan Ives called the move a way to preserve margins in an uncertain backdrop after overbuilding the organization.
+
+Normalization note:
+This local snapshot preserves the key AP lines that tie layoffs to overhiring, macro slowdown, and cost-structure discipline.

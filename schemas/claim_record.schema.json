@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ClaimRecord",
+  "type": "object",
+  "required": ["claim_id", "claim_text", "evidence_level", "vector_id", "source_ids"],
+  "properties": {
+    "claim_id": {"type": "string"},
+    "claim_text": {"type": "string"},
+    "claim_type": {"type": "string"},
+    "evidence_level": {"type": "string"},
+    "vector_id": {"type": "string"},
+    "source_ids": {"type": "array", "items": {"type": "string"}},
+    "counterevidence_ids": {"type": "array", "items": {"type": "string"}},
+    "chapter_ids": {"type": "array", "items": {"type": "string"}},
+    "legal_risk": {"type": ["string", "null"]},
+    "editorial_note": {"type": ["string", "null"]}
+  }
+}

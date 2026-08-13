@@ -1,0 +1,13 @@
+Source: Bureau of Industry and Security, "Guidance Regarding Enforcement of License Requirements for Advanced Computing Items for Entities Headquartered in Country Group D:5 and Macau"
+URL: https://www.bis.gov/media/documents/bis-guidance-may-31-2026.pdf
+Published: 2026-05-31
+Captured: 2026-07-03T01:10:00Z
+Capture mode: manual-web-excerpt
+
+Verified excerpt points from Codex web capture:
+- PDF heading date: May 31, 2026.
+- BIS says a license is required to export advanced computing items to entities headquartered in Country Group D:5 or Macau even if the entities are outside those destinations.
+- BIS says the requirement was first introduced on November 17, 2023.
+- BIS says that in January 2025 the AI Diffusion Rule transferred the requirement for certain ".a" items from section 744.23(a) into section 742.6 as part of a new worldwide license requirement.
+- BIS says its May 2025 non-enforcement policy for the AI Diffusion Rule's new compliance requirements does not cancel the earlier requirement for D:5- or Macau-linked transactions.
+- BIS says exporters should continue to seek licenses for such transactions unless a listed license exception applies.

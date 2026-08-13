@@ -1,0 +1,13 @@
+Source: U.S. District Court for the Southern District of New York via Justia
+URL: https://cases.justia.com/federal/district-courts/new-york/nysdce/1%3A2023cv11195/612697/514/0.pdf?ts=1743868265
+Published: 2025-04-04
+
+Relevant extracted findings from the opinion on motions to dismiss:
+- Judge Sidney H. Stein issued the opinion on April 4, 2025.
+- The order denied key motions to dismiss in The New York Times Company v. Microsoft Corporation et al.
+- The court allowed core copyright claims to proceed, including direct copyright infringement and contributory copyright infringement theories.
+- The opinion describes a "training stage" in which defendants collected, stored, and scraped works into datasets used to train large language models.
+- The order also discusses allegations that outputs could reproduce or "regurgitate" plaintiffs' works.
+
+Normalization note:
+This text snapshot was created manually because local PDF extraction failed in the default Python environment during ingestion.

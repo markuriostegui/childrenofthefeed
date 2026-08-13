@@ -1,0 +1,417 @@
+- link "Homepage":
+  - /url: /?source=post_page---top_nav_layout_nav-----------------------------------------
+  - img "Medium Logo"
+- combobox "search"
+- button "Get the Medium app":
+  - generic: Get app
+- link "Write":
+  - /url: /m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2Fnew-story&source=---top_nav_layout_nav-----------------------new_post_topnav------------------
+  - text: Write
+- paragraph:
+  - button "Sign up"
+- paragraph:
+  - link "Sign in":
+    - /url: /m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2Ftwinchat%2Fhow-ai-is-ruining-your-life-to-build-an-empire-8b6d02e55bc9&source=post_page---top_nav_layout_nav-----------------------global_nav------------------
+- button "user options menu":
+  - img "Unknown user"
+- link "Waken AI":
+  - /url: https://medium.com/twinchat?source=post_page---publication_nav-82b634f74686-8b6d02e55bc9---------------------------------------
+  - heading "Waken AI" [level=2]:
+    - generic: Waken AI
+- dialog
+- link "Waken AI":
+  - /url: https://medium.com/twinchat?source=post_page---post_publication_sidebar-82b634f74686-8b6d02e55bc9---------------------------------------
+  - img "Waken AI"
+- paragraph: Imagine a Social Humane Era where the echo chambers of division and extremism are silenced, replaced by intelligent, empathetic dialogue. This endeavor, beyond the toxic Social Media Era, is the mission pioneered by Waken AI.
+- paragraph:
+  - button "Follow publication"
+- article:
+  - heading "How AI Is Ruining Your Life to Build an Empire" [level=1]
+  - link "Mark Uriostegui":
+    - /url: /@uriostegui?source=post_page---byline--8b6d02e55bc9---------------------------------------
+    - img "Mark Uriostegui"
+  - link "Mark Uriostegui":
+    - /url: /@uriostegui?source=post_page---byline--8b6d02e55bc9---------------------------------------
+  - button "Follow":
+    - generic: Follow
+  - generic: 8 min read
+  - generic: ·
+  - generic: Jun 20, 2026
+  - link "clap":
+    - /url: /m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Ftwinchat%2F8b6d02e55bc9&operation=register&redirect=https%3A%2F%2Fmedium.com%2Ftwinchat%2Fhow-ai-is-ruining-your-life-to-build-an-empire-8b6d02e55bc9&user=Hassan+Uriostegui&userId=145e0d2c72b&source=---header_actions--8b6d02e55bc9---------------------clap_footer------------------
+    - img "clap"
+  - paragraph:
+    - button "30": "30"
+  - button "responses":
+  - link "Repost":
+    - /url: /m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Frepost%2Fp%2F8b6d02e55bc9&operation=register&redirect=https%3A%2F%2Fmedium.com%2Ftwinchat%2Fhow-ai-is-ruining-your-life-to-build-an-empire-8b6d02e55bc9&user=Hassan+Uriostegui&userId=145e0d2c72b&source=---header_actions--8b6d02e55bc9---------------------repost_header------------------
+    - generic "Repost":
+  - link "Add to list bookmark button":
+    - /url: /m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8b6d02e55bc9&operation=register&redirect=https%3A%2F%2Fmedium.com%2Ftwinchat%2Fhow-ai-is-ruining-your-life-to-build-an-empire-8b6d02e55bc9&source=---header_actions--8b6d02e55bc9---------------------bookmark_footer------------------
+    - img "Add to list bookmark button"
+  - link "Listen":
+    - /url: /m/signin?actionUrl=https%3A%2F%2Fmedium.com%2Fplans%3Fdimension%3Dpost_audio_button%26postId%3D8b6d02e55bc9&operation=register&redirect=https%3A%2F%2Fmedium.com%2Ftwinchat%2Fhow-ai-is-ruining-your-life-to-build-an-empire-8b6d02e55bc9&source=---header_actions--8b6d02e55bc9---------------------post_audio_button------------------
+    - button "Listen":
+  - button "Share Post":
+  - figure
+  - heading "First it absorbed our work. Then it devalued our creativity. Now it wants to charge us rent to think." [level=2]
+  - paragraph:
+    - emphasis: "Note: This article is inspired"
+    - link "by Paul Lara’s cyberpunk column:":
+      - /url: https://www.dineroenimagen.com/lideres/952
+      - emphasis: "by Paul Lara’s cyberpunk column:"
+    - emphasis: that way of looking at the present as if we were already living inside a functional dystopia — not one made of neon lights and endless rain, but of platforms, debt, interfaces, optimization, and silent extraction.
+  - paragraph:
+    - emphasis: "It also works as a natural continuation of a thesis I published in 2023:"
+    - strong:
+      - emphasis: “
+    - 'link "AI-Copyright Weights: A New Frontier in Intellectual Property Law."':
+      - /url: /twinchat/ai-copyright-weights-a-new-frontier-in-intellectual-property-law-d8ee1b6c55ee
+      - strong:
+        - emphasis: "AI-Copyright Weights: A New Frontier in Intellectual Property Law."
+    - strong:
+      - emphasis: ”
+    - emphasis: In that piece, (
+    - text: cited in the
+    - link "Bipartisan House Task Force on Artificial Intelligence":
+      - /url: https://www.speaker.gov/wp-content/uploads/2024/12/AI-Task-Force-Report-FINAL.pdf
+    - text: "2024"
+    - emphasis: "), I explored a legal question: if the weights of an AI model are a statistical distillation of human-made works, should they be considered a form of derivative work? This article looks at the same problem from another angle: not only the intellectual property embedded inside the model, but the economic capture of the market where that intelligence is sold."
+  - blockquote:
+    - paragraph: Feeling sad with all this? I made this song to sing together
+  - figure
+  - paragraph: For a long time, we thought supermarkets were just selling food.
+  - paragraph: But they weren’t.
+  - paragraph: Supermarkets didn’t win because they sold tomatoes, bread, milk, or cereal.
+  - paragraph: They won because they captured the point of sale.
+  - paragraph: First, they became the place where people bought things. Then they became the place where brands had to be. Then they became the system that could decide which producer lived, which producer died, how much their work was worth, how much margin they could keep, what appeared on the shelf, and what simply stopped existing for the consumer.
+  - paragraph: And this did not happen overnight.
+  - paragraph: "It took supermarkets decades to consolidate their dominance, especially from the 1990s through the 2010s. It was a slow colonization of local commerce: family-owned stores, small markets, independent producers, farmers, regional brands."
+  - blockquote:
+    - paragraph: First, they took their traffic.
+    - paragraph: Then they took their margins.
+    - paragraph: Then they took their independence.
+  - paragraph: And eventually, they took away the possibility for many of them to sell outside the system supermarkets controlled.
+  - blockquote:
+    - paragraph: The producer kept farming.
+    - paragraph: The farmer kept working.
+    - paragraph: The family still had experience, history, craft, and real knowledge.
+    - paragraph: But the point of contact with the customer was no longer theirs.
+    - paragraph: That was the trick.
+    - paragraph: They didn’t need to destroy food.
+    - paragraph: They needed to control access to food.
+    - paragraph: They didn’t need to replace the farmer.
+    - paragraph: They needed to make the farmer dependent.
+    - paragraph: They didn’t need to invent the tomato.
+    - paragraph: They only needed to control the shelf where the tomato was sold.
+  - paragraph:
+    - emphasis: And once you control the shelf, you control the price, the narrative, the visibility, and the survival of everyone behind it.
+  - figure "Source https://isaiprofitable.com/":
+    - button "Press enter or click to view image in full size":
+      - generic: Press enter or click to view image in full size
+    - text: Source
+    - link "https://isaiprofitable.com/":
+      - /url: https://isaiprofitable.com/
+  - heading "Now look at what is happening with AI." [level=2]
+  - paragraph: The AI Empire is executing a compressed version of the same playbook, but not on food.
+  - blockquote:
+    - paragraph: On intelligence.
+    - paragraph: On software.
+    - paragraph: On art.
+    - paragraph: On writing.
+    - paragraph: On design.
+    - paragraph: On music.
+    - paragraph: On expert judgment.
+  - paragraph: On every original form of human thought that can be absorbed, packaged, compressed, synthesized, and resold as a product.
+  - blockquote:
+    - paragraph: The difference is speed.
+    - paragraph: Supermarkets took decades.
+    - paragraph: AI took three years.
+  - paragraph: Since 2022, with the mass arrival of GitHub Copilot and ChatGPT, we saw something appear that was first sold as an assistant, a copilot, a tool, democratization, productivity.
+  - paragraph: And yes, of course, there was truth in that.
+  - blockquote:
+    - paragraph: AI helps.
+    - paragraph: AI accelerates.
+    - paragraph: AI unlocks.
+    - paragraph: AI can be an insanely powerful tool in the hands of someone who already knows how to think.
+    - paragraph: But that is not the whole story.
+    - paragraph: Because the real move was not just helping you code faster, write faster, or design faster.
+    - paragraph: The real move was capturing the point of sale of intelligence.
+  - heading "Before, if you needed software, you hired an engineer." [level=3]
+  - heading "If you needed art, you hired an artist." [level=3]
+  - heading "If you needed copy, you hired a writer." [level=3]
+  - heading "If you needed strategy, you hired someone with judgment." [level=3]
+  - heading "If you needed a song, a script, an interface, an architecture, a diagnosis, an idea, you looked for a person or a team with craft." [level=3]
+  - heading "Now, increasingly, the first point of contact is not the creator." [level=3]
+  - heading "It is the interface." [level=3]
+  - heading "The prompt." [level=3]
+  - heading "The chatbot." [level=3]
+  - heading "The subscription." [level=3]
+  - paragraph:
+    - emphasis: The clean white box where you type what you want and receive something “good enough” to avoid calling the human who used to make a living from that work.
+  - heading "That is the new shelf." [level=2]
+  - heading "And the shelf is no longer inside the supermarket." [level=2]
+  - heading "It is on the screen." [level=2]
+  - paragraph: AI does not need to prove that it is better than every artist, every programmer, every writer, or every expert.
+  - paragraph: It only needs to be good enough to change the perception of value.
+  - paragraph: That is the hit.
+  - paragraph: It does not destroy human work because it makes it useless.
+  - paragraph: It destroys human work because it makes it negotiable downward.
+  - paragraph: Because if a machine can give you a cheap, fast, infinite version of something similar, the market starts looking at the human as expensive, slow, emotional, complicated, replaceable.
+  - blockquote:
+    - paragraph: Even when they are not.
+    - paragraph: Even when deep results still require judgment.
+    - paragraph: Even when good taste still comes from years of experience.
+    - paragraph: Even when serious software still needs architecture.
+    - paragraph: Even when real art still has a soul.
+    - paragraph: Even when expert intelligence is not the same thing as a statistically probable answer.
+    - paragraph: It doesn’t matter.
+    - paragraph: Because the battle does not begin with truth.
+    - paragraph: It begins with perception.
+  - paragraph: And when perception changes, price changes.
+  - paragraph: And when price changes, the creator’s life changes.
+  - paragraph:
+    - strong: That is how AI ruins your life to build an empire.
+  - paragraph:
+    - strong: Not by replacing you in one dramatic moment.
+  - paragraph:
+    - strong: Not by defeating you in a clean public contest.
+  - paragraph:
+    - strong: Not by proving that the machine has a soul.
+  - paragraph:
+    - strong: But by making your soul look overpriced.
+  - paragraph:
+    - strong: By making your years of work look like a prompt.
+  - paragraph:
+    - strong: By making your taste look like a preset.
+  - paragraph:
+    - strong: By making your craft look like a feature.
+  - paragraph:
+    - strong: By making your intelligence look like a commodity.
+  - paragraph: Just as the supermarket did not need to cultivate the land to control the producer, AI does not need to have lived the human experience to control the market of human intelligence.
+  - paragraph: It only needs to stand between the creator and the customer.
+  - paragraph: That’s it.
+  - paragraph: AI became the point of sale of the mind.
+  - paragraph:
+    - text: And this is where I connect this to my earlier thesis on
+    - link "AI-Copyright Weights.":
+      - /url: /twinchat/ai-copyright-weights-a-new-frontier-in-intellectual-property-law-d8ee1b6c55ee?postPublishedType=repub
+  - paragraph: In that article, I argued that maybe we have been looking at the problem from the wrong place.
+  - paragraph: "We obsess over the output: the generated image, the generated text, the generated song, the generated code."
+  - heading "Get Mark Uriostegui’s stories in your inbox" [level=2]
+  - paragraph: Join Medium for free to get updates from this writer.
+  - textbox "Enter your email"
+  - button "Subscribe"
+  - checkbox "Remember me for faster sign in" [checked]
+  - paragraph: Remember me for faster sign in
+  - paragraph: "But maybe the real legal frontier comes before that, inside the weights: the mathematical structure that does not copy a work literally, but does condense patterns, styles, decisions, language, composition, architecture, and judgment extracted from millions of human-made works."
+  - paragraph: "In other words:"
+  - paragraph: The model does not just produce things.
+  - paragraph: The model contains a compressed version of the world it absorbed.
+  - paragraph: "And if that world was built by artists, writers, programmers, musicians, photographers, designers, researchers, and entire communities, then the question cannot only be:"
+  - paragraph: “Does this output infringe copyright?”
+  - paragraph: "The more dangerous question is:"
+  - paragraph: Who has the right to turn collective intelligence into private infrastructure?
+  - paragraph: Because that is the full play.
+  - paragraph: First, you take human production.
+  - blockquote:
+    - paragraph: Then you turn it into training data.
+    - paragraph: Then you turn the training into weights.
+    - paragraph: Then you turn the weights into a product.
+    - paragraph: Then you turn the product into an interface.
+    - paragraph: Then you turn the interface into the point of sale.
+  - paragraph: And once the world buys intelligence through your shelf, you can start telling the original creator how much they are worth.
+  - paragraph: "Or worse:"
+  - paragraph: You can tell them they are not worth anything anymore.
+  - paragraph: That is the circle.
+  - paragraph: IP enters through the back door as training data.
+  - paragraph: It exits through the front door as “capability.”
+  - paragraph: "And in the middle sits a question the industry wants to keep as blurry as possible:"
+  - paragraph: How much of that value actually came from the model, and how much came from the human intelligence absorbed to build it?
+  - paragraph: Because one thing is transformation.
+  - paragraph: Another thing is expropriation sold back as innovation.
+  - paragraph: One thing is creating a tool.
+  - paragraph: Another thing is capturing the entire market of the craft that fed that tool.
+  - paragraph: And one thing is fair use.
+  - paragraph: Another thing is empire use.
+  - paragraph: That is why the supermarket analogy matters.
+  - paragraph: The supermarket did not make the farmer disappear immediately.
+  - blockquote:
+    - paragraph: First, it needed him.
+    - paragraph: It integrated him.
+    - paragraph: It scaled him.
+    - paragraph: It made him dependent.
+    - paragraph: Then it pressured him.
+    - paragraph: Then it replaced him when it could.
+  - paragraph: Then it turned him into just another line inside a supply chain he no longer controlled.
+  - paragraph: AI is doing something similar to creators.
+  - blockquote:
+    - paragraph: First, it calls us inspiration.
+    - paragraph: Then it calls us data.
+    - paragraph: Then it calls us benchmark.
+    - paragraph: Then it calls us legacy workflow.
+    - paragraph: Then it calls us expensive humans.
+  - paragraph: And finally, it sells our own intelligence back to us as a monthly subscription.
+  - paragraph: Beautiful little nightmare.
+  - paragraph: And this is where the whole thing becomes truly cyberpunk.
+  - paragraph: Not because androids are walking under Japanese rain.
+  - paragraph: But because the real dystopia is more boring and more efficient.
+  - blockquote:
+    - paragraph: It is a clean screen.
+    - paragraph: A button that says “Generate.”
+    - paragraph: A closed model.
+    - paragraph: An opaque license.
+    - paragraph: A dataset nobody can audit.
+    - paragraph: An energy cost nobody wants to stare at directly.
+  - paragraph: A labor market being devalued before it even understands what happened to it.
+  - paragraph: An entire humanity feeding a machine that later charges humanity to access a statistical version of itself.
+  - heading "That is cyberpunk." [level=2]
+  - heading "Not the neon." [level=2]
+  - heading "The extraction." [level=2]
+  - heading "Not the hacker in a trench coat." [level=2]
+  - heading "The revenue dashboard." [level=2]
+  - heading "Not the evil megacorporation in a futuristic tower." [level=2]
+  - heading "The platform with beautiful onboarding and token-based pricing." [level=2]
+  - heading "And the craziest part is that it is still not even clear whether the business is truly profitable." [level=3]
+  - paragraph: Because capturing value is one thing.
+  - paragraph: Producing sustainable economic utility is another.
+  - paragraph: Raising billions is one thing.
+  - paragraph: Proving that the model does not depend on burning capital, energy, infrastructure, and expectations at an obscene scale is another.
+  - paragraph: So the question is not only whether AI can replace human work.
+  - paragraph: "The deeper question is:"
+  - paragraph: What happens if it destroys the price of human work before proving that it can sustain the value it claims to create?
+  - paragraph: What happens if it breaks the market first and then discovers the business model does not really work?
+  - paragraph: What happens if we devalue programmers, artists, writers, musicians, designers, and experts to feed an infrastructure that is still trying to justify its own economics?
+  - paragraph: That is no longer clean innovation.
+  - paragraph: That looks much more like a capture operation.
+  - blockquote:
+    - paragraph: Capture of knowledge.
+    - paragraph: Capture of the point of sale.
+    - paragraph: Capture of the relationship between customer and creator.
+    - paragraph: Capture of the perception of value.
+    - paragraph: Capture of intelligence itself.
+  - paragraph: Supermarkets did this with food, distribution, and shelves.
+  - paragraph: AI is doing it with knowledge, creativity, and judgment.
+  - paragraph: And maybe the question we should be asking is not whether AI is good or bad.
+  - paragraph: That question is too small.
+  - paragraph: "The real question is:"
+  - paragraph: Who controls the shelf of human intelligence?
+  - paragraph: Because if the answer is five companies with infinite capital, closed models, opaque infrastructure, and massive training over everyone’s work, then we are no longer talking only about technology.
+  - paragraph: We are talking about power.
+  - paragraph: And when someone controls the point of sale, sooner or later they also control who gets to make a living from selling.
+  - paragraph:
+    - text: In 2023, I wrote that
+    - link "AI-Copyright Weights":
+      - /url: /twinchat/ai-copyright-weights-a-new-frontier-in-intellectual-property-law-d8ee1b6c55ee?postPublishedType=repub
+    - text: could become a new frontier of intellectual property.
+  - paragraph: Today, I think that frontier was only the first layer.
+  - blockquote:
+    - paragraph: The second layer is economic.
+    - paragraph: The third is cultural.
+    - paragraph: The fourth is civilizational.
+  - paragraph:
+    - strong: Because if we allow human intelligence to be absorbed, packaged, devalued, and resold without a serious conversation about ownership, compensation, and control, then the problem will not be that AI writes mediocre poems or generates images with six fingers.
+  - paragraph: The problem will be that we handed over the entire shelf of the human mind.
+  - paragraph: And then they will charge us rent to think.
+  - paragraph: "Just look at this beautiful nightmare:"
+  - paragraph:
+    - link "https://isaiprofitable.com/":
+      - /url: https://isaiprofitable.com/
+  - figure
+- link "Technology":
+  - /url: /tag/technology?source=post_page-----8b6d02e55bc9---------------------------------------
+  - generic: Technology
+- link "Artificial Intelligence":
+  - /url: /tag/artificial-intelligence?source=post_page-----8b6d02e55bc9---------------------------------------
+  - generic: Artificial Intelligence
+- link "Software Development":
+  - /url: /tag/software-development?source=post_page-----8b6d02e55bc9---------------------------------------
+  - generic: Software Development
+- link "Art":
+  - /url: /tag/art?source=post_page-----8b6d02e55bc9---------------------------------------
+  - generic: Art
+- link "Writing":
+  - /url: /tag/writing?source=post_page-----8b6d02e55bc9---------------------------------------
+  - generic: Writing
+- contentinfo:
+  - link "clap":
+    - /url: /m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Ftwinchat%2F8b6d02e55bc9&operation=register&redirect=https%3A%2F%2Fmedium.com%2Ftwinchat%2Fhow-ai-is-ruining-your-life-to-build-an-empire-8b6d02e55bc9&user=Hassan+Uriostegui&userId=145e0d2c72b&source=---footer_actions--8b6d02e55bc9---------------------clap_footer------------------
+    - img "clap"
+  - paragraph:
+    - button "30"
+  - button "responses":
+  - link "Repost":
+    - /url: /m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Frepost%2Fp%2F8b6d02e55bc9&operation=register&redirect=https%3A%2F%2Fmedium.com%2Ftwinchat%2Fhow-ai-is-ruining-your-life-to-build-an-empire-8b6d02e55bc9&user=Hassan+Uriostegui&userId=145e0d2c72b&source=---footer_actions--8b6d02e55bc9---------------------repost_footer------------------
+    - generic "Repost":
+  - link "Add to list bookmark button":
+    - /url: /m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8b6d02e55bc9&operation=register&redirect=https%3A%2F%2Fmedium.com%2Ftwinchat%2Fhow-ai-is-ruining-your-life-to-build-an-empire-8b6d02e55bc9&source=---footer_actions--8b6d02e55bc9---------------------bookmark_footer------------------
+    - img "Add to list bookmark button"
+  - button "Share Post":
+- link "Waken AI":
+  - /url: https://medium.com/twinchat?source=post_page---post_publication_info--8b6d02e55bc9---------------------------------------
+  - img "Waken AI"
+- link "Published in Waken AI":
+  - /url: https://medium.com/twinchat?source=post_page---post_publication_info--8b6d02e55bc9---------------------------------------
+  - heading "Published in Waken AI" [level=2]:
+    - generic: Published in Waken AI
+- link "12 followers":
+  - /url: /twinchat/followers?source=post_page---post_publication_info--8b6d02e55bc9---------------------------------------
+- generic: ·
+- link "Last published Jun 20, 2026":
+  - /url: /twinchat/how-ai-is-ruining-your-life-to-build-an-empire-8b6d02e55bc9?source=post_page---post_publication_info--8b6d02e55bc9---------------------------------------
+- paragraph: Imagine a Social Humane Era where the echo chambers of division and extremism are silenced, replaced by intelligent, empathetic dialogue. This endeavor, beyond the toxic Social Media Era, is the mission pioneered by Waken AI.
+- button "Follow":
+  - generic: Follow
+- link "Mark Uriostegui":
+  - /url: /@uriostegui?source=post_page---post_author_info--8b6d02e55bc9---------------------------------------
+  - img "Mark Uriostegui"
+- link "Written by Mark Uriostegui":
+  - /url: /@uriostegui?source=post_page---post_author_info--8b6d02e55bc9---------------------------------------
+  - heading "Written by Mark Uriostegui" [level=2]:
+    - generic: Written by Mark Uriostegui
+- link "338 followers":
+  - /url: /@uriostegui/followers?source=post_page---post_author_info--8b6d02e55bc9---------------------------------------
+- generic: ·
+- link "153 following":
+  - /url: /@uriostegui/following?source=post_page---post_author_info--8b6d02e55bc9---------------------------------------
+- paragraph:
+  - text: Silicon Valley Entrepreneur, AI Researcher & Author.
+  - link "www.hassanuriostegui.com":
+    - /url: http://www.hassanuriostegui.com
+  - link "www.waken.ai":
+    - /url: http://www.waken.ai
+- button "Follow":
+  - generic: Follow
+- link "Help":
+  - /url: https://help.medium.com/hc/en-us?source=post_page-----8b6d02e55bc9---------------------------------------
+  - paragraph: Help
+- link "Status":
+  - /url: https://status.medium.com/?source=post_page-----8b6d02e55bc9---------------------------------------
+  - paragraph: Status
+- link "About":
+  - /url: /about?autoplay=1&source=post_page-----8b6d02e55bc9---------------------------------------
+  - paragraph: About
+- link "Careers":
+  - /url: /jobs-at-medium/work-at-medium-959d1a85284e?source=post_page-----8b6d02e55bc9---------------------------------------
+  - paragraph: Careers
+- link "Press":
+  - /url: mailto:pressinquiries@medium.com
+  - paragraph: Press
+- link "Blog":
+  - /url: https://blog.medium.com/?source=post_page-----8b6d02e55bc9---------------------------------------
+  - paragraph: Blog
+- link "Store":
+  - /url: https://medium.com/store
+  - paragraph: Store
+- link "Privacy":
+  - /url: https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=post_page-----8b6d02e55bc9---------------------------------------
+  - paragraph: Privacy
+- link "Rules":
+  - /url: https://policy.medium.com/medium-rules-30e5502c4eb4?source=post_page-----8b6d02e55bc9---------------------------------------
+  - paragraph: Rules
+- link "Terms":
+  - /url: https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=post_page-----8b6d02e55bc9---------------------------------------
+  - paragraph: Terms
+- link "Text to speech":
+  - /url: https://speechify.com/medium?source=post_page-----8b6d02e55bc9---------------------------------------
+  - paragraph: Text to speech

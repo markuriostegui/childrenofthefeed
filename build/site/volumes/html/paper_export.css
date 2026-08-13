@@ -1,0 +1,208 @@
+html {
+  font-size: 17px;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 0 1.25rem 4rem;
+  line-height: 1.7;
+  color: #111;
+  background: #fff;
+}
+
+.public-doc-home {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 999px;
+  justify-self: start;
+  color: #2c2118;
+  background: #fffdfa;
+  border: 1px solid #f0dfaa;
+  text-decoration: none;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+}
+
+.public-doc-home:hover {
+  background: #fff8e8;
+}
+
+.public-doc-home-icon {
+  width: 19px;
+  height: 19px;
+  fill: currentColor;
+}
+
+.public-doc-header {
+  background: #fffefb;
+  border-bottom: 1px solid #e6dfd2;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+  margin:
+    0 calc(50% - 50vw + 0px) 1.5rem
+    calc(50% - 50vw + 0px);
+}
+
+.public-doc-header-inner {
+  min-height: 66px;
+  padding: 0.45rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.public-doc-logo-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-decoration: none;
+}
+
+.public-doc-logo {
+  display: block;
+  width: min(176px, 38vw);
+  max-height: 42px;
+  height: auto;
+}
+
+.public-brand-header {
+  background: #fffefb;
+  border-bottom: 1px solid #e6dfd2;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+  margin: 0 0 1.5rem;
+}
+
+.public-brand-header-inner {
+  min-height: 66px;
+  padding: 0.45rem 1rem;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+}
+
+.public-brand-link {
+  display: inline-flex;
+  justify-self: center;
+  align-items: center;
+  padding: 0;
+}
+
+.public-brand-logo {
+  display: block;
+  width: min(176px, 38vw);
+  max-height: 42px;
+  height: auto;
+}
+
+.public-brand-back {
+  justify-self: start;
+  color: #0b57d0;
+  font-family: Arial, sans-serif;
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+
+.public-brand-back:hover {
+  text-decoration: underline;
+}
+
+.public-brand-back-spacer {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.2;
+  margin-top: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+
+h1.title {
+  font-size: 2.2rem;
+  margin-bottom: 0.35rem;
+}
+
+p.subtitle {
+  font-size: 1.05rem;
+  color: #444;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+h1,
+h2 {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.25rem;
+}
+
+p,
+li {
+  font-size: 1rem;
+}
+
+a {
+  color: #0b57d0;
+  text-decoration: underline;
+}
+
+code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  background: #f3f4f6;
+  border-radius: 4px;
+  padding: 0.1rem 0.35rem;
+  font-size: 0.92em;
+}
+
+pre code {
+  display: block;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+blockquote {
+  border-left: 3px solid #ccc;
+  margin-left: 0;
+  padding-left: 1rem;
+  color: #333;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1rem 0 1.5rem;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 0.55rem 0.7rem;
+  vertical-align: top;
+}
+
+th {
+  background: #f7f7f7;
+  text-align: left;
+}
+
+.footnotes {
+  font-size: 0.93rem;
+  margin-top: 2rem;
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+}
+
+.footnotes ol {
+  padding-left: 1.25rem;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin: 2rem 0;
+}

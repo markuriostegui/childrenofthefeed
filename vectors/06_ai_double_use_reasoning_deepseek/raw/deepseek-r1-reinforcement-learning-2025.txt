@@ -1,0 +1,12 @@
+Source: arXiv, "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning"
+URL: https://arxiv.org/abs/2501.12948
+Published: 2025-01-22
+Captured: 2026-07-03T00:10:00Z
+Capture mode: manual-web-excerpt
+
+Verified excerpt points from Codex web capture:
+- arXiv lists publication date: January 22, 2025.
+- The abstract introduces DeepSeek-R1-Zero and DeepSeek-R1 as first-generation reasoning models.
+- The abstract says R1-Zero was trained via large-scale reinforcement learning without supervised fine-tuning as a preliminary step.
+- The paper says DeepSeek-R1 adds cold-start data before reinforcement learning and achieves performance comparable to OpenAI-o1-1217 on reasoning tasks.
+- The abstract says DeepSeek open-sourced R1-Zero, R1, and six dense distilled models.

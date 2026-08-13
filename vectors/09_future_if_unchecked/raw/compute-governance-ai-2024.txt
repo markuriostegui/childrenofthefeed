@@ -1,0 +1,6 @@
+Title: Computing Power and the Governance of Artificial Intelligence
+Publisher: arXiv
+Published at: 2024-02-13
+
+Working extract:
+This paper argues that computing power is a central, measurable, and governable input to frontier AI. It treats compute as a chokepoint that shapes which actors can train, scale, and deploy advanced systems. The paper's framing makes compute concentration relevant to both private power and public regulation because access to chips, clouds, and related infrastructure determines practical capability boundaries.

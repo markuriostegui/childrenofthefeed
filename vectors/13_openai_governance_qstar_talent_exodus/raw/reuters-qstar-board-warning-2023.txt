@@ -1,0 +1,11 @@
+Source: Reuters, "OpenAI researchers warned board of AI breakthrough ahead of CEO ouster, sources say"
+URL: https://www.reuters.com/technology/sam-altmans-ouster-openai-was-precipitated-by-letter-board-about-ai-breakthrough-2023-11-22/
+Published: 2023-11-23
+Captured: 2026-07-03T01:10:00Z
+Capture mode: manual-web-excerpt
+
+Verified citation and reference points from Codex web capture:
+- Public reference records list Reuters as the publisher and November 23, 2023 as the publication date.
+- The exact title is: "OpenAI researchers warned board of AI breakthrough ahead of CEO ouster, sources say."
+- Public reference records about OpenAI o1/Q* place this Reuters article in the governance-crisis background.
+- Full Reuters article text was not directly retrievable in the current environment, so this source is stored as a reporting-trail anchor with tightly bounded use.

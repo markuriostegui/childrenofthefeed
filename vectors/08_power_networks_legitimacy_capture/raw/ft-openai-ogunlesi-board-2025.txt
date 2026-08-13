@@ -1,0 +1,11 @@
+Source: Financial Times, "OpenAI appoints one of Wall Street's most powerful dealmakers to its board"
+URL: https://www.ft.com/content/63b08a9d-e537-4d60-9904-c59958a16982
+Published: 2025-01-14
+Captured: 2026-07-03T00:10:00Z
+Capture mode: manual-web-excerpt
+
+Verified excerpt points from Codex web search result:
+- Financial Times article date: January 14, 2025.
+- FT reports that OpenAI appointed Adebayo Ogunlesi to its board as it pushed ahead with moves to become a for-profit company amid tougher competition.
+- The article says the board had been restructured after Altman's ouster and reinstatement.
+- FT notes Ogunlesi's infrastructure and crisis-navigation profile and his connection to a data-center and power fund backed by Microsoft, Nvidia, and Abu Dhabi.

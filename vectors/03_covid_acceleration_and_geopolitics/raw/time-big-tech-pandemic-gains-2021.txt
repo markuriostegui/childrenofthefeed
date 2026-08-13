@@ -1,0 +1,17 @@
+Source: TIME
+URL: https://time.com/6085674/big-tech-apple-microsoft-facebook-amazon-google-earnings/
+Published: 2021-08-02
+
+Relevant extracted findings from the article:
+- The article says that while the COVID-19 struggle continued, major U.S. tech companies reported enormous quarterly earnings that contrasted sharply with small-business strain.
+- Apple reported $21.7 billion in earnings for the quarter discussed, compared with $11.2 billion in the same period the year before.
+- Microsoft reported $16.5 billion in net income, up from $11.2 billion in the comparable prior-year period.
+- Alphabet reported $18.5 billion in net income for the three months ending June 30, compared with $6.96 billion in the same period of 2020.
+- Facebook reported $10.3 billion in quarterly net income versus $5.2 billion in the same period in 2020.
+- Amazon reported $7.8 billion in quarterly net income versus $5.2 billion in the same period in 2020.
+- The article cites Federal Reserve economists finding about 120,000 additional small businesses had closed in the first year of the pandemic.
+- It also cites the Federal Reserve's Small Business Credit Survey, which found that 64% of small businesses would apply for further government assistance and 39% thought they would fail without it unless business returned to 2019 levels.
+- The article notes that Mark Zuckerberg used the same earnings cycle to promote the "metaverse" as the successor to the mobile internet.
+
+Normalization note:
+This text snapshot was created manually from reviewed article excerpts because direct shell capture of the page produced an empty file in the current environment.

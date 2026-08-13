@@ -1,0 +1,6 @@
+Title: Artificial Intelligence and the Future of Teaching and Learning: Insights and Recommendations
+Publisher: U.S. Department of Education / ERIC
+Published at: 2023-05-24
+
+Working extract:
+The ERIC record describes the report as a policy document on opportunities, risks, and recommendations for AI in education. It says AI shifts educational technology from capturing data to detecting patterns and from providing access to resources to automating decisions about instruction and other educational processes. The record states that educational systems must govern their use of AI systems because bias and unfairness can emerge in pattern detection and automated decisions.

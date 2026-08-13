@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SourceRecord",
+  "type": "object",
+  "required": ["source_id", "title", "url", "source_tier", "source_type", "vector_ids"],
+  "properties": {
+    "source_id": {"type": "string"},
+    "title": {"type": "string"},
+    "author": {"type": ["string", "null"]},
+    "publisher": {"type": ["string", "null"]},
+    "published_at": {"type": ["string", "null"]},
+    "captured_at": {"type": ["string", "null"]},
+    "url": {"type": "string"},
+    "source_tier": {"enum": ["T1", "T2", "T3"]},
+    "source_type": {"type": "string"},
+    "vector_ids": {"type": "array", "items": {"type": "string"}},
+    "chapter_ids": {"type": "array", "items": {"type": "string"}},
+    "language": {"type": ["string", "null"]},
+    "reliability_notes": {"type": ["string", "null"]},
+    "local_paths": {"type": "array", "items": {"type": "string"}}
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "base_url": "https://hassanvfx.github.io/ai-empire/",
+  "print_format": "trade-6x9",
+  "master_cover": "/Users/hassan/repos/AI-Empire/book/print/assets/images/book_master_cover.jpg",
+  "full_book_manuscript": "/Users/hassan/repos/AI-Empire/book/print/manuscripts/full_book_print.md",
+  "full_book_wrapper": "/Users/hassan/repos/AI-Empire/book/print/typst/full_book_print.typ",
+  "chapters": [
+    {
+      "chapter_id": "00",
+      "title": "Before the Machine Could Speak",
+      "deck": "The opening wound: how humanity was turned into signal before AI could be sold as destiny.",
+      "document_stem": "00_opening-framework",
+      "paper_title": "Chapter 00: Opening Framework",
+      "paper_stem": "00_opening-framework_paper",
+      "public_html_url": "https://hassanvfx.github.io/ai-empire/papers/html/00_opening-framework_paper.html",
+      "public_pdf_url": "https://hassanvfx.github.io/ai-empire/papers/pdf/00_opening-framework_paper/00_opening-framework_paper.pdf",
+      "manuscript_markdown_path": "/Users/hassan/repos/AI-Empire/book/print/manuscripts/chapters/00_opening-framework.md",
+      "manuscript_typst_path": "/Users/hassan/repos/AI-Empire/book/print/manuscripts/chapters/00_opening-framework.typ",
+      "wrapper_path": "/Users/hassan/repos/AI-Empire/book/print/typst/00_opening-framework_print.typ",
+      "qr_svg_path": "/Users/hassan/repos/AI-Empire/book/print/assets/qrcodes/00_opening-framework_research_qr.svg",
+      "cover_image_path": "/Users/hassan/repos/AI-Empire/book/print/assets/images/00_before-the-machine-could-speak_cover.jpg",
+      "body_image_paths": [
+        "/Users/hassan/repos/AI-Empire/book/print/assets/images/00_before-the-machine-could-speak_illustration.jpg",
+        "/Users/hassan/repos/AI-Empire/book/print/assets/images/00_before-the-machine-could-speak_infographic.png"
+      ],
+      "research_note_summary": "This chapter adapts the documentary argument developed in the research paper **Chapter 00: Opening Framework**. That paper connects the weights question, the enclosure of human value, the congressional uptake of the argument, and the three-reform destination of the wider dossier."
+    },
+    {
+      "chapter_id": "01",
+      "title": "The Free Trap",
+      "deck": "How the platforms taught us to confuse participation with payment while they harvested the map of our behavior.",
+      "document_stem": "01_the-free-trap",
+      "paper_title": "Chapter 01: Social Networks as Infrastructure for Free Data Capture",
+      "paper_stem": "01_social-networks-data-capture_paper",
+      "public_html_url": "https://hassanvfx.github.io/ai-empire/papers/html/01_social-networks-data-capture_paper.html",
+      "public_pdf_url": "https://hassanvfx.github.io/ai-empire/papers/pdf/01_social-networks-data-capture_paper/01_social-networks-data-capture_paper.pdf",
+      "manuscript_markdown_path": "/Users/hassan/repos/AI-Empire/book/print/manuscripts/chapters/01_the-free-trap.md",
+      "manuscript_typst_path": "/Users/hassan/repos/AI-Empire/book/print/manuscripts/chapters/01_the-free-trap.typ",
+      "wrapper_path": "/Users/hassan/repos/AI-Empire/book/print/typst/01_the-free-trap_print.typ",
+      "qr_svg_path": "/Users/hassan/repos/AI-Empire/book/print/assets/qrcodes/01_the-free-trap_research_qr.svg",
+      "cover_image_path": "/Users/hassan/repos/AI-Empire/book/print/assets/images/01_the-free-trap_cover.jpg",
+      "body_image_paths": [
+        "/Users/hassan/repos/AI-Empire/book/print/assets/images/01_the-free-trap_illustration.jpg",
+        "/Users/hassan/repos/AI-Empire/book/print/assets/images/01_the-free-trap_infographic.png"
+      ],
+      "research_note_summary": "This chapter adapts the documentary argument developed in the research paper **Chapter 01: Social Networks as Infrastructure for Free Data Capture**. That paper grounds the case in the FTC record, Facebook/Meta governance history, and the platform business model of persistent extraction."
+    },
+    {
+      "chapter_id": "02",
+      "title": "Raised by the Algorithm",
+      "deck": "A generation did not simply lose attention. Attention was farmed.",
+      "document_stem": "02_raised-by-the-algorithm",
+      "paper_title": "Chapter 02: Social Erosion and Moral Reconfiguration",
+      "paper_stem": "02_social-erosion-and-moral-reconfiguration_paper",
+      "public_html_url": "https://hassanvfx.github.io/ai-empire/papers/html/02_social-erosion-and-moral-reconfiguration_paper.html",
+      "public_pdf_url": "https://hassanvfx.github.io/ai-empire/papers/pdf/02_social-erosion-and-moral-reconfiguration_paper/02_social-erosion-and-moral-reconfiguration_paper.pdf",
+      "manuscript_markdown_path": "/Users/hassan/repos/AI-Empire/book/print/manuscripts/chapters/02_raised-by-the-algorithm.md",
+      "manuscript_typst_path": "/Users/hassan/repos/AI-Empire/book/print/manuscripts/chapters/02_raised-by-the-algorithm.typ",
+      "wrapper_path": "/Users/hassan/repos/AI-Empire/book/print/typst/02_raised-by-the-algorithm_print.typ",
+      "qr_svg_path": "/Users/hassan/repos/AI-Empire/book/print/assets/qrcodes/02_raised-by-the-algorithm_research_qr.svg",
+      "cover_image_path": "/Users/hassan/repos/AI-Empire/book/print/assets/images/02_raised-by-the-algorithm_cover.jpg",
+      "body_image_paths": [
+        "/Users/hassan/repos/AI-Empire/book/print/assets/images/02_raised-by-the-algorithm_illustration.jpg",
+        "/Users/hassan/repos/AI-Empire/book/print/assets/images/02_raised-by-the-algorithm_infographic.png"
+      ],
+      "research_note_summary": "This chapter adapts the documentary argument developed in the research paper **Chapter 02: Social Erosion and Moral Reconfiguration**. That paper ties youth harm, recommendation amplification, attention damage, and moral reconfiguration back to platform design rather than to simplistic civilizational decline stories."
+    },
+    {
+      "chapter_id": "03",
+      "title": "Lockdown and the Great Acceleration",
+      "deck": "The world went inside. The platforms were waiting.",
+      "document_stem": "03_lockdown-and-the-great-acceleration",
+      "paper_title": "Chapter 03: COVID as a Historical Accelerator",
+      "paper_stem": "03_covid-historical-accelerator_paper",
+      "public_html_url": "https://hassanvfx.github.io/ai-empire/papers/html/03_covid-historical-accelerator_paper.html",
+      "public_pdf_url": "https://hassanvfx.github.io/ai-empire/papers/pdf/03_covid-historical-accelerator_paper/03_covid-historical-accelerator_paper.pdf",
+      "manuscript_markdown_path": "/Users/hassan/repos/AI-Empire/book/print/manuscripts/chapters/03_lockdown-and-the-great-acceleration.md",
+      "manuscript_typst_path": "/Users/hassan/repos/AI-Empire/book/print/manuscripts/chapters/03_lockdown-and-the-great-acceleration.typ",
+      "wrapper_path": "/Users/hassan/repos/AI-Empire/book/print/typst/03_lockdown-and-the-great-acceleration_print.typ",
+      "qr_svg_path": "/Users/hassan/repos/AI-Empire/book/print/assets/qrcodes/03_lockdown-and-the-great-acceleration_research_qr.svg",
+      "cover_image_path": "/Users/hassan/repos/AI-Empire/book/print/assets/images/03_lockdown-and-the-great-acceleration_cover.jpg",
+      "body_image_paths": [
+        "/Users/hassan/repos/AI-Empire/book/print/assets/images/03_lockdown-and-the-great-acceleration_illustration.jpg",
+        "/Users/hassan/repos/AI-Empire/book/print/assets/images/03_lockdown-and-the-great-acceleration_infographic.png"
+      ],
+      "research_note_summary": "This chapter adapts the documentary argument developed in the research paper **Chapter 03: COVID as a Historical Accelerator**. That paper separates documented pandemic effects, unresolved origin questions, and the broader structural case for digital acceleration."
+    },
+    {
+      "chapter_id": "04",
+      "title": "We Were the Dataset",
+      "deck": "First they captured what we made. Then they captured how we think.",
+      "document_stem": "04_we-were-the-dataset",
+      "paper_title": "Chapter 04: AI Arrives When the Human Raw Material Already Exists",
+      "paper_stem": "04_data-models-weights_paper",
+      "public_html_url": "https://hassanvfx.github.io/ai-empire/papers/html/04_data-models-weights_paper.html",
+      "public_pdf_url": "https://hassanvfx.github.io/ai-empire/papers/pdf/04_data-models-weights_paper/04_data-models-weights_paper.pdf",
+      "manuscript_markdown_path": "/Users/hassan/repos/AI-Empire/book/print/manuscripts/chapters/04_we-were-the-dataset.md",
+      "manuscript_typst_path": "/Users/hassan/repos/AI-Empire/book/print/manuscripts/chapters/04_we-were-the-dataset.typ",
+      "wrapper_path": "/Users/hassan/repos/AI-Empire/book/print/typst/04_we-were-the-dataset_print.typ",
+      "qr_svg_path": "/Users/hassan/repos/AI-Empire/book/print/assets/qrcodes/04_we-were-the-dataset_research_qr.svg",
+      "cover_image_path": "/Users/hassan/repos/AI-Empire/book/print/assets/images/04_we-were-the-dataset_cover.jpg",
+      "body_image_paths": [
+        "/Users/hassan/repos/AI-Empire/book/print/assets/images/04_we-were-the-dataset_illustration.jpg",
+        "/Users/hassan/repos/AI-Empire/book/print/assets/images/04_we-were-the-dataset_infographic.png"
+      ],
+      "research_note_summary": "This chapter adapts the documentary argument developed in the research paper **Chapter 04: AI Arrives When the Human Raw Material Already Exists**. That paper grounds the weights debate in Copyright Office records, memorization research, licensing developments, court conflict, and the social-to-model bridge."
+    },
+    {
+      "chapter_id": "05",
+      "title": "The Layoff Ritual",
+      "deck": "The machine did not only learn from workers. It was used to discipline them.",
+      "document_stem": "05_the-layoff-ritual",
+      "paper_title": "Chapter 05: Talent, Overhiring, Valuation, and Layoffs",
+      "paper_stem": "05_talent-overhiring-layoffs_paper",
+      "public_html_url": "https://hassanvfx.github.io/ai-empire/papers/html/05_talent-overhiring-layoffs_paper.html",
+      "public_pdf_url": "https://hassanvfx.github.io/ai-empire/papers/pdf/05_talent-overhiring-layoffs_paper/05_talent-overhiring-layoffs_paper.pdf",
+      "manuscript_markdown_path": "/Users/hassan/repos/AI-Empire/book/print/manuscripts/chapters/05_the-layoff-ritual.md",
+      "manuscript_typst_path": "/Users/hassan/repos/AI-Empire/book/print/manuscripts/chapters/05_the-layoff-ritual.typ",
+      "wrapper_path": "/Users/hassan/repos/AI-Empire/book/print/typst/05_the-layoff-ritual_print.typ",
+      "qr_svg_path": "/Users/hassan/repos/AI-Empire/book/print/assets/qrcodes/05_the-layoff-ritual_research_qr.svg",
+      "cover_image_path": "/Users/hassan/repos/AI-Empire/book/print/assets/images/05_the-layoff-ritual_cover.jpg",
+      "body_image_paths": [
+        "/Users/hassan/repos/AI-Empire/book/print/assets/images/05_the-layoff-ritual_illustration.jpg",
+        "/Users/hassan/repos/AI-Empire/book/print/assets/images/05_the-layoff-ritual_infographic.png"
+      ],
+      "research_note_summary": "This chapter adapts the documentary argument developed in the research paper **Chapter 05: Talent, Overhiring, Valuation, and Layoffs**. That paper ties labor correction to financial structure, Section 174, post-pandemic excess, company efficiency language, and the strategic use of AI rhetoric."
+    },
+    {
+      "chapter_id": "06",
+      "title": "The Dual-Use Gospel",
+      "deck": "How the same system is sold as miracle, weapon, tutor, oracle, and dependency engine.",
+      "document_stem": "06_the-dual-use-gospel",
+      "paper_title": "Chapter 06: AI as a Dual-Use Rhetorical Weapon",
+      "paper_stem": "06_dual-use-rhetorical-weapon_paper",
+      "public_html_url": "https://hassanvfx.github.io/ai-empire/papers/html/06_dual-use-rhetorical-weapon_paper.html",
+      "public_pdf_url": "https://hassanvfx.github.io/ai-empire/papers/pdf/06_dual-use-rhetorical-weapon_paper/06_dual-use-rhetorical-weapon_paper.pdf",
+      "manuscript_markdown_path": "/Users/hassan/repos/AI-Empire/book/print/manuscripts/chapters/06_the-dual-use-gospel.md",
+      "manuscript_typst_path": "/Users/hassan/repos/AI-Empire/book/print/manuscripts/chapters/06_the-dual-use-gospel.typ",
+      "wrapper_path": "/Users/hassan/repos/AI-Empire/book/print/typst/06_the-dual-use-gospel_print.typ",
+      "qr_svg_path": "/Users/hassan/repos/AI-Empire/book/print/assets/qrcodes/06_the-dual-use-gospel_research_qr.svg",
+      "cover_image_path": "/Users/hassan/repos/AI-Empire/book/print/assets/images/06_the-dual-use-gospel_cover.jpg",
+      "body_image_paths": [
+        "/Users/hassan/repos/AI-Empire/book/print/assets/images/06_the-dual-use-gospel_illustration.jpg",
+        "/Users/hassan/repos/AI-Empire/book/print/assets/images/06_the-dual-use-gospel_infographic.png"
+      ],
+      "research_note_summary": "This chapter adapts the documentary argument developed in the research paper **Chapter 06: AI as a Dual-Use Rhetorical Weapon**. That paper distinguishes real progress from strategic packaging and follows the collision between danger rhetoric, cheapness rhetoric, and reasoning politics."
+    },
+    {
+      "chapter_id": "07",
+      "title": "The Gates of Intelligence",
+      "deck": "Compute, export controls, and defense alignments decide who may approach the new oracle.",
+      "document_stem": "07_the-gates-of-intelligence",
+      "paper_title": "Chapter 07: Imperial Control Over Access",
+      "paper_stem": "07_imperial-control-over-access_paper",
+      "public_html_url": "https://hassanvfx.github.io/ai-empire/papers/html/07_imperial-control-over-access_paper.html",
+      "public_pdf_url": "https://hassanvfx.github.io/ai-empire/papers/pdf/07_imperial-control-over-access_paper/07_imperial-control-over-access_paper.pdf",
+      "manuscript_markdown_path": "/Users/hassan/repos/AI-Empire/book/print/manuscripts/chapters/07_the-gates-of-intelligence.md",
+      "manuscript_typst_path": "/Users/hassan/repos/AI-Empire/book/print/manuscripts/chapters/07_the-gates-of-intelligence.typ",
+      "wrapper_path": "/Users/hassan/repos/AI-Empire/book/print/typst/07_the-gates-of-intelligence_print.typ",
+      "qr_svg_path": "/Users/hassan/repos/AI-Empire/book/print/assets/qrcodes/07_the-gates-of-intelligence_research_qr.svg",
+      "cover_image_path": "/Users/hassan/repos/AI-Empire/book/print/assets/images/07_the-gates-of-intelligence_cover.jpg",
+      "body_image_paths": [
+        "/Users/hassan/repos/AI-Empire/book/print/assets/images/07_the-gates-of-intelligence_illustration.jpg",
+        "/Users/hassan/repos/AI-Empire/book/print/assets/images/07_the-gates-of-intelligence_infographic.png"
+      ],
+      "research_note_summary": "This chapter adapts the documentary argument developed in the research paper **Chapter 07: Imperial Control Over Access**. That paper grounds the access story in compute chokepoints, government offerings, defense channels, export-control politics, and documented state-company interfaces."
+    },
+    {
+      "chapter_id": "08",
+      "title": "The Legitimacy Machine",
+      "deck": "The empire does not survive by code alone. It survives by praise, access, prestige, and institutional blessing.",
+      "document_stem": "08_the-legitimacy-machine",
+      "paper_title": "Chapter 08: Power Network, Legitimacy, and Institutional Capture",
+      "paper_stem": "08_legitimacy-and-institutional-capture_paper",
+      "public_html_url": "https://hassanvfx.github.io/ai-empire/papers/html/08_legitimacy-and-institutional-capture_paper.html",
+      "public_pdf_url": "https://hassanvfx.github.io/ai-empire/papers/pdf/08_legitimacy-and-institutional-capture_paper/08_legitimacy-and-institutional-capture_paper.pdf",
+      "manuscript_markdown_path": "/Users/hassan/repos/AI-Empire/book/print/manuscripts/chapters/08_the-legitimacy-machine.md",
+      "manuscript_typst_path": "/Users/hassan/repos/AI-Empire/book/print/manuscripts/chapters/08_the-legitimacy-machine.typ",
+      "wrapper_path": "/Users/hassan/repos/AI-Empire/book/print/typst/08_the-legitimacy-machine_print.typ",
+      "qr_svg_path": "/Users/hassan/repos/AI-Empire/book/print/assets/qrcodes/08_the-legitimacy-machine_research_qr.svg",
+      "cover_image_path": "/Users/hassan/repos/AI-Empire/book/print/assets/images/08_the-legitimacy-machine_cover.jpg",
+      "body_image_paths": [
+        "/Users/hassan/repos/AI-Empire/book/print/assets/images/08_the-legitimacy-machine_illustration.jpg",
+        "/Users/hassan/repos/AI-Empire/book/print/assets/images/08_the-legitimacy-machine_infographic.png"
+      ],
+      "research_note_summary": "This chapter adapts the documentary argument developed in the research paper **Chapter 08: Power Network, Legitimacy, and Institutional Capture**. That paper follows the structural record on governance, lobbying, prestige, policy access, state adjacency, and bounded treatment of sensitive named-individual material."
+    },
+    {
+      "chapter_id": "09",
+      "title": "If No One Acts",
+      "deck": "What comes next if dependence, enclosure, and state-corporate fusion harden into infrastructure.",
+      "document_stem": "09_if-no-one-acts",
+      "paper_title": "Chapter 09: Future if No Action Is Taken",
+      "paper_stem": "09_future-if-unchecked_paper",
+      "public_html_url": "https://hassanvfx.github.io/ai-empire/papers/html/09_future-if-unchecked_paper.html",
+      "public_pdf_url": "https://hassanvfx.github.io/ai-empire/papers/pdf/09_future-if-unchecked_paper/09_future-if-unchecked_paper.pdf",
+      "manuscript_markdown_path": "/Users/hassan/repos/AI-Empire/book/print/manuscripts/chapters/09_if-no-one-acts.md",
+      "manuscript_typst_path": "/Users/hassan/repos/AI-Empire/book/print/manuscripts/chapters/09_if-no-one-acts.typ",
+      "wrapper_path": "/Users/hassan/repos/AI-Empire/book/print/typst/09_if-no-one-acts_print.typ",
+      "qr_svg_path": "/Users/hassan/repos/AI-Empire/book/print/assets/qrcodes/09_if-no-one-acts_research_qr.svg",
+      "cover_image_path": "/Users/hassan/repos/AI-Empire/book/print/assets/images/09_if-no-one-acts_cover.jpg",
+      "body_image_paths": [
+        "/Users/hassan/repos/AI-Empire/book/print/assets/images/09_if-no-one-acts_illustration.jpg",
+        "/Users/hassan/repos/AI-Empire/book/print/assets/images/09_if-no-one-acts_infographic.png"
+      ],
+      "research_note_summary": "This chapter adapts the documentary argument developed in the research paper **Chapter 09: Future if No Action Is Taken**. That paper turns the upstream record into a bounded continuity scenario rather than a sensational apocalypse narrative."
+    },
+    {
+      "chapter_id": "10",
+      "title": "The Three Reforms",
+      "deck": "The response is no longer a mood. It is a program.",
+      "document_stem": "10_the-three-reforms",
+      "paper_title": "Chapter 10: What To Do",
+      "paper_stem": "10_three-reform-program_paper",
+      "public_html_url": "https://hassanvfx.github.io/ai-empire/papers/html/10_three-reform-program_paper.html",
+      "public_pdf_url": "https://hassanvfx.github.io/ai-empire/papers/pdf/10_three-reform-program_paper/10_three-reform-program_paper.pdf",
+      "manuscript_markdown_path": "/Users/hassan/repos/AI-Empire/book/print/manuscripts/chapters/10_the-three-reforms.md",
+      "manuscript_typst_path": "/Users/hassan/repos/AI-Empire/book/print/manuscripts/chapters/10_the-three-reforms.typ",
+      "wrapper_path": "/Users/hassan/repos/AI-Empire/book/print/typst/10_the-three-reforms_print.typ",
+      "qr_svg_path": "/Users/hassan/repos/AI-Empire/book/print/assets/qrcodes/10_the-three-reforms_research_qr.svg",
+      "cover_image_path": "/Users/hassan/repos/AI-Empire/book/print/assets/images/10_the-three-reforms_cover.jpg",
+      "body_image_paths": [
+        "/Users/hassan/repos/AI-Empire/book/print/assets/images/10_the-three-reforms_illustration.jpg",
+        "/Users/hassan/repos/AI-Empire/book/print/assets/images/10_the-three-reforms_infographic.png"
+      ],
+      "research_note_summary": "This chapter adapts the documentary argument developed in the research paper **Chapter 10: What To Do**. That paper states the three-reform program directly and grounds it in the documented upstream record on platform design, training conflict, access control, and institutional capture."
+    }
+  ]
+}

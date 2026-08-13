@@ -1,0 +1,12 @@
+Source: Axios, "OpenAI-linked PAC doubles down in Kentucky"
+URL: https://www.axios.com/2026/05/22/open-ai-pac-kentucky
+Published: 2026-05-22
+Captured: 2026-07-03T01:10:00Z
+Capture mode: manual-web-excerpt
+
+Verified excerpt points from Codex web capture:
+- Axios page date: May 22, 2026.
+- Axios says Leading the Future and its affiliated nonprofit, Build American AI, are looking for allies in the next Congress to pass a national AI framework.
+- The article says Leading the Future has close ties with OpenAI and Andreessen Horowitz.
+- Axios reports a $750,000 investment in Kentucky and says the network plans to spend $140 million during the 2026 midterms.
+- Axios says part of the effort is to push back against a state-by-state approach to governing AI.

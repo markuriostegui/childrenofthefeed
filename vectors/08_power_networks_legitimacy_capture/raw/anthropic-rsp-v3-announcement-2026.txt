@@ -1,0 +1,8 @@
+Source: Anthropic
+URL: https://www.anthropic.com/news/responsible-scaling-policy-v3
+Published: 2026-02-24
+
+Relevant extracted text:
+- Anthropic publicly announced RSP v3.0 on February 24, 2026.
+- The announcement frames the revision around industry-wide safety, risk reports, frontier safety roadmaps, and governance commitments.
+- It explains the shift as a response to a collective-action problem rather than as proof that risk had disappeared.

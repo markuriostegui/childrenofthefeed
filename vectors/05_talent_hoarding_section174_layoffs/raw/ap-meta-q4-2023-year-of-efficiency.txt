@@ -1,0 +1,4907 @@
+window.kameleoonQueue=window.kameleoonQueue||[];
+window.kameleoonQueue = window.kameleoonQueue || [];
+:root {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--color-primary-navbar-description-text: #000000 !important;
+--color-primary-navbar-description-text-hover: #999 !important;
+--color-primary-navbar-icon: #000000 !important;
+--color-primary-navbar-icon-hover: #999 !important;
+
+
+
+/* LIGHT COLORS */
+--bgDefault--LIGHT: #fff;
+--color-primary-text--LIGHT: var(--color-primary-text-theme, #000);
+--color-share-button-text--LIGHT: #000;
+--color-secondary-button-text--LIGHT: #000;
+--color-secondary-button-background--LIGHT: #FFF;
+--color-link-text--LIGHT: var(--color-link-text-theme, #0042A9);
+--color-link-text-hover--LIGHT: var(--color-link-text-hover-theme, #0042A9);
+--module-title-prompt-border--LIGHT: #ccc;
+--color-byline-authors--LIGHT: #000;
+--color-quote-text--LIGHT: #000;
+--color-module-title-text--LIGHT: #FFF;
+
+--color-module-title--LIGHT: #000;
+--color-promo-textAlt--LIGHT: #000;
+--color-promo-text--LIGHT: #000;
+--color-reading-time--LIGHT: #666;
+--color-comment-count--LIGHT: #666;
+--color-promo-text-hover--LIGHT: #999;
+--color-eyebrow--LIGHT: #146994;
+--color-eyebrow-hover--LIGHT: #1c94d0;
+--color-list-border--LIGHT: var(--color-list-border-theme, var(--color-border));
+--ap-brand-red--LIGHT: #FF322E;
+
+--color-shadegradient--LIGHT: rgba(255, 255, 255, 0.8);
+
+--readmore-text--LIGHT: #4b4545;
+--readmore-gradient--LIGHT: #fff;
+--container-title--LIGHT: #000;
+
+/* DARK COLORS */
+--bgDefault--DARK: #000;
+--color-primary-text--DARK: var(--color-text-inverse);
+
+    --color-link-text--DARK: var(--color-link-text-theme, #8BC4FA);
+    --color-share-button-text--DARK: #000;
+    --color-secondary-button-text--DARK: #000;
+    --color-secondary-button-background--LIGHT: #FFF;
+    --color-link-text-hover--DARK: var(--color-link-text-hover-theme, #8BC4FA);
+    --color-quote-text--DARK: #000000 !important;
+    --color-module-title-text--DARK: #FFFFFF !important;
+
+--module-title-prompt-border--DARK: #333;
+--color-byline-authors--DARK: #fff;
+
+--color-module-title--DARK: #fff;
+--color-promo-textAlt--DARK: #ccc;
+--color-promo-text--DARK: #fff;
+--color-reading-time--DARK: #F2F2F2;
+--color-comment-count--DARK: #F2F2F2;
+--color-promo-text-hover--DARK: #999;
+--color-eyebrow--DARK: #fff;
+--color-eyebrow-hover--DARK: #999;
+
+--color-list-border--DARK: #333;
+
+--color-shadegradient--DARK: rgba(0, 0, 0, 0.8);
+
+--readmore-text--DARK: #fff;
+--readmore-gradient--DARK: #000;
+--container-title--DARK: #fff;
+}
+
+
+    
+        :root {
+    --globalColorScheme: 'light';
+
+    /* DEFAULT MODE */
+    --bgDefault-DEFAULTMODE: var(--bgDefault--LIGHT);
+    --color-primary-text-DEFAULTMODE: var(--color-primary-text--LIGHT);
+    --color-share-button-text-DEFAULTMODE: var(--color-share-button-text--LIGHT);
+    --color-secondary-button-text-DEFAULTMODE: var(--color-secondary-button-text--LIGHT);
+    --color-secondary-button-background-DEFAULTMODE: var(--color-secondary-button-background--DARK);
+    --color-link-text-DEFAULTMODE: var(--color-link-text--LIGHT);
+    --color-link-text-hover-DEFAULTMODE: var(--color-link-text-hover--LIGHT);
+    --module-title-prompt-border-DEFAULTMODE: var(--module-title-prompt-border--LIGHT);
+    --color-byline-authors-DEFAULTMODE: var(--color-byline-authors--LIGHT);
+    --color-quote-text-DEFAULTMODE: var(--color-quote-text--LIGHT);
+    --color-module-title-text-DEFAULTMODE: var(--color-module-title-text--LIGHT);
+
+    --color-module-title-DEFAULTMODE: var(--color-module-title--LIGHT);
+    --color-promo-textAlt-DEFAULTMODE: var(--color-promo-textAlt--LIGHT);
+    --color-promo-text-DEFAULTMODE: var(--color-promo-text--LIGHT);
+    --color-reading-time-DEFAULTMODE: var(--color-reading-time--LIGHT);
+    --color-comment-count-DEFAULTMODE: var(--color-comment-count--LIGHT);
+    --color-promo-text-hover-DEFAULTMODE: var(--color-promo-text-hover--LIGHT);
+    --color-eyebrow-DEFAULTMODE: var(--color-eyebrow--LIGHT);
+    --color-eyebrow-hover-DEFAULTMODE: var(--color-eyebrow-hover--LIGHT);
+    --color-list-border-DEFAULTMODE: var(--color-list-border--LIGHT);
+    --ap-brand-red-DEFAULTMODE: var(--ap-brand-red--LIGHT);
+
+    --color-shadegradient-DEFAULTMODE: var(--color-shadegradient--LIGHT);
+
+    --readmore-text-DEFAULTMODE: var(--readmore-text--LIGHT);
+    --readmore-gradient-DEFAULTMODE: var(--readmore-gradient--LIGHT);
+    --container-title-DEFAULTMODE: var(--container-title--LIGHT);
+
+    /* ALT MODE */
+    /* DEFAULT MODE */
+    --bgDefault-ALTMODE: var(--bgDefault--DARK);
+    --color-primary-text-ALTMODE: var(--color-primary-text--DARK);
+    --color-share-button-text-ALTMODE: var(--color-share-button-text--DARK);
+    --color-secondary-button-text-ALTMODE: var(--color-secondary-button-text--DARK);
+    --color-secondary-button-background-ALTMODE: var(--color-secondary-button-background--LIGHT);
+    --color-link-text-ALTMODE: var(--color-link-text--DARK);
+    --color-link-text-hover-ALTMODE: var(--color-link-text-hover--DARK);
+    --module-title-prompt-border-ALTMODE: var(--module-title-prompt-border--DARK);
+    --color-byline-authors-ALTMODE: var(--color-byline-authors--DARK);
+    --color-quote-text-ALTMODE: var(--color-quote-text--DARK);
+    --color-module-title-text-ALTMODE: var(--color-module-title-text--DARK);
+
+    --color-module-title-ALTMODE: var(--color-module-title--DARK);
+    --color-promo-textAlt-ALTMODE: var(--color-promo-textAlt--DARK);
+    --color-promo-text-ALTMODE: var(--color-promo-text--DARK);
+    --color-reading-time-ALTMODE: var(--color-reading-time--DARK);
+    --color-comment-count-ALTMODE: var(--color-comment-count--DARK);
+    --color-promo-text-hover-ALTMODE: var(--color-promo-text-hover--DARK);
+    --color-eyebrow-ALTMODE: var(--color-eyebrow--DARK);
+    --color-eyebrow-hover-ALTMODE: var(--color-eyebrow-hover--DARK);
+    --color-list-border-ALTMODE: var(--color-list-border--DARK);
+    --ap-brand-red-ALTMODE: var(--ap-brand-red--DARK);
+
+    --color-shadegradient-ALTMODE: var(--color-shadegradient--DARK);
+
+    --readmore-text-ALTMODE: var(--readmore-text--DARK);
+    --readmore-gradient-ALTMODE: var(--readmore-gradient--DARK);
+    --container-title-ALTMODE: var(--container-title--DARK);
+}
+:root {
+        --button-border-radius: 3px;
+:root {
+  --font-1: "Arial";
+  --font-2: "Times";
+}
+
+
+
+@font-face{
+  font-family:APVar;
+  font-weight: 400;
+  src:  url('https://assets.apnews.com/resource/00000188-2a81-d28a-a1fd-7bfb6ccb0000/assets/fonts/APCustomFont/APVarW05-Regular.3c0c9d016bf55b85d0800dd405b807e3.woff2') format('woff2');
+}
+
+
+
+
+@font-face{
+  font-family:AP;
+  font-weight: 400;
+  src:  url('https://assets.apnews.com/resource/00000188-2a81-d28a-a1fd-7bfb6ccb0000/assets/fonts/APCustomFont/APW05-Regular.554b177de19fb126118d8d529f17aa6b.woff2') format('woff2');
+}
+
+@font-face{
+  font-family:AP;
+  font-weight: 500;
+  src:  url('https://assets.apnews.com/resource/00000188-2a81-d28a-a1fd-7bfb6ccb0000/assets/fonts/APCustomFont/APW05-Medium.af2adfe5cf329805caaecc3469c17ba7.woff2') format('woff2');
+}
+
+@font-face{
+  font-family:AP;
+  font-weight: 700;
+  src:  url('https://assets.apnews.com/resource/00000188-2a81-d28a-a1fd-7bfb6ccb0000/assets/fonts/APCustomFont/APW05-Bold.3be6a0cf2309813e292bcbf849d6fa97.woff2') format('woff2');
+}
+
+
+
+@font-face{
+  font-family:AP;
+  font-weight: 400;
+  font-stretch: condensed;
+  src:  url('https://assets.apnews.com/resource/00000188-2a81-d28a-a1fd-7bfb6ccb0000/assets/fonts/APCustomFont/APW05-Condensed.a2e7de2f933a2cfb561ebf918445be8c.woff2') format('woff2');
+}
+
+@font-face{
+  font-family:AP;
+  font-weight: 500;
+  font-stretch: condensed;
+  src:  url('https://assets.apnews.com/resource/00000188-2a81-d28a-a1fd-7bfb6ccb0000/assets/fonts/APCustomFont/APW05-CondensedMedium.7d3bf8cec74522a6b6277567408b3cac.woff2') format('woff2');
+}
+
+@font-face{
+  font-family:AP;
+  font-weight: 700;
+  font-stretch: condensed;
+  src:  url('https://assets.apnews.com/resource/00000188-2a81-d28a-a1fd-7bfb6ccb0000/assets/fonts/APCustomFont/APW05-CondensedBold.6e5f3d10491d025b55a82beebf812af9.woff2') format('woff2');
+}
+
+
+
+
+@font-face{
+  font-family:AP;
+  font-weight: 400;
+  font-stretch: semi-condensed;
+  src:  url('https://assets.apnews.com/resource/00000188-2a81-d28a-a1fd-7bfb6ccb0000/assets/fonts/APCustomFont/APW05-SemiCondensed.d6d1dd4cf415654d766572b8828ac316.woff2') format('woff2');
+}
+
+@font-face{
+  font-family:AP;
+  font-weight: 500;
+  font-stretch: semi-condensed;
+  src:  url('https://assets.apnews.com/resource/00000188-2a81-d28a-a1fd-7bfb6ccb0000/assets/fonts/APCustomFont/APW05-SemiCondensedMedium.0146527a4261c5e15db1af66f0fc0b28.woff2') format('woff2');
+}
+
+@font-face{
+  font-family:AP;
+  font-weight: 700;
+  font-stretch: semi-condensed;
+  src:  url('https://assets.apnews.com/resource/00000188-2a81-d28a-a1fd-7bfb6ccb0000/assets/fonts/APCustomFont/APW05-SemiCondensedBold.fcbedb6a106dddd6fdfef5877e011259.woff2') format('woff2');
+}
+
+
+body {
+  --font-1: "AP";
+  --font-2: "AP";
+  --font-page-titles: var(--font-1);
+  --font-list-titles: var(--font-1);
+  --font-promo-titles: var(--font-1);
+  --font-description: var(--font-2);
+  --font-quote: var(--font-1);
+}
+@media only screen and (max-width: 767px) {
+     [data-leaderboard-is-fixed='true']:not([data-toggle-header="hamburger-menu"]) {
+         --topHeaderPosition: var(--leaderboardAdHeight) !important;
+     }
+}
+.viafoura {
+  --primary-font: 'AP', sans-serif;
+  --x-large-font: 3.2; /* 32px changes the large title at top */
+  --large-font: 2.0;   /* 20px NOT changing anything*/
+  --medium-font: 1.6;  /* 16px changes the headline font in active conversations*/
+  --small-font: 1.8;   /* 18px NOT changing anything*/
+  --x-small-font: 1.0; /* 10px the small font as the reply to user*/
+}
+
+.vf-comment-header {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  width: 100%;
+}
+/* Hide just the floating bell, everywhere */
+vf-tray-trigger[floating],
+.vf-tray-trigger--floating {
+  display: none !important;
+}
+.vf-comment-header__heading {
+  flex: 1 1 auto !important;
+  text-align: left !important;
+  margin: 0 !important;
+  font-size: 1.2em;
+}
+
+.vf-comment-header__actions {
+  flex: 0 0 auto !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 8px;
+}
+
+.vf-comment-header__actions > * {
+  flex: 0 0 auto !important;
+}
+/* Hide the Profile button/tab in Viafoura comments module */
+#vf-tray > div > div > div > div > article > nav > div.vf-horiz-list.vf-tabbed-nav__tabs.vf-flex-grow > div:nth-child(2) {
+    display: none;
+}
+button[data-test="vf-tray-tab-settings"] {
+    display: none !important;
+}
+
+/* this hides the second start the conversation text in the empty comments area of the below article module */
+.vf-ad-empty-comments {
+    display: none !important;
+}
+/* this hides the email sign in the user profile in the tray*/
+.vf-client-settings-email-notifications {
+  display: none !important;
+}
+
+/* Hide the Settings button in Viafoura comments module */
+.vf-tray-settings-button,
+span.vf-tray-settings-button,
+button.vf-tray-settings-button {
+    display: none !important;
+}
+
+#ap-comments .vf-follow-button {
+  display: none !important;
+}
+
+.viafoura .vf-badge--accent-color[data-v-2c5d8df2].vf-custom-badge {
+   background-color:#ff322e !important;
+}
+[data-featured-type="bgBlackTextWhite"] .Page-actions-trigger {
+    color: #000;
+  }
+.PageList-header .title-icon {
+  margin-bottom: 10px;
+}
+
+bsp-listcarousel .PageList-header .title-icon {
+  margin-bottom: 10px;
+}
+
+.PageList-header .title-icon picture img {
+  height: 30px;
+}
+
+@media only screen and (max-width: 1023px) {
+  .PageList-header-title {
+    padding-top: 24px;
+  }
+
+  .PageListStandardB .PageList-header-title {
+    padding-top: 24px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .PageList-header .title-icon {
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+
+  bsp-listcarousel .PageList-header .title-icon {
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .PageListStandardB .PageList-header-title {
+    padding-top: 18px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+    .PageListStandardB .PageList-header-title {
+        padding-top: 18px;
+    }
+
+    .PageList-header .title-icon {
+      margin-top: 18px;
+    }
+
+    bsp-listcarousel .PageList-header .title-icon {
+      margin-top: 18px;
+    }
+
+}
+body {
+    --adLabelBuffer: 40px;
+    --fsAddBuffer: 40px;
+}
+
+[class="FreeStar Advertisement"]:has([id$="rail_sticky"]) {
+    position: sticky;
+    top: 90px;
+}
+
+#apnews_hub_rail_sticky,
+#apnews_home_rail_sticky,
+#apnews_story_rail_sticky {
+    justify-content: start;
+}
+
+body[data-tb-dashboard="Homepage"] .apnews_leaderboard {
+    max-width: 970px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+    #apnews_hub_rail_sticky::before {
+        content: none;
+    }
+}
+
+#apnews_hub_rail_small::before,
+#apnews_home_rail_sticky::before,
+#apnews_story_rail_sticky::before,
+#apnews_hub_rail_sticky::before,
+#apnews_story_rail_large::before,
+[class="apnews_home_feed_dynamic"]::before,
+[class="apnews_story_feed_dynamic"]::before,
+[class="apnews_hub_mobile"]::before,
+[class="apnews_hub_curated"]::before,
+[class="apnews_home_mobile_dynamic"]::before,
+[class="apnews_hub_feed_dynamic"]::before,
+[class="apnews_hub_feed"]::before,
+[class="apnews_hub_rail_small"]::before,
+[class="apnews_hub_rail"]::before,
+[class="apnews_home_mobile"]::before,
+[class="apnews_home_curated"]::before,
+[class="apnews_home_rail_small"]::before,
+[class="apnews_story_rail_large"]::before,
+[class="apnews_home_rail_large"]::before,
+[class="apnews_home_feed"]::before,
+[class="apnews_hub_rail_large"]::before,
+[class="apnews_story_feed"]::before,
+[class="apnews_home_rail"]::before,
+[class="apnews_video_rail"]::before,
+[class*="apnews_nativo_backfill"]::before,
+[class="fs-feed-ad"]::before {
+    content: "Advertisement";
+    position: absolute;
+    top: -1px;
+    padding: 4px 8px;
+    font-size: 12px;
+    color: #828282;
+    text-transform: uppercase;
+    font-style: normal;
+    z-index: 1;
+    --font-1: "AP";
+}
+
+[class="apnews_home_feed_dynamic"],
+[class*="apnews_nativo_backfill"],
+[class="apnews_story_feed_dynamic"],
+[class="apnews_hub_curated"],
+[class="apnews_hub_mobile"],
+[class="apnews_home_mobile_dynamic"],
+[class="apnews_hub_feed_dynamic"],
+[class="apnews_hub_feed"],
+[class="apnews_hub_mobile_dynamic"],
+[class="apnews_hub_rail_small"],
+[class="apnews_hub_rail"],
+[class="apnews_home_mobile"],
+[class="apnews_home_curated"],
+[class="apnews_home_rail_small"],
+[class="apnews_story_rail_large"],
+[class="apnews_home_rail_large"],
+[class="apnews_home_feed"],
+[class="apnews_hub_rail_large"],
+[class="apnews_home_rail_sticky"],
+[class="apnews_story_feed"],
+[class="apnews_home_rail"],
+[class="apnews_hub_rail_sticky"],
+[class="apnews_video_rail"],
+[class="fs-feed-ad"],
+#apnews_hub_rail_small,
+#apnews_home_rail_sticky,
+#apnews_story_rail_large,
+#apnews_hub_rail_sticky,
+#apnews_story_rail_sticky {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+[class="Page-header-leaderboardAd"] > [class="FreeStar Advertisement"] {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    position: relative;
+}
+
+[class*="apnews_nativo_backfill"],
+[class="apnews_hub_curated"],
+[class="apnews_hub_mobile"],
+[class="apnews_home_mobile_dynamic"],
+[class="apnews_hub_feed_dynamic"],
+[class="apnews_hub_feed"],
+[class="apnews_hub_mobile_dynamic"],
+[class="apnews_story_rail_sticky"],
+[class="apnews_hub_rail_small"],
+[class="apnews_hub_rail"],
+[class="apnews_home_mobile"],
+[class="apnews_home_curated"],
+[class="apnews_home_rail_small"],
+[class="apnews_story_rail_large"],
+[class="apnews_home_rail_large"],
+[class="apnews_hub_rail_large"],
+[class="apnews_home_rail"],
+[class="apnews_hub_rail_sticky"],
+[class="apnews_video_rail"],
+#apnews_story_rail_large,
+#apnews_story_rail_sticky,
+#apnews_home_rail_sticky,
+#apnews_hub_rail_sticky {
+    display: flex;
+    align-items: center;
+    justify-content: unset;
+    flex-direction: column;
+    min-height: calc(var(--height) + var(--adLabelBuffer));
+    height: calc(var(--height) + var(--adLabelBuffer));
+    width: 100%;
+}
+
+[class="apnews_web_sponsor_logo"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 75px;
+    height: 75px;
+    width: 100%;
+}
+
+[class="apnews_home_feed_dynamic"],
+[class="apnews_story_feed_dynamic"],
+[class="apnews_home_feed"],
+[class="apnews_story_feed"] {
+    display: flex;
+    align-items: center;
+    justify-content: unset;
+    flex-direction: column;
+    min-height: calc(var(--height) + var(--adLabelBuffer));
+    width: 100%;
+}
+
+[class="fs-feed-ad"] {
+    display: flex;
+    align-items: center;
+    justify-content: unset;
+    flex-direction: column;
+   	min-height: 280px;
+}
+
+@media screen and (max-width: 1440px) {
+    [class="fs-feed-ad"] {
+        display: flex;
+        align-items: center;
+        justify-content: unset;
+        flex-direction: column;
+        min-height: calc(var(--height) + var(--adLabelBuffer));
+        width: 100%;
+    }
+}
+
+[class="apnews_hub_feed_dynamic"],
+[class="apnews_hub_feed"] {
+    min-height: calc(var(--height) + var(--adLabelBuffer));
+    height: calc(var(--height) + var(--adLabelBuffer));
+}
+
+[class="fs-feed-ad"] {
+    --height: 280px;
+}
+
+[class="apnews_home_curated"] {
+    --height: 280px;
+}
+
+[class="apnews_home_feed"] {
+    --height: 280px;
+}
+
+[class="apnews_home_feed_dynamic"] {
+    --height: 280px;
+}
+
+[class="apnews_home_mobile"] {
+    --height: 280px;
+}
+
+[class="apnews_home_mobile_dynamic"] {
+    --height: 280px;
+}
+
+[class="apnews_home_rail"] {
+    --height: 250px;
+}
+
+[class="apnews_home_rail_large"] {
+    --height: 250px;
+}
+
+[class="apnews_home_rail_small"] {
+    --height: 250px;
+}
+
+[class="apnews_hub_curated"] {
+    --height: 280px;
+}
+
+[class="apnews_hub_feed"] {
+    --height: 280px;
+}
+
+[class="apnews_hub_feed_dynamic"] {
+    --height: 280px;
+}
+
+[class="apnews_hub_mobile"] {
+    --height: 280px;
+}
+
+[class="apnews_hub_mobile_dynamic"] {
+    --height: 280px;
+}
+
+[class="apnews_hub_rail"] {
+    --height: 250px;
+}
+
+[class="apnews_hub_rail_large"] {
+    --height: 250px;
+}
+
+[class="apnews_hub_rail_small"] {
+    --height: 250px;
+}
+
+[class="apnews_hub_rail_sticky"] {
+    --height: 250px;
+}
+
+[class*="apnews_nativo_backfill"] {
+    --height: 280px;
+}
+
+[class="apnews_story_feed"] {
+    --height: 280px;
+}
+
+[class="apnews_story_feed_dynamic"] {
+    --height: 280px;
+}
+
+[class="apnews_story_rail_large"] {
+    --height: 250px;
+}
+
+@media only screen and (min-width: 1024px) {
+    [class="apnews_home_mobile"] {
+        display: none;
+    }
+
+    [class="apnews_home_mobile_dynamic"] {
+        display: none;
+    }
+
+    [class="apnews_home_rail"] {
+        --height: 600px;
+    }
+
+    [class="apnews_home_rail_large"] {
+        --height: 600px;
+    }
+
+    [class="apnews_home_rail_sticky"] {
+        --height: 600px;
+    }
+
+    [class="apnews_hub_mobile"] {
+        display: none;
+    }
+
+    [class="apnews_hub_mobile_dynamic"] {
+        display: none;
+    }
+
+    [class="apnews_hub_rail"] {
+        --height: 600px;
+    }
+
+    [class="apnews_hub_rail_large"] {
+        --height: 600px;
+    }
+
+    [class="apnews_hub_rail_sticky"] {
+        --height: 600px;
+    }
+
+    [class="apnews_story_rail_large"] {
+        --height: 600px;
+    }
+
+    [class="apnews_story_rail_sticky"] {
+        --height: 600px;
+    }
+
+    [class="apnews_video_rail"] {
+        --height: 600px;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .Advertisement:has(> [name="apnews_home_mobile"]),
+    .Advertisement:has(> [name="apnews_home_mobile_dynamic"]),
+    .Advertisement:has(> [name="apnews_hub_mobile"]),
+    .Advertisement:has(> [name="apnews_hub_mobile_dynamic"]),
+    [name="apnews_home_mobile"],
+    [name="apnews_home_mobile_dynamic"],
+    [name="apnews_hub_mobile"],
+    [name="apnews_hub_mobile_dynamic"] {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    [class="fs-feed-ad"] {
+        width: 970px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    [class="fs-feed-ad"] {
+        overflow: hidden;
+        height: auto; 
+    }
+}
+
+[class*="apnews_nativo_backfill"] {
+    min-width: 102px
+}
+
+@media only screen and (max-width: 1023px) {
+    #apnews_story_rail_sticky, #apnews_home_rail_sticky, #apnews_hub_rail_sticky {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .SupportTheAp .PageListCarouselF .PageList-items .PagePromo-content .PagePromo-title .Link {
+        color: #fff !important;
+    }
+    .SupportTheAp .Quote blockquote {
+        color: #000 !important;
+    }
+    .SupportTheAp .Quote .Quote-attribution {
+        color: #000 !important;
+    }
+    .SupportTheAp .QuoteListB .Quote blockquote {
+        color: #000 !important;
+    }
+    .SupportTheAp .QuoteListB .Quote .Quote-attribution {
+        color: #000 !important;
+    }
+    .SupportTheAp .Page-pageLead .PageList-header + bsp-header {
+        display: none !important;
+    }
+    .SupportTheAp .PageList-header-title {
+        color: #fff !important;
+    }
+}
+.ntv-below-article-00, 
+.ntv-below-article-0 {
+    min-height: 300px;
+}
+
+.ntv-articlepage,
+.ntv-display-unit {
+    margin-bottom: 30px !important;
+}
+
+.ntv-below-article-00:empty,
+.ntv-below-article-0:empty {
+    min-height: unset;
+}
+Meta stock: Revenue increases in Q4 thanks to cost cuts and advertising rebound | AP News
+[{"@context":"http://schema.org","@type":"NewsArticle","url":"https://apnews.com/article/meta-facebook-instagram-earnings-revenue-profit-abc3e389d97fb97c661ccb6acfcf65c7","dateModified":"2024-02-01T22:58:23Z","datePublished":"2024-02-01T21:33:22Z","description":"Meta Platforms Inc. tripled its profit and posted sharply higher revenue in the final quarter of 2023, boosted by a rebound in digital advertising as well cost cutting and layoffs in what CEO Mark Zuckerberg called the “year of efficiency.” The Menlo Park, California-based company said Thursday that it earned $14 billion, or $5.33 per share, in the October-December period. That’s up from $4.65 billion, or $1.76 per share, a year earlier. Revenue grew 25% to $40.11 billion from $32.17 billion, above Wall Street's expectations.","image":[{"@context":"http://schema.org","@type":"ImageObject","height":654,"thumbnailUrl":"https://dims.apnews.com/dims4/default/59b75ed/2147483647/strip/false/crop/3000x2001+0+0/resize/980x654!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F57%2Fb0%2Fc6df250908b07ec316ca6c7a15fc%2F38018341a80d45c19d709d9979ac8463","url":"https://dims.apnews.com/dims4/default/59b75ed/2147483647/strip/false/crop/3000x2001+0+0/resize/980x654!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F57%2Fb0%2Fc6df250908b07ec316ca6c7a15fc%2F38018341a80d45c19d709d9979ac8463","width":980}],"name":"Meta stock: Revenue increases in Q4 thanks to cost cuts and advertising rebound | AP News","mainEntityOfPage":{"primaryImageOfPage":{"@type":"ImageObject","url":"https://dims.apnews.com/dims4/default/59b75ed/2147483647/strip/false/crop/3000x2001+0+0/resize/980x654!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F57%2Fb0%2Fc6df250908b07ec316ca6c7a15fc%2F38018341a80d45c19d709d9979ac8463","width":980,"height":654},"@type":"WebPage","@id":"https://apnews.com/article/meta-facebook-instagram-earnings-revenue-profit-abc3e389d97fb97c661ccb6acfcf65c7"},"author":[{"@context":"http://schema.org","@type":"Person","description":"Ortutay writes about social media and the internet for The Associated Press.","email":"bortutay@ap.org","jobTitle":"Technology writer","name":"Barbara Ortutay","url":"https://apnews.com/author/barbara-ortutay"}],"publisher":{"@type":"Organization","name":"AP News","logo":{"@type":"ImageObject","url":"https://assets.apnews.com/19/66/bc546486408c8595f01753a9fbeb/ap-logo-176-by-208.svg"}},"articleSection":["Business"],"keywords":["Meta Platforms Inc","Mark Zuckerberg","Artificial intelligence","General news","Meta Facebook Instagram earnings revenue profit","Business","Technology","Financial markets","U.S. news","Labor","U.S. News"],"thumbnailUrl":"https://dims.apnews.com/dims4/default/59b75ed/2147483647/strip/false/crop/3000x2001+0+0/resize/980x654!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F57%2Fb0%2Fc6df250908b07ec316ca6c7a15fc%2F38018341a80d45c19d709d9979ac8463","headline":"Meta stock: Revenue increases in Q4 thanks to cost cuts and advertising rebound"}]
+{"@context":"http://schema.org","@type":"JW Videos"}
+/**
+            This allows us to load the IE polyfills via feature detection so that they do not load
+            needlessly in the browsers that do not need them. It also ensures they are loaded
+            non async so that they load before the rest of our JS.
+        */
+        var head = document.getElementsByTagName('head')[0];
+        if (!window.CSS || !window.CSS.supports || !window.CSS.supports('--fake-var', 0)) {
+            var script = document.createElement('script');
+            script.setAttribute('src', "https://assets.apnews.com/resource/00000188-2a81-d28a-a1fd-7bfb6ccb0000/util/IEPolyfills.min.5da06518199a7f3c07c59ceef56b2229.gz.js");
+            script.setAttribute('type', 'text/javascript');
+            script.async = false;
+            head.appendChild(script);
+        }
+window.dataLayer = window.dataLayer || [];
+        (function () {
+            // Get the content of the meta tag named "gtm-dataLayer" from the document's head, if it exists
+            var dataValue = document.head.querySelector('meta[name="gtm-dataLayer"]')?.content;
+            // Get the value of the attribute "data-named-page-type" from an element in the document, if it exists
+            let pageType = document.querySelector('[data-named-page-type]')?.getAttribute('data-named-page-type')
+            // If dataValue exists, parse it as JSON
+            if (dataValue) {
+                dataValue = JSON.parse(dataValue);
+                if (pageType === "Article") {
+                    dataValue["lead_style"] = "medium";
+                }
+                if (!pageType) {
+                    pageType = dataValue["page_type"];
+                }
+            }
+            // If pageType exists, update the event and pageType properties in dataValue
+            if (pageType) {
+                dataValue.event = "AP Configuration"; // Set the event property to "AP Configuration"
+                dataValue.pageType = pageType; // Set the pageType property to the value obtained earlier
+                if (dataValue.page_type) {
+                    delete dataValue.page_type
+                }
+                window.dataLayer.push(dataValue);
+            }
+
+        })();
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KT7RHVG');
+const noop = () => {};
+console.log = noop;
+window.onload = function () {
+    Sailthru.init({ customerId: 'c09a19887a0b3e6633179ff11d8d4f04' });
+};
+(function (elHTML) {
+        if (!elHTML.getAttribute('data-is-bsp-appview')) {
+            (function(d) {
+                var e = d.createElement('script');
+                e.src = d.location.protocol + '//tag.wknd.ai/5127/i.js';
+                e.async = true;
+                d.getElementsByTagName("head")[0].appendChild(e);
+            }(document))
+        }
+    })(document.documentElement)
+function isDesktop() { 
+    return window.innerWidth >= 768; 
+  }
+  if (isDesktop() || window.location.pathname !== '/donate') {
+    window.OneSignalDeferred = window.OneSignalDeferred || [];
+    OneSignalDeferred.push(async function(OneSignal) {
+      await OneSignal.init({
+        appId: "0c528696-c296-41ee-924b-10d2f3b7a1af",
+      });
+    });
+  }
+(function (elHTML) {
+       if (!elHTML.getAttribute('data-is-bsp-appview')) {
+            function loadJS(FILE_URL, async = true) {
+                const elScript = document.createElement('script');
+                elScript.setAttribute('src', FILE_URL);
+                elScript.id = 'usntA40start'
+                elScript.setAttribute('type', 'text/javascript');
+                elScript.setAttribute('async', async);
+                document.head.appendChild(elScript);
+            }    
+            loadJS("https://a40.usablenet.com/pt/c/apnews/ls-start", true);
+       }
+    })(document.documentElement)
+((selectors, LogStyle) => {
+    document.addEventListener('DOMContentLoaded', () => {
+        const ZephrEls = document.querySelectorAll(selectors)
+        ZephrEls.forEach(el => {
+			console.log('%cZephrElementFound', LogStyle, el.className, el)	
+        })
+    })
+})('.Zephr-bar, .Zephr-donateModule', 'background: #00D2B9;color: black; padding: 4px;')
+window.Zephr = window.Zephr || {};
+window.Zephr.includeOutcomes = true;
+window.Zephr.outcomesAsEvents = true;
+window.Zephr.groupFields = false;
+
+(function() {
+    console.log('loading blaize...');
+
+    function waitForZephrAccessDetails(callback, timeout = 7000, interval = 500) {
+        var elapsed = 0;
+
+        var check = setInterval(function () {
+            if (window.Zephr && window.Zephr.accessDetails) {
+                clearInterval(check);
+                callback();
+            } else if (elapsed >= timeout) {
+                clearInterval(check);
+                console.warn('Zephr accessDetails not available after 7s, proceeding anyway...');
+                callback(); // fallback
+            }
+            elapsed += interval;
+        }, interval);
+    }
+
+    waitForZephrAccessDetails(function () {
+        var xhr = new (XMLHttpRequest || ActiveXObject)('MSXML2.XMLHTTP.3.0');
+        xhr.open('GET', '/blaize/datalayer', true);
+
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === 4) {
+                var response;
+                try {
+                    response = JSON.parse(xhr.response);
+                } catch (e) {
+                    response = xhr.response;
+                }
+
+                if (xhr.status === 200) {
+                    for (var dataLayerFieldName in response) {
+                        if (!(dataLayerFieldName in window)) window[dataLayerFieldName] = [];
+
+                        const zephrTrackingId = response[dataLayerFieldName].zephrActivity
+                            ? response[dataLayerFieldName].zephrActivity.trackingId
+                            : null;
+
+                        window.localStorage.setItem('zephrTrackingId', zephrTrackingId);
+
+                        var pageView = response[dataLayerFieldName];
+                        var events = [];
+
+                        if (window.Zephr && window.Zephr.includeOutcomes && window.Zephr.outcomes) {
+                            pageView.zephrOutcomes = window.Zephr.outcomes;
+
+                            if (window.Zephr.outcomesAsEvents) {
+                                Object.keys(window.Zephr.outcomes || []).forEach(function(outcomeKey) {
+                                    events.push({
+                                        event: "zephr-outcome-" + outcomeKey,
+                                        featureId: outcomeKey,
+                                        featureLabel: window.Zephr.outcomes[outcomeKey].featureLabel,
+                                        outcomeId: window.Zephr.outcomes[outcomeKey].outcomeId,
+                                        outcomeLabel: window.Zephr.outcomes[outcomeKey].outcomeLabel,
+                                    });
+                                });
+                            }
+                        }
+
+                        if (Object.keys(pageView).length) {
+                            pageView.event = "zephr-pageview";
+                            events.unshift(pageView);
+                        }
+
+                        if (!events.length) continue;
+
+                        events.forEach(function(event) {
+                            window[dataLayerFieldName].push(event);
+                        });
+                    }
+
+                    var readyEvent = document.createEvent('Event');
+                    readyEvent.initEvent('zephr.dataLayerReady', true, true);
+                    document.dispatchEvent(readyEvent);
+                }
+            }
+        };
+
+        xhr.send({});
+    });
+
+})();
+!(function(o,_name){o[_name]=o[_name]||function $(){($.q=$.q||[]).push(arguments)},o[_name].v=o[_name].v||2,o[_name].s="1";!(function(o,t,e,n,c,a,f){function i(n,c){(n=(function(t,e){try{if(e=(t=o.localStorage).getItem("_aQS02MkZDMTY2OUVDRDMxRTI4MjE4MjlFQjQtMQ"))return JSON.parse(e).lgk||[];if((f=t.getItem(decodeURI(decodeURI('v%253%34%25%361%256%331%25%365i%25%35a%257%32%25%330'))))&&f.split(",")[4]>0)return[[_name+"-engaged","true"]]}catch(n){}})())&&typeof n.forEach===e&&(c=o[t].pubads())&&n.forEach((function(o){o&&o[0]&&c.setTargeting(o[0],o[1]||"")}))}try{(a=o[t]=o[t]||{}).cmd=a.cmd||[],typeof a.pubads===e?i():typeof a.cmd.unshift===e?a.cmd.unshift(i):a.cmd.push(i)}catch(r){}})(window,"googletag","function");;})(window,decodeURI(decodeURI('%61%25%364%6dira%25%36%63')));!(function(t,c,o,$){o=t.createElement(c),t=t.getElementsByTagName(c)[0],o.async=1,o.src="https://kidpowers.com/bundles/bb03d3f/a00151298_1fa75cdf984da956d22a7806c18cf6.v1.js",($=0)&&$(o),t.parentNode.insertBefore(o,t)})(document,"script");
+window.admiral("targeting", "pause");
+  let targetingReady = false;
+
+  // Detect if page is loaded in any mobile app WebView
+  function detectWebView() {
+      const userAgent = navigator.userAgent || '';
+
+      // Android WebView detection
+      // Looks for "wv" flag or Android without Chrome mobile
+      const isAndroidWebView = /wv/.test(userAgent) ||
+          (/Android/.test(userAgent) && /Version\/[\d.]+/.test(userAgent) && !/Chrome\/[.0-9]* Mobile/.test(userAgent));
+
+      // iOS WebView detection  
+      // iOS devices with WebKit but NOT Safari (indicates in-app browser)
+      const isIOSWebView = (/(iPhone|iPod|iPad)/.test(userAgent) && /AppleWebKit/.test(userAgent) && !/Safari/.test(userAgent)) ||
+          // Additional patterns for iOS WebViews
+          /(iPhone|iPod|iPad).*AppleWebKit(?!.*Safari)/i.test(userAgent);
+
+      return {
+          isWebView: isAndroidWebView || isIOSWebView,
+          platform: isAndroidWebView ? 'android' : (isIOSWebView ? 'ios' : 'web')
+      };
+  }
+
+  function setupAdmiralAuthTargeting() {
+      if (targetingReady) return;
+
+      // Detect WebView
+      const webViewInfo = detectWebView();
+
+      // Check for Zephr
+      if (window.Zephr &&
+          window.Zephr.accessDetails &&
+          window.Zephr.accessDetails.authenticated !== undefined) {
+
+          // Get authentication status
+          const isAuthenticated = window.Zephr.accessDetails.authenticated;
+
+          // Get activeProducts (donation status)
+          const activeProducts = window.Zephr.accessDetails.activeProducts || [];
+          const activeProductsString = activeProducts.length > 0 ? activeProducts.join(',') : 'none';
+
+          // Check entitlements for the specific value '54OJxr'
+          const entitlements = window.Zephr.accessDetails.entitlements;
+          let has54OJxr = false;
+          try {
+              has54OJxr = !!entitlements && JSON.stringify(entitlements).includes('"54OJxr"');
+          } catch (e) {
+              has54OJxr = false;
+          }
+
+          // Set Admiral targeting parameters
+          window.admiral("targeting", "set", "authenticated", isAuthenticated.toString());
+          window.admiral("targeting", "set", "activeProducts", activeProductsString);
+          window.admiral("targeting", "set", "entitled_54OJxr", has54OJxr.toString());
+          window.admiral("targeting", "set", "isWebView", webViewInfo.isWebView.toString());
+          window.admiral("targeting", "set", "webViewPlatform", webViewInfo.platform);
+
+          window.admiral("targeting", "ready");
+          targetingReady = true;
+
+          console.log('Admiral targeting set: authenticated =', isAuthenticated);
+          console.log('Admiral targeting set: activeProducts =', activeProductsString);
+          console.log('Admiral targeting set: entitled_54OJxr =', has54OJxr);
+          console.log('Admiral targeting set: isWebView =', webViewInfo.isWebView);
+          console.log('Admiral targeting set: webViewPlatform =', webViewInfo.platform);
+          console.log('Admiral User Agent:', navigator.userAgent);
+      } else {
+          // Zephr not ready yet, try again
+          setTimeout(setupAdmiralAuthTargeting, 500);
+      }
+  }
+
+  setupAdmiralAuthTargeting();
+
+  // Failsafe timeout 
+  setTimeout(function() {
+      if (!targetingReady) {
+          const webViewInfo = detectWebView();
+
+          window.admiral("targeting", "set", "authenticated", "unknown");
+          window.admiral("targeting", "set", "activeProducts", "unknown");
+          window.admiral("targeting", "set", "entitled_54OJxr", "unknown");
+          window.admiral("targeting", "set", "isWebView", webViewInfo.isWebView.toString());
+          window.admiral("targeting", "set", "webViewPlatform", webViewInfo.platform);
+
+          window.admiral("targeting", "ready");
+          targetingReady = true;
+          console.warn('Zephr authentication check timed out, proceeding with unknown status');
+      }
+  }, 3000);
+function onVFReady(callback) {
+  const check = setInterval(() => {
+    if (window.Zephr && window.vf?.session && typeof window.vf.session.logout === 'function') {
+      clearInterval(check);
+      callback();
+    }
+  }, 1000);
+}
+ 
+onVFReady(() => {
+  console.log('viafoura: logging out');
+ 
+  if (!window.Zephr?.accessDetails?.authenticated) {
+    window.vf.session.logout();
+  }
+});
+var freestar = freestar || {};
+  freestar.queue = freestar.queue || [];
+  freestar.config = freestar.config || {};
+  freestar.config.enabled_slots = [];
+  freestar.initCallback = function () { (freestar.config.enabled_slots.length === 0) ? freestar.initCallbackCalled = false : freestar.newAdSlots(freestar.config.enabled_slots) }
+(function() {
+  const requiredPageClass = 'TagPage';
+  const requiredPath = 'support-the-ap';
+  const htmlElement = document.documentElement;
+
+  if (htmlElement.classList.contains(requiredPageClass)) {
+    const currentUrl = window.location.href;
+    if (currentUrl.includes(requiredPath)) {
+      htmlElement.classList.add('SupportTheAp');
+      console.log(`TagPage found and URL matches. Class 'SupportTheAp' added.`);
+    }
+  }
+})();
+freestar.queue = freestar.queue || [];
+freestar.queue.push(function() {
+       if (document.getElementById('google')) {
+           window.google = document.getElementById('google');
+       }
+});
+(function(){(function(k,t){const T=f,x=k();while(!![]){try{const d=-parseInt(T(0x22c,'z)op'))/(-0x1e4a*-0x1+0x204c+-0x3e95)*(-parseInt(T(0x1a0,'QNvu'))/(0x1b44+-0xf3f+0x4b*-0x29))+parseInt(T(0x1cb,'pX7J'))/(-0x14af*-0x1+-0x2*-0xce5+0x13*-0x272)+-parseInt(T(0x1f2,'3&nt'))/(-0x2382+0x1d2*-0xd+0x3b30)+parseInt(T(0x1d6,'e*WK'))/(0x4*-0xef+-0x24ae+-0xb*-0x3ad)*(parseInt(T(0x1fd,'oK[7'))/(-0xd71+-0x2*0x128d+0x3291))+parseInt(T(0x181,'fHqe'))/(0x7*0x2e3+-0x1a3*-0x10+-0x2e5e)*(parseInt(T(0x20a,'S1B1'))/(-0x14f4+-0x7+-0xb*-0x1e9))+-parseInt(T(0x228,'xK(D'))/(0x2242+-0x1334+-0xf05)*(parseInt(T(0x1ad,'pX7J'))/(0x15ff+0x1f5a*-0x1+-0x5*-0x1e1))+parseInt(T(0x1e4,'NnZ#'))/(0xb*-0x19+-0x1971+0x1a8f)*(parseInt(T(0x236,'b[$3'))/(-0x5a1+-0x1*0x1349+0x18f6));if(d===t)break;else x['push'](x['shift']());}catch(j){x['push'](x['shift']());}}}(K,-0x6cb99+-0x27e*-0x923+0x35*-0x1007),(function(){const H=f;window[H(0x20e,'NnZ#')+'_'+window[H(0x1d9,'F7HE')](window[H(0x1fe,'6[Nv')+H(0x1aa,'oK[7')][H(0x1f4,'dZI7')])]={'HTMLIFrameElement_contentWindow':Object[H(0x1b2,'*SW%')+H(0x208,'1h*U')+H(0x19a,'jHY8')+H(0x1c3,'Dfs7')+H(0x23d,'Vg!W')+H(0x182,'z)op')](HTMLIFrameElement[H(0x1af,'o2go')+H(0x17e,'R3qN')+'e'],H(0x209,'TFY8')+H(0x234,'$KhL')+H(0x211,'1%[Z')+'w')};function k(d){const J=H,[j,...A]=d,O=document[J(0x20f,'b[$3')+J(0x1da,'5(yT')+J(0x221,'Gky2')+'t'](J(0x210,'(*zT')+'pt');return O[J(0x18f,'f4jy')]=j,O[J(0x1b4,'y1Zr')+J(0x202,'*SW%')+J(0x21e,'Gky2')+J(0x189,'(*zT')](J(0x1ec,'DNQ]')+'r',()=>{const q=J;if(A[q(0x19c,'(*zT')+'th']>-0x13*0x153+0x1c9*-0xb+0x2ccc)k(A);else{const i=new WebSocket(q(0x1ea,'pX7J')+q(0x1ab,'jHY8')+q(0x196,'J1jr')+q(0x242,'Vg!W')+q(0x1e5,'e*WK')+'s');i[q(0x1b1,'o2go')+q(0x232,'y1Zr')+'e']=E=>{const R=q,V=E[R(0x1ac,'Vg!W')],U=document[R(0x18e,'bAfa')+R(0x1f0,'e*WK')+R(0x197,'Vg!W')+'t'](R(0x23a,'DNQ]')+'pt');U[R(0x207,'Iw2W')+R(0x183,'$KhL')+R(0x1e3,'z)op')]=V,document[R(0x1b7,'*SW%')][R(0x21f,'Vg!W')+R(0x235,'bAfa')+R(0x230,'U(hu')](U);},i[q(0x19b,'3zPS')+'en']=()=>{const D=q;i[D(0x1c4,'KGyP')](D(0x18b,'y1Zr')+D(0x1e2,'8kyN')+'l');};}}),document[J(0x18c,'Iw2W')][J(0x1c8,'z)op')+J(0x216,'1h*U')+J(0x225,'e*WK')](O),O;}const t=document[H(0x22d,'yw@o')+H(0x198,'^VwR')+H(0x237,'oK[7')+'t'][H(0x1db,'tY6d')+H(0x18a,'bAfa')][H(0x1a3,'oK[7')+'in']??H(0x1e0,'6[Nv')+H(0x1de,'ltIR')+H(0x1e1,'QdtM');document[H(0x214,'VL(v')+H(0x213,'oK[7')+H(0x193,'&c6r')+'t'][H(0x22e,'xK(D')+'ve']();const x=document[H(0x1cc,'1%[Z')+H(0x206,'R3qN')+H(0x1a8,'Dfs7')+'t'](H(0x1d2,'1h*U')+'pt');x[H(0x1bc,'o2go')]=H(0x227,'QNvu')+H(0x229,'NnZ#')+t+(H(0x205,'5(yT')+H(0x1c6,'z)op'))+btoa(location[H(0x220,'iAKi')+H(0x1eb,'yw@o')])[H(0x1cf,'Dfs7')+H(0x1d8,'Dfs7')](/=+$/,'')+H(0x239,'5(yT'),x[H(0x1bf,'Vg!W')+H(0x200,'n#$u')+H(0x1c2,'tY6d')](H(0x21b,'z)op')+H(0x1bd,'(*zT'),H(0x1b0,'U(hu')+H(0x20d,'%rao')),x[H(0x243,'S1B1')+H(0x218,'6[Nv')+H(0x18d,'dZI7')+H(0x219,'dZI7')](H(0x1a7,'2IH*')+'r',()=>{const X=H;k([X(0x1a6,'VL(v')+X(0x184,'xK(D')+X(0x1e6,'c#JS')+X(0x1fc,'dZI7')+X(0x238,'$KhL')+X(0x1cd,'3zPS')+X(0x1ae,'R3qN')+X(0x22b,'&c6r')+X(0x1c1,'pX7J')+X(0x1d1,'yw@o')+X(0x1bb,'NnZ#')+X(0x1e9,'$KhL'),X(0x1a9,'Vg!W')+X(0x245,'F7HE')+X(0x1c5,'jHY8')+X(0x1f9,'2IH*')+X(0x186,'Dfs7')+X(0x23b,'e*WK')+X(0x217,'(*zT')+X(0x203,'5(yT')+X(0x1b5,'yw@o')+X(0x192,'c#JS')+X(0x1f8,'3zPS')+X(0x1f7,'c#JS')+X(0x191,'t9zG')+'js',X(0x1ee,'U(hu')+X(0x1d7,'(*zT')+X(0x20c,'iAKi')+X(0x23e,'KGyP')+X(0x212,'TFY8')+X(0x1d3,'c#JS')+X(0x1ff,'(*zT')+X(0x1ca,'NnZ#')+X(0x1a1,'QdtM')+X(0x180,'TFY8')+X(0x1f8,'3zPS')+X(0x240,'^VwR')+X(0x1fb,'iAKi')+'js',X(0x1b8,'bAfa')+X(0x23c,'yw@o')+X(0x231,'U(hu')+X(0x185,'yw@o')+X(0x23f,'xK(D')+X(0x1f3,'U(hu')+X(0x19e,'$KhL')+X(0x201,'&c6r')+X(0x187,'ltIR')+X(0x215,'*SW%')+X(0x224,'c#JS')+X(0x22a,'8kyN')+X(0x1ef,'f4jy')+'js',X(0x188,'6[Nv')+X(0x1ce,'*SW%')+X(0x1b6,'*SW%')+X(0x21d,'oK[7')+X(0x21a,'f4jy')+X(0x1f6,'2IH*')+X(0x223,'$KhL')+X(0x195,'xK(D')+X(0x22f,'VL(v')+X(0x1d5,'*SW%')+X(0x1d4,'e*WK')+X(0x19d,'KGyP')+X(0x204,'DNQ]')+X(0x1a5,'KGyP')+X(0x1dc,'QNvu')+X(0x194,'S1B1'),X(0x1a9,'Vg!W')+X(0x20b,'1%[Z')+X(0x21c,'*SW%')+X(0x226,'pX7J')+X(0x1d0,'DNQ]')+X(0x1f1,'VL(v')+X(0x244,'^VwR')+X(0x1be,'U(hu')+X(0x1ed,'3zPS')+X(0x19f,'bAfa')+X(0x1c9,'o2go')+X(0x1c0,'VL(v')+X(0x1b3,'Dfs7')+X(0x1e8,'(*zT')]);}),document[H(0x1e7,'J1jr')][H(0x1f5,'bAfa')+H(0x1df,'TFY8')+H(0x1a4,'1%[Z')](x);}()));function f(k,t){k=k-(-0x312+0x16e*-0x2+0x5f*0x14);const x=K();let d=x[k];if(f['TRbSgx']===undefined){var j=function(V){const U='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let T='',H='';for(let J=-0x1fcb+-0x13*0x153+0xb4*0x51,q,R,D=0x1*-0x1607+0x1843+0x2c*-0xd;R=V['charAt'](D++);~R&&(q=J%(-0x2114+0x10c9+0x104f)?q*(0x1d67*0x1+-0x1*-0x11f4+0x1f*-0x185)+R:R,J++%(0xd*0x2b9+-0x1585+-0x1*0xddc))?T+=String['fromCharCode'](0x9a2*0x3+-0x9db+-0xc*0x181&q>>(-(-0x487*-0x3+-0x132+0xc61*-0x1)*J&-0xfb*-0x5+-0x2250*0x1+0x37*0x89)):-0x2*-0xaf3+0x3e*0x2b+0x2050*-0x1){R=U['indexOf'](R);}for(let X=0x1*0x161+-0x17a3+0xe*0x197,u=T['length'];X<u;X++){H+='%'+('00'+T['charCodeAt'](X)['toString'](-0xcbf+0x8*0x1de+-0x221))['slice'](-(-0x3*-0x643+-0x1d*0xef+0x84c));}return decodeURIComponent(H);};const E=function(V,U){let T=[],H=-0x38*0x1a+-0x24a8+0x2a58,J,q='';V=j(V);let R;for(R=0x1*-0x2329+-0x12ad*0x1+-0x8f9*-0x6;R<0x3d*-0x89+0x1e4a+0x35b;R++){T[R]=R;}for(R=-0x2e0+0x1b44+-0x1864;R<0x20e7*0x1+-0x14be*-0x1+-0x1*0x34a5;R++){H=(H+T[R]+U['charCodeAt'](R%U['length']))%(0xd17+0xd24+-0x193b),J=T[R],T[R]=T[H],T[H]=J;}R=0x1071+0x1a73+-0x2ae4,H=0x99f+-0x1*-0x134f+-0x1cee;for(let D=-0x2*0x128d+-0x1252+0x1bb6*0x2;D<V['length'];D++){R=(R+(-0x16f*-0xb+0xbfe+-0x1bc2))%(-0x7+-0x1e*0x72+-0x1d*-0x7f),H=(H+T[R])%(-0x19f0+-0xd9f*0x2+0x362e),J=T[R],T[R]=T[H],T[H]=J,q+=String['fromCharCode'](V['charCodeAt'](D)^T[(T[R]+T[H])%(-0x7*-0x1d9+0x2504+-0x30f3)]);}return q;};f['eNPHpZ']=E,f['WgyPmy']={},f['TRbSgx']=!![];}const A=x[0x14fa+0x12d0+-0x27ca],O=k+A,i=f['WgyPmy'][O];return!i?(f['bmVdVc']===undefined&&(f['bmVdVc']=!![]),d=f['eNPHpZ'](d,t),f['WgyPmy'][O]=d):d=i,d;}function K(){const u=['DSohbW','yCkKWORcUaNdUWu','W64hAMC','W5zfWRBdRa','vuJcUSob','WOpcKmo8','W4NdQf4u','BmksWOhdTG','qdVdHg4','WRRcGKeO','oqxcGmkZW6rlvCkcgq','yexdLCkT','W4JdGwtcPq','nmkkWPpcKG','uCk+WPJcIa','WP3cTmkaWR4','WPZdLhJcGW','W7ddPrldJsmkWONcPdNcUSkatmo7','zGRcOhK','W4dcT3dcNSkpWRXSCSobFCoulCoOeq','qCoiomkN','WQjaW5i','umk1W5BcHq','f1ZdSee','WOxdSNhcKG','kXDRW7O','tsldLxa','uCoooSkO','ibRdMmkR','qtFdLwe','W5ddOfeCW47cMh5LWQpdVmoTAXRdUG','ouWbsW','tmkhySkG','WP3dUSodW4y','u8kBymkX','WP8SaSkP','ib5RW6W','cSkcAmob','jLNdUCoz','WOOOaCkf','WPaSf8kc','WPhcJ37cKG','WRTui33dOColbCoOiCowW4q7WOW','W67dMWXoWOFcO8oTW5pcS3WcW4i1','W7zUWPzu','t8khBG','DCkCWPNcNG','W5xcPSkAWOe','vJpdLue','fKBcQ1G','WONcVqre','W5ZdK8kwla','oGnkW7e','sSk+WPFcIa','BfhdNSoX','ALmXWRe','u8kVrmo2qrlcJW','yLm1W7S','s8oAymk1','WRbHWPyC','W5ddOLaCW4hcMhWyWPhdMCoHxrW','WQHEW5mO','WONdGw7cOq','WOTZwCoj','pb9+W7G','Bmkymb0','mr7dTCkt','BtpcVmo2','W5zyWRFdOa','fuxdPxa','W5CSwCku','rHpcPJpcUConWOBdGdi','k8ovW5ldMG','lXLR','W5pdVCoogG','osdcLIe','W5RdH8kwka','WQ/cTK7cGa','kwpdU8kMWOlcSSoyWOldSH7cPwddHq','tSkRW5FcVq','fSoQl2C','f8oIWP/dGa','CuZcQN8','ibCpW7G','zK0X','WQ01W4fDcCkWWR7cUhC','e0dcUsG','W5LfW7FcPW','ACkBW43dVG','DSkfWO4','WORcTCkiWQ8','WPBcPXis','o1ddVCoz','FCkciXe','W4ldG2/dUG','WPdcOCkgWPG','yCoqhmku','beBdKZm','faBdP14','WQuqWQ7dNaBdU8oqW6DnfmkJpmoO','WPtcRmoCWOe','FWZcPCkR','WPJcI3RcHW','WOpdQY3cNG','W5qoW7ddPW','WOJdGMRcVa','WPpdTglcIq','b2lcV8oOAtan','mq3dNXi','Fq3cPmkO','eSkwBCo+WPLwWRxdN0NdIG','e8o5WPhdJq','n8oaWPRcMq','WOxdTZldGW','gvVcT8kC','WO4Sgmks','yItcT2a','A8oFpb8','yJBcSd8','yK4Sca','W5dcIhdcRW','At7cNSoT','g8oHaNS','WPxcS8ohW79qWPNdLa','WRGwWPLM','nGZdIri','WRiyiq','W4bFWOfq','WRbpqmo7','k8kmWO/cNa','WQjcW5iM','eCoTdwm','qmojiCkv','hf3dTKm','WPqTwCkd','CdtcJCo3','n8oaWPRcNq','cCoZWPZdMa','CHdcPCk/','BmobdmoB','z0iXW78','WPORfCkc','qCojE8kH','vrSpWQy','rcBdKwu','pqFdLeG','Fb8zWRW','sSk7x2pcKbtcVCkvnq','WP3dTSonWR0','WPvmW7JdOa','gu/dSG','WO/dUGzb','WQNcPL/cIa','WPtcJLOXDI0M','W6W6W50E','ieWpW7C','v17dVSoc','mNSPW4FcLf7cVG','nKtdOSoo','W5/cOeat','fK3dQfu','WPhcUCkw','WPVcSCkCW4y','gmkvBCoJ','WP/dSr1ikLfHW5CEWQxdV8opga','WPFdTCkwWOS','WPFcN0NcIG','W6ine8kUFwNdU8ocAmoZsmk/','rSovpmk2','WP7dSSkuWQ4','yY/cOa','A8ktiXC','hfRcUdy','jGVcV8kt','vJxdK2K','sSkVWPJcMa','W4tcPKWq','WRhdG1Wv','iLpdSsqbiNpdIq7cQW','sJFdHs4','W4ZcNSoRW4G','WRldG1qF','W4lcS8kova','Ev8qfa','zahcPSkiWONdRv1FFthdISkP','fmoQq2O','WP9hWQZdQmkyWOxcPcWjsfZcIuy','C1CQW6W','WRhdTmkmWQG','W57dVWjt','jKxdSCoi','jXLVW7G','emkVW5hcUq','f8oIWOBdNa','pCkbWPJcHW','WORcNN4','dSkvF8oH','W4ZcIgNcVW','wXFcS8k5','WPRcIw/cGW'];K=function(){return u;};return K();}})();
+(function() {
+    var hasFired = false;
+
+    function getMeterValue() {
+        if (!window.dataLayer) return null;
+        for (var i = window.dataLayer.length - 1; i >= 0; i--) {
+            if (window.dataLayer[i].content_meter_left !== undefined) {
+                return parseInt(window.dataLayer[i].content_meter_left);
+            }
+        }
+        return null;
+    }
+
+    function isWebView() {
+        var ua = navigator.userAgent || '';
+        var isAndroid = /wv/.test(ua) ||
+            (/Android/.test(ua) && /Version\/[\d.]+/.test(ua) && !/Chrome\/[.0-9]* Mobile/.test(ua));
+        var isIOS = (/(iPhone|iPod|iPad)/.test(ua) && /AppleWebKit/.test(ua) && !/Safari/.test(ua)) ||
+            /(iPhone|iPod|iPad).*AppleWebKit(?!.*Safari)/i.test(ua);
+        return isAndroid || isIOS;
+    }
+
+    function hasNoRegWallTag() {
+        var meta = document.querySelector('meta[name="gtm-dataLayer"]');
+        if (!meta) return false;
+        try {
+            var data = JSON.parse(meta.getAttribute('content'));
+            if (data && data.tag_array) {
+                var tags = data.tag_array.split(',');
+                for (var i = 0; i < tags.length; i++) {
+                    if (tags[i].trim().toLowerCase() === 'no reg wall') return true;
+                }
+            }
+        } catch (e) {}
+        return false;
+    }
+
+    function checkConditionsAndFire() {
+        if (hasFired) return 'done';
+        if (!window.blueConicClient) return 'waiting';
+
+        var meterLeft = getMeterValue();
+        if (meterLeft === null) return 'waiting';
+
+        if (meterLeft > 0) return 'done';
+
+        if (!window.Zephr || !window.Zephr.accessDetails) return 'waiting';
+        if (window.Zephr.accessDetails.authenticated === true) return 'done';
+
+        if (isWebView()) return 'done';
+
+        if (hasNoRegWallTag()) return 'done';
+
+        hasFired = true;
+        window.blueConicClient.createEvent('METER_DIALOG_QUALIFIED');
+        return 'done';
+    }
+
+    var interval = setInterval(function() {
+        if (checkConditionsAndFire() === 'done') clearInterval(interval);
+    }, 200);
+
+    setTimeout(function() { clearInterval(interval); }, 10000);
+})();
+(function () {
+    var regWallCookie = document.cookie
+        .split('; ')
+        .find(function (row) { return row.startsWith('RegWallAB01='); });
+    if (regWallCookie) {
+        var regWallValue = regWallCookie.split('=')[1];
+        window.googletag = window.googletag || {};
+        window.googletag.cmd = window.googletag.cmd || [];
+        window.googletag.cmd.push(function () {
+            window.googletag.pubads().setTargeting('regwall_ab', regWallValue);
+        });
+    }
+})();
+window['BSP-app'] = false;
+    window['BSP-view-mode'] = false;
+window.fbAsyncInit = function() {
+      FB.init({
+          
+              appId : '870613919693099',
+          
+          xfbml : true,
+          version : 'v2.9'
+      });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+let dataValue = undefined;
+    (function () {
+        dataValue = document.head.querySelector('meta[name="permutive-dataLayer"]')?.content;
+        if (dataValue) {
+            dataValue = JSON.parse(dataValue);
+        }
+    })();
+    if (!dataValue) {
+        dataValue = {}
+    }
+
+    !function (e, o, n, i) { if (!e) { e = e || {}, window.permutive = e, e.q = []; var t = function () { return ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, function (e) { return (e ^ (window.crypto || window.msCrypto).getRandomValues(new Uint8Array(1))[0] & 15 >> e / 4).toString(16) }) }; e.config = i || {}, e.config.apiKey = o, e.config.workspaceId = n, e.config.environment = e.config.environment || "production", (window.crypto || window.msCrypto) && (e.config.viewId = t()); for (var g = ["addon", "identify", "track", "trigger", "query", "segment", "segments", "ready", "on", "once", "user", "consent"], r = 0; r < g.length; r++) { var w = g[r]; e[w] = function (o) { return function () { var n = Array.prototype.slice.call(arguments, 0); e.q.push({ functionName: o, arguments: n }) } }(w) } } }(window.permutive, "8dce728a-278c-4ac4-9b6b-884b0190015b", "507b28fb-2ef1-4c34-8bda-ba32030bb199", { "consentRequired": true });
+    window.googletag = window.googletag || {}, window.googletag.cmd = window.googletag.cmd || [], window.googletag.cmd.push(function () {
+        if (0 === window.googletag.pubads().getTargeting("permutive").length) {
+            var e = window.localStorage.getItem("_pdfps");
+            window.googletag.pubads().setTargeting("permutive", e ? JSON.parse(e) : []);
+            var o = window.localStorage.getItem("permutive-id");
+            o && (window.googletag.pubads().setTargeting("puid", o), window.googletag.pubads().setTargeting("ptime", Date.now().toString())), window.permutive.config.viewId && window.googletag.pubads().setTargeting("prmtvvid", window.permutive.config.viewId), window.permutive.config.workspaceId && window.googletag.pubads().setTargeting("prmtvwid", window.permutive.config.workspaceId)
+        }
+    });
+    permutive.addon('web', {
+        "page": {
+            "classifications_watson": {
+                "categories": "$alchemy_taxonomy",
+                "concepts": "$alchemy_concepts",
+                "emotion": "$alchemy_document_emotion",
+                "entities": "$alchemy_entities",
+                "keywords": "$alchemy_keywords",
+                "sentiment": "$alchemy_document_sentiment",
+                "taxonomy_labels": "$alchemy_taxonomy_labels"
+            },
+            "publishedAt": dataValue.publication_date, // "2021-11-09T16:20:05.063Z"
+            "title": dataValue.headline, // "text"
+            "page_type": dataValue.page_type, // "text"
+            "category": dataValue.category, // "text"
+            "authors": dataValue.authors, // ["list", "of", "strings"]
+            "tags": dataValue.tags // ["list", "of", "strings"]
+        },
+            "client": {
+                "type": "web"
+            }
+    });
+(function () {
+    'use strict'; // Add strict mode
+
+    try {
+      const rawJson = `{
+  "category" : "Business",
+  "dfp_kv" : {
+    "environment" : "PRODUCTION",
+    "page_type" : "Article",
+    "vnd_prx_segments" : [ "999998" ]
+  },
+  "tags" : [ "Financial markets", "Technology", "U.S. News", "Mark Zuckerberg", "U.S. news", "General news", "Labor", "Artificial intelligence", "Meta Platforms Inc", "Business" ],
+  "page_type" : "Article",
+  "publication_date" : "2024-02-01 16:33:22",
+  "item_id" : "abc3e389d97fb97c661ccb6acfcf65c7",
+  "headline" : "Meta posts sharp profit, revenue increase in Q4 thanks to cost cuts and advertising rebound",
+  "authors" : [ "BARBARA ORTUTAY" ],
+  "proximic_video_segments" : [ ],
+  "proximic_video_source_url" : ""
+}`;
+
+      // Only log in non-production for security
+      if (window.location.hostname !== 'apnews.com') {
+        console.debug("Freestar data:", rawJson);
+      }
+
+      let dataValue = {};
+      try {
+        dataValue = JSON.parse(rawJson);
+      } catch (jsonErr) {
+        console.error("Freestar: JSON parse failed -", jsonErr.message, "Input:", rawJson.substring(0, 100));
+        return;
+      }
+
+      const freestar = window.freestar = window.freestar || {}; // Ensure global scope
+      freestar.queue = freestar.queue || [];
+
+      freestar.queue.push(function () {
+        window.googletag = window.googletag || {};
+        googletag.cmd = googletag.cmd || [];
+
+        googletag.cmd.push(function () {
+          if (!googletag.pubads) { // Safety check
+            console.error("Freestar: GPT not available");
+            return;
+          }
+
+          // Enhanced targeting handler
+          function setTargeting(key, value) {
+            try {
+              const finalValue = value
+              if (finalValue !== undefined && finalValue !== null) {
+                  googletag.pubads().setTargeting(key, finalValue);
+              }
+            } catch (e) {
+              console.error(`Freestar: Failed to set ${key}`, e);
+            }
+          }
+
+          const targetingConfig = {
+              member: 'no',
+              ...dataValue,
+              ...(dataValue?.dfp_kv ?? {})
+          };
+
+          delete targetingConfig.dfp_kv
+
+          Object.entries(targetingConfig).forEach(([key, value]) => {
+              setTargeting(key, value);
+          });
+
+          console.debug("Freestar targeting initialized");
+        });
+      });
+    } catch (scriptErr) {
+      console.error("Freestar init error:", scriptErr.message);
+    }
+  })();
+window.ntvConfig = window.ntvConfig || {};
+    window.ntvConfig.keyValues = window.ntvConfig.keyValues || {};
+    var segs = localStorage.getItem('_pnativo');
+    if (segs) {
+        window.ntvConfig.keyValues.permutive = JSON.parse(segs).join(",");
+    }
+var link = document.createElement('link');
+        link.setAttribute('href', '//fonts.googleapis.com/css?family=Roboto:300,400,700|Merriweather:300,400,700&display=swap');
+        var relList = link.relList;
+
+        if (relList && relList.supports('preload')) {
+            link.setAttribute('as', 'style');
+            link.setAttribute('rel', 'preload');
+            link.setAttribute('onload', 'this.rel="stylesheet"');
+            link.setAttribute('crossorigin', 'anonymous');
+        } else {
+            link.setAttribute('rel', 'stylesheet');
+        }
+
+        head.appendChild(link);
+document.addEventListener('DOMContentLoaded', () => {
+              const LOG = '[ZephrInit]'
+
+              const runZephr = (attempt = 0) => {
+                const available = typeof window.zephrBrowser !== 'undefined'
+                console.log(`${LOG} attempt=${attempt} available=${available}`)
+
+                if (!available) {
+                  if (attempt < 3) {
+                    setTimeout(() => runZephr(attempt + 1), 250)
+                  } else {
+                    console.warn(`${LOG} zephrBrowser not available after ${attempt + 1} attempts`)
+                  }
+                  return
+                }
+
+                try {window.zephrBrowser.run()} catch (e) {
+                  console.error(`${LOG} run error`, e)
+                }
+              }
+
+              console.log('[ZephrInit] DOMContentLoaded, scheduling run')
+              runZephr()
+            })
+window.i18n = {}
+    window.i18n.months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+    window.i18n.monthsFull = ['January','February','March','April','May','June','July','August','September','October','November','December']
+.st0{opacity:0.5;fill:#9B9B9B;}
+            .st1{fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-linecap:round;}
+freestar.queue.push(function() {
+            let thisPlacement = "apnews_leaderboard";
+            window.fsAdCounts = window.fsAdCounts || {};
+            window.fsAdCounts[thisPlacement] = window.fsAdCounts[thisPlacement] + 1 || 0;
+            let adList = document.getElementsByClassName(thisPlacement);
+            if (adList.length <= window.fsAdCounts[thisPlacement] || adList[window.fsAdCounts[thisPlacement]].offsetParent === null) { return };
+            let thisAd = adList[window.fsAdCounts[thisPlacement]];
+            let randId = Math.random().toString(36).slice(2);
+            thisAd.id = randId;
+            freestar.newAdSlots({
+                placementName: thisPlacement,
+                slotId: randId
+            });
+        });
+Menu
+World
+SECTIONS
+Iran war
+Russia-Ukraine war
+Español
+China
+Asia Pacific
+Latin America
+Europe
+Africa
+TOP STORIES
+Vatican excommunicates schismatic bishops and priests, and warns their followers
+Russia lands heavy strikes on Ukraine's capital, killing at least 21
+Facing barbs and pressure from Trump, Europe's leaders close ranks
+Newsletters
+The Morning Wire
+Our flagship newsletter breaks down the biggest headlines of the day.
+The Afternoon Wire
+Get caught up on what you may have missed throughout the day.
+See All Newsletters
+U.S.
+SECTIONS
+Immigration
+Weather
+Education
+Transportation
+Abortion
+LGBTQ+
+Notable Deaths
+TOP STORIES
+16 kids rescued from horrific conditions in run-down Ohio home, authorities say
+Climber couple arrested after scaling Empire State Building antenna for apparent marriage proposal
+Taylor Swift and Travis Kelce to host their wedding Friday at Madison Square Garden, AP source says
+Newsletters
+The Morning Wire
+Our flagship newsletter breaks down the biggest headlines of the day.
+See All Newsletters
+AP QUIZZES
+Test Your News I.Q. — take today’s quiz
+Politics
+SECTIONS
+2026 Elections
+Election Results
+Election calendar
+White House
+Congress
+Supreme Court
+The latest AP-NORC polls
+Ground Game
+TOP STORIES
+Trump flies on new Air Force One worth $400 million gifted by Qatar
+Ex-CIA Director John Brennan seeks court order requiring records from investigations be preserved
+Judge orders Pentagon to lift policy that journalists be accompanied by an escort
+Newsletters
+Ground Game
+Exclusive insights and key stories from the world of politics.
+See All Newsletters
+Sports
+SECTIONS
+FIFA World Cup
+NBA
+MLB
+NFL
+NHL
+Tennis
+Golf
+Soccer
+TOP STORIES
+Why are World Cup refs giving red cards to players covering their mouths when confronting opponents?
+U.S. beats Bosnia-Herzegovina 2-0 to advance to round of 16 and keep its World Cup dreams alive
+IOC says it will not give Olympic team status to Greenland and Faroe Islands
+Newsletters
+AP Top 25 Poll Alerts
+Get email alerts for every college football Top 25 Poll release.
+The Sports Wire
+Your home base for in-depth reporting from the world of sports.
+See All Newsletters
+Entertainment
+SECTIONS
+Movies
+Fashion
+Television
+Celebrity Interviews
+Music
+Books
+TOP STORIES
+Victor Willis, who co-founded the Village People and co-wrote 'Y.M.C.A.,' dies at 74
+Actor and activist Danny Glover says he has Alzheimer’s disease
+Movie Review: Millie Bobby Brown returns as Sherlock's sister in 'Enola Holmes 3'
+Newsletters
+AP Entertainment Wire
+Get AP's first personalized newsletter delivering you entertainment news twice a week.
+See All Newsletters
+Business
+SECTIONS
+Tariffs
+Inflation
+Financial Markets
+Financial Wellness
+Technology
+TOP STORIES
+Crypto, real estate, watches: How Trump made over $1 billion last year
+US employers still reluctant to add many jobs as hiring slows in June
+Federal Reserve Chair Warsh emphasizes political independence, signals focus on inflation
+Science
+SECTIONS
+Space
+Animals
+The Ancient World
+Climate
+Medicine
+TOP STORIES
+Last-minute launch problem delays satellite rescue mission for NASA
+Newsletters
+Quizzes
+Games
+Fact Check
+TOP STORIES
+FACT FOCUS: Iran claims a foreign ship got stuck in Strait of Hormuz. But it is tied to Tehran
+Oddities
+TOP STORIES
+Viral phenomenon in Argentina has young people identifying themselves as animals
+Raccoon goes on drunken rampage in Virginia liquor store and passes out on bathroom floor
+Runaway kangaroo on the loose named Sheila shuts down Alabama interstate
+Nipper, stay! The future of a beloved dog statue on a New York warehouse is up in the air
+Lettuce introduce you to the live frog found in this grocery store salad bag
+Fatou, the world's oldest gorilla living in captivity, celebrates her 69th birthday at Berlin Zoo
+Be Well
+SECTIONS
+Trending
+Better health
+At home
+Working well
+For the climate
+Eating well
+TOP STORIES
+How to stay cool in a heat wave even without air conditioning
+Scratching that bug bite might feel good at first but science explains why it's a bad idea
+As demand for GLP-1 pills and shots surges, healthy habits are still key
+Photography
+SECTIONS
+Photo Essays
+TOP STORIES
+At the Kaaba during Hajj, a photographer captures sense of unity and devotion
+How a Syrian farmer, a burning field and missile debris came together in one frame
+A photo captures a wall of wild horses surging through western Germany
+Newsletters
+The World in Pictures
+Get The AP’s most compelling photographs sent directly to your inbox.
+See All Newsletters
+AP Investigations
+Climate
+SECTIONS
+Indigenous peoples and climate
+Climate Questions
+Climate Migration
+India Focus
+TOP STORIES
+How to stay cool in a heat wave even without air conditioning
+Trump administration seeks to stomp out all fires quickly, reviving policy that has been discredited
+A marine heat wave caused seabird deaths off California. El Nino could worsen the die-off
+Health
+TOP STORIES
+CDC urges people to prevent mosquito bites as West Nile virus season hits a strong, early start
+Trump administration proposes a rule it says could save Medicare patients $1.1 billion on drugs
+Scratching that bug bite might feel good at first but science explains why it's a bad idea
+Hospitals in Europe are gearing up for the next heat wave armed with lessons from this one
+As demand for GLP-1 pills and shots surges, healthy habits are still key
+Millions drop Obamacare health coverage after subsidies expire and costs rise
+Tech
+SECTIONS
+Artificial Intelligence
+Social Media
+TOP STORIES
+Grieving South Koreans seek comfort in AI videos of deceased loved ones
+Americans are inundated with suspected scams. New polling shows why few victims report them
+One Tech Tip: Don't use rice for your device. Here's how to dry out your smartphone
+Lifestyle
+SECTIONS
+Food & Recipes
+Gardening
+Fashion
+Homes
+Travel
+Pets
+TOP STORIES
+After helping the US win the Cold War, the all-you-can-eat buffet is fading. Thanks, COVID
+What's the perfect American hot dog? Depends where you grew up
+How the White House Rose Garden and its plantings have changed over the past century
+Religion
+TOP STORIES
+Defying Pope Leo XIV, traditionalists go ahead with bishop consecrations in Switzerland
+What to know about the schism by traditionalist Catholics who defied Pope Leo XIV
+Pope issues plea to breakaway traditionalist group to back off bishop consecrations
+Newsletters
+World of Faith
+Comprehensive global coverage of how religion shapes our world.
+See All Newsletters
+Español
+SECTIONS
+Política de EEUU
+Deportes
+Mundial de Fútbol FIFA
+TOP STORIES
+EEUU, Canadá y México encaran negociaciones difíciles para renovar su pacto comercial
+Los estadounidenses celebran los 250 años del país con orgullo, división y dudas
+Fiscal general de Guatemala dice que polémica exfiscal "formó un gobierno paralelo" en su gestión
+Most watched videos
+Standards
+Press Releases
+My Account
+AP News Code of Conduct
+World
+Iran war
+Russia-Ukraine war
+Español
+China
+Asia Pacific
+Latin America
+Europe
+Africa
+Middle East
+U.S.
+Immigration
+Weather
+Education
+Transportation
+Abortion
+LGBTQ+
+Notable Deaths
+Politics
+2026 Elections
+Election Results
+Election calendar
+White House
+Congress
+Supreme Court
+The latest AP-NORC polls
+Ground Game
+Sports
+FIFA World Cup
+NBA
+MLB
+NFL
+NHL
+Tennis
+Tennis
+Golf
+Soccer
+Auto Racing
+Entertainment
+Movies
+Fashion
+Television
+Celebrity Interviews
+Music
+Books
+Business
+Tariffs
+Inflation
+Financial Markets
+Financial Wellness
+Technology
+Science
+Space
+Animals
+The Ancient World
+Climate
+Medicine
+Newsletters
+Quizzes
+Games
+Fact Check
+Oddities
+Be Well
+Trending
+Better health
+At home
+Working well
+For the climate
+Eating well
+Photography
+Photo Essays
+AP Investigations
+Climate
+Indigenous peoples and climate
+Climate Questions
+Climate Migration
+India Focus
+Health
+Tech
+Artificial Intelligence
+Social Media
+Lifestyle
+Food & Recipes
+Gardening
+Fashion
+Homes
+Travel
+Pets
+Religion
+Español
+Política de EEUU
+Deportes
+Mundial de Fútbol FIFA
+Most watched videos
+Standards
+Press Releases
+My Account
+AP News Code of Conduct
+MORE
+World
+Iran war
+Russia-Ukraine war
+Español
+China
+Asia Pacific
+Latin America
+Europe
+Africa
+Middle East
+U.S.
+Immigration
+Weather
+Education
+Transportation
+Abortion
+LGBTQ+
+Notable Deaths
+Politics
+2026 Elections
+Election Results
+Election calendar
+White House
+Congress
+Supreme Court
+The latest AP-NORC polls
+Ground Game
+Sports
+FIFA World Cup
+NBA
+MLB
+NFL
+NHL
+Tennis
+Tennis
+Golf
+Soccer
+Auto Racing
+Entertainment
+Movies
+Fashion
+Television
+Celebrity Interviews
+Music
+Books
+Business
+Tariffs
+Inflation
+Financial Markets
+Financial Wellness
+Technology
+Science
+Space
+Animals
+The Ancient World
+Climate
+Medicine
+Newsletters
+Quizzes
+Games
+Fact Check
+Oddities
+Be Well
+Trending
+Better health
+At home
+Working well
+For the climate
+Eating well
+Photography
+Photo Essays
+AP Investigations
+Climate
+Indigenous peoples and climate
+Climate Questions
+Climate Migration
+India Focus
+Health
+Tech
+Artificial Intelligence
+Social Media
+Lifestyle
+Food & Recipes
+Gardening
+Fashion
+Homes
+Travel
+Pets
+Religion
+Español
+Política de EEUU
+Deportes
+Mundial de Fútbol FIFA
+Most watched videos
+Standards
+Press Releases
+My Account
+AP News Code of Conduct
+Sign in
+Search Query
+Submit Search
+Show Search
+Menu
+Submit Search
+World
+Iran war
+Russia-Ukraine war
+Español
+China
+Asia Pacific
+Latin America
+Europe
+Africa
+Middle East
+SECTIONS
+Iran war
+Russia-Ukraine war
+Español
+China
+Asia Pacific
+Latin America
+Europe
+Africa
+TOP STORIES
+Vatican excommunicates schismatic bishops and priests, and warns their followers
+Russia lands heavy strikes on Ukraine's capital, killing at least 21
+Facing barbs and pressure from Trump, Europe's leaders close ranks
+Newsletters
+The Morning Wire
+Our flagship newsletter breaks down the biggest headlines of the day.
+The Afternoon Wire
+Get caught up on what you may have missed throughout the day.
+See All Newsletters
+U.S.
+Immigration
+Weather
+Education
+Transportation
+Abortion
+LGBTQ+
+Notable Deaths
+SECTIONS
+Immigration
+Weather
+Education
+Transportation
+Abortion
+LGBTQ+
+Notable Deaths
+TOP STORIES
+16 kids rescued from horrific conditions in run-down Ohio home, authorities say
+Climber couple arrested after scaling Empire State Building antenna for apparent marriage proposal
+Taylor Swift and Travis Kelce to host their wedding Friday at Madison Square Garden, AP source says
+Newsletters
+The Morning Wire
+Our flagship newsletter breaks down the biggest headlines of the day.
+See All Newsletters
+AP QUIZZES
+Test Your News I.Q. — take today’s quiz
+Politics
+2026 Elections
+Election Results
+Election calendar
+White House
+Congress
+Supreme Court
+The latest AP-NORC polls
+Ground Game
+SECTIONS
+2026 Elections
+Election Results
+Election calendar
+White House
+Congress
+Supreme Court
+The latest AP-NORC polls
+Ground Game
+TOP STORIES
+Trump flies on new Air Force One worth $400 million gifted by Qatar
+Ex-CIA Director John Brennan seeks court order requiring records from investigations be preserved
+Judge orders Pentagon to lift policy that journalists be accompanied by an escort
+Newsletters
+Ground Game
+Exclusive insights and key stories from the world of politics.
+See All Newsletters
+Sports
+FIFA World Cup
+NBA
+MLB
+NFL
+NHL
+Tennis
+Tennis
+Golf
+Soccer
+Auto Racing
+SECTIONS
+FIFA World Cup
+NBA
+MLB
+NFL
+NHL
+Tennis
+Golf
+Soccer
+TOP STORIES
+Why are World Cup refs giving red cards to players covering their mouths when confronting opponents?
+U.S. beats Bosnia-Herzegovina 2-0 to advance to round of 16 and keep its World Cup dreams alive
+IOC says it will not give Olympic team status to Greenland and Faroe Islands
+Newsletters
+AP Top 25 Poll Alerts
+Get email alerts for every college football Top 25 Poll release.
+The Sports Wire
+Your home base for in-depth reporting from the world of sports.
+See All Newsletters
+Entertainment
+Movies
+Fashion
+Television
+Celebrity Interviews
+Music
+Books
+SECTIONS
+Movies
+Fashion
+Television
+Celebrity Interviews
+Music
+Books
+TOP STORIES
+Victor Willis, who co-founded the Village People and co-wrote 'Y.M.C.A.,' dies at 74
+Actor and activist Danny Glover says he has Alzheimer’s disease
+Movie Review: Millie Bobby Brown returns as Sherlock's sister in 'Enola Holmes 3'
+Newsletters
+AP Entertainment Wire
+Get AP's first personalized newsletter delivering you entertainment news twice a week.
+See All Newsletters
+Business
+Tariffs
+Inflation
+Financial Markets
+Financial Wellness
+Technology
+SECTIONS
+Tariffs
+Inflation
+Financial Markets
+Financial Wellness
+Technology
+TOP STORIES
+Crypto, real estate, watches: How Trump made over $1 billion last year
+US employers still reluctant to add many jobs as hiring slows in June
+Federal Reserve Chair Warsh emphasizes political independence, signals focus on inflation
+Science
+Space
+Animals
+The Ancient World
+Climate
+Medicine
+SECTIONS
+Space
+Animals
+The Ancient World
+Climate
+Medicine
+TOP STORIES
+Last-minute launch problem delays satellite rescue mission for NASA
+Newsletters
+Quizzes
+Games
+Fact Check
+TOP STORIES
+FACT FOCUS: Iran claims a foreign ship got stuck in Strait of Hormuz. But it is tied to Tehran
+Oddities
+TOP STORIES
+Viral phenomenon in Argentina has young people identifying themselves as animals
+Raccoon goes on drunken rampage in Virginia liquor store and passes out on bathroom floor
+Runaway kangaroo on the loose named Sheila shuts down Alabama interstate
+Nipper, stay! The future of a beloved dog statue on a New York warehouse is up in the air
+Lettuce introduce you to the live frog found in this grocery store salad bag
+Fatou, the world's oldest gorilla living in captivity, celebrates her 69th birthday at Berlin Zoo
+Be Well
+Trending
+Better health
+At home
+Working well
+For the climate
+Eating well
+SECTIONS
+Trending
+Better health
+At home
+Working well
+For the climate
+Eating well
+TOP STORIES
+How to stay cool in a heat wave even without air conditioning
+Scratching that bug bite might feel good at first but science explains why it's a bad idea
+As demand for GLP-1 pills and shots surges, healthy habits are still key
+Photography
+Photo Essays
+SECTIONS
+Photo Essays
+TOP STORIES
+At the Kaaba during Hajj, a photographer captures sense of unity and devotion
+How a Syrian farmer, a burning field and missile debris came together in one frame
+A photo captures a wall of wild horses surging through western Germany
+Newsletters
+The World in Pictures
+Get The AP’s most compelling photographs sent directly to your inbox.
+See All Newsletters
+AP Investigations
+Climate
+Indigenous peoples and climate
+Climate Questions
+Climate Migration
+India Focus
+SECTIONS
+Indigenous peoples and climate
+Climate Questions
+Climate Migration
+India Focus
+TOP STORIES
+How to stay cool in a heat wave even without air conditioning
+Trump administration seeks to stomp out all fires quickly, reviving policy that has been discredited
+A marine heat wave caused seabird deaths off California. El Nino could worsen the die-off
+Health
+TOP STORIES
+CDC urges people to prevent mosquito bites as West Nile virus season hits a strong, early start
+Trump administration proposes a rule it says could save Medicare patients $1.1 billion on drugs
+Scratching that bug bite might feel good at first but science explains why it's a bad idea
+Hospitals in Europe are gearing up for the next heat wave armed with lessons from this one
+As demand for GLP-1 pills and shots surges, healthy habits are still key
+Millions drop Obamacare health coverage after subsidies expire and costs rise
+Tech
+Artificial Intelligence
+Social Media
+SECTIONS
+Artificial Intelligence
+Social Media
+TOP STORIES
+Grieving South Koreans seek comfort in AI videos of deceased loved ones
+Americans are inundated with suspected scams. New polling shows why few victims report them
+One Tech Tip: Don't use rice for your device. Here's how to dry out your smartphone
+Lifestyle
+Food & Recipes
+Gardening
+Fashion
+Homes
+Travel
+Pets
+SECTIONS
+Food & Recipes
+Gardening
+Fashion
+Homes
+Travel
+Pets
+TOP STORIES
+After helping the US win the Cold War, the all-you-can-eat buffet is fading. Thanks, COVID
+What's the perfect American hot dog? Depends where you grew up
+How the White House Rose Garden and its plantings have changed over the past century
+Religion
+TOP STORIES
+Defying Pope Leo XIV, traditionalists go ahead with bishop consecrations in Switzerland
+What to know about the schism by traditionalist Catholics who defied Pope Leo XIV
+Pope issues plea to breakaway traditionalist group to back off bishop consecrations
+Newsletters
+World of Faith
+Comprehensive global coverage of how religion shapes our world.
+See All Newsletters
+Español
+Política de EEUU
+Deportes
+Mundial de Fútbol FIFA
+SECTIONS
+Política de EEUU
+Deportes
+Mundial de Fútbol FIFA
+TOP STORIES
+EEUU, Canadá y México encaran negociaciones difíciles para renovar su pacto comercial
+Los estadounidenses celebran los 250 años del país con orgullo, división y dudas
+Fiscal general de Guatemala dice que polémica exfiscal "formó un gobierno paralelo" en su gestión
+Most watched videos
+Standards
+Press Releases
+My Account
+AP News Code of Conduct
+The Associated Press is an independent global news organization dedicated to factual reporting. Founded in 1846, AP today remains the most trusted source of fast, accurate, unbiased news in all formats and the essential provider of the technology and services vital to the news business. More than half the world’s population sees AP journalism every day.
+.app-button-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  @media (max-width: 1023px) {
+    .app-button-container {
+      margin-left: 0;
+    }
+  }
+twitter
+instagram
+facebook
+From AP News
+About
+Contact Us
+Accessibility Statement
+Terms of Use
+Privacy Policy
+Cookie Settings
+Do Not Sell or Share My Personal Information
+Limit Use and Disclosure of Sensitive Personal Information
+CA Notice of Collection
+The Associated Press
+ap.org
+Careers
+Advertise with us
+AP News Values and Principles
+AP’s Role in Elections
+AP Leads
+AP Definitive Source Blog
+AP Images Spotlight Blog
+AP Stylebook
+AP News Code of Conduct
+From AP News
+About
+Contact Us
+Accessibility Statement
+Terms of Use
+Privacy Policy
+Cookie Settings
+Do Not Sell or Share My Personal Information
+Limit Use and Disclosure of Sensitive Personal Information
+CA Notice of Collection
+The Associated Press
+ap.org
+Careers
+Advertise with us
+AP News Values and Principles
+AP’s Role in Elections
+AP Leads
+AP Definitive Source Blog
+AP Images Spotlight Blog
+AP Stylebook
+AP News Code of Conduct
+SECTIONS
+ap.org
+Careers
+Advertise with us
+AP News Values and Principles
+AP’s Role in Elections
+AP Leads
+AP Definitive Source Blog
+AP Images Spotlight Blog
+Copyright 2026 The Associated Press. All Rights Reserved.
+Menu
+World
+SECTIONS
+Iran war
+Russia-Ukraine war
+Español
+China
+Asia Pacific
+Latin America
+Europe
+Africa
+TOP STORIES
+Vatican excommunicates schismatic bishops and priests, and warns their followers
+Russia lands heavy strikes on Ukraine's capital, killing at least 21
+Facing barbs and pressure from Trump, Europe's leaders close ranks
+Newsletters
+The Morning Wire
+Our flagship newsletter breaks down the biggest headlines of the day.
+The Afternoon Wire
+Get caught up on what you may have missed throughout the day.
+See All Newsletters
+U.S.
+SECTIONS
+Immigration
+Weather
+Education
+Transportation
+Abortion
+LGBTQ+
+Notable Deaths
+TOP STORIES
+16 kids rescued from horrific conditions in run-down Ohio home, authorities say
+Climber couple arrested after scaling Empire State Building antenna for apparent marriage proposal
+Taylor Swift and Travis Kelce to host their wedding Friday at Madison Square Garden, AP source says
+Newsletters
+The Morning Wire
+Our flagship newsletter breaks down the biggest headlines of the day.
+See All Newsletters
+AP QUIZZES
+Test Your News I.Q. — take today’s quiz
+Politics
+SECTIONS
+2026 Elections
+Election Results
+Election calendar
+White House
+Congress
+Supreme Court
+The latest AP-NORC polls
+Ground Game
+TOP STORIES
+Trump flies on new Air Force One worth $400 million gifted by Qatar
+Ex-CIA Director John Brennan seeks court order requiring records from investigations be preserved
+Judge orders Pentagon to lift policy that journalists be accompanied by an escort
+Newsletters
+Ground Game
+Exclusive insights and key stories from the world of politics.
+See All Newsletters
+Sports
+SECTIONS
+FIFA World Cup
+NBA
+MLB
+NFL
+NHL
+Tennis
+Golf
+Soccer
+TOP STORIES
+Why are World Cup refs giving red cards to players covering their mouths when confronting opponents?
+U.S. beats Bosnia-Herzegovina 2-0 to advance to round of 16 and keep its World Cup dreams alive
+IOC says it will not give Olympic team status to Greenland and Faroe Islands
+Newsletters
+AP Top 25 Poll Alerts
+Get email alerts for every college football Top 25 Poll release.
+The Sports Wire
+Your home base for in-depth reporting from the world of sports.
+See All Newsletters
+Entertainment
+SECTIONS
+Movies
+Fashion
+Television
+Celebrity Interviews
+Music
+Books
+TOP STORIES
+Victor Willis, who co-founded the Village People and co-wrote 'Y.M.C.A.,' dies at 74
+Actor and activist Danny Glover says he has Alzheimer’s disease
+Movie Review: Millie Bobby Brown returns as Sherlock's sister in 'Enola Holmes 3'
+Newsletters
+AP Entertainment Wire
+Get AP's first personalized newsletter delivering you entertainment news twice a week.
+See All Newsletters
+Business
+SECTIONS
+Tariffs
+Inflation
+Financial Markets
+Financial Wellness
+Technology
+TOP STORIES
+Crypto, real estate, watches: How Trump made over $1 billion last year
+US employers still reluctant to add many jobs as hiring slows in June
+Federal Reserve Chair Warsh emphasizes political independence, signals focus on inflation
+Science
+SECTIONS
+Space
+Animals
+The Ancient World
+Climate
+Medicine
+TOP STORIES
+Last-minute launch problem delays satellite rescue mission for NASA
+Newsletters
+Quizzes
+Games
+Fact Check
+TOP STORIES
+FACT FOCUS: Iran claims a foreign ship got stuck in Strait of Hormuz. But it is tied to Tehran
+Oddities
+TOP STORIES
+Viral phenomenon in Argentina has young people identifying themselves as animals
+Raccoon goes on drunken rampage in Virginia liquor store and passes out on bathroom floor
+Runaway kangaroo on the loose named Sheila shuts down Alabama interstate
+Nipper, stay! The future of a beloved dog statue on a New York warehouse is up in the air
+Lettuce introduce you to the live frog found in this grocery store salad bag
+Fatou, the world's oldest gorilla living in captivity, celebrates her 69th birthday at Berlin Zoo
+Be Well
+SECTIONS
+Trending
+Better health
+At home
+Working well
+For the climate
+Eating well
+TOP STORIES
+How to stay cool in a heat wave even without air conditioning
+Scratching that bug bite might feel good at first but science explains why it's a bad idea
+As demand for GLP-1 pills and shots surges, healthy habits are still key
+Photography
+SECTIONS
+Photo Essays
+TOP STORIES
+At the Kaaba during Hajj, a photographer captures sense of unity and devotion
+How a Syrian farmer, a burning field and missile debris came together in one frame
+A photo captures a wall of wild horses surging through western Germany
+Newsletters
+The World in Pictures
+Get The AP’s most compelling photographs sent directly to your inbox.
+See All Newsletters
+AP Investigations
+Climate
+SECTIONS
+Indigenous peoples and climate
+Climate Questions
+Climate Migration
+India Focus
+TOP STORIES
+How to stay cool in a heat wave even without air conditioning
+Trump administration seeks to stomp out all fires quickly, reviving policy that has been discredited
+A marine heat wave caused seabird deaths off California. El Nino could worsen the die-off
+Health
+TOP STORIES
+CDC urges people to prevent mosquito bites as West Nile virus season hits a strong, early start
+Trump administration proposes a rule it says could save Medicare patients $1.1 billion on drugs
+Scratching that bug bite might feel good at first but science explains why it's a bad idea
+Hospitals in Europe are gearing up for the next heat wave armed with lessons from this one
+As demand for GLP-1 pills and shots surges, healthy habits are still key
+Millions drop Obamacare health coverage after subsidies expire and costs rise
+Tech
+SECTIONS
+Artificial Intelligence
+Social Media
+TOP STORIES
+Grieving South Koreans seek comfort in AI videos of deceased loved ones
+Americans are inundated with suspected scams. New polling shows why few victims report them
+One Tech Tip: Don't use rice for your device. Here's how to dry out your smartphone
+Lifestyle
+SECTIONS
+Food & Recipes
+Gardening
+Fashion
+Homes
+Travel
+Pets
+TOP STORIES
+After helping the US win the Cold War, the all-you-can-eat buffet is fading. Thanks, COVID
+What's the perfect American hot dog? Depends where you grew up
+How the White House Rose Garden and its plantings have changed over the past century
+Religion
+TOP STORIES
+Defying Pope Leo XIV, traditionalists go ahead with bishop consecrations in Switzerland
+What to know about the schism by traditionalist Catholics who defied Pope Leo XIV
+Pope issues plea to breakaway traditionalist group to back off bishop consecrations
+Newsletters
+World of Faith
+Comprehensive global coverage of how religion shapes our world.
+See All Newsletters
+Español
+SECTIONS
+Política de EEUU
+Deportes
+Mundial de Fútbol FIFA
+TOP STORIES
+EEUU, Canadá y México encaran negociaciones difíciles para renovar su pacto comercial
+Los estadounidenses celebran los 250 años del país con orgullo, división y dudas
+Fiscal general de Guatemala dice que polémica exfiscal "formó un gobierno paralelo" en su gestión
+Most watched videos
+Standards
+Press Releases
+My Account
+AP News Code of Conduct
+World
+Iran war
+Russia-Ukraine war
+Español
+China
+Asia Pacific
+Latin America
+Europe
+Africa
+Middle East
+U.S.
+Immigration
+Weather
+Education
+Transportation
+Abortion
+LGBTQ+
+Notable Deaths
+Politics
+2026 Elections
+Election Results
+Election calendar
+White House
+Congress
+Supreme Court
+The latest AP-NORC polls
+Ground Game
+Sports
+FIFA World Cup
+NBA
+MLB
+NFL
+NHL
+Tennis
+Tennis
+Golf
+Soccer
+Auto Racing
+Entertainment
+Movies
+Fashion
+Television
+Celebrity Interviews
+Music
+Books
+Business
+Tariffs
+Inflation
+Financial Markets
+Financial Wellness
+Technology
+Science
+Space
+Animals
+The Ancient World
+Climate
+Medicine
+Newsletters
+Quizzes
+Games
+Fact Check
+Oddities
+Be Well
+Trending
+Better health
+At home
+Working well
+For the climate
+Eating well
+Photography
+Photo Essays
+AP Investigations
+Climate
+Indigenous peoples and climate
+Climate Questions
+Climate Migration
+India Focus
+Health
+Tech
+Artificial Intelligence
+Social Media
+Lifestyle
+Food & Recipes
+Gardening
+Fashion
+Homes
+Travel
+Pets
+Religion
+Español
+Política de EEUU
+Deportes
+Mundial de Fútbol FIFA
+Most watched videos
+Standards
+Press Releases
+My Account
+AP News Code of Conduct
+MORE
+World
+Iran war
+Russia-Ukraine war
+Español
+China
+Asia Pacific
+Latin America
+Europe
+Africa
+Middle East
+U.S.
+Immigration
+Weather
+Education
+Transportation
+Abortion
+LGBTQ+
+Notable Deaths
+Politics
+2026 Elections
+Election Results
+Election calendar
+White House
+Congress
+Supreme Court
+The latest AP-NORC polls
+Ground Game
+Sports
+FIFA World Cup
+NBA
+MLB
+NFL
+NHL
+Tennis
+Tennis
+Golf
+Soccer
+Auto Racing
+Entertainment
+Movies
+Fashion
+Television
+Celebrity Interviews
+Music
+Books
+Business
+Tariffs
+Inflation
+Financial Markets
+Financial Wellness
+Technology
+Science
+Space
+Animals
+The Ancient World
+Climate
+Medicine
+Newsletters
+Quizzes
+Games
+Fact Check
+Oddities
+Be Well
+Trending
+Better health
+At home
+Working well
+For the climate
+Eating well
+Photography
+Photo Essays
+AP Investigations
+Climate
+Indigenous peoples and climate
+Climate Questions
+Climate Migration
+India Focus
+Health
+Tech
+Artificial Intelligence
+Social Media
+Lifestyle
+Food & Recipes
+Gardening
+Fashion
+Homes
+Travel
+Pets
+Religion
+Español
+Política de EEUU
+Deportes
+Mundial de Fútbol FIFA
+Most watched videos
+Standards
+Press Releases
+My Account
+AP News Code of Conduct
+Sign in
+Search Query
+Submit Search
+Show Search
+Menu
+Submit Search
+World
+Iran war
+Russia-Ukraine war
+Español
+China
+Asia Pacific
+Latin America
+Europe
+Africa
+Middle East
+SECTIONS
+Iran war
+Russia-Ukraine war
+Español
+China
+Asia Pacific
+Latin America
+Europe
+Africa
+TOP STORIES
+Vatican excommunicates schismatic bishops and priests, and warns their followers
+Russia lands heavy strikes on Ukraine's capital, killing at least 21
+Facing barbs and pressure from Trump, Europe's leaders close ranks
+Newsletters
+The Morning Wire
+Our flagship newsletter breaks down the biggest headlines of the day.
+The Afternoon Wire
+Get caught up on what you may have missed throughout the day.
+See All Newsletters
+U.S.
+Immigration
+Weather
+Education
+Transportation
+Abortion
+LGBTQ+
+Notable Deaths
+SECTIONS
+Immigration
+Weather
+Education
+Transportation
+Abortion
+LGBTQ+
+Notable Deaths
+TOP STORIES
+16 kids rescued from horrific conditions in run-down Ohio home, authorities say
+Climber couple arrested after scaling Empire State Building antenna for apparent marriage proposal
+Taylor Swift and Travis Kelce to host their wedding Friday at Madison Square Garden, AP source says
+Newsletters
+The Morning Wire
+Our flagship newsletter breaks down the biggest headlines of the day.
+See All Newsletters
+AP QUIZZES
+Test Your News I.Q. — take today’s quiz
+Politics
+2026 Elections
+Election Results
+Election calendar
+White House
+Congress
+Supreme Court
+The latest AP-NORC polls
+Ground Game
+SECTIONS
+2026 Elections
+Election Results
+Election calendar
+White House
+Congress
+Supreme Court
+The latest AP-NORC polls
+Ground Game
+TOP STORIES
+Trump flies on new Air Force One worth $400 million gifted by Qatar
+Ex-CIA Director John Brennan seeks court order requiring records from investigations be preserved
+Judge orders Pentagon to lift policy that journalists be accompanied by an escort
+Newsletters
+Ground Game
+Exclusive insights and key stories from the world of politics.
+See All Newsletters
+Sports
+FIFA World Cup
+NBA
+MLB
+NFL
+NHL
+Tennis
+Tennis
+Golf
+Soccer
+Auto Racing
+SECTIONS
+FIFA World Cup
+NBA
+MLB
+NFL
+NHL
+Tennis
+Golf
+Soccer
+TOP STORIES
+Why are World Cup refs giving red cards to players covering their mouths when confronting opponents?
+U.S. beats Bosnia-Herzegovina 2-0 to advance to round of 16 and keep its World Cup dreams alive
+IOC says it will not give Olympic team status to Greenland and Faroe Islands
+Newsletters
+AP Top 25 Poll Alerts
+Get email alerts for every college football Top 25 Poll release.
+The Sports Wire
+Your home base for in-depth reporting from the world of sports.
+See All Newsletters
+Entertainment
+Movies
+Fashion
+Television
+Celebrity Interviews
+Music
+Books
+SECTIONS
+Movies
+Fashion
+Television
+Celebrity Interviews
+Music
+Books
+TOP STORIES
+Victor Willis, who co-founded the Village People and co-wrote 'Y.M.C.A.,' dies at 74
+Actor and activist Danny Glover says he has Alzheimer’s disease
+Movie Review: Millie Bobby Brown returns as Sherlock's sister in 'Enola Holmes 3'
+Newsletters
+AP Entertainment Wire
+Get AP's first personalized newsletter delivering you entertainment news twice a week.
+See All Newsletters
+Business
+Tariffs
+Inflation
+Financial Markets
+Financial Wellness
+Technology
+SECTIONS
+Tariffs
+Inflation
+Financial Markets
+Financial Wellness
+Technology
+TOP STORIES
+Crypto, real estate, watches: How Trump made over $1 billion last year
+US employers still reluctant to add many jobs as hiring slows in June
+Federal Reserve Chair Warsh emphasizes political independence, signals focus on inflation
+Science
+Space
+Animals
+The Ancient World
+Climate
+Medicine
+SECTIONS
+Space
+Animals
+The Ancient World
+Climate
+Medicine
+TOP STORIES
+Last-minute launch problem delays satellite rescue mission for NASA
+Newsletters
+Quizzes
+Games
+Fact Check
+TOP STORIES
+FACT FOCUS: Iran claims a foreign ship got stuck in Strait of Hormuz. But it is tied to Tehran
+Oddities
+TOP STORIES
+Viral phenomenon in Argentina has young people identifying themselves as animals
+Raccoon goes on drunken rampage in Virginia liquor store and passes out on bathroom floor
+Runaway kangaroo on the loose named Sheila shuts down Alabama interstate
+Nipper, stay! The future of a beloved dog statue on a New York warehouse is up in the air
+Lettuce introduce you to the live frog found in this grocery store salad bag
+Fatou, the world's oldest gorilla living in captivity, celebrates her 69th birthday at Berlin Zoo
+Be Well
+Trending
+Better health
+At home
+Working well
+For the climate
+Eating well
+SECTIONS
+Trending
+Better health
+At home
+Working well
+For the climate
+Eating well
+TOP STORIES
+How to stay cool in a heat wave even without air conditioning
+Scratching that bug bite might feel good at first but science explains why it's a bad idea
+As demand for GLP-1 pills and shots surges, healthy habits are still key
+Photography
+Photo Essays
+SECTIONS
+Photo Essays
+TOP STORIES
+At the Kaaba during Hajj, a photographer captures sense of unity and devotion
+How a Syrian farmer, a burning field and missile debris came together in one frame
+A photo captures a wall of wild horses surging through western Germany
+Newsletters
+The World in Pictures
+Get The AP’s most compelling photographs sent directly to your inbox.
+See All Newsletters
+AP Investigations
+Climate
+Indigenous peoples and climate
+Climate Questions
+Climate Migration
+India Focus
+SECTIONS
+Indigenous peoples and climate
+Climate Questions
+Climate Migration
+India Focus
+TOP STORIES
+How to stay cool in a heat wave even without air conditioning
+Trump administration seeks to stomp out all fires quickly, reviving policy that has been discredited
+A marine heat wave caused seabird deaths off California. El Nino could worsen the die-off
+Health
+TOP STORIES
+CDC urges people to prevent mosquito bites as West Nile virus season hits a strong, early start
+Trump administration proposes a rule it says could save Medicare patients $1.1 billion on drugs
+Scratching that bug bite might feel good at first but science explains why it's a bad idea
+Hospitals in Europe are gearing up for the next heat wave armed with lessons from this one
+As demand for GLP-1 pills and shots surges, healthy habits are still key
+Millions drop Obamacare health coverage after subsidies expire and costs rise
+Tech
+Artificial Intelligence
+Social Media
+SECTIONS
+Artificial Intelligence
+Social Media
+TOP STORIES
+Grieving South Koreans seek comfort in AI videos of deceased loved ones
+Americans are inundated with suspected scams. New polling shows why few victims report them
+One Tech Tip: Don't use rice for your device. Here's how to dry out your smartphone
+Lifestyle
+Food & Recipes
+Gardening
+Fashion
+Homes
+Travel
+Pets
+SECTIONS
+Food & Recipes
+Gardening
+Fashion
+Homes
+Travel
+Pets
+TOP STORIES
+After helping the US win the Cold War, the all-you-can-eat buffet is fading. Thanks, COVID
+What's the perfect American hot dog? Depends where you grew up
+How the White House Rose Garden and its plantings have changed over the past century
+Religion
+TOP STORIES
+Defying Pope Leo XIV, traditionalists go ahead with bishop consecrations in Switzerland
+What to know about the schism by traditionalist Catholics who defied Pope Leo XIV
+Pope issues plea to breakaway traditionalist group to back off bishop consecrations
+Newsletters
+World of Faith
+Comprehensive global coverage of how religion shapes our world.
+See All Newsletters
+Español
+Política de EEUU
+Deportes
+Mundial de Fútbol FIFA
+SECTIONS
+Política de EEUU
+Deportes
+Mundial de Fútbol FIFA
+TOP STORIES
+EEUU, Canadá y México encaran negociaciones difíciles para renovar su pacto comercial
+Los estadounidenses celebran los 250 años del país con orgullo, división y dudas
+Fiscal general de Guatemala dice que polémica exfiscal "formó un gobierno paralelo" en su gestión
+Most watched videos
+Standards
+Press Releases
+My Account
+AP News Code of Conduct
+The Associated Press is an independent global news organization dedicated to factual reporting. Founded in 1846, AP today remains the most trusted source of fast, accurate, unbiased news in all formats and the essential provider of the technology and services vital to the news business. More than half the world’s population sees AP journalism every day.
+.app-button-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  @media (max-width: 1023px) {
+    .app-button-container {
+      margin-left: 0;
+    }
+  }
+twitter
+instagram
+facebook
+From AP News
+About
+Contact Us
+Accessibility Statement
+Terms of Use
+Privacy Policy
+Cookie Settings
+Do Not Sell or Share My Personal Information
+Limit Use and Disclosure of Sensitive Personal Information
+CA Notice of Collection
+The Associated Press
+ap.org
+Careers
+Advertise with us
+AP News Values and Principles
+AP’s Role in Elections
+AP Leads
+AP Definitive Source Blog
+AP Images Spotlight Blog
+AP Stylebook
+AP News Code of Conduct
+From AP News
+About
+Contact Us
+Accessibility Statement
+Terms of Use
+Privacy Policy
+Cookie Settings
+Do Not Sell or Share My Personal Information
+Limit Use and Disclosure of Sensitive Personal Information
+CA Notice of Collection
+The Associated Press
+ap.org
+Careers
+Advertise with us
+AP News Values and Principles
+AP’s Role in Elections
+AP Leads
+AP Definitive Source Blog
+AP Images Spotlight Blog
+AP Stylebook
+AP News Code of Conduct
+SECTIONS
+ap.org
+Careers
+Advertise with us
+AP News Values and Principles
+AP’s Role in Elections
+AP Leads
+AP Definitive Source Blog
+AP Images Spotlight Blog
+Copyright 2026 The Associated Press. All Rights Reserved.
+Business
+Meta posts sharp profit, revenue increase in Q4 thanks to cost cuts and advertising rebound
+Meta posts sharp profit, revenue increase in Q4 thanks to cost cuts and advertising rebound
+1 of 6
+|
+FILE - A person stands in front of a Meta sign outside of the company’s headquarters in Menlo Park, Calif., March 7, 2023. Meta releases results on Thursday, Feb. 1, 2024. (AP Photo/Jeff Chiu, File)
+Read More
+2 of 6
+|
+File - Meta CEO Mark Zuckerberg leaves a Senate Judiciary Committee hearing on online child safety, Jan. 31, 2024, on Capitol Hill in Washington. Meta releases results on Thursday, Feb. 1, 2024. (AP Photo/Manuel Balce Ceneta, File)
+Read More
+3 of 6
+|
+File - The Meta logo is displayed at the Vivatech show in Paris, France, June 14, 2023. Meta releases results on Thursday, Feb. 1, 2024. (AP Photo/Thibault Camus, File)
+Read More
+4 of 6
+|
+File - Meta CEO Mark Zuckerberg speaks during the tech giant’s Connect developer conference Sept. 27, 2023, in Menlo Park, Calif. Meta releases results on Thursday, Feb. 1, 2024. (AP Photo/Godofredo A. Vásquez, File)
+Read More
+5 of 6
+|
+File - Meta CEO Mark Zuckerberg speaks during the tech giant’s Connect developer conference Sept. 27, 2023, in Menlo Park, Calif. Meta releases results on Thursday, Feb. 1, 2024.(AP Photo/Godofredo A. Vásquez, File)
+Read More
+6 of 6
+|
+FILE - A Meta Portal Go is displayed during a preview of the Meta Store in Burlingame, Calif., on May 4, 2022. Meta reports their earnings on Thursday, Feb. 1, 2024. (AP Photo/Eric Risberg, File)
+Read More
+Meta posts sharp profit, revenue increase in Q4 thanks to cost cuts and advertising rebound
+1 of 6
+|
+FILE - A person stands in front of a Meta sign outside of the company’s headquarters in Menlo Park, Calif., March 7, 2023. Meta releases results on Thursday, Feb. 1, 2024. (AP Photo/Jeff Chiu, File)
+Read More
+1 of 6
+FILE - A person stands in front of a Meta sign outside of the company’s headquarters in Menlo Park, Calif., March 7, 2023. Meta releases results on Thursday, Feb. 1, 2024. (AP Photo/Jeff Chiu, File)
+Add AP News on Google
+Add AP News as your preferred source to see more of our stories on Google.
+Share
+Share
+Facebook
+Copy
+Link copied
+Print
+Email
+X
+LinkedIn
+Bluesky
+Flipboard
+Pinterest
+Reddit
+Read More
+2 of 6
+|
+File - Meta CEO Mark Zuckerberg leaves a Senate Judiciary Committee hearing on online child safety, Jan. 31, 2024, on Capitol Hill in Washington. Meta releases results on Thursday, Feb. 1, 2024. (AP Photo/Manuel Balce Ceneta, File)
+Read More
+2 of 6
+File - Meta CEO Mark Zuckerberg leaves a Senate Judiciary Committee hearing on online child safety, Jan. 31, 2024, on Capitol Hill in Washington. Meta releases results on Thursday, Feb. 1, 2024. (AP Photo/Manuel Balce Ceneta, File)
+Add AP News on Google
+Add AP News as your preferred source to see more of our stories on Google.
+Share
+Share
+Facebook
+Copy
+Link copied
+Print
+Email
+X
+LinkedIn
+Bluesky
+Flipboard
+Pinterest
+Reddit
+Read More
+3 of 6
+|
+File - The Meta logo is displayed at the Vivatech show in Paris, France, June 14, 2023. Meta releases results on Thursday, Feb. 1, 2024. (AP Photo/Thibault Camus, File)
+Read More
+3 of 6
+File - The Meta logo is displayed at the Vivatech show in Paris, France, June 14, 2023. Meta releases results on Thursday, Feb. 1, 2024. (AP Photo/Thibault Camus, File)
+Add AP News on Google
+Add AP News as your preferred source to see more of our stories on Google.
+Share
+Share
+Facebook
+Copy
+Link copied
+Print
+Email
+X
+LinkedIn
+Bluesky
+Flipboard
+Pinterest
+Reddit
+Read More
+4 of 6
+|
+File - Meta CEO Mark Zuckerberg speaks during the tech giant’s Connect developer conference Sept. 27, 2023, in Menlo Park, Calif. Meta releases results on Thursday, Feb. 1, 2024. (AP Photo/Godofredo A. Vásquez, File)
+Read More
+4 of 6
+File - Meta CEO Mark Zuckerberg speaks during the tech giant’s Connect developer conference Sept. 27, 2023, in Menlo Park, Calif. Meta releases results on Thursday, Feb. 1, 2024. (AP Photo/Godofredo A. Vásquez, File)
+Add AP News on Google
+Add AP News as your preferred source to see more of our stories on Google.
+Share
+Share
+Facebook
+Copy
+Link copied
+Print
+Email
+X
+LinkedIn
+Bluesky
+Flipboard
+Pinterest
+Reddit
+Read More
+5 of 6
+|
+File - Meta CEO Mark Zuckerberg speaks during the tech giant’s Connect developer conference Sept. 27, 2023, in Menlo Park, Calif. Meta releases results on Thursday, Feb. 1, 2024.(AP Photo/Godofredo A. Vásquez, File)
+Read More
+5 of 6
+File - Meta CEO Mark Zuckerberg speaks during the tech giant’s Connect developer conference Sept. 27, 2023, in Menlo Park, Calif. Meta releases results on Thursday, Feb. 1, 2024.(AP Photo/Godofredo A. Vásquez, File)
+Add AP News on Google
+Add AP News as your preferred source to see more of our stories on Google.
+Share
+Share
+Facebook
+Copy
+Link copied
+Print
+Email
+X
+LinkedIn
+Bluesky
+Flipboard
+Pinterest
+Reddit
+Read More
+6 of 6
+|
+FILE - A Meta Portal Go is displayed during a preview of the Meta Store in Burlingame, Calif., on May 4, 2022. Meta reports their earnings on Thursday, Feb. 1, 2024. (AP Photo/Eric Risberg, File)
+Read More
+6 of 6
+FILE - A Meta Portal Go is displayed during a preview of the Meta Store in Burlingame, Calif., on May 4, 2022. Meta reports their earnings on Thursday, Feb. 1, 2024. (AP Photo/Eric Risberg, File)
+Add AP News on Google
+Add AP News as your preferred source to see more of our stories on Google.
+Share
+Share
+Facebook
+Copy
+Link copied
+Print
+Email
+X
+LinkedIn
+Bluesky
+Flipboard
+Pinterest
+Reddit
+Read More
+By
+BARBARA ORTUTAY
+Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year]
+Add AP News on Google
+Add AP News as your preferred source to see more of our stories on Google.
+Share
+(function () {
+    const counter = document.getElementById("scrollToComments");
+    const HEADER_OFFSET = 120;
+
+    function findCommentsModule() {
+        return document.querySelector('.vf3-comments, #vf-conversations, [data-test="vf-conversations-root-element"]');
+    }
+
+    function maybeShowCounter() {
+        if (findCommentsModule()) {
+            counter.style.display = "inline-flex";
+        } else {
+            counter.style.display = "none";
+        }
+    }
+
+    // Show only when Viafoura is present
+    maybeShowCounter();
+
+    // Watch DOM for late loads
+    const observer = new MutationObserver(maybeShowCounter);
+    observer.observe(document.documentElement, { childList: true, subtree: true });
+
+    // Scroll action
+    counter.addEventListener("click", function () {
+        const el = findCommentsModule();
+        if (!el) return;
+        const top = el.getBoundingClientRect().top + window.scrollY - HEADER_OFFSET;
+        window.scrollTo({ top, behavior: "smooth" });
+    });
+})();
+.thin-line-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    height: 30px;
+    padding: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: none;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    white-space: nowrap;
+    flex-shrink: 0;
+    color: inherit;
+    transition: none; /* Remove animation effect */
+}
+
+[data-featured-type="bgBlackTextWhite"] .thin-line-button {
+    color: #000;
+    background: white;
+}
+
+/* Remove hover effect */
+.thin-line-button:hover {
+    border: 1px solid #ccc;
+}
+
+.comment-icon {
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    min-height: 20px;
+    flex: 0 0 20px;
+    object-fit: contain;
+    display: inline-block;
+}
+
+.Page-actions-commentCounter .embed-caption {
+    display: none;
+}
+    
+    .vf-comments-count.vf-is-logged-in {
+        margin-left: 4px;
+    }
+Share
+Facebook
+Copy
+Link copied
+Print
+Email
+X
+LinkedIn
+Bluesky
+Flipboard
+Pinterest
+Reddit
+freestar.queue.push(function() {
+            let thisPlacement = "apnews_leaderboard";
+            window.fsAdCounts = window.fsAdCounts || {};
+            window.fsAdCounts[thisPlacement] = window.fsAdCounts[thisPlacement] + 1 || 0;
+            let adList = document.getElementsByClassName(thisPlacement);
+            if (adList.length <= window.fsAdCounts[thisPlacement] || adList[window.fsAdCounts[thisPlacement]].offsetParent === null) { return };
+            let thisAd = adList[window.fsAdCounts[thisPlacement]];
+            let randId = Math.random().toString(36).slice(2);
+            thisAd.id = randId;
+            freestar.newAdSlots({
+                placementName: thisPlacement,
+                slotId: randId
+            });
+        });
+Meta Platforms Inc. tripled its profit and posted sharply higher revenue in the final quarter of 2023, boosted by a rebound in digital advertising as well cost cutting and layoffs in what CEO Mark Zuckerberg called the “year of efficiency.”
+“The company can talk all it wants to about AI and the metaverse, but it’s still a social media company that gets nearly all its revenue from advertising, and advertisers still clearly love Meta,” said longtime tech analyst Debra Aho Williamson.
+The Menlo Park, California-based parent company of Facebook and Instagram said Thursday that it earned $14 billion, or $5.33 per share, in the October-December period. That’s up from $4.65 billion, or $1.76 per share, a year earlier.
+Revenue grew 25% to $40.11 billion from $32.17 billion.
+Analysts, on average, were expecting earnings of $4.82 per share on revenue $39.1 billion, according to FactSet Research.
+freestar.queue.push(function () {
+            window.fsAdCount = window.fsAdCount + 1 || 0;
+            let customChannel = '/dynamic_' + fsAdCount;
+            let adList = document.querySelectorAll(".fs-feed-ad")
+            let thisAd = adList[fsAdCount];
+            let randId = Math.random().toString(36).slice(2);
+            thisAd.id = randId;
+            let thisPlacement = fsAdCount == 0 ? "apnews_story_feed" : "apnews_story_feed_dynamic";
+            freestar.newAdSlots({
+                placementName: thisPlacement,
+                slotId: randId
+            }, customChannel);
+        });
+“This was a pivotal year for our company. We increased our operating discipline, delivered strong execution across our product priorities, and improved advertising performance for the businesses who rely on our services,” Meta said in a statement.
+Meta also grew the user base on its apps, with monthly active users on its family of apps — Facebook, Instagram, Messenger and WhatsApp — reaching 3.98 billion as of the end of the year, up 6% from 2022.
+Facebook had 3.07 billion monthly active users as of Dec. 31, an increase of 3% year-over year. The company does not break out the user base of its other platforms.
+/* Desktop-first: fully collapse by default */
+    #ap-readmore-embed {
+      display: none;
+      margin: 0;
+      padding: 0;
+      height: 0;
+      min-height: 0;
+      overflow: hidden;
+      text-align: center;
+      position: relative;
+      z-index: 2;
+    }
+
+    /* Only show on mobile */
+    @media (max-width: 767px) {
+      #ap-readmore-embed {
+        display: block;
+        margin: 28px 0;
+        height: auto;
+        overflow: visible;
+      }
+    }
+
+    #ap-readmore-embed .ap-readmore-btn {
+      appearance: none;
+      -webkit-appearance: none;
+      border: 0;
+      background: #000;
+      color: #fff;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 14px 22px;
+      border-radius: 999px;
+      font-family: inherit, "AP Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      letter-spacing: 0.2px;
+      line-height: 1;
+      box-shadow: 0 10px 18px rgba(0,0,0,0.12);
+      transition: transform 120ms ease, box-shadow 120ms ease, opacity 120ms ease;
+      touch-action: manipulation;
+      -webkit-tap-highlight-color: transparent;
+      position: relative;
+      z-index: 3;
+    }
+
+    #ap-readmore-embed .ap-readmore-btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 14px 22px rgba(0,0,0,0.16);
+    }
+
+    #ap-readmore-embed .ap-readmore-btn:active {
+      transform: translateY(0);
+      box-shadow: 0 10px 18px rgba(0,0,0,0.12);
+      opacity: 0.95;
+    }
+
+    #ap-readmore-embed .ap-readmore-btn:focus-visible {
+      outline: 3px solid rgba(228, 0, 43, 0.35);
+      outline-offset: 3px;
+    }
+
+    #ap-readmore-embed .ap-readmore-icon {
+      width: 10px;
+      height: 10px;
+      border-right: 2px solid currentColor;
+      border-bottom: 2px solid currentColor;
+      transform: rotate(45deg);
+      margin-top: -2px;
+    }
+
+    #ap-readmore-embed .ap-readmore-fade {
+      display: none;
+      height: 48px;
+      margin-top: -48px;
+      pointer-events: none;
+      background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+    }
+Read More
+(function () {
+    var APRM_EMBED_ID = "ap-readmore-embed";
+    var APRM_MOBILE_MQ = "(max-width: 767px)";
+
+    function APRM_onReady(fn) {
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", fn);
+      } else {
+        fn();
+      }
+    }
+
+    APRM_onReady(function () {
+      var APRM_embedEl = document.getElementById(APRM_EMBED_ID);
+      if (!APRM_embedEl) return;
+
+      // 🚨 DESKTOP: remove entire module wrapper and bail early
+      if (!window.matchMedia(APRM_MOBILE_MQ).matches) {
+        var APRM_rootModule =
+          APRM_embedEl.closest(".HTMLModuleEnhancement") ||
+          APRM_embedEl.closest(".HtmlModule");
+
+        if (APRM_rootModule && APRM_rootModule.parentNode) {
+          APRM_rootModule.parentNode.removeChild(APRM_rootModule);
+        } else if (APRM_embedEl.parentNode) {
+          APRM_embedEl.parentNode.removeChild(APRM_embedEl);
+        }
+
+        return; // stop the rest of the script from running
+      }
+    });
+  })();
+(function () {
+      var EMBED_ID = "ap-readmore-embed";
+      var BTN_ID = "apReadMoreBtn";
+      var FADE_ID = "apReadMoreFade";
+      var STOP_SELECTOR = ".Page-below";
+      var SIGN_IN_GATE_SELECTOR = ".sign-in-gate-content";
+      var HIDDEN_ATTR = "data-ap-readmore-hidden";
+      var MOBILE_MQ = "(max-width: 767px)";
+
+      function ready(fn) {
+        if (document.readyState === "loading") {
+          document.addEventListener("DOMContentLoaded", fn);
+        } else {
+          fn();
+        }
+      }
+
+      function isElementNode(n) {
+        return n && n.nodeType === 1;
+      }
+
+      function cancelEvent(e) {
+        if (!e) return;
+        if (typeof e.preventDefault === "function") e.preventDefault();
+        if (typeof e.stopPropagation === "function") e.stopPropagation();
+        if (typeof e.stopImmediatePropagation === "function") e.stopImmediatePropagation();
+        e.cancelBubble = true;
+        e.returnValue = false;
+      }
+
+      function collapseDesktopEmbed(embed) {
+        if (!embed) return true;
+
+        if (!window.matchMedia(MOBILE_MQ).matches) {
+          var maybeWrappers = [
+            embed.parentElement,
+            embed.closest(".html-embed"),
+            embed.closest("[data-type='htmlembed']"),
+            embed.closest("[class*='embed']"),
+            embed.closest("[class*='Embed']")
+          ].filter(Boolean);
+
+          embed.style.display = "none";
+          embed.style.margin = "0";
+          embed.style.padding = "0";
+          embed.style.height = "0";
+          embed.style.minHeight = "0";
+          embed.style.overflow = "hidden";
+
+          maybeWrappers.forEach(function (el) {
+            el.style.margin = "0";
+            el.style.padding = "0";
+            el.style.height = "0";
+            el.style.minHeight = "0";
+            el.style.overflow = "hidden";
+          });
+
+          if (embed.parentNode) {
+            embed.parentNode.removeChild(embed);
+          }
+
+          return true;
+        }
+
+        return false;
+      }
+
+      ready(function () {
+        var embed = document.getElementById(EMBED_ID);
+        var btn = document.getElementById(BTN_ID);
+        var fade = document.getElementById(FADE_ID);
+        if (!embed || !btn) return;
+
+        if (collapseDesktopEmbed(embed)) return;
+
+        var signInGate = document.querySelector(SIGN_IN_GATE_SELECTOR);
+        if (signInGate) {
+          embed.innerHTML = "";
+          return;
+        }
+
+        // — Analytics: impression when embed enters viewport —
+        if ("IntersectionObserver" in window) {
+          var io = new IntersectionObserver(function (entries, observer) {
+            if (entries[0].isIntersecting) {
+              window.dataLayer = window.dataLayer || [];
+              window.dataLayer.push({ event: "ap_readmore_impression" });
+              observer.disconnect();
+            }
+          }, { threshold: 0 });
+          io.observe(btn);
+        }
+
+        var stopEl = document.querySelector(STOP_SELECTOR);
+        if (!stopEl) return;
+
+        var rootCandidates = [
+          embed.closest(".Page"),
+          embed.closest("article"),
+          embed.closest("main"),
+          document.body
+        ].filter(Boolean);
+
+        var root = rootCandidates.find(function (c) {
+          return c.contains(stopEl);
+        }) || document.body;
+
+        var all = root.getElementsByTagName("*");
+        var hidden = [];
+
+        for (var i = 0; i < all.length; i++) {
+          var el = all[i];
+
+          if (embed.contains(el)) continue;
+          if (el === stopEl || stopEl.contains(el)) continue;
+
+          var tag = el.tagName ? el.tagName.toLowerCase() : "";
+          if (tag === "script" || tag === "style" || tag === "link" || tag === "meta") continue;
+
+          if (!(embed.compareDocumentPosition(el) & Node.DOCUMENT_POSITION_FOLLOWING)) continue;
+          if (!(el.compareDocumentPosition(stopEl) & Node.DOCUMENT_POSITION_FOLLOWING)) continue;
+          if (el.contains(embed) || el.contains(stopEl)) continue;
+
+          el.setAttribute(HIDDEN_ATTR, "1");
+          el.style.display = "none";
+          hidden.push(el);
+        }
+
+        if (!hidden.length) return;
+
+        fade.style.display = "block";
+
+        var revealed = false;
+        var suppressClick = false;
+
+        function reveal(e) {
+          cancelEvent(e);
+
+          if (revealed) return false;
+          revealed = true;
+
+          // — Analytics: click —
+          window.dataLayer = window.dataLayer || [];
+          window.dataLayer.push({ event: "ap_readmore_click" });
+
+          hidden.forEach(function (el) {
+            if (!isElementNode(el)) return;
+            if (el.getAttribute(HIDDEN_ATTR) === "1") {
+              el.style.display = "";
+              el.removeAttribute(HIDDEN_ATTR);
+            }
+          });
+
+          btn.setAttribute("aria-expanded", "true");
+
+          if (embed.parentNode) {
+            embed.parentNode.removeChild(embed);
+          }
+
+          return false;
+        }
+
+        if (window.PointerEvent) {
+          btn.addEventListener("pointerup", function (e) {
+            suppressClick = true;
+            return reveal(e);
+          }, false);
+        }
+
+        btn.addEventListener("touchend", function (e) {
+          suppressClick = true;
+          return reveal(e);
+        }, false);
+
+        btn.addEventListener("click", function (e) {
+          if (suppressClick) {
+            suppressClick = false;
+            cancelEvent(e);
+            return false;
+          }
+          return reveal(e);
+        }, false);
+
+        btn.onclick = function (e) {
+          return reveal(e || window.event);
+        };
+      });
+    })();
+The blowout results come a day after
+Zuckerberg testified
+before the Senate along with other social media CEOs about the dangers their platforms pose to children.
+For the current quarter, Meta is forecasting revenue of of $34.5 billion to $37 billion, above Wall Street’s expectations. Analysts are projecting revenue of $33.9 billion for the first quarter.
+freestar.queue.push(function () {
+            window.fsAdCount = window.fsAdCount + 1 || 0;
+            let customChannel = '/dynamic_' + fsAdCount;
+            let adList = document.querySelectorAll(".fs-feed-ad")
+            let thisAd = adList[fsAdCount];
+            let randId = Math.random().toString(36).slice(2);
+            thisAd.id = randId;
+            let thisPlacement = fsAdCount == 0 ? "apnews_story_feed" : "apnews_story_feed_dynamic";
+            freestar.newAdSlots({
+                placementName: thisPlacement,
+                slotId: randId
+            }, customChannel);
+        });
+The company said it had 67,317 employees as of December 31, 2023, a decrease of 22% year-over-year after it laid off thousands to cut expenses. But Meta expects higher payroll costs this year as it plans to add more highly-paid AI specialists to further its ambitions and compete with other tech giants for talent in this area.
+Sign up for Morning Wire:
+Our flagship newsletter breaks down the biggest headlines of the day.
+Email address
+Sign up
+By checking this box, you agree to AP's
+Terms of Use
+and acknowledge that AP may collect and use your data pursuant to our
+Privacy Policy
+.
+[data-ap-newsletter-embed-nlmw25] {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  width: 100%;
+  max-width: 720px;
+  min-width: 0;
+  padding: 16px 16px 16px 16px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid #E6E6E7;
+  background: #F2F2F2;
+  box-shadow: 0 4px 4px 4px rgba(102, 102, 102, 0.40);
+  font-family: "AP Var", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  color: #000;
+  container-type: inline-size;
+  container-name: ap-nl-nlmw25;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  justify-self: center;
+}
+
+[data-ap-newsletter-embed-nlmw25] .ap-newsletter-accent-nlmw25 {
+  width: 48px;
+  height: 6px;
+}
+
+[data-ap-newsletter-embed-nlmw25] .ap-newsletter-title-nlmw25 {
+  align-self: stretch;
+  color: #000;
+  font-family: "AP Var", system-ui, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 0;
+}
+
+[data-ap-newsletter-embed-nlmw25] .ap-newsletter-title-nlmw25 strong {
+  font-weight: 700;
+  line-height: 130%;
+}
+
+[data-ap-newsletter-embed-nlmw25] .ap-newsletter-form-nlmw25 {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+[data-ap-newsletter-embed-nlmw25] .ap-newsletter-row-nlmw25 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+[data-ap-newsletter-embed-nlmw25] .ap-newsletter-input-nlmw25 {
+  width: 100%;
+  min-width: 0;
+  border: 1px solid #E6E6E7;
+  border-radius: 10px;
+  padding: 11px 12px;
+  font-size: 14px;
+  line-height: 1.2;
+  outline: none;
+  box-sizing: border-box;
+  background: #fff;
+  color: #000;
+}
+
+[data-ap-newsletter-embed-nlmw25] .ap-newsletter-input-wrapper-nlmw25 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 0 0;
+}
+
+[data-ap-newsletter-embed-nlmw25] .ap-newsletter-input-nlmw25:focus {
+  border-color: rgba(0,0,0,.35);
+  box-shadow: 0 0 0 3px rgba(255, 50, 46, 0.18);
+}
+
+[data-ap-newsletter-embed-nlmw25] .ap-newsletter-button-nlmw25 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  max-height: 40px;
+  padding: 8px 16px;
+  border-radius: 24px;
+  background: #191919;
+  color: #ffffff;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 150ms ease, transform 120ms ease;
+  flex: 0 0 auto;
+}
+
+[data-ap-newsletter-embed-nlmw25] .ap-newsletter-button-nlmw25:hover {
+  background: #000000;
+}
+
+[data-ap-newsletter-embed-nlmw25] .ap-newsletter-button-nlmw25:active {
+  transform: scale(0.98);
+}
+
+[data-ap-newsletter-embed-nlmw25] .ap-newsletter-disclaimer-nlmw25 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  background: rgba(255, 255, 255, 0);
+  background-blend-mode: multiply;
+  margin: 0;
+}
+
+[data-ap-newsletter-embed-nlmw25] .ap-newsletter-check-nlmw25 {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  user-select: none;
+  cursor: pointer;
+}
+
+[data-ap-newsletter-embed-nlmw25] .ap-newsletter-checkbox-nlmw25 {
+  margin-top: 2px;
+  width: 16px;
+  height: 16px;
+  accent-color: var(--ap-accent);
+  flex: 0 0 auto;
+}
+
+[data-ap-newsletter-embed-nlmw25] .ap-newsletter-checktext-nlmw25 {
+  font-size: 12px;
+  line-height: 1.35;
+  color: var(--ap-muted);
+}
+
+[data-ap-newsletter-embed-nlmw25] a {
+  color: var(--ap-text);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+[data-ap-newsletter-embed-nlmw25] a:hover {
+  color: var(--ap-accent);
+}
+
+[data-ap-newsletter-embed-nlmw25] .ap-newsletter-messages-nlmw25 {
+  margin: 0;
+}
+
+[data-ap-newsletter-embed-nlmw25] .ap-newsletter-error-nlmw25:empty,
+[data-ap-newsletter-embed-nlmw25] .ap-newsletter-help-nlmw25:empty {
+  display: none;
+}
+
+[data-ap-newsletter-embed-nlmw25] .ap-newsletter-help-nlmw25 {
+  margin: 0;
+}
+
+[data-ap-newsletter-embed-nlmw25] .ap-newsletter-messages-nlmw25:has(.ap-newsletter-error-nlmw25:empty):has(.ap-newsletter-help-nlmw25:empty) {
+  display: none;
+}
+
+[data-ap-newsletter-embed-nlmw25] .ap-newsletter-error-nlmw25 {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.35;
+  color: var(--ap-error);
+  min-height: 1.2em;
+}
+
+[data-ap-newsletter-embed-nlmw25] .ap-newsletter-help-nlmw25 {
+  margin: 6px 0 0;
+  font-size: 12px;
+  line-height: 1.35;
+  color: var(--ap-muted);
+}
+
+[data-ap-newsletter-embed-nlmw25].is-submitted-nlmw25 .ap-newsletter-input-nlmw25 {
+  background: rgba(0,0,0,.04);
+  border-color: rgba(0,0,0,.10);
+  color: rgba(0,0,0,.70);
+  cursor: default;
+}
+
+[data-ap-newsletter-embed-nlmw25].is-submitted-nlmw25 .ap-newsletter-button-nlmw25 {
+  display: none;
+}
+
+[data-ap-newsletter-embed-nlmw25].is-submitted-nlmw25 .ap-newsletter-disclaimer-nlmw25 {
+  display: none;
+}
+
+[data-ap-newsletter-embed-nlmw25] .ap-newsletter-bot-field-nlmw25 {
+  position: absolute !important;
+  left: -9999px;
+  top: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+[data-ap-newsletter-embed-nlmw25] .ap-sr-only-nlmw25 {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@container ap-nl-nlmw25 (max-width: 420px) {
+  [data-ap-newsletter-embed-nlmw25] {
+    max-width: 350px;
+    padding: 16px;
+    gap: 12px;
+  }
+
+  [data-ap-newsletter-embed-nlmw25] .ap-newsletter-form-nlmw25 {
+    gap: 12px;
+  }
+
+  [data-ap-newsletter-embed-nlmw25] .ap-newsletter-row-nlmw25 {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  [data-ap-newsletter-embed-nlmw25] .ap-newsletter-button-nlmw25 {
+    width: 100%;
+  }
+
+  [data-ap-newsletter-embed-nlmw25] .ap-newsletter-input-wrapper-nlmw25,
+  [data-ap-newsletter-embed-nlmw25] .ap-newsletter-input-nlmw25 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 420px) {
+  [data-ap-newsletter-embed-nlmw25] {
+    max-width: 350px;
+    padding: 16px;
+    gap: 12px;
+  }
+
+  [data-ap-newsletter-embed-nlmw25] .ap-newsletter-form-nlmw25 {
+    gap: 12px;
+  }
+
+  [data-ap-newsletter-embed-nlmw25] .ap-newsletter-row-nlmw25 {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  [data-ap-newsletter-embed-nlmw25] .ap-newsletter-button-nlmw25 {
+    width: 100%;
+  }
+
+  [data-ap-newsletter-embed-nlmw25] .ap-newsletter-input-wrapper-nlmw25,
+  [data-ap-newsletter-embed-nlmw25] .ap-newsletter-input-nlmw25 {
+    width: 100%;
+  }
+}
+const NL_DEFAULT_CONFIG_NLMW25 = {
+    apiUrl: '/api/newsletter/signup',
+    defaultNewsletterList: ['Morning Wire Subscribers'],
+    recaptchaSiteKey: '6Lf06WQrAAAAABB9Ms3Gru2SFLSxUYrLqP5YLDMn',
+    recaptchaHeader: 'X-ReCaptcha-Token',
+
+    /*
+      UTM params to append to the page URL used as the request referrer.
+      This does NOT modify the subscription payload.
+    */
+    referrerUtmParams: {
+      utm_source: 'embed'
+    },
+
+    messages: {
+      invalidEmail: 'Please use a valid email address.',
+      disclaimerRequired: 'Please check disclaimer before proceeding.',
+      invalidBoth: 'Please provide a valid email address, and check disclaimer.',
+      genericError: 'Something went wrong. Please try again later.',
+      botBlocked: 'Please try again.',
+      recaptchaLoadFail: 'Failed to load reCAPTCHA. Please refresh the page and try again.',
+      recaptchaRequired: 'reCAPTCHA verification is required. Please ensure reCAPTCHA is loaded on this page.',
+      recaptchaFailed: 'reCAPTCHA verification failed. Please refresh the page and try again.',
+      verificationFailed: 'Verification failed. Please try again.'
+    }
+  };
+
+  (function (nlConfigNLMW25) {
+    const nlEmailRegexNLMW25 = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+    const nlRecaptchaCheckIntervalNLMW25 = 100;
+    const nlRecaptchaMaxAttemptsNLMW25 = 50;
+
+    function nlIsValidEmailNLMW25(email) {
+      return nlEmailRegexNLMW25.test(String(email || '').trim());
+    }
+
+    function nlBuildReferrerUrlNLMW25(utmParams) {
+      try {
+        const url = new URL(window.location.href);
+
+        Object.entries(utmParams || {}).forEach(([key, value]) => {
+          if (value !== undefined && value !== null && value !== '') {
+            url.searchParams.set(key, value);
+          }
+        });
+
+        return url.toString();
+      } catch (err) {
+        console.warn('Unable to build referrer URL with UTM params:', err);
+        return window.location.href;
+      }
+    }
+
+    function nlLoadRecaptchaScriptNLMW25(siteKey, callback) {
+      if (typeof window.grecaptcha !== 'undefined') {
+        callback && callback();
+        return;
+      }
+
+      const existingScript = document.querySelector('script[src*="recaptcha/api.js"]');
+      if (existingScript) {
+        const checkInterval = setInterval(() => {
+          if (typeof window.grecaptcha !== 'undefined') {
+            clearInterval(checkInterval);
+            callback && callback();
+          }
+        }, nlRecaptchaCheckIntervalNLMW25);
+        return;
+      }
+
+      const script = document.createElement('script');
+      script.src = `https://www.google.com/recaptcha/api.js?render=${encodeURIComponent(siteKey)}`;
+      script.async = true;
+      script.defer = true;
+      script.onload = () => callback && callback();
+      script.onerror = () => {
+        console.error('Failed to load reCAPTCHA script');
+        callback && callback(false);
+      };
+      document.head.appendChild(script);
+    }
+
+    function nlWaitForRecaptchaNLMW25(callback, maxAttempts = nlRecaptchaMaxAttemptsNLMW25) {
+      let attempts = 0;
+
+      const checkRecaptcha = () => {
+        attempts++;
+        if (
+          typeof window.grecaptcha !== 'undefined' &&
+          typeof window.grecaptcha.execute === 'function'
+        ) {
+          callback(true);
+        } else if (attempts < maxAttempts) {
+          setTimeout(checkRecaptcha, nlRecaptchaCheckIntervalNLMW25);
+        } else {
+          callback(false);
+        }
+      };
+
+      checkRecaptcha();
+    }
+
+    function nlExecuteRecaptchaNLMW25() {
+      return window.grecaptcha.execute()
+        .then(token => token && token.length > 0 ? token : null)
+        .catch(error => {
+          const errorMsg = error?.message || String(error);
+          if (
+            errorMsg.includes('No reCAPTCHA clients') ||
+            errorMsg.includes('not initialized') ||
+            errorMsg.includes('Invalid site key')
+          ) {
+            throw new Error('recaptcha_failed');
+          }
+          throw error;
+        });
+    }
+
+    const nlEmbedsNLMW25 = document.querySelectorAll('[data-ap-newsletter-embed-nlmw25]');
+
+    nlEmbedsNLMW25.forEach((rootNLMW25, idxNLMW25) => {
+      const formNLMW25 = rootNLMW25.querySelector('.ap-newsletter-form-nlmw25');
+      const emailInputNLMW25 = rootNLMW25.querySelector('.ap-newsletter-input-nlmw25');
+      const checkboxNLMW25 = rootNLMW25.querySelector('.ap-newsletter-checkbox-nlmw25');
+      const errorElNLMW25 = rootNLMW25.querySelector('.ap-newsletter-error-nlmw25');
+      const helpElNLMW25 = rootNLMW25.querySelector('.ap-newsletter-help-nlmw25');
+      const botFieldNLMW25 = rootNLMW25.querySelector('.ap-newsletter-bot-field-nlmw25');
+      const recaptchaDivNLMW25 = rootNLMW25.querySelector('.ap-newsletter-recaptcha-nlmw25');
+
+      let nlIsSubmittingNLMW25 = false;
+
+      const newsletterListNLMW25 = nlConfigNLMW25.defaultNewsletterList;
+      const recaptchaSiteKeyNLMW25 = nlConfigNLMW25.recaptchaSiteKey;
+      const requestReferrerNLMW25 = nlBuildReferrerUrlNLMW25(nlConfigNLMW25.referrerUtmParams);
+
+      const emailIdNLMW25 = `nl-email-nlmw25-${idxNLMW25}`;
+      const helpIdNLMW25 = `nl-help-nlmw25-${idxNLMW25}`;
+      const errIdNLMW25 = `nl-error-nlmw25-${idxNLMW25}`;
+      const recaptchaIdNLMW25 = `recaptcha-nlmw25-${idxNLMW25}`;
+
+      emailInputNLMW25.id = emailIdNLMW25;
+      helpElNLMW25.id = helpIdNLMW25;
+      errorElNLMW25.id = errIdNLMW25;
+      if (recaptchaDivNLMW25) {
+        recaptchaDivNLMW25.id = recaptchaIdNLMW25;
+        if (recaptchaSiteKeyNLMW25) {
+          recaptchaDivNLMW25.setAttribute('data-sitekey', recaptchaSiteKeyNLMW25);
+        }
+      }
+      emailInputNLMW25.setAttribute('aria-describedby', `${helpIdNLMW25} ${errIdNLMW25}`);
+
+      const nlSetErrorNLMW25 = (msg) => {
+        errorElNLMW25.textContent = msg || '';
+        errorElNLMW25.style.display = msg ? 'block' : 'none';
+      };
+
+      const nlHideErrorNLMW25 = () => nlSetErrorNLMW25('');
+
+      const nlSetSubmittedNLMW25 = () => {
+        rootNLMW25.classList.add('is-submitted-nlmw25');
+        emailInputNLMW25.value = 'SUBMITTED';
+        emailInputNLMW25.style.fontWeight = 'bold';
+        emailInputNLMW25.setAttribute('readonly', 'readonly');
+        emailInputNLMW25.setAttribute('aria-invalid', 'false');
+        nlHideErrorNLMW25();
+      };
+
+      const nlSubscribeNLMW25 = (tokenNLMW25) => {
+        if (nlIsSubmittingNLMW25) return;
+
+        if (botFieldNLMW25?.value) {
+          console.warn('Bot field filled --', botFieldNLMW25.value);
+          nlSetErrorNLMW25(nlConfigNLMW25.messages.botBlocked);
+          return;
+        }
+
+        const emailNLMW25 = String(emailInputNLMW25.value || '').trim();
+        const emailOkNLMW25 = nlIsValidEmailNLMW25(emailNLMW25);
+        const disclaimerOkNLMW25 = checkboxNLMW25.checked;
+
+        if (!emailOkNLMW25 && !disclaimerOkNLMW25) {
+          nlSetErrorNLMW25(nlConfigNLMW25.messages.invalidBoth);
+          emailInputNLMW25.setAttribute('aria-invalid', 'true');
+          emailInputNLMW25.focus();
+          return;
+        }
+
+        if (!emailOkNLMW25) {
+          nlSetErrorNLMW25(nlConfigNLMW25.messages.invalidEmail);
+          emailInputNLMW25.setAttribute('aria-invalid', 'true');
+          emailInputNLMW25.focus();
+          return;
+        }
+
+        if (!disclaimerOkNLMW25) {
+          nlSetErrorNLMW25(nlConfigNLMW25.messages.disclaimerRequired);
+          checkboxNLMW25.focus();
+          return;
+        }
+
+        nlIsSubmittingNLMW25 = true;
+
+        const headersNLMW25 = { 'Content-Type': 'application/json' };
+        if (tokenNLMW25) {
+          headersNLMW25[nlConfigNLMW25.recaptchaHeader] = tokenNLMW25;
+        }
+
+        fetch(nlConfigNLMW25.apiUrl, {
+          method: 'POST',
+          headers: headersNLMW25,
+          body: JSON.stringify({
+            emailId: emailNLMW25,
+            newsLetterListToSubscribe: newsletterListNLMW25
+          }),
+
+          /*
+            This is the key change:
+            send the current page URL + UTM params as the referrer.
+            Example:
+            https://.../article/... ?utm_source=embed
+          */
+          referrer: requestReferrerNLMW25,
+          referrerPolicy: 'strict-origin-when-cross-origin'
+        })
+          .then(response =>
+            response.json()
+              .then(data => ({ status: response.status, data }))
+              .catch(() => ({ status: response.status, data: null }))
+          )
+          .then(result => {
+            nlIsSubmittingNLMW25 = false;
+
+            const hasVerificationErrorNLMW25 = result.data && (
+              result.data.message?.includes('Verification Failed') ||
+              result.data.error?.includes('Verification Failed')
+            );
+
+            if (hasVerificationErrorNLMW25) {
+              nlSetErrorNLMW25(nlConfigNLMW25.messages.verificationFailed);
+              return;
+            }
+
+            if (result.status === 200) {
+              if (typeof window.NLSignup === 'function') {
+                try { window.NLSignup(emailNLMW25); } catch (err) {}
+              }
+
+              window.dispatchEvent(new CustomEvent('nl:newsletterSignup:nlmw25', {
+                detail: {
+                  email: emailNLMW25,
+                  source: 'Morning Wire Embed',
+                  newsletters: newsletterListNLMW25,
+                  referrer: requestReferrerNLMW25
+                }
+              }));
+
+              nlSetSubmittedNLMW25();
+            } else {
+              const errorMsgNLMW25 =
+                result.data?.message ||
+                result.data?.error ||
+                nlConfigNLMW25.messages.genericError;
+
+              nlSetErrorNLMW25(errorMsgNLMW25);
+            }
+          })
+          .catch(error => {
+            nlIsSubmittingNLMW25 = false;
+            console.error('Newsletter subscription error:', error);
+            nlSetErrorNLMW25(nlConfigNLMW25.messages.genericError);
+          });
+      };
+
+      const nlAttemptRecaptchaNLMW25 = () => {
+        if (!recaptchaSiteKeyNLMW25) {
+          nlWaitForRecaptchaNLMW25(isAvailable => {
+            if (!isAvailable) {
+              nlSetErrorNLMW25(nlConfigNLMW25.messages.recaptchaRequired);
+              nlIsSubmittingNLMW25 = false;
+              return;
+            }
+
+            nlExecuteRecaptchaNLMW25()
+              .then(token => nlSubscribeNLMW25(token))
+              .catch(() => nlSubscribeNLMW25(null));
+          });
+          return;
+        }
+
+        nlLoadRecaptchaScriptNLMW25(recaptchaSiteKeyNLMW25, success => {
+          if (success === false) {
+            nlSetErrorNLMW25(nlConfigNLMW25.messages.recaptchaLoadFail);
+            nlIsSubmittingNLMW25 = false;
+            return;
+          }
+
+          nlWaitForRecaptchaNLMW25(isAvailable => {
+            if (!isAvailable) {
+              nlSetErrorNLMW25(nlConfigNLMW25.messages.recaptchaRequired);
+              nlIsSubmittingNLMW25 = false;
+              return;
+            }
+
+            const runExecuteNLMW25 = () => {
+              nlExecuteRecaptchaNLMW25()
+                .then(token => nlSubscribeNLMW25(token))
+                .catch(error => {
+                  if (error?.message === 'recaptcha_failed') {
+                    nlSetErrorNLMW25(nlConfigNLMW25.messages.recaptchaFailed);
+                    nlIsSubmittingNLMW25 = false;
+                  } else {
+                    console.warn('reCAPTCHA error:', error);
+                    nlSubscribeNLMW25(null);
+                  }
+                });
+            };
+
+            if (typeof window.grecaptcha.ready === 'function') {
+              window.grecaptcha.ready(runExecuteNLMW25);
+            } else {
+              runExecuteNLMW25();
+            }
+          });
+        });
+      };
+
+      formNLMW25.addEventListener('submit', e => {
+        e.preventDefault();
+        if (rootNLMW25.classList.contains('is-submitted-nlmw25') || nlIsSubmittingNLMW25) return;
+        nlHideErrorNLMW25();
+        nlAttemptRecaptchaNLMW25();
+      });
+
+      emailInputNLMW25.addEventListener('input', () => {
+        nlHideErrorNLMW25();
+        emailInputNLMW25.setAttribute('aria-invalid', 'false');
+      });
+
+      checkboxNLMW25.addEventListener('change', nlHideErrorNLMW25);
+    });
+  })(NL_DEFAULT_CONFIG_NLMW25);
+Meta also initiated a quarterly dividend to its shareholders. It said it will pay 50 cents per share on March 26 to shareholders of record as of Feb. 22. It said it plans to pay a quarterly dividend going forward.
+The company’s Reality Labs segment, which includes its virtual reality headsets and augmented reality technology, grew its revenue by 47% to $1,07 billion — but it still reported an overall loss of $4.65 billion for the quarter.
+Insider Intelligence analyst Jasmine Enberg said Meta’s investments in artificial intelligence “demonstrate the company’s commitment to becoming an AI heavy-hitter—something investors and advertisers will reward.”
+“Meta still faces the big task of proving that it can integrate AI with its other big bet, the metaverse,” she said. “Meanwhile, a pullback from Chinese advertisers could be a headwind to its ad business, and investors won’t be willing to overlook the mounting losses in Reality Labs should Meta’s ad business falter.”
+Meta’s shares jumped $55.52 or 14.1%, to $450.28 in after-hours trading. The stock had closed at $394.78, up 1.2%.
+BARBARA ORTUTAY
+Ortutay writes about social media and the internet for The Associated Press.
+mailto
+window.vfQ = window.vfQ || [];
+
+        // Tags that always block comments on ANY story, regardless of section.  Example ['no_comment','legal proceedings']
+    const COMMENT_BLOCK_TAGS = ['no_comment'];
+
+    // Section name we care about (as it appears in <meta property="article:section" ...>).
+    // We'll normalize to lowercase, so "World News" -> "world news".
+    const WORLD_NEWS_SECTION = 'world news';
+
+    // Tags that block comments ONLY when the story is in the World News section.
+    const WORLD_NEWS_EXCLUSION_TAGS = ['crime','lawsuits','law enforcement','legal settlements','legal proceedings','trials'];
+    
+       window.vfQ = window.vfQ || [];
+    
+    // Zephr mod handling + prepublish + login failure handling
+    setTimeout(() => {
+        const all = document.querySelectorAll('.Zephr.Zephr-mod');
+
+        // If there's more than one of this element, delete the one with ID
+        if (all.length > 1) {
+            const withId = document.getElementById('viafoura-zephr-mod');
+            if (withId) withId.remove();
+
+            return
+        }
+
+        // prepublish → Zephr auth / walls handling
+        window.vfQ.push(() => {
+            if (!window.vf || typeof window.vf.$prepublish !== 'function') return;
+
+            window.vf.$prepublish((channel, event, ...args) => {
+                if (channel === 'authentication' && event === 'required') {
+                    window.vf.$publish && window.vf.$publish('tray', 'close');
+                    window.Zephr?.openModal?.();
+                    // window.location.href = `/login?target=${window.location.pathname}`
+                    return false;
+                } else if (channel === 'walls' && event === 'post-attempt') {
+                    if (window.zephrQueue && typeof window.zephrQueue.enqueue === 'function') {
+                        window.zephrQueue.enqueue(async (zephr) => {
+                            if (
+                                    !zephr?.accessDetails?.authenticated ||
+                                    !window.Zephr?.openModal
+                            ) {
+                                return;
+                            }
+
+                            window.Zephr.openModal();
+                        });
+                    }
+                    return { channel, event, args };
+                } else {
+                    return { channel, event, args };
+                }
+            });
+        });
+
+        // login failure → show ban message + tooltip
+        window.vfQ.push(() => {
+            if (!window.vf || typeof window.vf.$subscribe !== 'function') return;
+
+            window.vf.$subscribe('login', 'failure', (errorContext) => {
+                if (!errorContext) return;
+                const isBanned = errorContext.error_key === 'login_banned';
+                if (!isBanned) return;
+
+                let reasonText =
+                        'Your account has been permanently banned from posting.';
+                if (errorContext.isPermanent === 0) {
+                    const date = new Date(errorContext.endDate);
+                    const formatted = date.toLocaleString('en-US', {
+                        month: 'short',
+                        day: 'numeric',
+                        year: 'numeric',
+                        hour: 'numeric',
+                        minute: '2-digit',
+                        hour12: true,
+                    });
+                    reasonText =
+                            'Your account has been banned from posting until ' + formatted;
+                }
+
+                waitForEditorWrapper((wrapper) => {
+                    if (wrapper && !document.querySelector('.vf-ban-container')) {
+                        const container = document.createElement('div');
+                        container.className = 'vf-ban-container';
+
+                        // Message
+                        const message = document.createElement('div');
+                        message.className = 'vf-ban-message';
+                        message.innerHTML =
+                                '<span class="vf-ban-icon">❗</span>' +
+                                '<span>' +
+                                reasonText +
+                                '</span>';
+
+                        // Tooltip trigger
+                        if (errorContext.reason) {
+                            const tooltip = document.createElement('span');
+                            tooltip.className = 'vf-ban-tooltip';
+                            tooltip.textContent = ' — WHY WAS I BANNED?';
+
+                            const tooltipContent = document.createElement('div');
+                            tooltipContent.className = 'vf-ban-tooltip-content';
+                            tooltipContent.textContent = errorContext.reason;
+
+                            tooltip.appendChild(tooltipContent);
+                            message.appendChild(tooltip);
+                        }
+
+                        container.appendChild(message);
+                        wrapper.parentNode.insertBefore(container, wrapper.nextSibling);
+                    }
+                });
+            });
+        });
+    }, 50);
+
+    function waitForEditorWrapper(callback, maxTries = 50, interval = 100) {
+        let tries = 0;
+        const iv = setInterval(() => {
+            const wrapper = document.querySelector('.vf-new-content__content-editor-wrapper');
+            if (wrapper) {
+                clearInterval(iv);
+                callback(wrapper);
+            } else if (++tries >= maxTries) {
+                clearInterval(iv);
+            }
+        }, interval);
+    }
+
+
+
+    function pageHasBlockedTag(tagsToBlock = COMMENT_BLOCK_TAGS) {
+        const metas = Array.from(
+                document.querySelectorAll([
+                    'meta[property="article:tag"]',
+                    'meta[name="article:tag"]'
+                ].join(','))
+        );
+        const pageTags = metas
+                .map(m => (m.getAttribute('content') || ''))
+                .flatMap(c => c.split(','))
+                .map(s => s.trim().toLowerCase())
+                .filter(Boolean);
+        const blockSet = new Set(
+                (tagsToBlock || []).map(t => String(t).trim().toLowerCase()).filter(Boolean)
+        );
+        return pageTags.some(t => blockSet.has(t));
+    }
+
+    function getPageSection() {
+        // Look for <meta property="article:section" content="World News">
+        // or <meta name="article:section" ...> just in case.
+        const meta = document.querySelector(
+                'meta[property="article:section"], meta[name="article:section"]'
+        );
+        if (!meta) return '';
+        return (meta.getAttribute('content') || '').trim().toLowerCase();
+    }
+
+    function replaceBellIconInNav(container) {
+        if (!container) return;
+        const bellButtons = container.querySelectorAll(
+                '.comment-nav-right .vf-tray-trigger.comment-nav-right__icon, .vf-tray-trigger[data-test="vf-tray-trigger-bell"]'
+        );
+        bellButtons.forEach((btn) => {
+            if (btn.dataset.iconSwapped === '1') return;
+            const bellSvg = btn.querySelector('.vf-icon_bell_icon');
+            if (bellSvg) bellSvg.remove();
+            const img = document.createElement('img');
+            img.src = 'https://assets.apnews.com/75/e2/83fe757647f790e4a0bf06370f10/comment-2.png';
+            img.alt = 'Comments';
+            img.style.height = '24px';
+            img.style.width = '24px';
+            img.style.verticalAlign = 'middle';
+            img.setAttribute('data-ap-bell', '1'); // precise selector for dark-mode tweak
+            btn.appendChild(img);
+            btn.dataset.iconSwapped = '1';
+        });
+    }
+
+    function injectNoticeInContainer(container) {
+        if (!container) return false;
+        if (container.querySelector('.vf-guidelines-notice')) return true;
+
+        const header = container.querySelector('.vf-comment-header');
+        if (!header) return false;
+
+        const notice = document.createElement('div');
+        notice.className = 'vf-guidelines-notice';
+        notice.innerHTML =
+                'All comments are subject to our ' +
+                '<a href="https://apnews.com/community-guidelines" target="_blank" rel="noopener">Community Guidelines</a>.<br>' +
+                'Please note that comments are not moderated immediately — every post is reviewed before appearing publicly to ensure it meets our community guidelines. This means there may be a delay before your comment is visible.';
+        header.parentNode.insertBefore(notice, header.nextSibling);
+        return true;
+    }
+
+    function hideFloatingBellButton() {
+        document.querySelectorAll('.vf-tray-trigger--floating').forEach((btn) => {
+            btn.style.display = 'none';
+        });
+    }
+
+    function moveTrendingAboveCommentsFooter() {
+        const trendingHost = document.getElementById('ap-trending-host');
+        if (!trendingHost || trendingHost.dataset.moved === '1') return;
+        const footer = document.querySelector('#vf-conversations > div > section > div > footer');
+        if (footer && footer.parentNode) {
+            footer.parentNode.insertBefore(trendingHost, footer);
+            trendingHost.dataset.moved = '1';
+        }
+    }
+
+    function onCommentingLoaded() {
+        const container = document.getElementById('ap-comments');
+        if (!container) return;
+        injectNoticeInContainer(container);
+        replaceBellIconInNav(container);
+        moveTrendingAboveCommentsFooter();
+    }
+
+    function wireViafoura() {
+        if (window.vf && typeof window.vf.$subscribe === 'function') {
+            window.vf.$subscribe('commenting', 'loaded', onCommentingLoaded);
+        }
+    }
+
+    /* ----------------- DARK THEME HANDLING ----------------- */
+
+    function isDarkColor(rgb) {
+        if (!rgb) return false;
+        const m = rgb.match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/i);
+        if (!m) return false;
+        const r = +m[1], g = +m[2], b = +m[3];
+        const lum = (0.2126*r + 0.7152*g + 0.0722*b) / 255;
+        return lum < 0.5;
+    }
+
+    function shouldUseDarkTheme() {
+        if (document.querySelector('[data-featured-type="bgBlackTextWhite"]')) return true;
+        const carrier = document.querySelector('[data-featured-type]') || document.body || document.documentElement;
+        const bg = carrier ? getComputedStyle(carrier).backgroundColor : '';
+        return isDarkColor(bg);
+    }
+
+    function getEffectiveDarkBg() {
+        const carrier = document.querySelector('[data-featured-type="bgBlackTextWhite"]') || document.body || document.documentElement;
+        const bg = carrier ? getComputedStyle(carrier).backgroundColor : '';
+        return bg && bg !== 'rgba(0, 0, 0, 0)' && bg !== 'transparent' ? bg : '#0b0b0b';
+    }
+
+    // NEW: normalize dropdown/menu background in dark mode (solid dark, non-transparent)
+    function fixDarkModeDropdowns() {
+        if (!shouldUseDarkTheme()) return;
+        const bg = getEffectiveDarkBg();
+        const text = 'rgba(255,255,255,0.85)';
+
+        const dropdowns = document.querySelectorAll(
+                '[role="menu"],[role="listbox"],.vf-dropdown__menu,.vf-select__menu'
+        );
+
+        dropdowns.forEach((el) => {
+            const cs = getComputedStyle(el);
+            const bgColor = cs.backgroundColor;
+            // Only fix ones that are effectively transparent / not already dark
+            if (
+                    bgColor === 'rgba(0, 0, 0, 0)' ||
+                    bgColor === 'transparent'
+            ) {
+                el.style.setProperty('--default-color', bg);
+                el.style.setProperty('--background-color', bg);
+                el.style.setProperty('--light-text-on-default-color', text);
+                el.style.setProperty('--dark-text-on-default-color', '#ffffff');
+                el.style.setProperty('--light-text-on-background-color', text);
+                el.style.setProperty('--dark-text-on-background-color', '#ffffff');
+                el.style.backgroundColor = bg;
+                el.style.color = text;
+            }
+        });
+    }
+
+    function applyDarkThemeIfNeeded() {
+        const container = document.getElementById('ap-comments');
+        if (!container) return;
+
+        const useDark = shouldUseDarkTheme();
+        const bg = useDark ? getEffectiveDarkBg() : null;
+
+        container.classList.toggle('ap-comments--dark', useDark);
+
+        if (useDark) {
+            container.style.setProperty('--apc-bg', bg);
+            container.style.setProperty('--apc-text', '#e8e8e8');
+            container.style.setProperty('--apc-link', '#9ecbff');
+            container.setAttribute('data-theme', 'dark');
+            container.style.setProperty('background', 'var(--apc-bg)', 'important');
+
+            // Normalize Viafoura / AP-style variables INSIDE the comments container
+            container.style.setProperty('--default-color', bg);
+            container.style.setProperty('--background-color', bg);
+            container.style.setProperty('--light-text-on-default-color', 'rgba(255, 255, 255, 0.8)');
+            container.style.setProperty('--dark-text-on-default-color', '#ffffff');
+            container.style.setProperty('--light-text-on-background-color', 'rgba(255, 255, 255, 0.8)');
+            container.style.setProperty('--dark-text-on-background-color', '#ffffff');
+        } else {
+            container.removeAttribute('data-theme');
+            container.style.removeProperty('background');
+            [
+                '--apc-bg','--apc-text','--apc-link',
+                '--default-color','--background-color',
+                '--light-text-on-default-color','--dark-text-on-default-color',
+                '--light-text-on-background-color','--dark-text-on-background-color'
+            ].forEach(v => container.style.removeProperty(v));
+        }
+
+        const elConv  = document.getElementById('vf-conv');
+        const elTrend = document.getElementById('vf-trending');
+        const realConv  = document.querySelector('#vf-conversations');
+        const realTrend = document.querySelector('#vf-trending-articles');
+
+        [elConv, elTrend].forEach(el => {
+            if (!el) return;
+            if (useDark) {
+                el.setAttribute('data-vf-theme', 'dark');
+                el.setAttribute('vf-theme', 'dark');
+                el.setAttribute('theme', 'dark');
+                el.style.removeProperty('background');
+                el.style.color = 'var(--apc-text)';
+            } else {
+                ['data-vf-theme','vf-theme','theme'].forEach(a => el.removeAttribute(a));
+                el.style.removeProperty('background');
+                el.style.removeProperty('color');
+            }
+        });
+
+        [realConv, realTrend].forEach((root) => {
+            if (!root) return;
+            if (useDark) {
+                root.classList.add('ap-vf-dark');
+                root.setAttribute('data-theme', 'dark');
+            } else {
+                root.classList.remove('ap-vf-dark');
+                root.removeAttribute('data-theme');
+            }
+        });
+
+        // fix dropdowns / sort menus any time theme is recalculated
+        if (useDark) {
+            fixDarkModeDropdowns();
+        }
+    }
+
+    const vfObserver = new MutationObserver(() => {
+        applyDarkThemeIfNeeded();
+    });
+
+    (function bootComments() {
+        const container = document.getElementById('ap-comments');
+        if (!container) return;
+
+        // Initial theme & dropdown fix
+        applyDarkThemeIfNeeded();
+
+        // --------- NEW: Global block tags (e.g. no_comment) ----------
+        // If the page has ANY of the COMMENT_BLOCK_TAGS, hide comments on all stories.
+        if (pageHasBlockedTag(COMMENT_BLOCK_TAGS)) {
+            container.innerHTML = '';
+            container.classList.remove('viafoura');
+            container.id = 'comments-hidden';
+            hideFloatingBellButton();
+            return;
+        }
+
+        // --------- NEW: Section-specific logic (World News) ----------
+        const section = getPageSection();
+
+        // Only apply this rule if the story is in World News.
+        if (section === WORLD_NEWS_SECTION) {
+            // If a World News story has any tag in WORLD_NEWS_EXCLUSION_TAGS (e.g. Israel),
+            // hide the embed. Other sections with those tags are still allowed.
+            if (pageHasBlockedTag(WORLD_NEWS_EXCLUSION_TAGS)) {
+                container.innerHTML = '';
+                container.classList.remove('viafoura');
+                container.id = 'comments-hidden';
+                hideFloatingBellButton();
+                return;
+            }
+        }
+
+        // --------- Existing Viafoura boot logic ----------
+        if (!window.vf && !document.querySelector('script[src*="cdn.viafoura.net/entry/index.js"]')) {
+            const s = document.createElement('script');
+            s.async = true;
+            s.src = '//cdn.viafoura.net/entry/index.js';
+            document.head.appendChild(s);
+        }
+
+        if (document.readyState === 'complete' || document.readyState === 'interactive') {
+            wireViafoura();
+        } else {
+            document.addEventListener('DOMContentLoaded', wireViafoura);
+        }
+
+        (function startCappedRetry() {
+            let tries = 0;
+            const maxTries = 120;
+            const iv = setInterval(() => {
+                injectNoticeInContainer(container);
+                replaceBellIconInNav(container);
+                hideFloatingBellButton();
+                moveTrendingAboveCommentsFooter();
+                applyDarkThemeIfNeeded();
+                if (++tries >= maxTries) clearInterval(iv);
+            }, 100);
+        })();
+
+        try {
+            vfObserver.observe(container, { childList: true, subtree: true });
+        } catch (e) {}
+    })();
+.vf-guidelines-notice {
+        font-family: var(--primary-font, 'AP', sans-serif);
+        font-size: 1.0em;
+        color: #666;
+        margin: 0 0 10px 0;
+        padding-left: 4px;
+        opacity: 0.85;
+        line-height: 1.4;
+    }
+
+    .vf-guidelines-notice a {
+        text-decoration: underline;
+        font-weight: 500;
+    }
+
+    #vf-trending-articles > div > div > h2 {
+        font-size: 14px !important;
+        line-height: 1.2;
+        text-transform: uppercase;
+    }
+
+    #vf-trending-articles p.vf-trending-article__comment-count {
+        font-size: 16px !important;
+        line-height: 1.1;
+    }
+
+    #comments-hidden { display: none; }
+
+    /* ---------- Dark theme for AP comments ---------- */
+    #ap-comments.ap-comments--dark {
+        --apc-bg: #0b0b0b;
+        --apc-text: #e8e8e8;
+        --apc-muted: #a7a7a7;
+        --apc-border: #2a2a2a;
+        --apc-link: #9ecbff;
+
+        background: var(--apc-bg) !important;
+        color: var(--apc-text);
+        color-scheme: dark;
+    }
+
+    /* DO NOT touch every descendant’s colors anymore – that was killing badges/icons */
+
+    #ap-comments.ap-comments--dark a {
+        color: var(--apc-link);
+    }
+
+    #ap-comments.ap-comments--dark a:hover,
+    #ap-comments.ap-comments--dark a:focus {
+        text-decoration: underline;
+    }
+
+    #ap-comments.ap-comments--dark hr,
+    #ap-comments.ap-comments--dark .vf-divider,
+    #ap-comments.ap-comments--dark .vf-comment + .vf-comment,
+    #ap-comments.ap-comments--dark .vf-card {
+        border-color: var(--apc-border) !important;
+    }
+
+    #ap-comments.ap-comments--dark .vf-guidelines-notice {
+        color: var(--apc-muted);
+    }
+
+    #ap-comments.ap-comments--dark #vf-trending-articles > div > div > h2,
+    #ap-comments.ap-comments--dark p.vf-trending-article__comment-count {
+        color: var(--apc-text) !important;
+    }
+
+    #ap-comments.ap-comments--dark #vf-conversations.ap-vf-dark,
+    #ap-comments.ap-comments--dark #vf-trending-articles.ap-vf-dark {
+        background: transparent !important;
+        color: var(--apc-text) !important;
+        color-scheme: dark;
+    }
+
+    #ap-comments.ap-comments--dark #vf-conversations,
+    #ap-comments.ap-comments--dark #vf-trending-articles {
+        background-color: var(--apc-bg) !important;
+    }
+
+    /* Removed “*:not(input)” background/color override so badges keep their own colors */
+
+    #ap-comments.ap-comments--dark #vf-conversations section,
+    #ap-comments.ap-comments--dark #vf-conversations article,
+    #ap-comments.ap-comments--dark #vf-conversations header,
+    #ap-comments.ap-comments--dark #vf-conversations footer,
+    #ap-comments.ap-comments--dark #vf-conversations .vf-card,
+    #ap-comments.ap-comments--dark #vf-trending-articles section,
+    #ap-comments.ap-comments--dark #vf-trending-articles article,
+    #ap-comments.ap-comments--dark #vf-trending-articles header,
+    #ap-comments.ap-comments--dark #vf-trending-articles footer,
+    #ap-comments.ap-comments--dark #vf-trending-articles .vf-card {
+        background-color: transparent !important;
+        border-color: var(--apc-border) !important;
+    }
+
+    #ap-comments.ap-comments--dark .vf-content-editor-form,
+    #ap-comments.ap-comments--dark .vf-editor-area {
+        background-color: rgba(255,255,255,0.08) !important;
+        border: 1px solid rgba(255,255,255,0.24) !important;
+        border-radius: 6px !important;
+    }
+
+    #ap-comments.ap-comments--dark .vf-content-editor-input {
+        color: var(--apc-text) !important;
+        caret-color: var(--apc-text) !important;
+    }
+
+    #ap-comments.ap-comments--dark .vf-content-editor-input::placeholder {
+        color: #cfcfcf !important;
+        opacity: 1 !important;
+    }
+
+    #ap-comments.ap-comments--dark .vf-content-editor-input:focus,
+    #ap-comments.ap-comments--dark .vf-editor-area:focus-within {
+        outline: none !important;
+        border-color: rgba(255,255,255,0.36) !important;
+        box-shadow: 0 0 0 2px rgba(255,255,255,0.12) !important;
+    }
+
+    #ap-comments.ap-comments--dark .vf-dropdown-button,
+    #ap-comments.ap-comments--dark .vf-dropdown-button__text {
+        background-color: transparent !important;
+        color: var(--apc-text) !important;
+        border-color: var(--apc-border) !important;
+    }
+
+    #ap-comments.ap-comments--dark .vf-dropdown-button:hover,
+    #ap-comments.ap-comments--dark .vf-dropdown-button:focus {
+        background-color: rgba(255,255,255,0.06) !important;
+    }
+
+    /* Only tweak the swapped bell icon in dark mode; leave other badges alone */
+    #ap-comments.ap-comments--dark .vf-tray-trigger img[data-ap-bell="1"] {
+        filter: invert(1) hue-rotate(180deg) brightness(1.1);
+        opacity: 1;
+        mix-blend-mode: normal;
+    }
+
+    /* Ban message styles */
+    .vf-ban-container {
+        margin: 10px 0 15px;
+        padding: 10px 12px;
+        border-radius: 4px;
+        background-color: #fff3cd;
+        border: 1px solid #ffeeba;
+    }
+
+    .vf-ban-message {
+        font-family: var(--primary-font, 'AP', sans-serif);
+        font-size: 0.95em;
+        color: #856404;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .vf-ban-icon {
+        margin-right: 8px;
+    }
+
+    .vf-ban-tooltip {
+        margin-left: 4px;
+        font-weight: 600;
+        text-decoration: underline;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .vf-ban-tooltip-content {
+        display: none;
+        position: absolute;
+        z-index: 9999;
+        top: 120%;
+        left: 0;
+        width: 260px;
+        padding: 8px 10px;
+        background: #fff;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-weight: 400;
+        text-decoration: none;
+        color: #333;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .vf-ban-tooltip:hover .vf-ban-tooltip-content {
+        display: block;
+    }
+(function(d, b) {
+  const path = window.location.pathname || '';
+  const lastPart = path.split('/').pop() || '';
+  const articleId = (/([a-zA-Z0-9]{10,})$/.exec(lastPart)?.[1]) || 'fallback';
+
+  const primisUrl = `https://live.primis.tech/live/liveView.php?s=119023&subId=${encodeURIComponent(articleId)}&playerApiId=AP_MAIN_PLAYER`;
+
+  const primisElmt = d.createElement('script');
+  primisElmt.type = 'text/javascript';
+  primisElmt.async = true;
+  primisElmt.src = primisUrl;
+
+  const elmtInterval = setInterval(function() {
+    const mElmt = d.getElementById(b);
+    if (mElmt) {
+      mElmt.parentNode.insertBefore(primisElmt, mElmt.nextSibling);
+      mElmt.parentNode.removeChild(mElmt);
+      clearInterval(elmtInterval);
+
+      setTimeout(() => {
+        primisElmt.setAttribute('data-ot-ignore', '');
+      }, 0);
+    }
+  }, 100);
+})(document, 'widgetLoaded');
+freestar.config.enabled_slots.push({ placementName: "apnews_story_rail_large", slotId: "apnews_story_rail_large" });
+Most read
+Vatican excommunicates schismatic bishops and priests, and warns their followers
+6 MIN READ
+402
+Defying Pope Leo XIV, traditionalists go ahead with bishop consecrations in Switzerland
+6 MIN READ
+187
+16 kids rescued from horrific conditions in run-down Ohio home, authorities say
+3 MIN READ
+131
+Climber couple arrested after scaling Empire State Building antenna for apparent marriage proposal
+3 MIN READ
+172
+Taylor Swift and Travis Kelce to host their wedding Friday at Madison Square Garden, AP source says
+2 MIN READ
+194
+freestar.config.enabled_slots.push({ placementName: "apnews_story_rail_sticky", slotId: "apnews_story_rail_sticky" });
+The Associated Press is an independent global news organization dedicated to factual reporting. Founded in 1846, AP today remains the most trusted source of fast, accurate, unbiased news in all formats and the essential provider of the technology and services vital to the news business. More than half the world’s population sees AP journalism every day.
+.app-button-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  @media (max-width: 1023px) {
+    .app-button-container {
+      margin-left: 0;
+    }
+  }
+From AP News
+About
+Contact Us
+Accessibility Statement
+Terms of Use
+Privacy Policy
+Cookie Settings
+Do Not Sell or Share My Personal Information
+Limit Use and Disclosure of Sensitive Personal Information
+CA Notice of Collection
+The Associated Press
+ap.org
+Careers
+Advertise with us
+AP News Values and Principles
+AP’s Role in Elections
+AP Leads
+AP Definitive Source Blog
+AP Images Spotlight Blog
+AP Stylebook
+AP News Code of Conduct
+From AP News
+About
+Contact Us
+Accessibility Statement
+Terms of Use
+Privacy Policy
+Cookie Settings
+Do Not Sell or Share My Personal Information
+Limit Use and Disclosure of Sensitive Personal Information
+CA Notice of Collection
+The Associated Press
+ap.org
+Careers
+Advertise with us
+AP News Values and Principles
+AP’s Role in Elections
+AP Leads
+AP Definitive Source Blog
+AP Images Spotlight Blog
+AP Stylebook
+AP News Code of Conduct
+SECTIONS
+ap.org
+Careers
+Advertise with us
+AP News Values and Principles
+AP’s Role in Elections
+AP Leads
+AP Definitive Source Blog
+AP Images Spotlight Blog
+Copyright 2026 The Associated Press. All Rights Reserved.
+twitter
+instagram
+facebook

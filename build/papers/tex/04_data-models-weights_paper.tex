@@ -1,0 +1,1523 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\documentclass[
+  american,
+  11pt,
+  letterpaper,
+]{article}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{5}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\ifLuaTeX
+\usepackage[bidi=basic,shorthands=off]{babel}
+\else
+\usepackage[bidi=default,shorthands=off]{babel}
+\fi
+\ifLuaTeX
+  \usepackage{selnolig} % disable illegal ligatures
+\fi
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage[hang,flushmargin,bottom]{footmisc}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{caption}
+
+\setstretch{1.08}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.7em}
+\setlength{\footnotesep}{0.7em}
+\interfootnotelinepenalty=10000
+\emergencystretch=2em
+\raggedbottom
+
+\setlist[itemize]{leftmargin=1.5em, itemsep=0.45em, topsep=0.45em}
+\setlist[enumerate]{leftmargin=1.8em, itemsep=0.45em, topsep=0.45em}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\nouppercase{\leftmark}}
+\fancyhead[R]{AI Empire Research Papers}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{2}
+\renewcommand{\contentsname}{Paper Roadmap}
+
+\titleformat{\section}{\Large\bfseries}{\thesection.}{0.65em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection.}{0.6em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries}{\thesubsubsection.}{0.55em}{}
+
+\captionsetup{font=small, labelfont=bf}
+\AtBeginEnvironment{longtable}{\small}
+
+\AtBeginDocument{
+  \hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=black,
+    urlcolor=blue
+  }
+}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+% fallback for those not using the hyperref driver hyperxmp:
+\makeatletter
+\@ifundefined{xmpquote}{\newcommand{\xmpquote}[1]{#1}}{}
+\makeatother
+\hypersetup{
+  pdftitle={Chapter 04: AI Arrives When the Human Raw Material Already Exists},
+  pdflang={en-US},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Chapter 04: AI Arrives When the Human Raw Material Already
+Exists}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{From Surveillance Capitalism to AI Imperialism \textbar{}
+Chapter 04: AI arrives when the human raw material already exists}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\subsection{Abstract}\label{abstract}
+
+Foundation models do not emerge from nowhere. The U.S. Once captured
+human production can be recombined into proprietary weights, the
+surveillance economy acquires a new layer.
+
+\subsection{Keywords}\label{keywords}
+
+AI arrives when the human raw material already exists; surveillance
+capitalism; AI imperialism; AI weights; patrimony of humanity;
+evidence-based dossier
+
+\subsection{Research Question}\label{research-question}
+
+How does ai arrives when the human raw material already exists function
+within the dossier's larger argument, and what does the documentary
+record allow this chapter to establish?
+
+\subsection{Scope and Framing Note}\label{scope-and-framing-note}
+
+This paper examines ai arrives when the human raw material already
+exists within the broader dossier \emph{From Surveillance Capitalism to
+AI Imperialism}. It is intentionally written to circulate on its own:
+necessary context is restated, evidence boundaries are made explicit,
+and cited material is reproduced in paper-local form rather than
+delegated to repo navigation. It contributes to the series as a paper
+that provides the central evidentiary basis for treating frontier
+weights as a patrimony and governance problem rather than a neutral
+market outcome. Adjacent reinforcement appears in Chapter 00, Chapter
+05, Chapter 06, Chapter 10, but those cross-references are supportive
+rather than required for basic comprehension.
+
+\subsection{Central Thesis}\label{central-thesis}
+
+Foundation models do not emerge from nowhere. They emerge after a long
+period in which human expression, cultural production, and socially
+filtered judgment were captured at scale, weakly compensated if at all,
+and converted into machine-trainable inputs. \footnote{Sources: U.S.
+  Copyright Office,
+  \href{https://copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-3-Generative-AI-Training-Report-Pre-Publication-Version.pdf}{Copyright
+  and Artificial Intelligence\ldots{}} (2025-05-09; see
+  \hyperref[appendix-a1-copyright-and-artificial-intelligence-part-3-generative-ai-training-pre-publication-version]{Appendix
+  A1}); OpenAI,
+  \href{https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf}{Language
+  Models are Unsupervised Mult\ldots{}} (2019-02-14; see
+  \hyperref[appendix-a2-language-models-are-unsupervised-multitask-learners]{Appendix
+  A2}); AP,
+  \href{https://apnews.com/article/a7f131c7cb4225307134ef21d3c6a708}{Reddit
+  strikes \$60M deal allowing Goo\ldots{}} (2024-02-22; see
+  \hyperref[appendix-a3-reddit-strikes-60m-deal-allowing-google-to-train-ai-models-on-its-posts-unveils-ipo-plans]{Appendix
+  A3})}
+
+\subsection{Evidence and Method Note}\label{evidence-and-method-note}
+
+This paper is derived from the chapter corpus for Chapter 04 and is
+grounded in the project's structured research OS. It relies on source
+notes, extracted claims, entity profiles, and timeline events already
+normalized under the dossier's evidence hierarchy. Documented facts are
+asserted directly where the record supports them; disputed matters are
+marked as such; interpretive claims are bounded explicitly; and
+speculative overreach is isolated in the evidence-boundary appendix.
+
+\subsection{Introduction}\label{introduction}
+
+This paper asks: How does ai arrives when the human raw material already
+exists function within the dossier's larger argument, and what does the
+documentary record allow this chapter to establish? Its working answer
+is clear from the start: Foundation models do not emerge from nowhere.
+They emerge after a long period in which human expression, cultural
+production, and socially filtered judgment were captured at scale,
+weakly compensated if at all, and converted into machine-trainable
+inputs. \footnote{Sources: U.S. Copyright Office,
+  \href{https://copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-3-Generative-AI-Training-Report-Pre-Publication-Version.pdf}{Copyright
+  and Artificial Intelligence\ldots{}} (2025-05-09; see
+  \hyperref[appendix-a1-copyright-and-artificial-intelligence-part-3-generative-ai-training-pre-publication-version]{Appendix
+  A1}); OpenAI,
+  \href{https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf}{Language
+  Models are Unsupervised Mult\ldots{}} (2019-02-14; see
+  \hyperref[appendix-a2-language-models-are-unsupervised-multitask-learners]{Appendix
+  A2}); AP,
+  \href{https://apnews.com/article/a7f131c7cb4225307134ef21d3c6a708}{Reddit
+  strikes \$60M deal allowing Goo\ldots{}} (2024-02-22; see
+  \hyperref[appendix-a3-reddit-strikes-60m-deal-allowing-google-to-train-ai-models-on-its-posts-unveils-ipo-plans]{Appendix
+  A3})} The objective is not only to recount developments, but to show
+why the subject of this chapter belongs inside a structural argument
+about extraction, enclosure, legitimacy, and reform.
+
+\subsection{Historical or Institutional
+Context}\label{historical-or-institutional-context}
+
+The U.S. Copyright Office has already treated AI training on copyrighted
+works as a major live policy problem rather than a settled technical
+inevitability. The 2023 inquiry and 2025 report together show that
+training-input legality, disclosure, and compensation were contested
+near the start of the generative-AI boom and remain contested now.
+\footnote{Sources: GovInfo,
+  \href{https://www.govinfo.gov/content/pkg/FR-2023-08-30/pdf/2023-18624.pdf}{Copyright
+  and Artificial Intelligence\ldots{}} (2023-08-30; see
+  \hyperref[appendix-a4-copyright-and-artificial-intelligence-notice-of-inquiry]{Appendix
+  A4}); U.S. Copyright Office,
+  \href{https://copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-3-Generative-AI-Training-Report-Pre-Publication-Version.pdf}{Copyright
+  and Artificial Intelligence\ldots{}} (2025-05-09; see
+  \hyperref[appendix-a1-copyright-and-artificial-intelligence-part-3-generative-ai-training-pre-publication-version]{Appendix
+  A1})}
+
+\subsection{Main Analysis}\label{main-analysis}
+
+The technical and legal record also undermines the industry's preferred
+abstraction. Research on memorization shows that large language models
+can reproduce identifiable material from training data, while court
+records and legal scholarship now separate at least two layers of
+conflict: training-use doctrine and input-acquisition legality.
+\footnote{Sources: arXiv,
+  \href{https://arxiv.org/abs/2012.07805}{Extracting Training Data from
+  Large L\ldots{}} (2020-12-14; see
+  \hyperref[appendix-a5-extracting-training-data-from-large-language-models]{Appendix
+  A5}); arXiv, \href{https://arxiv.org/abs/2502.15858}{Generative AI
+  Training and Copyright Law} (2025-02-21; see
+  \hyperref[appendix-a6-generative-ai-training-and-copyright-law]{Appendix
+  A6}); U.S. District Court for the Northern District of California via
+  CourtListener,
+  \href{https://storage.courtlistener.com/recap/gov.uscourts.cand.434709/gov.uscourts.cand.434709.231.0_3.pdf}{Bartz
+  et al.~v. Anthropic PBC, Order\ldots{}} (2025-06-23; see
+  \hyperref[appendix-a7-bartz-et-al-v-anthropic-pbc-order-on-fair-use]{Appendix
+  A7}); U.S. District Court for the Southern District of New York via
+  Justia,
+  \href{https://cases.justia.com/federal/district-courts/new-york/nysdce/1\%3A2023cv11195/612697/514/0.pdf?ts=1743868265}{The
+  New York Times Company v. Microso\ldots{}} (2025-04-04; see
+  \hyperref[appendix-a8-the-new-york-times-company-v-microsoft-corporation-et-al-opinion-on-motions-to-dismiss]{Appendix
+  A8})}
+
+The social-to-model bridge is also explicit. GPT-2's WebText was built
+from socially filtered outbound links shared on Reddit, and by February
+2024 Reddit had moved from diffuse public conversation to direct
+licensing, striking a major agreement that allowed Google to use Reddit
+posts for AI training and related product improvement. The extraction
+economy did not end with unpaid capture; it evolved into direct
+licensing over accumulated human expression. \footnote{Sources: OpenAI,
+  \href{https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf}{Language
+  Models are Unsupervised Mult\ldots{}} (2019-02-14; see
+  \hyperref[appendix-a2-language-models-are-unsupervised-multitask-learners]{Appendix
+  A2}); AP,
+  \href{https://apnews.com/article/a7f131c7cb4225307134ef21d3c6a708}{Reddit
+  strikes \$60M deal allowing Goo\ldots{}} (2024-02-22; see
+  \hyperref[appendix-a3-reddit-strikes-60m-deal-allowing-google-to-train-ai-models-on-its-posts-unveils-ipo-plans]{Appendix
+  A3})}
+
+The labor layer matters too. Research on annotation and outsourced human
+labor shows that model building depends not only on scraped creative
+works but also on significant human verification, correction, and
+operational support that is often geographically externalized and weakly
+valued. \footnote{Sources: Big Data \& Society,
+  \href{https://journals.sagepub.com/doi/10.1177/20539517231188723}{The
+  problem with annotation. Human la\ldots{}} (2023-07-25; see
+  \hyperref[appendix-a9-the-problem-with-annotation-human-labour-and-outsourcing-between-france-and-madagascar]{Appendix
+  A9})}
+
+Taken together, the record shows a sequence in which collectively
+produced expression becomes training input, archived conversation
+becomes licensable model fuel, and additional human labor is used to
+clean, annotate, and operationalize the resulting systems. Value that
+first appeared as diffuse public production is progressively reorganized
+inside proprietary model pipelines. \footnote{Sources: OpenAI,
+  \href{https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf}{Language
+  Models are Unsupervised Mult\ldots{}} (2019-02-14; see
+  \hyperref[appendix-a2-language-models-are-unsupervised-multitask-learners]{Appendix
+  A2}); AP,
+  \href{https://apnews.com/article/a7f131c7cb4225307134ef21d3c6a708}{Reddit
+  strikes \$60M deal allowing Goo\ldots{}} (2024-02-22; see
+  \hyperref[appendix-a3-reddit-strikes-60m-deal-allowing-google-to-train-ai-models-on-its-posts-unveils-ipo-plans]{Appendix
+  A3}); Big Data \& Society,
+  \href{https://journals.sagepub.com/doi/10.1177/20539517231188723}{The
+  problem with annotation. Human la\ldots{}} (2023-07-25; see
+  \hyperref[appendix-a9-the-problem-with-annotation-human-labour-and-outsourcing-between-france-and-madagascar]{Appendix
+  A9})}
+
+Interpretation: the strategic move is not only model creation but
+control of the interface through which machine-packaged intelligence is
+accessed. In that reading, the shelf is the interface: the prompt box,
+chatbot, or subscription layer becomes the first point of contact
+between a buyer and capability distilled from human work. Once that
+first contact is captured, value can be repriced downward and dependence
+can deepen even where total technical replacement remains incomplete.
+\footnote{Sources: OpenAI,
+  \href{https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf}{Language
+  Models are Unsupervised Mult\ldots{}} (2019-02-14; see
+  \hyperref[appendix-a2-language-models-are-unsupervised-multitask-learners]{Appendix
+  A2}); AP,
+  \href{https://apnews.com/article/a7f131c7cb4225307134ef21d3c6a708}{Reddit
+  strikes \$60M deal allowing Goo\ldots{}} (2024-02-22; see
+  \hyperref[appendix-a3-reddit-strikes-60m-deal-allowing-google-to-train-ai-models-on-its-posts-unveils-ipo-plans]{Appendix
+  A3}); Big Data \& Society,
+  \href{https://journals.sagepub.com/doi/10.1177/20539517231188723}{The
+  problem with annotation. Human la\ldots{}} (2023-07-25; see
+  \hyperref[appendix-a9-the-problem-with-annotation-human-labour-and-outsourcing-between-france-and-madagascar]{Appendix
+  A9})}
+
+The House AI Task Force report gives this chapter an institutional
+bridge beyond agencies and courts. By December 17, 2024, a bipartisan
+congressional report was already recording the training conflict in
+language overlapping with the dossier's core concerns about
+commercialization, consent, credit, compensation, and derivative-work
+theory. \footnote{Sources: U.S. House of Representatives,
+  \href{https://www.speaker.gov/wp-content/uploads/2024/12/AI-Task-Force-Report-FINAL.pdf}{Bipartisan
+  House Task Force Report on\ldots{}} (2024-12-17; see
+  \hyperref[appendix-a10-bipartisan-house-task-force-report-on-artificial-intelligence]{Appendix
+  A10}); TwinChat,
+  \href{https://medium.com/twinchat/ai-copyright-weights-a-new-frontier-in-intellectual-property-law-d8ee1b6c55ee}{AI
+  Copyright Weights: A New Frontier\ldots{}} (n.d.; see
+  \hyperref[appendix-a11-ai-copyright-weights-a-new-frontier-in-intellectual-property-law]{Appendix
+  A11})}
+
+Interpretation: this is the dossier's primary evidentiary base for
+\texttt{AI\ Weights\ as\ Patrimony\ of\ Humanity}. If frontier weights
+are built from collectively produced human expression and labor, then
+they cannot be treated as ordinary private assets by default. The
+strongest normative direction pushes toward broad, open, utility-like
+availability under public-interest rules rather than permanent private
+scarcity. That is advocated doctrine, not settled law. \footnote{Sources:
+  TwinChat,
+  \href{https://medium.com/twinchat/ai-copyright-weights-a-new-frontier-in-intellectual-property-law-d8ee1b6c55ee}{AI
+  Copyright Weights: A New Frontier\ldots{}} (n.d.; see
+  \hyperref[appendix-a11-ai-copyright-weights-a-new-frontier-in-intellectual-property-law]{Appendix
+  A11}); U.S. Copyright Office,
+  \href{https://copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-3-Generative-AI-Training-Report-Pre-Publication-Version.pdf}{Copyright
+  and Artificial Intelligence\ldots{}} (2025-05-09; see
+  \hyperref[appendix-a1-copyright-and-artificial-intelligence-part-3-generative-ai-training-pre-publication-version]{Appendix
+  A1}); U.S. House of Representatives,
+  \href{https://www.speaker.gov/wp-content/uploads/2024/12/AI-Task-Force-Report-FINAL.pdf}{Bipartisan
+  House Task Force Report on\ldots{}} (2024-12-17; see
+  \hyperref[appendix-a10-bipartisan-house-task-force-report-on-artificial-intelligence]{Appendix
+  A10})}
+
+\subsection{Position Within the
+Series}\label{position-within-the-series}
+
+This paper sits inside a coordinated 11-paper architecture. Its nearest
+companions are Chapter 00 (Opening framework), Chapter 05 (Talent,
+overhiring, valuation, and layoffs), Chapter 06 (AI as a dual-use
+rhetorical weapon), Chapter 10 (What to do). In that series logic,
+Chapter 04 provides the central evidentiary basis for treating frontier
+weights as a patrimony and governance problem rather than a neutral
+market outcome.
+
+\subsection{Counterarguments}\label{counterarguments}
+
+The current record is strong on conflict, appropriation structure,
+memorization, licensing, and the social-to-model bridge. It is still
+weaker on full training-stack provenance across every frontier lab. This
+chapter should therefore challenge enclosure forcefully without
+pretending that every corpus is already fully mapped. \footnote{Sources:
+  U.S. Copyright Office,
+  \href{https://copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-3-Generative-AI-Training-Report-Pre-Publication-Version.pdf}{Copyright
+  and Artificial Intelligence\ldots{}} (2025-05-09; see
+  \hyperref[appendix-a1-copyright-and-artificial-intelligence-part-3-generative-ai-training-pre-publication-version]{Appendix
+  A1}); U.S. District Court for the Southern District of New York via
+  Justia,
+  \href{https://cases.justia.com/federal/district-courts/new-york/nysdce/1\%3A2023cv11195/612697/514/0.pdf?ts=1743868265}{The
+  New York Times Company v. Microso\ldots{}} (2025-04-04; see
+  \hyperref[appendix-a8-the-new-york-times-company-v-microsoft-corporation-et-al-opinion-on-motions-to-dismiss]{Appendix
+  A8})}
+
+\subsection{Limits of the Evidence}\label{limits-of-the-evidence}
+
+The current record is strong on conflict, appropriation structure,
+memorization, licensing, and the social-to-model bridge. It is still
+weaker on full training-stack provenance across every frontier lab. This
+chapter should therefore challenge enclosure forcefully without
+pretending that every corpus is already fully mapped. \footnote{Sources:
+  U.S. Copyright Office,
+  \href{https://copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-3-Generative-AI-Training-Report-Pre-Publication-Version.pdf}{Copyright
+  and Artificial Intelligence\ldots{}} (2025-05-09; see
+  \hyperref[appendix-a1-copyright-and-artificial-intelligence-part-3-generative-ai-training-pre-publication-version]{Appendix
+  A1}); U.S. District Court for the Southern District of New York via
+  Justia,
+  \href{https://cases.justia.com/federal/district-courts/new-york/nysdce/1\%3A2023cv11195/612697/514/0.pdf?ts=1743868265}{The
+  New York Times Company v. Microso\ldots{}} (2025-04-04; see
+  \hyperref[appendix-a8-the-new-york-times-company-v-microsoft-corporation-et-al-opinion-on-motions-to-dismiss]{Appendix
+  A8})}
+
+\subsection{Reform Relevance}\label{reform-relevance}
+
+Once captured human production can be recombined into proprietary
+weights, the surveillance economy acquires a new layer. It no longer
+only predicts behavior. It begins to substitute for the producers whose
+accumulated traces made the system possible in the first place. That is
+why the ownership question has to expand into a governance question.
+\footnote{Sources: OpenAI,
+  \href{https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf}{Language
+  Models are Unsupervised Mult\ldots{}} (2019-02-14; see
+  \hyperref[appendix-a2-language-models-are-unsupervised-multitask-learners]{Appendix
+  A2}); AP,
+  \href{https://apnews.com/article/a7f131c7cb4225307134ef21d3c6a708}{Reddit
+  strikes \$60M deal allowing Goo\ldots{}} (2024-02-22; see
+  \hyperref[appendix-a3-reddit-strikes-60m-deal-allowing-google-to-train-ai-models-on-its-posts-unveils-ipo-plans]{Appendix
+  A3}); TwinChat,
+  \href{https://medium.com/twinchat/ai-copyright-weights-a-new-frontier-in-intellectual-property-law-d8ee1b6c55ee}{AI
+  Copyright Weights: A New Frontier\ldots{}} (n.d.; see
+  \hyperref[appendix-a11-ai-copyright-weights-a-new-frontier-in-intellectual-property-law]{Appendix
+  A11})}
+
+\subsection{Conclusion}\label{conclusion}
+
+Once captured human production can be recombined into proprietary
+weights, the surveillance economy acquires a new layer. The next
+question is how that enclosure story meets labor, finance, and layoffs.
+In the architecture of this series, Chapter 04 therefore functions as a
+self-contained argument while also advancing the cumulative path toward
+the dossier's three reforms.
+
+\subsection{Notes}\label{notes}
+
+This paper is designed to circulate independently. Public notes point
+readers to the real external documents first, then to the paper-local
+appendix entry that explains why each source matters.
+
+The underlying research OS distinguishes among
+\texttt{Documented\ Fact}, \texttt{Disputed\ Fact},
+\texttt{Hypothesis\ /\ Interpretation}, and
+\texttt{Speculative\ Narrative\ Risk}. In Chapter 04, those boundaries
+remain visible in the prose, in the bibliography, and in the appendix
+sections that summarize claims and caution points.
+
+\subsection{References / Bibliography}\label{references-bibliography}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  U.S. Copyright Office.
+  \href{https://copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-3-Generative-AI-Training-Report-Pre-Publication-Version.pdf}{Copyright
+  and Artificial Intelligence, Part 3: Generative AI Training
+  (Pre-publication Version)}. 2025-05-09. T1 report. Paper appendix:
+  \hyperref[appendix-a1-copyright-and-artificial-intelligence-part-3-generative-ai-training-pre-publication-version]{Appendix
+  A1}. Corpus companion entry: Source S-126. Audit ID:
+  \texttt{usco-ai-training-report-2025}. Relevance: That the U.S.
+  Copyright Office treats AI training on copyrighted works as a major
+  live legal and policy problem rather than a settled matter.
+\item
+  OpenAI.
+  \href{https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf}{Language
+  Models are Unsupervised Multitask Learners}. 2019-02-14. T1 paper.
+  Paper appendix:
+  \hyperref[appendix-a2-language-models-are-unsupervised-multitask-learners]{Appendix
+  A2}. Corpus companion entry: Source S-108. Audit ID:
+  \texttt{radford-gpt2-webtext-2019}. Relevance: That a major OpenAI
+  training corpus was explicitly built from socially filtered outbound
+  links shared on Reddit.
+\item
+  AP.
+  \href{https://apnews.com/article/a7f131c7cb4225307134ef21d3c6a708}{Reddit
+  strikes \$60M deal allowing Google to train AI models on its posts,
+  unveils IPO plans}. 2024-02-22. T2 news\_article. Paper appendix:
+  \hyperref[appendix-a3-reddit-strikes-60m-deal-allowing-google-to-train-ai-models-on-its-posts-unveils-ipo-plans]{Appendix
+  A3}. Corpus companion entry: Source S-024. Audit ID:
+  \texttt{ap-reddit-google-ai-training-deal-2024}. Relevance: That by
+  February 2024 a major social platform was explicitly licensing
+  accumulated user conversation data for frontier-AI training.
+\item
+  GovInfo.
+  \href{https://www.govinfo.gov/content/pkg/FR-2023-08-30/pdf/2023-18624.pdf}{Copyright
+  and Artificial Intelligence; Notice of Inquiry}. 2023-08-30. T1
+  federal\_register\_notice. Paper appendix:
+  \hyperref[appendix-a4-copyright-and-artificial-intelligence-notice-of-inquiry]{Appendix
+  A4}. Corpus companion entry: Source S-125. Audit ID:
+  \texttt{usco-ai-noi-2023}. Relevance: That by August 2023 the U.S.
+  Copyright Office had already elevated AI training inputs and
+  disclosure questions into a formal federal inquiry.
+\item
+  arXiv. \href{https://arxiv.org/abs/2012.07805}{Extracting Training
+  Data from Large Language Models}. 2020-12-14. T1 paper. Paper
+  appendix:
+  \hyperref[appendix-a5-extracting-training-data-from-large-language-models]{Appendix
+  A5}. Corpus companion entry: Source S-038. Audit ID:
+  \texttt{carlini-extracting-training-data-2020}. Relevance: That large
+  language models can sometimes reproduce identifiable verbatim material
+  from their training data rather than only abstract statistical
+  patterns.
+\item
+  arXiv. \href{https://arxiv.org/abs/2502.15858}{Generative AI Training
+  and Copyright Law}. 2025-02-21. T1 paper. Paper appendix:
+  \hyperref[appendix-a6-generative-ai-training-and-copyright-law]{Appendix
+  A6}. Corpus companion entry: Source S-051. Audit ID:
+  \texttt{dornis-generative-ai-training-copyright-2025}. Relevance: That
+  there is serious academic legal scholarship directly challenging the
+  idea that generative AI training automatically falls under familiar
+  exceptions.
+\item
+  U.S. District Court for the Northern District of California via
+  CourtListener.
+  \href{https://storage.courtlistener.com/recap/gov.uscourts.cand.434709/gov.uscourts.cand.434709.231.0_3.pdf}{Bartz
+  et al.~v. Anthropic PBC, Order on Fair Use}. 2025-06-23. T1
+  court\_order. Paper appendix:
+  \hyperref[appendix-a7-bartz-et-al-v-anthropic-pbc-order-on-fair-use]{Appendix
+  A7}. Corpus companion entry: Source S-035. Audit ID:
+  \texttt{bartz-anthropic-fair-use-order-2025}. Relevance: That the
+  strongest primary legal record already separates the question of model
+  training from the question of how the training corpus was assembled.
+\item
+  U.S. District Court for the Southern District of New York via Justia.
+  \href{https://cases.justia.com/federal/district-courts/new-york/nysdce/1\%3A2023cv11195/612697/514/0.pdf?ts=1743868265}{The
+  New York Times Company v. Microsoft Corporation et al, Opinion on
+  Motions to Dismiss}. 2025-04-04. T1 court\_order. Paper appendix:
+  \hyperref[appendix-a8-the-new-york-times-company-v-microsoft-corporation-et-al-opinion-on-motions-to-dismiss]{Appendix
+  A8}. Corpus companion entry: Source S-085. Audit ID:
+  \texttt{nyt-openai-motion-dismiss-order-2025}. Relevance: That another
+  federal court outside the Anthropic case treated training-stage
+  copying and dataset assembly as central issues serious enough to
+  survive dismissal.
+\item
+  Big Data \& Society.
+  \href{https://journals.sagepub.com/doi/10.1177/20539517231188723}{The
+  problem with annotation. Human labour and outsourcing between France
+  and Madagascar}. 2023-07-25. T1 paper. Paper appendix:
+  \hyperref[appendix-a9-the-problem-with-annotation-human-labour-and-outsourcing-between-france-and-madagascar]{Appendix
+  A9}. Corpus companion entry: Source S-077. Audit ID:
+  \texttt{le-ludec-cornet-casilli-annotation-madagascar-2023}.
+  Relevance: That AI systems depend on significant human labor for data
+  generation, annotation, verification, and operational correction.
+\item
+  U.S. House of Representatives.
+  \href{https://www.speaker.gov/wp-content/uploads/2024/12/AI-Task-Force-Report-FINAL.pdf}{Bipartisan
+  House Task Force Report on Artificial Intelligence}. 2024-12-17. T1
+  report. Paper appendix:
+  \hyperref[appendix-a10-bipartisan-house-task-force-report-on-artificial-intelligence]{Appendix
+  A10}. Corpus companion entry: Source S-070. Audit ID:
+  \texttt{house-ai-task-force-report-2024}. Relevance: That the
+  dossier's copyright / weights / compensation framing entered a
+  bipartisan U.S. congressional policy record by December 17, 2024.
+\item
+  TwinChat.
+  \href{https://medium.com/twinchat/ai-copyright-weights-a-new-frontier-in-intellectual-property-law-d8ee1b6c55ee}{AI
+  Copyright Weights: A New Frontier in Intellectual Property Law}. n.d..
+  T3 essay. Paper appendix:
+  \hyperref[appendix-a11-ai-copyright-weights-a-new-frontier-in-intellectual-property-law]{Appendix
+  A11}. Corpus companion entry: Source S-122. Audit ID:
+  \texttt{twinchat-ai-copyright-weights}. Relevance: That the dossier
+  has a coherent thesis about how weights condense previously captured
+  human labor.
+\end{enumerate}
+
+\subsection{Appendix A. Source Register for This
+Paper}\label{appendix-a.-source-register-for-this-paper}
+
+\subsubsection{Appendix A1. Copyright and Artificial Intelligence, Part
+3: Generative AI Training (Pre-publication
+Version)}\label{appendix-a1-copyright-and-artificial-intelligence-part-3-generative-ai-training-pre-publication-version}
+
+\textbf{Source citation:}
+\href{https://copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-3-Generative-AI-Training-Report-Pre-Publication-Version.pdf}{Copyright
+and Artificial Intelligence, Part 3: Generative AI Training
+(Pre-publication Version)} \textbf{Institution / author:} U.S. Copyright
+Office \textbf{Date:} 2025-05-09 \textbf{Tier / type:} T1 / report
+\textbf{Why it matters in this paper:} That the U.S. Copyright Office
+treats AI training on copyrighted works as a major live legal and policy
+problem rather than a settled matter. \textbf{Corpus companion entry:}
+Source S-126 \textbf{Audit ID:} \texttt{usco-ai-training-report-2025}
+
+\subsubsection{Appendix A2. Language Models are Unsupervised Multitask
+Learners}\label{appendix-a2-language-models-are-unsupervised-multitask-learners}
+
+\textbf{Source citation:}
+\href{https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf}{Language
+Models are Unsupervised Multitask Learners} \textbf{Institution /
+author:} OpenAI \textbf{Date:} 2019-02-14 \textbf{Tier / type:} T1 /
+paper \textbf{Why it matters in this paper:} That a major OpenAI
+training corpus was explicitly built from socially filtered outbound
+links shared on Reddit. \textbf{Corpus companion entry:} Source S-108
+\textbf{Audit ID:} \texttt{radford-gpt2-webtext-2019}
+
+\subsubsection{Appendix A3. Reddit strikes \$60M deal allowing Google to
+train AI models on its posts, unveils IPO
+plans}\label{appendix-a3-reddit-strikes-60m-deal-allowing-google-to-train-ai-models-on-its-posts-unveils-ipo-plans}
+
+\textbf{Source citation:}
+\href{https://apnews.com/article/a7f131c7cb4225307134ef21d3c6a708}{Reddit
+strikes \$60M deal allowing Google to train AI models on its posts,
+unveils IPO plans} \textbf{Institution / author:} AP \textbf{Date:}
+2024-02-22 \textbf{Tier / type:} T2 / news\_article \textbf{Why it
+matters in this paper:} That by February 2024 a major social platform
+was explicitly licensing accumulated user conversation data for
+frontier-AI training. \textbf{Corpus companion entry:} Source S-024
+\textbf{Audit ID:} \texttt{ap-reddit-google-ai-training-deal-2024}
+
+\subsubsection{Appendix A4. Copyright and Artificial Intelligence;
+Notice of
+Inquiry}\label{appendix-a4-copyright-and-artificial-intelligence-notice-of-inquiry}
+
+\textbf{Source citation:}
+\href{https://www.govinfo.gov/content/pkg/FR-2023-08-30/pdf/2023-18624.pdf}{Copyright
+and Artificial Intelligence; Notice of Inquiry} \textbf{Institution /
+author:} GovInfo \textbf{Date:} 2023-08-30 \textbf{Tier / type:} T1 /
+federal\_register\_notice \textbf{Why it matters in this paper:} That by
+August 2023 the U.S. Copyright Office had already elevated AI training
+inputs and disclosure questions into a formal federal inquiry.
+\textbf{Corpus companion entry:} Source S-125 \textbf{Audit ID:}
+\texttt{usco-ai-noi-2023}
+
+\subsubsection{Appendix A5. Extracting Training Data from Large Language
+Models}\label{appendix-a5-extracting-training-data-from-large-language-models}
+
+\textbf{Source citation:}
+\href{https://arxiv.org/abs/2012.07805}{Extracting Training Data from
+Large Language Models} \textbf{Institution / author:} arXiv
+\textbf{Date:} 2020-12-14 \textbf{Tier / type:} T1 / paper \textbf{Why
+it matters in this paper:} That large language models can sometimes
+reproduce identifiable verbatim material from their training data rather
+than only abstract statistical patterns. \textbf{Corpus companion
+entry:} Source S-038 \textbf{Audit ID:}
+\texttt{carlini-extracting-training-data-2020}
+
+\subsubsection{Appendix A6. Generative AI Training and Copyright
+Law}\label{appendix-a6-generative-ai-training-and-copyright-law}
+
+\textbf{Source citation:}
+\href{https://arxiv.org/abs/2502.15858}{Generative AI Training and
+Copyright Law} \textbf{Institution / author:} arXiv \textbf{Date:}
+2025-02-21 \textbf{Tier / type:} T1 / paper \textbf{Why it matters in
+this paper:} That there is serious academic legal scholarship directly
+challenging the idea that generative AI training automatically falls
+under familiar exceptions. \textbf{Corpus companion entry:} Source S-051
+\textbf{Audit ID:} \texttt{dornis-generative-ai-training-copyright-2025}
+
+\subsubsection{Appendix A7. Bartz et al.~v. Anthropic PBC, Order on Fair
+Use}\label{appendix-a7-bartz-et-al-v-anthropic-pbc-order-on-fair-use}
+
+\textbf{Source citation:}
+\href{https://storage.courtlistener.com/recap/gov.uscourts.cand.434709/gov.uscourts.cand.434709.231.0_3.pdf}{Bartz
+et al.~v. Anthropic PBC, Order on Fair Use} \textbf{Institution /
+author:} U.S. District Court for the Northern District of California via
+CourtListener \textbf{Date:} 2025-06-23 \textbf{Tier / type:} T1 /
+court\_order \textbf{Why it matters in this paper:} That the strongest
+primary legal record already separates the question of model training
+from the question of how the training corpus was assembled.
+\textbf{Corpus companion entry:} Source S-035 \textbf{Audit ID:}
+\texttt{bartz-anthropic-fair-use-order-2025}
+
+\subsubsection{Appendix A8. The New York Times Company v. Microsoft
+Corporation et al, Opinion on Motions to
+Dismiss}\label{appendix-a8-the-new-york-times-company-v-microsoft-corporation-et-al-opinion-on-motions-to-dismiss}
+
+\textbf{Source citation:}
+\href{https://cases.justia.com/federal/district-courts/new-york/nysdce/1\%3A2023cv11195/612697/514/0.pdf?ts=1743868265}{The
+New York Times Company v. Microsoft Corporation et al, Opinion on
+Motions to Dismiss} \textbf{Institution / author:} U.S. District Court
+for the Southern District of New York via Justia \textbf{Date:}
+2025-04-04 \textbf{Tier / type:} T1 / court\_order \textbf{Why it
+matters in this paper:} That another federal court outside the Anthropic
+case treated training-stage copying and dataset assembly as central
+issues serious enough to survive dismissal. \textbf{Corpus companion
+entry:} Source S-085 \textbf{Audit ID:}
+\texttt{nyt-openai-motion-dismiss-order-2025}
+
+\subsubsection{Appendix A9. The problem with annotation. Human labour
+and outsourcing between France and
+Madagascar}\label{appendix-a9-the-problem-with-annotation-human-labour-and-outsourcing-between-france-and-madagascar}
+
+\textbf{Source citation:}
+\href{https://journals.sagepub.com/doi/10.1177/20539517231188723}{The
+problem with annotation. Human labour and outsourcing between France and
+Madagascar} \textbf{Institution / author:} Big Data \& Society
+\textbf{Date:} 2023-07-25 \textbf{Tier / type:} T1 / paper \textbf{Why
+it matters in this paper:} That AI systems depend on significant human
+labor for data generation, annotation, verification, and operational
+correction. \textbf{Corpus companion entry:} Source S-077 \textbf{Audit
+ID:} \texttt{le-ludec-cornet-casilli-annotation-madagascar-2023}
+
+\subsubsection{Appendix A10. Bipartisan House Task Force Report on
+Artificial
+Intelligence}\label{appendix-a10-bipartisan-house-task-force-report-on-artificial-intelligence}
+
+\textbf{Source citation:}
+\href{https://www.speaker.gov/wp-content/uploads/2024/12/AI-Task-Force-Report-FINAL.pdf}{Bipartisan
+House Task Force Report on Artificial Intelligence} \textbf{Institution
+/ author:} U.S. House of Representatives \textbf{Date:} 2024-12-17
+\textbf{Tier / type:} T1 / report \textbf{Why it matters in this paper:}
+That the dossier's copyright / weights / compensation framing entered a
+bipartisan U.S. congressional policy record by December 17, 2024.
+\textbf{Corpus companion entry:} Source S-070 \textbf{Audit ID:}
+\texttt{house-ai-task-force-report-2024}
+
+\subsubsection{Appendix A11. AI Copyright Weights: A New Frontier in
+Intellectual Property
+Law}\label{appendix-a11-ai-copyright-weights-a-new-frontier-in-intellectual-property-law}
+
+\textbf{Source citation:}
+\href{https://medium.com/twinchat/ai-copyright-weights-a-new-frontier-in-intellectual-property-law-d8ee1b6c55ee}{AI
+Copyright Weights: A New Frontier in Intellectual Property Law}
+\textbf{Institution / author:} TwinChat \textbf{Date:} n.d. \textbf{Tier
+/ type:} T3 / essay \textbf{Why it matters in this paper:} That the
+dossier has a coherent thesis about how weights condense previously
+captured human labor. \textbf{Corpus companion entry:} Source S-122
+\textbf{Audit ID:} \texttt{twinchat-ai-copyright-weights}
+
+\subsection{Appendix B. Claims Used in This
+Paper}\label{appendix-b.-claims-used-in-this-paper}
+
+\subsubsection{Appendix B1. By February 2024 a major social platform was
+explicitly licensing accumulated
+use\ldots{}}\label{appendix-b1-by-february-2024-a-major-social-platform-was-explicitly-licensing-accumulated-use}
+
+\textbf{Claim statement:} That by February 2024 a major social platform
+was explicitly licensing accumulated user conversation data for
+frontier-AI training. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a3-reddit-strikes-60m-deal-allowing-google-to-train-ai-models-on-its-posts-unveils-ipo-plans]{Appendix
+A3} \textbf{Corpus companion entry:} Claim C-073 \textbf{Audit Claim
+ID:}
+\texttt{ap-reddit-google-ai-training-deal-2024-04-data-to-models-copyright-weights-claim-01}
+
+\subsubsection{Appendix B2. Chapter 4 can extend the
+social-data-to-models bridge beyond GPT-2-era WebText
+in\ldots{}}\label{appendix-b2-chapter-4-can-extend-the-social-data-to-models-bridge-beyond-gpt-2-era-webtext-in}
+
+\textbf{Claim statement:} That Chapter 4 can extend the
+social-data-to-models bridge beyond GPT-2-era WebText into the later
+commercial frontier-model period. \textbf{Evidence status:} Documented
+Fact \textbf{Source support:}
+\hyperref[appendix-a3-reddit-strikes-60m-deal-allowing-google-to-train-ai-models-on-its-posts-unveils-ipo-plans]{Appendix
+A3} \textbf{Corpus companion entry:} Claim C-074 \textbf{Audit Claim
+ID:}
+\texttt{ap-reddit-google-ai-training-deal-2024-04-data-to-models-copyright-weights-claim-02}
+
+\subsubsection{Appendix B3. The extraction economy did not stop at
+unpaid capture; it evolved into direct
+lic\ldots{}}\label{appendix-b3-the-extraction-economy-did-not-stop-at-unpaid-capture-it-evolved-into-direct-lic}
+
+\textbf{Claim statement:} That the extraction economy did not stop at
+unpaid capture; it evolved into direct licensing arrangements over
+archived human expression. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a3-reddit-strikes-60m-deal-allowing-google-to-train-ai-models-on-its-posts-unveils-ipo-plans]{Appendix
+A3} \textbf{Corpus companion entry:} Claim C-075 \textbf{Audit Claim
+ID:}
+\texttt{ap-reddit-google-ai-training-deal-2024-04-data-to-models-copyright-weights-claim-03}
+
+\subsubsection{Appendix B4. The strongest primary legal record already
+separates the question of model
+traini\ldots{}}\label{appendix-b4-the-strongest-primary-legal-record-already-separates-the-question-of-model-traini}
+
+\textbf{Claim statement:} That the strongest primary legal record
+already separates the question of model training from the question of
+how the training corpus was assembled. \textbf{Evidence status:}
+Documented Fact \textbf{Source support:}
+\hyperref[appendix-a7-bartz-et-al-v-anthropic-pbc-order-on-fair-use]{Appendix
+A7} \textbf{Corpus companion entry:} Claim C-104 \textbf{Audit Claim
+ID:}
+\texttt{bartz-anthropic-fair-use-order-2025-04-data-to-models-copyright-weights-claim-01}
+
+\subsubsection{Appendix B5. By June 23, 2025, a federal court had
+accepted a fair-use defense for
+Anthropic's\ldots{}}\label{appendix-b5-by-june-23-2025-a-federal-court-had-accepted-a-fair-use-defense-for-anthropic-s}
+
+\textbf{Claim statement:} That by June 23, 2025, a federal court had
+accepted a fair-use defense for Anthropic's training on lawfully
+acquired books while preserving exposure for piracy-related conduct.
+\textbf{Evidence status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a7-bartz-et-al-v-anthropic-pbc-order-on-fair-use]{Appendix
+A7} \textbf{Corpus companion entry:} Claim C-105 \textbf{Audit Claim
+ID:}
+\texttt{bartz-anthropic-fair-use-order-2025-04-data-to-models-copyright-weights-claim-02}
+
+\subsubsection{Appendix B6. Chapter 4 can rely on a primary court order,
+not only press summaries, when
+argui\ldots{}}\label{appendix-b6-chapter-4-can-rely-on-a-primary-court-order-not-only-press-summaries-when-argui}
+
+\textbf{Claim statement:} That Chapter 4 can rely on a primary court
+order, not only press summaries, when arguing that AI copyright conflict
+has split into doctrinal and supply-chain layers. \textbf{Evidence
+status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a7-bartz-et-al-v-anthropic-pbc-order-on-fair-use]{Appendix
+A7} \textbf{Corpus companion entry:} Claim C-106 \textbf{Audit Claim
+ID:}
+\texttt{bartz-anthropic-fair-use-order-2025-04-data-to-models-copyright-weights-claim-03}
+
+\subsubsection{Appendix B7. Large language models can sometimes
+reproduce identifiable verbatim material
+from\ldots{}}\label{appendix-b7-large-language-models-can-sometimes-reproduce-identifiable-verbatim-material-from}
+
+\textbf{Claim statement:} That large language models can sometimes
+reproduce identifiable verbatim material from their training data rather
+than only abstract statistical patterns. \textbf{Evidence status:}
+Documented Fact \textbf{Source support:}
+\hyperref[appendix-a5-extracting-training-data-from-large-language-models]{Appendix
+A5} \textbf{Corpus companion entry:} Claim C-114 \textbf{Audit Claim
+ID:}
+\texttt{carlini-extracting-training-data-2020-04-data-to-models-copyright-weights-claim-01}
+
+\subsubsection{Appendix B8. Chapter 4 can connect training-data
+appropriation to memorization and leakage
+wit\ldots{}}\label{appendix-b8-chapter-4-can-connect-training-data-appropriation-to-memorization-and-leakage-wit}
+
+\textbf{Claim statement:} That Chapter 4 can connect training-data
+appropriation to memorization and leakage with direct technical
+evidence. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a5-extracting-training-data-from-large-language-models]{Appendix
+A5} \textbf{Corpus companion entry:} Claim C-115 \textbf{Audit Claim
+ID:}
+\texttt{carlini-extracting-training-data-2020-04-data-to-models-copyright-weights-claim-02}
+
+\subsubsection{Appendix B9. The notion of model weights as a harmlessly
+abstract transformation of source
+mat\ldots{}}\label{appendix-b9-the-notion-of-model-weights-as-a-harmlessly-abstract-transformation-of-source-mat}
+
+\textbf{Claim statement:} That the notion of model weights as a
+harmlessly abstract transformation of source material is too simple for
+the full technical record. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a5-extracting-training-data-from-large-language-models]{Appendix
+A5} \textbf{Corpus companion entry:} Claim C-116 \textbf{Audit Claim
+ID:}
+\texttt{carlini-extracting-training-data-2020-04-data-to-models-copyright-weights-claim-03}
+
+\subsubsection{Appendix B10. There is serious academic legal scholarship
+directly challenging the idea that
+ge\ldots{}}\label{appendix-b10-there-is-serious-academic-legal-scholarship-directly-challenging-the-idea-that-ge}
+
+\textbf{Claim statement:} That there is serious academic legal
+scholarship directly challenging the idea that generative AI training
+automatically falls under familiar exceptions. \textbf{Evidence status:}
+Documented Fact \textbf{Source support:}
+\hyperref[appendix-a6-generative-ai-training-and-copyright-law]{Appendix
+A6} \textbf{Corpus companion entry:} Claim C-153 \textbf{Audit Claim
+ID:}
+\texttt{dornis-generative-ai-training-copyright-2025-04-data-to-models-copyright-weights-claim-01}
+
+\subsubsection{Appendix B11. Memorization is not only a technical
+curiosity but also part of the copyright
+debate}\label{appendix-b11-memorization-is-not-only-a-technical-curiosity-but-also-part-of-the-copyright-debate}
+
+\textbf{Claim statement:} That memorization is not only a technical
+curiosity but also part of the copyright debate. \textbf{Evidence
+status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a6-generative-ai-training-and-copyright-law]{Appendix
+A6} \textbf{Corpus companion entry:} Claim C-154 \textbf{Audit Claim
+ID:}
+\texttt{dornis-generative-ai-training-copyright-2025-04-data-to-models-copyright-weights-claim-02}
+
+\subsubsection{Appendix B12. Chapter 4 can present the legal status of
+training as contested and actively
+theo\ldots{}}\label{appendix-b12-chapter-4-can-present-the-legal-status-of-training-as-contested-and-actively-theo}
+
+\textbf{Claim statement:} That Chapter 4 can present the legal status of
+training as contested and actively theorized rather than settled by
+industry analogy. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a6-generative-ai-training-and-copyright-law]{Appendix
+A6} \textbf{Corpus companion entry:} Claim C-155 \textbf{Audit Claim
+ID:}
+\texttt{dornis-generative-ai-training-copyright-2025-04-data-to-models-copyright-weights-claim-03}
+
+\subsubsection{Appendix B13. The dossier's copyright / weights /
+compensation framing entered a bipartisan
+U.S\ldots{}}\label{appendix-b13-the-dossier-s-copyright-weights-compensation-framing-entered-a-bipartisan-u-s}
+
+\textbf{Claim statement:} That the dossier's copyright / weights /
+compensation framing entered a bipartisan U.S. congressional policy
+record by December 17, 2024. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a10-bipartisan-house-task-force-report-on-artificial-intelligence]{Appendix
+A10} \textbf{Corpus companion entry:} Claim C-219 \textbf{Audit Claim
+ID:}
+\texttt{house-ai-task-force-report-2024-04-data-to-models-copyright-weights-claim-01}
+
+\subsubsection{Appendix B14. A formal House report recorded the
+AI-training dispute in terms that directly
+ove\ldots{}}\label{appendix-b14-a-formal-house-report-recorded-the-ai-training-dispute-in-terms-that-directly-ove}
+
+\textbf{Claim statement:} That a formal House report recorded the
+AI-training dispute in terms that directly overlap with the dossier's
+concern about reproduction, derivative-work theory, commercialization,
+consent, credit, and compensation. \textbf{Evidence status:} Documented
+Fact \textbf{Source support:}
+\hyperref[appendix-a10-bipartisan-house-task-force-report-on-artificial-intelligence]{Appendix
+A10} \textbf{Corpus companion entry:} Claim C-220 \textbf{Audit Claim
+ID:}
+\texttt{house-ai-task-force-report-2024-04-data-to-models-copyright-weights-claim-02}
+
+\subsubsection{Appendix B15. Chapter 00 and Chapter 04 can cite
+institutional uptake of the argument without
+p\ldots{}}\label{appendix-b15-chapter-00-and-chapter-04-can-cite-institutional-uptake-of-the-argument-without-p}
+
+\textbf{Claim statement:} That Chapter \texttt{00} and Chapter
+\texttt{04} can cite institutional uptake of the argument without
+pretending that congressional citation settles the underlying legal
+merits. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a10-bipartisan-house-task-force-report-on-artificial-intelligence]{Appendix
+A10} \textbf{Corpus companion entry:} Claim C-221 \textbf{Audit Claim
+ID:}
+\texttt{house-ai-task-force-report-2024-04-data-to-models-copyright-weights-claim-03}
+
+\subsubsection{Appendix B16. AI systems depend on significant human
+labor for data generation, annotation,
+ver\ldots{}}\label{appendix-b16-ai-systems-depend-on-significant-human-labor-for-data-generation-annotation-ver}
+
+\textbf{Claim statement:} That AI systems depend on significant human
+labor for data generation, annotation, verification, and operational
+correction. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a9-the-problem-with-annotation-human-labour-and-outsourcing-between-france-and-madagascar]{Appendix
+A9} \textbf{Corpus companion entry:} Claim C-246 \textbf{Audit Claim
+ID:}
+\texttt{le-ludec-cornet-casilli-annotation-madagascar-2023-04-data-to-models-copyright-weights-claim-01}
+
+\subsubsection{Appendix B17. Chapter 4 can connect model building to
+undervalued and geographically
+externaliz\ldots{}}\label{appendix-b17-chapter-4-can-connect-model-building-to-undervalued-and-geographically-externaliz}
+
+\textbf{Claim statement:} That Chapter 4 can connect model building to
+undervalued and geographically externalized human work, not only to
+scraped copyrighted material. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a9-the-problem-with-annotation-human-labour-and-outsourcing-between-france-and-madagascar]{Appendix
+A9} \textbf{Corpus companion entry:} Claim C-247 \textbf{Audit Claim
+ID:}
+\texttt{le-ludec-cornet-casilli-annotation-madagascar-2023-04-data-to-models-copyright-weights-claim-02}
+
+\subsubsection{Appendix B18. A serious research literature already
+frames AI production as a
+labor-reorganizat\ldots{}}\label{appendix-b18-a-serious-research-literature-already-frames-ai-production-as-a-labor-reorganizat}
+
+\textbf{Claim statement:} That a serious research literature already
+frames AI production as a labor-reorganization process rather than a
+purely autonomous technical breakthrough. \textbf{Evidence status:}
+Documented Fact \textbf{Source support:}
+\hyperref[appendix-a9-the-problem-with-annotation-human-labour-and-outsourcing-between-france-and-madagascar]{Appendix
+A9} \textbf{Corpus companion entry:} Claim C-248 \textbf{Audit Claim
+ID:}
+\texttt{le-ludec-cornet-casilli-annotation-madagascar-2023-04-data-to-models-copyright-weights-claim-03}
+
+\subsubsection{Appendix B19. Another federal court outside the Anthropic
+case treated training-stage copying
+a\ldots{}}\label{appendix-b19-another-federal-court-outside-the-anthropic-case-treated-training-stage-copying-a}
+
+\textbf{Claim statement:} That another federal court outside the
+Anthropic case treated training-stage copying and dataset assembly as
+central issues serious enough to survive dismissal. \textbf{Evidence
+status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a8-the-new-york-times-company-v-microsoft-corporation-et-al-opinion-on-motions-to-dismiss]{Appendix
+A8} \textbf{Corpus companion entry:} Claim C-280 \textbf{Audit Claim
+ID:}
+\texttt{nyt-openai-motion-dismiss-order-2025-04-data-to-models-copyright-weights-claim-01}
+
+\subsubsection{Appendix B20. Chapter 4 can rely on more than one primary
+court record when arguing that the
+AI\ldots{}}\label{appendix-b20-chapter-4-can-rely-on-more-than-one-primary-court-record-when-arguing-that-the-ai}
+
+\textbf{Claim statement:} That Chapter 4 can rely on more than one
+primary court record when arguing that the AI copyright conflict has
+split into doctrinal and supply-chain layers. \textbf{Evidence status:}
+Documented Fact \textbf{Source support:}
+\hyperref[appendix-a8-the-new-york-times-company-v-microsoft-corporation-et-al-opinion-on-motions-to-dismiss]{Appendix
+A8} \textbf{Corpus companion entry:} Claim C-281 \textbf{Audit Claim
+ID:}
+\texttt{nyt-openai-motion-dismiss-order-2025-04-data-to-models-copyright-weights-claim-02}
+
+\subsubsection{Appendix B21. The legal record does not treat training as
+a purely abstract statistical
+process\ldots{}}\label{appendix-b21-the-legal-record-does-not-treat-training-as-a-purely-abstract-statistical-process}
+
+\textbf{Claim statement:} That the legal record does not treat training
+as a purely abstract statistical process detached from source
+acquisition and storage practices. \textbf{Evidence status:} Documented
+Fact \textbf{Source support:}
+\hyperref[appendix-a8-the-new-york-times-company-v-microsoft-corporation-et-al-opinion-on-motions-to-dismiss]{Appendix
+A8} \textbf{Corpus companion entry:} Claim C-282 \textbf{Audit Claim
+ID:}
+\texttt{nyt-openai-motion-dismiss-order-2025-04-data-to-models-copyright-weights-claim-03}
+
+\subsubsection{Appendix B22. A major OpenAI training corpus was
+explicitly built from socially filtered
+outbou\ldots{}}\label{appendix-b22-a-major-openai-training-corpus-was-explicitly-built-from-socially-filtered-outbou}
+
+\textbf{Claim statement:} That a major OpenAI training corpus was
+explicitly built from socially filtered outbound links shared on Reddit.
+\textbf{Evidence status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a2-language-models-are-unsupervised-multitask-learners]{Appendix
+A2} \textbf{Corpus companion entry:} Claim C-356 \textbf{Audit Claim
+ID:}
+\texttt{radford-gpt2-webtext-2019-04-data-to-models-copyright-weights-claim-01}
+
+\subsubsection{Appendix B23. Chapter 4 can make a direct bridge from
+social-platform activity to
+model-trainin\ldots{}}\label{appendix-b23-chapter-4-can-make-a-direct-bridge-from-social-platform-activity-to-model-trainin}
+
+\textbf{Claim statement:} That Chapter 4 can make a direct bridge from
+social-platform activity to model-training inputs instead of speaking
+only in broad abstractions about ``the internet.'' \textbf{Evidence
+status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a2-language-models-are-unsupervised-multitask-learners]{Appendix
+A2} \textbf{Corpus companion entry:} Claim C-357 \textbf{Audit Claim
+ID:}
+\texttt{radford-gpt2-webtext-2019-04-data-to-models-copyright-weights-claim-02}
+
+\subsubsection{Appendix B24. Training-data pipelines can incorporate
+unpaid human curation signals even when
+t\ldots{}}\label{appendix-b24-training-data-pipelines-can-incorporate-unpaid-human-curation-signals-even-when-t}
+
+\textbf{Claim statement:} That training-data pipelines can incorporate
+unpaid human curation signals even when the final corpus is presented as
+a neutral technical dataset. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a2-language-models-are-unsupervised-multitask-learners]{Appendix
+A2} \textbf{Corpus companion entry:} Claim C-358 \textbf{Audit Claim
+ID:}
+\texttt{radford-gpt2-webtext-2019-04-data-to-models-copyright-weights-claim-03}
+
+\subsubsection{Appendix B25. The dossier has a coherent thesis about how
+weights condense previously
+captured\ldots{}}\label{appendix-b25-the-dossier-has-a-coherent-thesis-about-how-weights-condense-previously-captured}
+
+\textbf{Claim statement:} That the dossier has a coherent thesis about
+how weights condense previously captured human labor. \textbf{Evidence
+status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a11-ai-copyright-weights-a-new-frontier-in-intellectual-property-law]{Appendix
+A11} \textbf{Corpus companion entry:} Claim C-397 \textbf{Audit Claim
+ID:} \texttt{twinchat-ai-copyright-weights-claim-01}
+
+\subsubsection{Appendix B26. There is a clear argumentative line linking
+AI, property, and
+enclosure}\label{appendix-b26-there-is-a-clear-argumentative-line-linking-ai-property-and-enclosure}
+
+\textbf{Claim statement:} That there is a clear argumentative line
+linking AI, property, and enclosure. \textbf{Evidence status:}
+Documented Fact \textbf{Source support:}
+\hyperref[appendix-a11-ai-copyright-weights-a-new-frontier-in-intellectual-property-law]{Appendix
+A11} \textbf{Corpus companion entry:} Claim C-398 \textbf{Audit Claim
+ID:} \texttt{twinchat-ai-copyright-weights-claim-02}
+
+\subsubsection{Appendix B27. By August 2023 the U.S. Copyright Office
+had already elevated AI training
+inputs\ldots{}}\label{appendix-b27-by-august-2023-the-u-s-copyright-office-had-already-elevated-ai-training-inputs}
+
+\textbf{Claim statement:} That by August 2023 the U.S. Copyright Office
+had already elevated AI training inputs and disclosure questions into a
+formal federal inquiry. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a4-copyright-and-artificial-intelligence-notice-of-inquiry]{Appendix
+A4} \textbf{Corpus companion entry:} Claim C-407 \textbf{Audit Claim
+ID:}
+\texttt{usco-ai-noi-2023-04-data-to-models-copyright-weights-claim-01}
+
+\subsubsection{Appendix B28. The legal and policy debate around training
+data was not retrofitted later; it
+wa\ldots{}}\label{appendix-b28-the-legal-and-policy-debate-around-training-data-was-not-retrofitted-later-it-wa}
+
+\textbf{Claim statement:} That the legal and policy debate around
+training data was not retrofitted later; it was a live official issue
+near the start of the generative AI boom. \textbf{Evidence status:}
+Documented Fact \textbf{Source support:}
+\hyperref[appendix-a4-copyright-and-artificial-intelligence-notice-of-inquiry]{Appendix
+A4} \textbf{Corpus companion entry:} Claim C-408 \textbf{Audit Claim
+ID:}
+\texttt{usco-ai-noi-2023-04-data-to-models-copyright-weights-claim-02}
+
+\subsubsection{Appendix B29. Chapter 4 can document a formal
+institutional path from open questions about AI
+t\ldots{}}\label{appendix-b29-chapter-4-can-document-a-formal-institutional-path-from-open-questions-about-ai-t}
+
+\textbf{Claim statement:} That Chapter 4 can document a formal
+institutional path from open questions about AI training to later
+official analysis and policy conflict. \textbf{Evidence status:}
+Documented Fact \textbf{Source support:}
+\hyperref[appendix-a4-copyright-and-artificial-intelligence-notice-of-inquiry]{Appendix
+A4} \textbf{Corpus companion entry:} Claim C-409 \textbf{Audit Claim
+ID:}
+\texttt{usco-ai-noi-2023-04-data-to-models-copyright-weights-claim-03}
+
+\subsubsection{Appendix B30. The U.S. Copyright Office treats AI
+training on copyrighted works as a major
+live\ldots{}}\label{appendix-b30-the-u-s-copyright-office-treats-ai-training-on-copyrighted-works-as-a-major-live}
+
+\textbf{Claim statement:} That the U.S. Copyright Office treats AI
+training on copyrighted works as a major live legal and policy problem
+rather than a settled matter. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a1-copyright-and-artificial-intelligence-part-3-generative-ai-training-pre-publication-version]{Appendix
+A1} \textbf{Corpus companion entry:} Claim C-410 \textbf{Audit Claim
+ID:}
+\texttt{usco-ai-training-report-2025-04-data-to-models-copyright-weights-claim-01}
+
+\subsubsection{Appendix B31. Official analysis recognizes copyrighted
+creative works as central inputs to
+gene\ldots{}}\label{appendix-b31-official-analysis-recognizes-copyrighted-creative-works-as-central-inputs-to-gene}
+
+\textbf{Claim statement:} That official analysis recognizes copyrighted
+creative works as central inputs to generative AI development.
+\textbf{Evidence status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a1-copyright-and-artificial-intelligence-part-3-generative-ai-training-pre-publication-version]{Appendix
+A1} \textbf{Corpus companion entry:} Claim C-411 \textbf{Audit Claim
+ID:}
+\texttt{usco-ai-training-report-2025-04-data-to-models-copyright-weights-claim-02}
+
+\subsubsection{Appendix B32. Chapter 4 can ground its argument about
+training-data appropriation and
+licensing\ldots{}}\label{appendix-b32-chapter-4-can-ground-its-argument-about-training-data-appropriation-and-licensing}
+
+\textbf{Claim statement:} That Chapter 4 can ground its argument about
+training-data appropriation and licensing conflict in a primary U.S.
+government source. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a1-copyright-and-artificial-intelligence-part-3-generative-ai-training-pre-publication-version]{Appendix
+A1} \textbf{Corpus companion entry:} Claim C-412 \textbf{Audit Claim
+ID:}
+\texttt{usco-ai-training-report-2025-04-data-to-models-copyright-weights-claim-03}
+
+\subsubsection{Appendix B33. Whether existing copyright and fair-use
+doctrine can absorb frontier-model
+traini\ldots{}}\label{appendix-b33-whether-existing-copyright-and-fair-use-doctrine-can-absorb-frontier-model-traini}
+
+\textbf{Claim statement:} That whether existing copyright and fair-use
+doctrine can absorb frontier-model training without consent or
+compensation remains actively contested across agencies, courts, and
+litigants. \textbf{Evidence status:} Disputed Fact \textbf{Source
+support:}
+\hyperref[appendix-a1-copyright-and-artificial-intelligence-part-3-generative-ai-training-pre-publication-version]{Appendix
+A1},
+\hyperref[appendix-a7-bartz-et-al-v-anthropic-pbc-order-on-fair-use]{Appendix
+A7} \textbf{Corpus companion entry:} Claim C-428 \textbf{Audit Claim
+ID:} \texttt{vector04-training-legality-contested-claim-01}
+
+\subsubsection{Appendix B34. Dominant intermediaries can consolidate
+value and pricing power by controlling
+th\ldots{}}\label{appendix-b34-dominant-intermediaries-can-consolidate-value-and-pricing-power-by-controlling-th}
+
+\textbf{Claim statement:} That dominant intermediaries can consolidate
+value and pricing power by controlling the access layer through which
+users reach collectively produced goods, even when they did not produce
+the underlying material. \textbf{Evidence status:} Hypothesis /
+Interpretation \textbf{Source support:}
+\hyperref[appendix-a2-language-models-are-unsupervised-multitask-learners]{Appendix
+A2},
+\hyperref[appendix-a3-reddit-strikes-60m-deal-allowing-google-to-train-ai-models-on-its-posts-unveils-ipo-plans]{Appendix
+A3},
+\hyperref[appendix-a9-the-problem-with-annotation-human-labour-and-outsourcing-between-france-and-madagascar]{Appendix
+A9} \textbf{Corpus companion entry:} Claim C-424 \textbf{Audit Claim
+ID:} \texttt{vector04-access-layer-power-claim-01}
+
+\subsubsection{Appendix B35. The AI prompt box, chatbot, or subscription
+layer can be read as the new shelf
+or\ldots{}}\label{appendix-b35-the-ai-prompt-box-chatbot-or-subscription-layer-can-be-read-as-the-new-shelf-or}
+
+\textbf{Claim statement:} That the AI prompt box, chatbot, or
+subscription layer can be read as the new shelf or point of sale of
+intelligence because it mediates access to capabilities condensed from
+collective human production. \textbf{Evidence status:} Hypothesis /
+Interpretation \textbf{Source support:}
+\hyperref[appendix-a2-language-models-are-unsupervised-multitask-learners]{Appendix
+A2},
+\hyperref[appendix-a3-reddit-strikes-60m-deal-allowing-google-to-train-ai-models-on-its-posts-unveils-ipo-plans]{Appendix
+A3},
+\hyperref[appendix-a9-the-problem-with-annotation-human-labour-and-outsourcing-between-france-and-madagascar]{Appendix
+A9} \textbf{Corpus companion entry:} Claim C-425 \textbf{Audit Claim
+ID:} \texttt{vector04-interface-as-shelf-claim-01}
+
+\subsubsection{Appendix B36. Frontier AI weights can be read as
+condensed claims over collectively produced
+hu\ldots{}}\label{appendix-b36-frontier-ai-weights-can-be-read-as-condensed-claims-over-collectively-produced-hu}
+
+\textbf{Claim statement:} That frontier AI weights can be read as
+condensed claims over collectively produced human expression and
+therefore justify patrimony-oriented governance. \textbf{Evidence
+status:} Hypothesis / Interpretation \textbf{Source support:}
+\hyperref[appendix-a11-ai-copyright-weights-a-new-frontier-in-intellectual-property-law]{Appendix
+A11},
+\hyperref[appendix-a1-copyright-and-artificial-intelligence-part-3-generative-ai-training-pre-publication-version]{Appendix
+A1},
+\hyperref[appendix-a10-bipartisan-house-task-force-report-on-artificial-intelligence]{Appendix
+A10} \textbf{Corpus companion entry:} Claim C-429 \textbf{Audit Claim
+ID:} \texttt{vector04-weights-patrimony-governance-claim-01}
+
+\subsubsection{Appendix B37. Current legal uncertainty or congressional
+uptake already proves frontier AI
+weig\ldots{}}\label{appendix-b37-current-legal-uncertainty-or-congressional-uptake-already-proves-frontier-ai-weig}
+
+\textbf{Claim statement:} That current legal uncertainty or
+congressional uptake already proves frontier AI weights are legally
+settled as patrimony, public trust property, or common heritage.
+\textbf{Evidence status:} Speculative Narrative Risk \textbf{Source
+support:}
+\hyperref[appendix-a10-bipartisan-house-task-force-report-on-artificial-intelligence]{Appendix
+A10},
+\hyperref[appendix-a1-copyright-and-artificial-intelligence-part-3-generative-ai-training-pre-publication-version]{Appendix
+A1} \textbf{Corpus companion entry:} Claim C-426 \textbf{Audit Claim
+ID:} \texttt{vector04-patrimony-already-settled-overclaim-claim-01}
+
+\subsubsection{Appendix B38. The supermarket / shelf analogy is itself
+established as a documented fact by
+the\ldots{}}\label{appendix-b38-the-supermarket-shelf-analogy-is-itself-established-as-a-documented-fact-by-the}
+
+\textbf{Claim statement:} That the supermarket / shelf analogy is itself
+established as a documented fact by the legal or regulatory record
+rather than as a bounded interpretation built on that record.
+\textbf{Evidence status:} Speculative Narrative Risk \textbf{Source
+support:}
+\hyperref[appendix-a1-copyright-and-artificial-intelligence-part-3-generative-ai-training-pre-publication-version]{Appendix
+A1},
+\hyperref[appendix-a3-reddit-strikes-60m-deal-allowing-google-to-train-ai-models-on-its-posts-unveils-ipo-plans]{Appendix
+A3},
+\hyperref[appendix-a9-the-problem-with-annotation-human-labour-and-outsourcing-between-france-and-madagascar]{Appendix
+A9} \textbf{Corpus companion entry:} Claim C-427 \textbf{Audit Claim
+ID:} \texttt{vector04-shelf-analogy-overproof-claim-01}
+
+\subsection{Appendix C. Timeline
+Slice}\label{appendix-c.-timeline-slice}
+
+\subsubsection{Appendix C1. 2019-02-14: OpenAI documents a
+Reddit-filtered corpus for GPT-2
+training}\label{appendix-c1-2019-02-14-openai-documents-a-reddit-filtered-corpus-for-gpt-2-training}
+
+\textbf{Event summary:} OpenAI documents a Reddit-filtered corpus for
+GPT-2 training \textbf{Event date:} 2019-02-14 \textbf{Source support:}
+\hyperref[appendix-a2-language-models-are-unsupervised-multitask-learners]{Appendix
+A2} \textbf{Corpus companion entry:} Event T-005 \textbf{Audit Event
+ID:} \texttt{event-gpt2-webtext-reddit-2019-02-14}
+
+\subsubsection{Appendix C2. 2023-07-25: A peer-reviewed study maps
+outsourced annotation labor in AI production
+chains}\label{appendix-c2-2023-07-25-a-peer-reviewed-study-maps-outsourced-annotation-labor-in-ai-production-chains}
+
+\textbf{Event summary:} A peer-reviewed study maps outsourced annotation
+labor in AI production chains \textbf{Event date:} 2023-07-25
+\textbf{Source support:}
+\hyperref[appendix-a9-the-problem-with-annotation-human-labour-and-outsourcing-between-france-and-madagascar]{Appendix
+A9} \textbf{Corpus companion entry:} Event T-027 \textbf{Audit Event
+ID:} \texttt{event-annotation-madagascar-paper-2023-07-25}
+
+\subsubsection{Appendix C3. 2023-08-30: The U.S. Copyright Office opens
+a formal inquiry into AI training and
+copyright}\label{appendix-c3-2023-08-30-the-u-s-copyright-office-opens-a-formal-inquiry-into-ai-training-and-copyright}
+
+\textbf{Event summary:} The U.S. Copyright Office opens a formal inquiry
+into AI training and copyright \textbf{Event date:} 2023-08-30
+\textbf{Source support:}
+\hyperref[appendix-a4-copyright-and-artificial-intelligence-notice-of-inquiry]{Appendix
+A4} \textbf{Corpus companion entry:} Event T-028 \textbf{Audit Event
+ID:} \texttt{event-usco-ai-noi-2023-08-30}
+
+\subsubsection{Appendix C4. 2024-02-22: Reddit announces a \$60 million
+agreement allowing Google to train AI models on
+Reddit\ldots{}}\label{appendix-c4-2024-02-22-reddit-announces-a-60-million-agreement-allowing-google-to-train-ai-models-on-reddit-posts}
+
+\textbf{Event summary:} Reddit announces a \$60 million agreement
+allowing Google to train AI models on Reddit posts \textbf{Event date:}
+2024-02-22 \textbf{Source support:}
+\hyperref[appendix-a3-reddit-strikes-60m-deal-allowing-google-to-train-ai-models-on-its-posts-unveils-ipo-plans]{Appendix
+A3} \textbf{Corpus companion entry:} Event T-043 \textbf{Audit Event
+ID:} \texttt{event-reddit-google-training-deal-2024-02-22}
+
+\subsubsection{Appendix C5. 2024-12-17: The Bipartisan House AI Task
+Force report cites Mark Uriostegui's
+weights-and-copyrig\ldots{}}\label{appendix-c5-2024-12-17-the-bipartisan-house-ai-task-force-report-cites-mark-uriostegui-s-weights-and-copyright-argument}
+
+\textbf{Event summary:} The Bipartisan House AI Task Force report cites
+Mark Uriostegui's weights-and-copyright argument \textbf{Event date:}
+2024-12-17 \textbf{Source support:}
+\hyperref[appendix-a10-bipartisan-house-task-force-report-on-artificial-intelligence]{Appendix
+A10} \textbf{Corpus companion entry:} Event T-062 \textbf{Audit Event
+ID:} \texttt{event-house-ai-task-force-report-2024-12-17}
+
+\subsubsection{Appendix C6. 2025-04-04: A federal court lets core New
+York Times copyright claims against OpenAI and
+Microsof\ldots{}}\label{appendix-c6-2025-04-04-a-federal-court-lets-core-new-york-times-copyright-claims-against-openai-and-microsoft-proceed}
+
+\textbf{Event summary:} A federal court lets core New York Times
+copyright claims against OpenAI and Microsoft proceed \textbf{Event
+date:} 2025-04-04 \textbf{Source support:}
+\hyperref[appendix-a8-the-new-york-times-company-v-microsoft-corporation-et-al-opinion-on-motions-to-dismiss]{Appendix
+A8} \textbf{Corpus companion entry:} Event T-073 \textbf{Audit Event
+ID:} \texttt{event-nyt-openai-dismissal-order-2025-04-04}
+
+\subsubsection{Appendix C7. 2025-05-09: The U.S. Copyright Office
+releases its pre-publication report on generative AI
+training}\label{appendix-c7-2025-05-09-the-u-s-copyright-office-releases-its-pre-publication-report-on-generative-ai-training}
+
+\textbf{Event summary:} The U.S. Copyright Office releases its
+pre-publication report on generative AI training \textbf{Event date:}
+2025-05-09 \textbf{Source support:}
+\hyperref[appendix-a1-copyright-and-artificial-intelligence-part-3-generative-ai-training-pre-publication-version]{Appendix
+A1} \textbf{Corpus companion entry:} Event T-075 \textbf{Audit Event
+ID:} \texttt{event-usco-ai-training-report-2025-05-09}
+
+\subsubsection{Appendix C8. 2025-06-23: Judge Alsup's order separates AI
+training fair use from pirate-library
+exposure}\label{appendix-c8-2025-06-23-judge-alsup-s-order-separates-ai-training-fair-use-from-pirate-library-exposure}
+
+\textbf{Event summary:} Judge Alsup's order separates AI training fair
+use from pirate-library exposure \textbf{Event date:} 2025-06-23
+\textbf{Source support:}
+\hyperref[appendix-a7-bartz-et-al-v-anthropic-pbc-order-on-fair-use]{Appendix
+A7} \textbf{Corpus companion entry:} Event T-080 \textbf{Audit Event
+ID:} \texttt{event-bartz-anthropic-order-2025-06-23}
+
+\subsection{Appendix D. Relevant
+Entities}\label{appendix-d.-relevant-entities}
+
+\subsubsection{Appendix D1. Anthropic}\label{appendix-d1-anthropic}
+
+\textbf{Entity type:} company \textbf{Role in this paper:} Actor
+relevant to 04\_data\_to\_models\_copyright\_weights,
+06\_ai\_double\_use\_reasoning\_deepseek,
+07\_export\_controls\_compute\_defense\_access,
+08\_power\_networks\_legitimacy\_capture and others. \textbf{Relevant
+sources in this paper:}
+\hyperref[appendix-a7-bartz-et-al-v-anthropic-pbc-order-on-fair-use]{Appendix
+A7} \textbf{Corpus companion entry:} Entity E-008 \textbf{Audit Entity
+ID:} \texttt{org-anthropic}
+
+\subsubsection{Appendix D2. Google}\label{appendix-d2-google}
+
+\textbf{Entity type:} company \textbf{Role in this paper:} Actor
+relevant to 04\_data\_to\_models\_copyright\_weights. \textbf{Relevant
+sources in this paper:}
+\hyperref[appendix-a3-reddit-strikes-60m-deal-allowing-google-to-train-ai-models-on-its-posts-unveils-ipo-plans]{Appendix
+A3} \textbf{Corpus companion entry:} Entity E-018 \textbf{Audit Entity
+ID:} \texttt{org-google}
+
+\subsubsection{Appendix D3. OpenAI}\label{appendix-d3-openai}
+
+\textbf{Entity type:} company \textbf{Role in this paper:} Actor
+relevant to 04\_data\_to\_models\_copyright\_weights,
+06\_ai\_double\_use\_reasoning\_deepseek,
+07\_export\_controls\_compute\_defense\_access,
+08\_power\_networks\_legitimacy\_capture and others. \textbf{Relevant
+sources in this paper:}
+\hyperref[appendix-a8-the-new-york-times-company-v-microsoft-corporation-et-al-opinion-on-motions-to-dismiss]{Appendix
+A8},
+\hyperref[appendix-a2-language-models-are-unsupervised-multitask-learners]{Appendix
+A2} \textbf{Corpus companion entry:} Entity E-027 \textbf{Audit Entity
+ID:} \texttt{org-openai}
+
+\subsubsection{Appendix D4. U.S. Copyright
+Office}\label{appendix-d4-u-s-copyright-office}
+
+\textbf{Entity type:} government\_agency \textbf{Role in this paper:}
+Actor relevant to 04\_data\_to\_models\_copyright\_weights.
+\textbf{Relevant sources in this paper:}
+\hyperref[appendix-a4-copyright-and-artificial-intelligence-notice-of-inquiry]{Appendix
+A4},
+\hyperref[appendix-a1-copyright-and-artificial-intelligence-part-3-generative-ai-training-pre-publication-version]{Appendix
+A1} \textbf{Corpus companion entry:} Entity E-037 \textbf{Audit Entity
+ID:} \texttt{org-us-copyright-office}
+
+\subsubsection{Appendix D5. Mark
+Uriostegui}\label{appendix-d5-mark-uriostegui}
+
+\textbf{Entity type:} person \textbf{Role in this paper:} Actor relevant
+to 04\_data\_to\_models\_copyright\_weights,
+08\_power\_networks\_legitimacy\_capture. \textbf{Relevant sources in
+this paper:}
+\hyperref[appendix-a11-ai-copyright-weights-a-new-frontier-in-intellectual-property-law]{Appendix
+A11},
+\hyperref[appendix-a10-bipartisan-house-task-force-report-on-artificial-intelligence]{Appendix
+A10} \textbf{Corpus companion entry:} Entity E-053 \textbf{Audit Entity
+ID:} \texttt{person-mark-uriostegui}
+
+\subsubsection{Appendix D6. Reddit}\label{appendix-d6-reddit}
+
+\textbf{Entity type:} platform \textbf{Role in this paper:} Actor
+relevant to 02\_social\_decay\_youth\_harm\_hypersexualization,
+04\_data\_to\_models\_copyright\_weights. \textbf{Relevant sources in
+this paper:}
+\hyperref[appendix-a3-reddit-strikes-60m-deal-allowing-google-to-train-ai-models-on-its-posts-unveils-ipo-plans]{Appendix
+A3},
+\hyperref[appendix-a2-language-models-are-unsupervised-multitask-learners]{Appendix
+A2} \textbf{Corpus companion entry:} Entity E-032 \textbf{Audit Entity
+ID:} \texttt{org-reddit}
+
+\subsection{Appendix E. Evidence
+Boundaries}\label{appendix-e.-evidence-boundaries}
+
+\subsubsection{Appendix E1. Disputed
+Matters}\label{appendix-e1-disputed-matters}
+
+\begin{itemize}
+\tightlist
+\item
+  \hyperref[appendix-b33-whether-existing-copyright-and-fair-use-doctrine-can-absorb-frontier-model-traini]{Appendix
+  B33}: That whether existing copyright and fair-use doctrine can absorb
+  frontier-model training without consent or compensation remains
+  actively contested across agencies, courts, and litigants.
+\end{itemize}
+
+\subsubsection{Appendix E2. Interpretive
+Boundaries}\label{appendix-e2-interpretive-boundaries}
+
+\begin{itemize}
+\tightlist
+\item
+  \hyperref[appendix-b34-dominant-intermediaries-can-consolidate-value-and-pricing-power-by-controlling-th]{Appendix
+  B34}: That dominant intermediaries can consolidate value and pricing
+  power by controlling the access layer through which users reach
+  collectively produced goods, even when they did not produce the
+  underlying material.
+\item
+  \hyperref[appendix-b35-the-ai-prompt-box-chatbot-or-subscription-layer-can-be-read-as-the-new-shelf-or]{Appendix
+  B35}: That the AI prompt box, chatbot, or subscription layer can be
+  read as the new shelf or point of sale of intelligence because it
+  mediates access to capabilities condensed from collective human
+  production.
+\item
+  \hyperref[appendix-b36-frontier-ai-weights-can-be-read-as-condensed-claims-over-collectively-produced-hu]{Appendix
+  B36}: That frontier AI weights can be read as condensed claims over
+  collectively produced human expression and therefore justify
+  patrimony-oriented governance.
+\end{itemize}
+
+\subsubsection{Appendix E3. Speculative Narrative
+Risks}\label{appendix-e3-speculative-narrative-risks}
+
+\begin{itemize}
+\tightlist
+\item
+  \hyperref[appendix-b37-current-legal-uncertainty-or-congressional-uptake-already-proves-frontier-ai-weig]{Appendix
+  B37}: That current legal uncertainty or congressional uptake already
+  proves frontier AI weights are legally settled as patrimony, public
+  trust property, or common heritage.
+\item
+  \hyperref[appendix-b38-the-supermarket-shelf-analogy-is-itself-established-as-a-documented-fact-by-the]{Appendix
+  B38}: That the supermarket / shelf analogy is itself established as a
+  documented fact by the legal or regulatory record rather than as a
+  bounded interpretation built on that record.
+\end{itemize}
+
+\subsubsection{Appendix E4. Sensitive or Review-Worthy Note
+Flags}\label{appendix-e4-sensitive-or-review-worthy-note-flags}
+
+\begin{itemize}
+\tightlist
+\item
+  \hyperref[appendix-a3-reddit-strikes-60m-deal-allowing-google-to-train-ai-models-on-its-posts-unveils-ipo-plans]{Appendix
+  A3}. Companion note: Note N-027. Risk flag: review. Note focus: That
+  by February 2024 a major social platform was explicitly licensing
+  accumulated user conversation data for frontier-AI training.
+\item
+  \hyperref[appendix-a7-bartz-et-al-v-anthropic-pbc-order-on-fair-use]{Appendix
+  A7}. Companion note: Note N-028. Risk flag: review. Note focus: That
+  the strongest primary legal record already separates the question of
+  model training from the question of how the training corpus was
+  assembled.
+\item
+  \hyperref[appendix-a5-extracting-training-data-from-large-language-models]{Appendix
+  A5}. Companion note: Note N-029. Risk flag: review. Note focus: That
+  large language models can sometimes reproduce identifiable verbatim
+  material from their training data rather than only abstract
+  statistical patterns.
+\item
+  \hyperref[appendix-a6-generative-ai-training-and-copyright-law]{Appendix
+  A6}. Companion note: Note N-030. Risk flag: review. Note focus: That
+  there is serious academic legal scholarship directly challenging the
+  idea that generative AI training automatically falls under familiar
+  exceptions.
+\item
+  \hyperref[appendix-a10-bipartisan-house-task-force-report-on-artificial-intelligence]{Appendix
+  A10}. Companion note: Note N-031. Risk flag: review. Note focus: That
+  the dossier's copyright / weights / compensation framing entered a
+  bipartisan U.S. congressional policy record by December 17, 2024.
+\item
+  \hyperref[appendix-a9-the-problem-with-annotation-human-labour-and-outsourcing-between-france-and-madagascar]{Appendix
+  A9}. Companion note: Note N-032. Risk flag: low. Note focus: That AI
+  systems depend on significant human labor for data generation,
+  annotation, verification, and operational correction.
+\item
+  \hyperref[appendix-a8-the-new-york-times-company-v-microsoft-corporation-et-al-opinion-on-motions-to-dismiss]{Appendix
+  A8}. Companion note: Note N-033. Risk flag: medium. Note focus: That
+  another federal court outside the Anthropic case treated
+  training-stage copying and dataset assembly as central issues serious
+  enough to survive dismissal.
+\item
+  \hyperref[appendix-a2-language-models-are-unsupervised-multitask-learners]{Appendix
+  A2}. Companion note: Note N-034. Risk flag: low. Note focus: That a
+  major OpenAI training corpus was explicitly built from socially
+  filtered outbound links shared on Reddit.
+\item
+  \hyperref[appendix-a11-ai-copyright-weights-a-new-frontier-in-intellectual-property-law]{Appendix
+  A11}. Companion note: Note N-035. Risk flag: medium. Note focus: That
+  the dossier has a coherent thesis about how weights condense
+  previously captured human labor.
+\item
+  \hyperref[appendix-a4-copyright-and-artificial-intelligence-notice-of-inquiry]{Appendix
+  A4}. Companion note: Note N-037. Risk flag: review. Note focus: That
+  by August 2023 the U.S. Copyright Office had already elevated AI
+  training inputs and disclosure questions into a formal federal
+  inquiry.
+\item
+  \hyperref[appendix-a1-copyright-and-artificial-intelligence-part-3-generative-ai-training-pre-publication-version]{Appendix
+  A1}. Companion note: Note N-038. Risk flag: review. Note focus: That
+  the U.S. Copyright Office treats AI training on copyrighted works as a
+  major live legal and policy problem rather than a settled matter.
+\end{itemize}
+
+\end{document}

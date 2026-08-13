@@ -1,0 +1,13 @@
+Source: Financial Times
+URL: https://www.ft.com/content/0b14d871-2d19-46f1-9660-5466301e8066
+Published: 2024-09-09
+
+Relevant extracted text:
+- "AI exuberance masks broad weakness in tech sector, say investors."
+- Many companies were "still in a recession" following a slowdown that started in 2022.
+- Traditional tech areas such as software and IT consulting faced weak demand and the hangover from overexpansion and overstocking during the coronavirus pandemic.
+- Dustin Moskovitz said tech was still unwinding the over-hiring and overspending seen at the beginning of the pandemic.
+- Customers with limited budgets were redirecting investment toward AI.
+
+Normalization note:
+This snapshot is used as a sector-level source showing that AI enthusiasm can coexist with broader weakness, overhiring unwind, and margin pressure.

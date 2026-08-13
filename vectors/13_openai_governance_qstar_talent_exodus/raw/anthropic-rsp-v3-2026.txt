@@ -1,0 +1,10 @@
+Source: Anthropic
+URL: https://anthropic.com/responsible-scaling-policy/rsp-v3-0
+Published: 2026-02-24
+
+Relevant extracted text:
+- Anthropic describes the RSP as a voluntary framework for managing catastrophic risks from advanced AI systems.
+- The policy says its third iteration changed because the overall level of catastrophic risk depends on the actions of multiple AI developers, not just one.
+- The document says Anthropic can no longer commit to following ambitious industry-wide safety recommendations unilaterally.
+- It links the policy to advocacy through industry groups and policy advocacy.
+- The framework includes governance commitments, external review, risk reports, and competitor-contingent commitments.

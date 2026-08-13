@@ -1,0 +1,13 @@
+Source: Axios, "Anthropic outspends OpenAI in biggest-ever lobbying quarter"
+URL: https://www.axios.com/2026/04/21/anthropic-outspends-openai-biggest-lobbying-quarter
+Published: 2026-04-21
+Captured: 2026-07-03T01:10:00Z
+Capture mode: manual-web-excerpt
+
+Verified excerpt points from Codex web capture:
+- Axios page date: Apr 21, 2026.
+- Axios says both Anthropic and OpenAI posted their biggest-ever lobbying spends in Q1 2026.
+- The article attributes the data to the U.S. Senate and federal lobbying disclosures.
+- Anthropic is reported at $1.6 million and OpenAI at $1 million for the quarter.
+- Axios says Anthropic's topics included AI procurement, Defense Department procurement, supply chain risk, acceptable use policy, AI and national security, export controls, energy infrastructure, supply chain, and permitting.
+- Axios says OpenAI's filing covered AI and copyright, cybersecurity, cloud computing, and infrastructure.

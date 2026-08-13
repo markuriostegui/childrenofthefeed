@@ -1,0 +1,6 @@
+Title: Interactions Between Artificial Intelligence and Digital Public Infrastructure: Concepts, Benefits, and Challenges
+Publisher: arXiv
+Published at: 2024-12-07
+
+Working extract:
+This paper examines how artificial intelligence can interact with digital public infrastructure and public-service systems. It frames the issue in terms of public value, interoperability, governance, inclusion, and privacy. The abstract positions AI in public infrastructure as a design choice that can produce benefits, but only under accountable standards and institutional safeguards.

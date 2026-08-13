@@ -1,0 +1,13 @@
+{
+  "base_url": "https://hassanvfx.github.io/ai-empire/",
+  "print_format": "trade-6x9",
+  "page_size": {
+    "width_in": 6.0,
+    "height_in": 9.0
+  },
+  "fonts": {
+    "body": "Source Serif 4",
+    "display": "Oswald",
+    "sans": "Source Sans 3"
+  }
+}

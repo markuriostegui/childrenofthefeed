@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Children of the Feed. Servants of the AI God</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:FILL@0..1" rel="stylesheet">
+  <style>
+    :root { --bg: #06090f; --bg-soft: #101722; --panel: rgba(10, 14, 21, 0.82); --bone: #f4ead4; --muted: #d8c7a1; --ember: #ff5e3a; --gold: #ffd166; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Georgia, 'Times New Roman', serif; background: radial-gradient(circle at top, #182233 0%, #06090f 55%, #040507 100%); color: var(--bone); }
+    a { color: var(--gold); }
+    .video-hero { max-width: 1200px; margin: 0 auto; padding: 1.4rem 1.25rem 0.75rem; }
+    .video-frame { position: relative; width: 100%; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 22px; background: #070b12; box-shadow: 0 28px 70px rgba(0,0,0,0.34); }
+    .video-frame iframe { display: block; width: 100%; height: 100%; border: 0; }
+    .hero { max-width: 1200px; margin: 0 auto; padding: 2rem 1.25rem 1rem; display: grid; gap: 2rem; grid-template-columns: minmax(260px, 430px) 1fr; align-items: center; }
+    .hero img { width: 100%; border-radius: 18px; box-shadow: 0 30px 80px rgba(0,0,0,0.45); }
+    .eyebrow { font-family: Helvetica, Arial, sans-serif; text-transform: uppercase; letter-spacing: 0.18em; color: var(--muted); font-size: 0.84rem; }
+    h1 { font-family: Helvetica, Arial, sans-serif; font-size: clamp(2.8rem, 6vw, 5.2rem); line-height: 0.95; margin: 0.2rem 0 1rem; text-transform: uppercase; }
+    h1 .accent { color: var(--ember); }
+    .subtitle { font-family: Helvetica, Arial, sans-serif; font-size: clamp(1.1rem, 2vw, 1.4rem); color: var(--gold); margin-bottom: 1rem; }
+    .lede { font-size: 1.18rem; line-height: 1.72; max-width: 62ch; color: #f5f0e3; }
+    .experience-card { margin-top: 1.5rem; padding: 1.15rem; border-radius: 22px; border: 1px solid rgba(255,255,255,0.12); background: linear-gradient(180deg, rgba(14, 18, 28, 0.92), rgba(8, 10, 16, 0.9)); box-shadow: 0 20px 52px rgba(0,0,0,0.3); }
+    .experience-heading { margin: 0; font-family: Helvetica, Arial, sans-serif; font-size: 1.15rem; letter-spacing: 0.04em; text-transform: uppercase; color: #fff7e8; }
+    .experience-caption { margin: 0.45rem 0 0; color: var(--muted); font-size: 0.98rem; line-height: 1.55; }
+    .experience-actions { display: grid; gap: 0.8rem; margin-top: 1rem; }
+    .experience-button { display: inline-flex; align-items: center; gap: 0.8rem; width: 100%; padding: 0.95rem 1.05rem; border-radius: 999px; text-decoration: none; font-family: Helvetica, Arial, sans-serif; font-weight: 700; letter-spacing: 0.01em; color: #fff8eb; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.14); box-shadow: inset 0 1px 0 rgba(255,255,255,0.04); transition: transform 160ms ease, background 160ms ease, border-color 160ms ease; }
+    .experience-button:hover { transform: translateY(-1px); background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.2); }
+    .experience-icon { display: inline-flex; align-items: center; justify-content: center; width: 2.25rem; height: 2.25rem; border-radius: 999px; background: rgba(255, 94, 58, 0.14); color: var(--gold); font-family: "Material Symbols Rounded"; font-size: 1.2rem; font-variation-settings: "FILL" 1, "wght" 500, "GRAD" 0, "opsz" 24; flex: 0 0 auto; }
+    .experience-label { display: inline-flex; align-items: center; min-width: 0; }
+    .audio-block { margin-top: 1.2rem; padding: 0.8rem; border-radius: 18px; border: 1px solid rgba(255,255,255,0.1); background: rgba(7,10,15,0.72); box-shadow: 0 16px 40px rgba(0,0,0,0.22); }
+    .audio-block iframe { display: block; width: 100%; border: 0; }
+    .public-brand-header { background: #fffefb; border-bottom: 1px solid rgba(0,0,0,0.08); box-shadow: 0 4px 14px rgba(0,0,0,0.05); }
+    .public-brand-header-inner { max-width: 1200px; margin: 0 auto; min-height: 66px; padding: 0.45rem 1.25rem; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; }
+    .public-brand-link { display: inline-flex; justify-self: center; align-items: center; padding: 0; background: transparent; border-radius: 0; box-shadow: none; }
+    .public-brand-logo { display: block; width: min(176px, 38vw); max-height: 42px; height: auto; }
+    .public-brand-back-spacer { display: block; min-width: 1px; }
+    .section { max-width: 1200px; margin: 0 auto; padding: 1rem 1.25rem 2.5rem; }
+    .section h2 { font-family: Helvetica, Arial, sans-serif; font-size: 2rem; margin-bottom: 0.3rem; }
+    .section p.intro { color: var(--muted); font-size: 1.05rem; max-width: 72ch; }
+    .grid { display: grid; gap: 1.15rem; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+    .chapter-card { overflow: hidden; border-radius: 18px; border: 1px solid rgba(255,255,255,0.1); background: linear-gradient(180deg, rgba(18,25,38,0.88), rgba(7,10,15,0.94)); box-shadow: 0 20px 50px rgba(0,0,0,0.28); }
+    .chapter-card img { width: 100%; display: block; }
+    .chapter-copy { padding: 1rem 1rem 1.2rem; }
+    .chapter-copy h3 { font-family: Helvetica, Arial, sans-serif; font-size: 1.45rem; margin: 0.3rem 0 0.5rem; }
+    .chapter-copy p { margin: 0.3rem 0; line-height: 1.6; color: #f3ecdd; }
+    .chapter-copy .links { margin-top: 0.9rem; font-family: Helvetica, Arial, sans-serif; font-size: 0.95rem; color: var(--muted); }
+    .chapter-copy .links span { margin: 0 0.45rem; color: #7f7358; }
+    .notes { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+    .note-panel { padding: 1rem 1.1rem; border-radius: 16px; background: var(--panel); border: 1px solid rgba(255,255,255,0.08); }
+    .note-panel h3 { font-family: Helvetica, Arial, sans-serif; margin-top: 0; }
+    .patrimony-card { max-width: 1200px; margin: 0 auto 0.35rem; padding: 1.6rem 1.4rem 1.7rem; border-radius: 24px; border: 1px solid rgba(255,255,255,0.14); background: linear-gradient(135deg, rgba(36,11,11,0.96), rgba(20,24,34,0.98)); box-shadow: 0 26px 70px rgba(0,0,0,0.34); }
+    .patrimony-kicker { margin: 0 0 0.55rem; font-family: Helvetica, Arial, sans-serif; text-transform: uppercase; letter-spacing: 0.2em; color: var(--gold); font-size: 0.78rem; }
+    .patrimony-card h2 { margin: 0; font-family: Helvetica, Arial, sans-serif; font-size: clamp(2rem, 3.5vw, 3rem); line-height: 0.98; text-transform: uppercase; color: #fff7e8; }
+    .patrimony-deck { margin: 0.95rem 0 0.5rem; color: #fff4df; font-size: 1.08rem; line-height: 1.65; max-width: 68ch; }
+    .patrimony-bridge { margin: 0.45rem 0 0.9rem; color: var(--muted); line-height: 1.68; max-width: 72ch; font-size: 1.08rem; }
+    .patrimony-principles { margin: 0; padding-left: 1.3rem; display: grid; gap: 0.65rem; color: #fff2d7; line-height: 1.62; }
+    .patrimony-source { margin: 1rem 0 0; font-family: Helvetica, Arial, sans-serif; color: var(--gold); }
+    .patrimony-source-primary { margin-top: 1.05rem; font-size: 1.12rem; font-weight: 700; color: #fff1c9; }
+    .patrimony-source-secondary { margin-top: 0.45rem; font-size: 0.98rem; color: var(--muted); }
+    .patrimony-brand { margin: 0.45rem 0 0; font-family: Helvetica, Arial, sans-serif; color: var(--muted); }
+    .patrimony-brand a, .dedication-imprint a { color: var(--gold); text-decoration: none; }
+    .dedication-coda { max-width: 920px; margin: 0 auto 4rem; padding: 2rem 1.4rem 2.2rem; border: 1px solid rgba(255,255,255,0.1); border-radius: 20px; background: linear-gradient(180deg, rgba(19,24,34,0.96), rgba(8,11,16,0.98)); box-shadow: 0 24px 60px rgba(0,0,0,0.28); text-align: center; }
+    .dedication-heading { margin: 0 0 0.9rem; font-family: Helvetica, Arial, sans-serif; text-transform: uppercase; letter-spacing: 0.18em; color: var(--gold); font-size: 0.84rem; }
+    .dedication-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.4rem; color: #fff3dc; font-size: 1.05rem; line-height: 1.55; }
+    .dedication-imprint { margin: 1rem 0 0; color: var(--muted); font-family: Helvetica, Arial, sans-serif; font-size: 0.92rem; letter-spacing: 0.06em; text-transform: uppercase; }
+    @media (max-width: 900px) { .hero { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header class="public-brand-header" aria-label="WakenAI navigation">
+    <div class="public-brand-header-inner">
+      <span class="public-brand-back-spacer" aria-hidden="true"></span>
+      <a class="public-brand-link" href="https://wakenai.com/" aria-label="WakenAI Labs">
+        <img class="public-brand-logo" src="assets/brand/waken-ai-black.webp" alt="WakenAI Labs">
+      </a>
+      <span class="public-brand-back-spacer" aria-hidden="true"></span>
+    </div>
+  </header>
+  <section class="video-hero" aria-label="Featured video">
+    <div class="video-frame">
+      <iframe src="https://player.vimeo.com/video/1207996846?dnt=1" title="Featured video" loading="lazy" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </section>
+  <section class="hero">
+    <img src="assets/generated/master_cover.png" alt="Children of the Feed cover">
+    <div>
+      <p class="eyebrow">Literary public edition</p>
+      <h1>Children of the <span class="accent">Feed</span></h1>
+      <p class="subtitle">How technofeudalism raised us as digital serfs</p>
+      <p class="lede">This is the magazine-style, public-facing edition of the AI Empire research program. It translates the full dossier into a cinematic and commercially legible reading experience while keeping the documentary spine intact through lighter end notes that point back to the validated chapter papers.</p>
+      <section class="experience-card" aria-label="Choose your experience">
+        <h2 class="experience-heading">Choose Your Experience</h2>
+        <p class="experience-caption">You can also scroll down to read specific chapters</p>
+        <div class="experience-actions">
+          <a class="experience-button" href="../site/website/index.html"><span class="experience-icon" aria-hidden="true">auto_stories</span><span class="experience-label">Interactive App</span></a>
+          <a class="experience-button" href="html/full_book.html"><span class="experience-icon" aria-hidden="true">menu_book</span><span class="experience-label">Read the full book</span></a>
+          <a class="experience-button" href="pdf/full_book/full_book.pdf"><span class="experience-icon" aria-hidden="true">download</span><span class="experience-label">Download the PDF</span></a>
+        </div>
+      </section>
+  <section class="audio-block soundcloud-audio-block" aria-label="Featured track">
+    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2349608588&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+  </section>
+    </div>
+  </section>
+  <section class="patrimony-card" aria-label="Patrimony doctrine">
+    <p class="patrimony-kicker">Doctrine</p>
+    <h2>AI IS THE PATRIMONY OF HUMANITY</h2>
+    <p class="patrimony-deck">This literary edition is part of a research program aimed at empowering humanity and reclaiming civic and creative sovereignty for future generations.</p>
+    <p class="patrimony-bridge">This research program argues that AI is the patrimony of humanity as it is derived from our civilizational core.</p>
+    <ol class="patrimony-principles">
+        <li>Frontier AI was trained on humanity&#x27;s collective language, art, code, labor, culture, science, and emotion.</li>
+        <li>What is built from that collective archive cannot be treated as ordinary exclusive private property by default.</li>
+        <li>Its governance must move toward public-trust logic, broad access, democratic oversight, and anti-monopoly limits.</li>
+    </ol>
+      <p class="patrimony-source patrimony-source-primary">AI-Empire: <a href="https://hassanvfx.github.io/ai-empire/">Main Research Program</a></p>
+      <p class="patrimony-source patrimony-source-secondary">Essay featured by the House of Representatives special AI Task Force: <a href="https://medium.com/twinchat/ai-copyright-weights-a-new-frontier-in-intellectual-property-law-d8ee1b6c55ee">AI Copyright Weights: A New Frontier in Intellectual Property Law</a></p>
+      <p class="patrimony-brand">Published and advanced by <a href="https://wakenai.com/">WakenAI Labs</a>.</p>
+  </section>
+  <section class="section">
+    <h2>How this edition works</h2>
+    <p class="intro">Each chapter is designed for a general reader: fewer academic interruptions, stronger visual rhythm, and a direct path back to the research papers when the reader wants the full evidence burden.</p>
+    <div class="notes"><div class="note-panel"><h3>Reading mode</h3><p>Read the full book as one arc, or move chapter by chapter through the literary cards below.</p></div><div class="note-panel"><h3>Evidence discipline</h3><p>Disputed matters stay bounded. Strong factual claims still rest on the corresponding papers, omnibus, and corpus companion.</p></div><div class="note-panel"><h3>Visual language</h3><p>The look combines a provided master cover, original GPT Image 2 chapter covers, selected narrative illustrations, and vivid branded infographic charts built for both HTML and PDF.</p></div></div>
+  </section>
+  <section class="section">
+    <h2>Chapter editions</h2>
+    <p class="intro">Every chapter has its own literary page and PDF. The first release goes deepest on the platform-capture, dataset, and access-control chapters while keeping the full book navigable from day one.</p>
+    <div class="grid">
+<article class="chapter-card">
+  <img src="assets/generated/covers/00_before-the-machine-could-speak_cover.png" alt="Before the Machine Could Speak cover">
+  <div class="chapter-copy"><p class="eyebrow">Chapter 00</p><h3>Before the Machine Could Speak</h3><p>The opening wound: how humanity was turned into signal before AI could be sold as destiny.</p><p class="links"><a href="html/00_opening-framework.html">Read HTML</a> <span>•</span> <a href="pdf/00_opening-framework/00_opening-framework.pdf">PDF</a></p></div>
+</article>
+<article class="chapter-card">
+  <img src="assets/generated/covers/01_the-free-trap_cover.png" alt="The Free Trap cover">
+  <div class="chapter-copy"><p class="eyebrow">Chapter 01</p><h3>The Free Trap</h3><p>How the platforms taught us to confuse participation with payment while they harvested the map of our behavior.</p><p class="links"><a href="html/01_the-free-trap.html">Read HTML</a> <span>•</span> <a href="pdf/01_the-free-trap/01_the-free-trap.pdf">PDF</a></p></div>
+</article>
+<article class="chapter-card">
+  <img src="assets/generated/covers/02_raised-by-the-algorithm_cover.png" alt="Raised by the Algorithm cover">
+  <div class="chapter-copy"><p class="eyebrow">Chapter 02</p><h3>Raised by the Algorithm</h3><p>A generation did not simply lose attention. Attention was farmed.</p><p class="links"><a href="html/02_raised-by-the-algorithm.html">Read HTML</a> <span>•</span> <a href="pdf/02_raised-by-the-algorithm/02_raised-by-the-algorithm.pdf">PDF</a></p></div>
+</article>
+<article class="chapter-card">
+  <img src="assets/generated/covers/03_lockdown-and-the-great-acceleration_cover.png" alt="Lockdown and the Great Acceleration cover">
+  <div class="chapter-copy"><p class="eyebrow">Chapter 03</p><h3>Lockdown and the Great Acceleration</h3><p>The world went inside. The platforms were waiting.</p><p class="links"><a href="html/03_lockdown-and-the-great-acceleration.html">Read HTML</a> <span>•</span> <a href="pdf/03_lockdown-and-the-great-acceleration/03_lockdown-and-the-great-acceleration.pdf">PDF</a></p></div>
+</article>
+<article class="chapter-card">
+  <img src="assets/generated/covers/04_we-were-the-dataset_cover.png" alt="We Were the Dataset cover">
+  <div class="chapter-copy"><p class="eyebrow">Chapter 04</p><h3>We Were the Dataset</h3><p>First they captured what we made. Then they captured how we think.</p><p class="links"><a href="html/04_we-were-the-dataset.html">Read HTML</a> <span>•</span> <a href="pdf/04_we-were-the-dataset/04_we-were-the-dataset.pdf">PDF</a></p></div>
+</article>
+<article class="chapter-card">
+  <img src="assets/generated/covers/05_the-layoff-ritual_cover.png" alt="The Layoff Ritual cover">
+  <div class="chapter-copy"><p class="eyebrow">Chapter 05</p><h3>The Layoff Ritual</h3><p>The machine did not only learn from workers. It was used to discipline them.</p><p class="links"><a href="html/05_the-layoff-ritual.html">Read HTML</a> <span>•</span> <a href="pdf/05_the-layoff-ritual/05_the-layoff-ritual.pdf">PDF</a></p></div>
+</article>
+<article class="chapter-card">
+  <img src="assets/generated/covers/06_the-dual-use-gospel_cover.png" alt="The Dual-Use Gospel cover">
+  <div class="chapter-copy"><p class="eyebrow">Chapter 06</p><h3>The Dual-Use Gospel</h3><p>How the same system is sold as miracle, weapon, tutor, oracle, and dependency engine.</p><p class="links"><a href="html/06_the-dual-use-gospel.html">Read HTML</a> <span>•</span> <a href="pdf/06_the-dual-use-gospel/06_the-dual-use-gospel.pdf">PDF</a></p></div>
+</article>
+<article class="chapter-card">
+  <img src="assets/generated/covers/07_the-gates-of-intelligence_cover.png" alt="The Gates of Intelligence cover">
+  <div class="chapter-copy"><p class="eyebrow">Chapter 07</p><h3>The Gates of Intelligence</h3><p>Compute, export controls, and defense alignments decide who may approach the new oracle.</p><p class="links"><a href="html/07_the-gates-of-intelligence.html">Read HTML</a> <span>•</span> <a href="pdf/07_the-gates-of-intelligence/07_the-gates-of-intelligence.pdf">PDF</a></p></div>
+</article>
+<article class="chapter-card">
+  <img src="assets/generated/covers/08_the-legitimacy-machine_cover.png" alt="The Legitimacy Machine cover">
+  <div class="chapter-copy"><p class="eyebrow">Chapter 08</p><h3>The Legitimacy Machine</h3><p>The empire does not survive by code alone. It survives by praise, access, prestige, and institutional blessing.</p><p class="links"><a href="html/08_the-legitimacy-machine.html">Read HTML</a> <span>•</span> <a href="pdf/08_the-legitimacy-machine/08_the-legitimacy-machine.pdf">PDF</a></p></div>
+</article>
+<article class="chapter-card">
+  <img src="assets/generated/covers/09_if-no-one-acts_cover.png" alt="If No One Acts cover">
+  <div class="chapter-copy"><p class="eyebrow">Chapter 09</p><h3>If No One Acts</h3><p>What comes next if dependence, enclosure, and state-corporate fusion harden into infrastructure.</p><p class="links"><a href="html/09_if-no-one-acts.html">Read HTML</a> <span>•</span> <a href="pdf/09_if-no-one-acts/09_if-no-one-acts.pdf">PDF</a></p></div>
+</article>
+<article class="chapter-card">
+  <img src="assets/generated/covers/10_the-three-reforms_cover.png" alt="The Three Reforms cover">
+  <div class="chapter-copy"><p class="eyebrow">Chapter 10</p><h3>The Three Reforms</h3><p>The response is no longer a mood. It is a program.</p><p class="links"><a href="html/10_the-three-reforms.html">Read HTML</a> <span>•</span> <a href="pdf/10_the-three-reforms/10_the-three-reforms.pdf">PDF</a></p></div>
+</article>
+    </div>
+  </section>
+  <section class="dedication-coda" aria-label="Dedication and imprint">
+    <p class="dedication-heading">To our beloved:</p>
+    <ul class="dedication-list">
+      <li>אֱנוֹשׁוּת מַפְלִיאָה</li>
+      <li>महान मानवता</li>
+      <li>الإنسانية العظيمة</li>
+      <li>伟大的人类</li>
+      <li>偉大なる人類</li>
+      <li>위대한 인류</li>
+      <li>Magnifica Umanità</li>
+      <li>Humanité Magnifique</li>
+      <li>Magnífica Humanidad</li>
+      <li>Magnífica Humanidade</li>
+      <li>Großartige Menschheit</li>
+      <li>Великолепное человечество</li>
+      <li>Magnificent Humanity</li>
+    </ul>
+    <p class="dedication-imprint"><a href="https://wakenai.com/">WakenAI Labs</a></p>
+    <p class="dedication-imprint">Copyright Mark Uriostegui 2026</p>
+  </section>
+</body>
+</html>

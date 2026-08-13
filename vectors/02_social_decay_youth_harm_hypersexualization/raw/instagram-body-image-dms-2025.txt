@@ -1,0 +1,210 @@
+document.documentElement.classList.add('js');
+[2504.02176] Unfiltered: How Teens Engage in Body Image and Shaming Discussions via Instagram Direct Messages (DMs)
+Skip to main content
+arXiv is now an independent nonprofit!
+Learn more
+×
+Search
+Submit
+Donate
+Log in
+Search arXiv
+Press Enter to search ·
+Advanced search
+Computer Science > Human-Computer Interaction
+arXiv:2504.02176
+(cs)
+[Submitted on 2 Apr 2025]
+Title:
+Unfiltered: How Teens Engage in Body Image and Shaming Discussions via Instagram Direct Messages (DMs)
+Authors:
+Abdulmalik Alluhidan
+,
+Jinkyung Katie Park
+,
+Mamtaj Akter
+,
+Rachel Rodgers
+,
+Afsaneh Razi
+,
+Pamela J. Wisniewski
+View a PDF of the paper titled Unfiltered: How Teens Engage in Body Image and Shaming Discussions via Instagram Direct Messages (DMs), by Abdulmalik Alluhidan and 5 other authors
+View PDF
+HTML (experimental)
+Abstract:
+We analyzed 1,596 sub-conversations within 451 direct message (DM) conversations from 67 teens (ages 13-17) who engaged in private discussions about body image on Instagram. Our findings show that teens often receive support when sharing struggles with negative body image, participate in criticism when engaging in body-shaming, and are met with appreciation when promoting positive body image. Additionally, these types of disclosures and responses varied based on whether the conversations were one-on-one or group-based. We found that sharing struggles and receiving support most often occurred in one-on-one conversations, while body shaming and negative interactions often occurred in group settings. A key insight of the study is that private social media settings can significantly influence how teens discuss and respond to body image. Based on these findings, we suggest design guidelines for social media platforms that could promote positive interactions around body image, ultimately creating a healthier and more supportive online environment for teens dealing with body image concerns.
+Subjects:
+Human-Computer Interaction (cs.HC)
+Cite as:
+arXiv:2504.02176
+[cs.HC]
+(or
+arXiv:2504.02176v1
+[cs.HC]
+for this version)
+https://doi.org/10.48550/arXiv.2504.02176
+Focus to learn more
+arXiv-issued DOI via DataCite
+Submission history
+From: Abdulmalik Alluhidan [
+view email
+]
+[v1]
+Wed, 2 Apr 2025 23:25:35 UTC (701 KB)
+Full-text links:
+Access Paper:
+View a PDF of the paper titled Unfiltered: How Teens Engage in Body Image and Shaming Discussions via Instagram Direct Messages (DMs), by Abdulmalik Alluhidan and 5 other authors
+View PDF
+HTML (experimental)
+TeX Source
+view license
+Current browse context:
+cs.HC
+< prev
+|
+next >
+new
+|
+recent
+|
+2025-04
+Change to browse by:
+cs
+References & Citations
+NASA ADS
+Google Scholar
+Semantic Scholar
+export BibTeX citation
+Loading...
+BibTeX formatted citation
+×
+loading...
+Data provided by:
+Bookmark
+Bibliographic Tools
+Bibliographic and Citation Tools
+Bibliographic Explorer Toggle
+Bibliographic Explorer
+(
+What is the Explorer?
+)
+Connected Papers Toggle
+Connected Papers
+(
+What is Connected Papers?
+)
+Litmaps Toggle
+Litmaps
+(
+What is Litmaps?
+)
+scite.ai Toggle
+scite Smart Citations
+(
+What are Smart Citations?
+)
+Code, Data, Media
+Code, Data and Media Associated with this Article
+alphaXiv Toggle
+alphaXiv
+(
+What is alphaXiv?
+)
+Links to Code Toggle
+CatalyzeX Code Finder for Papers
+(
+What is CatalyzeX?
+)
+DagsHub Toggle
+DagsHub
+(
+What is DagsHub?
+)
+GotitPub Toggle
+Gotit.pub
+(
+What is GotitPub?
+)
+Huggingface Toggle
+Hugging Face
+(
+What is Huggingface?
+)
+ScienceCast Toggle
+ScienceCast
+(
+What is ScienceCast?
+)
+Demos
+Demos
+Replicate Toggle
+Replicate
+(
+What is Replicate?
+)
+Spaces Toggle
+Hugging Face Spaces
+(
+What is Spaces?
+)
+Spaces Toggle
+TXYZ.AI
+(
+What is TXYZ.AI?
+)
+Related Papers
+Recommenders and Search Tools
+Link to Influence Flower
+Influence Flower
+(
+What are Influence Flowers?
+)
+Core recommender toggle
+CORE Recommender
+(
+What is CORE?
+)
+Author
+Venue
+Institution
+Topic
+About arXivLabs
+arXivLabs: experimental projects with community collaborators
+arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.
+Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
+Have an idea for a project that will add value for arXiv's community?
+Learn more about arXivLabs
+.
+Which authors of this paper are endorsers?
+|
+Disable MathJax
+(
+What is MathJax?
+)
+mathjaxToggle();
+We gratefully acknowledge support from
+        our
+major funders
+,
+member institutions
+,
+,
+        and all contributors.
+About
+·
+Help
+·
+Contact
+·
+Subscribe
+·
+Copyright
+·
+Privacy
+·
+Accessibility
+·
+Operational Status
+(opens in new tab)
+Major funding support from

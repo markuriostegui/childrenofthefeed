@@ -1,0 +1,10 @@
+Source: OpenAI
+URL: https://openai.com/index/introducing-superalignment/
+Published: 2023-07-05
+
+Relevant extracted text:
+- "We need scientific and technical breakthroughs to steer and control AI systems much smarter than us."
+- OpenAI said it was starting a new team co-led by Ilya Sutskever and Jan Leike.
+- The company said it was dedicating 20% of the compute it had secured to date to this effort.
+- The post says superintelligence could arrive this decade and could lead to "the disempowerment of humanity or even human extinction."
+- The company also said solving this problem would require new institutions for governance.

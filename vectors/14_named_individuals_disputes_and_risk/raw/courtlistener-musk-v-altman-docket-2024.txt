@@ -1,0 +1,10 @@
+Source: CourtListener / PACER docket
+URL: https://www.courtlistener.com/docket/69013420/musk-v-altman/
+Published docket date: 2024-08-05
+
+Relevant extracted text:
+- Musk v. Altman, 4:24-cv-04722, District Court, N.D. California.
+- Date Filed: Aug. 5, 2024.
+- The docket lists Samuel Altman, Gregory Brockman, OpenAI, Inc., OpenAI, L.L.C., OpenAI, L.P., and related entities among the defendants.
+- Entry 1 is a complaint with jury demand filed by Elon Musk.
+- CourtListener lists the case as a federal-question suit and shows ongoing filings into 2026.

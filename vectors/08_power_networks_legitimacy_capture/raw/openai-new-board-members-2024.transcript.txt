@@ -1,0 +1,292 @@
+URL: https://openai.com/index/openai-announces-new-members-to-board-of-directors/
+TITLE: OpenAI announces new members to board of directors | OpenAI
+
+- banner:
+  - link "Skip to main content":
+    - /url: "#main"
+  - link "OpenAI Home":
+    - /url: /
+  - navigation "Main Navigation":
+    - list:
+      - link "Research":
+        - /url: /research/index/
+        - generic: Research
+      - button "Research menu"
+      - button "Products":
+        - generic: Products
+      - button "Products menu"
+      - link "Business":
+        - /url: /business/
+        - generic: Business
+      - button "Business menu"
+      - link "Developers":
+        - /url: /api/
+        - generic: Developers
+      - button "Developers menu"
+      - link "Company":
+        - /url: /about/
+        - generic: Company
+      - button "Company menu"
+      - link "Foundation (opens in a new window)":
+        - /url: https://openaifoundation.org/
+        - generic: Foundation
+        - generic: (opens in a new window)
+  - button "Open Search":
+  - button "Close Search":
+  - button "Log in":
+    - text: Log in
+  - link "Try ChatGPT (opens in a new window)":
+    - /url: https://chatgpt.com/?openaicom-did=4f1bc7ac-d2ae-4283-b546-81a6f9822d7c&openaicom_referred=true
+    - text: Try ChatGPT
+    - generic: (opens in a new window)
+- main:
+  - generic: OpenAI announces new members to board of directors | OpenAI
+  - article:
+    - paragraph: March 8, 2024
+    - link "Company":
+      - /url: /news/company-announcements/
+    - heading "OpenAI announces new members to board of directors" [level=1]
+    - paragraph: Dr. Sue Desmond-Hellmann, Nicole Seligman, Fidji Simo join; Sam Altman rejoins board
+    - button "Play audio of page text":
+    - generic: Listen to article
+    - generic: 3:44
+    - button "Share":
+      - text: Share
+    - paragraph:
+      - text: "We’re announcing three new members to our Board of Directors as a first step towards our commitment to expansion:"
+      - generic: Dr.
+      - generic: Sue Desmond-Hellmann
+      - text: ","
+      - generic: former CEO of the Bill and Melinda Gates Foundation
+      - text: ","
+      - generic: Nicole Seligman
+      - text: ","
+      - generic: former EVP and General Counsel at Sony Corporation
+      - text: and
+      - generic: Fidji Simo
+      - text: ","
+      - generic: CEO and Chair of Instacart.
+      - text: Additionally,
+      - generic: Sam Altman
+      - text: ", CEO, will rejoin the OpenAI Board of Directors."
+    - paragraph: Sue, Nicole and Fidji have experience in leading global organizations and navigating complex regulatory environments, including backgrounds in technology, nonprofit and board governance. They will work closely with current board members Adam D’Angelo, Larry Summers and Bret Taylor as well as Sam and OpenAI’s senior management.
+    - paragraph: Bret Taylor, Chair of the OpenAI board, stated, “I am excited to welcome Sue, Nicole, and Fidji to the OpenAI Board of Directors. Their experience and leadership will enable the Board to oversee OpenAI’s growth, and to ensure that we pursue OpenAI’s mission of ensuring artificial general intelligence benefits all of humanity.”
+    - paragraph:
+      - generic: Dr. Sue Desmond-Hellmann
+      - text: is a non-profit leader and physician. Dr. Desmond-Hellmann currently serves on the Boards of Pfizer and the President’s Council of Advisors on Science and Technology. She previously was a Director at Proctor and Gamble, Meta (Facebook), and the Bill & Melinda Gates Medical Research institute. She served as the Chief Executive Officer of the Bill & Melinda Gates Foundation from 2014 to 2020. From 2009-2014 she was Professor and Chancellor of the University of California, San Francisco (UCSF), the first woman to hold the position. She also previously served as President of Product Development at Genentech, where she played a leadership role in the development of the first gene-targeted cancer drugs.
+    - paragraph:
+      - generic: Nicole Seligman
+      - text: is a globally recognized corporate and civic leader and lawyer. She currently serves on three public company corporate boards - Paramount Global, MeiraGTx Holdings PLC, and Intuitive Machines, Inc. Seligman held several senior leadership positions at Sony entities, including EVP and General Counsel at Sony Corporation, where she oversaw functions including global legal and compliance matters. She also served as President of Sony Entertainment, Inc., and simultaneously served as President of Sony Corporation of America. Seligman also currently holds nonprofit leadership roles at the Schwarzman Animal Medical Center and The Doe Fund in New York City. Previously, Seligman was a partner in the litigation practice at Williams & Connolly LLP in Washington, D.C., working on complex civil and criminal matters and counseling a wide range of clients, including President William Jefferson Clinton and Hillary Clinton. She served as a law clerk to Justice Thurgood Marshall on the Supreme Court of the United States.
+    - paragraph:
+      - generic: Fidji Simo
+      - text: is a consumer technology industry veteran, having spent more than 15 years leading the operations, strategy and product development for some of the world’s leading businesses. She is the Chief Executive Officer and Chair of Instacart. She also serves as a member of the Board of Directors at Shopify. Prior to joining Instacart, Simo was Vice President and Head of the Facebook App. Over the last decade at Facebook, she oversaw the Facebook App, including News Feed, Stories, Groups, Video, Marketplace, Gaming, News, Dating, Ads and more. Simo founded the
+      - link "Metrodora Institute⁠ (opens in a new window)":
+        - /url: https://www.metrodora.co/
+        - text: Metrodora Institute⁠
+        - generic: (opens in a new window)
+      - text: ", a multidisciplinary medical clinic and research foundation dedicated to the care and cure of neuroimmune axis disorders and serves as President of the Metrodora Foundation."
+    - list:
+      - link "Culture & Careers":
+        - /url: /news/?tags=culture-careers
+      - link "2024":
+        - /url: /news/?tags=2024
+    - heading "Author" [level=2]
+    - generic: OpenAI
+    - heading "Related articles" [level=2]
+    - link "View all":
+      - /url: /news/
+    - img "Newspartnership Cover"
+    - 'link "Global news partnerships: Le Monde and Prisa Media - Company - Mar 13, 2024"':
+      - /url: /index/global-news-partnerships-le-monde-and-prisa-media/
+      - generic: "Global news partnerships: Le Monde and Prisa Media"
+      - paragraph:
+        - generic: Company
+        - time: Mar 13, 2024
+    - img "News > Company carousel > Review completed > Media"
+    - link "Review completed & Altman, Brockman to continue to lead OpenAI - Company - Mar 8, 2024":
+      - /url: /index/review-completed-altman-brockman-to-continue-to-lead-openai/
+      - generic: Review completed & Altman, Brockman to continue to lead OpenAI
+      - paragraph:
+        - generic: Company
+        - time: Mar 8, 2024
+    - img "OpenAI and Elon Musk > Media Item"
+    - link "OpenAI and Elon Musk - Company - Mar 5, 2024":
+      - /url: /index/openai-elon-musk/
+      - generic: OpenAI and Elon Musk
+      - paragraph:
+        - generic: Company
+        - time: Mar 5, 2024
+- contentinfo:
+  - heading "Research" [level=2]
+  - list:
+    - link "Research Index":
+      - /url: /research/index/
+    - link "Research Overview":
+      - /url: /research/
+    - link "Economic Research":
+      - /url: /signals/
+  - heading "Latest Advancements" [level=2]
+  - list:
+    - link "GPT-5.5":
+      - /url: /index/introducing-gpt-5-5/
+    - link "GPT-5.4":
+      - /url: /index/introducing-gpt-5-4/
+    - link "GPT-5.3 Instant":
+      - /url: /index/gpt-5-3-instant/
+  - heading "Safety" [level=2]
+  - list:
+    - link "Safety Approach":
+      - /url: /safety/
+    - link "Deployment Safety (opens in a new window)":
+      - /url: https://deploymentsafety.openai.com/
+      - text: Deployment Safety
+      - generic: (opens in a new window)
+    - link "Security & Privacy":
+      - /url: /security-and-privacy/
+    - link "Trust & Transparency":
+      - /url: /trust-and-transparency/
+  - heading "Products" [level=2]
+  - list:
+    - link "ChatGPT (opens in a new window)":
+      - /url: https://chatgpt.com/?openaicom-did=4f1bc7ac-d2ae-4283-b546-81a6f9822d7c&openaicom_referred=true
+      - text: ChatGPT
+      - generic: (opens in a new window)
+    - link "ChatGPT Business (opens in a new window)":
+      - /url: https://chatgpt.com/business/?openaicom-did=4f1bc7ac-d2ae-4283-b546-81a6f9822d7c&openaicom_referred=true
+      - text: ChatGPT Business
+      - generic: (opens in a new window)
+    - link "ChatGPT Enterprise (opens in a new window)":
+      - /url: https://chatgpt.com/business/enterprise/?openaicom-did=4f1bc7ac-d2ae-4283-b546-81a6f9822d7c&openaicom_referred=true
+      - text: ChatGPT Enterprise
+      - generic: (opens in a new window)
+    - link "ChatGPT for Education (opens in a new window)":
+      - /url: https://chatgpt.com/business/education/?openaicom-did=4f1bc7ac-d2ae-4283-b546-81a6f9822d7c&openaicom_referred=true
+      - text: ChatGPT for Education
+      - generic: (opens in a new window)
+    - link "Codex":
+      - /url: /codex/
+    - link "Release Notes":
+      - /url: /products/release-notes/
+  - heading "API Platform" [level=2]
+  - list:
+    - link "Overview":
+      - /url: /api/
+    - link "API Log In (opens in a new window)":
+      - /url: https://platform.openai.com/login
+      - text: API Log In
+      - generic: (opens in a new window)
+    - link "Docs (opens in a new window)":
+      - /url: https://developers.openai.com/api/docs
+      - text: Docs
+      - generic: (opens in a new window)
+  - heading "Business" [level=2]
+  - list:
+    - link "Overview":
+      - /url: /business/
+    - link "Solutions":
+      - /url: /solutions/
+    - link "Resources":
+      - /url: /business/learn/
+    - link "Customer Stories":
+      - /url: /business/customer-stories/
+    - link "Partner Network":
+      - /url: /business/partners/
+    - link "Contact Sales":
+      - /url: /contact-sales/
+  - heading "Developers" [level=2]
+  - list:
+    - link "Apps SDK (opens in a new window)":
+      - /url: https://developers.openai.com/apps-sdk
+      - text: Apps SDK
+      - generic: (opens in a new window)
+    - link "Open Models":
+      - /url: /open-models/
+    - link "Docs (opens in a new window)":
+      - /url: https://developers.openai.com/
+      - text: Docs
+      - generic: (opens in a new window)
+    - link "Resources (opens in a new window)":
+      - /url: https://developers.openai.com/learn
+      - text: Resources
+      - generic: (opens in a new window)
+    - link "Developer Forum (opens in a new window)":
+      - /url: https://community.openai.com/
+      - text: Developer Forum
+      - generic: (opens in a new window)
+  - heading "Company" [level=2]
+  - list:
+    - link "About Us":
+      - /url: /about/
+    - link "Our Charter":
+      - /url: /charter/
+    - link "Careers":
+      - /url: /careers/
+    - link "News":
+      - /url: /news/
+  - heading "Support" [level=2]
+  - list:
+    - link "Help Center (opens in a new window)":
+      - /url: https://help.openai.com/
+      - text: Help Center
+      - generic: (opens in a new window)
+  - heading "More" [level=2]
+  - list:
+    - link "Stories":
+      - /url: /stories/
+    - link "Academy":
+      - /url: /academy/
+    - link "Livestreams":
+      - /url: /live/
+    - link "Podcast":
+      - /url: /podcast/
+    - link "RSS":
+      - /url: /news/rss.xml
+  - heading "Terms & Policies" [level=2]
+  - list:
+    - link "Terms of Use":
+      - /url: /policies/terms-of-use/
+    - link "Privacy Policy":
+      - /url: /policies/privacy-policy/
+    - link "Other Policies":
+      - /url: /policies/
+  - link "X":
+    - /url: https://x.com/OpenAI
+    - generic: (opens in a new window)
+  - link "YouTube":
+    - /url: https://www.youtube.com/OpenAI
+    - generic: (opens in a new window)
+  - link "LinkedIn":
+    - /url: https://www.linkedin.com/company/openai
+    - generic: (opens in a new window)
+  - link "GitHub":
+    - /url: https://github.com/openai
+    - generic: (opens in a new window)
+  - link "Instagram":
+    - /url: https://www.instagram.com/openai/
+    - generic: (opens in a new window)
+  - link "TikTok":
+    - /url: https://www.tiktok.com/@openai
+    - generic: (opens in a new window)
+  - link "Discord":
+    - /url: https://discord.gg/openai
+    - generic: (opens in a new window)
+  - generic: OpenAI © 2015–2026
+  - button "Manage Cookies"
+  - button "Change language":
+    - text: English
+    - generic: United States
+  - textbox "Search locales by name or region":
+    - /placeholder: Search
+- dialog "We use cookies":
+  - paragraph: We use cookies
+  - paragraph:
+    - text: We use cookies to help this site function, understand service usage, and support marketing efforts. Visit
+    - button "Manage Cookies"
+    - text: to change preferences anytime. View our
+    - link "Cookie Policy":
+      - /url: /policies/cookie-policy/
+    - text: for more info.
+  - button "Manage Cookies"
+  - button "Reject non-essential"
+  - button "Accept all"
+- alert

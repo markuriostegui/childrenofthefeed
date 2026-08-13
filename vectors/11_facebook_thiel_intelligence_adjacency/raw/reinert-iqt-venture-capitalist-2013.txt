@@ -1,0 +1,202 @@
+"In-Q-Tel: The Central Intelligence Agency as Venture Capitalist" by John T. Reinert
+var pageData = {"page":{"environment":"prod","productName":"bpdg","language":"en","name":"ir_journal:volume:issue:article","businessUnit":"els:rp:st"},"visitor":{}};
+Home
+Search
+Browse Collections
+My Account
+About
+Digital Commons Network™
+Skip to main content
+Northwestern Journal of International Law & Business
+Home
+>
+JILB
+>
+Vol. 33
+>
+Iss. 3 (2013)
+In-Q-Tel: The Central Intelligence Agency as Venture Capitalist
+Authors
+John T. Reinert
+Follow
+Abstract
+The Central Intelligence Agency (CIA), the United States’ principal foreign intelligence and spy organization, chartered the first government-sponsored venture capital firm, dubbed In-Q-Tel, in February 1999. In-Q-Tel represents the twenty-first century fusion of U.S. spy efforts with the venture capital industry. Envisioned as a platform to expand the research and development (R&D) efforts of the CIA into the private sector, In-Q-Tel uses CIA-supplied funds to make strategic investments in startup companies developing commercially focused technologies that are of interest to the CIA and greater intelligence community. This Comment contends that, although R&D collaboration between the public and private sectors is vital and should be encouraged, such collaboration should not be in the form of a venture capital firm chartered and sponsored by the CIA. The CIA is not equipped to succeed in the notoriously perilous business of venture capital, and heightened ethical concerns surround the making of government-sponsored equity investments in private companies. Indeed, In-Q-Tel often invests in companies with international operations, vicariously and unnecessarily exposing the CIA and larger U.S. government to foreign entanglements. This Comment begins by tracing relevant developments in the funding of U.S. spy efforts in Part II. Next, Part III explores the venture capital industry, paying particular attention to the interplay between venture capital and R&D. Part IV then analyzes the relationship between the CIA and In-Q-Tel. Finally, Part V: (1) contends the risks of In-Q-Tel currently outweigh its benefits; (2) suggests the current In-Q-Tel model inappropriately exposes the CIA and larger U.S. government to disputes arising from private international law; and (3) proposes alternative courses of action by which the CIA may tap into the R&D efforts of the private sector. Part VI concludes this Comment.
+Recommended Citation
+John T. Reinert,
+In-Q-Tel: The Central Intelligence Agency as Venture Capitalist
+, 33 N
+w.
+J. I
+nt'l
+L. & B
+us.
+677 (2013).
+https://scholarlycommons.law.northwestern.edu/njilb/vol33/iss3/4
+Download
+DOWNLOADS
+Since August 06, 2013
+insertDownloads(4396042);
+// bind to event when PlumX widget loads jQuery('body').bind('plum:widget-load', function(e){ // if Plum badge is visible if (jQuery('.PlumX-Popup').length) { // remove 'hidden' class jQuery('#article-stats').removeClass('hidden'); jQuery('.article-stats-date').addClass('plum-border'); } }); // bind to event when page loads jQuery(window).bind('load',function(e){ // if DC downloads are visible if (jQuery('#article-downloads').text().length > 0) { // add border to aside jQuery('#article-stats').removeClass('hidden'); } });
+$(function() { // Download button click event tracker for PDFs $(".aside.download-button").on("click", "a#pdf", function(event) { pageDataTracker.trackEvent('navigationClick', { link: { location: 'aside download-button', name: 'pdf' } }); }); // Download button click event tracker for native files $(".aside.download-button").on("click", "a#native", function(event) { pageDataTracker.trackEvent('navigationClick', { link: { location: 'aside download-button', name: 'native' } }); }); });
+Share
+COinS
+Select an issue:
+All Issues
+Vol. 46, Iss. 1
+Vol. 45, Iss. 3
+Vol. 45, Iss. 2
+Vol. 45, Iss. 1
+Vol. 44, Iss. 3
+Vol. 44, Iss. 2
+Vol. 44, Iss. 1
+Vol. 43, Iss. 3
+Vol. 43, Iss. 2
+Vol. 43, Iss. 1
+Vol. 42, Iss. 3
+Vol. 42, Iss. 2
+Vol. 42, Iss. 1
+Vol. 41, Iss. 3
+Vol. 41, Iss. 2
+Vol. 41, Iss. 1
+Vol. 40, Iss. 3
+Vol. 40, Iss. 2
+Vol. 40, Iss. 1
+Vol. 39, Iss. 3
+Vol. 39, Iss. 2
+Vol. 39, Iss. 1
+Vol. 38, Iss. 3
+Vol. 38, Iss. 2
+Vol. 38, Iss. 1
+Vol. 37, Iss. 3
+Vol. 37, Iss. 2
+Vol. 37, Iss. 1
+Vol. 36, Iss. 3
+Vol. 36, Iss. 2
+Vol. 36, Iss. 1
+Vol. 35, Iss. 4
+Vol. 35, Iss. 3
+Vol. 35, Iss. 2
+Vol. 35, Iss. 1
+Vol. 34, Iss. 3
+Vol. 34, Iss. 2
+Vol. 34, Iss. 1
+Vol. 33, Iss. 3
+Vol. 33, Iss. 2
+Vol. 33, Iss. 1
+Vol. 32, Iss. 3
+Vol. 32, Iss. 2
+Vol. 32, Iss. 1
+Vol. 31, Iss. 3
+Vol. 31, Iss. 2
+Vol. 31, Iss. 1
+Vol. 30, Iss. 3
+Vol. 30, Iss. 2
+Vol. 30, Iss. 1
+Vol. 29, Iss. 3
+Vol. 29, Iss. 2
+Vol. 29, Iss. 1
+Vol. 28, Iss. 3
+Vol. 28, Iss. 2
+Vol. 28, Iss. 1
+Vol. 27, Iss. 3
+Vol. 27, Iss. 2
+Vol. 27, Iss. 1
+Vol. 26, Iss. 3
+Vol. 26, Iss. 2
+Vol. 26, Iss. 1
+Vol. 25, Iss. 3
+Vol. 25, Iss. 2
+Vol. 25, Iss. 1
+Vol. 24, Iss. 3
+Vol. 24, Iss. 2
+Vol. 24, Iss. 1
+Vol. 23, Iss. 3
+Vol. 23, Iss. 2
+Vol. 23, Iss. 1
+Vol. 22, Iss. 3
+Vol. 22, Iss. 2
+Vol. 22, Iss. 1
+Vol. 21, Iss. 3
+Vol. 21, Iss. 2
+Vol. 21, Iss. 1
+Vol. 20, Iss. 3
+Vol. 20, Iss. 2
+Vol. 20, Iss. 1
+Vol. 19, Iss. 3
+Vol. 19, Iss. 2
+Vol. 19, Iss. 1
+Vol. 18, Iss. 3
+Vol. 18, Iss. 2
+Vol. 18, Iss. 1
+Vol. 17, Iss. 1
+Vol. 16, Iss. 3
+Vol. 16, Iss. 2
+Vol. 16, Iss. 1
+Vol. 15, Iss. 3
+Vol. 15, Iss. 2
+Vol. 15, Iss. 1
+Vol. 14, Iss. 3
+Vol. 14, Iss. 2
+Vol. 14, Iss. 1
+Vol. 13, Iss. 3
+Vol. 13, Iss. 2
+Vol. 13, Iss. 1
+Vol. 12, Iss. 3
+Vol. 12, Iss. 2
+Vol. 12, Iss. 1
+Vol. 11, Iss. 3
+Vol. 11, Iss. 2
+Vol. 11, Iss. 1
+Vol. 10, Iss. 3
+Vol. 10, Iss. 2
+Vol. 10, Iss. 1
+Vol. 9, Iss. 3
+Vol. 9, Iss. 2
+Vol. 9, Iss. 1
+Vol. 8, Iss. 3
+Vol. 8, Iss. 2
+Vol. 8, Iss. 1
+Vol. 7, Iss. 4
+Vol. 7, Iss. 3
+Vol. 7, Iss. 2
+Vol. 7, Iss. 1
+Vol. 6, Iss. 4
+Vol. 6, Iss. 3
+Vol. 6, Iss. 2
+Vol. 6, Iss. 1
+Vol. 5, Iss. 4
+Vol. 5, Iss. 3
+Vol. 5, Iss. 2
+Vol. 5, Iss. 1
+Vol. 4, Iss. 2
+Vol. 4, Iss. 1
+Vol. 3, Iss. 2
+Vol. 3, Iss. 1
+Vol. 2, Iss. 2
+Vol. 2, Iss. 1
+Vol. 1, Iss. 2
+Vol. 1, Iss. 1
+Search
+Enter search terms:
+Select context to search:
+in this journal
+in this repository
+across all repositories
+Advanced Search
+Elsevier - Digital Commons
+Home
+|
+My Account
+|
+Accessibility Statement
+Privacy
+Copyright
+Northwestern University School of Law
+375 East Chicago Avenue Chicago, Illinois 60611-3069
+2010-08-19
+World Wide Web Disclaimer
+and
+University Policy Statements
+© 2010 Northwestern University
+window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-12432167-33');
+BPBootstrap.init({appendCookie:''})

@@ -1,0 +1,11 @@
+Source: Financial Times, "OpenAI acknowledges new models increase risk of misuse to create bioweapons"
+URL: https://www.ft.com/content/37ba7236-2a64-4807-b1e1-7e21ee7d0914
+Published: 2024-09-13
+Captured: 2026-07-03T00:10:00Z
+Capture mode: manual-web-excerpt
+
+Verified excerpt points from Codex web search result:
+- Financial Times article date: September 13, 2024.
+- FT reports that OpenAI said its latest models had meaningfully increased the risk of misuse to create biological weapons.
+- The piece says OpenAI announced the new o1 models while touting their ability to reason and solve difficult math and scientific problems.
+- FT says the o1 system card assigned a medium risk for chemical, biological, radiological, and nuclear misuse.

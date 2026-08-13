@@ -1,0 +1,10 @@
+{
+  "source_id": "nyt-openai-motion-dismiss-order-2025",
+  "vector_id": "04_data_to_models_copyright_weights",
+  "captured_at": "2026-07-02T18:21:05Z",
+  "mode": "ingest-pdf",
+  "paths": [
+    "/Users/hassan/repos/AI-Empire/vectors/04_data_to_models_copyright_weights/raw/nyt-openai-motion-dismiss-order-2025.pdf",
+    "/Users/hassan/repos/AI-Empire/vectors/04_data_to_models_copyright_weights/raw/nyt-openai-motion-dismiss-order-2025.txt"
+  ]
+}

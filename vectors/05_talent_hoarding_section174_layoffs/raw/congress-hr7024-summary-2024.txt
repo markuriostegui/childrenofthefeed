@@ -1,0 +1,15 @@
+Source: Congress.gov / CRS summary for H.R. 7024
+URL: https://www.congress.gov/bill/118th-congress/house-bill/7024
+Published context captured from web on 2026-07-02
+
+Relevant extracted lines:
+- Sponsor: Rep. Smith, Jason [R-MO-8] (Introduced 01/17/2024).
+- This bill has the status Passed House.
+- Bill summaries are authored by CRS.
+- Title II -- American Innovation and Growth.
+- This title allows taxpayers to delay the date on which they must begin deducting their domestic research or experimental research costs over a five-year period until 2026.
+- Taxpayers may therefore expense such costs incurred between 2022-2026.
+- The title extends the allowance for depreciation, amortization, or depletion in determining the limitation of the business interest deduction.
+
+Normalization note:
+This local text snapshot was created from web-captured Congress.gov output because direct network capture from the shell was unavailable in this pass.

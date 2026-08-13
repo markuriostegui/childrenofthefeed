@@ -1,0 +1,13 @@
+Source: Congress.gov bill text for H.R. 7024
+URL: https://www.congress.gov/bill/118th-congress/house-bill/7024/text
+Published context captured from web on 2026-07-02
+
+Relevant extracted lines:
+- "there shall be allowed as a deduction any domestic research or experimental expenditures which are paid or incurred by the taxpayer during the taxable year."
+- Taxpayers may elect to charge such expenditures to capital account and be allowed an amortization deduction ratably over a period of not less than 60 months.
+- "For purposes of this section, any amount paid or incurred in connection with the development of any software shall be treated as a research or experimental expenditure."
+- The section would not apply to amounts paid or incurred in taxable years beginning after December 31, 2025.
+- Passed the House of Representatives January 31, 2024.
+
+Normalization note:
+This snapshot preserves the specific statutory language most relevant to Section 174, temporary expensing, and software-development treatment.

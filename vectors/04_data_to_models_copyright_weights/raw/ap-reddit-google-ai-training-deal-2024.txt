@@ -1,0 +1,11 @@
+Reddit strikes $60M deal allowing Google to train AI models on its posts, unveils IPO plans
+Source: Associated Press
+Published: 2024-02-22
+URL: https://apnews.com/article/a7f131c7cb4225307134ef21d3c6a708
+
+Normalized extract:
+- AP reports that Reddit struck a deal with Google allowing the search company to use posts from the online discussion site to train its artificial intelligence models and improve products such as Google Search.
+- The arrangement was valued at roughly $60 million and also gave Reddit access to Google AI models for improving Reddit's internal site search and other features.
+- AP describes the agreement as a major step for Reddit during its IPO process and as strategically significant for Google because it was hungry for human-written material that could improve model understanding and answer generation.
+- The article records Google's public framing of Reddit as a repository of authentic human conversations and experiences, which makes the platform-to-model bridge unusually explicit.
+- The piece also notes Reddit's claim that partners such as Google must comply with Reddit's user terms and privacy policy, including deletion obligations for removed content.

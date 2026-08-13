@@ -1,0 +1,13 @@
+Source: OpenAI
+URL: https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf
+Published: 2019-02-14
+
+Relevant extracted findings from the GPT-2 paper:
+- The paper states: "Instead, we created a new web scrape which emphasizes document quality."
+- It then explains that the team "scraped all outbound links from Reddit, a social media platform, which received at least 3 karma."
+- The paper says this heuristic can function as an indicator of whether other users found the link "interesting, educational, or just funny."
+- It reports that "The resulting dataset, WebText, contains the text subset of these 45 million links."
+- It further states that after filtering and de-duplication, the preliminary version contained "slightly over 8 million documents" totaling "40 GB of text."
+
+Normalization note:
+The PDF file was successfully ingested into the repo, but the default shell environment lacked `pypdf`, so this text snapshot was replaced with a manual extract from the reviewed paper passages.

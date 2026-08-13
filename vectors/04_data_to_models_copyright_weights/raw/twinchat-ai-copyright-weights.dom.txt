@@ -1,0 +1,227 @@
+- link "Homepage":
+  - /url: /?source=post_page---top_nav_layout_nav-----------------------------------------
+  - img "Medium Logo"
+- combobox "search"
+- button "Get the Medium app":
+  - generic: Get app
+- link "Write":
+  - /url: /m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2Fnew-story&source=---top_nav_layout_nav-----------------------new_post_topnav------------------
+  - text: Write
+- paragraph:
+  - button "Sign up"
+- paragraph:
+  - link "Sign in":
+    - /url: /m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2Ftwinchat%2Fai-copyright-weights-a-new-frontier-in-intellectual-property-law-d8ee1b6c55ee&source=post_page---top_nav_layout_nav-----------------------global_nav------------------
+- button "user options menu":
+  - img "Unknown user"
+- link "Waken AI":
+  - /url: https://medium.com/twinchat?source=post_page---publication_nav-82b634f74686-d8ee1b6c55ee---------------------------------------
+  - heading "Waken AI" [level=2]:
+    - generic: Waken AI
+- dialog
+- link "Waken AI":
+  - /url: https://medium.com/twinchat?source=post_page---post_publication_sidebar-82b634f74686-d8ee1b6c55ee---------------------------------------
+  - img "Waken AI"
+- paragraph: Imagine a Social Humane Era where the echo chambers of division and extremism are silenced, replaced by intelligent, empathetic dialogue. This endeavor, beyond the toxic Social Media Era, is the mission pioneered by Waken AI.
+- paragraph:
+  - button "Follow publication"
+- article:
+  - 'heading "AI-Copyright Weights: A New Frontier in Intellectual Property Law" [level=1]'
+  - heading "Unveiling the Artistry in Artificial Intelligence" [level=2]
+  - link "Mark Uriostegui":
+    - /url: /@uriostegui?source=post_page---byline--d8ee1b6c55ee---------------------------------------
+    - img "Mark Uriostegui"
+  - link "Mark Uriostegui":
+    - /url: /@uriostegui?source=post_page---byline--d8ee1b6c55ee---------------------------------------
+  - button "Follow":
+    - generic: Follow
+  - generic: 6 min read
+  - generic: ·
+  - generic: Jun 9, 2023
+  - link "clap":
+    - /url: /m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Ftwinchat%2Fd8ee1b6c55ee&operation=register&redirect=https%3A%2F%2Fmedium.com%2Ftwinchat%2Fai-copyright-weights-a-new-frontier-in-intellectual-property-law-d8ee1b6c55ee&user=Hassan+Uriostegui&userId=145e0d2c72b&source=---header_actions--d8ee1b6c55ee---------------------clap_footer------------------
+    - img "clap"
+  - paragraph:
+    - button "58": "58"
+  - button "responses":
+  - link "Repost":
+    - /url: /m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Frepost%2Fp%2Fd8ee1b6c55ee&operation=register&redirect=https%3A%2F%2Fmedium.com%2Ftwinchat%2Fai-copyright-weights-a-new-frontier-in-intellectual-property-law-d8ee1b6c55ee&user=Hassan+Uriostegui&userId=145e0d2c72b&source=---header_actions--d8ee1b6c55ee---------------------repost_header------------------
+    - generic "Repost":
+  - link "Add to list bookmark button":
+    - /url: /m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fd8ee1b6c55ee&operation=register&redirect=https%3A%2F%2Fmedium.com%2Ftwinchat%2Fai-copyright-weights-a-new-frontier-in-intellectual-property-law-d8ee1b6c55ee&source=---header_actions--d8ee1b6c55ee---------------------bookmark_footer------------------
+    - img "Add to list bookmark button"
+  - link "Listen":
+    - /url: /m/signin?actionUrl=https%3A%2F%2Fmedium.com%2Fplans%3Fdimension%3Dpost_audio_button%26postId%3Dd8ee1b6c55ee&operation=register&redirect=https%3A%2F%2Fmedium.com%2Ftwinchat%2Fai-copyright-weights-a-new-frontier-in-intellectual-property-law-d8ee1b6c55ee&source=---header_actions--d8ee1b6c55ee---------------------post_audio_button------------------
+    - button "Listen":
+  - button "Share Post":
+  - figure:
+    - button "Press enter or click to view image in full size":
+      - generic: Press enter or click to view image in full size
+  - paragraph:
+    - emphasis: Read more on the White House (search for “uriostegui” here)
+    - link "https://www.speaker.gov/wp-content/uploads/2024/12/AI-Task-Force-Report-FINAL.pdf":
+      - /url: https://www.speaker.gov/wp-content/uploads/2024/12/AI-Task-Force-Report-FINAL.pdf
+      - emphasis: https://www.speaker.gov/wp-content/uploads/2024/12/AI-Task-Force-Report-FINAL.pdf
+  - 'heading "AI-Copyright Weights: A New Frontier in Intellectual Property Law" [level=2]'
+  - paragraph: Citations.
+  - list:
+    - text: I’ve had the honor of having this article cited in the
+    - link "Bipartisan House Task Force on Artificial Intelligence":
+      - /url: https://www.speaker.gov/wp-content/uploads/2024/12/AI-Task-Force-Report-FINAL.pdf
+    - text: "2024"
+  - figure "Bipartisan House Task Force on Artificial Intelligence 2024":
+    - button "Press enter or click to view image in full size":
+      - generic: Press enter or click to view image in full size
+    - link "Bipartisan House Task Force on Artificial Intelligence":
+      - /url: https://www.speaker.gov/wp-content/uploads/2024/12/AI-Task-Force-Report-FINAL.pdf
+    - text: "2024"
+  - list:
+    - link "Epic Law":
+      - /url: https://epic.law/ai-generated-derivative-works-the-case-for-mandatory-disclosure-of-weights-and-prompts/
+    - link "Copyright as Affirmative Action for Human Authors Until the Singularity":
+      - /url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4697678
+    - 'link "The Author-Ity of AI: Navigating the Legal Landscape of Artificial Intelligence Authorship Authors"':
+      - /url: https://digitalcommons.tourolaw.edu/lawreview/vol39/iss2/10/
+      - text: "The Author-Ity of AI: Navigating the Legal Landscape of Artificial Intelligence Authorship"
+      - text: Authors
+    - 'link "Creatività umana e intelligenza artificiale generativa: similarità, differenze e prospettive"':
+      - /url: https://www.medra.org/servlet/MREngine?hdl=10.1422%2F109012
+  - heading "Introduction" [level=2]
+  - paragraph: In the world of artificial intelligence (AI), our primary focus has been on the outputs — the tangible results that AI produces. However, that’s only one half of the story. At the core of AI’s capabilities lie model weights — the mathematical values that are adjusted during the training of AI algorithms. As AI advances, these weights are becoming increasingly more complex, reflecting a vast array of copyrighted material that they’ve been trained on.
+  - paragraph: The debate on intellectual property rights concerning AI’s generative outputs is already in full swing. But are we missing a fundamental aspect of this issue? In this article, we’ll explore the notion of AI-Copyright Weights, arguing that these weights should be considered derivative works from their original sources. And as such, should their creators be held responsible for paying royalties when they’re used?
+  - paragraph: This is a complex, intricate topic, but it’s crucial to our understanding and regulation of AI in the modern world.
+  - 'heading "Derivative vs. Transformative: Nuances in Intellectual Property Law" [level=2]'
+  - paragraph: "When grappling with the complex issue of AI-weights as a form of art, it’s essential to delve into two cornerstone concepts in copyright law: derivative works and transformative use."
+  - heading "Derivative Works" [level=2]
+  - paragraph: A derivative work, as defined by the U.S. Copyright Act, is a work based upon one or more pre-existing works. It may be a translation, musical arrangement, dramatization, fictionalization, motion picture version, sound recording, art reproduction, abridgment, condensation, or any other form in which a work may be recast, transformed, or adapted.
+  - paragraph: If AI-weights are classified as derivative works, this would mean that they are derived from the original copyrighted materials, hence potentially subjecting their creators to liability for copyright infringement.
+  - paragraph: However, a key question remains. Do AI-weights, which don’t necessarily embody the theme, context, or identifiable elements of the original works but are rather complex numerical reflections of the data, truly fall under this definition?
+  - heading "Transformative Use" [level=2]
+  - paragraph: On the flip side, there’s the concept of transformative use, a doctrine that has emerged in U.S. copyright law from the right of fair use. A transformative work is one that adds something new to the original, altering the original work with new expression, meaning, or message. It’s a concept that often helps to distinguish between infringing and non-infringing works.
+  - heading "Get Mark Uriostegui’s stories in your inbox" [level=2]
+  - paragraph: Join Medium for free to get updates from this writer.
+  - textbox "Enter your email"
+  - button "Subscribe"
+  - checkbox "Remember me for faster sign in" [checked]
+  - paragraph: Remember me for faster sign in
+  - paragraph: AI models, through user prompts, take the weights and generate new content, arguably creating a transformative work. The original data, encoded in the weights, undergoes a transformation process, resulting in output with distinct expression and meaning.
+  - paragraph: The defense of transformative use could shield AI-generated content from copyright infringement. However, this defense becomes complex when considering the weights themselves as artworks. If we see the weights as ‘recasting’ or ‘adapting’ original works in a new form (the essence of derivative works), could the transformative use defense apply?
+  - heading "The Legal Relevance" [level=2]
+  - paragraph: These nuances are crucial in determining the legal obligations and rights concerning AI-weights. They could influence whether the use of copyrighted works in training AI models amounts to infringement or whether it could be considered fair use.
+  - paragraph: Navigating this nuanced legal landscape would require a robust understanding of these concepts and potentially even a reimagining of our current copyright laws. As we progress further into the AI-era, these conversations will become increasingly essential in shaping fair and effective legal frameworks.
+  - heading "Understanding AI-Weights" [level=2]
+  - paragraph: In the AI field, model weights are akin to the brain’s synapses — connections between neurons that transmit signals. When an AI model is trained, the weights are tweaked and adjusted to minimize the difference between the model’s prediction and the actual result. This process continues until the AI model can accurately predict or classify data it has not seen before.
+  - paragraph: These weights, in a way, represent the distilled knowledge that the AI model has learned from its training data. Given that these data often include copyrighted materials (e.g., books, articles, images), one could argue that the resulting weights are derivative works of these original materials.
+  - heading "Are AI-Weights Derivative Works?" [level=2]
+  - paragraph: In copyright law, a work is considered derivative if it is based on one or more pre-existing works, yet shows original, creative contribution from the creator of the derivative work. If AI-weights are seen as derivative works, this could imply that they encapsulate the “essence” of the original copyrighted materials they were trained on.
+  - paragraph: However, several questions arise. Can we consider mathematical weights as creative contributions? They are not human-made interpretations but numerical reflections of the data. Moreover, they don’t express the original work’s theme or content in an immediately recognizable manner.
+  - heading "The Case for Royalties" [level=2]
+  - paragraph: Despite these challenges, if we were to accept the argument that AI-weights are derivative works, the implications for AI development would be significant. Any commercial use of the AI model (including the weights) could require the payment of royalties to the copyright holders of the original materials.
+  - paragraph: On one hand, this could stimulate the market for data licensing and ensure fair compensation for content creators. On the other, it could limit the free use and development of AI, slowing down innovation.
+  - heading "Transformative Content and User Prompts" [level=2]
+  - paragraph: The story gets even more complex when we consider how AI generates content. Typically, a user provides a prompt, which the AI processes through its learned weights to produce an output. This process transforms the input into something new, often in surprising and creative ways.
+  - paragraph: Under U.S. copyright law, transformative use can be a defense against copyright infringement. Therefore, if an AI’s generated content is seen as transformative, it could potentially be exempt from copyright claims. However, if the weights themselves are seen as infringing, this defense may be less effective.
+  - 'heading "Reconceptualizing AI-Weights: The Artistry of Numbers" [level=2]'
+  - paragraph: The concept of mathematical weights as a form of creative contribution might initially seem far-fetched. After all, these values are not consciously crafted by human minds; they are the result of an algorithmic process. However, if we reconsider the notion of ‘creativity,’ AI-weights might offer a novel form of artistic expression.
+  - paragraph: As art movements like Cubism and Expressionism challenged conventional aesthetics and understanding, could the intricate mathematical structures of AI-weights be the next frontier of art? Recognizing these weights as unique, transformative expressions could have profound implications for how we regulate AI and copyright in the future.
+  - heading "Conclusion" [level=2]
+  - paragraph: The issue of AI-Copyright Weights opens up a fascinating new dimension in the intellectual property landscape. Balancing the rights of original creators with the needs of AI development will require careful consideration and nuanced legislation.
+  - paragraph: Regulating the generative output of AI is important, but recognizing the role of weights in this process could be equally crucial. By examining this concept, we might just be touching the surface of the ‘mind’ of AI, prompting a reassessment of our relationship with these sophisticated systems and the legal frameworks that govern them. As we continue to navigate these uncharted waters, it’s clear that our understanding and regulation of AI will need to evolve along with the technology itself.
+  - figure
+- link "ChatGPT":
+  - /url: /tag/chatgpt?source=post_page-----d8ee1b6c55ee---------------------------------------
+  - generic: ChatGPT
+- link "Artificial Intelligence":
+  - /url: /tag/artificial-intelligence?source=post_page-----d8ee1b6c55ee---------------------------------------
+  - generic: Artificial Intelligence
+- link "Copyright":
+  - /url: /tag/copyright?source=post_page-----d8ee1b6c55ee---------------------------------------
+  - generic: Copyright
+- link "Law":
+  - /url: /tag/law?source=post_page-----d8ee1b6c55ee---------------------------------------
+  - generic: Law
+- link "Engineering":
+  - /url: /tag/engineering?source=post_page-----d8ee1b6c55ee---------------------------------------
+  - generic: Engineering
+- contentinfo:
+  - link "clap":
+    - /url: /m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Ftwinchat%2Fd8ee1b6c55ee&operation=register&redirect=https%3A%2F%2Fmedium.com%2Ftwinchat%2Fai-copyright-weights-a-new-frontier-in-intellectual-property-law-d8ee1b6c55ee&user=Hassan+Uriostegui&userId=145e0d2c72b&source=---footer_actions--d8ee1b6c55ee---------------------clap_footer------------------
+    - img "clap"
+  - paragraph:
+    - button "58"
+  - button "responses":
+  - link "Repost":
+    - /url: /m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Frepost%2Fp%2Fd8ee1b6c55ee&operation=register&redirect=https%3A%2F%2Fmedium.com%2Ftwinchat%2Fai-copyright-weights-a-new-frontier-in-intellectual-property-law-d8ee1b6c55ee&user=Hassan+Uriostegui&userId=145e0d2c72b&source=---footer_actions--d8ee1b6c55ee---------------------repost_footer------------------
+    - generic "Repost":
+  - link "Add to list bookmark button":
+    - /url: /m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fd8ee1b6c55ee&operation=register&redirect=https%3A%2F%2Fmedium.com%2Ftwinchat%2Fai-copyright-weights-a-new-frontier-in-intellectual-property-law-d8ee1b6c55ee&source=---footer_actions--d8ee1b6c55ee---------------------bookmark_footer------------------
+    - img "Add to list bookmark button"
+  - button "Share Post":
+- link "Waken AI":
+  - /url: https://medium.com/twinchat?source=post_page---post_publication_info--d8ee1b6c55ee---------------------------------------
+  - img "Waken AI"
+- link "Published in Waken AI":
+  - /url: https://medium.com/twinchat?source=post_page---post_publication_info--d8ee1b6c55ee---------------------------------------
+  - heading "Published in Waken AI" [level=2]:
+    - generic: Published in Waken AI
+- link "12 followers":
+  - /url: /twinchat/followers?source=post_page---post_publication_info--d8ee1b6c55ee---------------------------------------
+- generic: ·
+- link "Last published Jun 20, 2026":
+  - /url: /twinchat/how-ai-is-ruining-your-life-to-build-an-empire-8b6d02e55bc9?source=post_page---post_publication_info--d8ee1b6c55ee---------------------------------------
+- paragraph: Imagine a Social Humane Era where the echo chambers of division and extremism are silenced, replaced by intelligent, empathetic dialogue. This endeavor, beyond the toxic Social Media Era, is the mission pioneered by Waken AI.
+- button "Follow":
+  - generic: Follow
+- link "Mark Uriostegui":
+  - /url: /@uriostegui?source=post_page---post_author_info--d8ee1b6c55ee---------------------------------------
+  - img "Mark Uriostegui"
+- link "Written by Mark Uriostegui":
+  - /url: /@uriostegui?source=post_page---post_author_info--d8ee1b6c55ee---------------------------------------
+  - heading "Written by Mark Uriostegui" [level=2]:
+    - generic: Written by Mark Uriostegui
+- link "338 followers":
+  - /url: /@uriostegui/followers?source=post_page---post_author_info--d8ee1b6c55ee---------------------------------------
+- generic: ·
+- link "153 following":
+  - /url: /@uriostegui/following?source=post_page---post_author_info--d8ee1b6c55ee---------------------------------------
+- paragraph:
+  - text: Silicon Valley Entrepreneur, AI Researcher & Author.
+  - link "www.hassanuriostegui.com":
+    - /url: http://www.hassanuriostegui.com
+  - link "www.waken.ai":
+    - /url: http://www.waken.ai
+- button "Follow":
+  - generic: Follow
+- link "Help":
+  - /url: https://help.medium.com/hc/en-us?source=post_page-----d8ee1b6c55ee---------------------------------------
+  - paragraph: Help
+- link "Status":
+  - /url: https://status.medium.com/?source=post_page-----d8ee1b6c55ee---------------------------------------
+  - paragraph: Status
+- link "About":
+  - /url: /about?autoplay=1&source=post_page-----d8ee1b6c55ee---------------------------------------
+  - paragraph: About
+- link "Careers":
+  - /url: /jobs-at-medium/work-at-medium-959d1a85284e?source=post_page-----d8ee1b6c55ee---------------------------------------
+  - paragraph: Careers
+- link "Press":
+  - /url: mailto:pressinquiries@medium.com
+  - paragraph: Press
+- link "Blog":
+  - /url: https://blog.medium.com/?source=post_page-----d8ee1b6c55ee---------------------------------------
+  - paragraph: Blog
+- link "Store":
+  - /url: https://medium.com/store
+  - paragraph: Store
+- link "Privacy":
+  - /url: https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=post_page-----d8ee1b6c55ee---------------------------------------
+  - paragraph: Privacy
+- link "Rules":
+  - /url: https://policy.medium.com/medium-rules-30e5502c4eb4?source=post_page-----d8ee1b6c55ee---------------------------------------
+  - paragraph: Rules
+- link "Terms":
+  - /url: https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=post_page-----d8ee1b6c55ee---------------------------------------
+  - paragraph: Terms
+- link "Text to speech":
+  - /url: https://speechify.com/medium?source=post_page-----d8ee1b6c55ee---------------------------------------
+  - paragraph: Text to speech

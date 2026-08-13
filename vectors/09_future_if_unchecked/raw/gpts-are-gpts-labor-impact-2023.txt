@@ -1,0 +1,6 @@
+Title: GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models
+Publisher: arXiv
+Published at: 2023-03-17
+
+Working extract:
+This paper maps large language model capabilities onto occupational tasks in the U.S. labor market. It argues that exposure is broad and not confined to low-wage routine work. The analysis emphasizes that task exposure is not the same thing as total job loss, but it does show that many professional and white-collar occupations contain language-intensive tasks that can be accelerated, reorganized, or partially automated by LLM systems.

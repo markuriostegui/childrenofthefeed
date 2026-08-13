@@ -1,0 +1,12 @@
+Source: OpenAI, "Learning to reason with LLMs"
+URL: https://openai.com/index/learning-to-reason-with-llms/
+Published: 2024-09-12
+Captured: 2026-07-03T00:10:00Z
+Capture mode: manual-web-excerpt
+
+Verified excerpt points from Codex web capture:
+- OpenAI page date: September 12, 2024.
+- OpenAI introduces o1-preview as an early reasoning-focused model.
+- The page says o1 ranks in the 89th percentile on Codeforces, places among the top 500 students in a USA Math Olympiad qualifier, and exceeds human PhD-level accuracy on GPQA.
+- The page says performance improves with more reinforcement learning at train time and more time spent thinking at test time.
+- The release says o1-preview was made available immediately in ChatGPT and to trusted API users.

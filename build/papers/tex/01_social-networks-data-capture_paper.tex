@@ -1,0 +1,1349 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\documentclass[
+  american,
+  11pt,
+  letterpaper,
+]{article}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{5}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\ifLuaTeX
+\usepackage[bidi=basic,shorthands=off]{babel}
+\else
+\usepackage[bidi=default,shorthands=off]{babel}
+\fi
+\ifLuaTeX
+  \usepackage{selnolig} % disable illegal ligatures
+\fi
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage[hang,flushmargin,bottom]{footmisc}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{caption}
+
+\setstretch{1.08}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.7em}
+\setlength{\footnotesep}{0.7em}
+\interfootnotelinepenalty=10000
+\emergencystretch=2em
+\raggedbottom
+
+\setlist[itemize]{leftmargin=1.5em, itemsep=0.45em, topsep=0.45em}
+\setlist[enumerate]{leftmargin=1.8em, itemsep=0.45em, topsep=0.45em}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\nouppercase{\leftmark}}
+\fancyhead[R]{AI Empire Research Papers}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{2}
+\renewcommand{\contentsname}{Paper Roadmap}
+
+\titleformat{\section}{\Large\bfseries}{\thesection.}{0.65em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection.}{0.6em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries}{\thesubsubsection.}{0.55em}{}
+
+\captionsetup{font=small, labelfont=bf}
+\AtBeginEnvironment{longtable}{\small}
+
+\AtBeginDocument{
+  \hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=black,
+    urlcolor=blue
+  }
+}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+% fallback for those not using the hyperref driver hyperxmp:
+\makeatletter
+\@ifundefined{xmpquote}{\newcommand{\xmpquote}[1]{#1}}{}
+\makeatother
+\hypersetup{
+  pdftitle={Chapter 01: Social Networks as Infrastructure for Free Data Capture},
+  pdflang={en-US},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Chapter 01: Social Networks as Infrastructure for Free Data
+Capture}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{From Surveillance Capitalism to AI Imperialism \textbar{}
+Chapter 01: Social networks as infrastructure for free data capture}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\subsection{Abstract}\label{abstract}
+
+Before AI could be marketed as a new intelligence order, social
+platforms had already built the behavioral raw material of that order.
+The FTC's 2024 report on social media and video-streaming data practices
+gives this chapter its strongest regulatory anchor. Once social life is
+reorganized around measurable engagement, extractive targeting, and
+recommendation systems, platforms stop looking like passive
+infrastructure and start looking like privately governed civic systems.
+
+\subsection{Keywords}\label{keywords}
+
+Social networks as infrastructure for free data capture; surveillance
+capitalism; AI imperialism; Section 230 reform; evidence-based dossier
+
+\subsection{Research Question}\label{research-question}
+
+How does social networks as infrastructure for free data capture
+function within the dossier's larger argument, and what does the
+documentary record allow this chapter to establish?
+
+\subsection{Scope and Framing Note}\label{scope-and-framing-note}
+
+This paper examines social networks as infrastructure for free data
+capture within the broader dossier \emph{From Surveillance Capitalism to
+AI Imperialism}. It is intentionally written to circulate on its own:
+necessary context is restated, evidence boundaries are made explicit,
+and cited material is reproduced in paper-local form rather than
+delegated to repo navigation. It contributes to the series as a paper
+that builds the structural case for refactoring Section 230 by
+documenting recommendation, extraction, and design power. Adjacent
+reinforcement appears in Chapter 02, Chapter 04, Chapter 10, but those
+cross-references are supportive rather than required for basic
+comprehension.
+
+\subsection{Central Thesis}\label{central-thesis}
+
+Before AI could be marketed as a new intelligence order, social
+platforms had already built the behavioral raw material of that order.
+Their core innovation was not simply communication at scale. It was the
+normalization of a business model in which attention, relationships,
+preferences, and expression became persistent, monetizable data assets.
+\footnote{Sources: FTC,
+  \href{https://www.ftc.gov/reports/look-behind-screens-examining-data-practices-social-media-video-streaming-services}{A
+  Look Behind the Screens: Examining\ldots{}} (n.d.; see
+  \hyperref[appendix-a1-a-look-behind-the-screens-examining-the-data-practices-of-social-media-and-video-streaming-services]{Appendix
+  A1}); FTC,
+  \href{https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-imposes-5-billion-penalty-sweeping-new-privacy-restrictions-facebook}{FTC
+  Imposes \$5 Billion Penalty and Sw\ldots{}} (2019-07-24; see
+  \hyperref[appendix-a2-ftc-imposes-5-billion-penalty-and-sweeping-new-privacy-restrictions-on-facebook]{Appendix
+  A2})}
+
+\subsection{Evidence and Method Note}\label{evidence-and-method-note}
+
+This paper is derived from the chapter corpus for Chapter 01 and is
+grounded in the project's structured research OS. It relies on source
+notes, extracted claims, entity profiles, and timeline events already
+normalized under the dossier's evidence hierarchy. Documented facts are
+asserted directly where the record supports them; disputed matters are
+marked as such; interpretive claims are bounded explicitly; and
+speculative overreach is isolated in the evidence-boundary appendix.
+
+\subsection{Introduction}\label{introduction}
+
+This paper asks: How does social networks as infrastructure for free
+data capture function within the dossier's larger argument, and what
+does the documentary record allow this chapter to establish? Its working
+answer is clear from the start: Before AI could be marketed as a new
+intelligence order, social platforms had already built the behavioral
+raw material of that order. Their core innovation was not simply
+communication at scale. It was the normalization of a business model in
+which attention, relationships, preferences, and expression became
+persistent, monetizable data assets. \footnote{Sources: FTC,
+  \href{https://www.ftc.gov/reports/look-behind-screens-examining-data-practices-social-media-video-streaming-services}{A
+  Look Behind the Screens: Examining\ldots{}} (n.d.; see
+  \hyperref[appendix-a1-a-look-behind-the-screens-examining-the-data-practices-of-social-media-and-video-streaming-services]{Appendix
+  A1}); FTC,
+  \href{https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-imposes-5-billion-penalty-sweeping-new-privacy-restrictions-facebook}{FTC
+  Imposes \$5 Billion Penalty and Sw\ldots{}} (2019-07-24; see
+  \hyperref[appendix-a2-ftc-imposes-5-billion-penalty-and-sweeping-new-privacy-restrictions-on-facebook]{Appendix
+  A2})} The objective is not only to recount developments, but to show
+why the subject of this chapter belongs inside a structural argument
+about extraction, enclosure, legitimacy, and reform.
+
+\subsection{Historical or Institutional
+Context}\label{historical-or-institutional-context}
+
+The FTC's 2024 report on social media and video-streaming data practices
+gives this chapter its strongest regulatory anchor. The platform model
+is documented as one of extraction, retention, combination, and
+monetization, not as a neutral relay of user speech. That record is
+already enough to weaken the old fiction that sovereign-scale platforms
+are passive intermediaries. \footnote{Sources: FTC,
+  \href{https://www.ftc.gov/reports/look-behind-screens-examining-data-practices-social-media-video-streaming-services}{A
+  Look Behind the Screens: Examining\ldots{}} (n.d.; see
+  \hyperref[appendix-a1-a-look-behind-the-screens-examining-the-data-practices-of-social-media-and-video-streaming-services]{Appendix
+  A1})}
+
+\subsection{Main Analysis}\label{main-analysis}
+
+The FTC's 2019 Facebook action matters because Cambridge Analytica was
+not just a reputational scandal. It became a structural compliance event
+with board-level oversight duties and a formal federal record of
+deceptive and insufficiently controlled data governance. \footnote{Sources:
+  FTC,
+  \href{https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-imposes-5-billion-penalty-sweeping-new-privacy-restrictions-facebook}{FTC
+  Imposes \$5 Billion Penalty and Sw\ldots{}} (2019-07-24; see
+  \hyperref[appendix-a2-ftc-imposes-5-billion-penalty-and-sweeping-new-privacy-restrictions-on-facebook]{Appendix
+  A2})}
+
+Facebook's own \texttt{S-1} and later Meta proxy filings document Peter
+Thiel as an early investor and a long-lived governance actor. That does
+not prove clandestine command. It does prove continuity between platform
+surveillance, elite venture governance, and later state-adjacent
+technology networks. \footnote{Sources: SEC,
+  \href{https://www.sec.gov/Archives/edgar/data/1326801/000119312512034517/d287954ds1.htm}{Facebook,
+  Inc.~Registration Statement\ldots{}} (2012-02-01; see
+  \hyperref[appendix-a3-facebook-inc-registration-statement-on-form-s-1]{Appendix
+  A3}); SEC,
+  \href{https://www.sec.gov/Archives/edgar/data/1326801/000132680122000043/meta2022definitiveproxysta.htm}{Meta
+  Platforms, Inc.~2022 Definitive\ldots{}} (2022-04-08; see
+  \hyperref[appendix-a4-meta-platforms-inc-2022-definitive-proxy-statement]{Appendix
+  A4})}
+
+Meta's 2021 rebrand and 2023 \texttt{10-K} show that the company
+attached a metaverse-centered strategic narrative to a still-dominant
+advertising machine. The rebrand did not function as a data-governance
+reset. It functioned as narrative redirection while the extraction
+engine remained intact and financially central. \footnote{Sources: Meta,
+  \href{https://about.fb.com/news/2021/10/facebook-company-is-now-meta/}{The
+  Facebook Company Is Now Meta} (2021-10-28; see
+  \hyperref[appendix-a5-the-facebook-company-is-now-meta]{Appendix A5});
+  U.S. Securities and Exchange Commission,
+  \href{https://www.sec.gov/Archives/edgar/data/1326801/000132680124000012/meta-20231231.htm}{Meta
+  Platforms, Inc.~2023 Annual Repo\ldots{}} (2024-02-02; see
+  \hyperref[appendix-a6-meta-platforms-inc-2023-annual-report-form-10-k]{Appendix
+  A6})}
+
+The documented platform record therefore shows more than large-scale
+surveillance. It shows social participation being routed through
+privately governed interfaces that could rank visibility, shape reach,
+and condition economic opportunity. Interpretation: this is the earlier
+precedent for the later AI story. Once an intermediary controls the
+interface layer, it can influence value without producing the underlying
+social life itself. \footnote{Sources: FTC,
+  \href{https://www.ftc.gov/reports/look-behind-screens-examining-data-practices-social-media-video-streaming-services}{A
+  Look Behind the Screens: Examining\ldots{}} (n.d.; see
+  \hyperref[appendix-a1-a-look-behind-the-screens-examining-the-data-practices-of-social-media-and-video-streaming-services]{Appendix
+  A1}); FTC,
+  \href{https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-imposes-5-billion-penalty-sweeping-new-privacy-restrictions-facebook}{FTC
+  Imposes \$5 Billion Penalty and Sw\ldots{}} (2019-07-24; see
+  \hyperref[appendix-a2-ftc-imposes-5-billion-penalty-and-sweeping-new-privacy-restrictions-on-facebook]{Appendix
+  A2}); U.S. Securities and Exchange Commission,
+  \href{https://www.sec.gov/Archives/edgar/data/1326801/000132680124000012/meta-20231231.htm}{Meta
+  Platforms, Inc.~2023 Annual Repo\ldots{}} (2024-02-02; see
+  \hyperref[appendix-a6-meta-platforms-inc-2023-annual-report-form-10-k]{Appendix
+  A6})}
+
+Interpretation: Chapter \texttt{01} begins the case for
+\texttt{Refactor\ Section\ 230} by showing that reach, design,
+targeting, monetization, and recommendation are not incidental platform
+features. They are the product. A sovereign-scale platform framework
+should therefore track systemic design power rather than cling to
+passive-hosting logic built for an earlier internet. \footnote{Sources:
+  FTC,
+  \href{https://www.ftc.gov/reports/look-behind-screens-examining-data-practices-social-media-video-streaming-services}{A
+  Look Behind the Screens: Examining\ldots{}} (n.d.; see
+  \hyperref[appendix-a1-a-look-behind-the-screens-examining-the-data-practices-of-social-media-and-video-streaming-services]{Appendix
+  A1}); FTC,
+  \href{https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-imposes-5-billion-penalty-sweeping-new-privacy-restrictions-facebook}{FTC
+  Imposes \$5 Billion Penalty and Sw\ldots{}} (2019-07-24; see
+  \hyperref[appendix-a2-ftc-imposes-5-billion-penalty-and-sweeping-new-privacy-restrictions-on-facebook]{Appendix
+  A2}); U.S. Securities and Exchange Commission,
+  \href{https://www.sec.gov/Archives/edgar/data/1326801/000132680124000012/meta-20231231.htm}{Meta
+  Platforms, Inc.~2023 Annual Repo\ldots{}} (2024-02-02; see
+  \hyperref[appendix-a6-meta-platforms-inc-2023-annual-report-form-10-k]{Appendix
+  A6})}
+
+\subsection{Position Within the
+Series}\label{position-within-the-series}
+
+This paper sits inside a coordinated 11-paper architecture. Its nearest
+companions are Chapter 02 (Social erosion and moral reconfiguration),
+Chapter 04 (AI arrives when the human raw material already exists),
+Chapter 10 (What to do). In that series logic, Chapter 01 builds the
+structural case for refactoring Section 230 by documenting
+recommendation, extraction, and design power.
+
+\subsection{Counterarguments}\label{counterarguments}
+
+This chapter is strongest on surveillance business models, regulatory
+intervention, governance continuity, and strategic redirection. It is
+weaker on any maximal claim that every platform dataset was fully mapped
+into every later foundation-model training stack. That bridge must be
+built more carefully in Chapter \texttt{04}. \footnote{Sources: FTC,
+  \href{https://www.ftc.gov/reports/look-behind-screens-examining-data-practices-social-media-video-streaming-services}{A
+  Look Behind the Screens: Examining\ldots{}} (n.d.; see
+  \hyperref[appendix-a1-a-look-behind-the-screens-examining-the-data-practices-of-social-media-and-video-streaming-services]{Appendix
+  A1}); U.S. Securities and Exchange Commission,
+  \href{https://www.sec.gov/Archives/edgar/data/1326801/000132680124000012/meta-20231231.htm}{Meta
+  Platforms, Inc.~2023 Annual Repo\ldots{}} (2024-02-02; see
+  \hyperref[appendix-a6-meta-platforms-inc-2023-annual-report-form-10-k]{Appendix
+  A6})}
+
+\subsection{Limits of the Evidence}\label{limits-of-the-evidence}
+
+This chapter is strongest on surveillance business models, regulatory
+intervention, governance continuity, and strategic redirection. It is
+weaker on any maximal claim that every platform dataset was fully mapped
+into every later foundation-model training stack. That bridge must be
+built more carefully in Chapter \texttt{04}. \footnote{Sources: FTC,
+  \href{https://www.ftc.gov/reports/look-behind-screens-examining-data-practices-social-media-video-streaming-services}{A
+  Look Behind the Screens: Examining\ldots{}} (n.d.; see
+  \hyperref[appendix-a1-a-look-behind-the-screens-examining-the-data-practices-of-social-media-and-video-streaming-services]{Appendix
+  A1}); U.S. Securities and Exchange Commission,
+  \href{https://www.sec.gov/Archives/edgar/data/1326801/000132680124000012/meta-20231231.htm}{Meta
+  Platforms, Inc.~2023 Annual Repo\ldots{}} (2024-02-02; see
+  \hyperref[appendix-a6-meta-platforms-inc-2023-annual-report-form-10-k]{Appendix
+  A6})}
+
+\subsection{Reform Relevance}\label{reform-relevance}
+
+Once social life is reorganized around measurable engagement, extractive
+targeting, and recommendation systems, platforms stop looking like
+passive infrastructure and start looking like privately governed civic
+systems. That is why the dossier's Section \texttt{230} argument begins
+here: sovereign-scale platforms should be judged by the harms and
+dependencies created by their design, amplification, and monetization
+architecture. \footnote{Sources: FTC,
+  \href{https://www.ftc.gov/reports/look-behind-screens-examining-data-practices-social-media-video-streaming-services}{A
+  Look Behind the Screens: Examining\ldots{}} (n.d.; see
+  \hyperref[appendix-a1-a-look-behind-the-screens-examining-the-data-practices-of-social-media-and-video-streaming-services]{Appendix
+  A1}); FTC,
+  \href{https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-imposes-5-billion-penalty-sweeping-new-privacy-restrictions-facebook}{FTC
+  Imposes \$5 Billion Penalty and Sw\ldots{}} (2019-07-24; see
+  \hyperref[appendix-a2-ftc-imposes-5-billion-penalty-and-sweeping-new-privacy-restrictions-on-facebook]{Appendix
+  A2})}
+
+\subsection{Conclusion}\label{conclusion}
+
+Once social life is reorganized around measurable engagement, extractive
+targeting, and recommendation systems, platforms stop looking like
+passive infrastructure and start looking like privately governed civic
+systems. The next problem is not only that platforms captured behavior.
+In the architecture of this series, Chapter 01 therefore functions as a
+self-contained argument while also advancing the cumulative path toward
+the dossier's three reforms.
+
+\subsection{Notes}\label{notes}
+
+This paper is designed to circulate independently. Public notes point
+readers to the real external documents first, then to the paper-local
+appendix entry that explains why each source matters.
+
+The underlying research OS distinguishes among
+\texttt{Documented\ Fact}, \texttt{Disputed\ Fact},
+\texttt{Hypothesis\ /\ Interpretation}, and
+\texttt{Speculative\ Narrative\ Risk}. In Chapter 01, those boundaries
+remain visible in the prose, in the bibliography, and in the appendix
+sections that summarize claims and caution points.
+
+\subsection{References / Bibliography}\label{references-bibliography}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  FTC.
+  \href{https://www.ftc.gov/reports/look-behind-screens-examining-data-practices-social-media-video-streaming-services}{A
+  Look Behind the Screens: Examining the Data Practices of Social Media
+  and Video Streaming Services}. n.d.. T1 report. Paper appendix:
+  \hyperref[appendix-a1-a-look-behind-the-screens-examining-the-data-practices-of-social-media-and-video-streaming-services]{Appendix
+  A1}. Corpus companion entry: Source S-063. Audit ID:
+  \texttt{ftc-2024-look-behind-screens}. Relevance: That the platform
+  model relies on intensive extraction and processing of user data.
+\item
+  FTC.
+  \href{https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-imposes-5-billion-penalty-sweeping-new-privacy-restrictions-facebook}{FTC
+  Imposes \$5 Billion Penalty and Sweeping New Privacy Restrictions on
+  Facebook}. 2019-07-24. T1 press\_release. Paper appendix:
+  \hyperref[appendix-a2-ftc-imposes-5-billion-penalty-and-sweeping-new-privacy-restrictions-on-facebook]{Appendix
+  A2}. Corpus companion entry: Source S-064. Audit ID:
+  \texttt{ftc-facebook-privacy-2019}. Relevance: That there is formal
+  regulatory backing for saying Facebook monetized and managed personal
+  data within a framework of deceptive practices and insufficient
+  oversight.
+\item
+  SEC.
+  \href{https://www.sec.gov/Archives/edgar/data/1326801/000119312512034517/d287954ds1.htm}{Facebook,
+  Inc.~Registration Statement on Form S-1}. 2012-02-01. T1 filing. Paper
+  appendix:
+  \hyperref[appendix-a3-facebook-inc-registration-statement-on-form-s-1]{Appendix
+  A3}. Corpus companion entry: Source S-052. Audit ID:
+  \texttt{facebook-s1-2012}. Relevance: That Peter Thiel had a formal
+  governance role inside Facebook at the time of the IPO filing and that
+  the role dated back to 2005.
+\item
+  SEC.
+  \href{https://www.sec.gov/Archives/edgar/data/1326801/000132680122000043/meta2022definitiveproxysta.htm}{Meta
+  Platforms, Inc.~2022 Definitive Proxy Statement}. 2022-04-08. T1
+  proxy\_statement. Paper appendix:
+  \hyperref[appendix-a4-meta-platforms-inc-2022-definitive-proxy-statement]{Appendix
+  A4}. Corpus companion entry: Source S-080. Audit ID:
+  \texttt{meta-proxy-2022-thiel-retirement}. Relevance: That Peter
+  Thiel's formal role at Facebook / Meta lasted well beyond the early
+  startup period and remained active into 2022.
+\item
+  Meta.
+  \href{https://about.fb.com/news/2021/10/facebook-company-is-now-meta/}{The
+  Facebook Company Is Now Meta}. 2021-10-28. T1 company\_statement.
+  Paper appendix:
+  \hyperref[appendix-a5-the-facebook-company-is-now-meta]{Appendix A5}.
+  Corpus companion entry: Source S-081. Audit ID:
+  \texttt{meta-rebrand-2021}. Relevance: That the rebrand was formally
+  tied to a metaverse-centered strategic narrative, not merely a
+  cosmetic name change.
+\item
+  U.S. Securities and Exchange Commission.
+  \href{https://www.sec.gov/Archives/edgar/data/1326801/000132680124000012/meta-20231231.htm}{Meta
+  Platforms, Inc.~2023 Annual Report (Form 10-K)}. 2024-02-02. T1
+  sec\_filing. Paper appendix:
+  \hyperref[appendix-a6-meta-platforms-inc-2023-annual-report-form-10-k]{Appendix
+  A6}. Corpus companion entry: Source S-079. Audit ID:
+  \texttt{meta-2023-10k}. Relevance: That the metaverse bet was not just
+  branding language; it had a dedicated segment and a continuing loss
+  structure visible in SEC reporting.
+\end{enumerate}
+
+\subsection{Appendix A. Source Register for This
+Paper}\label{appendix-a.-source-register-for-this-paper}
+
+\subsubsection{Appendix A1. A Look Behind the Screens: Examining the
+Data Practices of Social Media and Video Streaming
+Services}\label{appendix-a1-a-look-behind-the-screens-examining-the-data-practices-of-social-media-and-video-streaming-services}
+
+\textbf{Source citation:}
+\href{https://www.ftc.gov/reports/look-behind-screens-examining-data-practices-social-media-video-streaming-services}{A
+Look Behind the Screens: Examining the Data Practices of Social Media
+and Video Streaming Services} \textbf{Institution / author:} FTC
+\textbf{Date:} n.d. \textbf{Tier / type:} T1 / report \textbf{Why it
+matters in this paper:} That the platform model relies on intensive
+extraction and processing of user data. \textbf{Corpus companion entry:}
+Source S-063 \textbf{Audit ID:} \texttt{ftc-2024-look-behind-screens}
+
+\subsubsection{Appendix A2. FTC Imposes \$5 Billion Penalty and Sweeping
+New Privacy Restrictions on
+Facebook}\label{appendix-a2-ftc-imposes-5-billion-penalty-and-sweeping-new-privacy-restrictions-on-facebook}
+
+\textbf{Source citation:}
+\href{https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-imposes-5-billion-penalty-sweeping-new-privacy-restrictions-facebook}{FTC
+Imposes \$5 Billion Penalty and Sweeping New Privacy Restrictions on
+Facebook} \textbf{Institution / author:} FTC \textbf{Date:} 2019-07-24
+\textbf{Tier / type:} T1 / press\_release \textbf{Why it matters in this
+paper:} That there is formal regulatory backing for saying Facebook
+monetized and managed personal data within a framework of deceptive
+practices and insufficient oversight. \textbf{Corpus companion entry:}
+Source S-064 \textbf{Audit ID:} \texttt{ftc-facebook-privacy-2019}
+
+\subsubsection{Appendix A3. Facebook, Inc.~Registration Statement on
+Form
+S-1}\label{appendix-a3-facebook-inc-registration-statement-on-form-s-1}
+
+\textbf{Source citation:}
+\href{https://www.sec.gov/Archives/edgar/data/1326801/000119312512034517/d287954ds1.htm}{Facebook,
+Inc.~Registration Statement on Form S-1} \textbf{Institution / author:}
+SEC \textbf{Date:} 2012-02-01 \textbf{Tier / type:} T1 / filing
+\textbf{Why it matters in this paper:} That Peter Thiel had a formal
+governance role inside Facebook at the time of the IPO filing and that
+the role dated back to 2005. \textbf{Corpus companion entry:} Source
+S-052 \textbf{Audit ID:} \texttt{facebook-s1-2012}
+
+\subsubsection{Appendix A4. Meta Platforms, Inc.~2022 Definitive Proxy
+Statement}\label{appendix-a4-meta-platforms-inc-2022-definitive-proxy-statement}
+
+\textbf{Source citation:}
+\href{https://www.sec.gov/Archives/edgar/data/1326801/000132680122000043/meta2022definitiveproxysta.htm}{Meta
+Platforms, Inc.~2022 Definitive Proxy Statement} \textbf{Institution /
+author:} SEC \textbf{Date:} 2022-04-08 \textbf{Tier / type:} T1 /
+proxy\_statement \textbf{Why it matters in this paper:} That Peter
+Thiel's formal role at Facebook / Meta lasted well beyond the early
+startup period and remained active into 2022. \textbf{Corpus companion
+entry:} Source S-080 \textbf{Audit ID:}
+\texttt{meta-proxy-2022-thiel-retirement}
+
+\subsubsection{Appendix A5. The Facebook Company Is Now
+Meta}\label{appendix-a5-the-facebook-company-is-now-meta}
+
+\textbf{Source citation:}
+\href{https://about.fb.com/news/2021/10/facebook-company-is-now-meta/}{The
+Facebook Company Is Now Meta} \textbf{Institution / author:} Meta
+\textbf{Date:} 2021-10-28 \textbf{Tier / type:} T1 / company\_statement
+\textbf{Why it matters in this paper:} That the rebrand was formally
+tied to a metaverse-centered strategic narrative, not merely a cosmetic
+name change. \textbf{Corpus companion entry:} Source S-081 \textbf{Audit
+ID:} \texttt{meta-rebrand-2021}
+
+\subsubsection{Appendix A6. Meta Platforms, Inc.~2023 Annual Report
+(Form
+10-K)}\label{appendix-a6-meta-platforms-inc-2023-annual-report-form-10-k}
+
+\textbf{Source citation:}
+\href{https://www.sec.gov/Archives/edgar/data/1326801/000132680124000012/meta-20231231.htm}{Meta
+Platforms, Inc.~2023 Annual Report (Form 10-K)} \textbf{Institution /
+author:} U.S. Securities and Exchange Commission \textbf{Date:}
+2024-02-02 \textbf{Tier / type:} T1 / sec\_filing \textbf{Why it matters
+in this paper:} That the metaverse bet was not just branding language;
+it had a dedicated segment and a continuing loss structure visible in
+SEC reporting. \textbf{Corpus companion entry:} Source S-079
+\textbf{Audit ID:} \texttt{meta-2023-10k}
+
+\subsection{Appendix B. Claims Used in This
+Paper}\label{appendix-b.-claims-used-in-this-paper}
+
+\subsubsection{Appendix B1. Peter Thiel had a formal governance role
+inside Facebook at the time of the IPO
+f\ldots{}}\label{appendix-b1-peter-thiel-had-a-formal-governance-role-inside-facebook-at-the-time-of-the-ipo-f}
+
+\textbf{Claim statement:} That Peter Thiel had a formal governance role
+inside Facebook at the time of the IPO filing and that the role dated
+back to 2005. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a3-facebook-inc-registration-statement-on-form-s-1]{Appendix
+A3} \textbf{Corpus companion entry:} Claim C-156 \textbf{Audit Claim
+ID:} \texttt{facebook-s1-2012-01-surveillance-capitalism-claim-01}
+
+\subsubsection{Appendix B2. Facebook itself described Thiel not merely
+as a commentator or associate, but
+as\ldots{}}\label{appendix-b2-facebook-itself-described-thiel-not-merely-as-a-commentator-or-associate-but-as}
+
+\textbf{Claim statement:} That Facebook itself described Thiel not
+merely as a commentator or associate, but as an early investor and
+standing director. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a3-facebook-inc-registration-statement-on-form-s-1]{Appendix
+A3} \textbf{Corpus companion entry:} Claim C-157 \textbf{Audit Claim
+ID:} \texttt{facebook-s1-2012-01-surveillance-capitalism-claim-02}
+
+\subsubsection{Appendix B3. Thiel occupied a structurally meaningful
+position in Facebook's governance
+archit\ldots{}}\label{appendix-b3-thiel-occupied-a-structurally-meaningful-position-in-facebook-s-governance-archit}
+
+\textbf{Claim statement:} That Thiel occupied a structurally meaningful
+position in Facebook's governance architecture, including a
+preferred-stock-designated seat and an audit-committee role.
+\textbf{Evidence status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a3-facebook-inc-registration-statement-on-form-s-1]{Appendix
+A3} \textbf{Corpus companion entry:} Claim C-158 \textbf{Audit Claim
+ID:} \texttt{facebook-s1-2012-01-surveillance-capitalism-claim-03}
+
+\subsubsection{Appendix B4. Facebook's public-market transition
+preserved concentrated internal control
+over\ldots{}}\label{appendix-b4-facebook-s-public-market-transition-preserved-concentrated-internal-control-over}
+
+\textbf{Claim statement:} That Facebook's public-market transition
+preserved concentrated internal control over directors and corporate
+decisions. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a3-facebook-inc-registration-statement-on-form-s-1]{Appendix
+A3} \textbf{Corpus companion entry:} Claim C-159 \textbf{Audit Claim
+ID:} \texttt{facebook-s1-2012-01-surveillance-capitalism-claim-04}
+
+\subsubsection{Appendix B5. Peter Thiel had a formal governance role
+inside Facebook at the time of the IPO
+f\ldots{}}\label{appendix-b5-peter-thiel-had-a-formal-governance-role-inside-facebook-at-the-time-of-the-ipo-f}
+
+\textbf{Claim statement:} That Peter Thiel had a formal governance role
+inside Facebook at the time of the IPO filing and that the role dated
+back to 2005. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a3-facebook-inc-registration-statement-on-form-s-1]{Appendix
+A3} \textbf{Corpus companion entry:} Claim C-160 \textbf{Audit Claim
+ID:}
+\texttt{facebook-s1-2012-11-facebook-thiel-intelligence-adjacency-claim-01}
+
+\subsubsection{Appendix B6. Facebook itself described Thiel not merely
+as a commentator or associate, but
+as\ldots{}}\label{appendix-b6-facebook-itself-described-thiel-not-merely-as-a-commentator-or-associate-but-as}
+
+\textbf{Claim statement:} That Facebook itself described Thiel not
+merely as a commentator or associate, but as an early investor and
+standing director. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a3-facebook-inc-registration-statement-on-form-s-1]{Appendix
+A3} \textbf{Corpus companion entry:} Claim C-161 \textbf{Audit Claim
+ID:}
+\texttt{facebook-s1-2012-11-facebook-thiel-intelligence-adjacency-claim-02}
+
+\subsubsection{Appendix B7. Thiel occupied a structurally meaningful
+position in Facebook's governance
+archit\ldots{}}\label{appendix-b7-thiel-occupied-a-structurally-meaningful-position-in-facebook-s-governance-archit}
+
+\textbf{Claim statement:} That Thiel occupied a structurally meaningful
+position in Facebook's governance architecture, including a
+preferred-stock-designated seat and an audit-committee role.
+\textbf{Evidence status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a3-facebook-inc-registration-statement-on-form-s-1]{Appendix
+A3} \textbf{Corpus companion entry:} Claim C-162 \textbf{Audit Claim
+ID:}
+\texttt{facebook-s1-2012-11-facebook-thiel-intelligence-adjacency-claim-03}
+
+\subsubsection{Appendix B8. Facebook's public-market transition
+preserved concentrated internal control
+over\ldots{}}\label{appendix-b8-facebook-s-public-market-transition-preserved-concentrated-internal-control-over}
+
+\textbf{Claim statement:} That Facebook's public-market transition
+preserved concentrated internal control over directors and corporate
+decisions. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a3-facebook-inc-registration-statement-on-form-s-1]{Appendix
+A3} \textbf{Corpus companion entry:} Claim C-163 \textbf{Audit Claim
+ID:}
+\texttt{facebook-s1-2012-11-facebook-thiel-intelligence-adjacency-claim-04}
+
+\subsubsection{Appendix B9. The platform model relies on intensive
+extraction and processing of user
+data}\label{appendix-b9-the-platform-model-relies-on-intensive-extraction-and-processing-of-user-data}
+
+\textbf{Claim statement:} That the platform model relies on intensive
+extraction and processing of user data. \textbf{Evidence status:}
+Documented Fact \textbf{Source support:}
+\hyperref[appendix-a1-a-look-behind-the-screens-examining-the-data-practices-of-social-media-and-video-streaming-services]{Appendix
+A1} \textbf{Corpus companion entry:} Claim C-196 \textbf{Audit Claim
+ID:} \texttt{ftc-2024-look-behind-screens-claim-01}
+
+\subsubsection{Appendix B10. Platforms cannot seriously be described as
+simple passive
+intermediaries}\label{appendix-b10-platforms-cannot-seriously-be-described-as-simple-passive-intermediaries}
+
+\textbf{Claim statement:} That platforms cannot seriously be described
+as simple passive intermediaries. \textbf{Evidence status:} Documented
+Fact \textbf{Source support:}
+\hyperref[appendix-a1-a-look-behind-the-screens-examining-the-data-practices-of-social-media-and-video-streaming-services]{Appendix
+A1} \textbf{Corpus companion entry:} Claim C-197 \textbf{Audit Claim
+ID:} \texttt{ftc-2024-look-behind-screens-claim-02}
+
+\subsubsection{Appendix B11. There is regulatory support for speaking of
+commercial surveillance at massive
+scale}\label{appendix-b11-there-is-regulatory-support-for-speaking-of-commercial-surveillance-at-massive-scale}
+
+\textbf{Claim statement:} That there is regulatory support for speaking
+of commercial surveillance at massive scale. \textbf{Evidence status:}
+Documented Fact \textbf{Source support:}
+\hyperref[appendix-a1-a-look-behind-the-screens-examining-the-data-practices-of-social-media-and-video-streaming-services]{Appendix
+A1} \textbf{Corpus companion entry:} Claim C-198 \textbf{Audit Claim
+ID:} \texttt{ftc-2024-look-behind-screens-claim-03}
+
+\subsubsection{Appendix B12. There is formal regulatory backing for
+saying Facebook monetized and managed
+pers\ldots{}}\label{appendix-b12-there-is-formal-regulatory-backing-for-saying-facebook-monetized-and-managed-pers}
+
+\textbf{Claim statement:} That there is formal regulatory backing for
+saying Facebook monetized and managed personal data within a framework
+of deceptive practices and insufficient oversight. \textbf{Evidence
+status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a2-ftc-imposes-5-billion-penalty-and-sweeping-new-privacy-restrictions-on-facebook]{Appendix
+A2} \textbf{Corpus companion entry:} Claim C-199 \textbf{Audit Claim
+ID:}
+\texttt{ftc-facebook-privacy-2019-01-surveillance-capitalism-claim-01}
+
+\subsubsection{Appendix B13. The Cambridge Analytica scandal was not
+only a media episode, but a point of
+inst\ldots{}}\label{appendix-b13-the-cambridge-analytica-scandal-was-not-only-a-media-episode-but-a-point-of-inst}
+
+\textbf{Claim statement:} That the Cambridge Analytica scandal was not
+only a media episode, but a point of institutional intervention with
+structural compliance consequences. \textbf{Evidence status:} Documented
+Fact \textbf{Source support:}
+\hyperref[appendix-a2-ftc-imposes-5-billion-penalty-and-sweeping-new-privacy-restrictions-on-facebook]{Appendix
+A2} \textbf{Corpus companion entry:} Claim C-200 \textbf{Audit Claim
+ID:}
+\texttt{ftc-facebook-privacy-2019-01-surveillance-capitalism-claim-02}
+
+\subsubsection{Appendix B14. Facebook's commercial-surveillance
+architecture generated enough risk to
+require\ldots{}}\label{appendix-b14-facebooks-commercial-surveillance-architecture-generated-enough-risk-to-require}
+
+\textbf{Claim statement:} That Facebook's commercial-surveillance
+architecture generated enough risk to require extraordinary board-level
+oversight mechanisms. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a2-ftc-imposes-5-billion-penalty-and-sweeping-new-privacy-restrictions-on-facebook]{Appendix
+A2} \textbf{Corpus companion entry:} Claim C-201 \textbf{Audit Claim
+ID:}
+\texttt{ftc-facebook-privacy-2019-01-surveillance-capitalism-claim-03}
+
+\subsubsection{Appendix B15. There is formal regulatory backing for
+saying Facebook monetized and managed
+pers\ldots{}}\label{appendix-b15-there-is-formal-regulatory-backing-for-saying-facebook-monetized-and-managed-pers}
+
+\textbf{Claim statement:} That there is formal regulatory backing for
+saying Facebook monetized and managed personal data within a framework
+of deceptive practices and insufficient oversight. \textbf{Evidence
+status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a2-ftc-imposes-5-billion-penalty-and-sweeping-new-privacy-restrictions-on-facebook]{Appendix
+A2} \textbf{Corpus companion entry:} Claim C-202 \textbf{Audit Claim
+ID:} \texttt{ftc-facebook-privacy-2019-claim-01}
+
+\subsubsection{Appendix B16. The Cambridge Analytica scandal was not
+only a media episode, but a point of
+inst\ldots{}}\label{appendix-b16-the-cambridge-analytica-scandal-was-not-only-a-media-episode-but-a-point-of-inst}
+
+\textbf{Claim statement:} That the Cambridge Analytica scandal was not
+only a media episode, but a point of institutional intervention with
+structural compliance consequences. \textbf{Evidence status:} Documented
+Fact \textbf{Source support:}
+\hyperref[appendix-a2-ftc-imposes-5-billion-penalty-and-sweeping-new-privacy-restrictions-on-facebook]{Appendix
+A2} \textbf{Corpus companion entry:} Claim C-203 \textbf{Audit Claim
+ID:} \texttt{ftc-facebook-privacy-2019-claim-02}
+
+\subsubsection{Appendix B17. Facebook's commercial-surveillance
+architecture generated enough risk to
+require\ldots{}}\label{appendix-b17-facebooks-commercial-surveillance-architecture-generated-enough-risk-to-require}
+
+\textbf{Claim statement:} That Facebook's commercial-surveillance
+architecture generated enough risk to require extraordinary board-level
+oversight mechanisms. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a2-ftc-imposes-5-billion-penalty-and-sweeping-new-privacy-restrictions-on-facebook]{Appendix
+A2} \textbf{Corpus companion entry:} Claim C-204 \textbf{Audit Claim
+ID:} \texttt{ftc-facebook-privacy-2019-claim-03}
+
+\subsubsection{Appendix B18. The metaverse bet was not just branding
+language; it had a dedicated segment
+and\ldots{}}\label{appendix-b18-the-metaverse-bet-was-not-just-branding-language-it-had-a-dedicated-segment-and}
+
+\textbf{Claim statement:} That the metaverse bet was not just branding
+language; it had a dedicated segment and a continuing loss structure
+visible in SEC reporting. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a6-meta-platforms-inc-2023-annual-report-form-10-k]{Appendix
+A6} \textbf{Corpus companion entry:} Claim C-252 \textbf{Audit Claim
+ID:} \texttt{meta-2023-10k-01-surveillance-capitalism-claim-01}
+
+\subsubsection{Appendix B19. Meta's core economic engine remained
+advertising, even while management
+invested\ldots{}}\label{appendix-b19-meta-s-core-economic-engine-remained-advertising-even-while-management-invested}
+
+\textbf{Claim statement:} That Meta's core economic engine remained
+advertising, even while management invested heavily in AI and immersive
+technologies. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a6-meta-platforms-inc-2023-annual-report-form-10-k]{Appendix
+A6} \textbf{Corpus companion entry:} Claim C-253 \textbf{Audit Claim
+ID:} \texttt{meta-2023-10k-01-surveillance-capitalism-claim-02}
+
+\subsubsection{Appendix B20. The rebrand period can be discussed in
+material financial terms rather than
+only\ldots{}}\label{appendix-b20-the-rebrand-period-can-be-discussed-in-material-financial-terms-rather-than-only}
+
+\textbf{Claim statement:} That the rebrand period can be discussed in
+material financial terms rather than only as a symbolic communications
+move. \textbf{Evidence status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a6-meta-platforms-inc-2023-annual-report-form-10-k]{Appendix
+A6} \textbf{Corpus companion entry:} Claim C-254 \textbf{Audit Claim
+ID:} \texttt{meta-2023-10k-01-surveillance-capitalism-claim-03}
+
+\subsubsection{Appendix B21. The metaverse bet was not just branding
+language; it had a dedicated segment
+and\ldots{}}\label{appendix-b21-the-metaverse-bet-was-not-just-branding-language-it-had-a-dedicated-segment-and}
+
+\textbf{Claim statement:} That the metaverse bet was not just branding
+language; it had a dedicated segment and a continuing loss structure
+visible in SEC reporting. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a6-meta-platforms-inc-2023-annual-report-form-10-k]{Appendix
+A6} \textbf{Corpus companion entry:} Claim C-255 \textbf{Audit Claim
+ID:} \texttt{meta-2023-10k-claim-01}
+
+\subsubsection{Appendix B22. Meta's core economic engine remained
+advertising, even while management
+invested\ldots{}}\label{appendix-b22-meta-s-core-economic-engine-remained-advertising-even-while-management-invested}
+
+\textbf{Claim statement:} That Meta's core economic engine remained
+advertising, even while management invested heavily in AI and immersive
+technologies. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a6-meta-platforms-inc-2023-annual-report-form-10-k]{Appendix
+A6} \textbf{Corpus companion entry:} Claim C-256 \textbf{Audit Claim
+ID:} \texttt{meta-2023-10k-claim-02}
+
+\subsubsection{Appendix B23. The rebrand period can be discussed in
+material financial terms rather than
+only\ldots{}}\label{appendix-b23-the-rebrand-period-can-be-discussed-in-material-financial-terms-rather-than-only}
+
+\textbf{Claim statement:} That the rebrand period can be discussed in
+material financial terms rather than only as a symbolic communications
+move. \textbf{Evidence status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a6-meta-platforms-inc-2023-annual-report-form-10-k]{Appendix
+A6} \textbf{Corpus companion entry:} Claim C-257 \textbf{Audit Claim
+ID:} \texttt{meta-2023-10k-claim-03}
+
+\subsubsection{Appendix B24. Peter Thiel's formal role at Facebook /
+Meta lasted well beyond the early
+startup\ldots{}}\label{appendix-b24-peter-thiel-s-formal-role-at-facebook-meta-lasted-well-beyond-the-early-startup}
+
+\textbf{Claim statement:} That Peter Thiel's formal role at Facebook /
+Meta lasted well beyond the early startup period and remained active
+into 2022. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a4-meta-platforms-inc-2022-definitive-proxy-statement]{Appendix
+A4} \textbf{Corpus companion entry:} Claim C-258 \textbf{Audit Claim
+ID:}
+\texttt{meta-proxy-2022-thiel-retirement-01-surveillance-capitalism-claim-01}
+
+\subsubsection{Appendix B25. The company itself presented Thiel's board
+tenure as spanning from 2005 to the
+en\ldots{}}\label{appendix-b25-the-company-itself-presented-thiel-s-board-tenure-as-spanning-from-2005-to-the-en}
+
+\textbf{Claim statement:} That the company itself presented Thiel's
+board tenure as spanning from 2005 to the end of his term at the 2022
+annual meeting. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a4-meta-platforms-inc-2022-definitive-proxy-statement]{Appendix
+A4} \textbf{Corpus companion entry:} Claim C-259 \textbf{Audit Claim
+ID:}
+\texttt{meta-proxy-2022-thiel-retirement-01-surveillance-capitalism-claim-02}
+
+\subsubsection{Appendix B26. Thiel still held committee-level governance
+authority at Meta immediately
+before\ldots{}}\label{appendix-b26-thiel-still-held-committee-level-governance-authority-at-meta-immediately-before}
+
+\textbf{Claim statement:} That Thiel still held committee-level
+governance authority at Meta immediately before his departure from the
+board. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a4-meta-platforms-inc-2022-definitive-proxy-statement]{Appendix
+A4} \textbf{Corpus companion entry:} Claim C-260 \textbf{Audit Claim
+ID:}
+\texttt{meta-proxy-2022-thiel-retirement-01-surveillance-capitalism-claim-03}
+
+\subsubsection{Appendix B27. Continuity between the Facebook
+surveillance era and the Meta rebrand era
+include\ldots{}}\label{appendix-b27-continuity-between-the-facebook-surveillance-era-and-the-meta-rebrand-era-include}
+
+\textbf{Claim statement:} That continuity between the Facebook
+surveillance era and the Meta rebrand era included continuity in elite
+board membership. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a4-meta-platforms-inc-2022-definitive-proxy-statement]{Appendix
+A4} \textbf{Corpus companion entry:} Claim C-261 \textbf{Audit Claim
+ID:}
+\texttt{meta-proxy-2022-thiel-retirement-01-surveillance-capitalism-claim-04}
+
+\subsubsection{Appendix B28. Peter Thiel's formal role at Facebook /
+Meta lasted well beyond the early
+startup\ldots{}}\label{appendix-b28-peter-thiel-s-formal-role-at-facebook-meta-lasted-well-beyond-the-early-startup}
+
+\textbf{Claim statement:} That Peter Thiel's formal role at Facebook /
+Meta lasted well beyond the early startup period and remained active
+into 2022. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a4-meta-platforms-inc-2022-definitive-proxy-statement]{Appendix
+A4} \textbf{Corpus companion entry:} Claim C-262 \textbf{Audit Claim
+ID:}
+\texttt{meta-proxy-2022-thiel-retirement-11-facebook-thiel-intelligence-adjacency-claim-01}
+
+\subsubsection{Appendix B29. The company itself presented Thiel's board
+tenure as spanning from 2005 to the
+en\ldots{}}\label{appendix-b29-the-company-itself-presented-thiel-s-board-tenure-as-spanning-from-2005-to-the-en}
+
+\textbf{Claim statement:} That the company itself presented Thiel's
+board tenure as spanning from 2005 to the end of his term at the 2022
+annual meeting. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a4-meta-platforms-inc-2022-definitive-proxy-statement]{Appendix
+A4} \textbf{Corpus companion entry:} Claim C-263 \textbf{Audit Claim
+ID:}
+\texttt{meta-proxy-2022-thiel-retirement-11-facebook-thiel-intelligence-adjacency-claim-02}
+
+\subsubsection{Appendix B30. Thiel still held committee-level governance
+authority at Meta immediately
+before\ldots{}}\label{appendix-b30-thiel-still-held-committee-level-governance-authority-at-meta-immediately-before}
+
+\textbf{Claim statement:} That Thiel still held committee-level
+governance authority at Meta immediately before his departure from the
+board. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a4-meta-platforms-inc-2022-definitive-proxy-statement]{Appendix
+A4} \textbf{Corpus companion entry:} Claim C-264 \textbf{Audit Claim
+ID:}
+\texttt{meta-proxy-2022-thiel-retirement-11-facebook-thiel-intelligence-adjacency-claim-03}
+
+\subsubsection{Appendix B31. Continuity between the Facebook
+surveillance era and the Meta rebrand era
+include\ldots{}}\label{appendix-b31-continuity-between-the-facebook-surveillance-era-and-the-meta-rebrand-era-include}
+
+\textbf{Claim statement:} That continuity between the Facebook
+surveillance era and the Meta rebrand era included continuity in elite
+board membership. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a4-meta-platforms-inc-2022-definitive-proxy-statement]{Appendix
+A4} \textbf{Corpus companion entry:} Claim C-265 \textbf{Audit Claim
+ID:}
+\texttt{meta-proxy-2022-thiel-retirement-11-facebook-thiel-intelligence-adjacency-claim-04}
+
+\subsubsection{Appendix B32. The rebrand was formally tied to a
+metaverse-centered strategic narrative, not
+me\ldots{}}\label{appendix-b32-the-rebrand-was-formally-tied-to-a-metaverse-centered-strategic-narrative-not-me}
+
+\textbf{Claim statement:} That the rebrand was formally tied to a
+metaverse-centered strategic narrative, not merely a cosmetic name
+change. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a5-the-facebook-company-is-now-meta]{Appendix A5}
+\textbf{Corpus companion entry:} Claim C-266 \textbf{Audit Claim ID:}
+\texttt{meta-rebrand-2021-01-surveillance-capitalism-claim-01}
+
+\subsubsection{Appendix B33. Meta itself created a reporting split
+capable of distinguishing its mature
+platfo\ldots{}}\label{appendix-b33-meta-itself-created-a-reporting-split-capable-of-distinguishing-its-mature-platfo}
+
+\textbf{Claim statement:} That Meta itself created a reporting split
+capable of distinguishing its mature platform business from its
+speculative immersive-technology investment. \textbf{Evidence status:}
+Documented Fact \textbf{Source support:}
+\hyperref[appendix-a5-the-facebook-company-is-now-meta]{Appendix A5}
+\textbf{Corpus companion entry:} Claim C-267 \textbf{Audit Claim ID:}
+\texttt{meta-rebrand-2021-01-surveillance-capitalism-claim-02}
+
+\subsubsection{Appendix B34. The company did not present the rebrand as
+a data-governance
+reset}\label{appendix-b34-the-company-did-not-present-the-rebrand-as-a-data-governance-reset}
+
+\textbf{Claim statement:} That the company did not present the rebrand
+as a data-governance reset. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a5-the-facebook-company-is-now-meta]{Appendix A5}
+\textbf{Corpus companion entry:} Claim C-268 \textbf{Audit Claim ID:}
+\texttt{meta-rebrand-2021-01-surveillance-capitalism-claim-03}
+
+\subsubsection{Appendix B35. The rebrand was formally tied to a
+metaverse-centered strategic narrative, not
+me\ldots{}}\label{appendix-b35-the-rebrand-was-formally-tied-to-a-metaverse-centered-strategic-narrative-not-me}
+
+\textbf{Claim statement:} That the rebrand was formally tied to a
+metaverse-centered strategic narrative, not merely a cosmetic name
+change. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a5-the-facebook-company-is-now-meta]{Appendix A5}
+\textbf{Corpus companion entry:} Claim C-269 \textbf{Audit Claim ID:}
+\texttt{meta-rebrand-2021-claim-01}
+
+\subsubsection{Appendix B36. Meta itself created a reporting split
+capable of distinguishing its mature
+platfo\ldots{}}\label{appendix-b36-meta-itself-created-a-reporting-split-capable-of-distinguishing-its-mature-platfo}
+
+\textbf{Claim statement:} That Meta itself created a reporting split
+capable of distinguishing its mature platform business from its
+speculative immersive-technology investment. \textbf{Evidence status:}
+Documented Fact \textbf{Source support:}
+\hyperref[appendix-a5-the-facebook-company-is-now-meta]{Appendix A5}
+\textbf{Corpus companion entry:} Claim C-270 \textbf{Audit Claim ID:}
+\texttt{meta-rebrand-2021-claim-02}
+
+\subsubsection{Appendix B37. The company did not present the rebrand as
+a data-governance
+reset}\label{appendix-b37-the-company-did-not-present-the-rebrand-as-a-data-governance-reset}
+
+\textbf{Claim statement:} That the company did not present the rebrand
+as a data-governance reset. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a5-the-facebook-company-is-now-meta]{Appendix A5}
+\textbf{Corpus companion entry:} Claim C-271 \textbf{Audit Claim ID:}
+\texttt{meta-rebrand-2021-claim-03}
+
+\subsubsection{Appendix B38. Sovereign-scale platforms should be
+regulated on the basis of design,
+amplificati\ldots{}}\label{appendix-b38-sovereign-scale-platforms-should-be-regulated-on-the-basis-of-design-amplificati}
+
+\textbf{Claim statement:} That sovereign-scale platforms should be
+regulated on the basis of design, amplification, targeting,
+monetization, moderation architecture, and systemic reach rather than
+passive-hosting logic. \textbf{Evidence status:} Hypothesis /
+Interpretation \textbf{Source support:}
+\hyperref[appendix-a1-a-look-behind-the-screens-examining-the-data-practices-of-social-media-and-video-streaming-services]{Appendix
+A1},
+\hyperref[appendix-a6-meta-platforms-inc-2023-annual-report-form-10-k]{Appendix
+A6} \textbf{Corpus companion entry:} Claim C-418 \textbf{Audit Claim
+ID:} \texttt{vector01-section230-sovereign-scale-reform-claim-01}
+
+\subsubsection{Appendix B39. The Facebook-Thiel-Palantir-In-Q-Tel record
+supports a bounded argument about
+net\ldots{}}\label{appendix-b39-the-facebook-thiel-palantir-in-q-tel-record-supports-a-bounded-argument-about-net}
+
+\textbf{Claim statement:} That the Facebook-Thiel-Palantir-In-Q-Tel
+record supports a bounded argument about networked governance continuity
+between surveillance platforms, venture capital, and security-state
+technology ecosystems. \textbf{Evidence status:} Hypothesis /
+Interpretation \textbf{Source support:}
+\hyperref[appendix-a3-facebook-inc-registration-statement-on-form-s-1]{Appendix
+A3},
+\hyperref[appendix-a4-meta-platforms-inc-2022-definitive-proxy-statement]{Appendix
+A4} \textbf{Corpus companion entry:} Claim C-459 \textbf{Audit Claim
+ID:} \texttt{vector11-networked-adjacency-synthesis-claim-01}
+
+\subsubsection{Appendix B40. The strongest reading of the
+Facebook-Thiel-Palantir-In-Q-Tel record is a
+structu\ldots{}}\label{appendix-b40-the-strongest-reading-of-the-facebook-thiel-palantir-in-q-tel-record-is-a-structu}
+
+\textbf{Claim statement:} That the strongest reading of the
+Facebook-Thiel-Palantir-In-Q-Tel record is a structured adjacency model
+built through board power, venture sponsorship, and government
+contracting rather than evidence of covert command. \textbf{Evidence
+status:} Hypothesis / Interpretation \textbf{Source support:}
+\hyperref[appendix-a3-facebook-inc-registration-statement-on-form-s-1]{Appendix
+A3},
+\hyperref[appendix-a4-meta-platforms-inc-2022-definitive-proxy-statement]{Appendix
+A4} \textbf{Corpus companion entry:} Claim C-461 \textbf{Audit Claim
+ID:} \texttt{vector11-structured-adjacency-not-command-claim-01}
+
+\subsubsection{Appendix B41. The Meta rebrand and metaverse cycle can be
+read as a narrative and
+capital-alloc\ldots{}}\label{appendix-b41-the-meta-rebrand-and-metaverse-cycle-can-be-read-as-a-narrative-and-capital-alloc}
+
+\textbf{Claim statement:} That the Meta rebrand and metaverse cycle can
+be read as a narrative and capital-allocation redirection after a
+reputational-regulatory rupture, even if the precise intent behind the
+timing cannot be proved conclusively. \textbf{Evidence status:}
+Hypothesis / Interpretation \textbf{Source support:}
+\hyperref[appendix-a2-ftc-imposes-5-billion-penalty-and-sweeping-new-privacy-restrictions-on-facebook]{Appendix
+A2}, \hyperref[appendix-a5-the-facebook-company-is-now-meta]{Appendix
+A5},
+\hyperref[appendix-a6-meta-platforms-inc-2023-annual-report-form-10-k]{Appendix
+A6} \textbf{Corpus companion entry:} Claim C-463 \textbf{Audit Claim
+ID:} \texttt{vector12-rebrand-redirection-synthesis-claim-01}
+
+\subsubsection{Appendix B42. Refactoring Section 230 for sovereign-scale
+platforms requires treating
+platforms\ldots{}}\label{appendix-b42-refactoring-section-230-for-sovereign-scale-platforms-requires-treating-platforms}
+
+\textbf{Claim statement:} That refactoring Section 230 for
+sovereign-scale platforms requires treating platforms as ordinary
+publishers for every user utterance regardless of design, amplification,
+targeting, or monetization. \textbf{Evidence status:} Speculative
+Narrative Risk \textbf{Source support:}
+\hyperref[appendix-a1-a-look-behind-the-screens-examining-the-data-practices-of-social-media-and-video-streaming-services]{Appendix
+A1} \textbf{Corpus companion entry:} Claim C-417 \textbf{Audit Claim
+ID:} \texttt{vector01-publisher-liability-overclaim-claim-01}
+
+\subsubsection{Appendix B43. Intelligence adjacency or early-investor
+overlap alone proves direct CIA
+control\ldots{}}\label{appendix-b43-intelligence-adjacency-or-early-investor-overlap-alone-proves-direct-cia-control}
+
+\textbf{Claim statement:} That intelligence adjacency or early-investor
+overlap alone proves direct CIA control of Facebook. \textbf{Evidence
+status:} Speculative Narrative Risk \textbf{Source support:}
+\hyperref[appendix-a3-facebook-inc-registration-statement-on-form-s-1]{Appendix
+A3} \textbf{Corpus companion entry:} Claim C-458 \textbf{Audit Claim
+ID:} \texttt{vector11-direct-cia-control-facebook-overclaim-claim-01}
+
+\subsubsection{Appendix B44. The Meta rebrand by itself proves a
+singular covert intent to erase Cambridge
+Ana\ldots{}}\label{appendix-b44-the-meta-rebrand-by-itself-proves-a-singular-covert-intent-to-erase-cambridge-ana}
+
+\textbf{Claim statement:} That the Meta rebrand by itself proves a
+singular covert intent to erase Cambridge Analytica from public memory
+or that the metaverse pivot was primarily a cover-up operation.
+\textbf{Evidence status:} Speculative Narrative Risk \textbf{Source
+support:}
+\hyperref[appendix-a2-ftc-imposes-5-billion-penalty-and-sweeping-new-privacy-restrictions-on-facebook]{Appendix
+A2}, \hyperref[appendix-a5-the-facebook-company-is-now-meta]{Appendix
+A5} \textbf{Corpus companion entry:} Claim C-462 \textbf{Audit Claim
+ID:} \texttt{vector12-coverup-intent-overclaim-claim-01}
+
+\subsection{Appendix C. Timeline
+Slice}\label{appendix-c.-timeline-slice}
+
+\subsubsection{Appendix C1. 2012-02-01: Facebook's S-1 publicly
+documents Peter Thiel's board seat and early-investor
+role}\label{appendix-c1-2012-02-01-facebook-s-s-1-publicly-documents-peter-thiel-s-board-seat-and-early-investor-role}
+
+\textbf{Event summary:} Facebook's S-1 publicly documents Peter Thiel's
+board seat and early-investor role \textbf{Event date:} 2012-02-01
+\textbf{Source support:}
+\hyperref[appendix-a3-facebook-inc-registration-statement-on-form-s-1]{Appendix
+A3} \textbf{Corpus companion entry:} Event T-002 \textbf{Audit Event
+ID:} \texttt{event-facebook-s1-thiel-2012-02-01}
+
+\subsubsection{Appendix C2. 2019-07-24: The FTC imposes a record penalty
+and new privacy restrictions on
+Facebook}\label{appendix-c2-2019-07-24-the-ftc-imposes-a-record-penalty-and-new-privacy-restrictions-on-facebook}
+
+\textbf{Event summary:} The FTC imposes a record penalty and new privacy
+restrictions on Facebook \textbf{Event date:} 2019-07-24 \textbf{Source
+support:}
+\hyperref[appendix-a2-ftc-imposes-5-billion-penalty-and-sweeping-new-privacy-restrictions-on-facebook]{Appendix
+A2} \textbf{Corpus companion entry:} Event T-006 \textbf{Audit Event
+ID:} \texttt{event-ftc-facebook-2019-07-24}
+
+\subsubsection{Appendix C3. 2021-10-28: Facebook formally rebrands its
+parent company as
+Meta}\label{appendix-c3-2021-10-28-facebook-formally-rebrands-its-parent-company-as-meta}
+
+\textbf{Event summary:} Facebook formally rebrands its parent company as
+Meta \textbf{Event date:} 2021-10-28 \textbf{Source support:}
+\hyperref[appendix-a5-the-facebook-company-is-now-meta]{Appendix A5}
+\textbf{Corpus companion entry:} Event T-015 \textbf{Audit Event ID:}
+\texttt{event-meta-rebrand-2021-10-28}
+
+\subsubsection{Appendix C4. 2022-04-08: Meta's proxy states that Peter
+Thiel will retire from the board after the annual
+meeting}\label{appendix-c4-2022-04-08-meta-s-proxy-states-that-peter-thiel-will-retire-from-the-board-after-the-annual-meeting}
+
+\textbf{Event summary:} Meta's proxy states that Peter Thiel will retire
+from the board after the annual meeting \textbf{Event date:} 2022-04-08
+\textbf{Source support:}
+\hyperref[appendix-a4-meta-platforms-inc-2022-definitive-proxy-statement]{Appendix
+A4} \textbf{Corpus companion entry:} Event T-017 \textbf{Audit Event
+ID:} \texttt{event-meta-proxy-thiel-retirement-2022-04-08}
+
+\subsubsection{Appendix C5. 2024-02-02: Meta files its 2023 annual
+report with continued Reality Labs
+losses}\label{appendix-c5-2024-02-02-meta-files-its-2023-annual-report-with-continued-reality-labs-losses}
+
+\textbf{Event summary:} Meta files its 2023 annual report with continued
+Reality Labs losses \textbf{Event date:} 2024-02-02 \textbf{Source
+support:}
+\hyperref[appendix-a6-meta-platforms-inc-2023-annual-report-form-10-k]{Appendix
+A6} \textbf{Corpus companion entry:} Event T-040 \textbf{Audit Event
+ID:} \texttt{event-meta-10k-2024-02-02}
+
+\subsection{Appendix D. Relevant
+Entities}\label{appendix-d.-relevant-entities}
+
+\subsubsection{Appendix D1. Reality
+Labs}\label{appendix-d1-reality-labs}
+
+\textbf{Entity type:} business\_unit \textbf{Role in this paper:} Actor
+relevant to 12\_cambridge\_analytica\_meta\_metaverse\_rebrand,
+05\_talent\_hoarding\_section174\_layoffs. \textbf{Relevant sources in
+this paper:}
+\hyperref[appendix-a5-the-facebook-company-is-now-meta]{Appendix A5},
+\hyperref[appendix-a6-meta-platforms-inc-2023-annual-report-form-10-k]{Appendix
+A6} \textbf{Corpus companion entry:} Entity E-031 \textbf{Audit Entity
+ID:} \texttt{org-reality-labs}
+
+\subsubsection{Appendix D2. Facebook /
+Meta}\label{appendix-d2-facebook-meta}
+
+\textbf{Entity type:} company \textbf{Role in this paper:} Actor
+relevant to 01\_surveillance\_capitalism,
+03\_covid\_acceleration\_and\_geopolitics,
+04\_data\_to\_models\_copyright\_weights,
+11\_facebook\_thiel\_intelligence\_adjacency and others.
+\textbf{Relevant sources in this paper:}
+\hyperref[appendix-a2-ftc-imposes-5-billion-penalty-and-sweeping-new-privacy-restrictions-on-facebook]{Appendix
+A2},
+\hyperref[appendix-a3-facebook-inc-registration-statement-on-form-s-1]{Appendix
+A3},
+\hyperref[appendix-a4-meta-platforms-inc-2022-definitive-proxy-statement]{Appendix
+A4}, \hyperref[appendix-a5-the-facebook-company-is-now-meta]{Appendix
+A5} \textbf{Corpus companion entry:} Entity E-015 \textbf{Audit Entity
+ID:} \texttt{org-facebook}
+
+\subsubsection{Appendix D3. Mark
+Zuckerberg}\label{appendix-d3-mark-zuckerberg}
+
+\textbf{Entity type:} person \textbf{Role in this paper:} Actor relevant
+to 05\_talent\_hoarding\_section174\_layoffs,
+08\_power\_networks\_legitimacy\_capture, 09\_future\_if\_unchecked,
+12\_cambridge\_analytica\_meta\_metaverse\_rebrand. \textbf{Relevant
+sources in this paper:}
+\hyperref[appendix-a5-the-facebook-company-is-now-meta]{Appendix A5}
+\textbf{Corpus companion entry:} Entity E-054 \textbf{Audit Entity ID:}
+\texttt{person-mark-zuckerberg}
+
+\subsubsection{Appendix D4. Peter Thiel}\label{appendix-d4-peter-thiel}
+
+\textbf{Entity type:} person \textbf{Role in this paper:} Actor relevant
+to 01\_surveillance\_capitalism,
+08\_power\_networks\_legitimacy\_capture, 09\_future\_if\_unchecked,
+11\_facebook\_thiel\_intelligence\_adjacency. \textbf{Relevant sources
+in this paper:}
+\hyperref[appendix-a3-facebook-inc-registration-statement-on-form-s-1]{Appendix
+A3},
+\hyperref[appendix-a4-meta-platforms-inc-2022-definitive-proxy-statement]{Appendix
+A4} \textbf{Corpus companion entry:} Entity E-058 \textbf{Audit Entity
+ID:} \texttt{person-peter-thiel}
+
+\subsubsection{Appendix D5. Federal Trade
+Commission}\label{appendix-d5-federal-trade-commission}
+
+\textbf{Entity type:} regulator \textbf{Role in this paper:} Actor
+relevant to 01\_surveillance\_capitalism. \textbf{Relevant sources in
+this paper:}
+\hyperref[appendix-a1-a-look-behind-the-screens-examining-the-data-practices-of-social-media-and-video-streaming-services]{Appendix
+A1},
+\hyperref[appendix-a2-ftc-imposes-5-billion-penalty-and-sweeping-new-privacy-restrictions-on-facebook]{Appendix
+A2} \textbf{Corpus companion entry:} Entity E-017 \textbf{Audit Entity
+ID:} \texttt{org-ftc}
+
+\subsection{Appendix E. Evidence
+Boundaries}\label{appendix-e.-evidence-boundaries}
+
+\subsubsection{Appendix E1. Disputed
+Matters}\label{appendix-e1-disputed-matters}
+
+\begin{itemize}
+\tightlist
+\item
+  None registered for this paper.
+\end{itemize}
+
+\subsubsection{Appendix E2. Interpretive
+Boundaries}\label{appendix-e2-interpretive-boundaries}
+
+\begin{itemize}
+\tightlist
+\item
+  \hyperref[appendix-b38-sovereign-scale-platforms-should-be-regulated-on-the-basis-of-design-amplificati]{Appendix
+  B38}: That sovereign-scale platforms should be regulated on the basis
+  of design, amplification, targeting, monetization, moderation
+  architecture, and systemic reach rather than passive-hosting logic.
+\item
+  \hyperref[appendix-b39-the-facebook-thiel-palantir-in-q-tel-record-supports-a-bounded-argument-about-net]{Appendix
+  B39}: That the Facebook-Thiel-Palantir-In-Q-Tel record supports a
+  bounded argument about networked governance continuity between
+  surveillance platforms, venture capital, and security-state technology
+  ecosystems.
+\item
+  \hyperref[appendix-b40-the-strongest-reading-of-the-facebook-thiel-palantir-in-q-tel-record-is-a-structu]{Appendix
+  B40}: That the strongest reading of the
+  Facebook-Thiel-Palantir-In-Q-Tel record is a structured adjacency
+  model built through board power, venture sponsorship, and government
+  contracting rather than evidence of covert command.
+\item
+  \hyperref[appendix-b41-the-meta-rebrand-and-metaverse-cycle-can-be-read-as-a-narrative-and-capital-alloc]{Appendix
+  B41}: That the Meta rebrand and metaverse cycle can be read as a
+  narrative and capital-allocation redirection after a
+  reputational-regulatory rupture, even if the precise intent behind the
+  timing cannot be proved conclusively.
+\end{itemize}
+
+\subsubsection{Appendix E3. Speculative Narrative
+Risks}\label{appendix-e3-speculative-narrative-risks}
+
+\begin{itemize}
+\tightlist
+\item
+  \hyperref[appendix-b42-refactoring-section-230-for-sovereign-scale-platforms-requires-treating-platforms]{Appendix
+  B42}: That refactoring Section 230 for sovereign-scale platforms
+  requires treating platforms as ordinary publishers for every user
+  utterance regardless of design, amplification, targeting, or
+  monetization.
+\item
+  \hyperref[appendix-b43-intelligence-adjacency-or-early-investor-overlap-alone-proves-direct-cia-control]{Appendix
+  B43}: That intelligence adjacency or early-investor overlap alone
+  proves direct CIA control of Facebook.
+\item
+  \hyperref[appendix-b44-the-meta-rebrand-by-itself-proves-a-singular-covert-intent-to-erase-cambridge-ana]{Appendix
+  B44}: That the Meta rebrand by itself proves a singular covert intent
+  to erase Cambridge Analytica from public memory or that the metaverse
+  pivot was primarily a cover-up operation.
+\end{itemize}
+
+\subsubsection{Appendix E4. Sensitive or Review-Worthy Note
+Flags}\label{appendix-e4-sensitive-or-review-worthy-note-flags}
+
+\begin{itemize}
+\tightlist
+\item
+  \hyperref[appendix-a3-facebook-inc-registration-statement-on-form-s-1]{Appendix
+  A3}. Companion note: Note N-001. Risk flag: medium. Note focus: That
+  Peter Thiel had a formal governance role inside Facebook at the time
+  of the IPO filing and that the role dated back to 2005.
+\item
+  \hyperref[appendix-a1-a-look-behind-the-screens-examining-the-data-practices-of-social-media-and-video-streaming-services]{Appendix
+  A1}. Companion note: Note N-002. Risk flag: low. Note focus: That the
+  platform model relies on intensive extraction and processing of user
+  data.
+\item
+  \hyperref[appendix-a2-ftc-imposes-5-billion-penalty-and-sweeping-new-privacy-restrictions-on-facebook]{Appendix
+  A2}. Companion note: Note N-003. Risk flag: low. Note focus: That
+  there is formal regulatory backing for saying Facebook monetized and
+  managed personal data within a framework of deceptive practices and
+  insufficient oversight.
+\item
+  \hyperref[appendix-a6-meta-platforms-inc-2023-annual-report-form-10-k]{Appendix
+  A6}. Companion note: Note N-005. Risk flag: low. Note focus: That the
+  metaverse bet was not just branding language; it had a dedicated
+  segment and a continuing loss structure visible in SEC reporting.
+\item
+  \hyperref[appendix-a4-meta-platforms-inc-2022-definitive-proxy-statement]{Appendix
+  A4}. Companion note: Note N-006. Risk flag: medium. Note focus: That
+  Peter Thiel's formal role at Facebook / Meta lasted well beyond the
+  early startup period and remained active into 2022.
+\item
+  \hyperref[appendix-a5-the-facebook-company-is-now-meta]{Appendix A5}.
+  Companion note: Note N-007. Risk flag: medium. Note focus: That the
+  rebrand was formally tied to a metaverse-centered strategic narrative,
+  not merely a cosmetic name change.
+\item
+  \hyperref[appendix-a3-facebook-inc-registration-statement-on-form-s-1]{Appendix
+  A3}. Companion note: Note N-110. Risk flag: medium. Note focus: That
+  Peter Thiel had a formal governance role inside Facebook at the time
+  of the IPO filing and that the role dated back to 2005.
+\item
+  \hyperref[appendix-a4-meta-platforms-inc-2022-definitive-proxy-statement]{Appendix
+  A4}. Companion note: Note N-114. Risk flag: medium. Note focus: That
+  Peter Thiel's formal role at Facebook / Meta lasted well beyond the
+  early startup period and remained active into 2022.
+\item
+  \hyperref[appendix-a2-ftc-imposes-5-billion-penalty-and-sweeping-new-privacy-restrictions-on-facebook]{Appendix
+  A2}. Companion note: Note N-123. Risk flag: low. Note focus: That
+  there is formal regulatory backing for saying Facebook monetized and
+  managed personal data within a framework of deceptive practices and
+  insufficient oversight.
+\item
+  \hyperref[appendix-a6-meta-platforms-inc-2023-annual-report-form-10-k]{Appendix
+  A6}. Companion note: Note N-126. Risk flag: low. Note focus: That the
+  metaverse bet was not just branding language; it had a dedicated
+  segment and a continuing loss structure visible in SEC reporting.
+\item
+  \hyperref[appendix-a5-the-facebook-company-is-now-meta]{Appendix A5}.
+  Companion note: Note N-127. Risk flag: medium. Note focus: That the
+  rebrand was formally tied to a metaverse-centered strategic narrative,
+  not merely a cosmetic name change.
+\end{itemize}
+
+\end{document}

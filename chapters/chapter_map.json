@@ -1,0 +1,112 @@
+{
+  "chapters": [
+    {
+      "chapter_id": "00",
+      "title": "Opening framework",
+      "core_thesis": "Technical empire grows from the enclosure of human value and culminates in a three-reform response.",
+      "vector_ids": [
+        "01_surveillance_capitalism",
+        "04_data_to_models_copyright_weights",
+        "05_talent_hoarding_section174_layoffs",
+        "07_export_controls_compute_defense_access",
+        "08_power_networks_legitimacy_capture",
+        "10_counterstrategy_response_agenda"
+      ]
+    },
+    {
+      "chapter_id": "01",
+      "title": "Social networks as infrastructure for free data capture",
+      "core_thesis": "Social platforms prepared the behavioral raw material of the AI empire.",
+      "vector_ids": [
+        "01_surveillance_capitalism",
+        "11_facebook_thiel_intelligence_adjacency",
+        "12_cambridge_analytica_meta_metaverse_rebrand"
+      ]
+    },
+    {
+      "chapter_id": "02",
+      "title": "Social erosion and moral reconfiguration",
+      "core_thesis": "Algorithmic optimization degraded attention, trust, and the moral imagination.",
+      "vector_ids": [
+        "02_social_decay_youth_harm_hypersexualization",
+        "12_cambridge_analytica_meta_metaverse_rebrand"
+      ]
+    },
+    {
+      "chapter_id": "03",
+      "title": "COVID as a historical accelerator",
+      "core_thesis": "The health crisis consolidated digital dependency and concentrated algorithmic mediation.",
+      "vector_ids": [
+        "03_covid_acceleration_and_geopolitics",
+        "12_cambridge_analytica_meta_metaverse_rebrand"
+      ]
+    },
+    {
+      "chapter_id": "04",
+      "title": "AI arrives when the human raw material already exists",
+      "core_thesis": "Foundation models emerge after a decade of free capture of human labor.",
+      "vector_ids": [
+        "04_data_to_models_copyright_weights"
+      ]
+    },
+    {
+      "chapter_id": "05",
+      "title": "Talent, overhiring, valuation, and layoffs",
+      "core_thesis": "AI was used as the legitimizing story for a structural financial correction.",
+      "vector_ids": [
+        "05_talent_hoarding_section174_layoffs"
+      ]
+    },
+    {
+      "chapter_id": "06",
+      "title": "AI as a dual-use rhetorical weapon",
+      "core_thesis": "What is dangerous and what is cheap coexist as part of the same strategy of power.",
+      "vector_ids": [
+        "06_ai_double_use_reasoning_deepseek",
+        "13_openai_governance_qstar_talent_exodus"
+      ]
+    },
+    {
+      "chapter_id": "07",
+      "title": "Imperial control over access",
+      "core_thesis": "Export controls, compute, defense alliances, and public-private chokepoints define who gets access to frontier intelligence.",
+      "vector_ids": [
+        "07_export_controls_compute_defense_access",
+        "11_facebook_thiel_intelligence_adjacency",
+        "13_openai_governance_qstar_talent_exodus"
+      ]
+    },
+    {
+      "chapter_id": "08",
+      "title": "Power network, legitimacy, and institutional capture",
+      "core_thesis": "Frontier firms operate inside networks of political, media, financial, and moral legitimacy that can mature into institutional capture.",
+      "vector_ids": [
+        "08_power_networks_legitimacy_capture",
+        "11_facebook_thiel_intelligence_adjacency",
+        "13_openai_governance_qstar_talent_exodus",
+        "14_named_individuals_disputes_and_risk"
+      ]
+    },
+    {
+      "chapter_id": "09",
+      "title": "Future if no action is taken",
+      "core_thesis": "Without intervention, AI deepens social dependency, hardens private enclosure, and stratifies access to cognition.",
+      "vector_ids": [
+        "09_future_if_unchecked"
+      ]
+    },
+    {
+      "chapter_id": "10",
+      "title": "What to do",
+      "core_thesis": "The response program centers three reforms: refactor Section 230, treat frontier AI weights as patrimony of humanity, and limit government capture by AI companies.",
+      "vector_ids": [
+        "01_surveillance_capitalism",
+        "02_social_decay_youth_harm_hypersexualization",
+        "04_data_to_models_copyright_weights",
+        "07_export_controls_compute_defense_access",
+        "08_power_networks_legitimacy_capture",
+        "10_counterstrategy_response_agenda"
+      ]
+    }
+  ]
+}

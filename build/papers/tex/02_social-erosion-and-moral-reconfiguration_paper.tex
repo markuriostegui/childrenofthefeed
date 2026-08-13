@@ -1,0 +1,1104 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\documentclass[
+  american,
+  11pt,
+  letterpaper,
+]{article}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{5}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\ifLuaTeX
+\usepackage[bidi=basic,shorthands=off]{babel}
+\else
+\usepackage[bidi=default,shorthands=off]{babel}
+\fi
+\ifLuaTeX
+  \usepackage{selnolig} % disable illegal ligatures
+\fi
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage[hang,flushmargin,bottom]{footmisc}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{caption}
+
+\setstretch{1.08}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.7em}
+\setlength{\footnotesep}{0.7em}
+\interfootnotelinepenalty=10000
+\emergencystretch=2em
+\raggedbottom
+
+\setlist[itemize]{leftmargin=1.5em, itemsep=0.45em, topsep=0.45em}
+\setlist[enumerate]{leftmargin=1.8em, itemsep=0.45em, topsep=0.45em}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\nouppercase{\leftmark}}
+\fancyhead[R]{AI Empire Research Papers}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{2}
+\renewcommand{\contentsname}{Paper Roadmap}
+
+\titleformat{\section}{\Large\bfseries}{\thesection.}{0.65em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection.}{0.6em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries}{\thesubsubsection.}{0.55em}{}
+
+\captionsetup{font=small, labelfont=bf}
+\AtBeginEnvironment{longtable}{\small}
+
+\AtBeginDocument{
+  \hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=black,
+    urlcolor=blue
+  }
+}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+% fallback for those not using the hyperref driver hyperxmp:
+\makeatletter
+\@ifundefined{xmpquote}{\newcommand{\xmpquote}[1]{#1}}{}
+\makeatother
+\hypersetup{
+  pdftitle={Chapter 02: Social Erosion and Moral Reconfiguration},
+  pdflang={en-US},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Chapter 02: Social Erosion and Moral Reconfiguration}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{From Surveillance Capitalism to AI Imperialism \textbar{}
+Chapter 02: Social erosion and moral reconfiguration}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\subsection{Abstract}\label{abstract}
+
+The platform system did not only capture behavior. The U.S. If attention
+is trained by systems optimized for engagement rather than flourishing,
+then the outcome is not only distraction.
+
+\subsection{Keywords}\label{keywords}
+
+Social erosion and moral reconfiguration; surveillance capitalism; AI
+imperialism; Section 230 reform; evidence-based dossier
+
+\subsection{Research Question}\label{research-question}
+
+How does social erosion and moral reconfiguration function within the
+dossier's larger argument, and what does the documentary record allow
+this chapter to establish?
+
+\subsection{Scope and Framing Note}\label{scope-and-framing-note}
+
+This paper examines social erosion and moral reconfiguration within the
+broader dossier \emph{From Surveillance Capitalism to AI Imperialism}.
+It is intentionally written to circulate on its own: necessary context
+is restated, evidence boundaries are made explicit, and cited material
+is reproduced in paper-local form rather than delegated to repo
+navigation. It contributes to the series as a paper that deepens the
+Section 230 case by connecting amplification systems to youth harm,
+civic erosion, and moral reconfiguration. Adjacent reinforcement appears
+in Chapter 01, Chapter 03, Chapter 10, but those cross-references are
+supportive rather than required for basic comprehension.
+
+\subsection{Central Thesis}\label{central-thesis}
+
+The platform system did not only capture behavior. It also reorganized
+norms. The strongest version of the claim is not nostalgic moral panic.
+It is that algorithmic optimization degraded attention, weakened trust,
+amplified social fragmentation, and altered what appears normal,
+desirable, and glamorous at scale. \footnote{Sources: HHS,
+  \href{https://www.hhs.gov/surgeongeneral/priorities/youth-mental-health/social-media/index.html}{Social
+  Media and Youth Mental Health:\ldots{}} (n.d.; see
+  \hyperref[appendix-a1-social-media-and-youth-mental-health-the-u-s-surgeon-general-s-advisory]{Appendix
+  A1}); arXiv, \href{https://arxiv.org/abs/2302.03671}{What Do We Mean
+  When We Talk about Tr\ldots{}} (2023-02-07; see
+  \hyperref[appendix-a2-what-do-we-mean-when-we-talk-about-trust-in-social-media-a-systematic-review]{Appendix
+  A2}); arXiv, \href{https://arxiv.org/abs/2010.00590}{Quantifying
+  social organization and p\ldots{}} (2020-10-01; see
+  \hyperref[appendix-a3-quantifying-social-organization-and-political-polarization-in-online-platforms]{Appendix
+  A3})}
+
+\subsection{Evidence and Method Note}\label{evidence-and-method-note}
+
+This paper is derived from the chapter corpus for Chapter 02 and is
+grounded in the project's structured research OS. It relies on source
+notes, extracted claims, entity profiles, and timeline events already
+normalized under the dossier's evidence hierarchy. Documented facts are
+asserted directly where the record supports them; disputed matters are
+marked as such; interpretive claims are bounded explicitly; and
+speculative overreach is isolated in the evidence-boundary appendix.
+
+\subsection{Introduction}\label{introduction}
+
+This paper asks: How does social erosion and moral reconfiguration
+function within the dossier's larger argument, and what does the
+documentary record allow this chapter to establish? Its working answer
+is clear from the start: The platform system did not only capture
+behavior. It also reorganized norms. The strongest version of the claim
+is not nostalgic moral panic. It is that algorithmic optimization
+degraded attention, weakened trust, amplified social fragmentation, and
+altered what appears normal, desirable, and glamorous at scale.
+\footnote{Sources: HHS,
+  \href{https://www.hhs.gov/surgeongeneral/priorities/youth-mental-health/social-media/index.html}{Social
+  Media and Youth Mental Health:\ldots{}} (n.d.; see
+  \hyperref[appendix-a1-social-media-and-youth-mental-health-the-u-s-surgeon-general-s-advisory]{Appendix
+  A1}); arXiv, \href{https://arxiv.org/abs/2302.03671}{What Do We Mean
+  When We Talk about Tr\ldots{}} (2023-02-07; see
+  \hyperref[appendix-a2-what-do-we-mean-when-we-talk-about-trust-in-social-media-a-systematic-review]{Appendix
+  A2}); arXiv, \href{https://arxiv.org/abs/2010.00590}{Quantifying
+  social organization and p\ldots{}} (2020-10-01; see
+  \hyperref[appendix-a3-quantifying-social-organization-and-political-polarization-in-online-platforms]{Appendix
+  A3})} The objective is not only to recount developments, but to show
+why the subject of this chapter belongs inside a structural argument
+about extraction, enclosure, legitimacy, and reform.
+
+\subsection{Historical or Institutional
+Context}\label{historical-or-institutional-context}
+
+The U.S. Surgeon General's advisory provides serious institutional
+backing for discussing cumulative psychosocial risk among young people.
+That means the youth-harm argument does not rest only on intuition or
+generational panic. \footnote{Sources: HHS,
+  \href{https://www.hhs.gov/surgeongeneral/priorities/youth-mental-health/social-media/index.html}{Social
+  Media and Youth Mental Health:\ldots{}} (n.d.; see
+  \hyperref[appendix-a1-social-media-and-youth-mental-health-the-u-s-surgeon-general-s-advisory]{Appendix
+  A1})}
+
+\subsection{Main Analysis}\label{main-analysis}
+
+The Instagram body-image and TikTok under-13 records show that harms are
+not confined to public feeds. Private-message dynamics, recommendation
+mismatches, and child-directed product failures all matter. Platform
+design is therefore part of the harm structure, not just the venue in
+which the harm appears. \footnote{Sources: arXiv,
+  \href{https://arxiv.org/abs/2504.02176}{Unfiltered: How Teens Engage
+  in Body\ldots{}} (2025-04-02; see
+  \hyperref[appendix-a4-unfiltered-how-teens-engage-in-body-image-and-shaming-discussions-via-instagram-direct-messages-dms]{Appendix
+  A4}); arXiv, \href{https://arxiv.org/abs/2507.00299}{When Kids Mode
+  Isn't For Kids: Invest\ldots{}} (2025-06-30; see
+  \hyperref[appendix-a5-when-kids-mode-isn-t-for-kids-investigating-tiktok-s-under-13-experience]{Appendix
+  A5})}
+
+The trust and polarization literature strengthens the civic layer.
+Social media trust, content trust, and user trust are analytically
+distinct, but all are reshaped by platform architecture. Cross-national
+Pew reporting adds that large majorities across surveyed countries
+associate social media with manipulation, division, and reduced
+civility, while the United States appears as an unusually negative
+outlier. \footnote{Sources: arXiv,
+  \href{https://arxiv.org/abs/2302.03671}{What Do We Mean When We Talk
+  about Tr\ldots{}} (2023-02-07; see
+  \hyperref[appendix-a2-what-do-we-mean-when-we-talk-about-trust-in-social-media-a-systematic-review]{Appendix
+  A2}); arXiv, \href{https://arxiv.org/abs/2010.00590}{Quantifying
+  social organization and p\ldots{}} (2020-10-01; see
+  \hyperref[appendix-a3-quantifying-social-organization-and-political-polarization-in-online-platforms]{Appendix
+  A3}); Pew Research Center,
+  \href{https://www.pewresearch.org/global/2022/12/06/social-media-seen-as-mostly-good-for-democracy-across-many-nations-but-u-s-is-a-major-outlier/}{Social
+  Media Seen as Mostly Good for\ldots{}} (2022-12-06; see
+  \hyperref[appendix-a6-social-media-seen-as-mostly-good-for-democracy-across-many-nations-but-u-s-is-a-major-outlier]{Appendix
+  A6})}
+
+The dossier's more morally charged cultural claims also have bounded
+support. Serious reporting documents recommendation systems intensifying
+misogynistic content exposure. Research on OnlyFans documents mainstream
+entry by creators with no prior sex-work history and ties that
+normalization to platform visibility and pandemic-era adoption. These
+examples should remain illustrative, but they are not empty rhetoric.
+\footnote{Sources: The Guardian,
+  \href{https://www.theguardian.com/media/2024/feb/06/social-media-algorithms-amplifying-misogynistic-content}{Social
+  media algorithms 'amplifying m\ldots{}} (2024-02-06; see
+  \hyperref[appendix-a7-social-media-algorithms-amplifying-misogynistic-content]{Appendix
+  A7}); arXiv, \href{https://arxiv.org/abs/2205.10425}{Nudes? Shouldn't
+  I charge for these?:\ldots{}} (2022-05-20; see
+  \hyperref[appendix-a8-nudes-shouldn-t-i-charge-for-these-motivations-of-new-sexual-content-creators-on-onlyfans]{Appendix
+  A8})}
+
+Interpretation: Chapter \texttt{02} deepens the case for
+\texttt{Refactor\ Section\ 230} because the social harms here are not
+reducible to isolated user speech. They emerge from recommendation
+systems, exposure design, monetized aspiration, and systemic
+amplification. A sovereign-scale legal framework should therefore focus
+on design responsibility and measurable harm, not only on moderation
+after the fact. \footnote{Sources: HHS,
+  \href{https://www.hhs.gov/surgeongeneral/priorities/youth-mental-health/social-media/index.html}{Social
+  Media and Youth Mental Health:\ldots{}} (n.d.; see
+  \hyperref[appendix-a1-social-media-and-youth-mental-health-the-u-s-surgeon-general-s-advisory]{Appendix
+  A1}); arXiv, \href{https://arxiv.org/abs/2507.00299}{When Kids Mode
+  Isn't For Kids: Invest\ldots{}} (2025-06-30; see
+  \hyperref[appendix-a5-when-kids-mode-isn-t-for-kids-investigating-tiktok-s-under-13-experience]{Appendix
+  A5}); Pew Research Center,
+  \href{https://www.pewresearch.org/global/2022/12/06/social-media-seen-as-mostly-good-for-democracy-across-many-nations-but-u-s-is-a-major-outlier/}{Social
+  Media Seen as Mostly Good for\ldots{}} (2022-12-06; see
+  \hyperref[appendix-a6-social-media-seen-as-mostly-good-for-democracy-across-many-nations-but-u-s-is-a-major-outlier]{Appendix
+  A6})}
+
+\subsection{Position Within the
+Series}\label{position-within-the-series}
+
+This paper sits inside a coordinated 11-paper architecture. Its nearest
+companions are Chapter 01 (Social networks as infrastructure for free
+data capture), Chapter 03 (COVID as a historical accelerator), Chapter
+10 (What to do). In that series logic, Chapter 02 deepens the Section
+230 case by connecting amplification systems to youth harm, civic
+erosion, and moral reconfiguration.
+
+\subsection{Counterarguments}\label{counterarguments}
+
+This chapter should not imply that every moral deformation of
+contemporary life is fully caused by platforms. The evidence is
+strongest on youth harm, fragmentation, misogynistic amplification, and
+monetized sexual self-presentation. Broader civilizational claims remain
+interpretive and should stay visibly bounded. \footnote{Sources: HHS,
+  \href{https://www.hhs.gov/surgeongeneral/priorities/youth-mental-health/social-media/index.html}{Social
+  Media and Youth Mental Health:\ldots{}} (n.d.; see
+  \hyperref[appendix-a1-social-media-and-youth-mental-health-the-u-s-surgeon-general-s-advisory]{Appendix
+  A1}); The Guardian,
+  \href{https://www.theguardian.com/media/2024/feb/06/social-media-algorithms-amplifying-misogynistic-content}{Social
+  media algorithms 'amplifying m\ldots{}} (2024-02-06; see
+  \hyperref[appendix-a7-social-media-algorithms-amplifying-misogynistic-content]{Appendix
+  A7})}
+
+\subsection{Limits of the Evidence}\label{limits-of-the-evidence}
+
+This chapter should not imply that every moral deformation of
+contemporary life is fully caused by platforms. The evidence is
+strongest on youth harm, fragmentation, misogynistic amplification, and
+monetized sexual self-presentation. Broader civilizational claims remain
+interpretive and should stay visibly bounded. \footnote{Sources: HHS,
+  \href{https://www.hhs.gov/surgeongeneral/priorities/youth-mental-health/social-media/index.html}{Social
+  Media and Youth Mental Health:\ldots{}} (n.d.; see
+  \hyperref[appendix-a1-social-media-and-youth-mental-health-the-u-s-surgeon-general-s-advisory]{Appendix
+  A1}); The Guardian,
+  \href{https://www.theguardian.com/media/2024/feb/06/social-media-algorithms-amplifying-misogynistic-content}{Social
+  media algorithms 'amplifying m\ldots{}} (2024-02-06; see
+  \hyperref[appendix-a7-social-media-algorithms-amplifying-misogynistic-content]{Appendix
+  A7})}
+
+\subsection{Reform Relevance}\label{reform-relevance}
+
+If attention is trained by systems optimized for engagement rather than
+flourishing, then the outcome is not only distraction. It is a weaker
+public with thinner trust, more manipulable norms, and reduced civic
+resilience. That matters because a society softened in this way is
+easier to govern through later layers of digital mediation and AI
+dependency. \footnote{Sources: arXiv,
+  \href{https://arxiv.org/abs/2302.03671}{What Do We Mean When We Talk
+  about Tr\ldots{}} (2023-02-07; see
+  \hyperref[appendix-a2-what-do-we-mean-when-we-talk-about-trust-in-social-media-a-systematic-review]{Appendix
+  A2}); arXiv, \href{https://arxiv.org/abs/2010.00590}{Quantifying
+  social organization and p\ldots{}} (2020-10-01; see
+  \hyperref[appendix-a3-quantifying-social-organization-and-political-polarization-in-online-platforms]{Appendix
+  A3}); Pew Research Center,
+  \href{https://www.pewresearch.org/global/2022/12/06/social-media-seen-as-mostly-good-for-democracy-across-many-nations-but-u-s-is-a-major-outlier/}{Social
+  Media Seen as Mostly Good for\ldots{}} (2022-12-06; see
+  \hyperref[appendix-a6-social-media-seen-as-mostly-good-for-democracy-across-many-nations-but-u-s-is-a-major-outlier]{Appendix
+  A6})}
+
+\subsection{Conclusion}\label{conclusion}
+
+If attention is trained by systems optimized for engagement rather than
+flourishing, then the outcome is not only distraction. The next
+historical shock did not create this architecture. In the architecture
+of this series, Chapter 02 therefore functions as a self-contained
+argument while also advancing the cumulative path toward the dossier's
+three reforms.
+
+\subsection{Notes}\label{notes}
+
+This paper is designed to circulate independently. Public notes point
+readers to the real external documents first, then to the paper-local
+appendix entry that explains why each source matters.
+
+The underlying research OS distinguishes among
+\texttt{Documented\ Fact}, \texttt{Disputed\ Fact},
+\texttt{Hypothesis\ /\ Interpretation}, and
+\texttt{Speculative\ Narrative\ Risk}. In Chapter 02, those boundaries
+remain visible in the prose, in the bibliography, and in the appendix
+sections that summarize claims and caution points.
+
+\subsection{References / Bibliography}\label{references-bibliography}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  HHS.
+  \href{https://www.hhs.gov/surgeongeneral/priorities/youth-mental-health/social-media/index.html}{Social
+  Media and Youth Mental Health: The U.S. Surgeon General's Advisory}.
+  n.d.. T1 advisory. Paper appendix:
+  \hyperref[appendix-a1-social-media-and-youth-mental-health-the-u-s-surgeon-general-s-advisory]{Appendix
+  A1}. Corpus companion entry: Source S-069. Audit ID:
+  \texttt{hhs-social-media-youth-advisory-2023}. Relevance: That there
+  is serious institutional concern about the impact of social networks
+  on minors.
+\item
+  arXiv. \href{https://arxiv.org/abs/2302.03671}{What Do We Mean When We
+  Talk about Trust in Social Media? A Systematic Review}. 2023-02-07. T1
+  paper. Paper appendix:
+  \hyperref[appendix-a2-what-do-we-mean-when-we-talk-about-trust-in-social-media-a-systematic-review]{Appendix
+  A2}. Corpus companion entry: Source S-120. Audit ID:
+  \texttt{trust-social-media-systematic-review-2023}. Relevance: That
+  trust in social media is a serious research problem with enough
+  literature to support systematic synthesis.
+\item
+  arXiv. \href{https://arxiv.org/abs/2010.00590}{Quantifying social
+  organization and political polarization in online platforms}.
+  2020-10-01. T1 paper. Paper appendix:
+  \hyperref[appendix-a3-quantifying-social-organization-and-political-polarization-in-online-platforms]{Appendix
+  A3}. Corpus companion entry: Source S-128. Audit ID:
+  \texttt{waller-anderson-online-polarization-2020}. Relevance: That
+  large-scale platform social organization can be measured as fragmented
+  and politically polarized rather than discussed only
+  impressionistically.
+\item
+  arXiv. \href{https://arxiv.org/abs/2504.02176}{Unfiltered: How Teens
+  Engage in Body Image and Shaming Discussions via Instagram Direct
+  Messages (DMs)}. 2025-04-02. T1 paper. Paper appendix:
+  \hyperref[appendix-a4-unfiltered-how-teens-engage-in-body-image-and-shaming-discussions-via-instagram-direct-messages-dms]{Appendix
+  A4}. Corpus companion entry: Source S-072. Audit ID:
+  \texttt{instagram-body-image-dms-2025}. Relevance: That teen
+  body-image discourse on Instagram is not confined to public feeds; it
+  also unfolds in private channels that shape social reinforcement and
+  harm.
+\item
+  arXiv. \href{https://arxiv.org/abs/2507.00299}{When Kids Mode Isn't
+  For Kids: Investigating TikTok's Under 13 Experience}. 2025-06-30. T1
+  paper. Paper appendix:
+  \hyperref[appendix-a5-when-kids-mode-isn-t-for-kids-investigating-tiktok-s-under-13-experience]{Appendix
+  A5}. Corpus companion entry: Source S-118. Audit ID:
+  \texttt{tiktok-kids-mode-2025}. Relevance: That a child-directed
+  platform mode can still expose minors to content that the researchers
+  did not classify as child-directed.
+\item
+  Pew Research Center.
+  \href{https://www.pewresearch.org/global/2022/12/06/social-media-seen-as-mostly-good-for-democracy-across-many-nations-but-u-s-is-a-major-outlier/}{Social
+  Media Seen as Mostly Good for Democracy Across Many Nations, But U.S.
+  is a Major Outlier}. 2022-12-06. T2 report. Paper appendix:
+  \hyperref[appendix-a6-social-media-seen-as-mostly-good-for-democracy-across-many-nations-but-u-s-is-a-major-outlier]{Appendix
+  A6}. Corpus companion entry: Source S-107. Audit ID:
+  \texttt{pew-social-media-democracy-outlier-2022}. Relevance: That
+  cross-national evidence supports the claim that social media is widely
+  associated with manipulation, division, and declining civility, even
+  where some respondents still see\ldots{}
+\item
+  The Guardian.
+  \href{https://www.theguardian.com/media/2024/feb/06/social-media-algorithms-amplifying-misogynistic-content}{Social
+  media algorithms `amplifying misogynistic content'}. 2024-02-06. T2
+  news\_article. Paper appendix:
+  \hyperref[appendix-a7-social-media-algorithms-amplifying-misogynistic-content]{Appendix
+  A7}. Corpus companion entry: Source S-067. Audit ID:
+  \texttt{guardian-tiktok-misogyny-amplification-2024}. Relevance: That
+  serious reporting documents a research finding that recommendation
+  systems can intensify misogynistic content exposure over a short
+  period.
+\item
+  arXiv. \href{https://arxiv.org/abs/2205.10425}{Nudes? Shouldn't I
+  charge for these?: Motivations of New Sexual Content Creators on
+  OnlyFans}. 2022-05-20. T1 paper. Paper appendix:
+  \hyperref[appendix-a8-nudes-shouldn-t-i-charge-for-these-motivations-of-new-sexual-content-creators-on-onlyfans]{Appendix
+  A8}. Corpus companion entry: Source S-068. Audit ID:
+  \texttt{hamilton-onlyfans-new-creators-2022}. Relevance: That
+  mainstream visibility and platform design helped normalize monetized
+  sexual content creation among people with no prior sex-work history.
+\end{enumerate}
+
+\subsection{Appendix A. Source Register for This
+Paper}\label{appendix-a.-source-register-for-this-paper}
+
+\subsubsection{Appendix A1. Social Media and Youth Mental Health: The
+U.S. Surgeon General's
+Advisory}\label{appendix-a1-social-media-and-youth-mental-health-the-u-s-surgeon-general-s-advisory}
+
+\textbf{Source citation:}
+\href{https://www.hhs.gov/surgeongeneral/priorities/youth-mental-health/social-media/index.html}{Social
+Media and Youth Mental Health: The U.S. Surgeon General's Advisory}
+\textbf{Institution / author:} HHS \textbf{Date:} n.d. \textbf{Tier /
+type:} T1 / advisory \textbf{Why it matters in this paper:} That there
+is serious institutional concern about the impact of social networks on
+minors. \textbf{Corpus companion entry:} Source S-069 \textbf{Audit ID:}
+\texttt{hhs-social-media-youth-advisory-2023}
+
+\subsubsection{Appendix A2. What Do We Mean When We Talk about Trust in
+Social Media? A Systematic
+Review}\label{appendix-a2-what-do-we-mean-when-we-talk-about-trust-in-social-media-a-systematic-review}
+
+\textbf{Source citation:} \href{https://arxiv.org/abs/2302.03671}{What
+Do We Mean When We Talk about Trust in Social Media? A Systematic
+Review} \textbf{Institution / author:} arXiv \textbf{Date:} 2023-02-07
+\textbf{Tier / type:} T1 / paper \textbf{Why it matters in this paper:}
+That trust in social media is a serious research problem with enough
+literature to support systematic synthesis. \textbf{Corpus companion
+entry:} Source S-120 \textbf{Audit ID:}
+\texttt{trust-social-media-systematic-review-2023}
+
+\subsubsection{Appendix A3. Quantifying social organization and
+political polarization in online
+platforms}\label{appendix-a3-quantifying-social-organization-and-political-polarization-in-online-platforms}
+
+\textbf{Source citation:}
+\href{https://arxiv.org/abs/2010.00590}{Quantifying social organization
+and political polarization in online platforms} \textbf{Institution /
+author:} arXiv \textbf{Date:} 2020-10-01 \textbf{Tier / type:} T1 /
+paper \textbf{Why it matters in this paper:} That large-scale platform
+social organization can be measured as fragmented and politically
+polarized rather than discussed only impressionistically. \textbf{Corpus
+companion entry:} Source S-128 \textbf{Audit ID:}
+\texttt{waller-anderson-online-polarization-2020}
+
+\subsubsection{Appendix A4. Unfiltered: How Teens Engage in Body Image
+and Shaming Discussions via Instagram Direct Messages
+(DMs)}\label{appendix-a4-unfiltered-how-teens-engage-in-body-image-and-shaming-discussions-via-instagram-direct-messages-dms}
+
+\textbf{Source citation:}
+\href{https://arxiv.org/abs/2504.02176}{Unfiltered: How Teens Engage in
+Body Image and Shaming Discussions via Instagram Direct Messages (DMs)}
+\textbf{Institution / author:} arXiv \textbf{Date:} 2025-04-02
+\textbf{Tier / type:} T1 / paper \textbf{Why it matters in this paper:}
+That teen body-image discourse on Instagram is not confined to public
+feeds; it also unfolds in private channels that shape social
+reinforcement and harm. \textbf{Corpus companion entry:} Source S-072
+\textbf{Audit ID:} \texttt{instagram-body-image-dms-2025}
+
+\subsubsection{Appendix A5. When Kids Mode Isn't For Kids: Investigating
+TikTok's Under 13
+Experience}\label{appendix-a5-when-kids-mode-isn-t-for-kids-investigating-tiktok-s-under-13-experience}
+
+\textbf{Source citation:} \href{https://arxiv.org/abs/2507.00299}{When
+Kids Mode Isn't For Kids: Investigating TikTok's Under 13 Experience}
+\textbf{Institution / author:} arXiv \textbf{Date:} 2025-06-30
+\textbf{Tier / type:} T1 / paper \textbf{Why it matters in this paper:}
+That a child-directed platform mode can still expose minors to content
+that the researchers did not classify as child-directed. \textbf{Corpus
+companion entry:} Source S-118 \textbf{Audit ID:}
+\texttt{tiktok-kids-mode-2025}
+
+\subsubsection{Appendix A6. Social Media Seen as Mostly Good for
+Democracy Across Many Nations, But U.S. is a Major
+Outlier}\label{appendix-a6-social-media-seen-as-mostly-good-for-democracy-across-many-nations-but-u-s-is-a-major-outlier}
+
+\textbf{Source citation:}
+\href{https://www.pewresearch.org/global/2022/12/06/social-media-seen-as-mostly-good-for-democracy-across-many-nations-but-u-s-is-a-major-outlier/}{Social
+Media Seen as Mostly Good for Democracy Across Many Nations, But U.S. is
+a Major Outlier} \textbf{Institution / author:} Pew Research Center
+\textbf{Date:} 2022-12-06 \textbf{Tier / type:} T2 / report \textbf{Why
+it matters in this paper:} That cross-national evidence supports the
+claim that social media is widely associated with manipulation,
+division, and declining civility, even where some respondents still
+see\ldots{} \textbf{Corpus companion entry:} Source S-107 \textbf{Audit
+ID:} \texttt{pew-social-media-democracy-outlier-2022}
+
+\subsubsection{Appendix A7. Social media algorithms `amplifying
+misogynistic
+content'}\label{appendix-a7-social-media-algorithms-amplifying-misogynistic-content}
+
+\textbf{Source citation:}
+\href{https://www.theguardian.com/media/2024/feb/06/social-media-algorithms-amplifying-misogynistic-content}{Social
+media algorithms `amplifying misogynistic content'} \textbf{Institution
+/ author:} The Guardian \textbf{Date:} 2024-02-06 \textbf{Tier / type:}
+T2 / news\_article \textbf{Why it matters in this paper:} That serious
+reporting documents a research finding that recommendation systems can
+intensify misogynistic content exposure over a short period.
+\textbf{Corpus companion entry:} Source S-067 \textbf{Audit ID:}
+\texttt{guardian-tiktok-misogyny-amplification-2024}
+
+\subsubsection{Appendix A8. Nudes? Shouldn't I charge for these?:
+Motivations of New Sexual Content Creators on
+OnlyFans}\label{appendix-a8-nudes-shouldn-t-i-charge-for-these-motivations-of-new-sexual-content-creators-on-onlyfans}
+
+\textbf{Source citation:} \href{https://arxiv.org/abs/2205.10425}{Nudes?
+Shouldn't I charge for these?: Motivations of New Sexual Content
+Creators on OnlyFans} \textbf{Institution / author:} arXiv
+\textbf{Date:} 2022-05-20 \textbf{Tier / type:} T1 / paper \textbf{Why
+it matters in this paper:} That mainstream visibility and platform
+design helped normalize monetized sexual content creation among people
+with no prior sex-work history. \textbf{Corpus companion entry:} Source
+S-068 \textbf{Audit ID:} \texttt{hamilton-onlyfans-new-creators-2022}
+
+\subsection{Appendix B. Claims Used in This
+Paper}\label{appendix-b.-claims-used-in-this-paper}
+
+\subsubsection{Appendix B1. Serious reporting documents a research
+finding that recommendation systems can
+in\ldots{}}\label{appendix-b1-serious-reporting-documents-a-research-finding-that-recommendation-systems-can-in}
+
+\textbf{Claim statement:} That serious reporting documents a research
+finding that recommendation systems can intensify misogynistic content
+exposure over a short period. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a7-social-media-algorithms-amplifying-misogynistic-content]{Appendix
+A7} \textbf{Corpus companion entry:} Claim C-210 \textbf{Audit Claim
+ID:}
+\texttt{guardian-tiktok-misogyny-amplification-2024-02-social-decay-youth-harm-hypersexualization-claim-01}
+
+\subsubsection{Appendix B2. Chapter 2 can discuss algorithmic
+amplification of misogynistic norm formation
+wi\ldots{}}\label{appendix-b2-chapter-2-can-discuss-algorithmic-amplification-of-misogynistic-norm-formation-wi}
+
+\textbf{Claim statement:} That Chapter 2 can discuss algorithmic
+amplification of misogynistic norm formation with more than anecdotal
+support. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a7-social-media-algorithms-amplifying-misogynistic-content]{Appendix
+A7} \textbf{Corpus companion entry:} Claim C-211 \textbf{Audit Claim
+ID:}
+\texttt{guardian-tiktok-misogyny-amplification-2024-02-social-decay-youth-harm-hypersexualization-claim-02}
+
+\subsubsection{Appendix B3. The dossier can connect youth-facing
+platform design to moral and social
+reconfig\ldots{}}\label{appendix-b3-the-dossier-can-connect-youth-facing-platform-design-to-moral-and-social-reconfig}
+
+\textbf{Claim statement:} That the dossier can connect youth-facing
+platform design to moral and social reconfiguration without reducing the
+argument to a generalized complaint about bad culture. \textbf{Evidence
+status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a7-social-media-algorithms-amplifying-misogynistic-content]{Appendix
+A7} \textbf{Corpus companion entry:} Claim C-212 \textbf{Audit Claim
+ID:}
+\texttt{guardian-tiktok-misogyny-amplification-2024-02-social-decay-youth-harm-hypersexualization-claim-03}
+
+\subsubsection{Appendix B4. Mainstream visibility and platform design
+helped normalize monetized sexual
+conte\ldots{}}\label{appendix-b4-mainstream-visibility-and-platform-design-helped-normalize-monetized-sexual-conte}
+
+\textbf{Claim statement:} That mainstream visibility and platform design
+helped normalize monetized sexual content creation among people with no
+prior sex-work history. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a8-nudes-shouldn-t-i-charge-for-these-motivations-of-new-sexual-content-creators-on-onlyfans]{Appendix
+A8} \textbf{Corpus companion entry:} Claim C-213 \textbf{Audit Claim
+ID:}
+\texttt{hamilton-onlyfans-new-creators-2022-02-social-decay-youth-harm-hypersexualization-claim-01}
+
+\subsubsection{Appendix B5. The pandemic was a documented adoption
+driver in this
+transition}\label{appendix-b5-the-pandemic-was-a-documented-adoption-driver-in-this-transition}
+
+\textbf{Claim statement:} That the pandemic was a documented adoption
+driver in this transition. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a8-nudes-shouldn-t-i-charge-for-these-motivations-of-new-sexual-content-creators-on-onlyfans]{Appendix
+A8} \textbf{Corpus companion entry:} Claim C-214 \textbf{Audit Claim
+ID:}
+\texttt{hamilton-onlyfans-new-creators-2022-02-social-decay-youth-harm-hypersexualization-claim-02}
+
+\subsubsection{Appendix B6. Chapter 2 can discuss digital prostitution
+glamour and normalization with a
+real\ldots{}}\label{appendix-b6-chapter-2-can-discuss-digital-prostitution-glamour-and-normalization-with-a-real}
+
+\textbf{Claim statement:} That Chapter 2 can discuss digital
+prostitution glamour and normalization with a real research basis rather
+than relying only on celebrity examples or moral impression.
+\textbf{Evidence status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a8-nudes-shouldn-t-i-charge-for-these-motivations-of-new-sexual-content-creators-on-onlyfans]{Appendix
+A8} \textbf{Corpus companion entry:} Claim C-215 \textbf{Audit Claim
+ID:}
+\texttt{hamilton-onlyfans-new-creators-2022-02-social-decay-youth-harm-hypersexualization-claim-03}
+
+\subsubsection{Appendix B7. There is serious institutional concern about
+the impact of social networks on
+minors}\label{appendix-b7-there-is-serious-institutional-concern-about-the-impact-of-social-networks-on-minors}
+
+\textbf{Claim statement:} That there is serious institutional concern
+about the impact of social networks on minors. \textbf{Evidence status:}
+Documented Fact \textbf{Source support:}
+\hyperref[appendix-a1-social-media-and-youth-mental-health-the-u-s-surgeon-general-s-advisory]{Appendix
+A1} \textbf{Corpus companion entry:} Claim C-216 \textbf{Audit Claim
+ID:} \texttt{hhs-social-media-youth-advisory-2023-claim-01}
+
+\subsubsection{Appendix B8. There is enough basis to discuss
+psychosocial harm and cumulative risks in
+young\ldots{}}\label{appendix-b8-there-is-enough-basis-to-discuss-psychosocial-harm-and-cumulative-risks-in-young}
+
+\textbf{Claim statement:} That there is enough basis to discuss
+psychosocial harm and cumulative risks in young populations.
+\textbf{Evidence status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a1-social-media-and-youth-mental-health-the-u-s-surgeon-general-s-advisory]{Appendix
+A1} \textbf{Corpus companion entry:} Claim C-217 \textbf{Audit Claim
+ID:} \texttt{hhs-social-media-youth-advisory-2023-claim-02}
+
+\subsubsection{Appendix B9. The discussion about youth does not depend
+only on moral intuition or cultural
+no\ldots{}}\label{appendix-b9-the-discussion-about-youth-does-not-depend-only-on-moral-intuition-or-cultural-no}
+
+\textbf{Claim statement:} That the discussion about youth does not
+depend only on moral intuition or cultural nostalgia. \textbf{Evidence
+status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a1-social-media-and-youth-mental-health-the-u-s-surgeon-general-s-advisory]{Appendix
+A1} \textbf{Corpus companion entry:} Claim C-218 \textbf{Audit Claim
+ID:} \texttt{hhs-social-media-youth-advisory-2023-claim-03}
+
+\subsubsection{Appendix B10. Teen body-image discourse on Instagram is
+not confined to public feeds; it also
+u\ldots{}}\label{appendix-b10-teen-body-image-discourse-on-instagram-is-not-confined-to-public-feeds-it-also-u}
+
+\textbf{Claim statement:} That teen body-image discourse on Instagram is
+not confined to public feeds; it also unfolds in private channels that
+shape social reinforcement and harm. \textbf{Evidence status:}
+Documented Fact \textbf{Source support:}
+\hyperref[appendix-a4-unfiltered-how-teens-engage-in-body-image-and-shaming-discussions-via-instagram-direct-messages-dms]{Appendix
+A4} \textbf{Corpus companion entry:} Claim C-225 \textbf{Audit Claim
+ID:}
+\texttt{instagram-body-image-dms-2025-02-social-decay-youth-harm-hypersexualization-claim-01}
+
+\subsubsection{Appendix B11. Platform architecture matters: the
+difference between one-on-one and group
+settin\ldots{}}\label{appendix-b11-platform-architecture-matters-the-difference-between-one-on-one-and-group-settin}
+
+\textbf{Claim statement:} That platform architecture matters: the
+difference between one-on-one and group settings changes the texture of
+support, criticism, and shaming. \textbf{Evidence status:} Documented
+Fact \textbf{Source support:}
+\hyperref[appendix-a4-unfiltered-how-teens-engage-in-body-image-and-shaming-discussions-via-instagram-direct-messages-dms]{Appendix
+A4} \textbf{Corpus companion entry:} Claim C-226 \textbf{Audit Claim
+ID:}
+\texttt{instagram-body-image-dms-2025-02-social-decay-youth-harm-hypersexualization-claim-02}
+
+\subsubsection{Appendix B12. Chapter 2 can discuss mediated body-image
+norms with stronger empirical
+grounding\ldots{}}\label{appendix-b12-chapter-2-can-discuss-mediated-body-image-norms-with-stronger-empirical-grounding}
+
+\textbf{Claim statement:} That Chapter 2 can discuss mediated body-image
+norms with stronger empirical grounding than a general moral complaint.
+\textbf{Evidence status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a4-unfiltered-how-teens-engage-in-body-image-and-shaming-discussions-via-instagram-direct-messages-dms]{Appendix
+A4} \textbf{Corpus companion entry:} Claim C-227 \textbf{Audit Claim
+ID:}
+\texttt{instagram-body-image-dms-2025-02-social-decay-youth-harm-hypersexualization-claim-03}
+
+\subsubsection{Appendix B13. Cross-national evidence supports the claim
+that social media is widely
+associated\ldots{}}\label{appendix-b13-cross-national-evidence-supports-the-claim-that-social-media-is-widely-associated}
+
+\textbf{Claim statement:} That cross-national evidence supports the
+claim that social media is widely associated with manipulation,
+division, and declining civility, even where some respondents still see
+democratic benefits. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a6-social-media-seen-as-mostly-good-for-democracy-across-many-nations-but-u-s-is-a-major-outlier]{Appendix
+A6} \textbf{Corpus companion entry:} Claim C-353 \textbf{Audit Claim
+ID:}
+\texttt{pew-social-media-democracy-outlier-2022-02-social-decay-youth-harm-hypersexualization-claim-01}
+
+\subsubsection{Appendix B14. The United States can be treated as an
+unusually severe case in the
+trust-and-fra\ldots{}}\label{appendix-b14-the-united-states-can-be-treated-as-an-unusually-severe-case-in-the-trust-and-fra}
+
+\textbf{Claim statement:} That the United States can be treated as an
+unusually severe case in the trust-and-fragmentation story rather than
+as just another generic example. \textbf{Evidence status:} Documented
+Fact \textbf{Source support:}
+\hyperref[appendix-a6-social-media-seen-as-mostly-good-for-democracy-across-many-nations-but-u-s-is-a-major-outlier]{Appendix
+A6} \textbf{Corpus companion entry:} Claim C-354 \textbf{Audit Claim
+ID:}
+\texttt{pew-social-media-democracy-outlier-2022-02-social-decay-youth-harm-hypersexualization-claim-02}
+
+\subsubsection{Appendix B15. Chapter 2 can connect platform-mediated
+social erosion to democratic trust and
+ci\ldots{}}\label{appendix-b15-chapter-2-can-connect-platform-mediated-social-erosion-to-democratic-trust-and-ci}
+
+\textbf{Claim statement:} That Chapter 2 can connect platform-mediated
+social erosion to democratic trust and civic coherence with stronger
+evidence than youth-harm studies alone provide. \textbf{Evidence
+status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a6-social-media-seen-as-mostly-good-for-democracy-across-many-nations-but-u-s-is-a-major-outlier]{Appendix
+A6} \textbf{Corpus companion entry:} Claim C-355 \textbf{Audit Claim
+ID:}
+\texttt{pew-social-media-democracy-outlier-2022-02-social-decay-youth-harm-hypersexualization-claim-03}
+
+\subsubsection{Appendix B16. A child-directed platform mode can still
+expose minors to content that the
+resear\ldots{}}\label{appendix-b16-a-child-directed-platform-mode-can-still-expose-minors-to-content-that-the-resear}
+
+\textbf{Claim statement:} That a child-directed platform mode can still
+expose minors to content that the researchers did not classify as
+child-directed. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a5-when-kids-mode-isn-t-for-kids-investigating-tiktok-s-under-13-experience]{Appendix
+A5} \textbf{Corpus companion entry:} Claim C-385 \textbf{Audit Claim
+ID:}
+\texttt{tiktok-kids-mode-2025-02-social-decay-youth-harm-hypersexualization-claim-01}
+
+\subsubsection{Appendix B17. Chapter 2 can discuss platform design
+failures affecting minors with concrete
+evi\ldots{}}\label{appendix-b17-chapter-2-can-discuss-platform-design-failures-affecting-minors-with-concrete-evi}
+
+\textbf{Claim statement:} That Chapter 2 can discuss platform design
+failures affecting minors with concrete evidence rather than only
+generalized concern. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a5-when-kids-mode-isn-t-for-kids-investigating-tiktok-s-under-13-experience]{Appendix
+A5} \textbf{Corpus companion entry:} Claim C-386 \textbf{Audit Claim
+ID:}
+\texttt{tiktok-kids-mode-2025-02-social-decay-youth-harm-hypersexualization-claim-02}
+
+\subsubsection{Appendix B18. Youth-risk arguments in the dossier can
+include the mismatch between stated
+safet\ldots{}}\label{appendix-b18-youth-risk-arguments-in-the-dossier-can-include-the-mismatch-between-stated-safet}
+
+\textbf{Claim statement:} That youth-risk arguments in the dossier can
+include the mismatch between stated safety framing and actual curation
+outcomes. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a5-when-kids-mode-isn-t-for-kids-investigating-tiktok-s-under-13-experience]{Appendix
+A5} \textbf{Corpus companion entry:} Claim C-387 \textbf{Audit Claim
+ID:}
+\texttt{tiktok-kids-mode-2025-02-social-decay-youth-harm-hypersexualization-claim-03}
+
+\subsubsection{Appendix B19. Trust in social media is a serious research
+problem with enough literature to
+sup\ldots{}}\label{appendix-b19-trust-in-social-media-is-a-serious-research-problem-with-enough-literature-to-sup}
+
+\textbf{Claim statement:} That trust in social media is a serious
+research problem with enough literature to support systematic synthesis.
+\textbf{Evidence status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a2-what-do-we-mean-when-we-talk-about-trust-in-social-media-a-systematic-review]{Appendix
+A2} \textbf{Corpus companion entry:} Claim C-391 \textbf{Audit Claim
+ID:}
+\texttt{trust-social-media-systematic-review-2023-02-social-decay-youth-harm-hypersexualization-claim-01}
+
+\subsubsection{Appendix B20. Trust in platforms, users, and content
+should not be treated as interchangeable
+c\ldots{}}\label{appendix-b20-trust-in-platforms-users-and-content-should-not-be-treated-as-interchangeable-c}
+
+\textbf{Claim statement:} That trust in platforms, users, and content
+should not be treated as interchangeable concepts inside the dossier.
+\textbf{Evidence status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a2-what-do-we-mean-when-we-talk-about-trust-in-social-media-a-systematic-review]{Appendix
+A2} \textbf{Corpus companion entry:} Claim C-392 \textbf{Audit Claim
+ID:}
+\texttt{trust-social-media-systematic-review-2023-02-social-decay-youth-harm-hypersexualization-claim-02}
+
+\subsubsection{Appendix B21. Chapter 2 can discuss erosion of trust and
+social interpretation with scholarly
+s\ldots{}}\label{appendix-b21-chapter-2-can-discuss-erosion-of-trust-and-social-interpretation-with-scholarly-s}
+
+\textbf{Claim statement:} That Chapter 2 can discuss erosion of trust
+and social interpretation with scholarly support, while still keeping
+conceptual precision. \textbf{Evidence status:} Documented Fact
+\textbf{Source support:}
+\hyperref[appendix-a2-what-do-we-mean-when-we-talk-about-trust-in-social-media-a-systematic-review]{Appendix
+A2} \textbf{Corpus companion entry:} Claim C-393 \textbf{Audit Claim
+ID:}
+\texttt{trust-social-media-systematic-review-2023-02-social-decay-youth-harm-hypersexualization-claim-03}
+
+\subsubsection{Appendix B22. Large-scale platform social organization
+can be measured as fragmented and
+politi\ldots{}}\label{appendix-b22-large-scale-platform-social-organization-can-be-measured-as-fragmented-and-politi}
+
+\textbf{Claim statement:} That large-scale platform social organization
+can be measured as fragmented and politically polarized rather than
+discussed only impressionistically. \textbf{Evidence status:} Documented
+Fact \textbf{Source support:}
+\hyperref[appendix-a3-quantifying-social-organization-and-political-polarization-in-online-platforms]{Appendix
+A3} \textbf{Corpus companion entry:} Claim C-470 \textbf{Audit Claim
+ID:}
+\texttt{waller-anderson-online-polarization-2020-02-social-decay-youth-harm-hypersexualization-claim-01}
+
+\subsubsection{Appendix B23. Chapter 2 can move beyond youth harm alone
+and document broader social
+fragmentat\ldots{}}\label{appendix-b23-chapter-2-can-move-beyond-youth-harm-alone-and-document-broader-social-fragmentat}
+
+\textbf{Claim statement:} That Chapter 2 can move beyond youth harm
+alone and document broader social fragmentation as a platform-structured
+phenomenon. \textbf{Evidence status:} Documented Fact \textbf{Source
+support:}
+\hyperref[appendix-a3-quantifying-social-organization-and-political-polarization-in-online-platforms]{Appendix
+A3} \textbf{Corpus companion entry:} Claim C-471 \textbf{Audit Claim
+ID:}
+\texttt{waller-anderson-online-polarization-2020-02-social-decay-youth-harm-hypersexualization-claim-02}
+
+\subsubsection{Appendix B24. The strongest version of the argument
+should focus on system-level polarization
+d\ldots{}}\label{appendix-b24-the-strongest-version-of-the-argument-should-focus-on-system-level-polarization-d}
+
+\textbf{Claim statement:} That the strongest version of the argument
+should focus on system-level polarization dynamics, not a simplistic
+claim that every individual user became equally radicalized.
+\textbf{Evidence status:} Documented Fact \textbf{Source support:}
+\hyperref[appendix-a3-quantifying-social-organization-and-political-polarization-in-online-platforms]{Appendix
+A3} \textbf{Corpus companion entry:} Claim C-472 \textbf{Audit Claim
+ID:}
+\texttt{waller-anderson-online-polarization-2020-02-social-decay-youth-harm-hypersexualization-claim-03}
+
+\subsubsection{Appendix B25. Documented youth exposure, recommendation
+amplification, trust erosion, and
+fragm\ldots{}}\label{appendix-b25-documented-youth-exposure-recommendation-amplification-trust-erosion-and-fragm}
+
+\textbf{Claim statement:} That documented youth exposure, recommendation
+amplification, trust erosion, and fragmentation support a
+sovereign-scale duty framework under a refactored Section 230 focused on
+design, exposure, and systemic harm. \textbf{Evidence status:}
+Hypothesis / Interpretation \textbf{Source support:}
+\hyperref[appendix-a1-social-media-and-youth-mental-health-the-u-s-surgeon-general-s-advisory]{Appendix
+A1},
+\hyperref[appendix-a6-social-media-seen-as-mostly-good-for-democracy-across-many-nations-but-u-s-is-a-major-outlier]{Appendix
+A6} \textbf{Corpus companion entry:} Claim C-419 \textbf{Audit Claim
+ID:} \texttt{vector02-design-duty-section230-claim-01}
+
+\subsubsection{Appendix B26. Platform optimization alone fully explains
+contemporary moral decline, every
+yout\ldots{}}\label{appendix-b26-platform-optimization-alone-fully-explains-contemporary-moral-decline-every-yout}
+
+\textbf{Claim statement:} That platform optimization alone fully
+explains contemporary moral decline, every youth pathology, or every
+downstream cultural change associated with digital life.
+\textbf{Evidence status:} Speculative Narrative Risk \textbf{Source
+support:}
+\hyperref[appendix-a1-social-media-and-youth-mental-health-the-u-s-surgeon-general-s-advisory]{Appendix
+A1} \textbf{Corpus companion entry:} Claim C-420 \textbf{Audit Claim
+ID:} \texttt{vector02-total-moral-decline-overclaim-claim-01}
+
+\subsection{Appendix C. Timeline
+Slice}\label{appendix-c.-timeline-slice}
+
+\subsubsection{Appendix C1. 2020-10-01: A large-scale study documents
+system-level polarization dynamics across Reddit
+commun\ldots{}}\label{appendix-c1-2020-10-01-a-large-scale-study-documents-system-level-polarization-dynamics-across-reddit-communities}
+
+\textbf{Event summary:} A large-scale study documents system-level
+polarization dynamics across Reddit communities \textbf{Event date:}
+2020-10-01 \textbf{Source support:}
+\hyperref[appendix-a3-quantifying-social-organization-and-political-polarization-in-online-platforms]{Appendix
+A3} \textbf{Corpus companion entry:} Event T-008 \textbf{Audit Event
+ID:} \texttt{event-reddit-polarization-study-2020-10-01}
+
+\subsubsection{Appendix C2. 2022-05-20: A study documents mainstream
+acceptance as a driver of new OnlyFans sexual-content
+cr\ldots{}}\label{appendix-c2-2022-05-20-a-study-documents-mainstream-acceptance-as-a-driver-of-new-onlyfans-sexual-content-creators}
+
+\textbf{Event summary:} A study documents mainstream acceptance as a
+driver of new OnlyFans sexual-content creators \textbf{Event date:}
+2022-05-20 \textbf{Source support:}
+\hyperref[appendix-a8-nudes-shouldn-t-i-charge-for-these-motivations-of-new-sexual-content-creators-on-onlyfans]{Appendix
+A8} \textbf{Corpus companion entry:} Event T-018 \textbf{Audit Event
+ID:} \texttt{event-onlyfans-mainstreaming-study-2022-05-20}
+
+\subsubsection{Appendix C3. 2022-12-06: Pew publishes cross-national
+findings on social media, democracy, manipulation, and
+d\ldots{}}\label{appendix-c3-2022-12-06-pew-publishes-cross-national-findings-on-social-media-democracy-manipulation-and-division}
+
+\textbf{Event summary:} Pew publishes cross-national findings on social
+media, democracy, manipulation, and division \textbf{Event date:}
+2022-12-06 \textbf{Source support:}
+\hyperref[appendix-a6-social-media-seen-as-mostly-good-for-democracy-across-many-nations-but-u-s-is-a-major-outlier]{Appendix
+A6} \textbf{Corpus companion entry:} Event T-019 \textbf{Audit Event
+ID:} \texttt{event-pew-social-democracy-outlier-2022-12-06}
+
+\subsubsection{Appendix C4. 2024-02-06: Researchers report rapid
+amplification of misogynistic recommendations on
+TikTok}\label{appendix-c4-2024-02-06-researchers-report-rapid-amplification-of-misogynistic-recommendations-on-tiktok}
+
+\textbf{Event summary:} Researchers report rapid amplification of
+misogynistic recommendations on TikTok \textbf{Event date:} 2024-02-06
+\textbf{Source support:}
+\hyperref[appendix-a7-social-media-algorithms-amplifying-misogynistic-content]{Appendix
+A7} \textbf{Corpus companion entry:} Event T-041 \textbf{Audit Event
+ID:} \texttt{event-tiktok-misogyny-amplification-2024-02-06}
+
+\subsection{Appendix D. Relevant
+Entities}\label{appendix-d.-relevant-entities}
+
+\subsubsection{Appendix D1. Instagram}\label{appendix-d1-instagram}
+
+\textbf{Entity type:} platform \textbf{Role in this paper:} Actor
+relevant to 02\_social\_decay\_youth\_harm\_hypersexualization.
+\textbf{Relevant sources in this paper:}
+\hyperref[appendix-a4-unfiltered-how-teens-engage-in-body-image-and-shaming-discussions-via-instagram-direct-messages-dms]{Appendix
+A4} \textbf{Corpus companion entry:} Entity E-021 \textbf{Audit Entity
+ID:} \texttt{org-instagram}
+
+\subsubsection{Appendix D2. OnlyFans}\label{appendix-d2-onlyfans}
+
+\textbf{Entity type:} platform \textbf{Role in this paper:} Actor
+relevant to 02\_social\_decay\_youth\_harm\_hypersexualization.
+\textbf{Relevant sources in this paper:}
+\hyperref[appendix-a8-nudes-shouldn-t-i-charge-for-these-motivations-of-new-sexual-content-creators-on-onlyfans]{Appendix
+A8} \textbf{Corpus companion entry:} Entity E-026 \textbf{Audit Entity
+ID:} \texttt{org-onlyfans}
+
+\subsubsection{Appendix D3. Reddit}\label{appendix-d3-reddit}
+
+\textbf{Entity type:} platform \textbf{Role in this paper:} Actor
+relevant to 02\_social\_decay\_youth\_harm\_hypersexualization,
+04\_data\_to\_models\_copyright\_weights. \textbf{Relevant sources in
+this paper:}
+\hyperref[appendix-a3-quantifying-social-organization-and-political-polarization-in-online-platforms]{Appendix
+A3} \textbf{Corpus companion entry:} Entity E-032 \textbf{Audit Entity
+ID:} \texttt{org-reddit}
+
+\subsubsection{Appendix D4. TikTok}\label{appendix-d4-tiktok}
+
+\textbf{Entity type:} platform \textbf{Role in this paper:} Actor
+relevant to 02\_social\_decay\_youth\_harm\_hypersexualization.
+\textbf{Relevant sources in this paper:}
+\hyperref[appendix-a5-when-kids-mode-isn-t-for-kids-investigating-tiktok-s-under-13-experience]{Appendix
+A5},
+\hyperref[appendix-a7-social-media-algorithms-amplifying-misogynistic-content]{Appendix
+A7} \textbf{Corpus companion entry:} Entity E-034 \textbf{Audit Entity
+ID:} \texttt{org-tiktok}
+
+\subsubsection{Appendix D5. U.S. Surgeon General /
+HHS}\label{appendix-d5-u-s-surgeon-general-hhs}
+
+\textbf{Entity type:} public\_health \textbf{Role in this paper:} Actor
+relevant to 02\_social\_decay\_youth\_harm\_hypersexualization.
+\textbf{Relevant sources in this paper:}
+\hyperref[appendix-a1-social-media-and-youth-mental-health-the-u-s-surgeon-general-s-advisory]{Appendix
+A1} \textbf{Corpus companion entry:} Entity E-019 \textbf{Audit Entity
+ID:} \texttt{org-hhs-surgeon-general}
+
+\subsubsection{Appendix D6. Pew Research
+Center}\label{appendix-d6-pew-research-center}
+
+\textbf{Entity type:} research\_institution \textbf{Role in this paper:}
+Actor relevant to 02\_social\_decay\_youth\_harm\_hypersexualization.
+\textbf{Relevant sources in this paper:}
+\hyperref[appendix-a6-social-media-seen-as-mostly-good-for-democracy-across-many-nations-but-u-s-is-a-major-outlier]{Appendix
+A6} \textbf{Corpus companion entry:} Entity E-030 \textbf{Audit Entity
+ID:} \texttt{org-pew-research-center}
+
+\subsection{Appendix E. Evidence
+Boundaries}\label{appendix-e.-evidence-boundaries}
+
+\subsubsection{Appendix E1. Disputed
+Matters}\label{appendix-e1-disputed-matters}
+
+\begin{itemize}
+\tightlist
+\item
+  None registered for this paper.
+\end{itemize}
+
+\subsubsection{Appendix E2. Interpretive
+Boundaries}\label{appendix-e2-interpretive-boundaries}
+
+\begin{itemize}
+\tightlist
+\item
+  \hyperref[appendix-b25-documented-youth-exposure-recommendation-amplification-trust-erosion-and-fragm]{Appendix
+  B25}: That documented youth exposure, recommendation amplification,
+  trust erosion, and fragmentation support a sovereign-scale duty
+  framework under a refactored Section 230 focused on design, exposure,
+  and systemic harm.
+\end{itemize}
+
+\subsubsection{Appendix E3. Speculative Narrative
+Risks}\label{appendix-e3-speculative-narrative-risks}
+
+\begin{itemize}
+\tightlist
+\item
+  \hyperref[appendix-b26-platform-optimization-alone-fully-explains-contemporary-moral-decline-every-yout]{Appendix
+  B26}: That platform optimization alone fully explains contemporary
+  moral decline, every youth pathology, or every downstream cultural
+  change associated with digital life.
+\end{itemize}
+
+\subsubsection{Appendix E4. Sensitive or Review-Worthy Note
+Flags}\label{appendix-e4-sensitive-or-review-worthy-note-flags}
+
+\begin{itemize}
+\tightlist
+\item
+  \hyperref[appendix-a7-social-media-algorithms-amplifying-misogynistic-content]{Appendix
+  A7}. Companion note: Note N-008. Risk flag: medium. Note focus: That
+  serious reporting documents a research finding that recommendation
+  systems can intensify misogynistic content exposure over a short
+  period.
+\item
+  \hyperref[appendix-a8-nudes-shouldn-t-i-charge-for-these-motivations-of-new-sexual-content-creators-on-onlyfans]{Appendix
+  A8}. Companion note: Note N-009. Risk flag: medium. Note focus: That
+  mainstream visibility and platform design helped normalize monetized
+  sexual content creation among people with no prior sex-work history.
+\item
+  \hyperref[appendix-a1-social-media-and-youth-mental-health-the-u-s-surgeon-general-s-advisory]{Appendix
+  A1}. Companion note: Note N-010. Risk flag: low. Note focus: That
+  there is serious institutional concern about the impact of social
+  networks on minors.
+\item
+  \hyperref[appendix-a4-unfiltered-how-teens-engage-in-body-image-and-shaming-discussions-via-instagram-direct-messages-dms]{Appendix
+  A4}. Companion note: Note N-011. Risk flag: review. Note focus: That
+  teen body-image discourse on Instagram is not confined to public
+  feeds; it also unfolds in private channels that shape social
+  reinforcement and harm.
+\item
+  \hyperref[appendix-a6-social-media-seen-as-mostly-good-for-democracy-across-many-nations-but-u-s-is-a-major-outlier]{Appendix
+  A6}. Companion note: Note N-012. Risk flag: review. Note focus: That
+  cross-national evidence supports the claim that social media is widely
+  associated with manipulation, division, and declining civility, even
+  where some respondents still see democratic benefits.
+\item
+  \hyperref[appendix-a5-when-kids-mode-isn-t-for-kids-investigating-tiktok-s-under-13-experience]{Appendix
+  A5}. Companion note: Note N-013. Risk flag: review. Note focus: That a
+  child-directed platform mode can still expose minors to content that
+  the researchers did not classify as child-directed.
+\item
+  \hyperref[appendix-a2-what-do-we-mean-when-we-talk-about-trust-in-social-media-a-systematic-review]{Appendix
+  A2}. Companion note: Note N-014. Risk flag: review. Note focus: That
+  trust in social media is a serious research problem with enough
+  literature to support systematic synthesis.
+\item
+  \hyperref[appendix-a3-quantifying-social-organization-and-political-polarization-in-online-platforms]{Appendix
+  A3}. Companion note: Note N-015. Risk flag: medium. Note focus: That
+  large-scale platform social organization can be measured as fragmented
+  and politically polarized rather than discussed only
+  impressionistically.
+\end{itemize}
+
+\end{document}

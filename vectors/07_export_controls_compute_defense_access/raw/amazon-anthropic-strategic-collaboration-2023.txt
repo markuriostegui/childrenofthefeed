@@ -1,0 +1,14 @@
+Source: Amazon, "Amazon and Anthropic Announce Strategic Collaboration to Advance Generative AI"
+URL: https://press.aboutamazon.com/2023/9/amazon-and-anthropic-announce-strategic-collaboration-to-advance-generative-ai
+Published: 2023-09-25
+Captured: 2026-07-03T02:00:00Z
+Capture mode: manual-web-excerpt
+
+Verified excerpt points from Codex web capture:
+- Page date: September 25, 2023.
+- The subheading says Anthropic selected AWS as its primary cloud provider.
+- The subheading says Anthropic will train and deploy future foundation models on AWS Trainium and Inferentia chips.
+- The body says Anthropic will use AWS Trainium and Inferentia chips to build, train, and deploy future foundation models.
+- The body says AWS will become Anthropic's primary cloud provider for mission-critical workloads, including safety research and future foundation model development.
+- The body says Anthropic plans to run the majority of its workloads on AWS.
+- The release says Amazon will invest up to $4 billion in Anthropic and take a minority ownership position.

@@ -1,0 +1,307 @@
+URL: https://openai.com/index/sam-altman-returns-as-ceo-openai-has-a-new-initial-board/
+TITLE: Sam Altman returns as CEO, OpenAI has a new initial board | OpenAI
+
+- banner:
+  - link "Skip to main content":
+    - /url: "#main"
+  - link "OpenAI Home":
+    - /url: /
+  - navigation "Main Navigation":
+    - list:
+      - link "Research":
+        - /url: /research/index/
+        - generic: Research
+      - button "Research menu"
+      - button "Products":
+        - generic: Products
+      - button "Products menu"
+      - link "Business":
+        - /url: /business/
+        - generic: Business
+      - button "Business menu"
+      - link "Developers":
+        - /url: /api/
+        - generic: Developers
+      - button "Developers menu"
+      - link "Company":
+        - /url: /about/
+        - generic: Company
+      - button "Company menu"
+      - link "Foundation (opens in a new window)":
+        - /url: https://openaifoundation.org/
+        - generic: Foundation
+        - generic: (opens in a new window)
+  - button "Open Search":
+  - button "Close Search":
+  - button "Log in":
+    - text: Log in
+  - link "Try ChatGPT (opens in a new window)":
+    - /url: https://chatgpt.com/?openaicom-did=4f1bc7ac-d2ae-4283-b546-81a6f9822d7c&openaicom_referred=true
+    - text: Try ChatGPT
+    - generic: (opens in a new window)
+- main:
+  - generic: Sam Altman returns as CEO, OpenAI has a new initial board | OpenAI
+  - article:
+    - paragraph: November 29, 2023
+    - link "Company":
+      - /url: /news/company-announcements/
+    - heading "Sam Altman returns as CEO, OpenAI has a new initial board" [level=1]
+    - paragraph: Mira Murati as CTO, Greg Brockman returns as President. Read messages from CEO Sam Altman and board chair Bret Taylor.
+    - img "OpenAI logo"
+    - button "Play audio of page text" [disabled]:
+    - generic: Loading…
+    - button "Share":
+      - text: Share
+    - navigation "Table of contents":
+      - paragraph: Table of contents
+      - list:
+        - link "Message from Sam to the company":
+          - /url: "#message-from-sam-to-the-company"
+        - link "Message from Bret to the company":
+          - /url: "#message-from-bret-to-the-company"
+    - paragraph:
+      - generic: Below are messages CEO Sam Altman and board chair Bret Taylor shared with the company this afternoon.
+    - heading "Message from Sam to the company" [level=2]
+    - paragraph: I am returning to OpenAI as CEO. Mira will return to her role as CTO. The new initial board will consist of Bret Taylor (Chair), Larry Summers, and Adam D’Angelo.
+    - paragraph: I have never been more excited about the future. I am extremely grateful for everyone’s hard work in an unclear and unprecedented situation, and I believe our resilience and spirit set us apart in the industry. I feel so, so good about our probability of success for achieving our mission.
+    - paragraph: Before getting to what comes next, I’d like to share some thanks.
+    - paragraph: I love and respect Ilya, I think he's a guiding light of the field and a gem of a human being. I harbor zero ill will towards him. While Ilya will no longer serve on the board, we hope to continue our working relationship and are discussing how he can continue his work at OpenAI.
+    - paragraph: I am grateful to Adam, Tasha, and Helen for working with us to come to this solution that best serves the mission. I’m excited to continue to work with Adam and am sincerely thankful to Helen and Tasha for investing a huge amount of effort in this process.
+    - paragraph: Thank you also to Emmett who had a key and constructive role in helping us reach this outcome. Emmett’s dedication to AI safety and balancing stakeholders’ interests was clear.
+    - paragraph: Mira did an amazing job throughout all of this, serving the mission, the team, and the company selflessly throughout. She is an incredible leader and OpenAI would not be OpenAI without her. Thank you.
+    - paragraph: Greg and I are partners in running this company. We have never quite figured out how to communicate that on the org chart, but we will. In the meantime, I just wanted to make it clear. Thank you for everything you have done since the very beginning, and for how you handled things from the moment this started and over the last week.
+    - paragraph: The leadership team–Mira, Brad, Jason, Che, Hannah, Diane, Anna, Bob, Srinivas, Matt, Lilian, Miles, Jan, Wojciech, John, Jonathan, Pat, and many more–is clearly ready to run the company without me. They say one way to evaluate a CEO is how you pick and train your potential successors; on that metric I am doing far better than I realized. It’s clear to me that the company is in great hands, and I hope this is abundantly clear to everyone. Thank you all.
+    - paragraph: Jakub, Szymon, and Aleksander are exceptional talents and I’m so happy they have rejoined to move us and our research forward. Thank you.
+    - paragraph: "To all of you, our team: I am sure books are going to be written about this time period, and I hope the first thing they say is how amazing the entire team has been. Now that we’re through all of this, we didn’t lose a single employee. You stood firm for each other, this company, and our mission. One of the most important things for the team that builds AGI safely is the ability to handle stressful and uncertain situations, and maintain good judgment throughout. Top marks. Thank you all."
+    - paragraph: Satya, Kevin, Amy, and Brad have been incredible partners throughout this, with exactly the right priorities all the way through. They’ve had our backs and were ready to welcome all of us if we couldn’t achieve our primary goal. We clearly made the right choice to partner with Microsoft and I’m excited that our new board will include them as a non-voting observer. Thank you.
+    - paragraph: To our partners and users, thank you for sticking with us. We really felt the outpouring of support and love, and it helped all of us get through this. The fact that we did not lose a single customer will drive us to work even harder for you, and we are all excited to get back to work.
+    - paragraph: Will Hurd, Brian Chesky, Bret Taylor and Larry Summers put their lives on hold and did an incredible amount to support the mission. I don’t know how they did it so well, but they really did. Thank you.
+    - paragraph: Ollie also put his life on hold this entire time to just do everything he could to help out, in addition to providing his usual unconditional love and support. Thank you and I love you.
+    - paragraph:
+      - generic: So what’s next?
+    - paragraph: We have three immediate priorities.
+    - paragraph: Advancing our research plan and further investing in our full-stack safety efforts, which have always been critical to our work. Our research roadmap is clear; this was a wonderfully focusing time. I share the excitement you all feel; we will turn this crisis into an opportunity! I’ll work with Mira on this.
+    - paragraph: Continuing to improve and deploy our products and serve our customers. It’s important that people get to experience the benefits and promise of AI, and have the opportunity to shape it. We continue to believe that great products are the best way to do this. I’ll work with Brad, Jason and Anna to ensure our unwavering commitment to users, customers, partners and governments around the world is clear.
+    - paragraph: Bret, Larry, and Adam will be working very hard on the extremely important task of building out a board of diverse perspectives, improving our governance structure and overseeing an independent review of recent events. I look forward to working closely with them on these crucial steps so everyone can be confident in the stability of OpenAI.
+    - paragraph: I am so looking forward to finishing the job of building beneficial AGI with you all—best team in the world, best mission in the world.
+    - paragraph: Love,
+    - paragraph: Sam
+    - heading "Message from Bret to the company" [level=2]
+    - paragraph: On behalf of the OpenAI Board, I want to express our gratitude to the entire OpenAI community, especially all the OpenAI employees, who came together to help find a path forward for the company over the past week. Your efforts helped enable this incredible organization to continue to serve its mission to ensure that artificial general intelligence benefits all of humanity. We are thrilled that Sam, Mira and Greg are back together leading the company and driving it forward. We look forward to working with them and all of you.
+    - paragraph: "As a Board, we are focused on strengthening OpenAI’s corporate governance. Here’s how we plan to do it:"
+    - list:
+      - listitem: We will build a qualified, diverse Board of exceptional individuals whose collective experience represents the breadth of OpenAI’s mission – from technology to safety to policy. We are pleased that this Board will include a non-voting observer for Microsoft.
+      - listitem: We will further stabilize the OpenAI organization so that we can continue to serve our mission. This will include convening an independent committee of the Board to oversee a review of the recent events.
+      - listitem: We will enhance the governance structure of OpenAI so that all stakeholders – users, customers, employees, partners, and community members – can trust that OpenAI will continue to thrive.
+    - paragraph: OpenAI is a more important institution than ever before. ChatGPT has made artificial intelligence a part of daily life for hundreds of millions of people. Its popularity has made AI – its benefits and its risks – central to virtually every conversation about the future of governments, business, and society.
+    - paragraph: We understand the gravity of these discussions and the central role of OpenAI in the development and safety of these awe-inspiring new technologies. Each of you plays a critical part in ensuring that we effectively meet these challenges. We are committed to listening and learning from you, and I hope to speak with you all very soon.
+    - paragraph: We are grateful to be a part of OpenAI, and excited to work with all of you.
+    - paragraph: Thank you,Bret TaylorChair, OpenAI
+    - paragraph:
+      - generic: Update on December 8, 2023 from Bret Taylor, Chair, OpenAI Board
+    - paragraph: As previously stated, the OpenAI Board convened a committee consisting of Bret Taylor and Larry Summers to oversee the review of recent events. The committee interviewed several leading law firms to conduct the review, and ultimately selected Anjan Sahni and Hallie B. Levin from WilmerHale. Anjan and Hallie have extensive experience, and we have full confidence in their ability to conduct an effective and timely review. While the review is ongoing, the Board will continue to take steps to strengthen OpenAI’s corporate governance, build a qualified and diverse board of exceptional individuals, and oversee OpenAI’s important mission in ensuring that artificial general intelligence benefits all of humanity.
+    - list:
+      - link "Culture & Careers":
+        - /url: /news/?tags=culture-careers
+      - link "2023":
+        - /url: /news/?tags=2023
+    - heading "Author" [level=2]
+    - generic: OpenAI
+    - heading "Related articles" [level=2]
+    - link "View all":
+      - /url: /news/
+    - img "Newspartnership Cover"
+    - 'link "Global news partnerships: Le Monde and Prisa Media - Company - Mar 13, 2024"':
+      - /url: /index/global-news-partnerships-le-monde-and-prisa-media/
+      - generic: "Global news partnerships: Le Monde and Prisa Media"
+      - paragraph:
+        - generic: Company
+        - time: Mar 13, 2024
+    - img "New board of directors"
+    - link "OpenAI announces new members to board of directors - Company - Mar 8, 2024":
+      - /url: /index/openai-announces-new-members-to-board-of-directors/
+      - generic: OpenAI announces new members to board of directors
+      - paragraph:
+        - generic: Company
+        - time: Mar 8, 2024
+    - img "News > Company carousel > Review completed > Media"
+    - link "Review completed & Altman, Brockman to continue to lead OpenAI - Company - Mar 8, 2024":
+      - /url: /index/review-completed-altman-brockman-to-continue-to-lead-openai/
+      - generic: Review completed & Altman, Brockman to continue to lead OpenAI
+      - paragraph:
+        - generic: Company
+        - time: Mar 8, 2024
+- contentinfo:
+  - heading "Research" [level=2]
+  - list:
+    - link "Research Index":
+      - /url: /research/index/
+    - link "Research Overview":
+      - /url: /research/
+    - link "Economic Research":
+      - /url: /signals/
+  - heading "Latest Advancements" [level=2]
+  - list:
+    - link "GPT-5.5":
+      - /url: /index/introducing-gpt-5-5/
+    - link "GPT-5.4":
+      - /url: /index/introducing-gpt-5-4/
+    - link "GPT-5.3 Instant":
+      - /url: /index/gpt-5-3-instant/
+  - heading "Safety" [level=2]
+  - list:
+    - link "Safety Approach":
+      - /url: /safety/
+    - link "Deployment Safety (opens in a new window)":
+      - /url: https://deploymentsafety.openai.com/
+      - text: Deployment Safety
+      - generic: (opens in a new window)
+    - link "Security & Privacy":
+      - /url: /security-and-privacy/
+    - link "Trust & Transparency":
+      - /url: /trust-and-transparency/
+  - heading "Products" [level=2]
+  - list:
+    - link "ChatGPT (opens in a new window)":
+      - /url: https://chatgpt.com/?openaicom-did=4f1bc7ac-d2ae-4283-b546-81a6f9822d7c&openaicom_referred=true
+      - text: ChatGPT
+      - generic: (opens in a new window)
+    - link "ChatGPT Business (opens in a new window)":
+      - /url: https://chatgpt.com/business/?openaicom-did=4f1bc7ac-d2ae-4283-b546-81a6f9822d7c&openaicom_referred=true
+      - text: ChatGPT Business
+      - generic: (opens in a new window)
+    - link "ChatGPT Enterprise (opens in a new window)":
+      - /url: https://chatgpt.com/business/enterprise/?openaicom-did=4f1bc7ac-d2ae-4283-b546-81a6f9822d7c&openaicom_referred=true
+      - text: ChatGPT Enterprise
+      - generic: (opens in a new window)
+    - link "ChatGPT for Education (opens in a new window)":
+      - /url: https://chatgpt.com/business/education/?openaicom-did=4f1bc7ac-d2ae-4283-b546-81a6f9822d7c&openaicom_referred=true
+      - text: ChatGPT for Education
+      - generic: (opens in a new window)
+    - link "Codex":
+      - /url: /codex/
+    - link "Release Notes":
+      - /url: /products/release-notes/
+  - heading "API Platform" [level=2]
+  - list:
+    - link "Overview":
+      - /url: /api/
+    - link "API Log In (opens in a new window)":
+      - /url: https://platform.openai.com/login
+      - text: API Log In
+      - generic: (opens in a new window)
+    - link "Docs (opens in a new window)":
+      - /url: https://developers.openai.com/api/docs
+      - text: Docs
+      - generic: (opens in a new window)
+  - heading "Business" [level=2]
+  - list:
+    - link "Overview":
+      - /url: /business/
+    - link "Solutions":
+      - /url: /solutions/
+    - link "Resources":
+      - /url: /business/learn/
+    - link "Customer Stories":
+      - /url: /business/customer-stories/
+    - link "Partner Network":
+      - /url: /business/partners/
+    - link "Contact Sales":
+      - /url: /contact-sales/
+  - heading "Developers" [level=2]
+  - list:
+    - link "Apps SDK (opens in a new window)":
+      - /url: https://developers.openai.com/apps-sdk
+      - text: Apps SDK
+      - generic: (opens in a new window)
+    - link "Open Models":
+      - /url: /open-models/
+    - link "Docs (opens in a new window)":
+      - /url: https://developers.openai.com/
+      - text: Docs
+      - generic: (opens in a new window)
+    - link "Resources (opens in a new window)":
+      - /url: https://developers.openai.com/learn
+      - text: Resources
+      - generic: (opens in a new window)
+    - link "Developer Forum (opens in a new window)":
+      - /url: https://community.openai.com/
+      - text: Developer Forum
+      - generic: (opens in a new window)
+  - heading "Company" [level=2]
+  - list:
+    - link "About Us":
+      - /url: /about/
+    - link "Our Charter":
+      - /url: /charter/
+    - link "Careers":
+      - /url: /careers/
+    - link "News":
+      - /url: /news/
+  - heading "Support" [level=2]
+  - list:
+    - link "Help Center (opens in a new window)":
+      - /url: https://help.openai.com/
+      - text: Help Center
+      - generic: (opens in a new window)
+  - heading "More" [level=2]
+  - list:
+    - link "Stories":
+      - /url: /stories/
+    - link "Academy":
+      - /url: /academy/
+    - link "Livestreams":
+      - /url: /live/
+    - link "Podcast":
+      - /url: /podcast/
+    - link "RSS":
+      - /url: /news/rss.xml
+  - heading "Terms & Policies" [level=2]
+  - list:
+    - link "Terms of Use":
+      - /url: /policies/terms-of-use/
+    - link "Privacy Policy":
+      - /url: /policies/privacy-policy/
+    - link "Other Policies":
+      - /url: /policies/
+  - link "X":
+    - /url: https://x.com/OpenAI
+    - generic: (opens in a new window)
+  - link "YouTube":
+    - /url: https://www.youtube.com/OpenAI
+    - generic: (opens in a new window)
+  - link "LinkedIn":
+    - /url: https://www.linkedin.com/company/openai
+    - generic: (opens in a new window)
+  - link "GitHub":
+    - /url: https://github.com/openai
+    - generic: (opens in a new window)
+  - link "Instagram":
+    - /url: https://www.instagram.com/openai/
+    - generic: (opens in a new window)
+  - link "TikTok":
+    - /url: https://www.tiktok.com/@openai
+    - generic: (opens in a new window)
+  - link "Discord":
+    - /url: https://discord.gg/openai
+    - generic: (opens in a new window)
+  - generic: OpenAI © 2015–2026
+  - button "Manage Cookies"
+  - button "Change language":
+    - text: English
+    - generic: United States
+  - textbox "Search locales by name or region":
+    - /placeholder: Search
+- dialog "We use cookies":
+  - paragraph: We use cookies
+  - paragraph:
+    - text: We use cookies to help this site function, understand service usage, and support marketing efforts. Visit
+    - button "Manage Cookies"
+    - text: to change preferences anytime. View our
+    - link "Cookie Policy":
+      - /url: /policies/cookie-policy/
+    - text: for more info.
+  - button "Manage Cookies"
+  - button "Reject non-essential"
+  - button "Accept all"
+- alert
