@@ -42,7 +42,7 @@ If the release includes literary-branch changes, also confirm before publish:
 12. the relevant prompt documents under `book/assets/prompts/` were updated before generation and are committed.
 13. if infographic visuals changed, `generate-book-assets --kind infographics` was rerun so the request bundle matches the current manifest and prompt refs.
 14. the rebuilt chapter pages under `build/site/book/html/` still render the expected visual density.
-15. the QR-note targets still resolve under `https://hassanvfx.github.io/ai-empire/`.
+15. the QR-note targets still resolve under `https://markuriostegui.github.io/childrenofthefeed/`.
 16. the full-book print PDF still opens with cover, title/imprint page, dedication page, and TOC in that order.
 17. the full-book print PDF still lands inside the `96–104` page acceptance band.
 18. the chapter PDFs still open with chapter opener, chapter imprint page, dedication page, and local TOC in that order.

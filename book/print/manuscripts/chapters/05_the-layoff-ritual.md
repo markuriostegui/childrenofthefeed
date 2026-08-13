@@ -3,8 +3,8 @@ title: "The Layoff Ritual"
 chapter_id: "05"
 paper_title: "Chapter 05: Talent, Overhiring, Valuation, and Layoffs"
 paper_stem: "05_talent-overhiring-layoffs_paper"
-public_html_url: "https://hassanvfx.github.io/ai-empire/papers/html/05_talent-overhiring-layoffs_paper.html"
-public_pdf_url: "https://hassanvfx.github.io/ai-empire/papers/pdf/05_talent-overhiring-layoffs_paper/05_talent-overhiring-layoffs_paper.pdf"
+public_html_url: "https://markuriostegui.github.io/childrenofthefeed/papers/html/05_talent-overhiring-layoffs_paper.html"
+public_pdf_url: "https://markuriostegui.github.io/childrenofthefeed/papers/pdf/05_talent-overhiring-layoffs_paper/05_talent-overhiring-layoffs_paper.pdf"
 deck: "The machine did not only learn from workers. It was used to discipline them."
 ---
 
@@ -164,4 +164,4 @@ Scan this QR code to open the live research paper with the full documentary basi
 
 ![](../../assets/qrcodes/05_the-layoff-ritual_research_qr.svg){ width=34% }
 
-Fallback URL: [hassanvfx.github.io/ai-empire/papers/html/05_talent-overhiring-layoffs_paper.html](https://hassanvfx.github.io/ai-empire/papers/html/05_talent-overhiring-layoffs_paper.html)
+Fallback URL: [markuriostegui.github.io/childrenofthefeed/papers/html/05_talent-overhiring-layoffs_paper.html](https://markuriostegui.github.io/childrenofthefeed/papers/html/05_talent-overhiring-layoffs_paper.html)

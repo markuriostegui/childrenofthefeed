@@ -243,4 +243,4 @@ documentary basis, citations, and supporting links.
 #figure(image("../../assets/qrcodes/02_raised-by-the-algorithm_research_qr.svg", width: 34.0%))
 
 Fallback URL:
-#link("https://hassanvfx.github.io/ai-empire/papers/html/02_social-erosion-and-moral-reconfiguration_paper.html")[hassanvfx.github.io/ai-empire/papers/html/02\_social-erosion-and-moral-reconfiguration\_paper.html]
+#link("https://markuriostegui.github.io/childrenofthefeed/papers/html/02_social-erosion-and-moral-reconfiguration_paper.html")[markuriostegui.github.io/childrenofthefeed/papers/html/02\_social-erosion-and-moral-reconfiguration\_paper.html]

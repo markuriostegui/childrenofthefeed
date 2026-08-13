@@ -150,7 +150,7 @@ Scan this QR code to open the live research paper with the full documentary basi
 
 ![](../../assets/qrcodes/00_opening-framework_research_qr.svg){ width=34% }
 
-Fallback URL: [hassanvfx.github.io/ai-empire/papers/html/00_opening-framework_paper.html](https://hassanvfx.github.io/ai-empire/papers/html/00_opening-framework_paper.html)
+Fallback URL: [markuriostegui.github.io/childrenofthefeed/papers/html/00_opening-framework_paper.html](https://markuriostegui.github.io/childrenofthefeed/papers/html/00_opening-framework_paper.html)
 
 # The Free Trap
 
@@ -306,7 +306,7 @@ Scan this QR code to open the live research paper with the full documentary basi
 
 ![](../../assets/qrcodes/01_the-free-trap_research_qr.svg){ width=34% }
 
-Fallback URL: [hassanvfx.github.io/ai-empire/papers/html/01_social-networks-data-capture_paper.html](https://hassanvfx.github.io/ai-empire/papers/html/01_social-networks-data-capture_paper.html)
+Fallback URL: [markuriostegui.github.io/childrenofthefeed/papers/html/01_social-networks-data-capture_paper.html](https://markuriostegui.github.io/childrenofthefeed/papers/html/01_social-networks-data-capture_paper.html)
 
 # Raised by the Algorithm
 
@@ -438,7 +438,7 @@ Scan this QR code to open the live research paper with the full documentary basi
 
 ![](../../assets/qrcodes/02_raised-by-the-algorithm_research_qr.svg){ width=34% }
 
-Fallback URL: [hassanvfx.github.io/ai-empire/papers/html/02_social-erosion-and-moral-reconfiguration_paper.html](https://hassanvfx.github.io/ai-empire/papers/html/02_social-erosion-and-moral-reconfiguration_paper.html)
+Fallback URL: [markuriostegui.github.io/childrenofthefeed/papers/html/02_social-erosion-and-moral-reconfiguration_paper.html](https://markuriostegui.github.io/childrenofthefeed/papers/html/02_social-erosion-and-moral-reconfiguration_paper.html)
 
 # Lockdown and the Great Acceleration
 
@@ -584,7 +584,7 @@ Scan this QR code to open the live research paper with the full documentary basi
 
 ![](../../assets/qrcodes/03_lockdown-and-the-great-acceleration_research_qr.svg){ width=34% }
 
-Fallback URL: [hassanvfx.github.io/ai-empire/papers/html/03_covid-historical-accelerator_paper.html](https://hassanvfx.github.io/ai-empire/papers/html/03_covid-historical-accelerator_paper.html)
+Fallback URL: [markuriostegui.github.io/childrenofthefeed/papers/html/03_covid-historical-accelerator_paper.html](https://markuriostegui.github.io/childrenofthefeed/papers/html/03_covid-historical-accelerator_paper.html)
 
 # We Were the Dataset
 
@@ -706,7 +706,7 @@ Scan this QR code to open the live research paper with the full documentary basi
 
 ![](../../assets/qrcodes/04_we-were-the-dataset_research_qr.svg){ width=34% }
 
-Fallback URL: [hassanvfx.github.io/ai-empire/papers/html/04_data-models-weights_paper.html](https://hassanvfx.github.io/ai-empire/papers/html/04_data-models-weights_paper.html)
+Fallback URL: [markuriostegui.github.io/childrenofthefeed/papers/html/04_data-models-weights_paper.html](https://markuriostegui.github.io/childrenofthefeed/papers/html/04_data-models-weights_paper.html)
 
 # The Layoff Ritual
 
@@ -866,7 +866,7 @@ Scan this QR code to open the live research paper with the full documentary basi
 
 ![](../../assets/qrcodes/05_the-layoff-ritual_research_qr.svg){ width=34% }
 
-Fallback URL: [hassanvfx.github.io/ai-empire/papers/html/05_talent-overhiring-layoffs_paper.html](https://hassanvfx.github.io/ai-empire/papers/html/05_talent-overhiring-layoffs_paper.html)
+Fallback URL: [markuriostegui.github.io/childrenofthefeed/papers/html/05_talent-overhiring-layoffs_paper.html](https://markuriostegui.github.io/childrenofthefeed/papers/html/05_talent-overhiring-layoffs_paper.html)
 
 # The Dual-Use Gospel
 
@@ -982,7 +982,7 @@ Scan this QR code to open the live research paper with the full documentary basi
 
 ![](../../assets/qrcodes/06_the-dual-use-gospel_research_qr.svg){ width=34% }
 
-Fallback URL: [hassanvfx.github.io/ai-empire/papers/html/06_dual-use-rhetorical-weapon_paper.html](https://hassanvfx.github.io/ai-empire/papers/html/06_dual-use-rhetorical-weapon_paper.html)
+Fallback URL: [markuriostegui.github.io/childrenofthefeed/papers/html/06_dual-use-rhetorical-weapon_paper.html](https://markuriostegui.github.io/childrenofthefeed/papers/html/06_dual-use-rhetorical-weapon_paper.html)
 
 # The Gates of Intelligence
 
@@ -1112,7 +1112,7 @@ Scan this QR code to open the live research paper with the full documentary basi
 
 ![](../../assets/qrcodes/07_the-gates-of-intelligence_research_qr.svg){ width=34% }
 
-Fallback URL: [hassanvfx.github.io/ai-empire/papers/html/07_imperial-control-over-access_paper.html](https://hassanvfx.github.io/ai-empire/papers/html/07_imperial-control-over-access_paper.html)
+Fallback URL: [markuriostegui.github.io/childrenofthefeed/papers/html/07_imperial-control-over-access_paper.html](https://markuriostegui.github.io/childrenofthefeed/papers/html/07_imperial-control-over-access_paper.html)
 
 # The Legitimacy Machine
 
@@ -1256,7 +1256,7 @@ Scan this QR code to open the live research paper with the full documentary basi
 
 ![](../../assets/qrcodes/08_the-legitimacy-machine_research_qr.svg){ width=34% }
 
-Fallback URL: [hassanvfx.github.io/ai-empire/papers/html/08_legitimacy-and-institutional-capture_paper.html](https://hassanvfx.github.io/ai-empire/papers/html/08_legitimacy-and-institutional-capture_paper.html)
+Fallback URL: [markuriostegui.github.io/childrenofthefeed/papers/html/08_legitimacy-and-institutional-capture_paper.html](https://markuriostegui.github.io/childrenofthefeed/papers/html/08_legitimacy-and-institutional-capture_paper.html)
 
 # If No One Acts
 
@@ -1382,7 +1382,7 @@ Scan this QR code to open the live research paper with the full documentary basi
 
 ![](../../assets/qrcodes/09_if-no-one-acts_research_qr.svg){ width=34% }
 
-Fallback URL: [hassanvfx.github.io/ai-empire/papers/html/09_future-if-unchecked_paper.html](https://hassanvfx.github.io/ai-empire/papers/html/09_future-if-unchecked_paper.html)
+Fallback URL: [markuriostegui.github.io/childrenofthefeed/papers/html/09_future-if-unchecked_paper.html](https://markuriostegui.github.io/childrenofthefeed/papers/html/09_future-if-unchecked_paper.html)
 
 # The Three Reforms
 
@@ -1563,4 +1563,4 @@ Scan this QR code to open the live research paper with the full documentary basi
 
 ![](../../assets/qrcodes/10_the-three-reforms_research_qr.svg){ width=34% }
 
-Fallback URL: [hassanvfx.github.io/ai-empire/papers/html/10_three-reform-program_paper.html](https://hassanvfx.github.io/ai-empire/papers/html/10_three-reform-program_paper.html)
+Fallback URL: [markuriostegui.github.io/childrenofthefeed/papers/html/10_three-reform-program_paper.html](https://markuriostegui.github.io/childrenofthefeed/papers/html/10_three-reform-program_paper.html)

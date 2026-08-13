@@ -3,8 +3,8 @@ title: "The Legitimacy Machine"
 chapter_id: "08"
 paper_title: "Chapter 08: Power Network, Legitimacy, and Institutional Capture"
 paper_stem: "08_legitimacy-and-institutional-capture_paper"
-public_html_url: "https://hassanvfx.github.io/ai-empire/papers/html/08_legitimacy-and-institutional-capture_paper.html"
-public_pdf_url: "https://hassanvfx.github.io/ai-empire/papers/pdf/08_legitimacy-and-institutional-capture_paper/08_legitimacy-and-institutional-capture_paper.pdf"
+public_html_url: "https://markuriostegui.github.io/childrenofthefeed/papers/html/08_legitimacy-and-institutional-capture_paper.html"
+public_pdf_url: "https://markuriostegui.github.io/childrenofthefeed/papers/pdf/08_legitimacy-and-institutional-capture_paper/08_legitimacy-and-institutional-capture_paper.pdf"
 deck: "The empire does not survive by code alone. It survives by praise, access, prestige, and institutional blessing."
 ---
 
@@ -148,4 +148,4 @@ Scan this QR code to open the live research paper with the full documentary basi
 
 ![](../../assets/qrcodes/08_the-legitimacy-machine_research_qr.svg){ width=34% }
 
-Fallback URL: [hassanvfx.github.io/ai-empire/papers/html/08_legitimacy-and-institutional-capture_paper.html](https://hassanvfx.github.io/ai-empire/papers/html/08_legitimacy-and-institutional-capture_paper.html)
+Fallback URL: [markuriostegui.github.io/childrenofthefeed/papers/html/08_legitimacy-and-institutional-capture_paper.html](https://markuriostegui.github.io/childrenofthefeed/papers/html/08_legitimacy-and-institutional-capture_paper.html)

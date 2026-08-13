@@ -274,4 +274,4 @@ documentary basis, citations, and supporting links.
 #figure(image("../../assets/qrcodes/08_the-legitimacy-machine_research_qr.svg", width: 34.0%))
 
 Fallback URL:
-#link("https://hassanvfx.github.io/ai-empire/papers/html/08_legitimacy-and-institutional-capture_paper.html")[hassanvfx.github.io/ai-empire/papers/html/08\_legitimacy-and-institutional-capture\_paper.html]
+#link("https://markuriostegui.github.io/childrenofthefeed/papers/html/08_legitimacy-and-institutional-capture_paper.html")[markuriostegui.github.io/childrenofthefeed/papers/html/08\_legitimacy-and-institutional-capture\_paper.html]

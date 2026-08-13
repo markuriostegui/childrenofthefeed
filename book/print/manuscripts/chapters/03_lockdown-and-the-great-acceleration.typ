@@ -237,4 +237,4 @@ documentary basis, citations, and supporting links.
 #figure(image("../../assets/qrcodes/03_lockdown-and-the-great-acceleration_research_qr.svg", width: 34.0%))
 
 Fallback URL:
-#link("https://hassanvfx.github.io/ai-empire/papers/html/03_covid-historical-accelerator_paper.html")[hassanvfx.github.io/ai-empire/papers/html/03\_covid-historical-accelerator\_paper.html]
+#link("https://markuriostegui.github.io/childrenofthefeed/papers/html/03_covid-historical-accelerator_paper.html")[markuriostegui.github.io/childrenofthefeed/papers/html/03\_covid-historical-accelerator\_paper.html]

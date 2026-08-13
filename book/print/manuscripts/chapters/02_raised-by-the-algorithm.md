@@ -3,8 +3,8 @@ title: "Raised by the Algorithm"
 chapter_id: "02"
 paper_title: "Chapter 02: Social Erosion and Moral Reconfiguration"
 paper_stem: "02_social-erosion-and-moral-reconfiguration_paper"
-public_html_url: "https://hassanvfx.github.io/ai-empire/papers/html/02_social-erosion-and-moral-reconfiguration_paper.html"
-public_pdf_url: "https://hassanvfx.github.io/ai-empire/papers/pdf/02_social-erosion-and-moral-reconfiguration_paper/02_social-erosion-and-moral-reconfiguration_paper.pdf"
+public_html_url: "https://markuriostegui.github.io/childrenofthefeed/papers/html/02_social-erosion-and-moral-reconfiguration_paper.html"
+public_pdf_url: "https://markuriostegui.github.io/childrenofthefeed/papers/pdf/02_social-erosion-and-moral-reconfiguration_paper/02_social-erosion-and-moral-reconfiguration_paper.pdf"
 deck: "A generation did not simply lose attention. Attention was farmed."
 ---
 
@@ -136,4 +136,4 @@ Scan this QR code to open the live research paper with the full documentary basi
 
 ![](../../assets/qrcodes/02_raised-by-the-algorithm_research_qr.svg){ width=34% }
 
-Fallback URL: [hassanvfx.github.io/ai-empire/papers/html/02_social-erosion-and-moral-reconfiguration_paper.html](https://hassanvfx.github.io/ai-empire/papers/html/02_social-erosion-and-moral-reconfiguration_paper.html)
+Fallback URL: [markuriostegui.github.io/childrenofthefeed/papers/html/02_social-erosion-and-moral-reconfiguration_paper.html](https://markuriostegui.github.io/childrenofthefeed/papers/html/02_social-erosion-and-moral-reconfiguration_paper.html)

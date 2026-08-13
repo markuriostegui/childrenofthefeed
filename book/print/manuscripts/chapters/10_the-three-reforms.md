@@ -3,8 +3,8 @@ title: "The Three Reforms"
 chapter_id: "10"
 paper_title: "Chapter 10: What To Do"
 paper_stem: "10_three-reform-program_paper"
-public_html_url: "https://hassanvfx.github.io/ai-empire/papers/html/10_three-reform-program_paper.html"
-public_pdf_url: "https://hassanvfx.github.io/ai-empire/papers/pdf/10_three-reform-program_paper/10_three-reform-program_paper.pdf"
+public_html_url: "https://markuriostegui.github.io/childrenofthefeed/papers/html/10_three-reform-program_paper.html"
+public_pdf_url: "https://markuriostegui.github.io/childrenofthefeed/papers/pdf/10_three-reform-program_paper/10_three-reform-program_paper.pdf"
 deck: "The response is no longer a mood. It is a program."
 ---
 
@@ -185,4 +185,4 @@ Scan this QR code to open the live research paper with the full documentary basi
 
 ![](../../assets/qrcodes/10_the-three-reforms_research_qr.svg){ width=34% }
 
-Fallback URL: [hassanvfx.github.io/ai-empire/papers/html/10_three-reform-program_paper.html](https://hassanvfx.github.io/ai-empire/papers/html/10_three-reform-program_paper.html)
+Fallback URL: [markuriostegui.github.io/childrenofthefeed/papers/html/10_three-reform-program_paper.html](https://markuriostegui.github.io/childrenofthefeed/papers/html/10_three-reform-program_paper.html)

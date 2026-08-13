@@ -227,4 +227,4 @@ documentary basis, citations, and supporting links.
 #figure(image("../../assets/qrcodes/06_the-dual-use-gospel_research_qr.svg", width: 34.0%))
 
 Fallback URL:
-#link("https://hassanvfx.github.io/ai-empire/papers/html/06_dual-use-rhetorical-weapon_paper.html")[hassanvfx.github.io/ai-empire/papers/html/06\_dual-use-rhetorical-weapon\_paper.html]
+#link("https://markuriostegui.github.io/childrenofthefeed/papers/html/06_dual-use-rhetorical-weapon_paper.html")[markuriostegui.github.io/childrenofthefeed/papers/html/06\_dual-use-rhetorical-weapon\_paper.html]

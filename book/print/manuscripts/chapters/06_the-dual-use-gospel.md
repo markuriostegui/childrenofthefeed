@@ -3,8 +3,8 @@ title: "The Dual-Use Gospel"
 chapter_id: "06"
 paper_title: "Chapter 06: AI as a Dual-Use Rhetorical Weapon"
 paper_stem: "06_dual-use-rhetorical-weapon_paper"
-public_html_url: "https://hassanvfx.github.io/ai-empire/papers/html/06_dual-use-rhetorical-weapon_paper.html"
-public_pdf_url: "https://hassanvfx.github.io/ai-empire/papers/pdf/06_dual-use-rhetorical-weapon_paper/06_dual-use-rhetorical-weapon_paper.pdf"
+public_html_url: "https://markuriostegui.github.io/childrenofthefeed/papers/html/06_dual-use-rhetorical-weapon_paper.html"
+public_pdf_url: "https://markuriostegui.github.io/childrenofthefeed/papers/pdf/06_dual-use-rhetorical-weapon_paper/06_dual-use-rhetorical-weapon_paper.pdf"
 deck: "How the same system is sold as miracle, weapon, tutor, oracle, and dependency engine."
 ---
 
@@ -120,4 +120,4 @@ Scan this QR code to open the live research paper with the full documentary basi
 
 ![](../../assets/qrcodes/06_the-dual-use-gospel_research_qr.svg){ width=34% }
 
-Fallback URL: [hassanvfx.github.io/ai-empire/papers/html/06_dual-use-rhetorical-weapon_paper.html](https://hassanvfx.github.io/ai-empire/papers/html/06_dual-use-rhetorical-weapon_paper.html)
+Fallback URL: [markuriostegui.github.io/childrenofthefeed/papers/html/06_dual-use-rhetorical-weapon_paper.html](https://markuriostegui.github.io/childrenofthefeed/papers/html/06_dual-use-rhetorical-weapon_paper.html)

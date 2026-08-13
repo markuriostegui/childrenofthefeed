@@ -3,8 +3,8 @@ title: "Before the Machine Could Speak"
 chapter_id: "00"
 paper_title: "Chapter 00: Opening Framework"
 paper_stem: "00_opening-framework_paper"
-public_html_url: "https://hassanvfx.github.io/ai-empire/papers/html/00_opening-framework_paper.html"
-public_pdf_url: "https://hassanvfx.github.io/ai-empire/papers/pdf/00_opening-framework_paper/00_opening-framework_paper.pdf"
+public_html_url: "https://markuriostegui.github.io/childrenofthefeed/papers/html/00_opening-framework_paper.html"
+public_pdf_url: "https://markuriostegui.github.io/childrenofthefeed/papers/pdf/00_opening-framework_paper/00_opening-framework_paper.pdf"
 deck: "The opening wound: how humanity was turned into signal before AI could be sold as destiny."
 ---
 
@@ -148,4 +148,4 @@ Scan this QR code to open the live research paper with the full documentary basi
 
 ![](../../assets/qrcodes/00_opening-framework_research_qr.svg){ width=34% }
 
-Fallback URL: [hassanvfx.github.io/ai-empire/papers/html/00_opening-framework_paper.html](https://hassanvfx.github.io/ai-empire/papers/html/00_opening-framework_paper.html)
+Fallback URL: [markuriostegui.github.io/childrenofthefeed/papers/html/00_opening-framework_paper.html](https://markuriostegui.github.io/childrenofthefeed/papers/html/00_opening-framework_paper.html)

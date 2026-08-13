@@ -202,4 +202,4 @@ documentary basis, citations, and supporting links.
 #figure(image("../../assets/qrcodes/07_the-gates-of-intelligence_research_qr.svg", width: 34.0%))
 
 Fallback URL:
-#link("https://hassanvfx.github.io/ai-empire/papers/html/07_imperial-control-over-access_paper.html")[hassanvfx.github.io/ai-empire/papers/html/07\_imperial-control-over-access\_paper.html]
+#link("https://markuriostegui.github.io/childrenofthefeed/papers/html/07_imperial-control-over-access_paper.html")[markuriostegui.github.io/childrenofthefeed/papers/html/07\_imperial-control-over-access\_paper.html]

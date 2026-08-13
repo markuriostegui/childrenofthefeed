@@ -3,8 +3,8 @@ title: "The Gates of Intelligence"
 chapter_id: "07"
 paper_title: "Chapter 07: Imperial Control Over Access"
 paper_stem: "07_imperial-control-over-access_paper"
-public_html_url: "https://hassanvfx.github.io/ai-empire/papers/html/07_imperial-control-over-access_paper.html"
-public_pdf_url: "https://hassanvfx.github.io/ai-empire/papers/pdf/07_imperial-control-over-access_paper/07_imperial-control-over-access_paper.pdf"
+public_html_url: "https://markuriostegui.github.io/childrenofthefeed/papers/html/07_imperial-control-over-access_paper.html"
+public_pdf_url: "https://markuriostegui.github.io/childrenofthefeed/papers/pdf/07_imperial-control-over-access_paper/07_imperial-control-over-access_paper.pdf"
 deck: "Compute, export controls, and defense alignments decide who may approach the new oracle."
 ---
 
@@ -134,4 +134,4 @@ Scan this QR code to open the live research paper with the full documentary basi
 
 ![](../../assets/qrcodes/07_the-gates-of-intelligence_research_qr.svg){ width=34% }
 
-Fallback URL: [hassanvfx.github.io/ai-empire/papers/html/07_imperial-control-over-access_paper.html](https://hassanvfx.github.io/ai-empire/papers/html/07_imperial-control-over-access_paper.html)
+Fallback URL: [markuriostegui.github.io/childrenofthefeed/papers/html/07_imperial-control-over-access_paper.html](https://markuriostegui.github.io/childrenofthefeed/papers/html/07_imperial-control-over-access_paper.html)

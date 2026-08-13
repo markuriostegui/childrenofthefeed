@@ -289,4 +289,4 @@ documentary basis, citations, and supporting links.
 #figure(image("../../assets/qrcodes/10_the-three-reforms_research_qr.svg", width: 34.0%))
 
 Fallback URL:
-#link("https://hassanvfx.github.io/ai-empire/papers/html/10_three-reform-program_paper.html")[hassanvfx.github.io/ai-empire/papers/html/10\_three-reform-program\_paper.html]
+#link("https://markuriostegui.github.io/childrenofthefeed/papers/html/10_three-reform-program_paper.html")[markuriostegui.github.io/childrenofthefeed/papers/html/10\_three-reform-program\_paper.html]

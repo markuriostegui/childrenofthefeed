@@ -242,4 +242,4 @@ documentary basis, citations, and supporting links.
 #figure(image("../../assets/qrcodes/04_we-were-the-dataset_research_qr.svg", width: 34.0%))
 
 Fallback URL:
-#link("https://hassanvfx.github.io/ai-empire/papers/html/04_data-models-weights_paper.html")[hassanvfx.github.io/ai-empire/papers/html/04\_data-models-weights\_paper.html]
+#link("https://markuriostegui.github.io/childrenofthefeed/papers/html/04_data-models-weights_paper.html")[markuriostegui.github.io/childrenofthefeed/papers/html/04\_data-models-weights\_paper.html]

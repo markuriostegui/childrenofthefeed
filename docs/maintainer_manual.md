@@ -360,7 +360,7 @@ If the change touched literary print composition, also confirm:
 2. standalone chapter PDFs still follow the mirrored 4-page opening rule
 3. the dedication page still renders all 13 lines correctly
 4. the full-book page count still lands inside the accepted `96–104` range
-5. chapter-end QR research notes still resolve under `https://hassanvfx.github.io/ai-empire/`
+5. chapter-end QR research notes still resolve under `https://markuriostegui.github.io/childrenofthefeed/`
 
 ## What Must Be Checked Before Calling a Publication Pass Complete
 

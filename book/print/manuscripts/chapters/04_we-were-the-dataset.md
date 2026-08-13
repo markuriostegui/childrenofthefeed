@@ -3,8 +3,8 @@ title: "We Were the Dataset"
 chapter_id: "04"
 paper_title: "Chapter 04: AI Arrives When the Human Raw Material Already Exists"
 paper_stem: "04_data-models-weights_paper"
-public_html_url: "https://hassanvfx.github.io/ai-empire/papers/html/04_data-models-weights_paper.html"
-public_pdf_url: "https://hassanvfx.github.io/ai-empire/papers/pdf/04_data-models-weights_paper/04_data-models-weights_paper.pdf"
+public_html_url: "https://markuriostegui.github.io/childrenofthefeed/papers/html/04_data-models-weights_paper.html"
+public_pdf_url: "https://markuriostegui.github.io/childrenofthefeed/papers/pdf/04_data-models-weights_paper/04_data-models-weights_paper.pdf"
 deck: "First they captured what we made. Then they captured how we think."
 ---
 
@@ -126,4 +126,4 @@ Scan this QR code to open the live research paper with the full documentary basi
 
 ![](../../assets/qrcodes/04_we-were-the-dataset_research_qr.svg){ width=34% }
 
-Fallback URL: [hassanvfx.github.io/ai-empire/papers/html/04_data-models-weights_paper.html](https://hassanvfx.github.io/ai-empire/papers/html/04_data-models-weights_paper.html)
+Fallback URL: [markuriostegui.github.io/childrenofthefeed/papers/html/04_data-models-weights_paper.html](https://markuriostegui.github.io/childrenofthefeed/papers/html/04_data-models-weights_paper.html)

@@ -1200,7 +1200,7 @@ def render_book_landing_html(root: Path, interactive_app_href: str) -> str:
                         "css_class": "patrimony-source patrimony-source-primary",
                         "label": "AI-Empire",
                         "title": "Main Research Program",
-                        "href": "https://hassanvfx.github.io/ai-empire/",
+                        "href": "https://markuriostegui.github.io/childrenofthefeed/",
                     },
                     {
                         "css_class": "patrimony-source patrimony-source-secondary",

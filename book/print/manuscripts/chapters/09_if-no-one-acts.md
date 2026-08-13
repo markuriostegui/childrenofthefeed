@@ -3,8 +3,8 @@ title: "If No One Acts"
 chapter_id: "09"
 paper_title: "Chapter 09: Future if No Action Is Taken"
 paper_stem: "09_future-if-unchecked_paper"
-public_html_url: "https://hassanvfx.github.io/ai-empire/papers/html/09_future-if-unchecked_paper.html"
-public_pdf_url: "https://hassanvfx.github.io/ai-empire/papers/pdf/09_future-if-unchecked_paper/09_future-if-unchecked_paper.pdf"
+public_html_url: "https://markuriostegui.github.io/childrenofthefeed/papers/html/09_future-if-unchecked_paper.html"
+public_pdf_url: "https://markuriostegui.github.io/childrenofthefeed/papers/pdf/09_future-if-unchecked_paper/09_future-if-unchecked_paper.pdf"
 deck: "What comes next if dependence, enclosure, and state-corporate fusion harden into infrastructure."
 ---
 
@@ -130,4 +130,4 @@ Scan this QR code to open the live research paper with the full documentary basi
 
 ![](../../assets/qrcodes/09_if-no-one-acts_research_qr.svg){ width=34% }
 
-Fallback URL: [hassanvfx.github.io/ai-empire/papers/html/09_future-if-unchecked_paper.html](https://hassanvfx.github.io/ai-empire/papers/html/09_future-if-unchecked_paper.html)
+Fallback URL: [markuriostegui.github.io/childrenofthefeed/papers/html/09_future-if-unchecked_paper.html](https://markuriostegui.github.io/childrenofthefeed/papers/html/09_future-if-unchecked_paper.html)

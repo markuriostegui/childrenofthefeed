@@ -253,4 +253,4 @@ documentary basis, citations, and supporting links.
 #figure(image("../../assets/qrcodes/01_the-free-trap_research_qr.svg", width: 34.0%))
 
 Fallback URL:
-#link("https://hassanvfx.github.io/ai-empire/papers/html/01_social-networks-data-capture_paper.html")[hassanvfx.github.io/ai-empire/papers/html/01\_social-networks-data-capture\_paper.html]
+#link("https://markuriostegui.github.io/childrenofthefeed/papers/html/01_social-networks-data-capture_paper.html")[markuriostegui.github.io/childrenofthefeed/papers/html/01\_social-networks-data-capture\_paper.html]

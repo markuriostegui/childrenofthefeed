@@ -220,4 +220,4 @@ documentary basis, citations, and supporting links.
 #figure(image("../../assets/qrcodes/09_if-no-one-acts_research_qr.svg", width: 34.0%))
 
 Fallback URL:
-#link("https://hassanvfx.github.io/ai-empire/papers/html/09_future-if-unchecked_paper.html")[hassanvfx.github.io/ai-empire/papers/html/09\_future-if-unchecked\_paper.html]
+#link("https://markuriostegui.github.io/childrenofthefeed/papers/html/09_future-if-unchecked_paper.html")[markuriostegui.github.io/childrenofthefeed/papers/html/09\_future-if-unchecked\_paper.html]

@@ -3,8 +3,8 @@ title: "The Free Trap"
 chapter_id: "01"
 paper_title: "Chapter 01: Social Networks as Infrastructure for Free Data Capture"
 paper_stem: "01_social-networks-data-capture_paper"
-public_html_url: "https://hassanvfx.github.io/ai-empire/papers/html/01_social-networks-data-capture_paper.html"
-public_pdf_url: "https://hassanvfx.github.io/ai-empire/papers/pdf/01_social-networks-data-capture_paper/01_social-networks-data-capture_paper.pdf"
+public_html_url: "https://markuriostegui.github.io/childrenofthefeed/papers/html/01_social-networks-data-capture_paper.html"
+public_pdf_url: "https://markuriostegui.github.io/childrenofthefeed/papers/pdf/01_social-networks-data-capture_paper/01_social-networks-data-capture_paper.pdf"
 deck: "How the platforms taught us to confuse participation with payment while they harvested the map of our behavior."
 ---
 
@@ -160,4 +160,4 @@ Scan this QR code to open the live research paper with the full documentary basi
 
 ![](../../assets/qrcodes/01_the-free-trap_research_qr.svg){ width=34% }
 
-Fallback URL: [hassanvfx.github.io/ai-empire/papers/html/01_social-networks-data-capture_paper.html](https://hassanvfx.github.io/ai-empire/papers/html/01_social-networks-data-capture_paper.html)
+Fallback URL: [markuriostegui.github.io/childrenofthefeed/papers/html/01_social-networks-data-capture_paper.html](https://markuriostegui.github.io/childrenofthefeed/papers/html/01_social-networks-data-capture_paper.html)
