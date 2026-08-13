@@ -54,6 +54,8 @@ COVER_BYLINE_BOX = (180, 1485, 846, 1535)
 # This is the existing upper-right Snapchat notification.  The Spanish edition
 # replaces that notification as a whole, rather than floating a label over it.
 COVER_BADGE_BOX = (708, 54, 1000, 177)
+PRINT_MAX_IMAGE_WIDTH_PX = 1500
+PRINT_MAX_IMAGE_HEIGHT_PX = 2250
 
 
 @dataclass
@@ -198,10 +200,26 @@ def create_spanish_cover(root: Path, output: Path) -> Path:
     return output
 
 
-def _stage_print_asset(root: Path, work: Path, source: Path, destination: Path) -> Path:
-    target = work / destination
+def _stage_print_asset(root: Path, work: Path, source: Path, destination: Path, role: str) -> Path:
+    """Create Spanish-local print derivatives with the English print profile."""
+    image = Image.open(source)
+    image.thumbnail((PRINT_MAX_IMAGE_WIDTH_PX, PRINT_MAX_IMAGE_HEIGHT_PX), Image.Resampling.LANCZOS)
+    if role == "infographic":
+        if image.mode not in ("RGB", "RGBA"):
+            image = image.convert("RGBA")
+        target = destination.with_suffix(".png")
+        ensure_dir((work / target).parent)
+        image.save(work / target, format="PNG", optimize=True)
+        return work / target
+    if image.mode in ("RGBA", "LA"):
+        background = Image.new("RGB", image.size, "#f8f5ee")
+        background.paste(image, mask=image.getchannel("A"))
+        image = background
+    elif image.mode != "RGB":
+        image = image.convert("RGB")
+    target = work / destination.with_suffix(".jpg")
     ensure_dir(target.parent)
-    shutil.copy2(source, target)
+    image.save(target, format="JPEG", quality=82, optimize=True, progressive=True)
     return target
 
 
@@ -245,9 +263,8 @@ def _build_spanish_chapter(
         raise RuntimeError(f"Spanish chapter has no cover visual: {chapter_path.relative_to(root)}")
 
     source_cover = _resolve_spanish_asset(root, chapter_path, cover_rel)
-    cover_suffix = source_cover.suffix.lower()
     cover_staged = _stage_print_asset(
-        root, work, source_cover, Path("assets") / "images" / f"{chapter_id}_cover{cover_suffix}",
+        root, work, source_cover, Path("assets") / "images" / f"{chapter_id}_cover", "cover",
     )
     staged_images: dict[str, Path] = {}
     for ordinal, rel_path in enumerate(retained_body_rel):
@@ -256,7 +273,8 @@ def _build_spanish_chapter(
             root,
             work,
             source,
-            Path("assets") / "images" / f"{chapter_id}_{ordinal}_{source.name}",
+            Path("assets") / "images" / f"{chapter_id}_{ordinal}_{source.stem}",
+            classify_image(rel_path),
         )
 
     public_html_url, public_pdf_url = public_urls_for_chapter(root, chapter_id)
