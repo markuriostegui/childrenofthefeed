@@ -1079,7 +1079,7 @@ def inject_chapter_footer_nav(html: str, chapter_id: str) -> str:
     return html.replace("</body>", render_chapter_footer_nav(chapter_id) + "\n</body>", 1)
 
 
-def render_book_landing_html(root: Path, interactive_app_href: str) -> str:
+def render_book_landing_html(root: Path, interactive_app_href: str, spanish_pdf_href: str | None = None) -> str:
     chapter_cards = []
     for entry in BOOK_CHAPTERS:
         cover_stem = chapter_output_stem(entry["id"])
@@ -1185,6 +1185,9 @@ def render_book_landing_html(root: Path, interactive_app_href: str) -> str:
             f'          <a class="experience-button" href="{escape(interactive_app_href)}"><span class="experience-icon" aria-hidden="true">auto_stories</span><span class="experience-label">Interactive App</span></a>',
             '          <a class="experience-button" href="html/full_book.html"><span class="experience-icon" aria-hidden="true">menu_book</span><span class="experience-label">Read the full book</span></a>',
             '          <a class="experience-button" href="pdf/full_book/full_book.pdf"><span class="experience-icon" aria-hidden="true">download</span><span class="experience-label">Download the PDF</span></a>',
+            *([
+                f'          <a class="experience-button" href="{escape(spanish_pdf_href)}"><span class="experience-icon" aria-hidden="true">download</span><span class="experience-label">PDF Edición en Español</span></a>'
+            ] if spanish_pdf_href else []),
             "        </div>",
             "      </section>",
             render_soundcloud_audio_block(),
@@ -1371,3 +1374,10 @@ def build_site(root: Path) -> None:
         sync_book_to_site(root, site_root)
     publish_website_bundle(root, site_root)
     _prune_public_artifact_noise(site_root)
+    # The optional Spanish edition is a separate, authored source layer. Its
+    # link is activated only after its isolated PDF exporter passes validation.
+    if os.environ.get("CHILDREN_FEED_BUILD_SPANISH_PDF", "0") == "1":
+        from .spanish_book import activate_spanish_pdf_link, export_book_print_spanish
+
+        export_book_print_spanish(root)
+        activate_spanish_pdf_link(root)

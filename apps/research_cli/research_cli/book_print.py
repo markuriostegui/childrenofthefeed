@@ -761,6 +761,11 @@ def review_book_print(root: Path) -> None:
     qr_manifest = json.loads((root / PRINT_ROOT / "qr_manifest.json").read_text(encoding="utf-8"))
     if len(qr_manifest.get("entries", [])) != len(BOOK_CHAPTERS):
         failures.append("QR manifest does not cover all chapters")
+    expected_base = str(load_publication_config(root).get("base_url", PUBLICATION_BASE_URL)).rstrip("/") + "/"
+    for entry in qr_manifest.get("entries", []):
+        target = str(entry.get("public_html_url", ""))
+        if not target.startswith(expected_base) or "hassanvfx.github.io/ai-empire" in target:
+            failures.append(f"QR manifest has an invalid publication URL: {target}")
 
     for chapter in metadata["chapters"]:
         chapter_id = chapter["chapter_id"]
@@ -777,10 +782,17 @@ def review_book_print(root: Path) -> None:
         qr_path = Path(chapter["qr_svg_path"])
         if not qr_path.exists():
             failures.append(f"Missing QR asset for chapter {chapter_id}")
-        config = load_publication_config(root)
-        base_url = str(config.get("base_url", PUBLICATION_BASE_URL))
-        if not chapter["public_html_url"].startswith(base_url):
+        if not chapter["public_html_url"].startswith(expected_base):
             failures.append(f"Chapter {chapter_id} QR target does not use the GH Pages base URL")
+
+    if full_book_pdf.exists():
+        full_text = "\n".join(page.extract_text() or "" for page in pypdf.PdfReader(str(full_book_pdf)).pages)
+        if "hassanvfx.github.io/ai-empire" in full_text:
+            failures.append("Full book PDF contains the retired publication URL")
+        if full_text.count("Research Notes") != len(BOOK_CHAPTERS):
+            failures.append("Full book PDF is missing one or more chapter research-note sections")
+        if full_text.count("CHAPTER") != len(BOOK_CHAPTERS):
+            failures.append("Full book PDF is missing one or more chapter opening pages")
 
     if failures:
         raise RuntimeError("Book print review failed:\n" + "\n".join(failures))

@@ -384,3 +384,34 @@ After a meaningful pass, leave a concise written trace that tells the next maint
 - whether counts changed
 - whether exports and QA were rerun
 - what remains unstable or queued
+
+## Spanish Literary PDF Edition
+
+The optional Spanish literary edition is intentionally isolated from the
+English publication flow:
+
+- authored Spanish chapters live under `esp/book/chapters/`
+- the approved Spanish cover source is `esp/assets/master_cover_es.png`
+- intermediate manuscripts, QR assets, and manifests are written only under
+  `build/esp/`
+- the published artifact is `build/site/esp/book/pdf/full_book.pdf`
+
+Run the edition directly with:
+
+```bash
+PYTHONPATH=apps/research_cli python3 -m research_cli.cli \
+  export-book-print-spanish --root /path/to/childrenofthefeed
+```
+
+The exporter builds each chapter separately so the full book retains the
+English print architecture: chapter-opening pages, narrative page breaks, and
+a dedicated Spanish `Notas de investigación` QR page after every chapter. The
+11 QR targets intentionally link to the corresponding English evidence papers
+until Spanish research papers exist. Every target and fallback URL must use
+`https://markuriostegui.github.io/childrenofthefeed/`; the retired
+`hassanvfx.github.io/ai-empire` root must not appear in either published PDF.
+
+`esp/assets/master_cover_es.png` is an approved source asset, not a generated
+replacement. It contains the Spanish ribbon and the Mark Uriostegui & Paul
+Lara byline; it is copied byte-for-byte to the Spanish build. Never alter the
+English master cover when updating the Spanish cover.

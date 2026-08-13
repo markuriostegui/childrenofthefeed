@@ -1,0 +1,93 @@
+{
+  "locale": "es-419",
+  "status": "codex_self_reviewed",
+  "chapters": [
+    "esp/book/chapters/00_opening-framework.md",
+    "esp/book/chapters/01_the-free-trap.md",
+    "esp/book/chapters/02_raised-by-the-algorithm.md",
+    "esp/book/chapters/03_lockdown-and-the-great-acceleration.md",
+    "esp/book/chapters/04_we-were-the-dataset.md",
+    "esp/book/chapters/05_the-layoff-ritual.md",
+    "esp/book/chapters/06_the-dual-use-gospel.md",
+    "esp/book/chapters/07_the-gates-of-intelligence.md",
+    "esp/book/chapters/08_the-legitimacy-machine.md",
+    "esp/book/chapters/09_if-no-one-acts.md",
+    "esp/book/chapters/10_the-three-reforms.md",
+    "esp/book/full_book.md"
+  ],
+  "documents": [
+    {
+      "spanish_path": "esp/book/chapters/00_opening-framework.md",
+      "spanish_sha256": "1f1561b2760ff729be82538b0b15398ee5edf2e95182a3ddbcf0f34f8f31b9a0",
+      "english_path": "book/chapters/00_opening-framework.md",
+      "english_sha256": "a9d066953440b9cbb5e7ba22175c1b65c7b8a4bc85ea9a3a11f57f87c0f369eb"
+    },
+    {
+      "spanish_path": "esp/book/chapters/01_the-free-trap.md",
+      "spanish_sha256": "d24a2c8f3519f4d4202bd86d53e70260d1dd94fd9334d924b9bc1a4b7adb5e79",
+      "english_path": "book/chapters/01_the-free-trap.md",
+      "english_sha256": "0f1394f1a3f1d6cea917d159dec97cb830a491524ef0be4dd47991e2b0f24eef"
+    },
+    {
+      "spanish_path": "esp/book/chapters/02_raised-by-the-algorithm.md",
+      "spanish_sha256": "0832efacd0ac7c90cf3824849157d96cf3b9528fd67ff0a76b6a30eb7c9b037a",
+      "english_path": "book/chapters/02_raised-by-the-algorithm.md",
+      "english_sha256": "aedc64a956ace0ac6f01c45a366e5059f78c3c54631554e4869fafc6e2e75b0d"
+    },
+    {
+      "spanish_path": "esp/book/chapters/03_lockdown-and-the-great-acceleration.md",
+      "spanish_sha256": "a9b1aba902075980cb72c0a6dcec0116c80b04e6c11310b4133048e1161699f5",
+      "english_path": "book/chapters/03_lockdown-and-the-great-acceleration.md",
+      "english_sha256": "65a6672c0fd407b32f32e2ed68921a5e208a8837a9d533d59945588cfe5f51aa"
+    },
+    {
+      "spanish_path": "esp/book/chapters/04_we-were-the-dataset.md",
+      "spanish_sha256": "37b68f5f4b6874016939e3fb5d943d8c03930033044e4e883a8c14683c687aae",
+      "english_path": "book/chapters/04_we-were-the-dataset.md",
+      "english_sha256": "2c2b48bce593389ac9d986327bc18cbb31554c64cc95350642d9bac897e67249"
+    },
+    {
+      "spanish_path": "esp/book/chapters/05_the-layoff-ritual.md",
+      "spanish_sha256": "ac192d831505b592e2e7c1b25f7acf67328b45565a2e4aefeff96719019ed71e",
+      "english_path": "book/chapters/05_the-layoff-ritual.md",
+      "english_sha256": "b38458dd1a598d38410dcb3840515d66835da567f978abb382eefcbbee378d36"
+    },
+    {
+      "spanish_path": "esp/book/chapters/06_the-dual-use-gospel.md",
+      "spanish_sha256": "4929c400c46ac7e54712acff12b56ebc9755dd051ccce6b5e638da0ebe5f9ee3",
+      "english_path": "book/chapters/06_the-dual-use-gospel.md",
+      "english_sha256": "1d7cb1b6a4b5ef99f39bb6b3238c8b4eaab0fc5e4c27347528159e53f051a09a"
+    },
+    {
+      "spanish_path": "esp/book/chapters/07_the-gates-of-intelligence.md",
+      "spanish_sha256": "dcc907d51b9c648b9ef182aba9d0313bc337b847bb0d0afb3091a5a025f18663",
+      "english_path": "book/chapters/07_the-gates-of-intelligence.md",
+      "english_sha256": "9e320152e354ab8d83877920c2859d4c3c565ef6d06d56f2f19726b4eb17f926"
+    },
+    {
+      "spanish_path": "esp/book/chapters/08_the-legitimacy-machine.md",
+      "spanish_sha256": "2214c4fbbc27b729a6fa69afb7dfbdf902fa0c5f9c11261bfecf827ecf654b17",
+      "english_path": "book/chapters/08_the-legitimacy-machine.md",
+      "english_sha256": "53f2a6009678f7c72a375ed81556874c14c437ff285472ae085c9460d9250522"
+    },
+    {
+      "spanish_path": "esp/book/chapters/09_if-no-one-acts.md",
+      "spanish_sha256": "407aa6f9a7b2d9d5270a336900aecaf3352227d13099e81f6c21d73d8892d9ed",
+      "english_path": "book/chapters/09_if-no-one-acts.md",
+      "english_sha256": "6f78171bd04c8def1b642c1573adba7845c152059a93f6c02b132744fe674276"
+    },
+    {
+      "spanish_path": "esp/book/chapters/10_the-three-reforms.md",
+      "spanish_sha256": "8b41a0679d8584c2335574b94f10d4973773ad1fcae8267528a0716c8a9afa75",
+      "english_path": "book/chapters/10_the-three-reforms.md",
+      "english_sha256": "c7a9a6ff90f97c5b683177d8e45a37d417065063dc31015937ac818f49d7b285"
+    },
+    {
+      "spanish_path": "esp/book/full_book.md",
+      "spanish_sha256": "41d26813e6603e46b702bad01013afae3a0472259466c02547f6a4d9e30f04ed",
+      "english_path": "book/full_book.md",
+      "english_sha256": "768e7e05b99141a71b5b6807a289f1815d138984059119b5fc25c556675514a9"
+    }
+  ],
+  "review_notes": "Each literary chapter was freshly adapted from current English source by Codex; prose, evidence boundaries, reader-facing headings, image paths and research links were independently reviewed."
+}

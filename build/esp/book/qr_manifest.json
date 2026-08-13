@@ -1,0 +1,94 @@
+{
+  "locale": "es-419",
+  "base_url": "https://markuriostegui.github.io/childrenofthefeed/",
+  "entries": [
+    {
+      "chapter_id": "00",
+      "document_stem": "00_opening-framework",
+      "public_html_url": "https://markuriostegui.github.io/childrenofthefeed/papers/html/00_opening-framework_paper.html",
+      "public_pdf_url": "https://markuriostegui.github.io/childrenofthefeed/papers/pdf/00_opening-framework_paper/00_opening-framework_paper.pdf",
+      "qr_svg_path": "assets/qrcodes/00_opening-framework_research_qr.svg",
+      "sha256": "6ee27123f94ca6a621f39949af07be3bf86f1f4b659f012bdb64ffa1accaa71f"
+    },
+    {
+      "chapter_id": "01",
+      "document_stem": "01_the-free-trap",
+      "public_html_url": "https://markuriostegui.github.io/childrenofthefeed/papers/html/01_social-networks-data-capture_paper.html",
+      "public_pdf_url": "https://markuriostegui.github.io/childrenofthefeed/papers/pdf/01_social-networks-data-capture_paper/01_social-networks-data-capture_paper.pdf",
+      "qr_svg_path": "assets/qrcodes/01_the-free-trap_research_qr.svg",
+      "sha256": "13432994e45d651c80d32beb848a89b751c2d1d05600a3094739d64a7961c388"
+    },
+    {
+      "chapter_id": "02",
+      "document_stem": "02_raised-by-the-algorithm",
+      "public_html_url": "https://markuriostegui.github.io/childrenofthefeed/papers/html/02_social-erosion-and-moral-reconfiguration_paper.html",
+      "public_pdf_url": "https://markuriostegui.github.io/childrenofthefeed/papers/pdf/02_social-erosion-and-moral-reconfiguration_paper/02_social-erosion-and-moral-reconfiguration_paper.pdf",
+      "qr_svg_path": "assets/qrcodes/02_raised-by-the-algorithm_research_qr.svg",
+      "sha256": "4deac96e49c9b4c0e48e689fa3292c9c9dbd5e6a9f205bf6e2bbff87ed190326"
+    },
+    {
+      "chapter_id": "03",
+      "document_stem": "03_lockdown-and-the-great-acceleration",
+      "public_html_url": "https://markuriostegui.github.io/childrenofthefeed/papers/html/03_covid-historical-accelerator_paper.html",
+      "public_pdf_url": "https://markuriostegui.github.io/childrenofthefeed/papers/pdf/03_covid-historical-accelerator_paper/03_covid-historical-accelerator_paper.pdf",
+      "qr_svg_path": "assets/qrcodes/03_lockdown-and-the-great-acceleration_research_qr.svg",
+      "sha256": "f2f74be9f3df663392fa3fd4198b555a5a0a0f5c773408b89579922842d612ad"
+    },
+    {
+      "chapter_id": "04",
+      "document_stem": "04_we-were-the-dataset",
+      "public_html_url": "https://markuriostegui.github.io/childrenofthefeed/papers/html/04_data-models-weights_paper.html",
+      "public_pdf_url": "https://markuriostegui.github.io/childrenofthefeed/papers/pdf/04_data-models-weights_paper/04_data-models-weights_paper.pdf",
+      "qr_svg_path": "assets/qrcodes/04_we-were-the-dataset_research_qr.svg",
+      "sha256": "057f928c1eeea0a8b894cb80b383e164db5875117e35a7b21e38f3c03ab964c0"
+    },
+    {
+      "chapter_id": "05",
+      "document_stem": "05_the-layoff-ritual",
+      "public_html_url": "https://markuriostegui.github.io/childrenofthefeed/papers/html/05_talent-overhiring-layoffs_paper.html",
+      "public_pdf_url": "https://markuriostegui.github.io/childrenofthefeed/papers/pdf/05_talent-overhiring-layoffs_paper/05_talent-overhiring-layoffs_paper.pdf",
+      "qr_svg_path": "assets/qrcodes/05_the-layoff-ritual_research_qr.svg",
+      "sha256": "c7a4d46c781fa8cd916552e5729332a261eb8d004660ef95268eea43665326e0"
+    },
+    {
+      "chapter_id": "06",
+      "document_stem": "06_the-dual-use-gospel",
+      "public_html_url": "https://markuriostegui.github.io/childrenofthefeed/papers/html/06_dual-use-rhetorical-weapon_paper.html",
+      "public_pdf_url": "https://markuriostegui.github.io/childrenofthefeed/papers/pdf/06_dual-use-rhetorical-weapon_paper/06_dual-use-rhetorical-weapon_paper.pdf",
+      "qr_svg_path": "assets/qrcodes/06_the-dual-use-gospel_research_qr.svg",
+      "sha256": "df2cfec8814b35c744df42d36e29caf6471902251edd0724e372217609f17f98"
+    },
+    {
+      "chapter_id": "07",
+      "document_stem": "07_the-gates-of-intelligence",
+      "public_html_url": "https://markuriostegui.github.io/childrenofthefeed/papers/html/07_imperial-control-over-access_paper.html",
+      "public_pdf_url": "https://markuriostegui.github.io/childrenofthefeed/papers/pdf/07_imperial-control-over-access_paper/07_imperial-control-over-access_paper.pdf",
+      "qr_svg_path": "assets/qrcodes/07_the-gates-of-intelligence_research_qr.svg",
+      "sha256": "9d9bdb45c308c37d911c78e8f7fedcbdd25567adb325228c1de2ba76bd469910"
+    },
+    {
+      "chapter_id": "08",
+      "document_stem": "08_the-legitimacy-machine",
+      "public_html_url": "https://markuriostegui.github.io/childrenofthefeed/papers/html/08_legitimacy-and-institutional-capture_paper.html",
+      "public_pdf_url": "https://markuriostegui.github.io/childrenofthefeed/papers/pdf/08_legitimacy-and-institutional-capture_paper/08_legitimacy-and-institutional-capture_paper.pdf",
+      "qr_svg_path": "assets/qrcodes/08_the-legitimacy-machine_research_qr.svg",
+      "sha256": "bb48f9d77fceac63eaede9073e97442a95a50ded5f04601fc26598c65ad35618"
+    },
+    {
+      "chapter_id": "09",
+      "document_stem": "09_if-no-one-acts",
+      "public_html_url": "https://markuriostegui.github.io/childrenofthefeed/papers/html/09_future-if-unchecked_paper.html",
+      "public_pdf_url": "https://markuriostegui.github.io/childrenofthefeed/papers/pdf/09_future-if-unchecked_paper/09_future-if-unchecked_paper.pdf",
+      "qr_svg_path": "assets/qrcodes/09_if-no-one-acts_research_qr.svg",
+      "sha256": "304162f532d54904e0a35292dafa415f4aab20ca31128c494273157f8830111c"
+    },
+    {
+      "chapter_id": "10",
+      "document_stem": "10_the-three-reforms",
+      "public_html_url": "https://markuriostegui.github.io/childrenofthefeed/papers/html/10_three-reform-program_paper.html",
+      "public_pdf_url": "https://markuriostegui.github.io/childrenofthefeed/papers/pdf/10_three-reform-program_paper/10_three-reform-program_paper.pdf",
+      "qr_svg_path": "assets/qrcodes/10_the-three-reforms_research_qr.svg",
+      "sha256": "0d98863c0fa30912b3c62b40749926f18afe16985886c98485849f572b1f3ad4"
+    }
+  ]
+}

@@ -16,6 +16,7 @@ from .constants import CHAPTERS, DOC_FILES, GLOBAL_FILES, ROOT_DIRS, SCHEMA_FILE
 from .master_paper import build_master_paper
 from .book import build_site, export_book, generate_book_assets, seed_book
 from .book_print import build_book_print, export_book_print, review_book_print
+from .spanish_book import export_book_print_spanish
 from .papers import export_papers, seed_papers
 from .publication_review import review_publication
 from .website import build_website
@@ -760,6 +761,9 @@ def parser() -> argparse.ArgumentParser:
     export_book_print_cmd = sub.add_parser("export-book-print")
     export_book_print_cmd.add_argument("--root", required=True)
 
+    export_book_print_spanish_cmd = sub.add_parser("export-book-print-spanish")
+    export_book_print_spanish_cmd.add_argument("--root", required=True)
+
     review_book_print_cmd = sub.add_parser("review-book-print")
     review_book_print_cmd.add_argument("--root", required=True)
 
@@ -804,6 +808,7 @@ def main(argv: list[str] | None = None) -> int:
         "export-book": lambda: export_book(Path(args.root)),
         "build-book-print": lambda: build_book_print(Path(args.root)),
         "export-book-print": lambda: export_book_print(Path(args.root)),
+        "export-book-print-spanish": lambda: export_book_print_spanish(Path(args.root)),
         "review-book-print": lambda: review_book_print(Path(args.root)),
         "generate-book-assets": lambda: generate_book_assets(Path(args.root), kind=args.kind, chapter=args.chapter, asset_id=args.asset),
         "build-site": lambda: build_site(Path(args.root)),

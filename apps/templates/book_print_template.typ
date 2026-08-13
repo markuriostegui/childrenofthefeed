@@ -289,11 +289,11 @@
   #pagebreak()
 ]
 
-#let chapter-cover-page(meta) = [
+#let chapter-cover-page(meta, label: "CHAPTER") = [
   #figure(meta.cover)
   #v(0.24in)
   #set text(font: "Source Sans 3", size: 9pt, fill: page-ember)
-  #text(tracking: 0.08em)[CHAPTER #meta.id]
+  #text(tracking: 0.08em)[#label #meta.id]
   #v(0.12in)
   #set text(font: "Oswald", size: 24pt, fill: page-ink)
   #meta.title

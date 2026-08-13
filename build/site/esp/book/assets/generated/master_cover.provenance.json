@@ -1,0 +1,10 @@
+{
+  "base": "/Users/hassan/repos/AI-Empire/book/assets/generated/master_cover.png",
+  "base_sha256": "cbc37e95b3bfa6a993b3a086a4747ba6949b2bdc1eb89d9df719cb7cf0fc6234",
+  "approved_source": "/Users/hassan/repos/AI-Empire/esp/assets/master_cover_es.png",
+  "approved_source_sha256": "d72370b7c770db4b686950b7d38a9b14a06c08d9a6a48ee60a08c38284cbeef0",
+  "changes": [
+    "approved_spanish_cover"
+  ],
+  "byline": "Mark Uriostegui & Paul Lara"
+}
