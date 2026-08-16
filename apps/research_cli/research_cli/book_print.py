@@ -717,13 +717,6 @@ def export_book_print(root: Path) -> None:
             check=True,
         )
 
-    # Lulu is an interior-only, post-processing rendition. It must not alter
-    # the public book PDF or the separately managed exterior cover workflow.
-    from .lulu_press import export_lulu_interior
-
-    export_lulu_interior(root, "en")
-
-
 def review_book_print(root: Path) -> None:
     try:
         import pypdf  # type: ignore
