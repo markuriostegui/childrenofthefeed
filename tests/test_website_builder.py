@@ -346,6 +346,8 @@ class WebsiteBuilderTests(unittest.TestCase):
         self.assertIn('<span class="experience-icon" aria-hidden="true">menu_book</span>', local_html)
         self.assertIn('<span class="experience-icon" aria-hidden="true">download</span>', local_html)
         self.assertIn("Special Print Edition", local_html)
+        self.assertIn('class="experience-card print-edition-card"', local_html)
+        self.assertIn("#ff5a49", local_html)
         english_print_href = "https://www.lulu.com/shop/hassan-uriostegui/children-of-the-feed-servants-of-the-ai-god/paperback/product-kvgzw9n.html?page=1&amp;pageSize=4"
         spanish_print_href = "https://www.lulu.com/shop/mark-uriostegui/children-of-the-feed-servants-of-the-ai-god/paperback/product-gjz62g2.html"
         self.assertIn(f'href="{english_print_href}"', local_html)
