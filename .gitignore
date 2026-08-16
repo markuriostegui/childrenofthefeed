@@ -5,7 +5,3 @@ build/papers/tectonic-home/
 tmp/
 build/book/pdf/full_book/
 build/site/book/pdf/full_book/
-lulu-press/
-apps/research_cli/research_cli/lulu_press.py
-isbn/
-tests/test_lulu_press.py

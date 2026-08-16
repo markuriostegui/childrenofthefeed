@@ -1,0 +1,19 @@
+{
+  "model": "gpt-image-2 (ChatGPT integrated image editor)",
+  "output": {
+    "path": "lulu-press/cover-print/eng/children-of-the-feed-back-cover-en-gpt-image-2.png",
+    "sha256": "c025a9e6fbcadb71b7ea262517653d53a48cacbdee851897cd65e488b552bdb3",
+    "pixels": [2160, 3240],
+    "trim_in": [6, 9]
+  },
+  "reference": {
+    "path": "lulu-press/cover-print/esp/children-of-the-feed-back-cover-es-gpt-image-2.png (pre-upscale candidate)",
+    "sha256": "e54e83708c906ab70014520ee6ae4e67ada8df061c5ddc00addd24869f8ccc33",
+    "role": "exact composition and artwork reference"
+  },
+  "prompt": "Text-localization: preserve the Spanish back-cover candidate's composition, scene, color palette, and text-above/illustration-below hierarchy; replace typography only with the English title CHILDREN OF THE FEED, the approved English blurb, and NOTHING CAN BE DONE.",
+  "approved_copy": {
+    "title": "CHILDREN OF THE FEED",
+    "screen": "NOTHING CAN BE DONE."
+  }
+}

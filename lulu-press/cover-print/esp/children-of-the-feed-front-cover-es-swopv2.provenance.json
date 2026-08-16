@@ -1,0 +1,27 @@
+{
+  "source": {
+    "path": "lulu-press/cover-print/esp/children-of-the-feed-front-cover-es-gpt-image-2.png",
+    "sha256": "fbd9fdf8c408def934aaa5f085027ed1789e075ab6e879373fa7a5e62bc1ebad"
+  },
+  "output": {
+    "path": "lulu-press/cover-print/esp/children-of-the-feed-front-cover-es-swopv2.tif",
+    "sha256": "3429025b2d2a9f04b9ab54429d7f8fc89489def8671b085ecf1e88aa917eae64",
+    "pixels": [
+      2160,
+      3240
+    ],
+    "mode": "CMYK"
+  },
+  "icc_profile": {
+    "name": "U.S. Web Coated (SWOP) v2",
+    "path": "lulu-press/cover-print/profiles/USWebCoatedSWOPv2.icc",
+    "sha256": "4855b8fabb96bdc6495d45d089bb8c8efb1ae18389e0dc9e75a5f701a9c0b662"
+  },
+  "conversion": {
+    "engine": "Adobe Photoshop 2026",
+    "rendering_intent": "relative colorimetric",
+    "black_point_compensation": true,
+    "alpha": false
+  },
+  "created_at": "2026-08-16T14:00:25+00:00"
+}

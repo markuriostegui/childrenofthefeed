@@ -523,6 +523,9 @@ def export_book_print_spanish(root: Path) -> Path:
         shutil.copy2(work / "qr_manifest.json", next_destination / "book" / "qr_manifest.json")
         if destination.exists(): shutil.rmtree(destination)
         next_destination.replace(destination)
+    from .lulu_press import export_lulu_interior
+
+    export_lulu_interior(root, "es")
     return root / PUBLIC_ROOT / PDF_RELATIVE_PATH
 
 

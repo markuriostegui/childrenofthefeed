@@ -16,6 +16,7 @@ from .constants import CHAPTERS, DOC_FILES, GLOBAL_FILES, ROOT_DIRS, SCHEMA_FILE
 from .master_paper import build_master_paper
 from .book import build_site, export_book, generate_book_assets, seed_book
 from .book_print import build_book_print, export_book_print, review_book_print
+from .lulu_press import export_lulu_interior, review_lulu_interiors
 from .spanish_book import export_book_print_spanish
 from .papers import export_papers, seed_papers
 from .publication_review import review_publication
@@ -767,6 +768,13 @@ def parser() -> argparse.ArgumentParser:
     review_book_print_cmd = sub.add_parser("review-book-print")
     review_book_print_cmd.add_argument("--root", required=True)
 
+    export_lulu_cmd = sub.add_parser("export-lulu-interior")
+    export_lulu_cmd.add_argument("--root", required=True)
+    export_lulu_cmd.add_argument("--edition", required=True, choices=["en", "es"])
+
+    review_lulu_cmd = sub.add_parser("review-lulu-interiors")
+    review_lulu_cmd.add_argument("--root", required=True)
+
     generate_book_assets_cmd = sub.add_parser("generate-book-assets")
     generate_book_assets_cmd.add_argument("--root", required=True)
     generate_book_assets_cmd.add_argument("--kind", required=True, choices=["infographics"])
@@ -810,6 +818,8 @@ def main(argv: list[str] | None = None) -> int:
         "export-book-print": lambda: export_book_print(Path(args.root)),
         "export-book-print-spanish": lambda: export_book_print_spanish(Path(args.root)),
         "review-book-print": lambda: review_book_print(Path(args.root)),
+        "export-lulu-interior": lambda: export_lulu_interior(Path(args.root), args.edition),
+        "review-lulu-interiors": lambda: review_lulu_interiors(Path(args.root)),
         "generate-book-assets": lambda: generate_book_assets(Path(args.root), kind=args.kind, chapter=args.chapter, asset_id=args.asset),
         "build-site": lambda: build_site(Path(args.root)),
         "build-website": lambda: build_website(Path(args.root)),

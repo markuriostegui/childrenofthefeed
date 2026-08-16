@@ -1,0 +1,62 @@
+{
+  "edition": "es",
+  "language": "Spanish (es-419)",
+  "isbn": "978-0-557-94875-8",
+  "imprint": "Lulu.com",
+  "source_pdf": {
+    "path": "build/esp/book/pdf/full_book.pdf",
+    "sha256": "fb627dc6f23e101208e041327dbf786c16a5dcfd3a48e8cc3bd791e059b301c1",
+    "page_count": 97
+  },
+  "white_source_pdf": {
+    "path": "lulu-press/es/white-source.pdf",
+    "sha256": "b60b7e61716360110f79631b9bee86eebb2f9e028e6cc3ab2dd9fa51687fcc6d",
+    "page_count": 97,
+    "whitened_pages": 96
+  },
+  "interior_pdf": {
+    "path": "lulu-press/es/978-0-557-94875-8-interior.pdf",
+    "sha256": "b59d08c0087d56a30be8866430d0ca46c328d4c1cb5b560e2069c2f785f7f914",
+    "page_count": 98
+  },
+  "title_art": {
+    "model": "gpt-image-2 (ChatGPT integrated image editor)",
+    "prompt": "GPT Image 2 reference-preserving full-trim 2:3 title-art rendition. Preserve all artwork, crop, colors, typography, spelling, punctuation, composition, branding, and layout; change only resolution/detail.",
+    "reference": {
+      "path": "esp/assets/master_cover_es.png",
+      "sha256": "d72370b7c770db4b686950b7d38a9b14a06c08d9a6a48ee60a08c38284cbeef0"
+    },
+    "output": {
+      "path": "lulu-press/assets/title-art/children-of-the-feed-es-gpt-image-2.png",
+      "sha256": "fbd9fdf8c408def934aaa5f085027ed1789e075ab6e879373fa7a5e62bc1ebad",
+      "pixels": [
+        2160,
+        3240
+      ]
+    }
+  },
+  "front_matter": [
+    "visual title art",
+    "copyright / ISBN",
+    "dedication",
+    "generated TOC"
+  ],
+  "created_at": "2026-08-16T13:07:30+00:00",
+  "preflight": {
+    "edition": "es",
+    "isbn": "978-0-557-94875-8",
+    "trim_in": {
+      "width": 6.0,
+      "height": 9.0
+    },
+    "page_size_points": {
+      "width": 432.0,
+      "height": 648.0
+    },
+    "page_count": 98,
+    "encrypted": false,
+    "qpdf": "checking /Users/hassan/repos/AI-Empire/lulu-press/es/978-0-557-94875-8-interior.pdf\nPDF Version: 1.7\nFile is not encrypted\nFile is not linearized\nNo syntax or stream encoding errors found; the file may still contain\nerrors that qpdf cannot detect",
+    "failures": [],
+    "passed": true
+  }
+}

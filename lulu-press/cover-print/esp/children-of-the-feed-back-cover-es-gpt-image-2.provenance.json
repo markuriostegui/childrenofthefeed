@@ -1,0 +1,19 @@
+{
+  "model": "gpt-image-2 (ChatGPT integrated image editor)",
+  "output": {
+    "path": "lulu-press/cover-print/esp/children-of-the-feed-back-cover-es-gpt-image-2.png",
+    "sha256": "814c8c437b73bb0f3a23c457210a70a303814527cb1811fa0024e5c285f07838",
+    "pixels": [2160, 3240],
+    "trim_in": [6, 9]
+  },
+  "reference": {
+    "path": "esp/assets/master_cover_es.png",
+    "sha256": "d72370b7c770db4b686950b7d38a9b14a06c08d9a6a48ee60a08c38284cbeef0",
+    "role": "style reference"
+  },
+  "prompt": "Create a full-bleed Spanish back cover with title and approved Spanish blurb above a symbolic black-glass cathedral scene of anonymous kneeling silhouettes below. Use the screen message NO PUEDES HACER NADA. in the English master-cover visual language.",
+  "approved_copy": {
+    "title": "HIJOS DEL FEED",
+    "screen": "NO PUEDES HACER NADA."
+  }
+}

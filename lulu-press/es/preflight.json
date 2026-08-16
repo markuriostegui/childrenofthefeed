@@ -1,0 +1,17 @@
+{
+  "edition": "es",
+  "isbn": "978-0-557-94875-8",
+  "trim_in": {
+    "width": 6.0,
+    "height": 9.0
+  },
+  "page_size_points": {
+    "width": 432.0,
+    "height": 648.0
+  },
+  "page_count": 98,
+  "encrypted": false,
+  "qpdf": "checking /Users/hassan/repos/AI-Empire/lulu-press/es/978-0-557-94875-8-interior.pdf\nPDF Version: 1.7\nFile is not encrypted\nFile is not linearized\nNo syntax or stream encoding errors found; the file may still contain\nerrors that qpdf cannot detect",
+  "failures": [],
+  "passed": true
+}
