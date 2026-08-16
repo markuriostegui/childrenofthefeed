@@ -345,6 +345,13 @@ class WebsiteBuilderTests(unittest.TestCase):
         self.assertIn('<span class="experience-icon" aria-hidden="true">auto_stories</span>', local_html)
         self.assertIn('<span class="experience-icon" aria-hidden="true">menu_book</span>', local_html)
         self.assertIn('<span class="experience-icon" aria-hidden="true">download</span>', local_html)
+        self.assertIn("Special Print Edition", local_html)
+        english_print_href = "https://www.lulu.com/shop/hassan-uriostegui/children-of-the-feed-servants-of-the-ai-god/paperback/product-kvgzw9n.html?page=1&amp;pageSize=4"
+        spanish_print_href = "https://www.lulu.com/shop/mark-uriostegui/children-of-the-feed-servants-of-the-ai-god/paperback/product-gjz62g2.html"
+        self.assertIn(f'href="{english_print_href}"', local_html)
+        self.assertIn(f'href="{spanish_print_href}"', local_html)
+        self.assertNotIn(SOUNDCLOUD_EMBED_MARKER, local_html)
+        self.assertNotIn("w.soundcloud.com/player", local_html)
         self.assertNotIn('class="button primary"', local_html)
         self.assertNotIn('class="button secondary"', local_html)
         interactive_at = local_html.find("Interactive App")
@@ -359,8 +366,8 @@ class WebsiteBuilderTests(unittest.TestCase):
         hero_at = local_html.index('class="hero"')
         self.assertTrue(header_end < video_at < hero_at)
         card_end = local_html.index("</section>", local_html.index('class="experience-card"'))
-        soundcloud_at = local_html.index(SOUNDCLOUD_EMBED_MARKER)
-        self.assertTrue(card_end < soundcloud_at)
+        print_edition_at = local_html.index('aria-label="Special print edition"')
+        self.assertTrue(card_end < print_edition_at)
 
     def test_render_publication_index_includes_vimeo_row_before_main_heading(self) -> None:
         root = self.make_root()
