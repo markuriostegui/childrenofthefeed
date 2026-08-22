@@ -1188,16 +1188,16 @@ def render_book_landing_html(root: Path, interactive_app_href: str, spanish_pdf_
             f'          <a class="experience-button" href="{escape(interactive_app_href)}"><span class="experience-icon" aria-hidden="true">auto_stories</span><span class="experience-label">Interactive App</span></a>',
             '          <a class="experience-button" href="html/full_book.html"><span class="experience-icon" aria-hidden="true">menu_book</span><span class="experience-label">Read the full book</span></a>',
             '          <a class="experience-button" href="pdf/full_book/full_book.pdf"><span class="experience-icon" aria-hidden="true">download</span><span class="experience-label">Download the PDF</span></a>',
-            *([
-                f'          <a class="experience-button" href="{escape(spanish_pdf_href)}"><span class="experience-icon" aria-hidden="true">download</span><span class="experience-label">PDF Edición en Español</span></a>'
-            ] if spanish_pdf_href else []),
+            # *([
+            #     f'          <a class="experience-button" href="{escape(spanish_pdf_href)}"><span class="experience-icon" aria-hidden="true">download</span><span class="experience-label">PDF Edición en Español</span></a>'
+            # ] if spanish_pdf_href else []),
             "        </div>",
             "      </section>",
             "      <section class=\"experience-card print-edition-card\" aria-label=\"Special print edition\">",
             "        <h2 class=\"experience-heading\">Special Print Edition</h2>",
             "        <div class=\"experience-actions\">",
             '          <a class="experience-button" href="https://www.lulu.com/shop/hassan-uriostegui/children-of-the-feed-servants-of-the-ai-god/paperback/product-kvgzw9n.html?page=1&amp;pageSize=4"><span class="experience-icon" aria-hidden="true">menu_book</span><span class="experience-label">English</span></a>',
-            '          <a class="experience-button" href="https://www.lulu.com/shop/mark-uriostegui/children-of-the-feed-servants-of-the-ai-god/paperback/product-gjz62g2.html"><span class="experience-icon" aria-hidden="true">menu_book</span><span class="experience-label">Spanish</span></a>',
+            # '          <a class="experience-button" href="https://www.lulu.com/shop/mark-uriostegui/children-of-the-feed-servants-of-the-ai-god/paperback/product-gjz62g2.html"><span class="experience-icon" aria-hidden="true">menu_book</span><span class="experience-label">Spanish</span></a>',
             "        </div>",
             "      </section>",
             "    </div>",
